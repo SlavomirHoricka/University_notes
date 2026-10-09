@@ -1,0 +1,186 @@
+# Frame economic assessment questions within source limits
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+  "transaction_id": "PLAN-20261004-GREEN-P001",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O004",
+  "objective_revision": 1,
+  "criterion_version": "O004-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "map_overlay_topics",
+    "frame_multidimensional_assessment",
+    "separate_supported_from_advertised_content"
+  ],
+  "prerequisite_ids": [
+    "O001",
+    "O002",
+    "O003"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md#The economic questions placed on the network",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md#What the introductory framework establishes",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope.md#Week 1 content supplied and content only advertised"
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "I1",
+      "I2"
+    ],
+    "allowed_substitutions": []
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Frame economic assessment questions within source limits",
+  "review_instruction": "Begin a closed-note review with teach for O004; request one fresh prepared delayed item before recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Place the five source topic labels on relevant network relationships, frame resource/waste/amenity questions for an agent-created proposal, and distinguish the uploaded introduction from the advertised absent climate lecture and later formal methods.
+
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md#The economic questions placed on the network]]
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md#What the introductory framework establishes]]
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope.md#Week 1 content supplied and content only advertised]]
+
+Supported/completion work may use the finished note and named figure. Independent and delayed checks use no notes, figures, keys, web, AI or hints; a blank page is allowed. O003 may use a basic calculator for comparisons, without conceptual help. The tutor confirms known access/exposure conditions before scoring independence. Tasks describing a figure may be answered verbally or by drawing; the arrow legend and interpretation must still be produced unaided. The allowed hypothetical contexts/numbers instantiate the notes and add no course claims.
+
+## Prerequisites and checks
+
+**O004-PRE-O001 v1.** Needed because later paths use the distinct environmental functions. Prompt: A source-inspired forest provides wood and recreation, receives undesirable outputs, and participates in the hydrologic cycle. Identify all four functions with reasons. Classify wood, fossil fuels and sunshine in the source taxonomy. Explain why counting only wood misses part of the framework.
+
+**Key:** Wood supplies a resource input (degradable renewable); receiving outputs is sink/assimilative-capacity service; recreation is direct demand service; hydrologic cycle is biospheric life support. Fossil fuels are degradable exhaustible and sunshine is non-degradable in the source. A timber-only account misses direct enjoyment, waste reception and systemic support. Coexistence follows from distinct mechanisms. **Rubric:** all listed mechanisms and source limits correct = pass; a missing component with no contradiction = partial; category/path/sign confusion or an invented source result = fail. Confirmed current-version prerequisite acquisition evidence permits skipping this diagnostic, without implying delayed retention. Otherwise repair through [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O001.md#Explanation steps|O001 explanation]], then its supported task and fresh independent checks; do not improvise prerequisites.
+
+**O004-PRE-O002 v1.** Needed because capacity and policy interpretations refer to material and utility paths. Prompt: Reconstruct the economic core and full physical path, waste feedback, and all three utility paths when W>A. Explain the solid/dashed legend and why no net monetary benefit follows. Identify the limits on K and r.
+
+**Key:** Firms P produce what households C consume; full physical path R→P→C, R/P/C→W→A, W>A negative resource feedback. Solid: material/energy; dashed: utility. C→U positive, R→U positive amenity, W>A→U negative amenity. Directions have no magnitudes/monetary scale or net welfare formula. K is conventionally capital but separately undefined; r undefined on material return path. **Rubric:** all listed mechanisms and source limits correct = pass; a missing component with no contradiction = partial; category/path/sign confusion or an invented source result = fail. Confirmed current-version prerequisite acquisition evidence permits skipping this diagnostic, without implying delayed retention. Otherwise repair through [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O002.md#Explanation steps|O002 explanation]], then its supported task and fresh independent checks; do not improvise prerequisites.
+
+**O004-PRE-O003 v1.** Needed because policy questions require conditional harvest and waste comparisons. Prompt: Agent-created common annual bases h=16,y=10 and W=18,A=12. Choose both inequalities; explain resource and utility consequences and why renewability alone is insufficient. Contrast both opposite branches h<y and W<A and evaluate the claim that W<A is universally harmless. State what to do with monthly h versus annual y, both equality cases, and a request for a precise sustainable harvest or net welfare value.
+
+**Key:** h>y: removal exceeds growth, negative renewable-resource effect; renewability alone does not ensure maintained stock. W>A: waste exceeds capacity, negative resource feedback and negative amenity/utility. Opposite h<y is positive renewable-resource effect; W<A is positive resource-return in the schematic model, not universal harmlessness. Different time bases need a stated conversion/common basis. h=y and W=A unspecified. No growth function, numerical safe threshold, stock change or utility magnitudes supports precise sustainable harvest/net welfare. W<A elsewhere would not be universal safety. **Rubric:** all listed mechanisms and source limits correct = pass; a missing component with no contradiction = partial; category/path/sign confusion or an invented source result = fail. Confirmed current-version prerequisite acquisition evidence permits skipping this diagnostic, without implying delayed retention. Otherwise repair through [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O003.md#Explanation steps|O003 explanation]], then its supported task and fresh independent checks; do not improvise prerequisites.
+
+## Teaching order and rationale
+
+1. Read [[#Motivation, intuition, and definitions]] to set the question and define nearby terms.
+2. Follow [[#Explanation steps]] in numbered order; definitions precede applying distinctions.
+3. Present [[#Worked example]] and decision points before any novice independent demand.
+4. Use S1 in [[#Practice with fading assistance]] with the stated labels/first step; fade help only after the missing components are produced correctly.
+5. Ask I1 and I2 separately, hiding each key until the initial answer is scored. Already-prepared learners may skip exposition/support after satisfactory prerequisite diagnostics, but still need I1 and I2.
+6. If an error appears, use [[#Misconceptions and correction]] and C1, then return to fresh unused I items.
+7. Use D1 or D2 in [[#Immediate and delayed checks]] after the elapsed guard, before recap. An exposed task is unavailable as a fresh check.
+
+## Motivation, intuition, and definitions
+
+A diagram can show what to investigate without answering a policy question. Locating resources, feedback and utility makes a proposal assessable, but an optimal instrument or climate mechanism requires material the introduction does not contain.
+
+Terms and symbols are defined in the explanation below and exact cited sections. In network lessons P=production, C=consumption, U=utility, R=natural resources, ER=exhaustible resources, RR=renewable resources, h=harvest rate, y=yield/growth, W=waste, A=assimilative capacity. These are qualitative labels; units are supplied explicitly only in our hypothetical comparisons.
+
+Relevant finished-note figure: ![[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_05_Economic_Questions.png]]
+
+## Explanation steps
+
+1. Locate resources beside resource branches, growth/sustainability above P and C, externality along feedback paths, regulation around P/waste, valuation beside amenity-to-U paths. These are topic placements, not derivations.
+2. Use the network to ask what resources support activity, whether use outruns replenishment, how waste compares with capacity, and which consumption/amenity paths affect wellbeing. The course’s economic, environmental and social impact aims motivate these questions; no numerical estimates are supplied.
+3. For a proposal, name the affected paths and what comparison/data would be needed. Avoid deriving an optimal tax, valuation formula, emissions threshold or growth model from labels.
+4. The finished orientation note says the uploaded introduction supplies environmental functions/network and course information. The separately linked physical climate lecture is advertised, including mitigation/adaptation/geoengineering and Kyoto-to-Paris history, but not explained in these notes. Later policy comparisons/modeling topics are outside current academic coverage. No policy outcome or current calendar is inferred from orientation alone.
+
+## Worked example
+
+**O004-W1 v1, instruction only.** Agent-created proposal: firms increase production using renewable biomass while visitors value a forest. Use the framework to organize an assessment without choosing a policy.
+
+**Worked solution:** Step 1: resources label concerns biomass inputs; ask h versus y rather than assuming renewable use is maintained. Step 2: growth/sustainability concerns P/C and their resource pressures. Step 3: identify waste and feedback under externality, locate regulation around P/W, ask W versus A on comparable bases. Step 4: valuation concerns the amenity-to-U path; consumption also has a positive U path and excess waste a negative one. Step 5: this organizes economic/environmental/social questions without a net-welfare amount or optimal instrument. Physical climate mechanisms and Kyoto/Paris history require the missing lecture; names in orientation are not teaching coverage.
+
+## Practice with fading assistance
+
+### O004-S1 v1
+
+**Role:** S1; application. **Allowed assistance:** Finished note/figure and up to two prepared hints allowed; this is supported performance, never acquisition evidence.
+
+**Prompt:** Complete the overlay mapping for resources, growth/sustainability, externality, regulation and valuation. For a biomass proposal, give resource, waste and amenity questions. Separate supplied introduction from absent climate lecture and name one formal result not supplied.
+
+**Key and essential reasoning:** Resources: R branches; growth/sustainability: P/C; externality: feedback; regulation: P/W; valuation: amenity→U. Ask h vs y, W vs A and consumption/amenity utility effects. Functions/network/organization supplied; physical climate mechanisms, mitigation/adaptation/geoengineering/history only advertised. No optimal tax/valuation formula/quantitative net welfare supplied.
+
+**Component mapping:** map_overlay_topics, frame_multidimensional_assessment, separate_supported_from_advertised_content. **Rubric:** pass requires every keyed component and requested reason/source limitation; partial means a missing component without a contradictory mechanism; fail means a critical misconception listed below; unscorable means insufficient interpretable response or unknown conditions. Accept equivalent plain-language reasoning; source-specific distinctions must remain.
+
+### O004-I1 v1
+
+**Role:** I1; application. **Allowed assistance:** Closed notes/figures; no hints, solution exposure or external help. Score original response before feedback.
+
+**Prompt:** For a proposed expansion of biomass production near a recreational forest, map all five topic labels to paths and formulate resource, waste and wellbeing questions with needed comparisons. State which current notes support this and which advertised/later content remains unavailable; explain why a preferred regulation or net policy benefit cannot be derived.
+
+**Key and essential reasoning:** Resources near R branches (h versus y); growth/sustainability above P/C; externality along feedback; regulation P/W (W versus A); valuation amenity→U, with consumption positive and excess-waste negative utility alongside forest enjoyment. Comparable measures/magnitudes are needed. Environmental functions/network are supplied; separate climate mechanisms, mitigation/adaptation/geoengineering and Kyoto-to-Paris history absent; formal later methods not supplied. Overlay gives locations/questions, not optimal instrument/valuation/net-welfare calculation.
+
+**Component mapping:** map_overlay_topics, frame_multidimensional_assessment, separate_supported_from_advertised_content. **Rubric:** pass requires every keyed component and requested reason/source limitation; partial means a missing component without a contradictory mechanism; fail means a critical misconception listed below; unscorable means insufficient interpretable response or unknown conditions. Accept equivalent plain-language reasoning; source-specific distinctions must remain.
+
+### O004-I2 v1
+
+**Role:** I2; application. **Allowed assistance:** Closed notes/figures; no hints, solution exposure or external help. Score original response before feedback.
+
+**Prompt:** A learner says slide labels “regulation” and “valuation” already determine an optimal policy and that the lecture title supplies climate mechanisms. Correct this, map all five labels, and use a production proposal to ask resource, waste and wellbeing questions while distinguishing current coverage and missing strands.
+
+**Key and essential reasoning:** Topic mapping: resources R, growth/sustainability P/C, externality feedback, regulation P/W, valuation amenities→U. Ask h/y, W/A and consumption/amenity effects with common bases and eventual magnitudes. Labels do not derive a policy/valuation/net benefit. Current notes explain functions/network/orientation; missing linked lecture only advertises climate mechanisms and mitigation/adaptation/geoengineering, Kyoto-to-Paris history; later formal policy/modeling content unready.
+
+**Component mapping:** map_overlay_topics, frame_multidimensional_assessment, separate_supported_from_advertised_content. **Rubric:** pass requires every keyed component and requested reason/source limitation; partial means a missing component without a contradictory mechanism; fail means a critical misconception listed below; unscorable means insufficient interpretable response or unknown conditions. Accept equivalent plain-language reasoning; source-specific distinctions must remain.
+
+## Rubric and independence
+
+Every I and D task explicitly tests all indexed components: map_overlay_topics, frame_multidimensional_assessment, separate_supported_from_advertised_content. Acquisition requires passes on two distinct fresh unassisted current-criterion tasks, I1 and I2. This is an operational acquisition threshold, not a personalized retention guarantee. Supported tasks and C1 cannot substitute for either independent role. Delayed items cannot substitute for acquisition roles in this initial plan. These route restrictions ensure all components receive two complete checks. No numeric point scale is invented.
+
+A missing keyed reason/limit is partial, even if labels or inequalities are right. Wrong mechanism, reversed sign, conflated arrow/service categories, unsupported equality/optimal-policy/universal-safety claim, or invented verified definition is a critical conceptual error and fails the relevant whole task. For O003, a lone transcription/comparison slip with a correct stated mechanism is partial rather than diagnosed conceptual failure; clarify once without providing the answer. Unknown help/exposure conditions do not produce independent pass evidence. General source-faithful alternatives are acceptable; unsupported alternatives trigger a plan issue instead of improvised grading.
+
+## Misconceptions and correction
+
+Sign: a topic label becomes an established optimal policy or an advertised title becomes a completed explanation. Tentative after one answer. Correction: separate a path, an assessment question and a solved model; cite the finished scope note’s missing-lecture boundary. Hint 1: ask where a formula/result appears. Hint 2: contrast a title with explained mechanisms.
+
+Score the original answer first; use at most the two hints above, then explain the prepared missing step. Corrective feedback creates exposure.
+
+**O004-C1 v1, fresh correction, assistance allowed:** Repair “more consumption settles wellbeing; the source already ranks policies and explains the climate lecture.” Map the five topic labels and frame resource, waste and amenity questions for an expansion with forest recreation; state the supported/advertised boundary.
+
+**Key:** Resources R; growth/sustainability P/C; externality feedback; regulation P/W; valuation amenity-U. Ask harvest/growth, waste/capacity, positive C and amenities plus possible negative waste utility, so consumption alone does not settle wellbeing. Functions/network supplied, climate mechanisms and advertised policy/history strands absent; no policy ranking, valuation formula or welfare magnitude supplied.
+
+**Rubric:** the full keyed component set correct = correction pass; omitted reason/limit = partial; repeated critical mechanism error = fail. C1 is repair evidence and does not establish acquisition. If I1/I2 are already exposed or exhausted, stop and request new prepared variants from plan.
+
+## Immediate and delayed checks
+
+I1 and I2 above are the immediate checks. A delayed check requires at least 24 elapsed hours since the latest relevant instruction/feedback/exposure (an operational guard), one fresh unused delayed item, closed notes and known no-help conditions. Ask before recap and record intervening exposure; an early or exposed attempt is practice. Each delayed task covers all components, so one qualifying pass demonstrates performance on this bounded delayed form; it is separate from acquisition and does not prove broad transfer.
+
+### O004-D1 v1
+
+**Relation:** near-transfer within the same note-supported framework, with limited changed context; O003 number changes are parallel variants, not broad transfer.
+
+**Prompt:** Use the current introductory framework to outline an assessment of expanded production that uses wood, generates waste and changes forest enjoyment. Include all five overlay mappings, key comparisons/wellbeing questions, and the distinction between supported content and the absent climate/later methods.
+
+**Key:** Resources R (h/y); growth/sustainability P/C; externality feedback; regulation P/W (W/A); valuation amenity-U. Ask consumption and environmental amenity paths plus excess-waste negative effects; need common bases and magnitudes before net claims. Current functions/network/orientation supported; linked physical-climate lecture incl mitigation/adaptation/geoengineering/history and later formal instruments/models missing. No optimal policy, valuation formula or net benefit derivable.
+
+**Rubric:** all requested components and reasons/limits with no critical error = pass; omission = partial; critical misconception = fail; unknown access/conditions = unscorable for independence. The same independence rules apply.
+
+### O004-D2 v1
+
+**Relation:** near-transfer within the same note-supported framework, with limited changed context; O003 number changes are parallel variants, not broad transfer.
+
+**Prompt:** Explain what is gained and what is missing when the physical network is overlaid with economic topics. Map resources, growth/sustainability, externality, regulation and valuation, apply the resulting questions to biomass production with waste and recreation, and distinguish introduction from advertised climate teaching.
+
+**Key:** Mappings R; P/C; feedback; P/W; amenity-U locate questions. Apply h/y, W/A and consumption/amenity utility paths, requiring comparable observations and magnitudes. Gained: organized multidimensional assessment; missing: optimal instrument, valuation formula, net policy estimate and physical climate mechanisms. Introduction/functions/network supplied; separate mitigation/adaptation/geoengineering/history lecture only advertised; later formal material excluded.
+
+**Rubric:** all requested components and reasons/limits with no critical error = pass; omission = partial; critical misconception = fail; unknown access/conditions = unscorable for independence. The same independence rules apply.
+
+## Advance, revisit, pause, and escalate
+
+Advance after I1 and I2 both qualify; do not claim retention from acquisition. At delayed pass, report only actual current-version delayed performance. Failure/partial/assistance calls for the prepared explanation and C1; recall owns any subsequent date. Revisit a named prerequisite only when its prepared diagnostic shows the dependent error. After two ineffective hints show the missing step; after two unsuccessful independent attempts pause assessment and use repair, without cycling exposed questions. Pause when variants are exhausted. For ambiguity/missing key or unsupported alternative, record a teach plan_issue with course 2026_2027/Winter_Semester/Economics_of_Green_Deal, P001/V001, ingestion revision 1, O004/O004-C1 and exact item ID/version. For source contradiction or missing lecture content, hand off exact finished-note path/heading to ingest and block the affected claim; do not fill it from memory. A session can close before acquisition without any invented result.
+
+## Answer-free recall handoff
+
+Topic: Frame economic assessment questions within source limits. Start: Begin a closed-note review with teach for [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O004.md#Immediate and delayed checks|O004]]; request one unused prepared delayed item before recap. Teach sends actual committed evidence IDs and conditions. Recall owns dates and Todoist.

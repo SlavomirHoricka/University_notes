@@ -1,0 +1,89 @@
+{
+  "checked_on": "2026-10-04",
+  "timezone": "Europe/Prague",
+  "focused_test_count": 49,
+  "suites": {
+    "records_and_links": {
+      "exit_code": 0,
+      "passed": true
+    },
+    "recall": {
+      "exit_code": 0,
+      "passed": true
+    },
+    "representative_plan": {
+      "exit_code": 0,
+      "passed": true,
+      "plan_version": "P005",
+      "objective_criteria": {
+        "O001": "O001-C2",
+        "O002": "O002-C1"
+      },
+      "frozen_prior_bundles": 4,
+      "semantic_assessment_route_review": "All 6 permitted mechanism×discrimination routes cover the required components."
+    },
+    "project_map_journal": {
+      "exit_code": 0,
+      "passed": true
+    }
+  },
+  "preservation": {
+    "checked_protected_files": 646,
+    "changed": [],
+    "registered_symlinks": {
+      "/Users/slavomirhoricka/.agents/skills/ingest": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents/ingest",
+      "/Users/slavomirhoricka/.agents/skills/teach": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents/teach"
+    },
+    "registered_symlinks_unchanged": true,
+    "course_runtime_records_created": []
+  },
+  "migration_moves_verified": 8,
+  "todoist_live_read_verified": true,
+  "todoist_live_mutation_exercised": false,
+  "faster_model_performance_tested": false,
+  "representative_rehearsal": "contract/arithmetic check only",
+  "package": {
+    "status": "passed",
+    "generated_source_files": 21,
+    "archive_files": 25,
+    "archive_sha256": "d0bba4558bb8bf42e0439c5bfd39148e57ab7a0055383a491d96186afd70984c",
+    "manifests_preserved_except_version": true,
+    "identity_default_prompts_and_settings_preserved": true,
+    "asset_unchanged": true,
+    "all_old_remote_paths_overlayed": true,
+    "runtime_history_validation_excluded": true,
+    "packaged_record_tests": {
+      "count": 11,
+      "passed": true
+    },
+    "packaged_recall_tests": {
+      "count": 35,
+      "passed": true
+    },
+    "vault_link_tests": "Canonical vault-local test/checker intentionally excluded from runtime package."
+  },
+  "publication": {
+    "status": "updated_and_read_back",
+    "plugin_id": "plugins_6ac1489d78a0819184b4e8340d8c61cd",
+    "release_id": "pluginrel_6ac246d6604c81918bc495ff5e7da99f",
+    "version": "0.3.0",
+    "scope": "USER",
+    "discoverability": "PRIVATE",
+    "verified_files": 25,
+    "exact_byte_matches": 24,
+    "compatibility_manifest": "identical JSON values; backend reordered keys",
+    "observed_cache_versions": [
+      "0.2.3"
+    ],
+    "current_chat_skill_snapshot": "0.2.3",
+    "host_activation_verified": false
+  },
+  "ownership_contract_review": "Canonical ownership, freshness, safe writes and recall agree; sample alternate-route findings repaired and independently reviewed.",
+  "vault_check": {
+    "checked_links": 2348,
+    "introduced_or_supporting_failures": 0,
+    "preexisting_missing_note_targets": 4,
+    "preexisting_note_heading_links_newly_detected": 2,
+    "baseline_comparison": "All affected note bytes and target note bytes remain baseline-identical. Original checker already reported the same four missing concepts; did not check anchors."
+  }
+}

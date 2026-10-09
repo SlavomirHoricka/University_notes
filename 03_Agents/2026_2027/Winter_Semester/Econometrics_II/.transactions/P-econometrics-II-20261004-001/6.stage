@@ -1,0 +1,273 @@
+# Compare conditional models and write a bounded empirical report
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+  "transaction_id": "P-econometrics-II-20261004-001",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O007",
+  "objective_revision": 1,
+  "criterion_version": "O007-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "procedural",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O002",
+    "O006",
+    "O008"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "The CSV example: compare specifications"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Interpret conditional associations carefully"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Goodness of fit: R-squared and adjusted R-squared"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Turn the analysis into a short report"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "permitted_item_ids": [
+      "O007-I1",
+      "O007-I2",
+      "O007-D1",
+      "O007-D2"
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Compare conditional models and write a bounded empirical report",
+  "review_instruction": "Begin a closed-note review with teach for O007; request a fresh prepared delayed item before any recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Compare same-sample simple/multiple regression output, calculate and interpret ordinary/adjusted R², and produce a short empirical report distinguishing conditional association, significance, fit, diagnostics and missing provenance.
+
+Required components (all must be elicited and passed):
+
+- C1: Correct same-sample R² and adjusted R² with k/df and nesting explanation.
+- C2: Three held-fixed slope interpretations, units and control-comparison distinction.
+- C3: Correct rich price null t/change calculation and inference limits.
+- C4: Complete research/report structure including diagnostics, mechanism hypotheses and provenance/causal/policy boundaries.
+
+Finished-note authority:
+
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#The CSV example: compare specifications]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Interpret conditional associations carefully]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Goodness of fit: R-squared and adjusted R-squared]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Turn the analysis into a short report]]
+
+Teaching/support: relevant finished notes, supplied prompts and calculator permitted. Independent and delayed checks: closed notes, no lesson/keys/software-generated explanation/search/AI assistance, no hints; a basic arithmetic calculator is allowed and must be reported. Numerical inputs/cutoffs/p values in the question are allowed data. The teacher hides keys until an answer is committed. Unknown assistance/access/exposure is unscorable for independent acquisition. A previously exposed item cannot be counted as fresh. A learner may explain orally or in writing; mathematical reasoning and units must be explicit.
+
+## Prerequisites and checks
+
+### O007-P1
+
+`item_id: O007-P1`, `item_version: 1`, role: prerequisite diagnostic. Capability: O002; reason: Multiple coefficients hold the other included regressors fixed.
+
+Prompt: Does three separate simple regression slopes equal joint price/income/gasoline slopes?
+
+Key: No; joint coefficients compare observations holding the other included variables fixed, while each simple slope summarizes a different comparison.
+
+Rubric: pass only if the stated answer and its essential reason are correct without help; partial for incomplete reasoning or a recoverable arithmetic slip; fail for a contrary concept or no usable answer. This diagnostic never counts toward acquisition. Repair: Return to O002 matrix explanation/supported task.
+
+Prepared prerequisite: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Explanation steps]].
+
+### O007-P2
+
+`item_id: O007-P2`, `item_version: 1`, role: prerequisite diagnostic. Capability: O006; reason: Coefficient units/uncertainty and causal/policy limits support report interpretation.
+
+Prompt: A line is level-level with slope -2 in undocumented file units. Is it a2% causal price effect?
+
+Key: No: -2 travel file units per price file unit, an association unless identification assumptions supported; no percentage or dollar units available.
+
+Rubric: pass only if the stated answer and its essential reason are correct without help; partial for incomplete reasoning or a recoverable arithmetic slip; fail for a contrary concept or no usable answer. This diagnostic never counts toward acquisition. Repair: Return to O006 definitions and supported task.
+
+Prepared prerequisite: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md#Explanation steps]].
+
+### O007-P3
+
+`item_id: O007-P3`, `item_version: 1`, role: prerequisite diagnostic. Capability: O008; reason: A report must interpret diagnostics without certifying assumptions.
+
+Prompt: At5%, JB p 0.87 andLM p 0.19 permit which claims?
+
+Key: Nonrejection in the respective prepared large-sample tests; not proof of normality/constantvariance/exogeneity/causality.
+
+Rubric: pass only if the stated answer and its essential reason are correct without help; partial for incomplete reasoning or a recoverable arithmetic slip; fail for a contrary concept or no usable answer. This diagnostic never counts toward acquisition. Repair: Return to O008 Explanation4–5 and supported task.
+
+Prepared prerequisite: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md#Explanation steps]].
+
+Adequate committed current-version evidence for the named capability permits skipping that diagnostic; familiarity/confidence does not. If there is no evidence, ask each diagnostic once. Local foundation failures use the exact explanation here, not an improvised prerequisite curriculum.
+
+## Teaching order and rationale
+
+1. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O007.md#Prerequisites and checks]] establishes only the prerequisites needed.
+2. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O007.md#Motivation, intuition, and definitions]] motivates the decision and fixes notation/units before calculation.
+3. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O007.md#Explanation steps]] supplies intermediate reasoning and boundaries.
+4. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O007.md#Worked example]] models the complete chain.
+5. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O007.md#Practice with fading assistance]] uses S as a completion task, then hides help for I1 and I2.
+6. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O007.md#Misconceptions and correction]] repairs the exact observed gap; fresh full checks follow only under the permitted routes below.
+7. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O007.md#Immediate and delayed checks]] tests retrieval after a real interval; immediate success alone never establishes durability.
+
+A knowledgeable learner whose prerequisite diagnostics pass may omit W/S and start I1; both complete independent checks are still required. Teaching reads one bounded lesson with its linked note sections.
+
+## Motivation, intuition, and definitions
+
+Compare same-sample simple/multiple regression output, calculate and interpret ordinary/adjusted R², and produce a short empirical report distinguishing conditional association, significance, fit, diagnostics and missing provenance. The question is what the available information lets us calculate or conclude, and which extra conditions the conclusion needs.
+
+Use same dependent variable and observations for the prepared fit comparison. SSE denotes residual sum of squares here; SST=sum(y-ybar)²; k counts nonconstant regressors. With intercept $R^2=1-SSE/SST$; adjusted $R^2=1-(SSE/(n-k -1))/(SST/(n -1))$. R² describes sample variation around the mean accounted for by the fit, not the causal share or out-of-sample guarantee. CSV1000 rows has no units, sampling process or generating equation; u-column name alone gives no structural-error definition.
+
+## Explanation steps
+
+1. Define research question and choose transparent specification. Simple price model summarizes its bivariate association. Multiple model price slope holds income/gasoline fixed. Read an intercept cautiously at all regressors 0 if outside relevant support.
+2. Report slope*one-unit change with units, held-fixed variables and sign. Control-induced slope changes are compatible with omitted-variable effects, not proof the richer model removes all omitted factors. A t statistic compares estimate with a stated null relative to its conventional se, conditional on maintained inference assumptions; it is not causal identification/economic importance.
+3. Intercept OLS orthogonality yields total=fitted variation+SSE. Hence R²=1-SSE/SST. Adding regressors to the same sample retains the old fit by setting new coefficients 0; minimized SSE cannot increase, R² cannot decrease. Adjusted R² penalizes df; it can fall or be negative. Changes of sample/y invalidate this simple nesting argument.
+4. Calculate adjusted fit using n -1 versus n-k -1. Never confuse explained sum of squares with SSE or count the intercept as a nonconstant regressor.
+5. Structure the report: research question, known variables/units and sample/provenance, justified equation, readable coefficient+se+fit table, held-fixed interpretations and uncertainty, fit and diagnostic decisions, remaining assumptions and policy limits. Proposed income/private-transport or gasoline/substitution mechanisms are hypotheses, not identified results. Missing u definition prevents treating it as an ordinary structural control.
+6. This lesson compares already-prepared output/calculations; hands-on R/other-software command competence and raw-data reruns are not assessed by this plan. No optimal fare claim follows without objective/cost/capacity/causal response.
+
+## Worked example
+
+O007-W v1, finished-note CSV models(all n 1000): price slope -3.544463 alone,-2.708089 with income,-2.704248 with income+gasoline. Full model: income -0.150102, gasoline 0.811474; conventional se 0.013120/0.001251/0.035433. Full price difference of 1 file unit associates with -2.704248 travel file units at fixed controls; not dollars/percent/causal effect. SSE 94171.050600, SST 11096411.524222, k 3 yield R² 0.991513 and adjusted 0.991488. Price t≈-206.11, conditional on classical inference; huge significance does not identify cause. Diagnostics JB p 0.870795/LM p 0.192028 nonreject at 5%; sampling, exogeneity and units remain unavailable. A faithful report combines these statements rather than concluding “99% causally explained”.
+
+Role: complete demonstration, never independent evidence. Unless explicitly identified as a finished-note result, numerical/context examples are agent-created hypothetical instantiations of the note-supported mechanism.
+
+## Practice with fading assistance
+
+For S, show the setup and allow reference to Explanation steps; ask the learner to supply the missing calculations/decisions and reasons before feedback. One hint identifies the relevant definition/step; a second reveals the next operation. If two hints fail, show the key and repair. Fade to independent checks only after the learner can explain the completed method or a passed diagnostic supports skipping S.
+
+### O007-S
+
+`item_id: O007-S`, `item_version: 1`, role: supported_completion, condition: supported, relation: parallel_variant.
+
+Prompt: Use the finished full-model worked results. Complete the R²/adjusted formula, interpret all three slopes holding other controls fixed, contrast simple price slope, explain nesting/adjustment and draft a report paragraph including uncertainty, diagnostics and provenance/policy limitations. Interpret supplied diagnostic p values only conditionally on justified reference assumptions; comment on the limited justification of an asymptotic approximation in a small hypothetical sample. Include one explicitly labeled hypothetical economic mechanism, distinguish it from an identified result, and report the model equation, intercept/domain, sample size, each coefficient/SE, uncertainty, fit, diagnostic decisions, and all missing provenance/causal/policy inputs.
+
+Required response components: Correct same-sample R² and adjusted R² with k/df and nesting explanation; Three held-fixed slope interpretations, units and control-comparison distinction; Correct rich price null t/change calculation and inference limits; Complete research/report structure including diagnostics, mechanism hypotheses and provenance/causal/policy boundaries.
+
+Key and essential reasoning: R²=1-94171.050600/11096411.524222≈0.991513; adjusted 1-(1-R²)*999/996≈0.991488. Slopes -2.704248/-0.150102/+0.811474 travel file units per respective file unit holding other controls fixed. Simple -3.544463 answers an unconditional comparison; change compatible with omitted-variable effects not identification. R² nondecreasing same-sample nesting; adjusted may fall. Include conventional se, t conditional, income/gasoline mechanisms hypotheses, diagnostic nonrejections, unknown units/sampling/u, DGP, no optimal fare. The diagnostic decisions are conditional descriptions of the supplied p values, not validated population conclusions. Their large-sample reference/moment/sampling assumptions must be justified separately; a hypothetical sample size of 10,12,20 or 30 alone does not establish a reliable approximation. Example hypothetical mechanism: more expensive gasoline may make public transport relatively attractive; this is not identified by a positive coefficient alone. The report equation is travel=intercept+price_slope*price+income_slope*income+gasoline_slope*gasoline+u. Include all supplied coefficients and conventional SEs, n, fit and diagnostic values; zero-regressor intercept needs meaningful support and ordinary t claims require the maintained inference assumptions.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+### O007-I1
+
+`item_id: O007-I1`, `item_version: 1`, role: full_capability_check, condition: independent, relation: parallel_variant.
+
+Prompt: Hypothetical same-sample n 20 file-unit data: simple price slope -4, se 0.942809, SSE 100, SST 200, k 1; richer model intercept 30, price -2/se 1.673320, income -0.1/se 0.070711, gasoline 0.8/se 0.565685, SSE 80, k 3. Given JB p 0.20 and BP p 0.10 at 5%, write a complete short report. Compute both R² and adjusted R², price t for 0 in rich model, interpret three slopes,+0.5 price difference and change in controls, explain nested-fit versus causal selection and all unknown-unit/sampling/u/policy limits. Interpret supplied diagnostic p values only conditionally on justified reference assumptions; comment on the limited justification of an asymptotic approximation in a small hypothetical sample. Include one explicitly labeled hypothetical economic mechanism, distinguish it from an identified result, and report the model equation, intercept/domain, sample size, each coefficient/SE, uncertainty, fit, diagnostic decisions, and all missing provenance/causal/policy inputs.
+
+Required response components: Correct same-sample R² and adjusted R² with k/df and nesting explanation; Three held-fixed slope interpretations, units and control-comparison distinction; Correct rich price null t/change calculation and inference limits; Complete research/report structure including diagnostics, mechanism hypotheses and provenance/causal/policy boundaries.
+
+Key and essential reasoning: Simple R² 0.5, adjusted 1-(100/18)/(200/19)=0.472222. Rich R² 0.6, adjusted 1-(80/16)/(200/19)=0.525. Price t -1.195229 under maintained conventional conditions; +0.5 price predicts -1 travel file unit fixed controls. Income -0.1/gasoline +0.8 travel units per file unit held fixed. Question = fare association; include variables, n 20, intercept/model table/se/fit, interpretations/uncertainty; price slope less negative compatible with control confounding not proof. Same-sample SSE falls/R² cannot fall, adjusted may fall generally. Diagnostic nonrejections not proofs. Undocumented units/sampling/DGP/u, exogeneity/causality/economic importance absent; intercept 0-domain caution, no optimal fare inputs. Rich-model standard errors are 1.673320 for price, 0.070711 for income and 0.565685 for gasoline; the zero-null price t is -1.195229. Interpret its scale conditionally, without a causal claim. The diagnostic decisions are conditional descriptions of the supplied p values, not validated population conclusions. Their large-sample reference/moment/sampling assumptions must be justified separately; a hypothetical sample size of 10,12,20 or 30 alone does not establish a reliable approximation. Example hypothetical mechanism: more expensive gasoline may make public transport relatively attractive; this is not identified by a positive coefficient alone. The report equation is travel=intercept+price_slope*price+income_slope*income+gasoline_slope*gasoline+u. Include all supplied coefficients and conventional SEs, n, fit and diagnostic values; zero-regressor intercept needs meaningful support and ordinary t claims require the maintained inference assumptions.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+### O007-I2
+
+`item_id: O007-I2`, `item_version: 1`, role: full_capability_check, condition: independent, relation: parallel_variant.
+
+Prompt: Hypothetical same-sample n 10 file units: simple price slope -2/se 1.080123, SSE 84, SST 120, k 1; richer intercept 12, price -1/se2.854496, income 0.2/se 0.516398, gasoline 0.5/se 1.290994, SSE 80, k 3. Given JB p 0.03, BP p 0.20 at 5%, produce report as I1: compute both fits/adjusted fits, price zero-null t and+$0.2 file price change, interpret all slopes/control change/nesting, diagnostics and full provenance/causal/policy limits. Interpret supplied diagnostic p values only conditionally on justified reference assumptions; comment on the limited justification of an asymptotic approximation in a small hypothetical sample. Include one explicitly labeled hypothetical economic mechanism, distinguish it from an identified result, and report the model equation, intercept/domain, sample size, each coefficient/SE, uncertainty, fit, diagnostic decisions, and all missing provenance/causal/policy inputs.
+
+Required response components: Correct same-sample R² and adjusted R² with k/df and nesting explanation; Three held-fixed slope interpretations, units and control-comparison distinction; Correct rich price null t/change calculation and inference limits; Complete research/report structure including diagnostics, mechanism hypotheses and provenance/causal/policy boundaries.
+
+Key and essential reasoning: Simple R² 0.3, adjusted 1-(84/8)/(120/9)=0.2125. Rich R² 0.333333, adjusted 1-(80/6)/(120/9)=0. Price t -0.350325 conditional; +0.2 price predicts -0.2 travel at fixed controls; income +0.2/gasoline +0.5 file units held fixed. Higher R² but lower adjusted due to parameter penalty; neither determines causal validity. Normal null rejected, homoskedastic null not rejected in prepared asymptotic tests; unknown sampling/units/DGP/u/exogeneity remain. Include question, n 10, equation, readable table, se, fit, domain caution, uncertainty, control change compatible with omitted effects, proposed mechanisms not identified, no optimal fare. Rich-model standard errors are 2.854496 for price, 0.516398 for income and 1.290994 for gasoline; the zero-null price t is -0.350325. Interpret its scale conditionally, without a causal claim. The diagnostic decisions are conditional descriptions of the supplied p values, not validated population conclusions. Their large-sample reference/moment/sampling assumptions must be justified separately; a hypothetical sample size of 10,12,20 or 30 alone does not establish a reliable approximation. Example hypothetical mechanism: more expensive gasoline may make public transport relatively attractive; this is not identified by a positive coefficient alone. The report equation is travel=intercept+price_slope*price+income_slope*income+gasoline_slope*gasoline+u. Include all supplied coefficients and conventional SEs, n, fit and diagnostic values; zero-regressor intercept needs meaningful support and ordinary t claims require the maintained inference assumptions.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+## Rubric and independence
+
+Pass: all C1–C4 correct, essential reasoning explicit, known independent conditions and fresh item. Partial: one or more components missing, an unexplained claim, or a recoverable arithmetic slip with sound method. Fail: a critical conceptual error, wrong method/assumptions/interpretation, or no usable attempt. Unscorable: unknown conditions/exposure or an alternative outside the prepared key. Equivalent algebra, clear verbal reasoning and synonymous units/assumption names are acceptable; assumption numbers alone are insufficient. Numerical rounding to sensible precision is acceptable. A isolated arithmetic slip is partial and is not treated as established conceptual failure; the learner must independently repair it with a fresh prepared full item before a pass qualifies. No numeric grading scale is invented.
+
+Every full task I1, I2, D1, D2 expressly requests all C1–C4 and has a complete task-specific key plus exact conceptual reasoning above. Omitted pieces are partial even if an unasked answer happens to sound fluent. Supported S and narrow correction C never substitute for a full check.
+
+Permitted acquisition routes: I1+I2; if an item was exposed, failed or unavailable, replace only that full check with a previously unexposed D1 or D2. Any selected pair of distinct items from {I1,I2,D1,D2} covers C1–C4 twice. Do not use an item twice or count a corrected answer to the same item as fresh. D items used immediately are logged as independent replacement checks, not delayed evidence. No shortened variant or arbitrary new task is permitted. Two complete unassisted passes under O007-C1 establish acquisition; they do not establish retention. This is a default evidence rule, not a learner outcome.
+
+Component-to-item coverage on every route:
+
+| Component | S | I1 | I2 | D1 | D2 | Correction C |
+|---|---|---|---|---|---|---|
+| C1 | supported | required | required | required | required | narrow repair only |
+| C2 | supported | required | required | required | required | narrow repair only |
+| C3 | supported | required | required | required | required | narrow repair only |
+| C4 | supported | required | required | required | required | narrow repair only |
+
+## Misconceptions and correction
+
+Sign: treating99%R²as99%causal explanation, assuming adjusted fit cannot fall, reading unknown units as percent/dollars, orcallingall controls as proof of exogeneity. Correction: sample fit is SSE relative to SST; the adjustment compares variation adjusted for degrees of freedom; held-fixed comparison still needs mean assumptions andprovenance. Hint1: labelSSE residual andwriteboth denominators. Hint2: separate sample fit, conditional association andcausal claim in three sentences.
+
+Score the original response before help. One ambiguous error only suggests a tentative misconception; establish it only from explicit reasoning or repeated diagnostic signs. Explain the relevant prepared step and its consequence; never label the learner from confidence or a single slip.
+
+### O007-C
+
+`item_id: O007-C`, `item_version: 1`, role: targeted correction; not an acquisition substitute.
+
+Prompt: Fresh O007-C v1: n 8, k 1, R² 0.2. Compute adjusted R² and say whether a higher R² after adding two controls proves causal superiority.
+
+Key: Adjusted1-0.8*7/6≈0.066667. No; same-sample fit improves mechanically but additional controls need substantive justification/exogeneity. Narrow repair only.
+
+Rubric: correct supplied answer plus the exact boundary/reason is a repair pass; omitted reason is partial; repeating the original misconception is fail. Repair success licenses returning to a fresh full prepared item; it never replaces full C1–C4 coverage.
+
+## Immediate and delayed checks
+
+I1/I2 are immediate checks after instruction or a justified expert route. D1/D2 are distinct parallel/near-context applications, not broad-transfer proof. Teach records exposure; the exact original must not be re-used as a fresh retrieval question. For delayed evidence require at least24 actual elapsed hours since qualifying acquisition and known independent conditions; ask the item before recap or solutions, record any intervening study, and apply all C1–C4. An early answer can be immediate evidence only.
+
+### O007-D1
+
+`item_id: O007-D1`, `item_version: 1`, role: full_capability_check, default condition: delayed, permitted immediate replacement when fresh, relation: parallel_variant.
+
+Prompt: Hypothetical same-sample n 30: simple price -3/se 0.566947, SSE 150, SST 300, k 1; richer intercept 25, price -2/se 0.764601, income -0.2/se 0.110940, gasoline 0.4/se 0.221880, SSE 120, k 3. JB p 0.30, BP p 0.02 at 5%. Prepare a full report with both R²/adjusted R², rich price zero-null t and+$0.25 change, all slopes/control comparison, nesting/adjustment and diagnostic/provenance/policy limits. Units/sampling/DGP/u not documented. Interpret supplied diagnostic p values only conditionally on justified reference assumptions; comment on the limited justification of an asymptotic approximation in a small hypothetical sample. Include one explicitly labeled hypothetical economic mechanism, distinguish it from an identified result, and report the model equation, intercept/domain, sample size, each coefficient/SE, uncertainty, fit, diagnostic decisions, and all missing provenance/causal/policy inputs.
+
+Required response components: Correct same-sample R² and adjusted R² with k/df and nesting explanation; Three held-fixed slope interpretations, units and control-comparison distinction; Correct rich price null t/change calculation and inference limits; Complete research/report structure including diagnostics, mechanism hypotheses and provenance/causal/policy boundaries.
+
+Key and essential reasoning: Simple R² 0.5, adjusted 1-(150/28)/(300/29)=0.482143. Rich R² 0.6, adjusted 1-(120/26)/(300/29)=0.553846. Price t -2.615742; change -0.5 travel file unit fixed controls; income -0.2/gasoline +0.4 file units held fixed. JB nonrejection/BP rejection against the selected alternative, so conventional variance/inference not automatically justified. Include model/question, n 30/table/se/fit, domain caution and control comparison compatible with omitted effects; same-sample R² nondecrease, adjusted penalty; sampling/exogeneity/causality, u, units, DGP unknown, mechanisms are hypotheses, no optimal fare. Rich-model standard errors are 0.764601 for price, 0.110940 for income and 0.221880 for gasoline; the zero-null price t is -2.615742. Interpret its scale conditionally, without a causal claim. The diagnostic decisions are conditional descriptions of the supplied p values, not validated population conclusions. Their large-sample reference/moment/sampling assumptions must be justified separately; a hypothetical sample size of 10,12,20 or 30 alone does not establish a reliable approximation. Example hypothetical mechanism: more expensive gasoline may make public transport relatively attractive; this is not identified by a positive coefficient alone. The report equation is travel=intercept+price_slope*price+income_slope*income+gasoline_slope*gasoline+u. Include all supplied coefficients and conventional SEs, n, fit and diagnostic values; zero-regressor intercept needs meaningful support and ordinary t claims require the maintained inference assumptions.
+
+Rubric: all C1–C4 plus known fresh/independent/elapsed conditions for delayed pass. Parallel numerical/context changes support the bounded capability; they do not alone demonstrate broad transfer.
+
+### O007-D2
+
+`item_id: O007-D2`, `item_version: 1`, role: full_capability_check, default condition: delayed, permitted immediate replacement when fresh, relation: parallel_variant.
+
+Prompt: Hypothetical same-sample n 12: simple price -5/se 1.936492, SSE 58.8, SST 98, k 1; rich intercept 18, price -3/se4.946138, income 0.1/se 0.223607, gasoline 0.6/se 1.341641, SSE 56, k 3. JB p 0.10, BP p 0.30 at 5%. Make a full report with both R²/adjusted R², rich price t 0,+0.1 price change, three conditional slopes/control comparison, nesting and adjustment plus all diagnostic/provenance/causal/policy limits. File units and DGP undocumented. Interpret supplied diagnostic p values only conditionally on justified reference assumptions; comment on the limited justification of an asymptotic approximation in a small hypothetical sample. Include one explicitly labeled hypothetical economic mechanism, distinguish it from an identified result, and report the model equation, intercept/domain, sample size, each coefficient/SE, uncertainty, fit, diagnostic decisions, and all missing provenance/causal/policy inputs.
+
+Required response components: Correct same-sample R² and adjusted R² with k/df and nesting explanation; Three held-fixed slope interpretations, units and control-comparison distinction; Correct rich price null t/change calculation and inference limits; Complete research/report structure including diagnostics, mechanism hypotheses and provenance/causal/policy boundaries.
+
+Key and essential reasoning: Simple R² 0.4, adjusted 1-(58.8/10)/(98/11)=0.34. Rich R² 0.428571, adjusted 1-(56/8)/(98/11)=0.214286. Price t -0.606534 conditional; +0.1 price predicts -0.3 travel units fixed controls; income +0.1/gasoline +0.6 per file unit held fixed. R² increases but adjusted falls; nesting SSE cannot increase. Diagnostic nonrejections not proof. Include question, n 12, variables/equation/intercept domain/table/se/fit, uncertainty, control changes do not establish identification, mechanisms are hypotheses, unknown sampling/units/DGP/u/exogeneity/causality, optimal fare inputs absent. Rich-model standard errors are 4.946138 for price, 0.223607 for income and 1.341641 for gasoline; the zero-null price t is -0.606534. Interpret its scale conditionally, without a causal claim. The diagnostic decisions are conditional descriptions of the supplied p values, not validated population conclusions. Their large-sample reference/moment/sampling assumptions must be justified separately; a hypothetical sample size of 10,12,20 or 30 alone does not establish a reliable approximation. Example hypothetical mechanism: more expensive gasoline may make public transport relatively attractive; this is not identified by a positive coefficient alone. The report equation is travel=intercept+price_slope*price+income_slope*income+gasoline_slope*gasoline+u. Include all supplied coefficients and conventional SEs, n, fit and diagnostic values; zero-regressor intercept needs meaningful support and ordinary t claims require the maintained inference assumptions.
+
+Rubric: all C1–C4 plus known fresh/independent/elapsed conditions for delayed pass. Parallel numerical/context changes support the bounded capability; they do not alone demonstrate broad transfer.
+
+## Advance, revisit, pause, and escalate
+
+Advance after two qualifying distinct full passes. A delayed pass separately requires complete criteria under its time/exposure conditions; no answer/no fresh variant means no durability conclusion. A failed delayed check is scored before explanation, then use the named correction and a fresh full prepared check as appropriate; scheduling belongs to recall. Return to the named prerequisite when its missing capability causes the error, not after every mistake. After two ineffective hints show the necessary key/step or pause; after two unsuccessful fresh independent attempts stop quizzing and repair.
+
+If all full variants have been exposed/exhausted, or an otherwise plausible answer needs an unprepared acceptance rule, emit `plan_issue` with course 2026_2027/Winter_Semester/Econometrics_II, objective O007, revision1, criterion O007-C1, P001/V001/ingestion1 and exact item ID. Do not invent a replacement. Source conflicts/changed ingestion token block affected teaching and route note path+heading, revision/pass and exact issue to ingest. Close an interrupted/unanswered session without fabricating completion; teach alone writes actual evidence.
+
+## Answer-free recall handoff
+
+Review topic: Compare conditional models and write a bounded empirical report.
+
+Start instruction: Begin a closed-note review with teach for O007; request a fresh prepared delayed item before any recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O007.md#Immediate and delayed checks]]. No due date is defined. Teach supplies committed learner evidence IDs and actual conditions; recall determines scheduling.

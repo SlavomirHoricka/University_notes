@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+  "ingestion_revision": 1,
+  "transaction_id": "T-eb5c07d711aa4c1eab0ede7244c20042",
+  "status": "blocked",
+  "run_id": "20261004T155737+0200_week1_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+  "updated_at": "2026-10-04T16:12:07.998092+02:00",
+  "finished_notes": [],
+  "affected_note_paths": [
+    "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md",
+    "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Unbiasedness_Consistency_and_Efficiency.md",
+    "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+    "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Course_Organization_and_Source_Discrepancies.md",
+    "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Econometrics_II_main.md"
+  ],
+  "prior_completed_revision": null,
+  "unresolved": [
+    "Selected Week 1 coverage and independent verification pending."
+  ]
+}

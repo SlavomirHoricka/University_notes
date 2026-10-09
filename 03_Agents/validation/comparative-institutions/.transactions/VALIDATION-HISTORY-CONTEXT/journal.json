@@ -1,0 +1,11 @@
+{
+  "owner": "plan",
+  "status": "committed",
+  "files": {
+    "curriculum_history/README.md": {
+      "stage": "0.stage",
+      "expected": null,
+      "new_sha256": "3bf936cc1f379b4a5d6ffd69aa77601636a6d2a2c5b69feb56a4b993b9c907f8"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "plugin_id": "plugins_6ac1489d78a0819184b4e8340d8c61cd",
+  "name": "uni-teach",
+  "description": "Course-note ingestion, planning, tutoring, and spaced recall for the Uni Obsidian vault.",
+  "version": "0.3.0",
+  "current_release_id": "pluginrel_6ac246d6604c81918bc495ff5e7da99f",
+  "scope": "USER",
+  "discoverability": "PRIVATE",
+  "plugin_url": "https://chatgpt.com/plugins/plugins_6ac1489d78a0819184b4e8340d8c61cd",
+  "display_name": "University Assistant",
+  "previous_release_id": "pluginrel_6ac152d60f9c819181b0b008fd219b11",
+  "archive": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents/plugins/uni-teach-0.3.0.zip",
+  "archive_kind": "update-overlay",
+  "archive_sha256": "d0bba4558bb8bf42e0439c5bfd39148e57ab7a0055383a491d96186afd70984c",
+  "canonical_skill_sources": {
+    "ingest": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents/ingest",
+    "plan": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents/plan",
+    "teach": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents/teach",
+    "recall": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents/recall"
+  },
+  "packaging_source": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents/plugins/uni-teach",
+  "published_on": "2026-10-04",
+  "verification": "Guarded private account update confirmed and all 25 files read back. 24 files match uploaded bytes; compatibility manifest has identical JSON values with backend-reordered keys. Manifests unchanged except version; identity/settings/default prompts/assets preserved. Source/package synchronization passes. No cache edits.",
+  "observed_cache_versions": [
+    "0.2.3"
+  ],
+  "current_chat_loaded_skill_snapshot": "0.2.3",
+  "host_activation_verified": false,
+  "activation_limitation": "Backend 0.3.0 is published. Current chat began with 0.2.3 skill metadata; only 0.2.3 is present in the observed Codex cache. No supported reload tool was available. Refresh the published release through the host plugin UI and start a new chat; actual host load remains unverified."
+}

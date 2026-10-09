@@ -1,0 +1,121 @@
+# O002 — Calculate and interpret the hold-up decision
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+  "transaction_id": "VALIDATION-PLAN-001",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": "VALIDATION-complete-pass-20261003T142217",
+  "objective_id": "O002",
+  "objective_revision": 1,
+  "criterion_version": "O002-C1",
+  "status": "ready",
+  "validation_artifact": true,
+  "knowledge_components": ["procedural", "interpretation", "conceptual"],
+  "prerequisite_ids": ["O001"],
+  "note_locations": ["01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#2. Hold-up: investment changes bargaining power"],
+  "acquisition_rule": {"distinct_independent_passes": 2, "required_item_roles": ["calculation", "interpretation"]},
+  "delayed_rule": {"minimum_elapsed_hours": 24, "fresh_item": true, "independent_required": true},
+  "review_topic": "Hold-up: project loss versus current operating surplus",
+  "review_instruction": "Begin a closed-note review with teach of Comparative Economics objective O002; request a prepared delayed calculation and explain the decision."
+}
+```
+
+## Outcome and conditions
+
+Given an investment cost, quantity, variable cost per unit and promised/cut prices, independently calculate total project profit, future operating surplus and the ex ante break-even price. Compare produce versus refuse after investment and interpret why anticipated renegotiation may deter investment. Keep units and timing clear; do not call project loss operating profit. Closed notes; no formula/strategy hints or solution exposure. A basic calculator is permitted because the criterion concerns accounting/decision reasoning, not mental arithmetic; record actual use. No internet/programming or external tools.
+
+Authority: [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#2. Hold-up: investment changes bargaining power|Finished hold-up explanation and corrected axle accounting]]. This prepared curriculum relies on the corrected distinction already in the note. It does not return to Roland's raw page to re-audit it.
+
+## Prerequisites and checks
+
+O001's sunk-cost/timing distinction is necessary: the same project-cost total cannot decide both initial investment and later production. Basic multiplication/subtraction and the distinction between per-unit and total cost are needed and prepared here.
+
+**O002-P1 v1:** “If 500 units cost €8 each to make, what is their total variable cost? If equipment €2,000 was already irreversibly paid, is that amount recovered by refusing production today?” **Key:** €4,000; no, already sunk. **Pass:** both with units and reason. **Partial:** arithmetic mistake with correct multiplication setup, or correct total without timing explanation. **Fail:** adds/subtracts per-unit numbers as total, or claims refusing recovers equipment. Correct per-unit multiplication locally; timing fail -> O001 Definitions/Explanation/F1. Adequate compatible O001 evidence and the units response can skip its worked mechanism, not fabricate acquisition.
+
+## Teaching order and rationale
+
+1. Reestablish before/after choice and define units: prevents subtracting sunk costs incorrectly in the current comparison.
+2. Derive total profit and break-even price: the initial investment criterion.
+3. Derive future operating surplus and compare both choices: the post-investment criterion.
+4. Work the note's axle example: both calculations use the same inputs and contrasting totals.
+5. Complete labelled equations with help, then solve an independent parallel case and an interpretation case.
+6. Use fresh delayed cases with no recap; contrast total loss versus operating surplus again if the specific error reappears.
+
+The order makes each equation answer a distinct question. Do not teach “ignore all sunk costs” as permission to erase the original project loss; only the current decision comparison treats it as fixed across alternatives.
+
+## Motivation, intuition, and definitions
+
+“Can a supplier rationally produce while the whole project loses money?” Yes under the specified assumptions if production improves the outcome from today onward. The calculation makes O001's timing argument observable.
+
+Notation: `I` initial investment in currency; `q` units; `c` currency/unit variable cost; `p` currency/unit promised price; `p'` cut price. Revenue `pq` and variable cost `cq` are totals in currency. Total project profit is `π=(p-c)q-I`; future operating surplus after investment is `S=(p'-c)q`. Assumptions: the whole `I` is already sunk after installation, `q` is sold if production occurs, no alternative use/buyer, refusal adds neither revenue nor further variable costs, and no further fixed cost beyond the specified inputs. With a salvage value or alternative buyer, this prepared key is incomplete; route that unprepared variant to plan instead of applying it silently.
+
+## Explanation steps
+
+1. Before installation all costs can still be avoided. Producing `q` units generates `pq`, costs `cq`, and requires `I`: `π=pq-cq-I=(p-c)q-I`.
+2. Break-even initial price solves `0=(p_BE-c)q-I`. Add `I`, divide by positive `q`, then add `c`: `p_BE=c+I/q`. Units are currency/unit. If `q=0` this expression is undefined and is outside the prepared scenario.
+3. After installation, `I` has been paid under both current alternatives. Producing at `p'` adds `(p'-c)q`; refusal adds zero. For `q>0` and the no-outside-option assumptions, production strictly improves the current position if `p'>c`. At equality the supplier is indifferent; below `c` refusal avoids a further loss.
+4. Total project accounting still includes `I`: if producing, total profit is `S-I`; if refusing, total profit is `-I`. Their difference is `(S-I)-(-I)=S`. A positive `S` can coexist with a negative `S-I`.
+5. Anticipating `S<I` before installation means the promised project does not pay its avoidable initial cost under the expected cut price. Hence an ex ante decision not to invest can coexist with rational ex post production.
+6. Break-even is a simplified accounting threshold, not a guarantee of adequate risk-adjusted return; this artifact includes no unsupported discounting, uncertainty model or finance criterion.
+
+## Worked example
+
+**O002-W1 v1, note example:** `I=$10,000`, `q=1,000`, `c=$20/unit`, promised `p=$30/unit`, cut `p'=$25/unit`.
+
+1. Promised revenue `$30,000`; variable cost `$20,000`; total profit `$30,000-$20,000-$10,000=$0`. This is break-even.
+2. Ex ante break-even unit price `20+10,000/1,000=$30`.
+3. After investment, operating surplus at the cut price `(25-20)×1,000=$5,000`.
+4. Producing total project profit `$5,000-$10,000=-$5,000`; refusing total profit `-$10,000`.
+5. Producing improves the current outcome by `$5,000`, though anticipating `-$5,000` before investment would deter the project under these assumptions.
+
+**Lesson:** the positive `$5,000` is operating surplus; `-$5,000` is total project loss. The finished note flags that the original source labels the latter misleadingly. The teacher follows the corrected note, never reintroduces the error. Limits: an enforceable price contract/another buyer may change incentives; do not infer that all projects or buyers behave this way.
+
+## Practice with fading assistance
+
+**O002-F1 v1, completion supported; agent-created parallel numbers:** `I=€6,000`, `q=600`, `c=€10`, promised `p=€20`, cut `p'=€15`. “Fill labelled expressions: total profit at promise `(20-10)×600-___`; operating surplus after cut `(___-10)×600`; total profit if producing after cut `3,000-___`; total profit if refusing `-___`. Then compare today’s choices.”
+
+**Key:** 6,000 -> €0; 15 -> €3,000; 6,000 -> -€3,000; 6,000 -> -€6,000. Production beats refusal by €3,000; anticipated project loss deters initial investment. The question already supplies structure, so record supported work. Hint1 labels the cost timing; hint2 points to the common sunk amount. Fade to an unsupplied formula only after the learner explains which expression answers which question.
+
+**O002-I1 v1, calculation independent; hypothetical parallel case:** `I=€8,000`, `q=400`, `c=€15/unit`, promised price `€35/unit`, cut price `€25/unit`. “Compute the initial break-even price and promised total profit. After installation compare operating surplus, total profit if producing and total profit if refusing. State the current decision and initial decision if the cut price was expected.”
+
+**Full key:** `p_BE=15+8,000/400=€35/unit`; promise `(35-15)×400-8,000=€0`; after cut `S=(25-15)×400=€4,000`; produce total `4,000-8,000=-€4,000`; refuse `-€8,000`. Produce now because it improves by €4,000; do not invest if that cut return is expected beforehand under these assumptions. **Essential components:** correct expressions/units, distinct total/operating values, comparison with refusal, ex ante interpretation. **Role:** calculation plus required interpretation within the numeric case. Calculator allowed; formulas/notes/hints not allowed.
+
+**O002-I2 v1, interpretation independent:** “With specific sunk equipment cost `€5,000`, quantity `200`, variable cost `€10/unit` and a cut price `€8/unit`, should the supplier produce now? Give operating surplus and total project outcomes for produce and refusal; explain why the fact the equipment is sunk does not justify any price.”
+
+**Full key:** `S=(8-10)×200=-€400`; producing total `-€400-€5,000=-€5,400`; refusing total `-€5,000`. Refuse because production adds a further avoidable €400 loss. Sunk cost is fixed, but variable production cost remains avoidable. “Ignore sunk cost” does not mean “ignore all costs.” **Role:** interpretation/discrimination of a different price region, not merely a second same-form pass.
+
+## Rubric and independence
+
+Each item requires named quantities/formulas or equivalent explained accounting; correct total-versus-operating distinction; correct comparison of future alternatives; correct ex ante/ex post interpretation when requested. Accept explicit revenue-minus-cost tables or difference comparisons instead of symbols. A basic calculator does not invalidate independence under this rubric.
+
+**Pass:** all essentials including requested values/units and timing reason, no critical errors. **Partial:** correct setup/timing but isolated arithmetic slip, missing units or one requested value; arithmetic slip does not alone establish a conceptual misconception. **Fail:** subtracts equipment again to decide current production without comparing refusal, calls total loss operating surplus, treats sunk cost as recoverable, says produce below variable cost under these assumptions, or concludes initial investment pays for itself when total profit is negative. **Unscorable:** missing/ambiguous prompt assumptions or an unprepared salvage/uncertainty variant. No numeric grading scale.
+
+Acquisition requires two distinct independent passes with calculation and interpretation roles, normally I1 + I2. An exposed item never qualifies as a fresh independent check; C1 or D1 can substitute for calculation and D2 for interpretation if not previously exposed. A hinted success is supported performance; prerequisite repair does not itself award O002 acquisition. Do not infer general financial-analysis mastery from these accounting tasks.
+
+## Misconceptions and correction
+
+**Sign:** “At €25 there is a loss, so refuse the order.” **Corrective explanation:** “Total profit describes the whole project. Compare produce and refuse after installation: both already paid I. The only current difference is revenue minus future production costs. Positive operating surplus can reduce a loss.” Hint1: “What would total profit be if the order were refused?” Hint2: “Subtract the two total outcomes. Which cost cancels?” After two ineffective hints, show W1’s comparison and use fresh C1 if useful; do not score the restated worked answer as independent.
+
+**O002-C1 v1, fresh correction/calculation case:** `I=€9,000`, `q=300`, `c=€12`, promised `p=€42`, cut `p'=€22`. “Show break-even price and compare today’s two options with the original investment decision.” **Key:** `12+9,000/300=€42`; promise total `0`; `S=(22-12)×300=€3,000`; produce total `-€6,000`; refuse `-€9,000`; produce now improves €3,000 while anticipated cut deters initial installation. Essential components/rubric same as I1. Hypothetical numbers instantiate note-supported equations, no new academic result.
+
+**Sign:** “Equipment is sunk, so produce regardless of price.” **Correction:** “The past equipment cost is fixed across choices; future variable cost is not. If extra revenue is below that cost, producing worsens the current position.” Use D2 as a fresh interpretation task. If the learner merely makes an arithmetic slip, show the arithmetic check and use C1 rather than diagnose a timing misconception.
+
+## Immediate and delayed checks
+
+Immediate I1/I2 follow faded support. Delayed tasks are asked before recap, at least 24 actual hours since last relevant exposure, fresh, independently and with known conditions. Unknown/early exposure does not qualify for interval extension. Report actual elapsed interval and specific observed component, not generalized retention.
+
+**O002-D1 v1, delayed calculation/application:** `I=€12,000`, `q=800`, `c=€5/unit`, promise `€20/unit`, cut `€14/unit`. “Compute the break-even initial price, cut-price operating surplus, total profit for produce/refuse, and explain both time-stage decisions.” **Full key:** `5+12,000/800=€20`; promise total `0`; `S=(14-5)×800=€7,200`; produce total `-€4,800`; refuse `-€12,000`; produce now improves €7,200; expecting cut return deters initial installation. Same rubric as I1. Parallel numeric variant, not broad transfer.
+
+**O002-D2 v1, delayed interpretation:** `I=€4,000`, `q=100`, `c=€6`, cut `p'=€6`. “Compare producing and refusal after installation. Has production recovered the initial investment? State the ex ante break-even price.” **Full key:** operating surplus `0`; either current option total `-€4,000`, so indifferent under no extra costs/options; initial investment is not recovered; `p_BE=6+4,000/100=€46/unit`. **Pass:** equality/indifference, total loss retained, break-even initial price. **Partial:** understands equality but misses price/arithmetic; **fail:** says initial cost recovered or current production earns €4,000. This checks the boundary of the strict inequality, not a new academic model.
+
+## Advance, revisit, pause, and escalate
+
+Acquisition permits advancing within this bounded plan, while delayed retention remains untested/pending until an actual qualifying delayed response. Timing failure -> O001 causal chain; units/arithmetic failure -> P1/F1. After two ineffective hints show required step; after three unsuccessful independent attempts pause with the specific unresolved component. Exhausted fresh variants, rubric ambiguity or a requested salvage/discounting extension -> plan with objective/criterion/item and actual evidence. Contradictory/missing note explanation -> ingest. The teacher neither adds a finance objective nor reopens the source PDF.
+
+## Answer-free recall handoff
+
+“Review project loss versus current operating surplus — Comparative Economics O002. Start with teach and request the prepared delayed calculation before recap.” The task may name course/objective and link the topic; never include formulas, results or solution text in its description. Recall derives the date from real committed acquisition/review evidence; none exists in this validation artifact.

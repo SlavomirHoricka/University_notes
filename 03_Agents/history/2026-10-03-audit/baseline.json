@@ -1,0 +1,2780 @@
+{
+  "files": {
+    "03_Agents/standardization_manifest.json": {
+      "sha256": "31dc2858cf8c0fadf3e15ad1eb6437b56c76a0998827ea98a8411d4445ab5208",
+      "size": 101763
+    },
+    "03_Agents/.DS_Store": {
+      "sha256": "8925845d28c819f3489906a41fafc2b679440c3b28ece7a743c9493047c09a8a",
+      "size": 6148
+    },
+    "03_Agents/VAULT_MAP.md": {
+      "sha256": "4d8cfddfa1f2178d9093c774fdfac553103cd68e2034e5464bf6d03696cc9a45",
+      "size": 5076
+    },
+    "03_Agents/LEARNING_ARCHITECTURE.md": {
+      "sha256": "3122d50a214ba9770122777fca7fe1a73ec5bb434a522ddf2a7ea9e2cf239627",
+      "size": 5059
+    },
+    "03_Agents/TEACHING_SKILL_REVIEW.md": {
+      "sha256": "3776dec9bcc76f6ce3e45a3877ed0308ec76257d66cf715edcd7e1e118af3e9a",
+      "size": 33961
+    },
+    "03_Agents/TEACHING_SKILL_REVIEW_PROMPT.md": {
+      "sha256": "5872d2c87d83fb37202cb1c58309c1f99859af91b936e03ae550f61df93e9fd0",
+      "size": 11890
+    },
+    "03_Agents/STANDARDIZATION_REPORT.md": {
+      "sha256": "c370feeaa8c60aec84b2b69a2158492722193116236a0c331c773b27bcbd0431",
+      "size": 4252
+    },
+    "03_Agents/README.md": {
+      "sha256": "98c8f4bac6820e7934c3c2f8e5e3fbf7ac365551e005b7abc238a04b96ea5a8b",
+      "size": 3012
+    },
+    "03_Agents/check_vault.py": {
+      "sha256": "83744af9da5d39e757fb0bf572f13c74fd9a37397a05331168cd0522bc333fb8",
+      "size": 3097
+    },
+    "03_Agents/NAMING_CONVENTIONS.md": {
+      "sha256": "1b6543f0c704ce9334027c54065d51f3ed3c007ee58f068ae10f91418662054a",
+      "size": 2631
+    },
+    "03_Agents/2025_2026/Summer_Semester/JEB109_Econometrics_I/source_manifest.md": {
+      "sha256": "75bbd9ecb5d827c5d038448831ee84e2815ad82b41a61114113482b0b04d4392",
+      "size": 37948
+    },
+    "03_Agents/2025_2026/Summer_Semester/JEB109_Econometrics_I/learning_plan.md": {
+      "sha256": "1f187d6f5e52f7aff15733a75571b7566eaa8d7cc1617f0b14669de6a9297762",
+      "size": 4266
+    },
+    "03_Agents/2025_2026/Summer_Semester/JEB109_Econometrics_I/learning_log.md": {
+      "sha256": "2961ece0556a607fe768965789dd3a30c992260764084c60552acbbd80192d9a",
+      "size": 20453
+    },
+    "03_Agents/plugins/uni-teach-release.json": {
+      "sha256": "5b79d250890d2918e6af79dddac6597cf9a7eb52f4370fe0ceb62b50be3abec5",
+      "size": 800
+    },
+    "03_Agents/plugins/uni-teach-0.1.0.zip": {
+      "sha256": "ad11d08e823034daa3a3e157e10d7107fe109c0e335e8e594a9dda91af91b727",
+      "size": 27160
+    },
+    "03_Agents/plugins/uni-teach-0.2.3-update.zip": {
+      "sha256": "b3b9d7f8834d78d6302745b3e795dae98ab85af1b8d364f3e7db38b8f31ea26e",
+      "size": 2544
+    },
+    "03_Agents/plugins/uni-teach/LEARNING_ARCHITECTURE.md": {
+      "sha256": "3122d50a214ba9770122777fca7fe1a73ec5bb434a522ddf2a7ea9e2cf239627",
+      "size": 5059
+    },
+    "03_Agents/plugins/uni-teach/plugin.json": {
+      "sha256": "34fdef4828cabcd0f01893db8d21ad5cdb1b9028cd72f496db03bffa4d45a010",
+      "size": 1392
+    },
+    "03_Agents/plugins/uni-teach/README.md": {
+      "sha256": "7d576e9a76b90500f1fd116184810b4ef066b320f88c8f1601c5c7e31cb3356f",
+      "size": 1770
+    },
+    "03_Agents/plugins/uni-teach/skills/plan/SKILL.md": {
+      "sha256": "35459ae29d4204db6e9566ac066124f2f1d29931a62c960eb250577dc304a047",
+      "size": 3062
+    },
+    "03_Agents/plugins/uni-teach/skills/plan/templates/source_manifest.md": {
+      "sha256": "b7aa0185f6fef05156184ab4d9a113721edbf6bb711bc7725dcd7fb9e831b009",
+      "size": 1119
+    },
+    "03_Agents/plugins/uni-teach/skills/plan/templates/learning_plan.md": {
+      "sha256": "4becff6dee0e5562e7e0e0bd579727b438aaf8e660df8d130ecbc27cefb8bdb4",
+      "size": 1895
+    },
+    "03_Agents/plugins/uni-teach/skills/ingest/SKILL.md": {
+      "sha256": "762922125fc07fa38bce64d6d9c1e7a199bd48402169b0fdc142c89580fe02d3",
+      "size": 25248
+    },
+    "03_Agents/plugins/uni-teach/skills/recall/SKILL.md": {
+      "sha256": "a181cda5145e58f2ec860c6814e0210ea82281473bf521051e8cd22f93f08fa9",
+      "size": 2875
+    },
+    "03_Agents/plugins/uni-teach/skills/recall/scripts/schedule.py": {
+      "sha256": "d7a80d7d3a869981a0b4d0c24d5fda52488d0beea3bc70cc449aeda0fa37bad2",
+      "size": 1792
+    },
+    "03_Agents/plugins/uni-teach/skills/teach/SKILL.md": {
+      "sha256": "4a97326864b0f605e5cb70e7efd15cb285ec03d11d78a5f453ffc6f9167635b6",
+      "size": 4726
+    },
+    "03_Agents/plugins/uni-teach/skills/teach/references/WALKTHROUGH.md": {
+      "sha256": "122d58a1b179fe69e0fadb6b42f27657d74f93dbf6294cd4a21fd23c464e9a9d",
+      "size": 8528
+    },
+    "03_Agents/plugins/uni-teach/skills/teach/references/RECORDS.md": {
+      "sha256": "caec56b390682df85c5c6df2af5290813979b870d6690afff10e8a21d5f4e906",
+      "size": 18846
+    },
+    "03_Agents/plugins/uni-teach/skills/teach/templates/source_manifest.md": {
+      "sha256": "da499ce7937583cb42a73dadc433f0e5c35a0fb9ef6573d73f2e3ced006e152b",
+      "size": 223
+    },
+    "03_Agents/plugins/uni-teach/skills/teach/templates/learning_plan.md": {
+      "sha256": "c91446c82383fd002e87002faaa7332f59bb6ec4934421bf0e99f613236389af",
+      "size": 219
+    },
+    "03_Agents/plugins/uni-teach/skills/teach/templates/learning_log.md": {
+      "sha256": "b5a77445feaca76b8ec7ba8f76c64abcf32d0b0562ad912c15ec027ba21a0d2c",
+      "size": 2652
+    },
+    "03_Agents/plugins/uni-teach/assets/book.svg": {
+      "sha256": "1e7c78c39aef964a4aff99ed7c277c763bd330567e0d93c20592dd02af17d999",
+      "size": 459
+    },
+    "03_Agents/plugins/uni-teach/.codex-plugin/plugin.json": {
+      "sha256": "9c13a26ff0a86d54f99b101a72ac2e0a7a28507267b6bd04b7ac11e0b2889c90",
+      "size": 1226
+    },
+    "03_Agents/plan/SKILL.md": {
+      "sha256": "35459ae29d4204db6e9566ac066124f2f1d29931a62c960eb250577dc304a047",
+      "size": 3062
+    },
+    "03_Agents/plan/templates/source_manifest.md": {
+      "sha256": "b7aa0185f6fef05156184ab4d9a113721edbf6bb711bc7725dcd7fb9e831b009",
+      "size": 1119
+    },
+    "03_Agents/plan/templates/learning_plan.md": {
+      "sha256": "4becff6dee0e5562e7e0e0bd579727b438aaf8e660df8d130ecbc27cefb8bdb4",
+      "size": 1895
+    },
+    "03_Agents/ingest/SKILL.md": {
+      "sha256": "762922125fc07fa38bce64d6d9c1e7a199bd48402169b0fdc142c89580fe02d3",
+      "size": 25248
+    },
+    "03_Agents/ingest/ingestion_log.md": {
+      "sha256": "20169c07701dfedacd261adac3ebdb4a45f9cfae6dad1493422c7be9d671855f",
+      "size": 1289
+    },
+    "03_Agents/ingest/logs/20261003T142217+0200_behavioral_week1.md": {
+      "sha256": "00ca3f92ba1d9a8532348b388969cb443bd025b1e164ec40b24318f270ed6a79",
+      "size": 14689
+    },
+    "03_Agents/recall/SKILL.md": {
+      "sha256": "a181cda5145e58f2ec860c6814e0210ea82281473bf521051e8cd22f93f08fa9",
+      "size": 2875
+    },
+    "03_Agents/recall/scripts/schedule.py": {
+      "sha256": "d7a80d7d3a869981a0b4d0c24d5fda52488d0beea3bc70cc449aeda0fa37bad2",
+      "size": 1792
+    },
+    "03_Agents/teach/.DS_Store": {
+      "sha256": "03f50bf7d6df81aaa35513123d268186fec9e9a0aaa786745b6d90dde44e072f",
+      "size": 6148
+    },
+    "03_Agents/teach/SKILL.md": {
+      "sha256": "4a97326864b0f605e5cb70e7efd15cb285ec03d11d78a5f453ffc6f9167635b6",
+      "size": 4726
+    },
+    "03_Agents/teach/references/WALKTHROUGH.md": {
+      "sha256": "122d58a1b179fe69e0fadb6b42f27657d74f93dbf6294cd4a21fd23c464e9a9d",
+      "size": 8528
+    },
+    "03_Agents/teach/references/RECORDS.md": {
+      "sha256": "caec56b390682df85c5c6df2af5290813979b870d6690afff10e8a21d5f4e906",
+      "size": 18846
+    },
+    "03_Agents/teach/templates/source_manifest.md": {
+      "sha256": "da499ce7937583cb42a73dadc433f0e5c35a0fb9ef6573d73f2e3ced006e152b",
+      "size": 223
+    },
+    "03_Agents/teach/templates/learning_plan.md": {
+      "sha256": "c91446c82383fd002e87002faaa7332f59bb6ec4934421bf0e99f613236389af",
+      "size": 219
+    },
+    "03_Agents/teach/templates/learning_log.md": {
+      "sha256": "b5a77445feaca76b8ec7ba8f76c64abcf32d0b0562ad912c15ec027ba21a0d2c",
+      "size": 2652
+    },
+    "03_Agents/.backups/2026-10-02_standardization.zip": {
+      "sha256": "db28ae0b3e44c65e60838341650ac4991d6459b03fc71bd18e42f7a695067677",
+      "size": 596535
+    },
+    "03_Agents/.backups/teaching-review-2026-10-02/ORIGINAL_SKILL.md": {
+      "sha256": "180d78f5bd65e2f251dab60c716ac5874727595a28377e58590c1aac526ada80",
+      "size": 18318
+    },
+    "01_Notes/.DS_Store": {
+      "sha256": "2dbbc23c341e640f69a103e69e246589ffc4401aa17aae66351577c760e123d2",
+      "size": 6148
+    },
+    "01_Notes/2025_2026/.DS_Store": {
+      "sha256": "b1c9a68c89d26f6ea4bb6ff79c5134b569a52faa7461e739c99924a4f62979ef",
+      "size": 6148
+    },
+    "01_Notes/2025_2026/Summer_Semester/.DS_Store": {
+      "sha256": "fba2af5f3ac81ffd9c70ea7b4f4b16f5f147c9d706885a9d4647958403cbd04b",
+      "size": 8196
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/JEB160_Auctions_and_Game_Theory_main.md": {
+      "sha256": "ecfce00f8b18451e45a1daf7da7be3e52874d7e0eef1aaa118b5966d10edee5d",
+      "size": 2980
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/.DS_Store": {
+      "sha256": "9e710f352b50c0812321f222d00db9e0873a0598b8369f3109a7609cfb0f6620",
+      "size": 6148
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/JEB109_Econometrics_I_main.md": {
+      "sha256": "de2f952fdaa357d41dc50edd6c2357b3068bbaa783d86229eb30f5d4805d8316",
+      "size": 13330
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/MLR_Assumptions_and_OLS_Unbiasedness.md": {
+      "sha256": "706e162aa07eb4963c3cf4d131bce7c553523d232d74d75c4fd7873aba2564a2",
+      "size": 5691
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Dummy_Variables.md": {
+      "sha256": "2801bf0ead619aa6cc817b56ad2f55e35a72aa62c9b407000baf0647f72beefb",
+      "size": 6637
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/OLS_Estimator_Simple_Regression.md": {
+      "sha256": "c0fb8b0a5f386178f752a961cf3833484b698ddf515516b3ca9be3908fe570a7",
+      "size": 4888
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Dummy_Variable_Interactions_and_Chow_Test.md": {
+      "sha256": "c8d02d9594de3c78e52658176aa03e0868e08950c8e740a35696cfa472b40eed",
+      "size": 6595
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Heteroskedasticity.md": {
+      "sha256": "3fd884d63797323311009e3232e0bb846cbcdfbe493d013b88eea33c021b0f97",
+      "size": 11294
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Gauss_Markov_Theorem.md": {
+      "sha256": "ebd47f93cc5155e67c6962bba09780066940022afbc07677555b6279801cf481",
+      "size": 4935
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Omitted_Variable_Bias.md": {
+      "sha256": "96b3fb44e1c5fa3dd34bd2756fac06ebd2b7a749392b1cc63c0bcbdf11b02da4",
+      "size": 4262
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Variance_of_OLS_Estimator.md": {
+      "sha256": "d5ea1b81c132fd4a3abee8fd5d8bd929f3cf7ae63bd4bfcb4397621d763aa7b9",
+      "size": 5614
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Probability_Theory_Review.md": {
+      "sha256": "0b0ce57bca2b822b0bed708a0bb521f946f7411396b3ba3ceb4b72668536436c",
+      "size": 5751
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Simple_Linear_Regression.md": {
+      "sha256": "4922d1be2946ce58ece7da4032d1fbcebb32147a0e17f4ca11c6b317835f6122",
+      "size": 4012
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/OLS_Consistency_and_Asymptotics.md": {
+      "sha256": "0f21995c51c34d44943d8f89a2d84022a0ae157d1e6e1d0ec12c8f2f11eb9ee7",
+      "size": 5222
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Introduction_to_Econometrics.md": {
+      "sha256": "82b6d5079c6b3e68b78535027e7be6a11ba4a145601ea1ce3634b7ac7fbdfdae",
+      "size": 5098
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Linear_Probability_Model.md": {
+      "sha256": "bfb1503e7de6ac46fb0f18d9d9683148485554e474ff404b7c8a0c7a792c551f",
+      "size": 7079
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Hypothesis_Testing_OLS.md": {
+      "sha256": "29ded1cef6bcb4af48abe6d23c9ad82dab79187385df636d6ac53d1e0f2a7147",
+      "size": 5476
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/F_Test_and_Multiple_Restrictions.md": {
+      "sha256": "1f69d922e5904d0c32df285ac13652ea941ebbddedca238cb0cf50b3c5db2d88",
+      "size": 5356
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Functional_Forms_and_Model_Comparison.md": {
+      "sha256": "067fc3d9e5ff0fcb6ee6b533b2f4fa6297dfb320e9c478384c678b334c51f8c0",
+      "size": 6149
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/JEB050_International_Finance_main.md": {
+      "sha256": "fb62953302f97afbe5d90558574617ee772e809a118e3958e4c118ade74ab528",
+      "size": 11424
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/Fixed_Exchange_Rates_and_Impossible_Trinity.md": {
+      "sha256": "77f80275fe91c8bc1cc935a89dcaacee4dae26bfd4a127633cbfde08d5183d88",
+      "size": 6716
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/Exchange_Rate_Types_and_Triangular_Arbitrage.md": {
+      "sha256": "4950b3b198f2d4bfd075b631d837d1c0b79ff02fd411eb93988b9d88016834fa",
+      "size": 5080
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/Policy_in_DD_AA.md": {
+      "sha256": "c65b2a11b923b8792bea0acf49c8141e76675369e39a76956fa180feb05689f3",
+      "size": 5711
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/UIP_and_CIP.md": {
+      "sha256": "ad0f0043ec32ee752b4052468cb34b6ae25ce1967f17e74e6182a353db6f7fff",
+      "size": 5062
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/DD_AA_Model.md": {
+      "sha256": "9fb1256cf4910db2c9cf7f252462554ec449a5007fefd35588dae3985b3b1779",
+      "size": 5159
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/PPP_and_Big_Mac_Index.md": {
+      "sha256": "6eae18b7b34eafdfb67c7bcf283145293cceb90f452607bc7a2d431751e87aca",
+      "size": 6175
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/International_Payments_and_SWIFT.md": {
+      "sha256": "6efe9b91619b593384768e8cdc5f8abf12a8f8edb2507cb5e8fd90355fa68b4c",
+      "size": 4402
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/National_Income_Accounting_Open_Economy.md": {
+      "sha256": "a0091aa2f50ac8a06edf47355a2a6451c525e4107440582353aebb48d8643f13",
+      "size": 4237
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/Balassa_Samuelson_Effect.md": {
+      "sha256": "8ed5c049c7429f0b6ebe5fb00b46a0c0e2ef5d8ebbb80ed8bc908413df11c4b4",
+      "size": 6244
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/Marshall_Lerner_Condition_and_Swan_Diagram.md": {
+      "sha256": "3b2025079ede64ab3746c1dabfefc34e82faa16c5f02bd784b891ba46df05903",
+      "size": 7931
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/International_Fisher_Effect_and_REER.md": {
+      "sha256": "27a8937a497777118a179d923cccb08fec18282a8caa2d9965811dae98a3553d",
+      "size": 4583
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/BOP_and_IIP.md": {
+      "sha256": "548d76138c631084a19ac888442db273c8b860e1ef6e5c57465182af57951146",
+      "size": 4815
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/JEB010_Makroekonomie_II_main.md": {
+      "sha256": "3d01105352ff0cc47cf173b8fb4b89187b80ba7c6626be98cb796afa4a0a905f",
+      "size": 8101
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Nezamestnanost.md": {
+      "sha256": "c68bd7585827544c7b0c099463b99c6013145246cc7c6781f2cbe7e58aadd919",
+      "size": 4491
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Modely_Agregatni_Nabidky_AS.md": {
+      "sha256": "0bf8555237ce4e4d79347c230a3d81e81be64258f27f9acff815f10d361fbf11",
+      "size": 4622
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Ocekavani_v_Makroekonomii.md": {
+      "sha256": "33b3ea985974446afed1501514bb2d1381c04b3752dfa79d43b94d764b06e4a9",
+      "size": 4355
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Teorie_Realnych_Hospodarskych_Cyklu.md": {
+      "sha256": "67ed08afede6f04d2dfc49bba1a7dfb419f205b719db89ea1828acdafc1794b5",
+      "size": 5549
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Nova_Keynesianska_Ekonomie.md": {
+      "sha256": "7cf42e445170d6de8bdc52552ab3d00fd83a224399b2f53003e78bb7ea73c5c5",
+      "size": 3595
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Inflace_a_Hyperinflace.md": {
+      "sha256": "dc1796570d8967a3b3dc6d850a1661532f7da93c0c88cb6e2807c0555a2563b9",
+      "size": 3418
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Intertemporalni_a_Intratemporalni_Substituce.md": {
+      "sha256": "dec4baf92674afafdb2ca2f0d5f1884f467daa760b5bf87670ea9271d1115909",
+      "size": 3374
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Solow_Model_Ekonomickeho_Rustu.md": {
+      "sha256": "aae672a3a55ed865f22498b666f39dc298667f04b17a5d9cd4dd68752a713b39",
+      "size": 5608
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Hospodarska_Politika_a_Debata_Pravidel.md": {
+      "sha256": "a41a7dff998f8a740029d7ff51ea57babdbf8933bcaf1991f0c64c2991bbde33",
+      "size": 4926
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Model_DAD_DAS.md": {
+      "sha256": "1e6b1ff14f21afd6856f9c6232902f0dff889d22b3b2e6fc6e465ddeaca211d9",
+      "size": 4879
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Teorie_Spotreby.md": {
+      "sha256": "c84e8ea48bbc79af3cb75bf446e91b92ec6c641d6b97a860c01067d44b13dafb",
+      "size": 5673
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Teorie_Investic.md": {
+      "sha256": "2fbe7a25c00f0e9feca51bf9b1006be5af553103d254f62df4ccc760828faf11",
+      "size": 6485
+    },
+    "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Barro_Ricardanska_Ekvivalence.md": {
+      "sha256": "b83d655d7e0d436539f191a24a61a9cac3514ce4c1c53e5d30f8ecb4679c730f",
+      "size": 2996
+    },
+    "01_Notes/2025_2026/Winter_Semester/.DS_Store": {
+      "sha256": "25f16deea5417abc2b78a4f5d04cf6160a6cd30c5fd86a0bcc1bd79c976be4e0",
+      "size": 8196
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/.DS_Store": {
+      "sha256": "a671dd5ef47cbaac79a09712d98d323506432f409bc44f7d440effcd429e3ea9",
+      "size": 6148
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/JEB105_Statistics_main.md": {
+      "sha256": "9676ab289c83e9c902e0118157f256d40798bd6483b0d8b944996aaf9631e7a2",
+      "size": 16472
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Probability_Density_Function.md": {
+      "sha256": "bc0cbca90586b83823295f5181676f912890d1a5d2179375d7c791c04db13e5e",
+      "size": 3028
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Expected_Value.md": {
+      "sha256": "cb70c118c5ad9d1dcdfd87524db7c7bf798b25c4462d1fcf831a40a974b825f2",
+      "size": 3949
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Conditional_Expectation.md": {
+      "sha256": "a1b85746a38f79c6dd1e33d4c4a941d78a28d41923716f50d829726ebf89ad2d",
+      "size": 3674
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Method_of_Moments.md": {
+      "sha256": "dde3ced482c79f4bed69f3708999afd54dfa93269f96f5635064e6b4f6d1b5dc",
+      "size": 3858
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Binomial_Distribution.md": {
+      "sha256": "f3270510568fc5119bd5d6d7ba1ee1c67a1ab76101f5abfe829f5332ffe43b10",
+      "size": 3177
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Convergence_of_Random_Variables.md": {
+      "sha256": "dd4ce0c89897349734f79d97dc340a9fc64c86cd5ceda3d3e8b69eb73855ad9c",
+      "size": 3541
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Maximum_Likelihood_Estimation.md": {
+      "sha256": "53ab41f27abd8049a033d1d16324a21561a0a68c13da1dd3275477134b8df1d8",
+      "size": 4049
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Point_Estimation.md": {
+      "sha256": "191372d6881e43f30fd88987ed700cc11b17ffea8d17e0a6caf2080518a24c35",
+      "size": 3706
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Covariance_and_Correlation.md": {
+      "sha256": "29b398ac971a750f253c602ce0b7ec4398f264ac131130457d2709b1a165686e",
+      "size": 3817
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Bias_and_MSE.md": {
+      "sha256": "8a985b835193c0d855f2248c7c60fcba60926ba1408017f51a76f4c1cbf5f0bf",
+      "size": 3776
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Joint_Distribution.md": {
+      "sha256": "23a2dfcf0516484658f9afe286b6beb922e3d8e2eb60b070f03e5c73c322dced",
+      "size": 4051
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Generalized_Likelihood_Ratio_Test.md": {
+      "sha256": "4920bdb1f131f26ccd9cadc101ba906c7ed3dafd9fc11fa50d6f5e5da7ec6146",
+      "size": 3900
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Fisher_Information.md": {
+      "sha256": "0b1a9f84da880a2d118907266db99b8c20e0a408516b2fee8d57d861a4d79d5e",
+      "size": 3678
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Rao_Cramer_Lower_Bound.md": {
+      "sha256": "280c81061ee175540c5b1b81fb848c801493c7e99337e75b56dc34ca41558e6e",
+      "size": 3352
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Cumulative_Distribution_Function.md": {
+      "sha256": "20304f13876136ca1c74d74afc9421a0bf7ed79360b8023b13ed440638ec1cc6",
+      "size": 3296
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Standard_Tests_Catalog.md": {
+      "sha256": "d66ca9621f9f4f95de45d916fb9f7b05bb72e80b8ea5db207a43022531790964",
+      "size": 5373
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Moment_Generating_Function.md": {
+      "sha256": "8acde68265035f5b6be1b6e5d34e15eebd8f7e01bd6e5e63958de0ce6d198966",
+      "size": 3482
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/F_Distribution.md": {
+      "sha256": "b58db139863d6ddd8830f8b7f21e35f38d0e2fcc3b30635084cdbd5f19e550b0",
+      "size": 2615
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Sample_Mean_and_Sample_Variance.md": {
+      "sha256": "e9f98097c5cdd2e25535c6560e37b27005d9edf429f9e8f8000ce9bd1b834848",
+      "size": 3245
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Chi_Squared_Distribution.md": {
+      "sha256": "987f4e573cbea93bd0d9056ad416a89d6f1451060a6c1a62a1c42e3f66e6210c",
+      "size": 2820
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Normal_Distribution.md": {
+      "sha256": "b6dbe3793343f2592c044287348c7d9f7c491609de938990af77f70dd5329ce2",
+      "size": 4173
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Order_Statistics.md": {
+      "sha256": "d07c2c4050b4b5b1410ac692cadb1fdd33ae698ec8b94e4eb4abdcc0dabfacb3",
+      "size": 2707
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Marginal_Distribution.md": {
+      "sha256": "421955977eaa5a4c8412eb3db7f1769b44e396eeffb987d1deac716050905772",
+      "size": 2745
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/t_Distribution.md": {
+      "sha256": "3152de34b13a73ce7bff1f2ef00be0046990e51ee6248583144de77b9779f8a7",
+      "size": 3148
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Hypothesis_Testing_Framework.md": {
+      "sha256": "d64a902ef516971836da0cdb3b54b68e4b7893a77ccf88c69226fa8df5734abb",
+      "size": 4544
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/p_Value.md": {
+      "sha256": "fa653ffb3906e5c9505893cd9c7d4e3873c4fb95e14785f0d6df1187a205d41b",
+      "size": 3295
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Law_of_Large_Numbers.md": {
+      "sha256": "3b870d83239c79aa26d399a8fdd96327ddf5bedbe5bc73226ee56b4fdb69e0d6",
+      "size": 3007
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Random_Variable.md": {
+      "sha256": "3c430baf2ef5015f41fa62f01a9e6750b262f195151050808fad918d9741ab0a",
+      "size": 4442
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Poisson_Distribution.md": {
+      "sha256": "506dc183e7cbb11d40c83e024ffab51c7f15a8930a765e11fe022322c0690f1d",
+      "size": 3744
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Gamma_Distribution.md": {
+      "sha256": "a4a2df21f7f3baaabe2ff38baaf16f15f432662cf2782b4d6890a57cc25e31e0",
+      "size": 2956
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Exponential_Distribution.md": {
+      "sha256": "10dea69c4695b7f56a5f6d0f7d00447b29bbcfada90f954385254dc7fde1a66c",
+      "size": 3118
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Independence_of_Random_Variables.md": {
+      "sha256": "e528d930c975f57162850b3cac574fcf8fc11cd12e1c9183ddedd4fb03c0b7ec",
+      "size": 3527
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Type_I_and_Type_II_Errors.md": {
+      "sha256": "ebdf8ed4868a205eb3d1b7c157c416103aa5c608f4b1d685d652b4cd1db8a9ac",
+      "size": 3588
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Power_Function.md": {
+      "sha256": "87d4ff5de88dfd496dd6ec47c000257f52215124496ed50438c7feef0706ae0a",
+      "size": 3875
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Neyman_Pearson_Lemma.md": {
+      "sha256": "cffa8731383886ef472ea030b468fbe8e94a5efd427c6f4b0e64d23883f4ac57",
+      "size": 3873
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Least_Squares_Estimation.md": {
+      "sha256": "fdeab65c464a8642eadae73422fc537966e4eb202153e75d990995361d49db07",
+      "size": 3377
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Probability_Mass_Function.md": {
+      "sha256": "6f24fd56087437406ab0158173539f267def2ec5909fd6e825c95064c9a4f1df",
+      "size": 2361
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Central_Limit_Theorem.md": {
+      "sha256": "92a98463b13e4d5d6fb5859cf5782c27e214edefad5b461e5dfc14486fe6eff2",
+      "size": 3846
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Variance.md": {
+      "sha256": "e65e9d679c54ffadebe703ec11e9b032d92f5b177414b1e4b8bfa846004bcd19",
+      "size": 3066
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Confidence_Intervals.md": {
+      "sha256": "6fc7f4a9aee4499901dcff8bbd9ec6266b07b5e98d5c6c8285d1a83ef2f684d0",
+      "size": 5263
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Conditional_Distribution.md": {
+      "sha256": "698f8365ecffa3218751e1dfa9a2ee772f7ae0a76e95e6f56d85008dfca7bb9d",
+      "size": 4436
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Random_Sample_and_Statistics.md": {
+      "sha256": "a2a82a86914aa7e592ccf23ba0cbb401524f9b28bbdf1e89c379b6a77a61593d",
+      "size": 3119
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/.DS_Store": {
+      "sha256": "8c516c50d859db203450c30dc39edc98d5fdc9039877126221879e7a6b3f8d9e",
+      "size": 6148
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/JEB108_Microeconomics_II_main.md": {
+      "sha256": "7839a1f7a3ec44b9bf400beed23fd10b911fbbacfe21907d13f693a7e6d91978",
+      "size": 12118
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_5_6_Industry_Equilibrium.md": {
+      "sha256": "5a141d19b06d400abf8651a81b55c35509dc5e6277172a08403236afcf777d13",
+      "size": 4746
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_13_Bertrand_Differentiated.md": {
+      "sha256": "05fff537f9a79ee640026de5db0b109414bd30b2aad954db00ef51925e939fe8",
+      "size": 4763
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_4_Firm_Supply.md": {
+      "sha256": "cd4e6ee2115c26b986595d49266184389f7d99e48131da075db60f48abe8751c",
+      "size": 4156
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_1_2_Technology_Profit_Cost.md": {
+      "sha256": "cc9bd6a23ac493cf5f088269fbb6128223a05cf69bfe9f3bf1953d6453262ecc",
+      "size": 4109
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_3_Cost_Curves.md": {
+      "sha256": "40f57c611ac29313fc5d30443c94edb4617dd59427d998e54acabd631fc95340",
+      "size": 3297
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_8_9_Price_Discrimination_Oligopoly.md": {
+      "sha256": "e4bdbb3e7692c84a1a2071aaeb68e95276e562be547b272eda1e450a7f1b69c6",
+      "size": 5055
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_12_Collusion.md": {
+      "sha256": "f612af72763f65b32b5b6def61d6b0e0eaa7289203bcad4692d996e1b39141ac",
+      "size": 3963
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_7_Monopoly.md": {
+      "sha256": "e10be377ffcb8dc0575ab1008886bc1c215001f3bc03a0224b76a1bc7da78d2a",
+      "size": 3913
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Profit_Maximization_Firm.md": {
+      "sha256": "6e3362b08d76116ac3afeb86bf0f71e59099ccee557df7d165e9d3c687df64d2",
+      "size": 5451
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Oligopoly_Models.md": {
+      "sha256": "4704c8e31d912b10930b4d727085f96b2e9f012eb7393e586829c3648da07813",
+      "size": 6601
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Cost_Minimization.md": {
+      "sha256": "e33d3e4cebd7b2b657a799f8018501d5de4052e43cbf59f759cee24ac488b7e7",
+      "size": 6906
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Cost_Curves.md": {
+      "sha256": "ee1f6a3ba167efe3a154a53bdc0b338541881e06a282bf4e92d6e416a8102ef3",
+      "size": 4850
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Firm_Supply_Curve.md": {
+      "sha256": "d7e8a4eaa0061b81c36548abed67af558dbcc8552023417c3aa406b6f4b96936",
+      "size": 3895
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Returns_to_Scale.md": {
+      "sha256": "d6bf090f2b16c8840fba6c19af3bff553d5278a1e15c49d90df392bdbfa5806b",
+      "size": 3658
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Industry_Equilibrium.md": {
+      "sha256": "9ed087652e168128736e07999bf36357ee2cac6f73f7d610a9ebdaede327915b",
+      "size": 5742
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Monopoly.md": {
+      "sha256": "f0d1fca6bccd36a43a9f62f696f928208f334dde987207ab789f539e8a146f4c",
+      "size": 4754
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Price_Discrimination.md": {
+      "sha256": "fbcca71d0ed148eb2ad82c1f9c29c8e261249e7ce25e55196bda3f8bf3d87337",
+      "size": 5872
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Production_Technology.md": {
+      "sha256": "f37f6701b82f5b990c4fcb58ec7374b8eb50c1253323cb51ccb022af20e103ac",
+      "size": 6956
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/JEB009_Makroekonomie_I_main.md": {
+      "sha256": "11513f22a84cec3d752236dd5991ce220a406f9f5d2b04399c795d5a9a722a07",
+      "size": 11947
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Makroekonomicke_Indexy.md": {
+      "sha256": "e768e1d82da8bb2da97b4ae1b81170a274bebfc22b19751b6bc40977d8112156",
+      "size": 4299
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Solow_Model.md": {
+      "sha256": "6c94f39d2a4d6e4664a6e3e86e249af745346d72ba0027705c5649d2b5b2e319",
+      "size": 4629
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Neoklasicky_Model.md": {
+      "sha256": "44da875c942a3c02a3ef356e20c93b76fbcd72b1733aa0778cb31146c02f9b8e",
+      "size": 3874
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Nabidka_Penez_a_Monetarni_Politika.md": {
+      "sha256": "cb2eb1ddf41ab28c9a7720c5c2c0c11c7dcaeaa40bcd07440d9e6e57fab937d7",
+      "size": 7287
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/AS_Modely_Agregátní_Nabídky.md": {
+      "sha256": "697e331b4d78d1dc2e9e082d4eb0236d1be4d34d8fe0fad94e445cfc6dc219d5",
+      "size": 6346
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Mereni_HDP.md": {
+      "sha256": "720bc7a17825eeaad41a09c1eb663afb6392a9b0aa617972e2fd7674d5a52dd3",
+      "size": 3079
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Vymezeni_a_Metody_Makroekonomie.md": {
+      "sha256": "734b8f34a55a395319a4e3c933da441dee7c1e3bd7824a9cc2a3dac9d688477d",
+      "size": 5232
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Keynesianska_Ekonomie_a_Model_Duveru_Vydaje.md": {
+      "sha256": "f776084185d636d462dbed99727ef2fe6f2a31781684f01315421cbf23cc941f",
+      "size": 5363
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Teorie_Investic.md": {
+      "sha256": "9d56ed41cff17d2cb52ccbefde74d639f3b44f783b9674a1a61c8b3a48b1f12d",
+      "size": 5796
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/AD_AS_Model.md": {
+      "sha256": "58983b01245096bbb741c863e406c1855ae677c5dc0c9da500da2a013b11818c",
+      "size": 5118
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Poptavka_po_Penezich.md": {
+      "sha256": "407f4509a7691ddc5e3ba3a7cc8fc6b2b5279c6213ebf384277454b2a4ad2e40",
+      "size": 6635
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/IS_LM_Model.md": {
+      "sha256": "145126bf1334c8aa5262e334940bf8a380d4074a79f151704b026c3e9ef90d8f",
+      "size": 7438
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/JEB027_Finanční_Ekonomie_main.md": {
+      "sha256": "4faf15af642558fb6f7967076cb5ed59f8764a1a0c7ade557f36f82af5211b82",
+      "size": 11156
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Financni_Instrumenty.md": {
+      "sha256": "57da2c150d2b48c1601dc1f11076a5d8091f2777b97b3887a1500eebe54bce62",
+      "size": 6045
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Financni_Vykazy_Banky.md": {
+      "sha256": "91badce7186294334e34fa7d84e054b636597dfd92275cd2be29ad2ab2574e02",
+      "size": 5113
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Decentralizovane_Finance.md": {
+      "sha256": "f387abe3ca042abbee2f77d90e930e0f21440beb87ac377e1cdd56039434d135",
+      "size": 6087
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Mezinarodni_Finance_JEB027.md": {
+      "sha256": "6529222cf9e5eaa79596d6cb0f030d474475d920ed474c7d9beb96889f6975ce",
+      "size": 5937
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Pojistovnictvi.md": {
+      "sha256": "5df15edb1d9a5be42f5757c16f44b80ed849501a6f5557265ed4f86d75a607bd",
+      "size": 6145
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Dluhopisy_a_Oceneni.md": {
+      "sha256": "faf454076d5dc9987c453ea3d6c2b6a439247374c108d8cf99d85b940646ca12",
+      "size": 5622
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Bancni_Regulace_a_Basel.md": {
+      "sha256": "47354d19d305388d0c3d503caf7ee74ec7186c0303db92a7bedb1880f9757d0c",
+      "size": 4891
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Centralni_Bankovnictvi.md": {
+      "sha256": "3f0d38ac0dc80e8e9b407bd95547a0fba25d3b7fd11661a866a0362684e03544",
+      "size": 7292
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Hospodarska_Politika.md": {
+      "sha256": "64bd3b2af5c29e6f9923d6ad8195d5de9b970335a298f66e084188bd63193501",
+      "size": 5229
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Ceska_Narodni_Banka.md": {
+      "sha256": "bc888aecc0efd48c63af2c3d7c6c03df1598a1a196ba1369c362e807a7f70c84",
+      "size": 5790
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Blockchain_a_Smart_Kontrakty.md": {
+      "sha256": "25697c03683e01fb963d50a2fd6bcb738219904ffa36fa4c8afc07164f88fc69",
+      "size": 6138
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Akcie_a_Oceneni.md": {
+      "sha256": "297bf6e193f5ec98d00503606c2710bb30bba7f144846cf79859a856044317d3",
+      "size": 5493
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Urokova_Mira_a_Casova_Hodnota_Penez.md": {
+      "sha256": "40aa0eb47eebd041904401aa3532d1a719a4c18cd3d35f480eca5f9fd4952a37",
+      "size": 4882
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Kapitalovy_Trh_a_DEFI.md": {
+      "sha256": "8570193aa8620a13db1a5288bb6b2082e7df4238e207fca86cae133af8f2c490",
+      "size": 5148
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Kryptoaktiva.md": {
+      "sha256": "2bd6b549ee85e7d22bee86eff6f56e201b327a5adf4e922fd36436b832171254",
+      "size": 5795
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Operacni_Riziko.md": {
+      "sha256": "06bf101153036edf0a49341057b452402ca03c4e474ba71058b36bec9f7f0146",
+      "size": 5328
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/ESG_Finance.md": {
+      "sha256": "6e4615d835e28ed9ab80a94e184094e40e48ffaabe541ce922c432f25723f099",
+      "size": 6123
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Hypoteza_Efektivnich_Trhu.md": {
+      "sha256": "9c8d57f6d9f789ecfe918a921a1beffcfbd1288978747130618f5dde762223c2",
+      "size": 5914
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Verejne_Finance.md": {
+      "sha256": "f5733289374b9dda716dd3d8022679713e20b5e70204c16715faab3a7f89b070",
+      "size": 6042
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Komercni_Bankovnictvi.md": {
+      "sha256": "bf1dbe93a025d2ff372cbbc12b8c5cab390845ed01497a8152207062e1dedb40",
+      "size": 5425
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Financni_Trhy.md": {
+      "sha256": "b2babc3c88a2e0f46b04fecf62ed9f8929ce513b95ea5a597c4fe6279a0e1ac1",
+      "size": 5516
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Uvod_do_Financni_Ekonomie.md": {
+      "sha256": "fa25f4d415c3ac0e3801dddc027bcf3735778a0563fa105d8a95c4f055c8b9fb",
+      "size": 3407
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Penize_a_jejich_Funkce.md": {
+      "sha256": "0c0d94e813eca6ee8c934830dd384b74b9da69f020c1d21553e75dfbf94f8dc5",
+      "size": 5257
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/ROA_ROE_Analyza.md": {
+      "sha256": "a99c4c5c51dce760b73081c01c5b1c2eccb38a29fd973550eddbba1c3cb93f11",
+      "size": 5130
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/JEB044_Financial_Accounting_main.md": {
+      "sha256": "6c152c4c5091c04ad4f4180ffd8a4543f277a1f15b9b1120bbb2182d95f5bd8a",
+      "size": 10743
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Sales_Returns_and_Allowances.md": {
+      "sha256": "539b0efe6da0992a69dc0ea85e053926521756ca79c594c9677fc4f320ea7abc",
+      "size": 3311
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Allowance_for_Uncollectible_Accounts.md": {
+      "sha256": "56c2bd6a9b3d5394bcc8ba40ba4ac67dfad29454f02efe1ff489f4f16f412637",
+      "size": 4760
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Accounting_Conservatism_and_Contingencies.md": {
+      "sha256": "cc5f2f1d089d32d3da0585b65a433669069393738709c4ec6b7ced2dde32dfd6",
+      "size": 3509
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Expense_Recognition_and_Matching_Principle.md": {
+      "sha256": "bbfe9fb5c5273a0dc2cae5655c758642417b456d205d59a662f05b0bca8a0bee",
+      "size": 3865
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Accounting_Framework_and_Financial_Statements.md": {
+      "sha256": "a9c4638f52ba5ec30d6c2507417b3392f35a59676428d296e7eac226bffe4b75",
+      "size": 4219
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Inventory_Cost_Flow_Assumptions.md": {
+      "sha256": "0a0ca2b85bfca0822db48fb2ed1fba04ee3117a5d559ac9940ac7c4a91101de9",
+      "size": 4632
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Goodwill_and_Mergers_Acquisitions.md": {
+      "sha256": "4916a81c1bef87ca6a87d7a1955ad567977975cf8d5de0ef50e1272f215997fb",
+      "size": 5318
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Statement_of_Cash_Flows.md": {
+      "sha256": "0374abfb137f402e5a57721f19a60a4379df1b00a3ad80eef0ac11a4079ff0ec",
+      "size": 5215
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Double_Entry_Bookkeeping.md": {
+      "sha256": "4beb4ed639e05140f67819b792720553f974a78d2ee1bf8830f087100ba11a6d",
+      "size": 3546
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Accruals_and_Deferrals.md": {
+      "sha256": "d3c451de6d31388a5e35fcb770ff99c707523cefb3e62aa05b5dfec611a6f982",
+      "size": 4747
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Income_Statement_Structure.md": {
+      "sha256": "612b546c0e4f1acef5264907012b6a54aab6725059d2ace6bf7e9938627a300b",
+      "size": 3659
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/FIFO_vs_LIFO_Analysis.md": {
+      "sha256": "6f22cea0915ae9d6f12ce5a593a8522ed702d5d2f685da5f4e4d06d62114c586",
+      "size": 4238
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Accounts_Receivable_and_Credit_Sales.md": {
+      "sha256": "839545d2ed5bdb9b1b2776ed051bb28ec79edac6b255589563a6838c6bfe4795",
+      "size": 2854
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Revenue_Recognition.md": {
+      "sha256": "dcd8b07c8584104d1a9df927afbc2d8009342aca6a8ed90ca7578d6ea03538cc",
+      "size": 4992
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Balance_Sheet_Elements.md": {
+      "sha256": "5eba18d8ab734fdd39307f2adac6dbe0390c690e62b54daab05a39adeeedede6",
+      "size": 4637
+    },
+    "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Minority_Interest.md": {
+      "sha256": "911fa5014f1de5d2e155494d97f0eafb10f858c27647269630b4d7c238546a52",
+      "size": 3400
+    },
+    "01_Notes/2024_2025/.DS_Store": {
+      "sha256": "8000e66f0acb51fbeb2c3d261872911d52a2d5a7563209a5076270af055da053",
+      "size": 6148
+    },
+    "01_Notes/2024_2025/Summer_Semester/.DS_Store": {
+      "sha256": "5f31f9928ee1df3e8fe8d46f0aed854125c9262c957ffa27b03afc00a46e8162",
+      "size": 10244
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Probability_Definitions.md": {
+      "sha256": "1c4356f11662d0783aa42108ec1165d7a7338c499a882f5544df870731a5f66b",
+      "size": 3706
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Frequency_Distribution_and_Visualization.md": {
+      "sha256": "45cdcb23beb4ddf9c217ec05a0c9a613e5258a5fbd50b776e0959e4d3b666920",
+      "size": 3311
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Scales_of_Measurement.md": {
+      "sha256": "b0cb05bfd004dc2f643c5c2a5d17b02af0308ac5f876a0bec9e1277d16cfbaad",
+      "size": 3261
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Independence_of_Events.md": {
+      "sha256": "37bd037d0fed960fd554fa44934a4d3edb2787d22c15501e531c0055420e2ceb",
+      "size": 4408
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Sigma_Algebra.md": {
+      "sha256": "949cb9820faea3a2431087c128b233bd7d637fe950e834cf8ae36ea75918c13c",
+      "size": 3841
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Central_Tendency.md": {
+      "sha256": "77e6fa8216390d0edb669fba458c04c0e611c9c47e92198ca406c988e534bae4",
+      "size": 3358
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Association.md": {
+      "sha256": "0cbbc62b343e8003f7899744ae8000cd5244cd87e1c34d62c01103716ac6bc78",
+      "size": 3843
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Set_Operations_on_Events.md": {
+      "sha256": "5d4bfeb413dcf4b26340a1b36c3a864b6b87c1c3ae150243e920c1fb6320d7b2",
+      "size": 3330
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Binomial_Coefficient.md": {
+      "sha256": "02dc48343f6a3a63e46bf7bda6c834a88a009ac5a084b2f45703eae42cd38260",
+      "size": 2600
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/JEB142_Introductory_Statistics_main.md": {
+      "sha256": "f7c70c5ce000587d8386dc81921fb3f801cf585b39c69e016bd09468b1c1ba10",
+      "size": 13159
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Conditional_Probability.md": {
+      "sha256": "8aea622dbb085f6d7208c54a7c02fa9b9454082b040d137ba114ee48d91c52b8",
+      "size": 3523
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Total_Probability_and_Bayes_Theorem.md": {
+      "sha256": "278fd5a1b400bc7e03702039361527974ae0b01d97f65463332ebf8f197e0e4b",
+      "size": 4791
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Data_Types_and_Variables.md": {
+      "sha256": "50f67762f7011c3264494ef5ee4120bdb60b92d15dbdc31963b8bdb132a59413",
+      "size": 3231
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Dispersion.md": {
+      "sha256": "56a6187d7f533433be4254d9e060bee1bdfe9a0b5fd3fd62fd910d59b84e6f41",
+      "size": 3317
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Counting_Techniques.md": {
+      "sha256": "fc648c0da4cab86480b420970ad7d6891ac5d6fdd7960cbcef16c3abd63298a3",
+      "size": 4070
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Sample_Space_and_Events.md": {
+      "sha256": "5e4a5c40f9f067988a6c5859bd7cf7849f6d232b76e7d33bd78755dc2e8473ba",
+      "size": 4990
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Kolmogorov_Axioms.md": {
+      "sha256": "78cdb47ebe20a802e99ec16b14952b4eb3b89a5380f57b509de574f7aa929066",
+      "size": 4032
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Sampling_Techniques.md": {
+      "sha256": "790ea1288602741e14b99ff652d0026ff48582dcb31e3f4a95e2c78a66df4e55",
+      "size": 6974
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Indirect_Utility_Function_and_Roys_Identity.md": {
+      "sha256": "46021041af17a90d7b0d0e32b4f83d31952136ea7a944b2790197859743ac5be",
+      "size": 4001
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Budget_Constraint.md": {
+      "sha256": "099563882f6555744990669ec8c62456e046b8fca90bbd2b62d03fc45e8c793a",
+      "size": 3661
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Utility_Function.md": {
+      "sha256": "3b6f4d960aa5ae7f9d5dadcc21e6544f16d0b25f965dd6351db17901c70e3139",
+      "size": 4914
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Revealed_Preferences.md": {
+      "sha256": "0482b545836864818c3a37330350dd21234fa441ba46ce427a1435627d8b6372",
+      "size": 5275
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Intertemporal_Choice.md": {
+      "sha256": "b74d5eaa8867b610752962d5fa999663a22e0c90d032bade7b7f096e8aed203e",
+      "size": 6233
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Duality.md": {
+      "sha256": "9b6ac99d38bdf23e1aa1f036550f962d046296d727b0ae2a90d60dae4d300192",
+      "size": 5757
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Slutsky_Equation.md": {
+      "sha256": "2749f2eddac71d10ae92ba69a511877649acaa1520e0346bd6bc6565cc7a14b4",
+      "size": 6387
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Uncertainty_and_Expected_Utility.md": {
+      "sha256": "eb6c587725cf253b85519fb6e8e227d5bc3715e4b8030eacd0b8ff5a2765dbf4",
+      "size": 5454
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Labor_Supply.md": {
+      "sha256": "875cbe7f39dece5094ae223e9d20228fc37133b1896560fc3b5e9b338412de26",
+      "size": 6164
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Endowment_Economy_and_Buying_Selling.md": {
+      "sha256": "eef97a5022ae23d29fd31c8f6b34551a592742e9f8e0615f109e4c5eea2bf60f",
+      "size": 5781
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Consumer_Surplus_and_Welfare_Measures.md": {
+      "sha256": "61484a19d87ce3a04b82f6463fd3b419e283a12b5c4bb8998941b86c4307034f",
+      "size": 6986
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Utility_Maximization_and_Optimal_Choice.md": {
+      "sha256": "104cb83d0eb5885d0ae55ecc5448aa9bc8ef359e04b9ab9c5ecd6bc161e4b4f6",
+      "size": 4727
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Expenditure_Minimization_and_Hicksian_Demand.md": {
+      "sha256": "a9df8f28a3995da95c34d1e8fc102ec850f06626dafe52214ef22206579bcd73",
+      "size": 5356
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Income_and_Substitution_Effects.md": {
+      "sha256": "d60b047134775760ec46496fa388cb36d595c0d0efbff7056e54fc66bc9cdf75",
+      "size": 4824
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Risk_and_Insurance.md": {
+      "sha256": "d361dfdf35345403493517d107ba8286933abaa9f112c6a49dc023b5f827952a",
+      "size": 6641
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Preferences_and_Indifference_Curves.md": {
+      "sha256": "2dc7c6c1882e6e4c0561a6d502274fb0c2b6c341660580b5e6a8ab6336e0d68d",
+      "size": 5065
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_Microeconomics_I_main.md": {
+      "sha256": "e70e1f383756b0a0f3a8429e666a42a88bebec02b093318f929563d25dc1f837",
+      "size": 13588
+    },
+    "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Marshallian_Demand.md": {
+      "sha256": "d61f565300db4734b9de777ed18fa61403d25eedee7594af7f0fd43b3c2b136e",
+      "size": 5073
+    },
+    "01_Notes/2024_2025/Winter_Semester/.DS_Store": {
+      "sha256": "3fdf2ede821d2fd070f1b3701acb91f88592544afaa5fb39f5a5032518e89fcb",
+      "size": 10244
+    },
+    "01_Notes/2026_2027/.DS_Store": {
+      "sha256": "520188bdd4ee5180a9e049079a6f0c36a73b920c8c38ec6d3720d4a7527371b1",
+      "size": 6148
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md": {
+      "sha256": "4cb0d5b42de5b00d45ac19201a730d0058a6665354efe91d03217d3a109d6729",
+      "size": 8282
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Comparing_Economic_Systems.md": {
+      "sha256": "8764485b6a043a0bcf7003eea29bf86eaa00b3cb42d43f2fde4d15cb696a2778",
+      "size": 28362
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md": {
+      "sha256": "ad6b2563b63aec9f5d51f12a6c628859bde634c2452e0f90c2fac1f939f0b79f",
+      "size": 44075
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md": {
+      "sha256": "d4bf9c4cdad229430e95558fa87fd4edcf657d0b2820a100f9160c229a5b3f3a",
+      "size": 36091
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p41_gdr_growth_comparison.png": {
+      "sha256": "a61e8df151a65d0c5f99e13a34d02679750d93c54b299c80325aaf85f4acb447",
+      "size": 340637
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Roland_p23_stag_hunt.png": {
+      "sha256": "3ee5fa9f85fc6c4ce4f13000273ddfa9009b6b363a64c1bc53f8bdc87626bc1a",
+      "size": 474870
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p52_collective_punishment_article.png": {
+      "sha256": "ea4585394bd976b2664b327b734dda8d419832556bcaddda2a9a9e49aaeaa410",
+      "size": 1000119
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Rosser_p18_Lorenz_curves.png": {
+      "sha256": "72aad1ee971fab555a34d57ad9eaec0c3209933a980538bc7075ee962a4b701e",
+      "size": 293578
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p44_institutional_feedback.png": {
+      "sha256": "86e024baf86955fbfed3c433009ca998bda1773156192fbac52702f870112694",
+      "size": 488913
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p34_narrow_corridor.png": {
+      "sha256": "3d10efcdd0733682568f77228804fccfec91e4bde061604cedf312a487ae2f19",
+      "size": 532613
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Rosser_p16_table_1_1.png": {
+      "sha256": "7955eb1b84aba09b92ea7ea0ad518c3968272d0ae58ee32b24a1e6f4f84dde70",
+      "size": 409971
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Rosser_p17_table_1_2.png": {
+      "sha256": "d8b076e61b2cd11ecc4bde013b3554e998e10d58675be580383d8fdb2194528d",
+      "size": 303880
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Acemoglu_p20_population_map.png": {
+      "sha256": "039353366f9dbabf9806e66d40000c588c29641589eec8dbe4ceab661a5b9f22",
+      "size": 412716
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Acemoglu_p12_mita_map.png": {
+      "sha256": "d41e48f2eb699aa4a874a136609baf43bcff972e0bf5d4dbcaf0a60e5ee9d613",
+      "size": 455485
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p40_austria_czechoslovakia_gdp.png": {
+      "sha256": "6580e8b47e832660d7bf9b9fc556b43124a9d62a9d2e2e16e1feb1222c77532c",
+      "size": 480336
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Roland_p16_prisoners_dilemma.png": {
+      "sha256": "6c04c30c9a7a2c42827938bb073b208c67c75f788050fae389f80ef2b880e3a1",
+      "size": 789617
+    },
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p27_ownership_allocation.png": {
+      "sha256": "d8bda424bd3ddc5ce6156ec4c628bca82b0688aeaba74eed4d19f84e227f8c96",
+      "size": 457492
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/Takeover.md": {
+      "sha256": "dd8b596176ed089ef6e5a95200a68a1884279fabfb05ae0b8b96252d6a5a736e",
+      "size": 247
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/Merger.md": {
+      "sha256": "c66e31cc462739e862c55f424d164d4d33657408686db45f673c54c99347e7b5",
+      "size": 428
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/Acquisition.md": {
+      "sha256": "946dc0fc874ff2e49a49df8f224293f182d885053784dc239fae46ee3f48238f",
+      "size": 321
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/JEM231_Mergers_and_Acquisitions_main.md": {
+      "sha256": "0e811bf8878f0ffacaa974e8d78cf0cd6f6926f9cc03371ed46e65f6a876ea86",
+      "size": 109393
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915131256.png": {
+      "sha256": "331c5c41a0feea4fb6c6d8df3bff4793dfc69cf3a23d1c20719bf9a54db6058b",
+      "size": 106430
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260916152909.png": {
+      "sha256": "06c316439b3b41098589b6a80fd3861d931462b7dfa449f49a7998eb171adea6",
+      "size": 194467
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915104951.png": {
+      "sha256": "bef4c2a1398613c3bfe55dfc86fc2a7dd9488235de83eccfa3e343b4d755ee86",
+      "size": 163945
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915131444.png": {
+      "sha256": "98f07d392d1a943c4fc0bb0da176092fb3c3efcb1b0524c30d661fcd549c9ca1",
+      "size": 169256
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915104414.png": {
+      "sha256": "feb47be1aae67a9272e3e2504832ddeafc93ae10dd3d6cdd4e6055b983676f95",
+      "size": 276143
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915115518.png": {
+      "sha256": "4ff58e201940e6587052732c188ab448613105d51bdfd9cc24749d77cdba335c",
+      "size": 149943
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914121219.png": {
+      "sha256": "b16afaab2a549d62dd03a57570c35ec66dea8ac0a9ced6cb40b9ba3e01ee4c66",
+      "size": 137007
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914121027.png": {
+      "sha256": "801f387fa639980fa46ea0ad61b92251b6f7a2b730cc740dc8b23ae23dfe3a84",
+      "size": 127526
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915131928.png": {
+      "sha256": "b0d1531ba85c18a4f89fca06d7e9c200f859a10cc118464f275ecdc65db67df0",
+      "size": 216758
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915090921.png": {
+      "sha256": "a5b7dca48a7efca1a04ffac3ea0ea6dc6d8a7ca6f96e707e050dafe71b69cd90",
+      "size": 97506
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915135436.png": {
+      "sha256": "ca476d7daf03c29b1b0ac62e73f1bca1b84599c6ac3bbe696fa3cc9beb15a899",
+      "size": 197921
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914120514.png": {
+      "sha256": "973dd5f7a32172c53f3f00e86187ef097776295e35e3433e2c1c7abc4e92f716",
+      "size": 175446
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915132946.png": {
+      "sha256": "078738ccbd3915627a3c398d12fed0361d6f924d01772e389d5437f23689d952",
+      "size": 106061
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914120712.png": {
+      "sha256": "681cf72f4e0023625d1dbb2b05fd7a83148d50ab019afc8ab848fd2f3fe6f266",
+      "size": 186134
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915090924.png": {
+      "sha256": "a5b7dca48a7efca1a04ffac3ea0ea6dc6d8a7ca6f96e707e050dafe71b69cd90",
+      "size": 97506
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915104003.png": {
+      "sha256": "6023153956f44771a4859d5fe6c7a9d08b0d110a76582c382483968aff67c5d0",
+      "size": 230450
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915115654.png": {
+      "sha256": "e901f43a782c3a19f972230a1477ee7e4827b37cb33fadcd64514960afafcb26",
+      "size": 162241
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915131535.png": {
+      "sha256": "98f07d392d1a943c4fc0bb0da176092fb3c3efcb1b0524c30d661fcd549c9ca1",
+      "size": 169256
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260916155252.png": {
+      "sha256": "e603f45bea0b7fad51b325e2d4d4779f047f3a1f7c0665aea67fbef6fda51776",
+      "size": 132975
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914122853.png": {
+      "sha256": "df4d014da16de9d34c063afeca206ae876a13d6c67fb63d6320634d08c2bf0e8",
+      "size": 201547
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914122847.png": {
+      "sha256": "df4d014da16de9d34c063afeca206ae876a13d6c67fb63d6320634d08c2bf0e8",
+      "size": 201547
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915102049.png": {
+      "sha256": "dc2f29f75339a508f32ec1fa789f984896c05dab8ee18a79d81437d9da039adf",
+      "size": 271231
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914123351.png": {
+      "sha256": "7f3d20100b04f7d31d7b0709167883e3faff2a96b2e9cc55e9d9303558d1799c",
+      "size": 165782
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914122259.png": {
+      "sha256": "a49f7e5427baa4cdd44d1275d03f5888cc8159191effbf0c598adafdc55cf33a",
+      "size": 208597
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914122305.png": {
+      "sha256": "5dc641158d7c0bba85e1621411e158215a1a44459fbd53df3261c49b0d4aef2f",
+      "size": 220637
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915091741.png": {
+      "sha256": "988ce265254c24bec38c30a1bdcfb4f24e114b5a54ac2c082b7735aa5cdfc488",
+      "size": 152432
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914121432.png": {
+      "sha256": "a7532fa93086b996ada8eb2f17cdc47cb6d6776b194fdf9fd448371828e14a37",
+      "size": 190114
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915133451.png": {
+      "sha256": "dc4763eed0b5f0dc75846e83f36037ebfa7af20ad542f3d69a542e19169c0636",
+      "size": 65066
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915130659.png": {
+      "sha256": "79ba08878376d417271fc79a70933b188762b274da08fad9e46d088a310c2f05",
+      "size": 164286
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914121253.png": {
+      "sha256": "a089c19b825cb82edb09035f637f905a4ad204ef5203b61b0fa2aa133a54f365",
+      "size": 145293
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915113123.png": {
+      "sha256": "9bd0b1efdeb82825119d370925be1bfb116bc9fdfa15590ced9e07eeca6f2304",
+      "size": 277608
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915130704.png": {
+      "sha256": "25a3f61f6b44af5e3b404c45aaf543c0637923dc9bae077d2eeb9074030d3d78",
+      "size": 118465
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915090808.png": {
+      "sha256": "fca668e5d84aa20c2ac6a9effd1c10f71e9a12071b86de5831ed6725491ed9b2",
+      "size": 139820
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915112348.png": {
+      "sha256": "b43deaad012ba5b30376916b57c29c7c1db134e0330ccd96ffea8c426bd4444c",
+      "size": 211049
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915091727.png": {
+      "sha256": "a20d37b5a4af19dba8ff0141241d9a45b3c5e11faf660cbd62894a457768c182",
+      "size": 140789
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915095227.png": {
+      "sha256": "2786eb8e73249628c0ebde70499bab037869a58b93f25882108948c090f31d50",
+      "size": 155428
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915133958.png": {
+      "sha256": "6f77a2e763aadcb01eb4a33c3a80f6ff519c50b0afa2007fd416aecdf47f3278",
+      "size": 100168
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914115309.png": {
+      "sha256": "bfdd3326de4813bc1bf06ed9b0321905609c503e6785803376db8382defd656d",
+      "size": 165871
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915091730.png": {
+      "sha256": "a20d37b5a4af19dba8ff0141241d9a45b3c5e11faf660cbd62894a457768c182",
+      "size": 140789
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915131541.png": {
+      "sha256": "ffc87611f3d0c371ed6af72c856d777b3a37d12f7af97032a882073e817b4af3",
+      "size": 134758
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915103726.png": {
+      "sha256": "712ce709f748562cda833f023bd5613f7daa3ac36015cf85f309a6ab35340018",
+      "size": 256770
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915131347.png": {
+      "sha256": "d798857ea263671c186c2fd8c70fa3ac73fbe5c0b15e9a88d406e236747cfc84",
+      "size": 103205
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915130716.png": {
+      "sha256": "dcd071247113be9e17cff72efd89c1386a8c130a3b45ac9d54c37ca62c45d7cb",
+      "size": 144148
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915091721.png": {
+      "sha256": "0bc3b793939a667138aa65baefa1d72e5e6adea5615b6dd4358dd447f2a88b7c",
+      "size": 152615
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915112358.png": {
+      "sha256": "14515ce3011ffdd7afc8af1fbe7f24a24791478a12b982bd036058210076e282",
+      "size": 224752
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915133816.png": {
+      "sha256": "9028e972d3231ecc6f451e87dd5e122b520d3b0495f8ca91a12476e765b602b3",
+      "size": 164332
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914115534.png": {
+      "sha256": "fa1e25d3348e8e32e9a4cc27780ecb1fc62a1538278324462bd69692936dfccb",
+      "size": 46280
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915130516.png": {
+      "sha256": "79ba08878376d417271fc79a70933b188762b274da08fad9e46d088a310c2f05",
+      "size": 164286
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915131422.png": {
+      "sha256": "cc5240199762fe3c193144af14ef42b831cae87ac6a913bc9da19c8027d32a99",
+      "size": 165336
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914113232.png": {
+      "sha256": "bfdd3326de4813bc1bf06ed9b0321905609c503e6785803376db8382defd656d",
+      "size": 165871
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915102348.png": {
+      "sha256": "e41f92360e9253b2d67161e5373fd7d83f14fed7b2636482f4941a2de116937d",
+      "size": 100234
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914122343.png": {
+      "sha256": "a49f7e5427baa4cdd44d1275d03f5888cc8159191effbf0c598adafdc55cf33a",
+      "size": 208597
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915133951.png": {
+      "sha256": "3cdecbff21aa59d6f0c8ccdbf1d191c46a6c7fcdf277e3e81fdcd454db2e7281",
+      "size": 123033
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915131439.png": {
+      "sha256": "da9fb16363503f60869a014e8a574ba8e0d863205857784533c2919cb225337b",
+      "size": 108241
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915131405.png": {
+      "sha256": "db7be2d3bb5685939d92de3ebd69672d398c2f295d212e1043cae3f1afca184b",
+      "size": 162709
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260916154525.png": {
+      "sha256": "ff690dfffd95cadbd65d66739bccdc2d1354310b062609a215d06f96d112418d",
+      "size": 135234
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260916151707.png": {
+      "sha256": "7b390a4cda195fd3e20791dc4578439528ba56c9ed25fd464ff65f4d57b05bb1",
+      "size": 204776
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915113058.png": {
+      "sha256": "fc89127be78a0afcdea378f8961e6e0182261ebbb49e2e5564828f869ca88dc7",
+      "size": 183407
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914122345.png": {
+      "sha256": "a49f7e5427baa4cdd44d1275d03f5888cc8159191effbf0c598adafdc55cf33a",
+      "size": 208597
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915102419.png": {
+      "sha256": "81b7b4c5c8d33dca2af671a8bc0fbbbacc2734a772efa7df1f7c156bee536b27",
+      "size": 101424
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915133808.png": {
+      "sha256": "da92b83b3678d45386186bae2872a76755c8732b55ff004a0032c5c1215f0150",
+      "size": 148660
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915132323.png": {
+      "sha256": "b0d1531ba85c18a4f89fca06d7e9c200f859a10cc118464f275ecdc65db67df0",
+      "size": 216758
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914112640.png": {
+      "sha256": "141c2cf55d7716577d3c87e96222850987bd2182a30d242b5b68de12349e9901",
+      "size": 154620
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260916152145.png": {
+      "sha256": "bd2475b033a93ad266079058fe62fbf64afa0860239971649b2f8253bea4357b",
+      "size": 197282
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915130509.png": {
+      "sha256": "b713845ff917d0ebf443163045d91acd4f8ecb318acc796f12ffcf7dbec9875e",
+      "size": 183829
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914122352.png": {
+      "sha256": "5dc641158d7c0bba85e1621411e158215a1a44459fbd53df3261c49b0d4aef2f",
+      "size": 220637
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914112252.png": {
+      "sha256": "bb47453bda2b5b544868eb78125ef3d33786e589196848439cd2aa7d9988eb76",
+      "size": 119357
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260916154244.png": {
+      "sha256": "e1bbdde264ca6d4ec0dacb72c040e879d7f24bb86d700cd0f8c749a1251ddc4f",
+      "size": 179667
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915113106.png": {
+      "sha256": "a6dc0ca85bc6eb2d5633228a84c519fe927fd6913f2d5ad13031cb2b3535eeba",
+      "size": 236659
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915113112.png": {
+      "sha256": "1bca060246b1e30853ae5cb0403116ab6836189ab8d161b57a0a226640b63d42",
+      "size": 270412
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915131416.png": {
+      "sha256": "cc5240199762fe3c193144af14ef42b831cae87ac6a913bc9da19c8027d32a99",
+      "size": 165336
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915134744.png": {
+      "sha256": "f8c22f9dbfd3bc81e5b85403144ae7b1a857f56a705e95f124a79810162bddc5",
+      "size": 137149
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915130419.png": {
+      "sha256": "a7e676a893e3caeb84672b6bafe3617d482cdd3f7e260bc4195ccc933db627fb",
+      "size": 135125
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915104743.png": {
+      "sha256": "10ebe2ec003e610b1763e5386e72cc639f09f3b4f1e4e913fdf78ff7962e2284",
+      "size": 233598
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915103004.png": {
+      "sha256": "1d1278dd11a8607b1eedc008a7672d02f9bc053e8234a2b668feba5bac2a219f",
+      "size": 194001
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915094754.png": {
+      "sha256": "03e9078198d302528efa10f4b0065116635a23dce831887f84813c374f40b605",
+      "size": 166197
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914121628.png": {
+      "sha256": "ab652b39e969c328a824dabfb65c310fbb55cc37321596ad79213e88a61285cc",
+      "size": 222803
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915105853.png": {
+      "sha256": "66d743c84d17e1ce93d30d0667f62346e1a3873d8ea9ec2cb5f10be3b52427a0",
+      "size": 264156
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915130432.png": {
+      "sha256": "41c984e9d23527d71e134defb2323c1b38487cf1b4a80cf0ed4f5ac073b73f57",
+      "size": 174105
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914122337.png": {
+      "sha256": "ab652b39e969c328a824dabfb65c310fbb55cc37321596ad79213e88a61285cc",
+      "size": 222803
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260916152917.png": {
+      "sha256": "43f3d6885837863ea549a0154d5dc841d82b9cc052fae409504397933aea1de9",
+      "size": 167802
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915102537.png": {
+      "sha256": "1643e82f59a82cf1ac5035da30e6a3feffd5cbe42c8132ef52de9183783963e6",
+      "size": 180588
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915115507.png": {
+      "sha256": "79603f2111884a6ed4da7b1506fd0ef7a617cd86b5b8752ef6db1261692d2bbe",
+      "size": 144663
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260916155300.png": {
+      "sha256": "9955006045dc0e2b4d834bf460a3fcae3224a6a24391b3a97487c768d9615572",
+      "size": 156378
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915093818.png": {
+      "sha256": "513ff2fb5bb1ac181121133430a1fd6c3144b69320c7d11a2fff1f81699dfa49",
+      "size": 102952
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915105846.png": {
+      "sha256": "41c6b19e16e627d9752ec0e6f29d93a2448b12128edd4ad00c7e5c20b5b6afbb",
+      "size": 227973
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915093830.png": {
+      "sha256": "7e24412a4c8243f0d1141d190ea0be5e67da29a59f7dabf5d041d0d29c29d813",
+      "size": 183942
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915134331.png": {
+      "sha256": "e0a5cdbebeb43a9cfbb643ff369b771a89c4d6e15427a54facf4117dfefdc319",
+      "size": 185184
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915115648.png": {
+      "sha256": "6f82f2848c8bad234bfcbf190907964e8f51c9973e2b976fe9784954bd84d457",
+      "size": 154016
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915095114.png": {
+      "sha256": "6c22ea436f3c6f370a74b7541fdfad4b5e2f81763eb2bec202b275753ecbf43d",
+      "size": 169872
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915094746.png": {
+      "sha256": "37fb7896d24cb91bae88811738fbcbbb1f6a601548706ebbabf20d24913e8e82",
+      "size": 169135
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260914112555.png": {
+      "sha256": "e47d4b8f474a30cb527782d54f2ad70b1ae68563c89c120db2688cdb4e2b7977",
+      "size": 109882
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915104546.png": {
+      "sha256": "99391c546d238ccc9b28d4cd4eb16df2b7fe4d4c6820eea7903c5988fcc5e143",
+      "size": 197387
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915093823.png": {
+      "sha256": "4c719cf1bebfb50f3efd4a29b446823b230da73c78bb418a810d3b56fdea1fc0",
+      "size": 182078
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915134732.png": {
+      "sha256": "f8c22f9dbfd3bc81e5b85403144ae7b1a857f56a705e95f124a79810162bddc5",
+      "size": 137149
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915090735.png": {
+      "sha256": "1a80a127de74a9b9ab0702a03c27eefbcfbde8a57ca61f5c382133292a580a56",
+      "size": 115368
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915102041.png": {
+      "sha256": "2c6b853ad238f9ef00fe1f9910890518e7c607489247788e021bd5ac0a4f0df2",
+      "size": 183027
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915115528.png": {
+      "sha256": "e88680852bb24821b748e84be49c74ecb0156f31e5ee0c1917ff1901652cb39e",
+      "size": 84750
+    },
+    "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/assets/Pasted_image_20260915115514.png": {
+      "sha256": "5bca8a538a88db8cbbc8eeff47e7c74009073c60981f870c6af63764db0c1499",
+      "size": 158816
+    },
+    "00_Materials/.DS_Store": {
+      "sha256": "b8ea6e6db167d6584051f1bd1df37c6be390602ed2cc2ef1539a3b3a6082a55c",
+      "size": 6148
+    },
+    "00_Materials/2025_2026/.DS_Store": {
+      "sha256": "c3bc87a12bb005ca838422e7c31fd5de87305c22ab1d730761a6b1bf877e0a46",
+      "size": 6148
+    },
+    "00_Materials/2025_2026/Summer_Semester/.DS_Store": {
+      "sha256": "10820008420fef54ba14d25f4dbc5f829016364720c7133605bcbfceace78226",
+      "size": 8196
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Hortascu_AER2019-1.pdf": {
+      "sha256": "866524dbc34acba80cc7336be79d53bf8238c7c99c37eee6685c651bb0c753af",
+      "size": 850418
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/01_decisions-1.pdf": {
+      "sha256": "a04816c4a48e9074fa0e4230268987e6fad01575f1616ea7d9cf939dcb0adb23",
+      "size": 569918
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Electives_Shopping_Economica_2021-1.pdf": {
+      "sha256": "c869f721467e0c3fe682f9170dc9f092828d5b64e81d386e9b652066da230111",
+      "size": 435536
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Gorbenko_and_Malenko_JF24-1.pdf": {
+      "sha256": "2878e0b5f3834dd41ba4b7d5813882b5e5ab968dd30f40f4b6ccd44eb1c83de2",
+      "size": 915037
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Miller_and_Sanjurjo_2018.pdf": {
+      "sha256": "8202c7a54dfe52da43610df9e7993f22df6fe3c5e91cfacfded4eb2c437a4ec0",
+      "size": 342517
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Blavatskyy_et_al_2022-1.pdf": {
+      "sha256": "1c7a04690cc113d357a4cfaee4f22c0f5cf114bce283902f7a8d34f4dc398fb6",
+      "size": 626251
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Tadelis-Game_Theory.pdf": {
+      "sha256": "562a3078dbe97133356a046affd6be779f0cc3d0572a5e1a5f8bd47c2de9e1fa",
+      "size": 3734916
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Sample_Final_Exam.pdf": {
+      "sha256": "66386555fe2a718064ea430f4f4f55548c178d260e54a6b3d2b7e99b05449f72",
+      "size": 216602
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Mas-Collel_et_al_Chapters_6AB-1.pdf": {
+      "sha256": "e6c96d597c8951670236ba2f72064d70d23f11c9e872f879b353d802ceb21247",
+      "size": 1562558
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/02_known_values-1.pdf": {
+      "sha256": "22790bd8c34af251b09b4a6f32e53ba6c17bbe5697c5eeaaa8e5b6034c32a4c3",
+      "size": 482162
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Aumann_2019-1.pdf": {
+      "sha256": "2809232ec20a3e63212d317112c761f9e0f217280fdaadac66b310693439d243",
+      "size": 746273
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Noel_and_Wu_JFR2024.pdf": {
+      "sha256": "4c6bc435c06bc1e27b0db38172f8e9009697e5a930fc41acd718a255f2b66a89",
+      "size": 1916034
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/00_motivation-1.pdf": {
+      "sha256": "d2aeeea77da75430e295a4bd8f2a509d271bb403cbf18d186431af3d64f3f782",
+      "size": 6438736
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/HN_Housing-1.pdf": {
+      "sha256": "33709742fa556ffb131394b791ff9fd11e9f5866173471ca40ee4cdb888bf298",
+      "size": 4668826
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Bats_and_Hoondert_2022-1.pdf": {
+      "sha256": "b11b642ff375d6fbc68b720cbd725306d2b2285ce1a78586a29d62d17bcc11f9",
+      "size": 561308
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Krishna-Auction-Theory-1.pdf": {
+      "sha256": "4ec30cd8e6243a47484de7944f0892380b680df8df1e18a43315b1c0df7c3d35",
+      "size": 1953444
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Kastl_IJIO_2020-1.pdf": {
+      "sha256": "a5eda5f5557bdf55c3df50d4118b61e8b5606da89ab633c3571d3dcbc7dd091d",
+      "size": 581225
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/03_spa.pdf": {
+      "sha256": "7d026f5e5d6822d646232639ce5503bdc2d9149c21de89d6da2dab1a8e6e40cc",
+      "size": 337095
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Asker_et_al_2023-1.pdf": {
+      "sha256": "841f0274875116c595757cd7c365a8e61dc558f4bae457dbd0e6f949a88262b1",
+      "size": 2462275
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/HN_Visapoint-1.pdf": {
+      "sha256": "508d9eb8b45f3527ee8d80534939e255678304ddfde36ffe1f8be87cd169663a",
+      "size": 4799740
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/04_fpa.pdf": {
+      "sha256": "21540125f4dca454c0bd453a15ff601247133d8e28c4e38c231a5ce08805b21b",
+      "size": 419940
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/Prendergast-JEP-2017.pdf": {
+      "sha256": "55ed82a412e26c6eca4b948cd0cce3f883abd7134b2c6a240f5fea45202ef3cd",
+      "size": 714668
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/.DS_Store": {
+      "sha256": "17dfcb9d0e87e7f69da5dce31459a2c83b11a1df7d84616056c3c87fe39317f2",
+      "size": 6148
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_appendix_B.pdf": {
+      "sha256": "a919b02e21def3ed968123c7d92b9e8dcbeeedbeb0398cac63f8b4ab53436cd8",
+      "size": 776789
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_appendix_C.pdf": {
+      "sha256": "7d022f90defbf49070b10e67170f021d60def4adff6f99e58a95e5f501e2e9e7",
+      "size": 856339
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_appendix_A.pdf": {
+      "sha256": "d39157abbb1a1c87ba91a24f623a33184d4d72ca5bc56c8543a0b52d67ea30c8",
+      "size": 564409
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_appendix_D.pdf": {
+      "sha256": "52b6bf5577cfcfbd48997d3607c94e7ce37c35f30b6776bec3cb750c2f5bbfa3",
+      "size": 386591
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_5and6.pdf": {
+      "sha256": "a7e5df9ccc8c53f5c6531fd669bb44339457e0d7b658d5c35dff6473089573ce",
+      "size": 1002489
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_appendix_E.pdf": {
+      "sha256": "cb4ff65f3c3c63ecfb7ea67c1401ed6d583baf3819f72119e1e8f8814af40a3b",
+      "size": 476953
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_8.pdf": {
+      "sha256": "f4bd788393714096f7366037f710999a1be1fbd15f7d31eaf5273c8b96c61022",
+      "size": 644214
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_9.pdf": {
+      "sha256": "1a765d47a06b209a6143f915933cfe1723888f8de0eadb694b1e43039560ee2d",
+      "size": 746763
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_appendix_F.pdf": {
+      "sha256": "64d03f754a901029472a250e07ff862796ca7ffff9123d95047ce6e1ac2a2f9d",
+      "size": 304748
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_18.pdf": {
+      "sha256": "ed1e7787608abce23e76aabb22c9c871f4557b9a23195b7b2345c38fc53a3603",
+      "size": 819747
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_19.pdf": {
+      "sha256": "7d527afcda279b6ef390189b4696b9365a0bb1811001bf0abb9f9300d57bb9d6",
+      "size": 503387
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_11.pdf": {
+      "sha256": "972a6aeeba083b8605c05aa2d805a3c5c731046ad127fa68d23f642787ef058c",
+      "size": 650615
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_10.pdf": {
+      "sha256": "155329b28c522b16aeade0c428a79fb391e68c36b7f0b1371e759db29b77ae4e",
+      "size": 686373
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_12.pdf": {
+      "sha256": "ce5531fa89a65dc7eb0d87cb63b643d74fccbaca1281f7160b1eb2ebe4d64386",
+      "size": 678001
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_13.pdf": {
+      "sha256": "d1719bd0f07b0f92215d78c3374732e61f95f4b45b4983881b6e39955389fda5",
+      "size": 604363
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_17.pdf": {
+      "sha256": "302191fa434c49f8b906d42151d86cb614285f48607ecce800e44fee0dbc9531",
+      "size": 884210
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_16.pdf": {
+      "sha256": "f6bdcbc3b7b6ef5318064f3c8594396d2ea6f3a20337937ec86ee9a865f99aa7",
+      "size": 582091
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_14.pdf": {
+      "sha256": "1dd554359bda7cca21aff482078419bb493646796eeb74615b52f0b9b7fb1a18",
+      "size": 579969
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_15.pdf": {
+      "sha256": "1017508ac8c5db32b23e1d3b463008a1a9ea9f4519b2d525e2bb4229eb8227cf",
+      "size": 651597
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_4.pdf": {
+      "sha256": "577ae2cbdfa0a131f0321e4ecfd7d6806f33e37d48d6bb4bbe176d315b46b55e",
+      "size": 907621
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_7.pdf": {
+      "sha256": "c9deb0bdef89a8a574a975853d8690538669992619e2dd4a3bab4e7ed89cb694",
+      "size": 768668
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_tables.pdf": {
+      "sha256": "bac709292c94a4e9fe5d11dc155fefdf9ff8a4ec6bbad3c1ab84c30c9bcf4a4f",
+      "size": 349855
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_2.pdf": {
+      "sha256": "231fccf2b7ab7f90a66ad3863c08fdd2270de85e7ea5641b84d637e97ece1002",
+      "size": 1410426
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_3.pdf": {
+      "sha256": "f1d5655f390ae6e078b1160072bf3d3919cf3887c59759449e2a35e13342b877",
+      "size": 830561
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_1.pdf": {
+      "sha256": "eea799aaa76a1aa50e27e9c33edb8bbb090c22589d76ecc351901650625af175",
+      "size": 684748
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Textbook_Chapters/Textbook_chapter_0.pdf": {
+      "sha256": "a6f2905a224c71fd3b4fff8d7506d93d9bfc27d0629781d592a3837696ceda4d",
+      "size": 1199233
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Lecture_09_JEB109_2026.pdf": {
+      "sha256": "4252725829610de24e06939fa6aca895a11623ec6b8a69eb1ed4a4fd4764f8a5",
+      "size": 644353
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Lecture_10_JEB109_2026.pdf": {
+      "sha256": "f1722e5e06c15dd2b81e5791ddf592ad597d35609d1ba629e4f3212f991d0093",
+      "size": 479402
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Lecture_06_JEB109_2026.pdf": {
+      "sha256": "ce9e9b577836756150d5a3c1c7b153e259bdc66aaab27a92a81fc5ef6c6fa238",
+      "size": 338940
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Lecture_08_JEB109_2026.pdf": {
+      "sha256": "71d9012a8305dc9e82823b2f89e9fa5c7d323df9532842b4410d47bf5aa4a1d5",
+      "size": 227669
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Lecture_07_JEB109_2026.pdf": {
+      "sha256": "541eed14dba43f36e365fb4973179c73a6bdeaae17a9b19916cc8d16e090d54f",
+      "size": 330283
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Lecture_02_JEB109_2026.pdf": {
+      "sha256": "b5bd33d3c8d81acd03665ce296bf58c8f20dc2ef031c489009a8c947d8b87fd1",
+      "size": 904813
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Lecture_03_JEB109_2026-1.pdf": {
+      "sha256": "67a0854143a4845b7e47ae203c358e64b1427526c20a50adaf925f8384db5155",
+      "size": 413927
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Lecture_05_JEB109_2026.pdf": {
+      "sha256": "24da14356fd183c83c8b02d2a4f16ff676d8bd5c5e865a8e395a8a288de5303f",
+      "size": 692089
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Lecture_04_JEB109_2026.pdf": {
+      "sha256": "1dfeec8d1b196c8d40c0902a4c452094a91e3f390b0888c63692b9aea7d42c8a",
+      "size": 772938
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Lecture_01_JEB109_2026-1.pdf": {
+      "sha256": "00d34f57edc74e1ba2f82ecf86f2fc02df9cc6bf8625d87f7bfbe5658b1bfa9b",
+      "size": 2630107
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB029_Matematika_IV/Učebnice-2-443-472.pdf": {
+      "sha256": "794a8f728b2d23a175f95dd19e1a1a9d8eae7ca07efbd0b593ea8eff8dde980a",
+      "size": 401308
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB029_Matematika_IV/Učebnice-2-405-414.pdf": {
+      "sha256": "bbab8f8928106861668928f094a66a7b978eb4248b4a0c976a0e902a43b9778f",
+      "size": 162170
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB029_Matematika_IV/m4_pozidavky.pdf": {
+      "sha256": "0b664f6305fc0d16c351be1e629e7b2bddaaf9cec0402547068baa8fe992309d",
+      "size": 58308
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB029_Matematika_IV/Učebnice-2-383-404.pdf": {
+      "sha256": "53c83e032022f80c942b511c0f0bd83e38826fe02d40aff6049e4cf8aa0c313a",
+      "size": 285246
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB029_Matematika_IV/Učebnice-2-427-442.pdf": {
+      "sha256": "ce6a956ff92bde62cc77c21c9797ddc454f6ffbab96784314d436af0b73b4d17",
+      "size": 210531
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB029_Matematika_IV/Učebnice-2-377-382.pdf": {
+      "sha256": "89ef59d824640b6865d9402ffe48e536b039fb80979319daa105fef95b083e7a",
+      "size": 186038
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB029_Matematika_IV/Učebnice-2-415-426.pdf": {
+      "sha256": "8906ef6f40caafdfe8bf998c4ee51f3abdc1e73ceb1d5792314c8fd99bf2278b",
+      "size": 227066
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB029_Matematika_IV/m4_tisk.pdf": {
+      "sha256": "e5a09e646b778dcdc304a939856bba967b51b0ef3e7aa0fabbbbd30cee051fe4",
+      "size": 191837
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB029_Matematika_IV/Učebnice-2-369-376.pdf": {
+      "sha256": "32a7495de837d90e8ea675939d3bbb5ed738eae02b30345249d69527db79eb42",
+      "size": 194657
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_2/Week2_Reading1.pdf": {
+      "sha256": "7e6229bce8603675e3e8bfabebe8500dd0c297762dfb1f948ba4c234fb1e9409",
+      "size": 2934674
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_2/Week2_Reading2.pdf": {
+      "sha256": "64abb286e550e4395abad643b70ebe80fd5e4827561873ad3f02849910bc6d66",
+      "size": 430600
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_2/Week2_Reading3.pdf": {
+      "sha256": "694d8a0247a4edc9d2540319ca433f44f5be67d00bf69d85685ba5ea1b6a6874",
+      "size": 533437
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_2/Week2_Slides.pdf": {
+      "sha256": "fa7f228d68899a04d1d1c8ef5fc2868302441505e5ded15750639cd5139e5e7f",
+      "size": 2402520
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_2/Week2_Reading4.pdf": {
+      "sha256": "8027c4ee310230be91d9af580665c43ba5d8872d732f44a6108dfd537ee66fba",
+      "size": 1373296
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_reading2_summary.pdf": {
+      "sha256": "fb16ddbcfa96beea5f77679cbb8096163e412fbbb765cc6c9e8c2e3ac1999773",
+      "size": 881308
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_reading4_summary.pdf": {
+      "sha256": "cfc8ee44b0b6ea61d8b5031f6c61a58d3992265ac99af5ad4f4b9b2c21f289a7",
+      "size": 230572
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_reading3_summary.pdf": {
+      "sha256": "e3079fed8e8ee7d891a1715719d1bc39422d854fd3072cef22e16741939a1e45",
+      "size": 205295
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_slides.pdf": {
+      "sha256": "c3be663c6b97702f0f831126172ea5502aa58e9c609a24bcfddfaff3242f4db6",
+      "size": 2883636
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_reading1.pdf": {
+      "sha256": "efc74f1b0db62ce447b8d05b2495170d680b96403cf14c7f9069e32adaea62be",
+      "size": 15614564
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_reading2.pdf": {
+      "sha256": "4124c752c5804272006070a6e7a055b1d2606b8991244b395756dca5c5ea9f8e",
+      "size": 141287
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_reading3.pdf": {
+      "sha256": "0d6dbf6906fa9508f824d5d6044bdb8bfc400a4f094826de4ac3a7bcca452f5e",
+      "size": 105710
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_reading7.pdf": {
+      "sha256": "67a499a3f6b11db2f7275fa91a206cd50447eba7f2d9b06523f35d75ef74dfe4",
+      "size": 1267717
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_reading6.pdf": {
+      "sha256": "929e3967afd97953816915002c22c79cf45bebe880d5fe0aff2646af32d3478f",
+      "size": 1043121
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_reading4.pdf": {
+      "sha256": "0b3944597ddc85e14ab9a397a70f33c901543868a8f04eb00d59f5f6c593a82c",
+      "size": 4994136
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_5/week5_reading5.pdf": {
+      "sha256": "41cbebbcee4a81d7119072a271ba5980abd7faed4066532cc019c4d0b6b1d659",
+      "size": 3103160
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_4/week4_Slides.pdf": {
+      "sha256": "500a42372be6aff5fc785c9f9f99ddf97df3eef75a8a81e2ab7e2b7ad06e9333",
+      "size": 1558592
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_4/week4_Reading4.pdf": {
+      "sha256": "d85a04b7cec343dd2bc91dca2f81b2fff00c4e0d9439c4daafb834c42977d261",
+      "size": 35736334
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_4/week4_Reading1.pdf": {
+      "sha256": "b5c9cb234eeeddc081fa8070e6c4087c307dd1dde2a7983020a282c19964a9ac",
+      "size": 16374123
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_4/week4_Reading3.pdf": {
+      "sha256": "7aa01d405139aa8fa6318c151ea6c5a2b3120e4b56e45388249d13664be88349",
+      "size": 492333
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_4/week4_Reading2.pdf": {
+      "sha256": "46d3ec3f255a71109ffcc853c8134f31e8ee83804b706f14e332ea5ff6c1bc0b",
+      "size": 249904
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_3/week3_Slides.pdf": {
+      "sha256": "b03eae8e71cdf025ae4b6b20927e62572f479e95beaa9b76c8eaddc2cea74dec",
+      "size": 1001285
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_3/Boileau_Normandin_2012_Summary-1.pdf": {
+      "sha256": "73d5548569ba73de79bef1102fd0b59ea012dbf7a3c90d636ee4824f1c786a79",
+      "size": 2979103
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_3/week3_Reading_2.pdf": {
+      "sha256": "249cf15c37758473ff7f807584337b725e2032e02f2a4ce1498a7fd2097d86c6",
+      "size": 1219589
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_3/week3_Reading1.pdf": {
+      "sha256": "ce79b20518a7916ab7ed39301062cd4854ec8f475311f2a9bd9754810fe44be1",
+      "size": 1095313
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_3/week3_Reading3.pdf": {
+      "sha256": "c263415c2c2c3a6e3794c5f80d86af122ff728c69a31ae71243dc7892a1b3d29",
+      "size": 3611749
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_6/slides.pdf": {
+      "sha256": "2a139b166031fa382d18f8ee724a29cfaf9b0c319ed0cf2e67446a45e303814f",
+      "size": 1479630
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_6/reading_1.pdf": {
+      "sha256": "5867c89bfa4da67951d6bb632dcc018de0ba11826e8c5dedf08f57eba1915712",
+      "size": 1452653
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_6/reading_2.pdf": {
+      "sha256": "796b6e9a3a601f63cca42a39c8e23bf5dc5db4fb23b9d41e3ebbb8e63056ba22",
+      "size": 1762507
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_6/reading_3.pdf": {
+      "sha256": "8bc4af714e947176a71af265159804894abdd3fe59a4617934df13dbc14344e0",
+      "size": 106119
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_6/reading_4.pdf": {
+      "sha256": "14c1face4842b695f017a3d2114869ee1320bf75105e684855f7c287f88832ff",
+      "size": 1239377
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_1/week1_slides.pdf": {
+      "sha256": "21ddd554c05eab60f59f299367e32fd783d53bc8e9c5e6bf2608230a74907a3a",
+      "size": 1381781
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_1/week1_Reading1.pdf": {
+      "sha256": "74bf4df671be49075700fcf758b818db8623628792817bf2f636d696c918d7bd",
+      "size": 1845124
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_1/week1_Reading2.pdf": {
+      "sha256": "19d14a89255b08acbf23288d2ffb5fe0c64abdacae296d9a6f260cea69c2f34a",
+      "size": 547789
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_8/IS-LM-BP_an_inquest.pdf": {
+      "sha256": "87755a88ee9e929b23522bc6f86dbedfc264fb8e54e3719db9074dc3c43cbedc",
+      "size": 289308
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_8/Resuscitating_the_Salter-Swan_model_of_a_small_open_economy_CEPR.pdf": {
+      "sha256": "eb060de24e429201cc44052726b28999743417e639a67ab00b219b431aedccd4",
+      "size": 227942
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_8/IF_2026_lecture_9_large_slides.pdf": {
+      "sha256": "896c058c6f596a2669de09fb65bb67ce61c74ce7acbd9cbc36e06e1f75673115",
+      "size": 827914
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_8/Krugman_1991_Target_Zones_and_Exchange_Rate_Dynamics.pdf": {
+      "sha256": "a150e44df9d34e05257dbca5dbd9aa96143499ae9ccd91d315e1fd467c21472d",
+      "size": 308504
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_9/KOM_chapter_20.pdf": {
+      "sha256": "4621e0f56ef44e2de7757e0611daf62ad537e50d7657cb6bb54da45ed34cdcf8",
+      "size": 6712116
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_9/Mundell_1961.pdf": {
+      "sha256": "07e11a35bab98b7ce929572108199e6e718139c70ac811b520f5fa46a5649f83",
+      "size": 322166
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_9/Ryan_Historical_Monetary_Unions_Accepted.pdf": {
+      "sha256": "9fae439722ed3451a76a0d0dc8becc45ba6fad6c9edd9f16e45fafa6fa7f52da",
+      "size": 495669
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_9/Analyses_of_the_Czech_Republic’s_Current_Economic_Alignment_with_the_Euro_Area_–_2025.pdf": {
+      "sha256": "cd457fa3e76b61a58f1a88358acb303fe2a88e16290e3fb40d8f2a311712ce5c",
+      "size": 1967552
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_9/Brachinger_2008.pdf": {
+      "sha256": "6731ff310797922c3f204eb68e8c648cf309af679cd668482d2c55a0dc1481cb",
+      "size": 302358
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_9/Putnik_(2017)_Effects_of_the_Adoption_of_the_Euro_on_Consumer_Prices_and_Inflation_Perceptions_An_Overview_of_Experiences_and_Assessment_of_the_Possible_Impact_in_Croatia.pdf": {
+      "sha256": "dda734c3f5cfce0a5726880e441f5633809d4a0e814175bbc7da382afcd05bb2",
+      "size": 847374
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_9/Brachinger_2006.pdf": {
+      "sha256": "c34e1ddfa6d7d855749de10f870ad87244918efc4b764f1896a011bd4240b643",
+      "size": 348878
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_9/Has_the_euro_changeover_really_caused_extra_inflation_in_Croatia_.pdf": {
+      "sha256": "4a51de6252733517a6568ab76f8f610db2929a61b6312902945af4b8a1009629",
+      "size": 292549
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_9/SSRN-id3039993.pdf": {
+      "sha256": "0b4657d33f90a9524673f322b39687dd15d3a6a1566b7cd866f12b955dcc742d",
+      "size": 2129516
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_7/slides.pdf": {
+      "sha256": "805d5c47793115c3ad5b60dab57daae1b60c2ce4f48a7edae99eb91809a0522b",
+      "size": 1539438
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_7/reading_1.pdf": {
+      "sha256": "0c2d88f4152d80aa5392f4b140da672b90bf14d330d46c743e8bb2ccf0755183",
+      "size": 15214884
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_7/reading_2.pdf": {
+      "sha256": "051ec57e8b95d9b56a25cddb65a190a863d8890621b32f6201a8485dce233434",
+      "size": 1621192
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_7/reading_3.pdf": {
+      "sha256": "1a521f7bf347111f5cea28987c0852d2117930f9c4a71ec544f5df961057cb4f",
+      "size": 50193
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/Week_7/reading_4.pdf": {
+      "sha256": "e62cf374d53c7a98402bc40d9ad4feb93892071b2385ba07c32c332e2988bdbd",
+      "size": 459105
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Skripta_PDF.pdf": {
+      "sha256": "364fac4dc28f4cf8383016271db041419cb5ea49a2feb12e621d4a0f177fdf2c",
+      "size": 4761092
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Seminars/Makro_II_Seminar_04_2026_full-1.pdf": {
+      "sha256": "43c48fdbc30ff52210e84d67a5e0badeabc1c1754028465d7fff789cb0a969a8",
+      "size": 261982
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Seminars/Makro_II_Seminar_05_2026_full-1.pdf": {
+      "sha256": "88381694e40bd86d533493bb1a64db332d5b259347adb13f4c6fdd617a3cc828",
+      "size": 287190
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Seminars/Makro_II_Seminar_01_2026_SIS-1.pdf": {
+      "sha256": "e41ba3e7809c14acc6d1b6544fd931badde54377bf0bc901d5267299ba9fb172",
+      "size": 129967
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Seminars/Makro_II_Seminar_06_2026_full-1.pdf": {
+      "sha256": "721adf0c27efaa2470f1322e2cfe270e6b358caa4dbabe817327f15e393975d3",
+      "size": 213209
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Seminars/Makro_II_Seminar_03_2026_SIS-1.pdf": {
+      "sha256": "65330ccb467b9ad1d138f3ac8d0738238aee858b90ce791c17191e9fbd9d9a73",
+      "size": 210423
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Seminars/Makro_II_Seminar_02_2026_SIS-1.pdf": {
+      "sha256": "917dd0be191d27829debc07ba99c1d20e74fe9dad84042789139ebeaa89bbe0c",
+      "size": 100041
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Makro_2_Prednaska_1.pdf": {
+      "sha256": "1d54995aa70e9c16b1d41a730381b5a7e54c18b3656a2f79fbc6d83e0205e13e",
+      "size": 934072
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Makro_2_Prednaska_11.pdf": {
+      "sha256": "e8c8342dca7e32c65325859999d4406b3103579c9e86e952b5a684ede6db6a4d",
+      "size": 644348
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Makro_2_Prednaska_6_&_7.pdf": {
+      "sha256": "9ef5f305c0566f8faac1563a2cc931c35beb7a27438f47a5f5baaf3e1127a390",
+      "size": 591818
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Makro_2_Prednaska_2.pdf": {
+      "sha256": "606fde8b6ed5df3fd622f1cbdc0786d237c8e927481edbc0f1939256cd745753",
+      "size": 1098231
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Makro_2_Prednaska_10.pdf": {
+      "sha256": "0ba2029db49a3ed79e6330183d6ff212a7273a9dbb51f1fd3c8f7d5e466d8b69",
+      "size": 815970
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Makro_2_Prednaska_5.pdf": {
+      "sha256": "00344a22805c7bbad108faa0d23346dce1e75b6057482fe2179ca061b8bab19a",
+      "size": 568295
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Quiz_3_2026_DL_1.pdf": {
+      "sha256": "593ee926a911ab4266748ab7d89d3642810552b3d63c57e4b7150fb3a182edb5",
+      "size": 49359
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Makro_2_Prednaska_9.pdf": {
+      "sha256": "3725f202398d5fd714791efa848d688922b52fe2dd350115af86d192b0162fb4",
+      "size": 1014542
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Makro_2_Prednaska_8.pdf": {
+      "sha256": "1734e872681f8c6feb44de8e2728bd97e91063fff3f381df54144d6884c45ece",
+      "size": 1173282
+    },
+    "00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Makro_2_Prednaska_3_&_4.pdf": {
+      "sha256": "7c7029e4d99a2440f050d6c0a3c65644b7a07f580a40d9f2620c3e4c8b85787f",
+      "size": 970542
+    },
+    "00_Materials/2025_2026/Winter_Semester/.DS_Store": {
+      "sha256": "a87e8fd8b798311dc76ca9f2f33151ac1faff383d0e8a9ee4a548a3752aeae17",
+      "size": 8196
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB033_Matematika_III/Učebnice-2-303-340.pdf": {
+      "sha256": "c51e4d2998e5ceb14efccebd2bcd244fe9abb9d2c0266029bec4543a07262f3f",
+      "size": 449005
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB033_Matematika_III/Učebnice-2-361-368.pdf": {
+      "sha256": "6691c2814b9f15102fba0cab5a09b385af5f75ed18789cebf8d5e41bf3a931f2",
+      "size": 173675
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB033_Matematika_III/m3_poziadavky.pdf": {
+      "sha256": "57cd959cf2fae8537cb92e3d5148d43c25a970aea2c828da8bc60a701cea7226",
+      "size": 63347
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB033_Matematika_III/Učebnice-2-341-360.pdf": {
+      "sha256": "99f413559a13d21609014b09034989aa9e23f4124501c474db80212ee211861d",
+      "size": 268948
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB033_Matematika_III/Učebnice-2-233-252.pdf": {
+      "sha256": "fbfb37256954b28c05f0019e58b8fe0d0202a282fbeae8b6c0d8fd996af68044",
+      "size": 281780
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB033_Matematika_III/m3_tisk.pdf": {
+      "sha256": "f211921b50cd3f4680963e29266dec1470561d15a4214b64acb8526191e32d2e",
+      "size": 385242
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_02_Random_Variables-4.pdf": {
+      "sha256": "c1d956850b9f801a49e1ea86791ade05ac01616e36e9b2c9e0b46615950514f1",
+      "size": 434598
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_01_Introduction-2.pdf": {
+      "sha256": "2fec823a7f010c194deb168ad273b1b0dab4a8e3dcd0bd498d655e2c1d859903",
+      "size": 51790
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_03_Multivariate_Distributions-1.pdf": {
+      "sha256": "c7e700b053e37031a2db87405889948bcec8e6437a8f89f37d334a5d1a48a602",
+      "size": 350538
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_07_Random_Samples.pdf": {
+      "sha256": "d0da374dde194821173c357af028ab9e348103a88bbbb631ffa5450c0bddcffd",
+      "size": 454083
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_06_Selected_Families_of_Distributions.pdf": {
+      "sha256": "bbdf4122a40bbd7c81728a5b8f82370ad92a45ea3090b2f64e1a1f47d40335a2",
+      "size": 494520
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_08_Point_Estimation.pdf": {
+      "sha256": "f4ae71b78609c6a6bd69be20fae67f64576c2d91bee632651d679b1bb86fd9b4",
+      "size": 192313
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/2025_Statistics_Exam_Concepts_Checklist-1.pdf": {
+      "sha256": "eb67fa0eb1ff3bcf6011c8538d17d3735fe5ee30d4b4bc9ebdfc8954a25ba826",
+      "size": 126187
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_05_Conditional_Distributions.pdf": {
+      "sha256": "c22e8e9f588351b5b8699943242a1922f5f1de9b8dc5c1bd8a8f690d41103325",
+      "size": 151936
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_04_Expectations-1.pdf": {
+      "sha256": "cf0c4785b4871f7efaaf1896a57ac02bf5d1f73ac555a27fbbd08f89ea32af61",
+      "size": 394360
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_10_Testing_Statistical_Hypotheses-1.pdf": {
+      "sha256": "7a58eea87d42140abdae0189a2fa605258b003fd238f3021b0553760556f32e6",
+      "size": 424071
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_09_Interval_Estimation-1.pdf": {
+      "sha256": "5d3ead40df54e208ef09fb62b305115cffc6a8d3492cd1eac8cc3b697d3d81a3",
+      "size": 153573
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-502-531.pdf": {
+      "sha256": "24dc146bd26bb1ed09dde092827ae808a37fe91faf053373105c1d0015e82ba3",
+      "size": 268169
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-273-308.pdf": {
+      "sha256": "02f6d9501a2ed342c6101da002d2d199fef87094c11845100abd37bf024de815",
+      "size": 324115
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-37-54.pdf": {
+      "sha256": "539f188c38cf7875f59d7ca3609d87a014c5ee252e984dc072be67a72a26f25f",
+      "size": 401427
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-177-224.pdf": {
+      "sha256": "e3485f87e26a71c9516cc73fd4687f6a4f61be56f2f91b13e9a9d2149d203237",
+      "size": 591820
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-309-322.pdf": {
+      "sha256": "a879f027b5fc7d6e269b915d5bb48b7ea00253be44cae8bfd4942d225f27a739",
+      "size": 215103
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-75-108.pdf": {
+      "sha256": "016384b646f6467f35cda76a7c5d2f210c70ce828d56f348f9588cb14ad700f0",
+      "size": 356085
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-386-441.pdf": {
+      "sha256": "c9445e459d5fa9accd6079766f26c24092e01c1bf0ad49e18318fa5d7c32084c",
+      "size": 614873
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-55-74.pdf": {
+      "sha256": "8cb0f6a7b2545cbdfbf35adc8189d527daec869cdc805b6649be18feba42b5cd",
+      "size": 307983
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-561-563.pdf": {
+      "sha256": "f52d5e322f10b16c9939e3ff0b45c5d640b8d7ce041dcdf4a85b4f239dc1d904",
+      "size": 87002
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-1-36.pdf": {
+      "sha256": "b4ef725e98ee450bb6bd721d8ae9203dbf3854c802648114b19e768fa6ca83c4",
+      "size": 1704515
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-442-478.pdf": {
+      "sha256": "74e0bb3ff61c4994bbfc38ee27e31f797774145f57c58096603ae541081f845f",
+      "size": 413652
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-479-501.pdf": {
+      "sha256": "ebd1bbfa2f5b4cf6999af37015496cd946827e6b6a59e17057c4d1c8f4dc8546",
+      "size": 235515
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-225-272.pdf": {
+      "sha256": "4ca736e911b4abaa8c9a5ca4ba47e124d281748408f716316a9f772c54b88d5e",
+      "size": 626074
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-109-137.pdf": {
+      "sha256": "85b9f3d26ec013c86c59819323b728b1ab6634c4c8ef11aed5998663ae23f3a8",
+      "size": 349653
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-323-385.pdf": {
+      "sha256": "0cb5325a2d592088ce6fa7594ea3537dab301de7f9df7712449aaad30fab49c6",
+      "size": 551378
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-138-176.pdf": {
+      "sha256": "4b2d7cdd12c17c886a49558c6b7d4bdaf648778c738bbce8ff4aeecf6d91f9d2",
+      "size": 613717
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-532-554.pdf": {
+      "sha256": "3f947e46b12d6285c64fb1e8ed77fcf26c89a5f2672ae05547fe005166057890",
+      "size": 288126
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-555-560.pdf": {
+      "sha256": "f9b1e5508893a9dea2b89fe9a0a90c216bdd8ea33a697c57675e982b3c3aad2e",
+      "size": 214662
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_7_Solutions.pdf": {
+      "sha256": "1208193dbb533b893fd87c87cab75293d21f9e839370fa8e8c5fbbc27fae7b6d",
+      "size": 108883
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_8_9_Solutions-1.pdf": {
+      "sha256": "6748b307b853ad2c8ad9197af1a3b21ca90a2ec057369d48cbd05cc482f258cc",
+      "size": 132638
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_3_Solutions.pdf": {
+      "sha256": "228151b85952763823625d3297f5f15fff18a3b21bc016777cc1c4972c5fbcc6",
+      "size": 235758
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_5-6_Solutions-1.pdf": {
+      "sha256": "b46a5beb5e35fa1919189ebff49c7b15e0f38f5830569726773dcdda7fdf6fb0",
+      "size": 100938
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_4_Solutions.pdf": {
+      "sha256": "b6b29b988af22d26fc92b1f4424dd2042c2dbe2361fdfb56b016b755157175e9",
+      "size": 134789
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_1-2_Solutions.pdf": {
+      "sha256": "9c55b42baf7a8dc807e4b53c7576a41685a0758ffcd06526258edc4d86ffd2dc",
+      "size": 579861
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_12_Solution-1.pdf": {
+      "sha256": "d82b04c31748039b3c669507217279c5f2c77cff77fe2e4533163985120ec220",
+      "size": 103803
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_13_Solution-1.pdf": {
+      "sha256": "5de2c8d7db2fbf4ae4e65a76356a73bc4b18177dc2e9882fc577d0b76049be6f",
+      "size": 94530
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/4_cost_curves.pdf": {
+      "sha256": "3e5793bf530055702dc57abd36b96ac69fa9efe383f940caddb12c552df0d264",
+      "size": 1346562
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/5_firm_supply-4.pdf": {
+      "sha256": "b6c01f5ae60cc9a9ba8056fd3acce761cc6b04acc8bf5e49d049c0110e4989ea",
+      "size": 1757779
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/3_cost_minimization.pdf": {
+      "sha256": "1eafd3766467947afe8c3fabb33556fff64ec0d7972e2362fcc284fae4a75a8d",
+      "size": 1296212
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/1_technology-1.pdf": {
+      "sha256": "e537d7f69dd6206262f8c45e836c605005b498bdfd33e9500d065f58bfa80236",
+      "size": 1763489
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/6_industry_equilibrium.pdf": {
+      "sha256": "abfeb93512fb318fe2541aa4127a2a8aee1cc537db24198cd6f3134dfab33b18",
+      "size": 2641145
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/7_monopoly.pdf": {
+      "sha256": "4d363114b2497b60e638a0318b267819066392145742646d183dd0abc2960f91",
+      "size": 2685929
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/2_profit.pdf": {
+      "sha256": "616e6296ac8a9eea996c421c9c7f776d0f9d886bdfd09d17cb2b23fa385f031f",
+      "size": 667422
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/8_price_discrimination.pdf": {
+      "sha256": "598488350c139d831dbcef1d04e9cf58ef2661b3c00676f97483b33f01801c63",
+      "size": 1217998
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/9_oligopoly-1.pdf": {
+      "sha256": "fef57e08348b31d5ed8ea0da03dbdd39b39528c615141b52bdf75d9fd6bcf4bc",
+      "size": 1315406
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Seminars/Makro_I_Seminar_04_2025_SIS.pdf": {
+      "sha256": "4cdfdea4fdd710e1db908e7422affd5eae8843a46cc44f633d094c9f1b448927",
+      "size": 495003
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Seminars/Makro_I_Seminar_10_2025_(1).pdf": {
+      "sha256": "df101dcb374c870ff518553aa4b4f1a99d76c1ce814c3ec5da18e7d9e86b65bc",
+      "size": 231754
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Seminars/Makro_I_Seminar_05_2025_SIS.pdf": {
+      "sha256": "39a5518e673d139bbdc091be1682cdc7b33ccef7875395a0e5fdb6760fcda9e9",
+      "size": 184392
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Seminars/Makro_I_Seminar_07_2025_SIS.pdf": {
+      "sha256": "e15baa0750a771cacb22a742c61d3dd8ba30461e3b52067e8baea2a0f8e33723",
+      "size": 189661
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Seminars/Makro_I_Seminar_02_2025_full.pdf": {
+      "sha256": "17348d6ffb0c24f302b0860cae912f2f770b547c57ef07d6f66a79117793701b",
+      "size": 349850
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Seminars/Makro_I_Seminar_06_2025_SIS.pdf": {
+      "sha256": "da3b302a07584d40d2b7ff16ee513e9d10b9ee84587e79c4e1c712e358012901",
+      "size": 138425
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Seminars/Makro_I_Seminar_09_2025.pdf": {
+      "sha256": "b2f746377aa6909077dc4443ecab12e2973004a5b42ad7561323f08ddb83349b",
+      "size": 656008
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Seminars/Makro_I_Seminar_08_2025.pdf": {
+      "sha256": "0cd18ec3f5101ef8c8c67dd7788a7cc74784d0199ebc641e70acc3fd2fe175ed",
+      "size": 201579
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Seminars/Makro_I_Seminar_01_2025_SIS.pdf": {
+      "sha256": "a5915920d48e9a54a5268df4a22ac3209d9f093bd5534c2fd430e9c8c683e782",
+      "size": 512408
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Makro_1_Prednaska_8.pdf": {
+      "sha256": "98acfb6e9c9646f9993b91582aa494396a65d14451690842a949ed5e7ff1aabd",
+      "size": 770678
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Makro_1_Prednaska_9.pdf": {
+      "sha256": "b590318ae771d090e626d70f150bdbf952f5d40db72aeeaa2a21bac85c376c0b",
+      "size": 590764
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Makro_1_Prednaska_7.pdf": {
+      "sha256": "9a6e01d8afc2f103538b59a4421459fd7790fbaf87e79841aedde411d1f180c5",
+      "size": 604383
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Makro_1_Prednaska_6.pdf": {
+      "sha256": "45d706ca542eec8381ad233a5620744a0ab09a73ad0c14ad5eb30c9cb1bc70a2",
+      "size": 1201865
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Makro_1_Prednaska_4.pdf": {
+      "sha256": "ea8ff66500d420cc0e924e4dc85b8810d2564e87711ad617a27f492c78db545b",
+      "size": 870135
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Makro_1_Prednaska_5.pdf": {
+      "sha256": "4af193e19f8ccfedb1636a3c6f40c7c147f845cda804aee30e1470b2917e86c1",
+      "size": 738430
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Makro_1_Prednaska_1_3.pdf": {
+      "sha256": "d26940a767fd350d0cf6673de5ffca153ad841431aba6e4be48a5716e91c50a0",
+      "size": 2292788
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Makro_1_Prednaska_10_11.pdf": {
+      "sha256": "e8b5c25e43438befc662ac7418202efb978a09fa793e83baf356c3673eb77387",
+      "size": 1475623
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Additional_Reading/The_Economist_How_cheap_can_investing_get_02-2025.pdf": {
+      "sha256": "338ad99cd48ad7e579c060ec5780de9f999aab9e4f6b7dcc6873fb54469c355f",
+      "size": 3223937
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Additional_Reading/Generali_ČP_Výroční_zpráva_2024.pdf": {
+      "sha256": "a5b44fbb598109a68999d4fb618f80712fc15d68a385ab9a3947d64c38e0dedc",
+      "size": 2055278
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Additional_Reading/Nobel_Prize_2025_press-economicsciences2025.pdf": {
+      "sha256": "95d53bd26bcf153bccd1f260178c3b1f92a60467fa8721efec0a347b129a6784",
+      "size": 215957
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Seminars/JEB027_S01-2025_Peníze_a_úrok.pdf": {
+      "sha256": "4e353f81b91f46cf726beed1a87ed2e3ccf3b10e88f47c933ffa060827a8528a",
+      "size": 1248258
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Seminars/JEB027_S05-2025_Pojišťovny.pdf": {
+      "sha256": "d9da9464ce6ae3ba19d813f467ee9316a7481d3aef33e87e4a8eaf94ecf463f6",
+      "size": 719810
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Seminars/JEB027_S06-2025_Mezinárodní_finance.pdf": {
+      "sha256": "275f6a422c0cadbd9e864eb84ec5a46989057838cc65cd39f0dfce2b19bd3400",
+      "size": 870261
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Seminars/JEB027_S02-2025_oceňování_projektů_real_estate_2025.pdf": {
+      "sha256": "f9d9bbc51990be1d6fd60d3d036f11949bb85cd83157ba6e4e593cc0c04d89d0",
+      "size": 1007727
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Seminars/JEB027_S03-2025_Finanční_instrumenty.pdf": {
+      "sha256": "fcd560085685be73f8a538e61671795589835a88b45e51e2d55990bc6679ea3f",
+      "size": 1180272
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Seminars/JEB027_S07-2025_Centrální_bankovnictví_řešení.pdf": {
+      "sha256": "a987060d5cac4a91b1009716feaa6b773288a4c72c711393703c347af4d49585",
+      "size": 1684369
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Seminars/JEB027_S07-2025_Centrální_bankovnictví.pdf": {
+      "sha256": "4f3cb18c6f7a84bfc2377cd1048def28429559814646fc7a38afd2ba3c943702",
+      "size": 1349399
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Seminars/JEB027_S04-2025_Finanční_výkonnost_bank.pdf": {
+      "sha256": "22ab83df628739be5e28aae1ac5e060d3fcdde3b2250410ccab869b0c7b7ef57",
+      "size": 2764419
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P12A-2025_Centralni_bankovnictvi.pdf": {
+      "sha256": "31d1ae8373a46b292971e13d7c7df01811b1e8ddb2d6e87a2379c50b32ee149f",
+      "size": 5368351
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P07B-2025_Operační_riziko_M.Němec.pdf": {
+      "sha256": "3b62edf72e966aa004fb9be0913ea87e1447b771310220057002ced29f4d4155",
+      "size": 1498997
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P12B-2025_Info_o_zkousce.pdf": {
+      "sha256": "dd796617304365bc7d055b34792e16acb7bb37ea70cb05333ab893e93e3ca47d",
+      "size": 465013
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P03-2025_Financni_instrumenty_final.pdf": {
+      "sha256": "72c1674b98a461ff5cd00b6bb8344bbac8850c0478e8e6ecc833f9cd81d3f899",
+      "size": 4508980
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P05-2025_Komerční_bankovnictvi.pdf": {
+      "sha256": "d4e89e4ebae5904208aa1b504a0459185e97020c5c589b044d1071df255af5fe",
+      "size": 6778302
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P06-2025_DEFI_a_Fintech.pdf": {
+      "sha256": "a2b29a82b4feb37ed6bbcb170db9942f8bfce82a0614fa6c5876d026cb4d3d9e",
+      "size": 3178942
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P06B-2025_Kapitálový_trh_DEFI_(O.Dusílek).pdf": {
+      "sha256": "d9c7eafabd3c0f4ae543e7ad2f0f143f07fb044447a63b0da009ca28b2c55dce",
+      "size": 1387276
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P04B-2025_Test.pdf": {
+      "sha256": "f83c21be0ea6d9dff297c1306f26079f92585a1214afbab85a57fe37fad67506",
+      "size": 699789
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P09-2025_Pojišťovny.pdf": {
+      "sha256": "9d98b14231f6ec21b4eb885628e96ab71fdcecfdca4d000bcb4a7b6727e8e956",
+      "size": 3572822
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P08A-2025_ESG.pdf": {
+      "sha256": "cfad6a2beff2110bdcbc324a288e1e0cf9ef6663a08d8406b8d6e8dcf05d1203",
+      "size": 4164851
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P11-2025_Mezinárodní_finance.pdf": {
+      "sha256": "b6389fe54ccf0cad8bd0c0f4708758330f5f99099ab935c1089603131996113a",
+      "size": 3165347
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P10B-2025_ZS_Hospodářská_politika_(J.Středula).pdf": {
+      "sha256": "4f69e49718298f402e0db721714b73a5377f38cb3c912b9984adcfd61dd045bd",
+      "size": 8144622
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P10-2025_ZS_Verejne_finance.pdf": {
+      "sha256": "dff7b3562e2c1ed31434d7099aae25408916f0aca139335613544872f20e3205",
+      "size": 5675021
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P01A-2025_ZS_Úvod.pdf": {
+      "sha256": "7af43681e3f63ff90fa4e9db4a31052967bbee3e80a11514357bb6d206586dbe",
+      "size": 684232
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P01B-2025_ZS_Penize_a_urokova_mira_final.pdf": {
+      "sha256": "670ed6b3864f02b3823faac553ebc468cc08b27f70f077dbe19e8a8b0c692612",
+      "size": 4372195
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_P02-2025_Financni_trhy.pdf": {
+      "sha256": "3b28aeafe3f2dba8a1a969697c18d66761a9bf16e227364453584c37e9bed37e",
+      "size": 4632392
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/JEB027_FINE_P04A-2025_Finanční_výkazy.pdf": {
+      "sha256": "193acb92beb97559176319c5956c1e3513933abee6bc92a9b12699db35510b3d",
+      "size": 4422091
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-288-362.pdf": {
+      "sha256": "44b188a77ea687c8b5463f0a925786273254c4c20ac17b50c333a186f4283279",
+      "size": 4300408
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-363-423.pdf": {
+      "sha256": "156a0b6eb4a6012a24296e8439f74661a775aedf1c183689f3dfc5a4c0c7e390",
+      "size": 4046906
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-801-811.pdf": {
+      "sha256": "cefab55d228c7904814cb829d54f12c3b55e8ef9b088f8d54fdd09e00afaa3e0",
+      "size": 487266
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-603-665.pdf": {
+      "sha256": "8a7dbc8d29ea8c8b90bcc4314d1a414cac59e7d095d1a06090386500585c453e",
+      "size": 3214237
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-666-736.pdf": {
+      "sha256": "83d07a383a36d6fd1981c43006d038e1d0cfa5633514bfbaf1b75c2fa1805bf3",
+      "size": 3766124
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-538-602.pdf": {
+      "sha256": "8462e5c202e0ab360c10fd14c2418266779e32a2235fc26bdc97b892fd19929e",
+      "size": 3540409
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-164-241.pdf": {
+      "sha256": "ac1bbcc5aaf7867f081b745d6251ee15f1e82b90ed0fa30eb8748e8bac04a085",
+      "size": 4892782
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-424-483.pdf": {
+      "sha256": "d6f968e01fe465f5cb9aadc8c2896b93d9b9dc6c0098d271a1126099abaa8444",
+      "size": 3395080
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-484-537.pdf": {
+      "sha256": "9fb5d4006a3fd3bd98af4ed0650d47cb786500ecaca2b422567f2ed1bb5169c8",
+      "size": 3219467
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-737-800.pdf": {
+      "sha256": "9b4d98dedea3832cdd304344b17e50bf72eec43ff1d24cce66b659a1fcc71eda",
+      "size": 3144187
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-242-287.pdf": {
+      "sha256": "04d5c8afba37b4ce3c4002c9068828e94caed52825fb45b4c4a0f118fc5f7bb7",
+      "size": 2791285
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-36-92.pdf": {
+      "sha256": "8df8d709285393f1f58c1fd2d4f9fa72379d559999d8e705f7ab870c17678c07",
+      "size": 2691625
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Textbook_Chapters/HHTTS_textbook-93-163.pdf": {
+      "sha256": "0a169f161f6343d93fb951beb44459f0f5bae4677be1895ea9a3a8f0f149a671",
+      "size": 3856229
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/12_Extra_FIFO_vs_LIFO_(act).pdf": {
+      "sha256": "aa5c79c771931db9d777683e005a85dd2f0916f6e6b408bfaa43f49abac65760",
+      "size": 279905
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/13_Extra_Mergers_&_Acquisitions.pdf": {
+      "sha256": "d5ee5993289371c9693b1741ef5064de5dd552a11757b46d7c72b67dc17ed7b9",
+      "size": 592094
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/04_Accounts_Receivable_(act).pdf": {
+      "sha256": "07ef266c0f1c43f136a2e8652e7f4e16fe2cc91e8ccaaf89adcd6e77e937eead",
+      "size": 770860
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/01_Accounting_Framework_(act).pdf": {
+      "sha256": "5307014d6c731d436342470a832d92cee912b1ea336a583c6f2778bce8f42b73",
+      "size": 1553510
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/11_Extra_Minority_Interest_(act).pdf": {
+      "sha256": "ce822387a59fcb8a0b7ca09e99c40d42db0684497c3675d9123b0a4e67a3201e",
+      "size": 327279
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/03_Inventory_(act).pdf": {
+      "sha256": "05409b3573674f5f5de2c17bb6c9584f43aabf453c3a27cb4db3636eaa3b9a7c",
+      "size": 614484
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/06_Cash_Flow_(act).pdf": {
+      "sha256": "c69440f91eeba3a391b703830cacb1dc90088b57a2f4f1996dc9212513086146",
+      "size": 633525
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/07_Measuring_Performance_(act).pdf": {
+      "sha256": "06b65371c77035dbf368f3ed0961b6d095de42259d8f1f9c2df9a98e3326aa70",
+      "size": 918340
+    },
+    "00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/02_Revenues_&_Expenses_Updated_(act).pdf": {
+      "sha256": "c7132decd56ecdd7c2669a60be7ab044cea83711beba2a58229cd9823e5693bf",
+      "size": 1532326
+    },
+    "00_Materials/2024_2025/.DS_Store": {
+      "sha256": "669762496b29c05ec414ab23c2a917b27006d6d1d177c36cda024f32693cc17b",
+      "size": 6148
+    },
+    "00_Materials/2024_2025/Summer_Semester/.DS_Store": {
+      "sha256": "a06f2f97dc30eddfde185a1ba57f7c4d8d48712cdca0e07f00d70626d64a37b3",
+      "size": 10244
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_4_Sample_Space.pdf": {
+      "sha256": "cc22bd7fae2582d367f69eb1c9b89d63589eae18a84b75240dd0b2ed0decadf8",
+      "size": 217590
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_6_Counting.pdf": {
+      "sha256": "e4a5707786d7dbb6b86e0f852ba5e7dc09caf0c7d33b7cf941e28180a0ca6752",
+      "size": 146188
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_3_Descriptive_Statistics.pdf": {
+      "sha256": "1cf0c92cc9744455c7f143e7c478239b8eff02503fc7a21df0db7e7cba6e7c00",
+      "size": 1171706
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_8_Sampling_Techniques.pdf": {
+      "sha256": "2f916994a50e3b1125f257bd87c105689bdf769eaefe05fe1c511d0aee8b03e0",
+      "size": 895641
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_9_Introduction_to_Statistics.pdf": {
+      "sha256": "452a49ab0913df485378b0fce9a60f891252bbbe021be507145b25fe7d66a638",
+      "size": 152972
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_7_Conditional_Probability.pdf": {
+      "sha256": "9e3db8ee8df6d08f9f4cc144d18c0b897ea00e5bb80d481861d747ff74bd64cd",
+      "size": 161092
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_1_Introduction.pdf": {
+      "sha256": "b5522ae51786a8a01c2b12f26c927afb7926d0e379c086abe412867e59a784ae",
+      "size": 71344
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_2_Data_and_Statistics.pdf": {
+      "sha256": "8f8997f509710aed85114cafd474d7066c4431b76837f914f62e0b831c3a530f",
+      "size": 1499334
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_5_Probability.pdf": {
+      "sha256": "0b1b0b96a7b063ef2a3243efaa944b52a9c69c9a820e5712a4cb8bcdba8fe97f",
+      "size": 317986
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_13_Buying_and_selling_Students.pdf": {
+      "sha256": "2dec4d6269238f079f41e23f41b5a059e2320cdf4aca059b88c87644c96364aa",
+      "size": 930445
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_07_Hicksian_separation_IE_SE_Students.pdf": {
+      "sha256": "f281d3056cfab669d77654a7c1589ea9f0b7525b99ec39c387980dc902c01b83",
+      "size": 884333
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Duality_Nechyba.pdf": {
+      "sha256": "b1a368930cc4eda6d5e09b4143c7ec13fcbf78e4a5b560a33aa3b2751e902fb2",
+      "size": 338515
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_16_Uncertainty_Students.pdf": {
+      "sha256": "51a418b78b1180b875f85828b8b75a76bc1772fb3870045a7b26717589752aa4",
+      "size": 524877
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_01_Intro_students.pdf": {
+      "sha256": "1bce034d1bf2c5d0311791519381c1aae4cbae524d6a2d70178d6e938c4f679a",
+      "size": 672861
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_12_Measuring_Welfare_Changes_Students.pdf": {
+      "sha256": "a5c126bc75febbc20823435949df3593b310bb9edd91c5d90a5e3f4efd2f7150",
+      "size": 2522095
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_11_SlutskyDecomposition_Students.pdf": {
+      "sha256": "d08ad27386fbedaa55ce786ac593e574d436f9e82996ba2d725cd4f2b0f0ccdc",
+      "size": 2161582
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_05_Choice_Students.pdf": {
+      "sha256": "1b7ec1121bb5127b168afc1049be78069459e9825673a7f1d87f45c49f654ab1",
+      "size": 700651
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_14_Labor_Students.pdf": {
+      "sha256": "5c60d989da8b0101c9106e2562307478861213cd5f79f71385060d94f484aa22",
+      "size": 885327
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_08_Expenditure_minimization_Students.pdf": {
+      "sha256": "655431b27e57eb3ee89a3aa60b9603cc90dbeaa9b97ff42f97d74b52150f5afa",
+      "size": 790966
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_04_Utility_Students.pdf": {
+      "sha256": "4ecd0f56cc312bd24455e5157e0d226a84dc661e22c1deb4ec436dde1566b31a",
+      "size": 733599
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_06_Demand_Students.pdf": {
+      "sha256": "532b9ed251c18cff56798fa1dbacc7daa5a999c1ea31067576bbdce5b479b544",
+      "size": 1222318
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Duality_Gravelle_Rees.pdf": {
+      "sha256": "2716117c2af34d33a46722fc78eb2618cfa6a645a17fdca58910d62b65fad9ca",
+      "size": 207465
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_03_Preferences_Students.pdf": {
+      "sha256": "4577e97b9a235f6d27c15de9f20f115f58f75baa9e49953698418dd896db8a97",
+      "size": 1248001
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_15_Intertemporal_choice_Students.pdf": {
+      "sha256": "82bfeee201ae6e2517ce141b2a3f68eb0f8e7caf2d91791cce1745f6c3a2c818",
+      "size": 774171
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_09_Duality_Students.pdf": {
+      "sha256": "cebc53f6240143d298260eb9743756b4e6c2223d109ea2e9c29be137f99f8621",
+      "size": 833153
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_10_Revealed_preferences_Students.pdf": {
+      "sha256": "062c76d629274fd77461d8f10b92eaf4164ec56da04fbafe81fd1631e01edc67",
+      "size": 565746
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_02_BC_students.pdf": {
+      "sha256": "55b2abc89f9e8ebd980a464034b1d236fa146379c75f9fab412963be73ff7440",
+      "size": 369247
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_17_Uncertainty_II_Students.pdf": {
+      "sha256": "7d5cfa3d028cb04bbb16fa579ddd34ecc5666ffd16f29064ed7194dd2d2ae941",
+      "size": 644878
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB006_Matematika_II/Učebnice-2-253-302.pdf": {
+      "sha256": "42139f1435ab83795fe69790b3597fe8b21b610f5c2d4f1f15605dfde1ec78ae",
+      "size": 529111
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB006_Matematika_II/m2_tisk.pdf": {
+      "sha256": "73fa48f9e4cc42c6a87305a9e92a14be7de838a203ace33d06165d5a27f844df",
+      "size": 529461
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB006_Matematika_II/m2_poziadavky..pdf": {
+      "sha256": "1d059b656a9bba9a4f972409c55fb51500a281e115ffe40c5de73dc3dbcc9a42",
+      "size": 65214
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB006_Matematika_II/Učebnice-2-187-232.pdf": {
+      "sha256": "c88773b0873d131ee1c081604ea20acbf3934cb2389cdc7a5251ab00e0cc7405",
+      "size": 448810
+    },
+    "00_Materials/2024_2025/Summer_Semester/JEB006_Matematika_II/Učebnice-2-127-186.pdf": {
+      "sha256": "440e88a7eaa10cfd377cca6854749ea53fa331e561d5e1a0e9bf320756ca0794",
+      "size": 874825
+    },
+    "00_Materials/2024_2025/Winter_Semester/.DS_Store": {
+      "sha256": "54fd7859288eea83f415a9d32c68a98b606644e81b8b9df2da93e5758dc58d70",
+      "size": 10244
+    },
+    "00_Materials/2024_2025/Winter_Semester/JEB005_Matematika_I/Učebnice-2-33-50.pdf": {
+      "sha256": "db46a7399cd1d0da40d1cdd479ed8e846399b7618e051c2413da3b8e48e0119c",
+      "size": 253279
+    },
+    "00_Materials/2024_2025/Winter_Semester/JEB005_Matematika_I/m1_tisk.pdf": {
+      "sha256": "349ffa34a78dd715b69c6b6b7bc2493281b571cb0812a421cee5794c3b0715be",
+      "size": 207230
+    },
+    "00_Materials/2024_2025/Winter_Semester/JEB005_Matematika_I/m1_poziadavky.pdf": {
+      "sha256": "de3629c8b0753eaf3f35c8dbb303a8a494b87fa380b2c2180349d268c827f62c",
+      "size": 63640
+    },
+    "00_Materials/2024_2025/Winter_Semester/JEB005_Matematika_I/Učebnice-2-51-58.pdf": {
+      "sha256": "f8cecb2b89cac24575f61c02c0d643e9568e85e9392b827ef93a3038428fe1eb",
+      "size": 158932
+    },
+    "00_Materials/2024_2025/Winter_Semester/JEB005_Matematika_I/Učebnice-2-59-126.pdf": {
+      "sha256": "f7543f145db973b39b6cbc9d75c6ef4d7a72350b039069dd1496ce4cb4870709",
+      "size": 656314
+    },
+    "00_Materials/2024_2025/Winter_Semester/JEB005_Matematika_I/Učebnice-2-9-32.pdf": {
+      "sha256": "4d9540d54c4e4facb895a7bd58c1f8b67144a5106fe5beebe94d24531740e569",
+      "size": 268204
+    },
+    "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Pasted 03-10-2026 at 14.19.39.png": {
+      "sha256": "3cd4abcfbba7427c51c6e0433cbfd15aebd87257feb8764097539050d96bb0af",
+      "size": 153716
+    },
+    "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Roland - chapter 7 (Institutions) - single page.pdf": {
+      "sha256": "93a646cff47bf18590c5bfa891534681b5cac917d4f9b56003c1db22e45f284a",
+      "size": 2900975
+    },
+    "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Rosser Rosser Comparative Economics - chapter 1 full.pdf": {
+      "sha256": "3415632cbb58c476fb4ffce5949da70f33d3c1163d4dcbe5a0662a0d3d1309e6",
+      "size": 7835611
+    },
+    "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Week I - lecture - shorter - large slides.pdf": {
+      "sha256": "fd9f4db4ff1942d7437aec0431929f48e924bcfe6da7ce0a099079fa6f773ed1",
+      "size": 1578987
+    },
+    "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf": {
+      "sha256": "52b53e4db68d4ac02ffe5cb0f0813a7f9068eaef9b41a7c9bdb35e69dfdb9eb8",
+      "size": 380870
+    },
+    "00_Materials/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/L3_event_studies_pdf.pdf": {
+      "sha256": "7ac81e5417d17afd1e2a46dc8f81bb49f3cd050c8fe791122f2f7385acfd4c0f",
+      "size": 596529
+    },
+    "00_Materials/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/L1_intro_16x9.pdf": {
+      "sha256": "3b52bd375ad859d90937d48c2391bda704656cdaf4132ac87160a2b4840eae57",
+      "size": 831765
+    },
+    "00_Materials/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/L4_abnormal_returns_16x9.pdf": {
+      "sha256": "c88f72c55ae2e582c1d8c6bb3b01458bd8e62d8f41570847c299834019325a6e",
+      "size": 1002529
+    },
+    "00_Materials/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/AkzoNobel_Case_Full.xlsx": {
+      "sha256": "59ebe739b14c1992cf5e8f6dea4da7fad3e1c15d138610b9d562db6a29a3012c",
+      "size": 39096
+    },
+    "00_Materials/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/L2_selling_process.pdf": {
+      "sha256": "d18043bc4b56fae234761784d8050afac0714908042ee68d9fcbf49f614e1d92",
+      "size": 462337
+    },
+    "02_Resources/Drawing_2026-09-13_17.07.21.excalidraw.md": {
+      "sha256": "e357368bb40e2a11a01ccd04ebe919eb2acac4bd9638b4f0f4cc00ca2330c9c4",
+      "size": 574
+    },
+    "02_Resources/Shareholder_Activist.md": {
+      "sha256": "2f64ad692c2a6e995385d7c5276eea061e532cc721efa270325a8e93e2b1e7ae",
+      "size": 253
+    }
+  },
+  "registered": {
+    "/Users/slavomirhoricka/.agents/skills/ingest": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents/ingest",
+    "/Users/slavomirhoricka/.agents/skills/teach": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents/teach"
+  }
+}

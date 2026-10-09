@@ -1,0 +1,11 @@
+{
+  "owner": "ingest",
+  "status": "committed",
+  "files": {
+    "ingestion_state.json": {
+      "stage": "0.stage",
+      "expected": "95c40866f2f4c40afb9cc1fc398cb1c219500c7eed1d5c5f3440289444c4a8e4",
+      "new_sha256": "685c0df46e5ca9fe064ec41c1098e723f61f0af62943c221017785880558b9b7"
+    }
+  }
+}

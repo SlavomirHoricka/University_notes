@@ -1,0 +1,4 @@
+- activist shareholders use their ownership rights to influence corporate management and policies
+- usually have a small share (under 10%)
+- they usually conglomerate with other shareholders in order to exert influence over the management of the firm
+- 

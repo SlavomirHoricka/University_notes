@@ -1,0 +1,93 @@
+{
+  "moves": [
+    {
+      "old": "03_Agents/ingest/ingestion_log.md",
+      "new": "03_Agents/runtime/ingest/ingestion_log.md",
+      "sha256_before": "20169c07701dfedacd261adac3ebdb4a45f9cfae6dad1493422c7be9d671855f",
+      "kind": "move",
+      "history_policy": "Historical claims preserved; operational authority superseded by current architecture.",
+      "original_snapshot": "03_Agents/history/2026-10-03-audit/original_agents/ingest/ingestion_log.md",
+      "original_snapshot_verified": true,
+      "sha256_after": "2d5a1f76015f800f1aa623a802dba43336c5354bc78f1d12d97498b9fa63ea23",
+      "content_changes": "navigation and historical-authority labels only; exact original retained"
+    },
+    {
+      "old": "03_Agents/ingest/logs/20261003T142217+0200_behavioral_week1.md",
+      "new": "03_Agents/runtime/ingest/logs/20261003T142217+0200_behavioral_week1.md",
+      "sha256_before": "00ca3f92ba1d9a8532348b388969cb443bd025b1e164ec40b24318f270ed6a79",
+      "kind": "move",
+      "history_policy": "Historical claims preserved; operational authority superseded by current architecture.",
+      "original_snapshot": "03_Agents/history/2026-10-03-audit/original_agents/ingest/logs/20261003T142217+0200_behavioral_week1.md",
+      "original_snapshot_verified": true,
+      "sha256_after": "674a85696a2b84486c3b393da35f7c35d3915b97b98305bb83432953e53f2dcc",
+      "content_changes": "navigation and historical-authority labels only; exact original retained"
+    },
+    {
+      "old": "03_Agents/TEACHING_SKILL_REVIEW_PROMPT.md",
+      "new": "03_Agents/history/2026-10-02-teaching-review/TEACHING_SKILL_REVIEW_PROMPT.md",
+      "sha256_before": "5872d2c87d83fb37202cb1c58309c1f99859af91b936e03ae550f61df93e9fd0",
+      "kind": "move",
+      "history_policy": "Historical claims preserved; operational authority superseded by current architecture.",
+      "original_snapshot": "03_Agents/history/2026-10-03-audit/original_agents/TEACHING_SKILL_REVIEW_PROMPT.md",
+      "original_snapshot_verified": true,
+      "sha256_after": "5872d2c87d83fb37202cb1c58309c1f99859af91b936e03ae550f61df93e9fd0",
+      "content_changes": "none"
+    },
+    {
+      "old": "03_Agents/TEACHING_SKILL_REVIEW.md",
+      "new": "03_Agents/history/2026-10-02-teaching-review/TEACHING_SKILL_REVIEW.md",
+      "sha256_before": "3776dec9bcc76f6ce3e45a3877ed0308ec76257d66cf715edcd7e1e118af3e9a",
+      "kind": "move",
+      "history_policy": "Historical claims preserved; operational authority superseded by current architecture.",
+      "original_snapshot": "03_Agents/history/2026-10-03-audit/original_agents/TEACHING_SKILL_REVIEW.md",
+      "original_snapshot_verified": true,
+      "sha256_after": "cad269a7191c6a16619fcefe7516d0d353366a971432cd30bac3eeef1222c230",
+      "content_changes": "navigation and historical-authority labels only; exact original retained"
+    },
+    {
+      "old": "03_Agents/STANDARDIZATION_REPORT.md",
+      "new": "03_Agents/history/2026-10-02-standardization/STANDARDIZATION_REPORT.md",
+      "sha256_before": "c370feeaa8c60aec84b2b69a2158492722193116236a0c331c773b27bcbd0431",
+      "kind": "move",
+      "history_policy": "Historical claims preserved; operational authority superseded by current architecture.",
+      "original_snapshot": "03_Agents/history/2026-10-03-audit/original_agents/STANDARDIZATION_REPORT.md",
+      "original_snapshot_verified": true,
+      "sha256_after": "46b9f56c592c3de8a6b6dca3e0f6842c96c0fd9dcda7d3433671d40767fdb23d",
+      "content_changes": "navigation and historical-authority labels only; exact original retained"
+    },
+    {
+      "old": "03_Agents/standardization_manifest.json",
+      "new": "03_Agents/history/2026-10-02-standardization/standardization_manifest.json",
+      "sha256_before": "31dc2858cf8c0fadf3e15ad1eb6437b56c76a0998827ea98a8411d4445ab5208",
+      "kind": "move",
+      "history_policy": "Historical claims preserved; operational authority superseded by current architecture.",
+      "original_snapshot": "03_Agents/history/2026-10-03-audit/original_agents/standardization_manifest.json",
+      "original_snapshot_verified": true,
+      "sha256_after": "31dc2858cf8c0fadf3e15ad1eb6437b56c76a0998827ea98a8411d4445ab5208",
+      "content_changes": "none"
+    },
+    {
+      "old": "03_Agents/plugins/uni-teach-0.1.0.zip",
+      "new": "03_Agents/history/plugin-releases/uni-teach-0.1.0.zip",
+      "sha256_before": "ad11d08e823034daa3a3e157e10d7107fe109c0e335e8e594a9dda91af91b727",
+      "kind": "move",
+      "history_policy": "Historical claims preserved; operational authority superseded by current architecture.",
+      "original_snapshot": "03_Agents/history/2026-10-03-audit/original_agents/plugins/uni-teach-0.1.0.zip",
+      "original_snapshot_verified": true,
+      "sha256_after": "ad11d08e823034daa3a3e157e10d7107fe109c0e335e8e594a9dda91af91b727",
+      "content_changes": "none"
+    },
+    {
+      "old": "03_Agents/plugins/uni-teach-0.2.3-update.zip",
+      "new": "03_Agents/history/plugin-releases/uni-teach-0.2.3-update.zip",
+      "sha256_before": "b3b9d7f8834d78d6302745b3e795dae98ab85af1b8d364f3e7db38b8f31ea26e",
+      "kind": "move",
+      "history_policy": "Historical claims preserved; operational authority superseded by current architecture.",
+      "original_snapshot": "03_Agents/history/2026-10-03-audit/original_agents/plugins/uni-teach-0.2.3-update.zip",
+      "original_snapshot_verified": true,
+      "sha256_after": "b3b9d7f8834d78d6302745b3e795dae98ab85af1b8d364f3e7db38b8f31ea26e",
+      "content_changes": "none"
+    }
+  ],
+  "registered_skill_paths": "unchanged"
+}

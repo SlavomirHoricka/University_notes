@@ -1,0 +1,4 @@
+- an action consolidating two entities into a new organisation with shared management and ownership structures
+	- the new may inherit one or the other from either of the firms prior, or completely new structures may be made
+- requires no cash, as opposed to an [[Acquisition|acquisition]], but dilutes the individual companies' power
+- both companies surrender their stock and new stocks are issued in the name of the new entity

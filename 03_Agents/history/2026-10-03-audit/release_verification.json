@@ -1,0 +1,198 @@
+{
+  "backend_release": {
+    "plugin_id": "plugins_6ac1489d78a0819184b4e8340d8c61cd",
+    "name": "uni-teach",
+    "description": "Course-note ingestion, planning, tutoring, and spaced recall for the Uni Obsidian vault.",
+    "version": "0.3.0",
+    "current_release_id": "pluginrel_6ac246d6604c81918bc495ff5e7da99f",
+    "scope": "USER",
+    "discoverability": "PRIVATE"
+  },
+  "file_checks": {
+    ".codex-plugin/plugin.json": {
+      "uploaded_sha256": "f337732add9059a8f3561c9f86ac37ee2094b15b10cd87b09ec0f865cadd3fc8",
+      "remote_sha256": "5a9cfbeddb0dc72071cc7a5435cca5cf2d6bba23d710f4be8acd140358c33784",
+      "remote_size_bytes": 1243,
+      "exact_byte_match": false,
+      "validation": "identical JSON values; backend reordered object keys"
+    },
+    "LEARNING_ARCHITECTURE.md": {
+      "uploaded_sha256": "532a73057c5ff672866852e09fa4a67a5bfe8cff78127a1717a247dd1c6f8e3a",
+      "remote_sha256": "532a73057c5ff672866852e09fa4a67a5bfe8cff78127a1717a247dd1c6f8e3a",
+      "remote_size_bytes": 13771,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "README.md": {
+      "uploaded_sha256": "36ac36fbcfbbd61dbaf184f041fe2c3308697a2ae957901336a60c9ded91ea27",
+      "remote_sha256": "36ac36fbcfbbd61dbaf184f041fe2c3308697a2ae957901336a60c9ded91ea27",
+      "remote_size_bytes": 2327,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "assets/book.svg": {
+      "uploaded_sha256": "1e7c78c39aef964a4aff99ed7c277c763bd330567e0d93c20592dd02af17d999",
+      "remote_sha256": "1e7c78c39aef964a4aff99ed7c277c763bd330567e0d93c20592dd02af17d999",
+      "remote_size_bytes": 459,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "package_inventory.json": {
+      "uploaded_sha256": "4b8c84b899114f8d3ee953dc230483d4dd6aa955db1d120e275a042a8685c7e6",
+      "remote_sha256": "4b8c84b899114f8d3ee953dc230483d4dd6aa955db1d120e275a042a8685c7e6",
+      "remote_size_bytes": 3875,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "plugin.json": {
+      "uploaded_sha256": "c177f02ca88c2a38abf4e471b865239989ef67d6da63e804b1c29996ebfa1886",
+      "remote_sha256": "c177f02ca88c2a38abf4e471b865239989ef67d6da63e804b1c29996ebfa1886",
+      "remote_size_bytes": 1392,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "references/LEARNING_METHODS.md": {
+      "uploaded_sha256": "9cc59b539152920806af7bd515d8348dc49d0da42aecb69c30af52338892d013",
+      "remote_sha256": "9cc59b539152920806af7bd515d8348dc49d0da42aecb69c30af52338892d013",
+      "remote_size_bytes": 19368,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "scripts/records.py": {
+      "uploaded_sha256": "8b01bf69bc72679914943a20ca78fd642dbbf5bc7e67781985d1030ff2849f7d",
+      "remote_sha256": "8b01bf69bc72679914943a20ca78fd642dbbf5bc7e67781985d1030ff2849f7d",
+      "remote_size_bytes": 11351,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "scripts/test_records.py": {
+      "uploaded_sha256": "a2a904c0eb9b509f130b9343346aaa3bb6834ad3d5829c8cc7b2f66204926a7f",
+      "remote_sha256": "a2a904c0eb9b509f130b9343346aaa3bb6834ad3d5829c8cc7b2f66204926a7f",
+      "remote_size_bytes": 7102,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/ingest/SKILL.md": {
+      "uploaded_sha256": "73ca0d060d0191c78208847974ea2b0244ee30eae9bba65f861d7bee0879aee0",
+      "remote_sha256": "73ca0d060d0191c78208847974ea2b0244ee30eae9bba65f861d7bee0879aee0",
+      "remote_size_bytes": 29324,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/plan/SKILL.md": {
+      "uploaded_sha256": "4e3b6f9688206c1748a9c65875212fd20cb9f4dad85f26faa649162d43d9ec1b",
+      "remote_sha256": "4e3b6f9688206c1748a9c65875212fd20cb9f4dad85f26faa649162d43d9ec1b",
+      "remote_size_bytes": 18973,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/plan/templates/learning_plan.md": {
+      "uploaded_sha256": "7a8ba852d72b277018620b43d70d06b89b9d2667eb959f4afac75d875885de2d",
+      "remote_sha256": "7a8ba852d72b277018620b43d70d06b89b9d2667eb959f4afac75d875885de2d",
+      "remote_size_bytes": 4767,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/plan/templates/objective_lesson.md": {
+      "uploaded_sha256": "ec46abbeb1a64ca333a9353cbe9a13a56765379f10c4a1d55dde6fc6cbb5b745",
+      "remote_sha256": "ec46abbeb1a64ca333a9353cbe9a13a56765379f10c4a1d55dde6fc6cbb5b745",
+      "remote_size_bytes": 6030,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/plan/templates/source_manifest.md": {
+      "uploaded_sha256": "8074f01320ba72aabca240b4fd342d906c136b8854afc129f307caa913fbe1d6",
+      "remote_sha256": "8074f01320ba72aabca240b4fd342d906c136b8854afc129f307caa913fbe1d6",
+      "remote_size_bytes": 2808,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/recall/SKILL.md": {
+      "uploaded_sha256": "d489173f5a34f61375c65b358a89f3c158c1bd433448ecad3a80700987224d72",
+      "remote_sha256": "d489173f5a34f61375c65b358a89f3c158c1bd433448ecad3a80700987224d72",
+      "remote_size_bytes": 30117,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/recall/references/TODOIST_HARNESS.md": {
+      "uploaded_sha256": "b027de219baf07c77e9d89a9cbb4b1098f5c8c5cbe37e084d457d9c6fbdf7060",
+      "remote_sha256": "b027de219baf07c77e9d89a9cbb4b1098f5c8c5cbe37e084d457d9c6fbdf7060",
+      "remote_size_bytes": 4540,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/recall/scripts/schedule.py": {
+      "uploaded_sha256": "3e35b2f89a89a1692e145eddecf8526c9975c738f282752c15f892967cd577b0",
+      "remote_sha256": "3e35b2f89a89a1692e145eddecf8526c9975c738f282752c15f892967cd577b0",
+      "remote_size_bytes": 24051,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/recall/templates/recall_state.json": {
+      "uploaded_sha256": "96b1aef74ddf15c93ceb1404d972ec624495f59769f0dd244a2d648433840975",
+      "remote_sha256": "96b1aef74ddf15c93ceb1404d972ec624495f59769f0dd244a2d648433840975",
+      "remote_size_bytes": 681,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/recall/tests/test_schedule.py": {
+      "uploaded_sha256": "d3eb3eac9771048ddcc9b7f75c941e2b27352414c40387c48c14bc745ddc5bda",
+      "remote_sha256": "d3eb3eac9771048ddcc9b7f75c941e2b27352414c40387c48c14bc745ddc5bda",
+      "remote_size_bytes": 17418,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/teach/SKILL.md": {
+      "uploaded_sha256": "6cf845547443964fe31837384e1ac4775b18708bd5a9f4842eb7de48110e6ac9",
+      "remote_sha256": "6cf845547443964fe31837384e1ac4775b18708bd5a9f4842eb7de48110e6ac9",
+      "remote_size_bytes": 16226,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/teach/references/RECORDS.md": {
+      "uploaded_sha256": "5ca52bcca5e58dc343901ac3e592b83019d6e7646397f4a78bb5faa545ffd412",
+      "remote_sha256": "5ca52bcca5e58dc343901ac3e592b83019d6e7646397f4a78bb5faa545ffd412",
+      "remote_size_bytes": 8233,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/teach/references/WALKTHROUGH.md": {
+      "uploaded_sha256": "8e4caaeb587044e637d9ee508dfd349787890e8478931bdc1a0995e60c8172ed",
+      "remote_sha256": "8e4caaeb587044e637d9ee508dfd349787890e8478931bdc1a0995e60c8172ed",
+      "remote_size_bytes": 768,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/teach/templates/learning_log.md": {
+      "uploaded_sha256": "bc42458c3b5abc15bf738dd7816e0420cfdc2f5c3563b5287fd03f86db566c2f",
+      "remote_sha256": "bc42458c3b5abc15bf738dd7816e0420cfdc2f5c3563b5287fd03f86db566c2f",
+      "remote_size_bytes": 6219,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/teach/templates/learning_plan.md": {
+      "uploaded_sha256": "330b409e3130e427b2d83f070432d3b23c6b43e5adf5459109cd7b90535f030d",
+      "remote_sha256": "330b409e3130e427b2d83f070432d3b23c6b43e5adf5459109cd7b90535f030d",
+      "remote_size_bytes": 465,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    },
+    "skills/teach/templates/source_manifest.md": {
+      "uploaded_sha256": "7de34f220959de29faca998a932463f5270b6a36ed204138e4159bde3b40500b",
+      "remote_sha256": "7de34f220959de29faca998a932463f5270b6a36ed204138e4159bde3b40500b",
+      "remote_size_bytes": 379,
+      "exact_byte_match": true,
+      "validation": "exact bytes"
+    }
+  },
+  "inventory_matches_archive": true,
+  "verified_files": 25,
+  "exact_byte_matches": 24,
+  "backend_normalization": ".codex-plugin/plugin.json key order changed; identical JSON values.",
+  "observed_cache_versions": [
+    "0.2.3"
+  ],
+  "current_chat_skill_snapshot": "0.2.3",
+  "host_activation_verified": false,
+  "cache_edits_performed": false
+}

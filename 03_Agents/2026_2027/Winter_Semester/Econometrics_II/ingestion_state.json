@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+  "ingestion_revision": 2,
+  "transaction_id": "INGEST-ECONOMETRICS_II-6532655daa5c4322a07b8d4e6e26e8e0",
+  "status": "complete",
+  "run_id": "20261007T122546+0200_week2_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+  "updated_at": "2026-10-07T12:50:22+02:00",
+  "finished_notes": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Econometrics_II_main.md",
+      "sha256": "9bed2fe6a28235bcccef6683df834109cb77698530564995111d6d3c498f4898",
+      "headings": [
+        "Econometrics II",
+        "Week 1",
+        "The sample calculation and the population question",
+        "Three properties, three questions",
+        "From a fare question to an empirical report",
+        "Preparation and unresolved source details",
+        "Week 2",
+        "Ordered observations change the assumptions",
+        "Describe the timing of a modeled response",
+        "Compare deviations from trend and calendar patterns",
+        "Reading identity and scope"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Course_Organization_and_Source_Discrepancies.md",
+      "sha256": "d865f97f1915a5acc993b0e7765ad1e7018c7c12b7aacc5ec2b44cc6c1b2af21",
+      "headings": [
+        "Course organization and source discrepancies",
+        "Course purpose and preparation",
+        "Assessment and submitted work",
+        "Conflicting administrative details",
+        "Boundary of this Week 1 ingestion"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md",
+      "sha256": "8e76f95b0071e8625c31230e9c96e2a738e7d88251b1ba978d0bc35225fc380a",
+      "headings": [
+        "OLS estimator and assumptions",
+        "Population model, sample, and notation",
+        "How OLS chooses the line",
+        "The assumption ladder",
+        "Why multiple regression uses matrix notation",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "sha256": "8cb7c6b76f548352c216ae9bd1d909a788d8d8f5b8718c2721d23989ce332d7f",
+      "headings": [
+        "Transport demand: regression and interpretation",
+        "From economic intuition to a model",
+        "Ten-city example: keep the source's measurement scale",
+        "Estimate the line",
+        "Fitted values and residuals",
+        "Disturbance variance, slope variance, and the t statistic",
+        "The CSV example: compare specifications",
+        "Interpret conditional associations carefully",
+        "Goodness of fit: R-squared and adjusted R-squared",
+        "Assumption checks: what diagnostics can establish",
+        "Normality: a plot and a moment test",
+        "Homoskedasticity: a spread plot and an auxiliary regression",
+        "Assumptions that remain substantive",
+        "Turn the analysis into a short report"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Unbiasedness_Consistency_and_Efficiency.md",
+      "sha256": "afc4f90940a6f9e889acff6e5e1194c5fde424636cbfca31f540eee2c5051595",
+      "headings": [
+        "Unbiasedness, consistency, and efficiency",
+        "One decomposition drives both proofs",
+        "Unbiasedness: the repeated-sample average",
+        "Consistency: concentration as sample size grows",
+        "Why population covariance determines the probability limit",
+        "A weaker exogeneity condition",
+        "How unbiasedness and consistency can differ",
+        "Efficiency: specify the comparison class",
+        "Normality and hypothesis tests add another requirement",
+        "Distinctions to retain"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Time_Series_OLS_and_Strict_Exogeneity.md",
+      "sha256": "b15a3499dc1e95b326b898a39f5d58f9d72de24432544877ddd9d5a586775e4b",
+      "headings": [
+        "Time-series OLS and strict exogeneity",
+        "Temporal ordering and a stochastic process",
+        "The first three assumptions",
+        "Strict versus contemporaneous exogeneity",
+        "Why strict exogeneity gives unbiasedness",
+        "Two additional assumptions for conventional variance",
+        "The covariance terms hidden in the simple-slope proof",
+        "Multiple-regression precision, residual variance, and BLUE",
+        "Normality and exact finite-sample inference",
+        "What the assumption ladder establishes"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md",
+      "sha256": "9e8cb8c0eeff46c0f43ff601c85d5abac60a13edb674569501974f4f61867849",
+      "headings": [
+        "Static and finite distributed lag models",
+        "A static contemporaneous model",
+        "An FDL model spreads adjustment across dates",
+        "A temporary pulse and a permanent step",
+        "A static model is a special case, with a source caveat",
+        "Precision of the long-run sum",
+        "The EET restaurant-price example",
+        "A visual motivation for lagged response",
+        "What to retain"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Trends_Detrending_and_Seasonality.md",
+      "sha256": "0e7fb5c1af7cabc4ea80572915d3578a657db087254f5d6e70a4f870eabc185f",
+      "headings": [
+        "Trends, detrending, and seasonality",
+        "What the source's three trend plots show",
+        "Choose a time form that matches the comparison",
+        "Shared trends as an omitted-variable problem",
+        "Include an appropriate time trend",
+        "Detrend every variable using the same time form",
+        "Why the slope agrees with including the trend",
+        "Seasonality is a repeating calendar pattern",
+        "What the adjustments establish"
+      ]
+    }
+  ],
+  "prior_completed_revision": 1,
+  "unresolved": [
+    "HA1 deadline conflicts: lecture PDF p. 8 says October 26; syllabus PDF p. 1 says October 19. Actual assignment instructions/course team must resolve it.",
+    "Lecture PDF p. 6 fractional grade bands differ from integer lower limits in syllabus/catalog p. 2; fractional handling remains unspecified.",
+    "Syllabus p. 2 prints impossible Sept 31; original seminar header is September 30/October 1. Midterm end time in lecture p. 9 is unclear (12:30\u20133:00pm, called lecture time); syllabus confirms only the 12:30 start.",
+    "Lecture p. 7 permits any assignment software and says groups of two; syllabus p. 1/catalog p. 2 request appended R code and encourage pairs. Other-software submission and individual-work acceptance are not inferred.",
+    "travel.csv provides no units, sampling process or generating equation. Its u column is undefined. File-unit interpretations and diagnostic non-rejections do not establish exogeneity, causality or population assumptions.",
+    "Deck swaps TS2/TS3 relative to supplied textbook; p19 implication by name corrected and both numbered originals documented.",
+    "Deck p24 zero-list includes impact coefficient contrary to lag-only arrows; textbook printed348 explicitly retains current coefficient.",
+    "Slide reading page ranges match another edition; supplied Fifth Edition mapped by chapter title, physical PDF page=printed+28.",
+    "EET dates, especially claimed Jan1 2027 reintroduction, are attributed source context only; no external legal/date verification authorized or performed.",
+    "EET example has no supplied dataset, coefficient estimates, exact dummy coding, or causal identification design.",
+    "GDP/productivity plots lack units, country and dataset provenance; no quantitative/casual slope inferred.",
+    "Board-work examples and linked video are absent/uninspected; agent algebraic explanations are marked.",
+    "Chapter11 remains next-week reading; only current-topic assumption/trend boundary passages used, not full Chapter11 ingestion."
+  ],
+  "selected_scope": {
+    "folder": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_2",
+    "textbook": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf",
+    "selected_textbook_pages": {
+      "chapter10": {
+        "pdf": [
+          372,
+          407
+        ],
+        "printed": [
+          344,
+          379
+        ]
+      },
+      "chapter11_context": {
+        "pdf": [
+          [
+            408,
+            414
+          ],
+          [
+            419,
+            423
+          ]
+        ],
+        "printed": [
+          [
+            380,
+            386
+          ],
+          [
+            391,
+            395
+          ]
+        ]
+      }
+    }
+  },
+  "coverage_status": "complete for selected Week 2 sources and prior completed Week 1 coverage",
+  "finished_assets": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture1_p19_unbiasedness_derivation.png",
+      "bytes": 86809,
+      "sha256": "99d9726164d7430cb4aa0f281a8cc2ce61f43ee3291e68e4a1fee7b3575ca6b2",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture1_p22_consistency_derivation.png",
+      "bytes": 74408,
+      "sha256": "9bc5e56e3aaf74446e8ee0d0a805d26a178f2c111c23670cce37525db0e09604",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/seminar1_p1_ten_city_table.png",
+      "bytes": 22480,
+      "sha256": "01a26a2528905cc8cf66926795d307bea50e587c9f255f8cb226b9875bd8725a",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/travel_full_model_diagnostics.png",
+      "bytes": 81367,
+      "sha256": "783b15f68323991d9c54abfb0b83fa32a2858725f17ece2dd0ed18d30c535500",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p17_error_covariance_matrix.png",
+      "bytes": 42368,
+      "sha256": "bec15fb9cf2d5b6277b9245c9fe39d19f0d400eaa474e796853344ed925ec64a",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p32_GDP_against_productivity.png",
+      "bytes": 62768,
+      "sha256": "c724a0e3a321feb16a2008fa301690256a95f99ec4415f02d92cacb10fc62e09",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p33_GDP_over_time.png",
+      "bytes": 61421,
+      "sha256": "491b84e5b857dfac7820dc2d482724adfd29c5e975a350e218d2d55383365e90",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p34_productivity_over_time.png",
+      "bytes": 61892,
+      "sha256": "063cd73b7558f951801739eb18e9a59073930050b3336c1a939c4305f19d387c",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p35_cases_and_hospital_patients.png",
+      "bytes": 85123,
+      "sha256": "2ed7f9a90d36094f9f134e2c57ffb4919061b8f71898cf71e9b47bdd7a2f01a7",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/textbook_ch10_printed347_lag_distribution.png",
+      "bytes": 42610,
+      "sha256": "27edbf71873e191bde657f77d0eabf0b6874a862739e1669f952984ec04ef339",
+      "change": "new"
+    }
+  ],
+  "prior_passes": [
+    "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md"
+  ],
+  "prior_plan_paths": [
+    "03_Agents/2026_2027/Winter_Semester/Econometrics_II/learning_plan.md",
+    "03_Agents/2026_2027/Winter_Semester/Econometrics_II/source_manifest.md"
+  ],
+  "independent_checkers": [
+    "/root/independent_review"
+  ]
+}

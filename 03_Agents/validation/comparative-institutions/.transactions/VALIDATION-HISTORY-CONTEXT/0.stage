@@ -1,0 +1,5 @@
+# Immutable curriculum-history context
+
+P001 is an exact byte snapshot of the initial validation curriculum before P002 added explicit compatibility metadata and stronger journal-verification instructions. Objective revisions/criteria and keys are unchanged; this artifact contains no learner history.
+
+Original active base: `03_Agents/validation/comparative-institutions/`. Relative links inside immutable snapshots retain that original resolution context; rebasing or rewriting their bytes would defeat their role as exact historical definitions. Use the active [plan](../learning_plan.md), [manifest](../source_manifest.md), and lessons for current navigation. Absolute vault links and note identities in snapshots remain unchanged. The validation checker tests active links and verifies snapshot hashes/criteria preservation; archival relative links are interpreted against the original base.

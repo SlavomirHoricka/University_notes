@@ -1,0 +1,36 @@
+{
+  "checked_links": 2108,
+  "missing_links": [
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Data_Types_and_Variables.md",
+      "line": 10,
+      "target": "Descriptive_Statistics_Overview"
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Binomial_Distribution.md",
+      "line": 11,
+      "target": "Bernoulli_Distribution"
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Cumulative_Distribution_Function.md",
+      "line": 81,
+      "target": "Kolmogorov_Smirnov_Test"
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Variance.md",
+      "line": 11,
+      "target": "Standard_Error"
+    }
+  ],
+  "ambiguous_links": [],
+  "malformed_source_links": [],
+  "missing_source_metadata": [],
+  "nonstandard_hubs": [],
+  "course_mirror_difference": [
+    "plugins/uni-teach/.codex-plugin",
+    "plugins/uni-teach/assets",
+    "plugins/uni-teach/skills"
+  ]
+}
+
+exit=1

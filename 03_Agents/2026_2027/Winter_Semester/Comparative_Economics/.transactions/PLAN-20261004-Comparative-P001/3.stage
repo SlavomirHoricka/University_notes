@@ -1,0 +1,212 @@
+# Distinguish hold-up from commitment and reason through sunk costs
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+  "transaction_id": "PLAN-20261004-Comparative-P001",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O004",
+  "objective_revision": 1,
+  "criterion_version": "O004-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "procedural",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O003"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md",
+      "heading": "2. Hold-up: investment changes bargaining power"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md",
+      "heading": "3. Commitment: promises can become unattractive to keep"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_scope_independent"
+    ],
+    "required_components": [
+      "C1 hold-up timing and specificity",
+      "C2 break-even versus operating/project result",
+      "C3 commitment distinction",
+      "C4 remedy and limitation"
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true,
+    "required_components": [
+      "C1 hold-up timing and specificity",
+      "C2 break-even versus operating/project result",
+      "C3 commitment distinction",
+      "C4 remedy and limitation"
+    ]
+  },
+  "review_topic": "Distinguish hold-up from commitment and reason through sunk costs",
+  "review_instruction": "Begin a closed-note review with teach for O004; request a fresh prepared delayed item before recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Given a relationship-specific investment followed by repricing, calculate ex ante break-even, post-investment operating surplus and overall project result, justify accept/reject decisions under stated outside options, distinguish a general commitment problem, and propose a supported remedy with a trade-off.
+
+Essential criterion components are **C1 hold-up timing and specificity, C2 break-even versus operating/project result, C3 commitment distinction, C4 remedy and limitation**. Primary finished-note locations: [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#2. Hold-up: investment changes bargaining power]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#3. Commitment: promises can become unattractive to keep]].
+
+Instruction and supported practice may use the selected notes. Independent checks are closed-note: show the stated prompt and its supplied data only, with no explanation, model answer, hints, web search, other people, AI help, or solution-bearing figure access before the response. A simple calculator is allowed for arithmetic after the learner states the reasoning; no symbolic or generative tools. If notes, item keys, or matching solutions were accessed, record the exposure and do not call that attempt independent. No timing or confidence threshold replaces a complete answer. At equality with variable cost the simple ex post choice is indifferent. All numerical variants assume no outside value, fixed q and no additional production/transaction costs; changed assumptions need a prepared key, not improvised optimization.
+
+## Prerequisites and checks
+
+O003 is needed for enforcement/reputation and for distinguishing these problems from hidden information. O004-P1 / 1: “Both buyer and supplier know all costs, but a price promise is unenforceable. Does full disclosure ensure performance?” Key: no; there can be commitment or hold-up even with symmetric information, because incentives/enforcement differ. Pass requires mechanism; partial simply says no; fail says information alone solves it. Repair O003 remedy explanation then this lesson’s W1. O004-P2 / 1 arithmetic check: “At q=100, p=8 and c=5, what is revenue minus variable cost?” Key (8−5)100=300, before any fixed investment. Fail/partial arithmetic returns to W1 with calculator support; do not impose external accounting curriculum.
+
+For every P diagnostic, ask before exposing its key. Pass requires all explicitly requested distinctions and their reasons; partial means a correct part with an omission or local arithmetic slip; fail means the essential prerequisite mechanism is contradicted. Unknown help or no answer is unscorable. Diagnostics are brief route selection only and never acquisition evidence. Apply the named repair once, then instruction rather than repeat-testing.
+
+## Teaching order and rationale
+
+1. Use [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O004.md#Motivation, intuition, and definitions]] to pose the concrete problem and define the terms.
+2. Follow [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O004.md#Explanation steps]] in order: establish the decision or claim, compare alternatives, then interpret its limits. Each next step relies on the preceding distinction.
+3. Present [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O004.md#Worked example]] with its decision points before requesting a new full answer.
+4. Use [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O004.md#Practice with fading assistance]] for the completion task; give at most the two prepared hints. A complete response with stated reasons permits withdrawing support.
+5. Ask I1, score the original response, provide the prepared feedback if needed, then ask I2 fresh and closed-note. Use only the permitted substitutions below after correction.
+6. After acquisition, close without claiming durable retention. At a qualifying later review, ask D1 or D2 before recap; retain the second as an alternate.
+
+A learner with adequate committed current-criterion prerequisite evidence may skip the prerequisite diagnostic. A successful entry diagnostic may skip the worked/support route, but acquisition still requires two fresh full-scope independent checks. A failed diagnostic returns to its named prepared repair and instruction; it never triggers repeated pretests.
+
+## Motivation, intuition, and definitions
+
+Hold-up requires a prior sunk relationship-specific investment that weakens the investor’s outside option; the other side can later demand worse terms. Sunk means the cost cannot be recovered by walking away. Asset specificity means substantially less value outside this relationship. Commitment is more general: a promise wanted now may become privately unattractive to keep later, without any specialized investment. Time inconsistency means the preferred action changes between promise and performance. Distinguish ex ante investment choice, ex post production choice and whole-project accounting. Let I be investment dollars, q units, c variable dollars/unit, p dollars/unit; project profit is (p−c)q−I and break-even promised price c+I/q. Ex post compare future payoffs; subtracting sunk I from both choices does not change their ranking.
+
+## Explanation steps
+
+1. Before investment, require expected revenues to cover both variable and initial costs. At the note’s I=10,000, q=1,000, c=20, p=30, project result=(30−20)1,000−10,000=0; p_BE=30.
+2. After investment, with no other buyer/use and no further costs, an offer p'=25 produces operating surplus(25−20)1,000=5,000. Rejecting yields zero future surplus, so producing is better.
+3. Overall loss after accepting is5,000−10,000=−5,000, versus−10,000 if rejected. The source’s “operating loss” expression is a project loss; it cannot justify rejecting a positive future surplus. At exactly variable cost the two choices tie; above it producing wins under the specified assumptions.
+4. Anticipating p'=25 before investment yields−5,000, so the supplier declines the investment in this simple setting. An outside buyer/use could weaken this hold-up threat; no hidden information is necessary.
+5. An enforceable price contract supplies a fallback but incompleteness/litigation can allow pressure. Alternative buyers/uses improve outside options. Integration puts both stages inside one firm but may reduce production efficiency or require unavailable capital. Credible norms can restrain opportunism only with sanctions.
+6. In sequential bicycle delivery/payment, either first mover fears the other will renege. This is commitment without a special investment. Legal enforcement, witnesses or credible self-binding change later incentives; mutually preferred renegotiation remains possible. A mechanism’s enforcement function does not make violence or extortion desirable.
+
+## Worked example
+
+### O004-W1
+
+**Item/version:** `O004-W1` / 1. **Role:** worked example. **Components:** C1 hold-up timing and specificity, C2 break-even versus operating/project result, C3 commitment distinction, C4 remedy and limitation.
+
+**Prompt:** Use the note’s axle investment I=10,000, q=1,000, c=20, promised p=30 then offer25. No alternative buyer/use. Compare ex ante/ex post and a bicycle delivered before payment, then choose a remedy and state its boundary.
+
+**Prepared key and essential reasoning:** p_BE=20+10,000/1,000=30; promised project profit0. Post-investment operating surplus5,000, project loss−5,000; rejecting loses10,000, so accept25 ex post. Anticipated25 gives loss and deters ex ante investment. Specific/sunk capital enables hold-up. Bicycle nonpayment risk is general sequential commitment with no specific investment required. Enforceable contract gives a fallback, but incomplete terms/costly enforcement remain; alternatively other buyers weaken bargaining power or integration avoids cross-owner bargaining at efficiency/finance cost. Stating the boundary prevents treating a contract as a universal solution.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Practice with fading assistance
+
+### O004-S1
+
+**Item/version:** `O004-S1` / 1. **Role:** supported completion. **Components:** C1 hold-up timing and specificity, C2 break-even versus operating/project result, C3 commitment distinction, C4 remedy and limitation.
+
+**Prompt:** Completion, hypothetical: I=6,000, q=500, c=12, promise24, later offer18; no outside use. Fill break-even, promised/project/post-investment values and decisions. Compare delivery-before-payment and propose a remedy plus limit.
+
+**Prepared key and essential reasoning:** p_BE=12+6000/500=24; promised profit0. Offer18 creates future surplus(18−12)500=3,000; project loss−3,000 versus−6,000 reject, so accept ex post but do not invest ex ante if18 is anticipated. Sunk specificity changes bargaining. Delivery-before-payment is commitment without specificity. Enforceable contract with incompleteness/enforcement cost, alternative buyers with feasibility constraints, or integration with efficiency/capital cost is accepted.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. Notes allowed. Hint 1: Separate the time before I is paid from after it is paid. Hint 2: Compare future operating surplus with zero, then separately subtract I for project accounting. Then show the worked step if still stuck; this response cannot establish independence.
+
+### O004-I1
+
+**Item/version:** `O004-I1` / 1. **Role:** full_scope_independent (immediate). **Components:** C1 hold-up timing and specificity, C2 break-even versus operating/project result, C3 commitment distinction, C4 remedy and limitation.
+
+**Prompt:** Hypothetical: I=8,000, q=1,000, c=10, promise18, later offer14; no alternative buyer/use or further costs. Compute break-even/promised profit, later operating surplus and project result, compare accept/reject after investment and investment if14 is expected. Identify hold-up conditions, contrast a bicycle payment promise, and give one remedy and its limitation.
+
+**Prepared key and essential reasoning:** p_BE18, promised0; operating(14−10)1000=4,000, project−4,000; reject−8,000, so accept later but do not invest if14 is anticipated. Relationship-specific sunk investment weakens outside option; no asymmetric information needed. Bicycle payment promise is general commitment/time inconsistency, no specificity required. Enforceable contract can protect fallback but has incompleteness/litigation costs; alternative buyer/use only if feasible, or integration with efficiency/capital trade-off. All timing, values, distinction and remedy+limit required.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+### O004-I2
+
+**Item/version:** `O004-I2` / 1. **Role:** full_scope_independent (immediate). **Components:** C1 hold-up timing and specificity, C2 break-even versus operating/project result, C3 commitment distinction, C4 remedy and limitation.
+
+**Prompt:** Hypothetical: I=9,000, q=500, c=6, promise24, later offer12; no outside use or other costs. Calculate break-even and both profit measures, justify ex ante/ex post decisions and the source “operating loss” error; contrast a delivered computer whose buyer reneges, and propose a remedy with limitation.
+
+**Prepared key and essential reasoning:** p_BE=6+9000/500=24, promised profit0. Future surplus(12−6)500=3,000; project−6,000; rejection−9,000. Accept12 after sunk cost, decline investing if12 known in advance. “Operating loss” subtracting I conflates total project with future operation. Specific sunk investment enables hold-up; ordinary computer delivery/nonpayment is commitment without a necessary special investment. Supported contract/alternative-use/integration remedy with exact enforcement, feasibility or efficiency/finance limitation as above.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Rubric and independence
+
+The prepared keys operationalize each component; all are essential. Pass requires an explicit mechanism and justified application plus every specified limit. Partial applies to an incomplete argument or isolated arithmetic transcription error with otherwise correct setup; teach gives feedback and obtains a fresh check. An arithmetic slip is not itself proof of conceptual failure, but a numerically wrong result does not count as a complete pass. Fail applies to any critical conceptual error identified below. Unscorable applies to missing response or ambiguous/unknown help conditions; do not infer acquisition.
+
+**Full role coverage:** I1, I2, D1, and D2 each test all components C1 hold-up timing and specificity, C2 break-even versus operating/project result, C3 commitment distinction, C4 remedy and limitation. Normal acquisition is two distinct passes on I1 and I2, same revision/criterion and known unassisted conditions. Permitted repair/entry substitution: use a previously unseen D1 or D2 as a `full_scope_independent` check; record that immediate use explicitly and do not count it as delayed retention. Only combinations of two different unexposed I/D items are permitted. Supported, worked, diagnostic, and C items do not fill this role. Correction items are deliberately narrower and cannot substitute for acquisition or delayed checks. If both delayed variants are consumed during repair, request new prepared delayed items from plan before claiming delayed readiness.
+
+Each delayed pass independently requires the same entire criterion after at least 24 elapsed hours from the last instruction/solution exposure for this objective, with current tuple, fresh item and known intervening exposure. The 24-hour guard is an operational minimum; recall owns dates. A previously seen question can be used for practice only.
+
+## Misconceptions and correction
+
+**Observable sign:** Learner rejects production because total project profit is negative. A single response supports a tentative diagnosis; it becomes established only with corroborating reasoning, never from hesitation alone. **Corrective explanation:** A sunk cost enters both accept and reject totals; compare only future incremental outcomes for the current choice. **Hint 1:** Name the distinction being tested. **Hint 2:** Compare the alternatives using the supplied definitions; after two ineffective hints show the relevant worked step.
+
+### O004-C1
+
+**Item/version:** `O004-C1` / 1. **Role:** fresh correction; practice only. **Components:** C2 break-even versus operating/project result.
+
+**Prompt:** Fresh correction: sunk I=2,000, future variable cost1,000 and offered revenue1,500; no alternatives. Accept or reject, and is the whole project profitable?
+
+**Prepared key and essential reasoning:** Accept because future surplus500>0; total project−1,500 while reject−2,000. Accepting does not make the original investment profitable.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+**Observable sign:** Learner defines every broken promise as hold-up or proposes contracts without limits. A single response supports a tentative diagnosis; it becomes established only with corroborating reasoning, never from hesitation alone. **Corrective explanation:** Hold-up adds sunk relationship-specific investment; ordinary sequential commitment need not. Enforceability and incomplete terms constrain contractual protection. **Hint 1:** Name the distinction being tested. **Hint 2:** Compare the alternatives using the supplied definitions; after two ineffective hints show the relevant worked step.
+
+### O004-C2
+
+**Item/version:** `O004-C2` / 1. **Role:** fresh correction; practice only. **Components:** C3 commitment distinction, C4 remedy and limitation.
+
+**Prompt:** Fresh correction: a new seller takes a deposit and can disappear, with no buyer-specific equipment. Name the problem and give an institutional protection with limit.
+
+**Prepared key and essential reasoning:** General commitment, not established hold-up; enforceable contract or credible witnessed commitment can help, conditional on enforcement/sanctions and incomplete/costly remedies.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Immediate and delayed checks
+
+I1/I2 above are separate immediate forms. Ask delayed forms before showing any recap, explanation or solution. The D forms are parallel or near-transfer applications of the stated mechanism; different contexts/numbers do not prove broad transfer or whole-course mastery. Record item version, help, elapsed time, and intervening exposure.
+
+### O004-D1
+
+**Item/version:** `O004-D1` / 1. **Role:** full_scope_independent (delayed variant). **Components:** C1 hold-up timing and specificity, C2 break-even versus operating/project result, C3 commitment distinction, C4 remedy and limitation.
+
+**Prompt:** Hypothetical farmer makes buyer-specific equipment investment I=12,000, q=2,000, c=4; promise10, later offer7, no outside use or further costs. Derive break-even, promised result, future surplus/project loss and both decisions. Contrast an unenforceable promise to pay for an already delivered bicycle, then choose a remedy and a limitation.
+
+**Prepared key and essential reasoning:** p_BE10, promised0, later surplus(7−4)2000=6,000, project−6,000 versus−12,000 reject. Accept ex post, decline ex ante if7 expected; sunk buyer-specific investment weakens exit. Bicycle issue is sequential commitment/time inconsistency without specificity. An enforceable contract with incomplete terms/costly litigation, alternative buyer with feasibility limit, or integration with production-efficiency/finance cost is accepted. Hypothetical parallel calculation does not prove wider transfer.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+### O004-D2
+
+**Item/version:** `O004-D2` / 1. **Role:** full_scope_independent (delayed variant). **Components:** C1 hold-up timing and specificity, C2 break-even versus operating/project result, C3 commitment distinction, C4 remedy and limitation.
+
+**Prompt:** Hypothetical supplier: I=4,000, q=400, c=5, promise15, later offer9; no outside use or other costs. Calculate all three price/result distinctions and decisions. Explain what changes if another buyer can take the output, distinguish sequential delivery/payment, and choose a remedy with one explicit limitation.
+
+**Prepared key and essential reasoning:** p_BE15, promise profit0; later operating(9−5)400=1,600, project−2,400 versus−4,000 reject. Accept after sunk cost; do not invest if9 expected. A viable alternative buyer strengthens outside option and reduces hold-up; its price/availability is not supplied so do not invent a new optimum. General commitment to pay after delivery needs no specific investment. Supported contract/integration/alternative-use remedy with credible enforcement/incomplete terms, efficiency/capital or feasibility boundary required.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Advance, revisit, pause, and escalate
+
+Advance only after two distinct qualifying full-scope independent passes at O004 revision 1 / O004-C1. Delayed success is separate and cannot be inferred from acquisition. If a prerequisite fails, execute its one prepared repair route and return to instruction. If the supported answer remains incomplete after two hints, show the missing step and stop treating it as a check. After two unsuccessful fresh independent attempts in one session, pause assessment, revisit the worked explanation, and arrange a fresh prepared attempt; do not drill exposed questions until they appear fluent. Close an interrupted session without acquisition claims.
+
+If the notes conflict, ingestion state becomes blocked/stale, or a cited source claim cannot support a key, stop the affected block and route a `note_issue` to ingest with course 2026_2027/Winter_Semester/Comparative_Economics, note/heading, ingestion revision 1 and exact conflicting claim. If a learner offers a plausible answer outside prepared criteria, a key is ambiguous, or fresh variants are exhausted, route `plan_issue` to plan with O004, revision 1, O004-C1, P001/V001, item ID/version and exact missing decision. Continue unaffected objectives only if their prerequisites are satisfied. Teach owns actual evidence; this file supplies no learner outcome.
+
+## Answer-free recall handoff
+
+**Topic:** Distinguish hold-up from commitment and reason through sunk costs. **Start:** Begin a closed-note review with teach for O004 using [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O004.md#Immediate and delayed checks]]; request a fresh prepared delayed item before recap. Teach sends only actual committed evidence IDs and exposure context. Recall determines the date and task synchronization; no due date is defined here.

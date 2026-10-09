@@ -1,0 +1,195 @@
+# Derive matched purchase and sale hedge cash flows
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "transaction_id": "T-plan-fmi-e129c21f1dfc495bb2d8753c98f22175",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O007",
+  "objective_revision": 1,
+  "criterion_version": "O007-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "hedge_direction_and_matching",
+    "two_leg_cashflow_and_sign",
+    "basis_risk_and_convergence_limits",
+    "funding_separate_from_effective_price"
+  ],
+  "prerequisite_ids": [
+    "O002",
+    "O006",
+    "O003"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md",
+      "heading": "A purchase hedge, derived step by step"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md",
+      "heading": "A sale hedge and early termination"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md",
+      "heading": "What to carry forward"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O007-I1",
+        "O007-I2"
+      ],
+      [
+        "O007-I1",
+        "O007-D1"
+      ],
+      [
+        "O007-I1",
+        "O007-D2"
+      ],
+      [
+        "O007-I2",
+        "O007-D1"
+      ],
+      [
+        "O007-I2",
+        "O007-D2"
+      ],
+      [
+        "O007-D1",
+        "O007-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Derive matched purchase and sale hedge cash flows",
+  "review_instruction": "Begin a closed-note review with teach for O007; request an unused prepared delayed item before recap."
+}
+```
+
+## Outcome and conditions
+
+For matching fixed quantities, choose long purchase hedge or short sale hedge, derive and calculate the futures leg plus spot leg, report positive buyer expenditure, negative buyer signed cash flow and seller net receipt, and interpret residual basis and funding. Assume matching underlying/quantity/maturity, ignored transaction costs and interest on daily margin flows; a hedge of a different asset or quantity is outside this prepared scope.
+
+Finished-note locations: [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md#A purchase hedge, derived step by step]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md#A sale hedge and early termination]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md#What to carry forward]].
+
+Supported learning permits these note sections and the worked key. Independent checks permit blank paper and a non-programmable calculator only; no notes, formula list, key, hints, external help or generated solution. The tutor must confirm these conditions and known prior item exposure before marking independence. Unknown conditions are unscorable for independence, even if the content is correct. These stricter practice conditions do not purport to reproduce all exam rules. Hypothetical tasks below instantiate only note-supported mechanisms.
+
+## Prerequisites and checks
+
+O007-P1 / v1 (O002): Exposure100,opening50,closing55. Long/short cumulative results? Key+500/−500; pass both with direction; partial arithmetic; fail signs. Repair O002 explanation/S1. O007-P2 / v1 (O006): S54,F55 under B=S−F; basis and condition for zero? Key−1; S=F; pass both; partial missing equality; fail F−S silently. Repair O006 explanation/W1. O007-P3 / v1 (O003): Can depositing cash after a loss improve the trading payoff? Key no, funding raises account but does not alter G. Pass distinction; partial assertion only; fail deposit=profit. Repair O003 explanation/W1. These checks prevent wrong leg/sign, basis convention and funding interpretation respectively.
+
+A qualifying committed prerequisite result may skip its diagnostic only when its exact current tuple or explicitly approved compatible tuple and independence conditions are known. Familiarity is insufficient. Diagnostics do not count as acquisition checks. Do each relevant diagnostic once; failed/partial responses follow the stated repair, then one fresh full check rather than repeated diagnosis.
+
+## Teaching order and rationale
+
+1. Retrieve **Outcome and conditions** and **Prerequisites and checks**; repair a needed dependency before its notation is used.
+2. Teach **Motivation, intuition, and definitions** to attach each symbol to an economic action.
+3. Use **Explanation steps** to connect the assumptions to the result.
+4. Present **Worked example** with the key exposed and ask the learner to identify each decision point.
+5. Give **Practice with fading assistance** supported task; if a conceptual component is missing, use its prepared correction.
+6. Withdraw all help and ask I1, score before feedback, then an unused full check under **Immediate and delayed checks**.
+7. After qualifying acquisition, leave delayed assessment to an unused D item after the minimum elapsed interval. Never recap its solution before the answer.
+
+A learner whose prerequisite diagnostic passes may skip prerequisite support; the objective explanation/example can be shortened to the identified gap. The same two full independent-check requirement remains. Full solutions shown on any route retire that item from independent use.
+
+## Motivation, intuition, and definitions
+
+Motivation: A losing futures leg can be part of a successful price hedge. X=Nq matched units; F0 opening, Ft closing, St spot at hedge transaction date; B=St−Ft. A buyer opens long because a rise in later purchase cost should be offset by a futures gain. A seller opens short because a fall in sale receipt should be offset by a gain. Define E positive expenditure, CF buyer signed cash flow with outflows negative, and R seller positive net receipt.
+
+## Explanation steps
+
+1. Buyer: futures gain X(Ft−F0); spot purchase costs XSt. E=XSt−X(Ft−F0)=X[F0+(St−Ft)]=X(F0+B). CF=−E.
+2. Seller: spot revenue XSt plus short gain X(F0−Ft). R=XSt+X(F0−Ft)=X(F0+B). The same expression has a different economic label; do not swap buyer expenditure and seller inflow signs.
+3. At matching maturity conditional convergence B_T0 gives E=R=XF0 and CF=−XF0. Futures loss on a falling market is offset by cheaper purchase; futures loss on rising market by higher sale price for seller.
+4. Before maturity the closing basis is unknown at inception. The early hedge still operates but leaves E/R=XF0+XB_t rather than a guaranteed opening-price lock. This is basis risk, not the same as absolute spot movement.
+5. The notes flag the source verbal early-hedge sign error: −F0+(Ft−St)=−F0−B, buyer signed flow. Positive expenditure is F0+B. Never reuse the mistaken label.
+6. Zero-basis effective-price accounting does not remove interim calls. Daily settlement requires funding and the source ignores its interest; a final hedge outcome is not proof of no cash demand.
+
+## Worked example
+
+O007-W1 / item_version 1 / worked-example; source-supported example or explicitly hypothetical instantiation.
+
+Hypothetical buyer/seller X100 units,F0=50,close early Ft54,St55,B1. Buyer long gain400, spot cost5500, E5100,CF−5100. Seller short loss−400, spot sale5500,R5100. Same effective51/unit, not guaranteed opening50 because B1. If matching maturity instead Ft=St55, buyer gain500 and seller loss−500; each positive cost/revenue5000 (50/unit), buyer signed−5000. Source handout long opened1000 and ends Ft=St900 loses100 but buys spot900, effective1000. Calls and flow interest excluded from this simple cash-flow sum.
+
+## Practice with fading assistance
+
+O007-S1 / item_version 1 / supported-completion.
+
+**Prompt:** Hypothetical X10,F0=20,Ft18,St19 before maturity. Complete basis, buyer long result/spot cost/E/CF, seller short result/spot revenue/R. What changes if Ft=St19 at maturity? Could calls still happen?
+
+**Key:** B1; long−20,spot190,E210,CF−210; short+20,spot190,R210. At maturity19: long−10/short+10,E=R200,CF−200. Matching/ignored costs-interest required; early basis uncertainty remains; calls can occur despite final price lock. Full supported components.
+
+Allowed help: reveal the named definitions, then at most two prepared hints in **Misconceptions and correction**. After the learner supplies the missing steps and their reasons, hide all keys and use a fresh full check. Supported success is practice evidence only. If even the full worked correction does not restore the needed component, pause and follow the dependency repair.
+
+## Rubric and independence
+
+The required components are: hedge_direction_and_matching; two_leg_cashflow_and_sign; basis_risk_and_convergence_limits; funding_separate_from_effective_price. Each full check below explicitly elicits and keys every component. Pass requires all its essential reasoning and requested outputs without a critical error. Partial means a correct mechanism but a missing component, unresolved sign/unit, or isolated arithmetic slip. Fail means a critical conceptual error persists or the method cannot establish the result. Unscorable means the response/conditions cannot be interpreted reliably; ask the existing prompt once for clarification, without adding a new assessment. Accept algebraically equivalent expressions, clearly defined opposite cash-flow signs, and plain-language explanations with the same mechanism. An arithmetic slip is partial until independently corrected; it is not automatically a conceptual failure. No numerical score is inferred.
+
+Critical errors: Buyer uses short without matching rationale; wrong futures/spot signs; early zero basis asserted automatically; maturity price lock claimed despite mismatched asset/quantity; deposit or final favorable hedge mistaken for no funding risk.
+
+Acquisition requires two distinct unassisted passes from the explicitly permitted routes O007-I1/O007-I2, O007-I1/O007-D1, O007-I1/O007-D2, O007-I2/O007-D1, O007-I2/O007-D2, O007-D1/O007-D2. I items normally establish acquisition; an unused D item may replace an exposed or failed I item and then cannot later be counted as delayed retention. Each selected full item assesses all listed components, so every route covers them twice. W1, S1, prerequisite diagnostics and the narrow C1 correction are forbidden substitutes. The D bank is finite: never repeat an exposed item to certify fresh learning and never invent changed numbers. If fewer than two unused full items remain, raise a plan_issue for a new prepared bank.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| hedge_direction_and_matching | required | required | required | required |
+| two_leg_cashflow_and_sign | required | required | required | required |
+| basis_risk_and_convergence_limits | required | required | required | required |
+| funding_separate_from_effective_price | required | required | required | required |
+
+## Misconceptions and correction
+
+Signs: a losing futures leg treated as failed hedge; wrong hedge direction; buyer cost subtracted with wrong sign; early basis assumed zero. Correction: write two separate economic legs before combining; distinguish E from CF. Hint1: buyer needs gains when purchase price rises. Hint2: E=spot cost−long gain. O007-C1 / v1: X10,F0=10,Ft9,St8. Give buyer E/CF and interpret. Key long−10,spot80,E90,CF−90,B−1,effective9; loss on leg is offset by cheaper spot, early remaining basis. Pass sign and mechanism; partial missing explanation; fail E70 or futures loss proves hedge failure.
+
+The sign alone is a tentative diagnosis; use the learner's reasoning to establish the confusion. Score the initial response before any hint. Hint 1 points to the named distinction; hint 2 points to the first correct step. After two ineffective hints show the prepared key, then pause if the fresh C1 response still fails. C1 checks the repaired component only and cannot replace a full independent check.
+
+## Immediate and delayed checks
+
+All items are item_version 1 and role full_capability_check. I1/I2 are immediate; D1/D2 are prepared delayed variants. D items may establish delayed success only when unused, unassisted, attempted before recap, at least 24 elapsed hours after acquisition and the most recent relevant solution/teaching exposure, with intervening exposure recorded. Early D attempts may be immediate checks but are not delayed evidence. Each delayed success is separate from initial acquisition. Numerical changes are parallel variants; a changed buyer/seller context is bounded near transfer, never proof of broad transfer.
+
+### O007-I1
+
+**Prompt:** A hypothetical buyer and seller each have100 matching units,F0=50. At early spot transaction St58,Ft56. Choose each hedge direction; derive E,CF,R from separate futures/spot legs and compute basis/effective unit price. Then use matching maturity St=Ft58. Explain exactly what is and is not fixed, the sign-error boundary, matching/cost-interest assumptions and whether interim margin calls remain possible.
+
+**Key and essential rubric:** Buyer long: gain600,spot5800,E5200,CF−5200. Seller short: loss−600,spot receipt5800,R5200. B2, effective52; derive both as100(50+B). At maturity58 long+800/short−800→E=R5000,CF−5000,unit50. Early basis unknown initially, not exact lock; at zero basis matched opening price fixed. Signed −F0−B vs positive F0+B resolves flagged verbal sign error. Match units/asset/maturity, ignore costs/flow interest; daily calls still possible. All four components required.
+
+### O007-I2
+
+**Prompt:** Hypothetical buyer/seller X200 units,F0=30,early St27,Ft28. Choose directions and derive/compute both futures legs, spot cost/revenue,E,CF,R,basis and effective price. Repeat at matching maturity St=Ft27. Explain early residual risk, signed cash-flow convention/source sign error, matching and cost-interest limitations, and funding obligations.
+
+**Key and essential rubric:** Buyer long loss−400,spot5400,E5800,CF−5800. Seller short+400,spot5400,R5800. B−1,effective29=30−1, formulaX(F0+B). Maturity27: buyer−600,seller+600,E=R6000,CF−6000,unit30. Early basis remains unknown at opening; maturity zero gives price lock under matching/ignored costs and margin-flow interest. Source signed−F0−B differs from positive E; no wrong verbal label. Calls may occur on adverse futures days although aggregate price hedged. All four components required.
+
+### O007-D1
+
+**Prompt:** Hypothetical buyer/seller X50,F0=80,early St84,Ft85. Select each hedge and derive/calculate spot/futures legs,E,CF,R,B/effective price; then matching maturity St=Ft84. Explain why early hedge can work without an exact lock, the correct sign expression, matching/cost-interest assumptions and margin cash needs.
+
+**Key and essential rubric:** Buyer long+250,spot4200,E3950,CF−3950; seller short−250,spot4200,R3950. B−1,effective79,each positiveX(80−1). At maturity84: buyer+200,seller−200,E=R4000,CF−4000,unit80. Early residual B uncertain, exact lock only zero basis; −F0−B is signed outflow vs F0+B expenditure (source verbal sign error avoided). Matching quantity/asset/maturity and ignored transaction costs/interim-flow interest; daily funding calls remain. All four components required.
+
+### O007-D2
+
+**Prompt:** Hypothetical buyer/seller X300,F0=10,early St8,Ft7. Choose directions and derive/calculate futures/spot legs,positive E/R,negative CF,basis and effective price. Recompute at matching maturity St=Ft8. Explain source sign boundary, early versus zero-basis result, matching/cost-interest limits and interim funding.
+
+**Key and essential rubric:** Buyer long−900,spot2400,E3300,CF−3300; seller short+900,spot2400,R3300. B1,effective11=X(10+1)/X. At maturity8: long−600/short+600,E=R3000,CF−3000,unit10. Early B unknown initially hence no opening-price guarantee; zero-basis matching gives lock. Signed −F0−B,positiveF0+B correct source sign distinction. Matching fixed quantity/asset/maturity,ignore costs/flow interest. Long may fund calls even though cheaper spot offsets futures loss; seller may also have calls on adverse path. All four components required.
+
+## Advance, revisit, pause, and escalate
+
+Advance when teach has committed two qualifying distinct full passes with this current criterion; this defines acquisition, not durable retention. Delayed success requires a later fresh full pass under the delayed conditions. After one failed check, score, teach the named correction and use another unused full item. After two unsuccessful independent attempts or a failed fresh correction, pause independent quizzing and return to the relevant prepared explanation/dependency. Stop if a note/ingest conflict affects the mechanism. Unsupported accepted alternatives, unclear rubric, exhausted item bank, or missing blocks require plan_issue with 2026_2027/Winter_Semester/Financial_Markets_Instruments_I, O007, objective revision 1, O007-C1, P001/V001, ingestion revision 1 and the exact item ID. Academic note contradictions go to ingest with the cited heading; plan gaps go to plan. End a session with honest partial coverage if acquisition is unfinished.
+
+## Answer-free recall handoff
+
+Topic: Derive matched purchase and sale hedge cash flows. Instruction: Begin a closed-note review with teach for O007; request an unused prepared delayed item before recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O007.md#Immediate and delayed checks]]. Teach supplies committed evidence IDs and actual timestamps; recall owns due dates and Todoist. Deadline/retention horizon is null. No learner result or review date is created by this definition.

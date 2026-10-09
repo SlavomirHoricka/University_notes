@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "ingestion_revision": 1,
+  "transaction_id": "T-82505a0cc84646ba8311809900519d8b",
+  "status": "blocked",
+  "run_id": "20261004T155737+0200_week1_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+  "updated_at": "2026-10-04T16:11:05.310926+02:00",
+  "finished_notes": [],
+  "affected_note_paths": [
+    "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Financial_Markets_Instruments_I_main.md",
+    "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md",
+    "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Margins_and_Marking_to_Market.md",
+    "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md",
+    "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Introduction_to_Futures_Seminar_Exercises.md"
+  ],
+  "prior_completed_revision": null,
+  "unresolved": [
+    "Selected Week 1 coverage and independent verification pending."
+  ]
+}

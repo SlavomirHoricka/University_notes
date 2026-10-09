@@ -1,0 +1,11 @@
+{
+  "installed_version": "0.2.3",
+  "package_vs_cache_differences": [
+    ".codex-plugin/plugin.json"
+  ],
+  "canonical_vs_package_differences": [
+    "ingest/ingestion_log.md",
+    "ingest/logs/20261003T142217+0200_behavioral_week1.md",
+    "teach/.DS_Store"
+  ]
+}

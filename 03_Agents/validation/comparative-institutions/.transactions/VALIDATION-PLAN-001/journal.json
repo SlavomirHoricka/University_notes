@@ -1,0 +1,26 @@
+{
+  "owner": "plan",
+  "status": "committed",
+  "files": {
+    "learning_plan.md": {
+      "stage": "0.stage",
+      "expected": null,
+      "new_sha256": "4e224726702830cfe59db2a9a0a4f759c974cbc1aea7cd43db5d1a7d22a57842"
+    },
+    "source_manifest.md": {
+      "stage": "1.stage",
+      "expected": null,
+      "new_sha256": "610d06451e748eca9c9ff33fd526ef0dcdce1987d08eaa2016130ee344e92130"
+    },
+    "lessons/O001.md": {
+      "stage": "2.stage",
+      "expected": "7339032e0921b8db30f93e536c095f52b5821cd83e7157d4a98ccaae81f4b92e",
+      "new_sha256": "7339032e0921b8db30f93e536c095f52b5821cd83e7157d4a98ccaae81f4b92e"
+    },
+    "lessons/O002.md": {
+      "stage": "3.stage",
+      "expected": "d4c9e43c42e3728600d501b14d6d64c48728e6143f390a9ee4fd5249bb95b472",
+      "new_sha256": "d4c9e43c42e3728600d501b14d6d64c48728e6143f390a9ee4fd5249bb95b472"
+    }
+  }
+}

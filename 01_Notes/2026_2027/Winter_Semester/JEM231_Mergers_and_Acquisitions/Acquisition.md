@@ -1,0 +1,5 @@
+- as the name implies, a (usually) smaller company is absorbed by a larger one
+	- one company takes over the managerial and operational decisions for another company
+- generally called a *takeover*
+- requires a large amount of capital
+	- this can be cash, but it can also, for example, be cash combined with company stock

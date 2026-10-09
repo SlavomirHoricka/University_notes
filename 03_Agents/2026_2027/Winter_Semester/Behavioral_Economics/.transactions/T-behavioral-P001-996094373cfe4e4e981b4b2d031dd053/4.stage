@@ -1,0 +1,218 @@
+# O005 — Solve trust-game payoffs and bound empirical interpretations
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+  "transaction_id": "T-behavioral-P001-996094373cfe4e4e981b4b2d031dd053",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 2,
+  "objective_id": "O005",
+  "objective_revision": 1,
+  "criterion_version": "O005-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "procedural",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O002"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md#The trust game: creating a surplus before deciding its division",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md#The self-regarding prediction by backward induction",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md#Observed transfers and what they reveal",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md#Reading the cross-country table"
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "required_item_ids": [
+      "O005-I1",
+      "O005-I2"
+    ],
+    "substitutions": []
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true,
+    "available_item_ids": [
+      "O005-D1",
+      "O005-D2"
+    ],
+    "interval_anchor": "later of qualifying acquisition and most recent relevant teaching, feedback or known solution exposure"
+  },
+  "review_topic": "Behavioral Economics — Solve trust-game payoffs and bound empirical interpretations",
+  "review_instruction": "Begin a closed-note review with teach for O005; request an unused prepared delayed item before recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Derive sequential trust-game monetary predictions, calculate transfers/surplus, and interpret the supplied lecture summaries and country table without causal or motive overclaims.
+
+- **R1**: State sequential roles, feasible X/Y/Z and alpha>1, derive both final monetary payoffs and cancellation of Z in total surplus.
+- **R2**: Derive selfish trustee zero after every transfer and anticipating trustor zero; distinguish joint monetary maximum from each player’s utility.
+- **R3**: Compute supplied hypothetical payoffs and break-even; retrieve lecture45% sent/~33% back with undefined denominator/aggregation, only conditional alpha3 one-third interpretation and no product-of-averages inference.
+- **R4**: Distinguish repayment belief/altruism/efficiency and possible reciprocity without uniquely identifying motives; read country columns/descriptive differences, missing Vietnam n/a and absent provenance/design/uncertainty controls.
+
+Finished-note locations:
+
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md#The trust game: creating a surplus before deciding its division]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md#The self-regarding prediction by backward induction]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md#Observed transfers and what they reveal]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md#Reading the cross-country table]]
+
+Use P001/V001/ingest 2 and O005-C1, objective revision 1. Supported instruction can use this block and linked notes. Independent acquisition and delayed attempts are closed note, with blank paper and pen only; no calculator, device, AI, hint or key exposure. Present only the question before the learner responds; keys remain teacher-side. Unknown help/access is unscorable for independence. Hypothetical inputs instantiate supported mechanisms and are not empirical findings.
+
+## Prerequisites and checks
+
+- O002: Sequential receiver reasoning supplies the backward-induction method for the trustee/trustor sequence. Repair route: [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O002.md#Explanation steps]]
+
+O005-P1 v1 checks O002 backward reasoning: “A last mover can keep 16 or send away 3, with no later monetary consequence. Which does pure monetary maximization choose, and why solve this step before an earlier mover?” Key: keep 16, since sending leaves 13; the earlier choice anticipates this later action. Pass requires both reasons; partial means an isolated arithmetic slip; fail means imposing an other-regarding motive under the specified pure-money assumption. Repair: O002 Explanation steps 1–3, then O005 Worked example. Qualifying committed O002 evidence for the current compatible tuple can waive this check. This focused diagnostic never substitutes for a full acquisition item.
+
+Entry checks have item version v1, and pass/partial/fail plus repair routes above. Their exact limited outcomes do not certify the upstream objective. A waiver requires actual committed compatible evidence, never familiarity or assumed mastery. If a diagnostic fails, use its named prepared explanation and support before continuing; do not cycle through full upstream independent items just to diagnose.
+
+## Teaching order and rationale
+
+1. Retrieve [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O005.md#Motivation, intuition, and definitions]] and ask why the comparison matters. Introduce notation and boundaries before calculation.
+2. Use [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O005.md#Explanation steps]] in numbered order; each step supplies a dependency for the next.
+3. Show [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O005.md#Worked example]] once, exposing reasoning and checks.
+4. Ask O005-S1 in [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O005.md#Practice with fading assistance]]; let the learner fill missing steps, then reduce assistance only after an actual adequate response.
+5. Ask unused O005-I1 then O005-I2 separately. Score before feedback; any help makes that attempt supported.
+6. If the response shows a gap, use [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O005.md#Misconceptions and correction]] and fresh C1 as repair. Return to an unused full acquisition item only if available; otherwise escalate.
+7. After qualifying acquisition, recall may schedule a real interval; teach starts an unused D1 or D2 before any recap and checks elapsed time/exposure.
+
+Known prerequisite evidence skips only its diagnostic/support. Full current-objective checks remain required. Two parallel numeric cases demonstrate this bounded outcome, not generalized mastery of untaught models.
+
+## Motivation, intuition, and definitions
+
+The initial transfer expands the monetary pie under the multiplier rule. The return divides that pie. The investor can create joint surplus while losing privately; a larger total is not a guarantee that both utilities rise. The setup is one interaction without an enforceable return obligation.
+
+Visual support:
+
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p28_Trust_Country_Table.png]] — inspected qualitative/source support; retrieve the finished note’s adjacent explanation.
+
+## Explanation steps
+
+1. Trustor starts with X, sends Y in[0,X]; trustee receives alphaY and returns Z in[0,alphaY], with alpha>1 dimensionless. Trustor payoff X-Y+Z counts retained cash plus return; trustee payoff alphaY-Z counts receipt less return.
+2. Add payoffs: X-Y+Z+alphaY-Z=X+(alpha-1)Y. Z cancels because redistribution changes shares, not total. Relative to initial X, surplus is(alpha-1)Y; Y=X maximizes this monetary sum. No separate cost is in these rules, and utility/distribution need not improve for every player.
+3. Start last: a self-regarding trustee maximizes alphaY-Z by Z=0 after every feasible Y. Anticipating this, a self-regarding trustor chooses Y=0 to maximize X-Y. This specifies optimal continuation even off equilibrium; both self-regarding preferences and expectations are required.
+4. An actual hypothetical trustor’s net gain is Z-Y. Break-even needs Z=Y. If a return proportion is explicitly Z/(alphaY), break-even proportion is1/alpha. The lecture’s ~33% back has no defined denominator or aggregation. Only conditionally, with alpha3 and exact one-third of multiplied receipt, Z=Y and gain0; rounded.33 gives Z=.99Y,approximately zero. Do not infer actual individual-average returns by multiplying separately reported averages. The lecture also says about45% of endowment sent; empty polls add no results.
+5. Initial Y can reflect repayment beliefs, altruism or efficiency concern; Z may reflect reciprocity but no unique motive follows from one action. Table35 countries separates study count, sample size, fraction sent and proportion returned. US46 studies/4552 observations/.51/.34; South Korea1/52/.67/.29; Vietnam2/194/.33/n/a. n/a is missing, not zero. No visible table author/year, pooling/sampling/design controls, uncertainty or precise return denominator; it cannot establish causal country effects, national rankings or significance.
+
+## Worked example
+
+### O005-W1 — Expansion versus division
+
+Item version: v1. Role: worked instruction.
+
+**Setup:** Agent-created hypothetical: X=12, alpha=3, Y=4, Z=4. Calculate payoffs, total, surplus and private gain; solve the monetary benchmark and interpret the lecture summary/table.
+
+**Worked reasoning and result:** 1. The trustor keeps 12−4 and receives 4, ending with 12. The trustee receives 3×4 and returns 4, ending with 8. 2. Total is 20=X+2Y; surplus is 8; trustor net gain Z−Y is zero. 3. A self-regarding trustee returns Z=0 after every Y; anticipating this, the self-regarding trustor chooses Y=0. 4. Y=X maximizes the monetary sum, without ensuring both utilities rise. 5. The lecture reports about 45% sent and about 33% returned, with the return denominator/aggregation undefined. Only if the proportion is Z/(3Y)=1/3 does Z=Y imply zero gain; 0.33 gives 0.99Y and approximately zero gain. Products of separate empirical averages cannot reconstruct individual mean returns. 6. Sends may reflect repayment beliefs, altruism or efficiency; returns may reflect reciprocity without identifying one motive. The US row is 46 studies, 4,552 observations, .51 sent, .34 returned; South Korea is 1, 52, .67, .29; Vietnam is 2, 194, .33, n/a. Missing is not zero. These descriptive rows lack author/year, sampling/pooling/design controls, uncertainty and an explicit return denominator, so they establish no causal country effect, representative national ranking or statistical significance.
+
+**Checks and interpretation:** Verify labels, active conditions, dimensions/signs where applicable and every source limitation before inferring a choice. This example is exposed instruction and cannot establish independence.
+
+## Practice with fading assistance
+
+### O005-S1 — Complete cash accounting
+
+Item version: v1. Role: supported completion. Required components: R1, R2, R3, R4.
+
+**Question:** Agent-created hypothetical: X=18, alpha=3, Y=6, Z=2. Fill retained cash, receipt, payoffs, total, surplus, net gain, break-even return/proportion and selfish benchmark. Explain the lecture percentages, motive alternatives and US/Korea/Vietnam table limits. Hint 1: trace the return between players. Hint 2: cancel Z when adding payoffs. State the one-shot roles/sequence, general transfer constraints and units before interpreting the arithmetic.
+
+**Key:** Retained cash is 12 and multiplied receipt is 18. Trustor payoff is 14; trustee payoff is 16; total is 30; surplus is 12; gain is −4. General payoffs are X−Y+Z and alphaY−Z, totaling X+(alpha−1)Y. Break-even return is Z=Y=6; the proportion is 1/3 only when its denominator is the multiplied receipt. The selfish trustee returns zero after every feasible Y, so the anticipating trustor sends zero. Y=X maximizes total money, not necessarily each utility. The lecture percentages are approximately 45% sent/33% returned, with missing return denominator and aggregation. Exact one-third of the alpha=3 receipt implies zero net gain; .33 gives approximately zero; multiplying separate empirical averages is unjustified. Initial transfers may reflect repayment beliefs, altruism or efficiency; returns may reflect reciprocity, without unique motive identification. US 46/4552/.51/.34, Korea 1/52/.67/.29 and Vietnam 2/194/.33/n/a separate study/sample quantities from transfer means. n/a is missing. Absent table author/year, sampling/pooling/design, uncertainty and return denominator prevent causal country rankings or significance claims. General rules: X>0, alpha>1, 0≤Y≤X, 0≤Z≤alphaY; alpha is dimensionless, and X/Y/Z share monetary units. The trustor/investor chooses first, then the observing trustee/agent chooses the return; there is one interaction.
+
+**Support and rubric:** Begin by letting the learner complete the specified steps using blank paper. Linked notes and up to two prepared hints are allowed here. Pass requires the essential component list with correct reasoning; partial means an incomplete component or isolated arithmetic slip, prompting the named repair; fail means a critical conceptual error. A correct supported answer permits fading help, never a claim of independent acquisition. After two ineffective hints show the needed step or pause.
+
+### O005-I1 — independent acquisition
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Agent-created hypothetical: X=20, alpha=3, Y=8, Z=6, in common monetary units. State the one-shot sequence, role names, general feasible constraints and units, and numeric transfer bounds; derive general payoff, total and surplus formulas and calculate both payoffs, surplus, net investment gain and break-even return/proportion. Solve the pure-money continuation benchmark with its expectation assumption and explain why a maximum monetary sum need not improve both utilities. Retrieve the lecture’s approximate transfer percentages, show the conditional alpha=3 one-third/rounded .33 arithmetic and explain denominator/aggregation limits. Distinguish possible motives and interpret the supplied US/Korea/Vietnam rows, table columns, missing entry and absent methods. Supplied source-table excerpt (Studies / Sample / Average fraction sent / Average proportion returned): US 46 / 4552 / .51 / .34; South Korea 1 / 52 / .67 / .29; Vietnam 2 / 194 / .33 / n/a. Read the displayed averages descriptively and explain which population-trait, causal or significance claims these data do not establish; no memorization of study/sample counts is required.
+
+**Key:** General constraints are X>0, alpha>1, 0≤Y≤X and 0≤Z≤alphaY; alpha is dimensionless and X/Y/Z use the same monetary units. The trustor/investor chooses Y first in [0,20]; the trustee/agent observes it and chooses Z in [0,24]. The interaction occurs once. Payoffs are X−Y+Z=18 and alphaY−Z=18; total is X+(alpha−1)Y=36; surplus is (alpha−1)Y=16; private gain is Z−Y=-2. Break-even needs Z=Y=8; if the denominator is alphaY, the break-even fraction is 1/3. The trustee’s own payoff falls with Z, so Z=0 after every Y; a trustor expecting that continuation maximizes X−Y at Y=0. This requires both self-regarding preferences and corresponding expectations. Y=X maximizes total money under the stated cost-free multiplier rules, without guaranteeing either utility rises. The lecture reports approximately 45% of the endowment sent and 33% returned, with the return denominator and aggregation undefined. Conditional on Z/(3Y)=1/3, Z=Y and gain is zero; .33 instead gives Z=.99Y and gain=−.01Y, approximately zero. These calculations do not establish the actual denominator or reconstruct individual mean returns from separate averages. Repayment beliefs, altruism or efficiency can motivate Y; reciprocity may motivate Z but neither action identifies one motive. US: 46 studies, 4,552 observations, .51 sent/.34 returned; South Korea: 1 study, 52 observations, .67/.29; Vietnam: 2 studies, 194 observations, .33/n/a. Counts describe evidence quantity, transfer means describe choices, and n/a is missing rather than zero. Author/year, sampling/pooling/design controls, uncertainty and the return denominator are absent; the displayed averages can be ordered descriptively (Korea’s sent average exceeds the US value; the US return average exceeds Korea’s), but they do not establish causal country effects, representative rankings of national trust traits or statistical significance.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+### O005-I2 — independent acquisition
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Agent-created hypothetical: X=30, alpha=2, Y=12, Z=9, in common monetary units. State the one-shot sequence, role names, general feasible constraints and units, and numeric transfer bounds; derive general payoff, total and surplus formulas and calculate both payoffs, surplus, net investment gain and break-even return/proportion. Solve the pure-money continuation benchmark with its expectation assumption and explain why a maximum monetary sum need not improve both utilities. Retrieve the lecture’s approximate transfer percentages, show the conditional alpha=3 one-third/rounded .33 arithmetic and explain denominator/aggregation limits. Distinguish possible motives and interpret the supplied US/Korea/Vietnam rows, table columns, missing entry and absent methods. Supplied source-table excerpt (Studies / Sample / Average fraction sent / Average proportion returned): US 46 / 4552 / .51 / .34; South Korea 1 / 52 / .67 / .29; Vietnam 2 / 194 / .33 / n/a. Read the displayed averages descriptively and explain which population-trait, causal or significance claims these data do not establish; no memorization of study/sample counts is required.
+
+**Key:** General constraints are X>0, alpha>1, 0≤Y≤X and 0≤Z≤alphaY; alpha is dimensionless and X/Y/Z use the same monetary units. The trustor/investor chooses Y first in [0,30]; the trustee/agent observes it and chooses Z in [0,24]. The interaction occurs once. Payoffs are X−Y+Z=27 and alphaY−Z=15; total is X+(alpha−1)Y=42; surplus is (alpha−1)Y=12; private gain is Z−Y=-3. Break-even needs Z=Y=12; if the denominator is alphaY, the break-even fraction is 1/2. The trustee’s own payoff falls with Z, so Z=0 after every Y; a trustor expecting that continuation maximizes X−Y at Y=0. This requires both self-regarding preferences and corresponding expectations. Y=X maximizes total money under the stated cost-free multiplier rules, without guaranteeing either utility rises. The lecture reports approximately 45% of the endowment sent and 33% returned, with the return denominator and aggregation undefined. Conditional on Z/(3Y)=1/3, Z=Y and gain is zero; .33 instead gives Z=.99Y and gain=−.01Y, approximately zero. These calculations do not establish the actual denominator or reconstruct individual mean returns from separate averages. Repayment beliefs, altruism or efficiency can motivate Y; reciprocity may motivate Z but neither action identifies one motive. US: 46 studies, 4,552 observations, .51 sent/.34 returned; South Korea: 1 study, 52 observations, .67/.29; Vietnam: 2 studies, 194 observations, .33/n/a. Counts describe evidence quantity, transfer means describe choices, and n/a is missing rather than zero. Author/year, sampling/pooling/design controls, uncertainty and the return denominator are absent; the displayed averages can be ordered descriptively (Korea’s sent average exceeds the US value; the US return average exceeds Korea’s), but they do not establish causal country effects, representative rankings of national trust traits or statistical significance.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Rubric and independence
+
+- **R1**: State sequential roles, feasible X/Y/Z and alpha>1, derive both final monetary payoffs and cancellation of Z in total surplus.
+- **R2**: Derive selfish trustee zero after every transfer and anticipating trustor zero; distinguish joint monetary maximum from each player’s utility.
+- **R3**: Compute supplied hypothetical payoffs and break-even; retrieve lecture45% sent/~33% back with undefined denominator/aggregation, only conditional alpha3 one-third interpretation and no product-of-averages inference.
+- **R4**: Distinguish repayment belief/altruism/efficiency and possible reciprocity without uniquely identifying motives; read country columns/descriptive differences, missing Vietnam n/a and absent provenance/design/uncertainty controls.
+
+Every I1, I2, D1, D2 and C1 question/key explicitly addresses all required components above. The sole acquisition route is two separate, distinct, fresh unassisted passes on I1 **and** I2 under the current criterion and compatible tuple. Worked/support/diagnostic/correction items and delayed items are not acquisition substitutes. No shorter question silently fills a missing component. The fixed practice inputs differ across W1/S1/I1/I2/D1/D2/C1; learning constants from the notes remain common where retrieval of those exact facts is the outcome.
+
+Pass: all essential components, necessary reasoning, assumptions and interpretation limits are present, with accurate outputs. Accept equivalent wording, correct alternative algebra and exact fractions or consistent rounding that preserves inequalities/ties. Partial: a missing component or isolated arithmetic/transcription slip with valid conceptual setup; score before explaining the repair and do not count this attempt as a pass. Fail: wrong regime/role/sign, invalid incentive logic, replacing utility with monetary sum, treating hypothetical or descriptive data as identified results, or dropping a stated condition that changes the conclusion. For the orientation objective, replacing a printed restriction with an invented rule is a critical error. Unscorable: ambiguous prompt interpretation outside the key, unknown assistance/access/exposure, or unavailable source tuple. No numeric point scale or mastery result is fabricated.
+
+An independent check is fresh only if neither its question nor key has already been exposed, including during earlier diagnostics or feedback. Teach records actual help/access conditions. Correct repetition of an exposed task cannot establish fresh independence. I1 and I2 are reserved for acquisition; D1/D2 are reserved for delayed retrieval.
+
+## Misconceptions and correction
+
+Signs: Z counted twice in total, multiplier-only arithmetic labelled empirical33% conclusion, n/a treated zero, country effect asserted. Correction: cancel the return; state its denominator as an explicit hypothetical condition; describe table columns without causal inference. Hint1: where did returned cash go? Hint2: what denominator is actually supplied? C1 repair only.
+
+A sign is a tentative hypothesis about the error until the learner’s reasoning supports it. Score the initial response before giving the corrective explanation or either hint. At most two ineffective hints, then show the specific prepared step or pause. After two unsuccessful full independent attempts, stop quizzing and use support/prerequisite repair; request new full variants from plan if needed.
+
+### O005-C1 — fresh correction only
+
+Item version: v1. Role: correction_repair. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Agent-created hypothetical: X=18, alpha=3, Y=7, Z=4, in common monetary units. State the one-shot sequence, role names, general feasible constraints and units, and numeric transfer bounds; derive general payoff, total and surplus formulas and calculate both payoffs, surplus, net investment gain and break-even return/proportion. Solve the pure-money continuation benchmark with its expectation assumption and explain why a maximum monetary sum need not improve both utilities. Retrieve the lecture’s approximate transfer percentages, show the conditional alpha=3 one-third/rounded .33 arithmetic and explain denominator/aggregation limits. Distinguish possible motives and interpret the supplied US/Korea/Vietnam rows, table columns, missing entry and absent methods. Supplied source-table excerpt (Studies / Sample / Average fraction sent / Average proportion returned): US 46 / 4552 / .51 / .34; South Korea 1 / 52 / .67 / .29; Vietnam 2 / 194 / .33 / n/a. Read the displayed averages descriptively and explain which population-trait, causal or significance claims these data do not establish; no memorization of study/sample counts is required.
+
+**Key:** General constraints are X>0, alpha>1, 0≤Y≤X and 0≤Z≤alphaY; alpha is dimensionless and X/Y/Z use the same monetary units. The trustor/investor chooses Y first in [0,18]; the trustee/agent observes it and chooses Z in [0,21]. The interaction occurs once. Payoffs are X−Y+Z=15 and alphaY−Z=17; total is X+(alpha−1)Y=32; surplus is (alpha−1)Y=14; private gain is Z−Y=-3. Break-even needs Z=Y=7; if the denominator is alphaY, the break-even fraction is 1/3. The trustee’s own payoff falls with Z, so Z=0 after every Y; a trustor expecting that continuation maximizes X−Y at Y=0. This requires both self-regarding preferences and corresponding expectations. Y=X maximizes total money under the stated cost-free multiplier rules, without guaranteeing either utility rises. The lecture reports approximately 45% of the endowment sent and 33% returned, with the return denominator and aggregation undefined. Conditional on Z/(3Y)=1/3, Z=Y and gain is zero; .33 instead gives Z=.99Y and gain=−.01Y, approximately zero. These calculations do not establish the actual denominator or reconstruct individual mean returns from separate averages. Repayment beliefs, altruism or efficiency can motivate Y; reciprocity may motivate Z but neither action identifies one motive. US: 46 studies, 4,552 observations, .51 sent/.34 returned; South Korea: 1 study, 52 observations, .67/.29; Vietnam: 2 studies, 194 observations, .33/n/a. Counts describe evidence quantity, transfer means describe choices, and n/a is missing rather than zero. Author/year, sampling/pooling/design controls, uncertainty and the return denominator are absent; the displayed averages can be ordered descriptively (Korea’s sent average exceeds the US value; the US return average exceeds Korea’s), but they do not establish causal country effects, representative rankings of national trust traits or statistical significance.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Immediate and delayed checks
+
+I1 and I2 are prepared above for immediate acquisition. Present each question without its key. Delayed checks below must occur at least 24 actual hours after both qualifying acquisition and the most recent relevant teaching/feedback/known solution exposure: measure from the later of those anchors. They occur before recap and without help. A next calendar day alone does not establish 24 hours. Record known intervening exposure; unknown timing/exposure does not certify delayed retention. This interval is a practical validity guard, not a personalized optimum. A delayed pass requires all current essential components. D1 and D2 are alternatives for separate fresh delayed attempts; use the first unused one, never both merely to fill acquisition. Passing a number-changed parallel variant supports bounded retrieval and application, not broad transfer or every semester topic.
+
+### O005-D1 — delayed independent retrieval
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Agent-created hypothetical: X=24, alpha=3, Y=9, Z=5, in common monetary units. State the one-shot sequence, role names, general feasible constraints and units, and numeric transfer bounds; derive general payoff, total and surplus formulas and calculate both payoffs, surplus, net investment gain and break-even return/proportion. Solve the pure-money continuation benchmark with its expectation assumption and explain why a maximum monetary sum need not improve both utilities. Retrieve the lecture’s approximate transfer percentages, show the conditional alpha=3 one-third/rounded .33 arithmetic and explain denominator/aggregation limits. Distinguish possible motives and interpret the supplied US/Korea/Vietnam rows, table columns, missing entry and absent methods. Supplied source-table excerpt (Studies / Sample / Average fraction sent / Average proportion returned): US 46 / 4552 / .51 / .34; South Korea 1 / 52 / .67 / .29; Vietnam 2 / 194 / .33 / n/a. Read the displayed averages descriptively and explain which population-trait, causal or significance claims these data do not establish; no memorization of study/sample counts is required.
+
+**Key:** General constraints are X>0, alpha>1, 0≤Y≤X and 0≤Z≤alphaY; alpha is dimensionless and X/Y/Z use the same monetary units. The trustor/investor chooses Y first in [0,24]; the trustee/agent observes it and chooses Z in [0,27]. The interaction occurs once. Payoffs are X−Y+Z=20 and alphaY−Z=22; total is X+(alpha−1)Y=42; surplus is (alpha−1)Y=18; private gain is Z−Y=-4. Break-even needs Z=Y=9; if the denominator is alphaY, the break-even fraction is 1/3. The trustee’s own payoff falls with Z, so Z=0 after every Y; a trustor expecting that continuation maximizes X−Y at Y=0. This requires both self-regarding preferences and corresponding expectations. Y=X maximizes total money under the stated cost-free multiplier rules, without guaranteeing either utility rises. The lecture reports approximately 45% of the endowment sent and 33% returned, with the return denominator and aggregation undefined. Conditional on Z/(3Y)=1/3, Z=Y and gain is zero; .33 instead gives Z=.99Y and gain=−.01Y, approximately zero. These calculations do not establish the actual denominator or reconstruct individual mean returns from separate averages. Repayment beliefs, altruism or efficiency can motivate Y; reciprocity may motivate Z but neither action identifies one motive. US: 46 studies, 4,552 observations, .51 sent/.34 returned; South Korea: 1 study, 52 observations, .67/.29; Vietnam: 2 studies, 194 observations, .33/n/a. Counts describe evidence quantity, transfer means describe choices, and n/a is missing rather than zero. Author/year, sampling/pooling/design controls, uncertainty and the return denominator are absent; the displayed averages can be ordered descriptively (Korea’s sent average exceeds the US value; the US return average exceeds Korea’s), but they do not establish causal country effects, representative rankings of national trust traits or statistical significance.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+### O005-D2 — delayed independent retrieval
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Agent-created hypothetical: X=16, alpha=4, Y=5, Z=7, in common monetary units. State the one-shot sequence, role names, general feasible constraints and units, and numeric transfer bounds; derive general payoff, total and surplus formulas and calculate both payoffs, surplus, net investment gain and break-even return/proportion. Solve the pure-money continuation benchmark with its expectation assumption and explain why a maximum monetary sum need not improve both utilities. Retrieve the lecture’s approximate transfer percentages, show the conditional alpha=3 one-third/rounded .33 arithmetic and explain denominator/aggregation limits. Distinguish possible motives and interpret the supplied US/Korea/Vietnam rows, table columns, missing entry and absent methods. Supplied source-table excerpt (Studies / Sample / Average fraction sent / Average proportion returned): US 46 / 4552 / .51 / .34; South Korea 1 / 52 / .67 / .29; Vietnam 2 / 194 / .33 / n/a. Read the displayed averages descriptively and explain which population-trait, causal or significance claims these data do not establish; no memorization of study/sample counts is required.
+
+**Key:** General constraints are X>0, alpha>1, 0≤Y≤X and 0≤Z≤alphaY; alpha is dimensionless and X/Y/Z use the same monetary units. The trustor/investor chooses Y first in [0,16]; the trustee/agent observes it and chooses Z in [0,20]. The interaction occurs once. Payoffs are X−Y+Z=18 and alphaY−Z=13; total is X+(alpha−1)Y=31; surplus is (alpha−1)Y=15; private gain is Z−Y=2. Break-even needs Z=Y=5; if the denominator is alphaY, the break-even fraction is 1/4. The trustee’s own payoff falls with Z, so Z=0 after every Y; a trustor expecting that continuation maximizes X−Y at Y=0. This requires both self-regarding preferences and corresponding expectations. Y=X maximizes total money under the stated cost-free multiplier rules, without guaranteeing either utility rises. The lecture reports approximately 45% of the endowment sent and 33% returned, with the return denominator and aggregation undefined. Conditional on Z/(3Y)=1/3, Z=Y and gain is zero; .33 instead gives Z=.99Y and gain=−.01Y, approximately zero. These calculations do not establish the actual denominator or reconstruct individual mean returns from separate averages. Repayment beliefs, altruism or efficiency can motivate Y; reciprocity may motivate Z but neither action identifies one motive. US: 46 studies, 4,552 observations, .51 sent/.34 returned; South Korea: 1 study, 52 observations, .67/.29; Vietnam: 2 studies, 194 observations, .33/n/a. Counts describe evidence quantity, transfer means describe choices, and n/a is missing rather than zero. Author/year, sampling/pooling/design controls, uncertainty and the return denominator are absent; the displayed averages can be ordered descriptively (Korea’s sent average exceeds the US value; the US return average exceeds Korea’s), but they do not establish causal country effects, representative rankings of national trust traits or statistical significance.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Advance, revisit, pause, and escalate
+
+Advance this objective only after committed qualifying passes on both I1 and I2; do not imply durable retention until an eligible delayed check is recorded. If a required diagnostic is deficient, follow its named prerequisite explanation/support. End a session with the actual unfinished route when acquisition is unmet. If relevant notes/state change or the matched journal is incomplete, block this version pending plan reconciliation. A source contradiction, missing academic explanation or absent provenance goes to ingest at the exact note/heading. Unsupported answer alternatives, ambiguous rubrics, missing prepared components or exhausted fresh I/D/C variants go to plan as `plan_issue`, with course ID, P001/V001/ingest 2, objective/criterion, item ID/version, exposed item IDs and the actual gap; do not invent or recycle a new assessment. Finite-bank exhaustion is a curriculum gap, not learner failure. No scheduler dates or learner status are written here.
+
+## Answer-free recall handoff
+
+**Review topic:** Behavioral Economics — Solve trust-game payoffs and bound empirical interpretations
+
+**Start instruction:** Begin a closed-note review with teach for O005; request an unused prepared delayed item before recap. Open [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O005.md#Immediate and delayed checks]]. Teach supplies actual committed acquisition/evidence identifiers; recall alone selects dates and synchronizes reviews. There is no personal deadline constraint (null) and no observed learning result in this plan.

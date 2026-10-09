@@ -1,0 +1,26 @@
+{
+  "name": "uni-teach",
+  "version": "0.2.3",
+  "description": "Course-note ingestion, planning, tutoring, and spaced recall for the Uni Obsidian vault.",
+  "author": {
+    "name": "Slavomir Horicka"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "University Assistant",
+    "shortDescription": "Plan, study, and recall",
+    "longDescription": "Four skills for the local Uni vault: ingest finished course notes, prepare a learning plan with a capable model, teach from that plan with a lighter model, and schedule evidence-based spaced reviews. Learner results remain in the course log.",
+    "developerName": "Slavomir Horicka",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "defaultPrompt": [
+      "Use the teach skill to teach me a topic from my Uni vault. Ask which topic and how much time I have if I have not provided them.",
+      "Use the teach skill to revise a course from my Uni vault, starting with a fresh retrieval question after setting my study time budget.",
+      "Use the teach skill to resume my learning from the committed records for the course I select."
+    ],
+    "logo": "./assets/book.svg",
+    "composerIcon": "./assets/book.svg"
+  }
+}

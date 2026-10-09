@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+  "ingestion_revision": 1,
+  "transaction_id": "T-56ae30eecc21446b949eaf2fd90a299b",
+  "status": "complete",
+  "run_id": "20261004T155737+0200_week1_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+  "updated_at": "2026-10-04T19:46:47.689389+02:00",
+  "finished_notes": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md",
+      "sha256": "748e1c9039e32d1c6eaf7a29a23f6d9f467d96f30de14697a4fa54e9069e7119",
+      "headings": [
+        "Comparative Economics",
+        "Week 1",
+        "Reading questions to be ready to discuss",
+        "Course information added from the SIS export"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "sha256": "d4bf9c4cdad229430e95558fa87fd4edcf657d0b2820a100f9160c229a5b3f3a",
+      "headings": [
+        "Colonial institutions and divergence: *Why Nations Fail*, chapter 1",
+        "Topic map",
+        "Nogales: the question that motivates the chapter",
+        "Spanish colonization: creating rules for extraction",
+        "Why the first Buenos Aires failed while Asunción prospered for conquerors",
+        "Capturing leaders and appropriating existing organization",
+        "The Potosí mita and its local legacy",
+        "Jamestown: why attempts at coercion changed course",
+        "Different paths after independence",
+        "From political rules to invention, firms, and finance",
+        "Carlos Slim, Bill Gates, and the limits of business power",
+        "What the authors mean by institutions",
+        "Answers to the six assigned reading questions",
+        "Synthesis"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Comparing_Economic_Systems.md",
+      "sha256": "8764485b6a043a0bcf7003eea29bf86eaa00b3cb42d43f2fde4d15cb696a2778",
+      "headings": [
+        "Comparing economic systems: rules, outcomes, and change",
+        "Topic map from Rosser and Rosser, chapter 1",
+        "Why comparative economics remains useful",
+        "What is being classified?",
+        "1. Allocation: custom, exchange, or command",
+        "2. Ownership: who controls productive assets?",
+        "3–6. Planning, incentives, redistribution, and politics",
+        "Comparing performance: define the outcome first",
+        "Reading the chapter's evidence",
+        "Systems change, and institutions feed back on themselves",
+        "Why a striking comparison may still mislead",
+        "Synthesis"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Course_Organization_and_Week_1_Scope.md",
+      "sha256": "da6280da9009a563971b534792f134c537cedfb4f55b0cfa261ecdf95b936147",
+      "headings": [
+        "Course organization and Week 1 scope",
+        "Course question and teaching format",
+        "Assessment",
+        "How the new export relates to the existing Week 1 reading"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md",
+      "sha256": "ad6b2563b63aec9f5d51f12a6c628859bde634c2452e0f90c2fac1f939f0b79f",
+      "headings": [
+        "Institutions and Economic Development",
+        "Why institutions belong in comparative economics",
+        "What institutions are",
+        "Formal political and legal rules",
+        "Informal norms, culture and interaction with law",
+        "1. Information: hidden quality and hidden action",
+        "Adverse selection before exchange",
+        "Moral hazard after a contract",
+        "Remedies and their limits",
+        "2. Hold-up: investment changes bargaining power",
+        "3. Commitment: promises can become unattractive to keep",
+        "4. Cooperation: individual incentives defeat a shared gain",
+        "5. Coordination: which shared pattern will people choose?",
+        "Why imperfect institutions can persist",
+        "Answers to the Week 1 Roland reading questions",
+        "Synthesis and scope"
+      ]
+    }
+  ],
+  "affected_note_paths": [
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md",
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Course_Organization_and_Week_1_Scope.md"
+  ],
+  "prior_completed_revision": null,
+  "unresolved": [
+    "SIS integer grade bands do not supply a fractional-score rounding rule (PDF pp. 2–3). No unresolved uploaded Week 1 academic discrepancy; the separately linked syllabus and Moodle content were not supplied or consulted."
+  ],
+  "selected_scope": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1",
+  "coverage_status": "Complete for selected supplied files; external advertised source gaps remain in unresolved.",
+  "finished_assets": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Acemoglu_p12_mita_map.png",
+      "bytes": 455485,
+      "sha256": "d41e48f2eb699aa4a874a136609baf43bcff972e0bf5d4dbcaf0a60e5ee9d613",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Acemoglu_p20_population_map.png",
+      "bytes": 412716,
+      "sha256": "039353366f9dbabf9806e66d40000c588c29641589eec8dbe4ceab661a5b9f22",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Roland_p16_prisoners_dilemma.png",
+      "bytes": 789617,
+      "sha256": "6c04c30c9a7a2c42827938bb073b208c67c75f788050fae389f80ef2b880e3a1",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Roland_p23_stag_hunt.png",
+      "bytes": 474870,
+      "sha256": "3ee5fa9f85fc6c4ce4f13000273ddfa9009b6b363a64c1bc53f8bdc87626bc1a",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Rosser_p16_table_1_1.png",
+      "bytes": 409971,
+      "sha256": "7955eb1b84aba09b92ea7ea0ad518c3968272d0ae58ee32b24a1e6f4f84dde70",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Rosser_p17_table_1_2.png",
+      "bytes": 303880,
+      "sha256": "d8b076e61b2cd11ecc4bde013b3554e998e10d58675be580383d8fdb2194528d",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Rosser_p18_Lorenz_curves.png",
+      "bytes": 293578,
+      "sha256": "72aad1ee971fab555a34d57ad9eaec0c3209933a980538bc7075ee962a4b701e",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p27_ownership_allocation.png",
+      "bytes": 457492,
+      "sha256": "d8bda424bd3ddc5ce6156ec4c628bca82b0688aeaba74eed4d19f84e227f8c96",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p34_narrow_corridor.png",
+      "bytes": 532613,
+      "sha256": "3d10efcdd0733682568f77228804fccfec91e4bde061604cedf312a487ae2f19",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p40_austria_czechoslovakia_gdp.png",
+      "bytes": 480336,
+      "sha256": "6580e8b47e832660d7bf9b9fc556b43124a9d62a9d2e2e16e1feb1222c77532c",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p41_gdr_growth_comparison.png",
+      "bytes": 340637,
+      "sha256": "a61e8df151a65d0c5f99e13a34d02679750d93c54b299c80325aaf85f4acb447",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p44_institutional_feedback.png",
+      "bytes": 488913,
+      "sha256": "86e024baf86955fbfed3c433009ca998bda1773156192fbac52702f870112694",
+      "change": "reused; unchanged prior coverage"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p52_collective_punishment_article.png",
+      "bytes": 1000119,
+      "sha256": "ea4585394bd976b2664b327b734dda8d419832556bcaddda2a9a9e49aaeaa410",
+      "change": "reused; unchanged prior coverage"
+    }
+  ],
+  "prior_passes": [
+    "03_Agents/runtime/ingest/logs/20261003T142217+0200_behavioral_week1.md"
+  ],
+  "prior_plan_paths": [],
+  "independent_checkers": [
+    "/root/factcheck_introductions"
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "ingestion_revision": 2,
+  "transaction_id": "T-4fa18d8b6e654556bc667f456bfbc7fb",
+  "status": "blocked",
+  "run_id": "20261007T122546+0200_week2_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+  "updated_at": "2026-10-07T12:28:04.390251+02:00",
+  "finished_notes": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Financial_Markets_Instruments_I_main.md",
+      "sha256": "199e68a304dd3a158c826e740555949393de86d877afda43db602a7b9aaf5133",
+      "headings": [
+        "Financial Markets Instruments I",
+        "Week 1",
+        "Source selection for this week",
+        "Course organization",
+        "Teaching and communication",
+        "Assessment and the handbook's cutoff ambiguity",
+        "Listed examination dates and materials"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md",
+      "sha256": "b3e4487925e9bd1ca9c2c341990863be4d2ff9f9a1e8e2211e1742e1bc4e5956",
+      "headings": [
+        "Basis, convergence and futures hedging",
+        "Basis and calendar spread are different comparisons",
+        "Why the prices converge at delivery",
+        "A purchase hedge, derived step by step",
+        "A sale hedge and early termination",
+        "The lecture's value convention",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Introduction_to_Futures_Seminar_Exercises.md",
+      "sha256": "b10a0ed1ddfde242583a447a4246738dc8f31af4dca1c5f77970596782335d04",
+      "headings": [
+        "Introduction to futures — seminar exercises",
+        "Problem 1: offsetting contracts",
+        "Problem 2: a short wheat contract",
+        "Problem 3: copper and maximum loss",
+        "Problem 4: a daily margin table",
+        "Problem 5: clearing a larger long position",
+        "Problem 6: two orange-juice contracts",
+        "The seminar's film illustration",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Margins_and_Marking_to_Market.md",
+      "sha256": "c92b574f4c33c97bdbefad673c63cc8029a344a79d7b1da69ed2bba44076e313",
+      "headings": [
+        "Margins and marking to market",
+        "The three margin concepts",
+        "Daily profit and loss, with units",
+        "From daily result to an account balance",
+        "The handout's five-day example",
+        "Payoff and the size of possible losses",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md",
+      "sha256": "ed4177199ebe557e2c52129bcd94b690b22e553a5eafba9ce5f4dc19656c3045",
+      "headings": [
+        "Spot, forward and futures contracts",
+        "Topic map",
+        "When the agreement, payment and delivery happen",
+        "Standardized futures specifications",
+        "Positions, open interest and the clearing house",
+        "How the obligation ends",
+        "Trading limits and market abuse",
+        "What to carry forward"
+      ]
+    }
+  ],
+  "affected_note_paths": [
+    "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Financial_Markets_Instruments_I_main.md",
+    "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md",
+    "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Short_Term_Interest_Rate_Futures.md",
+    "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Bond_Futures_Conversion_Factors_and_Delivery.md",
+    "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Implied_Repo_Rate_and_Cheapest_to_Deliver.md"
+  ],
+  "prior_completed_revision": 1,
+  "unresolved": [
+    "DOC p. 3 says clearing honors obligations after broker default but also warns, as lecture slide 12 does, that clients are not protected against their own broker default. Both statements are retained without an unlimited guarantee.",
+    "Seminar p. 13 uses variation margin for daily transfers and a top-up formula and maintenance for a minimum/payment; the lecture/handout/seminar differ on restoration target. Notes distinguish quantities and state the target/withdrawal assumptions for calculations.",
+    "Seminar p. 7 labels a Treasury-bond quotation example US T-Bill. Verified fractional arithmetic is retained with the label inconsistency flagged.",
+    "Lecture slide 11 discounts a difference assumed paid at maturity; slide 6 settles changes daily. Deferred-payment formulas are retained with the unresolved timing convention, not presented as a universal daily-settled account value.",
+    "Handbook pp. 3–4 says at least 50 total points can pass, while its table puts 0–50 in F and starts E at 51. Treatment of exactly 50 needs TA clarification; the SIS-linked handbook year differs from the actual uploaded 2026/2027 cover. January examination rooms are not supplied and listed dates/times are expressly changeable rather than live-verified.",
+    "Seminar p. 15 gives an undefined legal label/external videos. No legal explanation or outside content was invented. Exercises do not provide an official key or universal withdrawal/funding/price-bound assumptions; derived answers state conditional assumptions explicitly.",
+    "DOC Ch. I p. 7 final early-hedge verbal label has an apparent sign error: its signed expression is −F₀−Bₜ under B=S−F; positive expenditure is F₀+Bₜ. The source error is explicitly flagged beside the verified derivation."
+  ],
+  "selected_scope": "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2",
+  "coverage_status": "Week 2 draft in progress; independent checking and final structural checks pending.",
+  "finished_assets": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_FI01_Long_Short_Payoffs.png",
+      "bytes": 15695,
+      "sha256": "0031c88b703a27700f6bfb39b64c4c8b9b64abfe97f1aa4d2e6e1fb62f96c7be",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_FI01_Margin_Table.png",
+      "bytes": 71163,
+      "sha256": "791b5a8ad0c57b141534941e4d758d4d07b5999c6d66d55ad2b0502dba061e11",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_L10_Clearing_Arrangement.png",
+      "bytes": 563220,
+      "sha256": "7e782a762b3ab6cb0f8270aaa82f495a4e1ba7bfcebc0d5e2b94c5e867adc8c9",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_L10_Convergence_Patterns.png",
+      "bytes": 138212,
+      "sha256": "a582e9824ebc65437ce015f53e559e4c7dd6c2d238cb527111c38f3a73a3d05c",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_L10_Forward_Timeline.png",
+      "bytes": 63778,
+      "sha256": "caaeedc9f48c35dcfb8971aa6383f583e26345893f42e6acc88e15c98b6be011",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_L10_Spot_Timelines.png",
+      "bytes": 551194,
+      "sha256": "746d6df8f88c67a407ffcb14e9401dc8ce66e2b1d6f33d94d6d7976565b360f4",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_Seminar_Problem_4_Table.png",
+      "bytes": 93426,
+      "sha256": "9897534491e124b69f9affcf92729f1e94596fc293a4837a701a29c06e4d696f",
+      "change": "new"
+    }
+  ],
+  "prior_passes": [],
+  "prior_plan_paths": [],
+  "independent_checkers": [
+    "/root/factcheck_futures"
+  ]
+}

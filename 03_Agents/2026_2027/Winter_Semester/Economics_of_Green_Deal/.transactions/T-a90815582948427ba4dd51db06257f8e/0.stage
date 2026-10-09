@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+  "ingestion_revision": 1,
+  "transaction_id": "T-a90815582948427ba4dd51db06257f8e",
+  "status": "blocked",
+  "run_id": "20261004T155737+0200_week1_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+  "updated_at": "2026-10-04T16:08:25.978732+02:00",
+  "finished_notes": [],
+  "affected_note_paths": [
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md"
+  ],
+  "prior_completed_revision": null,
+  "unresolved": [
+    "Selected Week 1 coverage and independent verification pending."
+  ]
+}

@@ -1,0 +1,71 @@
+# Economics of Green Deal
+
+- [[#Week 1|Week 1]]
+- [[#Week 2|Week 2]]
+
+The course asks how environmental problems and climate change can be assessed through economics: how to define regulation and quantify policies' economic, social and environmental impacts, with attention to decarbonisation pathways, technology and social innovation. The uploaded introductory material gives the environment–economy framework for those questions. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Předměty.pdf#page=1|Předměty.pdf, physical PDF p. 1, course aim]]
+
+## Week 1
+
+Concept index:
+
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus|Environment–Economy Nexus]] — environmental functions, firms and households, resource renewal, waste capacity, amenities and the source's economic topic overlay.
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope|Course Orientation and Week 1 Scope]] — course aims, assessment, source limits and the advertised climate-foundation lecture.
+
+### Economy within the environmental system
+
+Firms produce and households consume, but the introductory diagrams place this economic core within a wider system. Nature supplies resources, receives wastes, provides aesthetic, cultural and recreational services, and maintains life-supporting systems such as climate, the hydrologic cycle and soil production. Resources support production and consumption, while waste can feed back into the resource base and utility. Consumption and environmental amenities both contribute to wellbeing in the source diagram. The [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus|detailed nexus note]] explains each environmental function and follows the material/energy and utility paths. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/00_Intro.pptx|00_Intro.pptx, slides 2–4]]
+
+The source highlights two conditions. Harvest above yield/growth, $h>y$, has a negative resource effect, whereas the renewable-resource branch with $h<y$ has a positive effect. Waste above assimilative capacity, $W>A$, has negative resource and amenity paths; waste below capacity, $W<A$, has a positive resource-return path in the schematic model. These comparisons explain why renewability and disposal capacity matter to economic analysis. They provide qualitative directions, without numerical harvest limits, pollution thresholds or a fully specified dynamic model. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/00_Intro.pptx|00_Intro.pptx, slide 4]]
+
+### Questions for economic assessment
+
+The final academic slide overlays resources, growth and sustainability, externality, regulation and valuation on the network. This connects later economic questions to particular physical and utility relationships: what resource use and waste change, how activity interacts with the environmental system, and how amenity effects enter assessment. The slide locates the topics; it does not yet supply formal externality analysis or a policy comparison. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/00_Intro.pptx|00_Intro.pptx, slide 5]]
+
+### Advertised lecture and uploaded coverage
+
+The Week 1 syllabus names “Setting the Stage — Climate Change: Physical Foundation and Policy Implications,” by Miroslav Havránek, and advertises mitigation, adaptation, global perspective, geoengineering, and the historical context from Kyoto to Paris to the Green Deal. Slide 1 links to a separate Prezi presentation, whose content is not contained in the uploaded deck. The supplied files therefore support the introduction above and course orientation, while the physical climate lecture and historical strands remain source gaps. The [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope#Week 1 content supplied and content only advertised|scope note]] records the exact boundary. Weeks 2 onward in the syllabus and Week_2 folder are outside this ingestion. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/00_Intro.pptx|00_Intro.pptx, slides 1 and 6]] [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Předměty.pdf#page=2|Předměty.pdf, physical PDF p. 2, Week 1 syllabus]]
+
+The supplied assessment gives 65 points for a satisfactory writing test, 35 for a written open-book examination that tests understanding and application, and 10 for participation. The sources do not resolve how the 110 displayed points relate to the final score or any cap. The [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope#Assessment and grading in the supplied materials|assessment section]] preserves the original grade bands and exact open-book qualification. The SIS export's year and the dated syllabus also require care before using the supplied dates as a current timetable. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/00_Intro.pptx|00_Intro.pptx, slides 9–10]] [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Předměty.pdf#page=1|Předměty.pdf, physical PDF p. 1]] [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Předměty.pdf#page=2|Předměty.pdf, physical PDF p. 2]]
+
+## Week 2
+
+Concept index:
+
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum|Externalities and Welfare Optimum]] — real versus pecuniary effects, Pareto criteria, optimal harm, compensation, Coasean bargaining and distribution.
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Road_Transport_External_Costs|Road Transport External Costs]] — abatement and defensive spending, efficient margins, unpaid-bill accounting and the limits of historical valuation estimates.
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments|Market Based Environmental Instruments]] — instrument families, permit flexibility, common marginal abatement costs, innovation, effectiveness and dated ETS evidence.
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Optimal_Environmental_Taxation|Optimal Environmental Taxation]] — Ramsey/Pigou decomposition, public-funds cost, recycling and weak/strong double dividend.
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/US_Environmental_Policy_and_Economic_Principles|US Environmental Policy and Economic Principles]] — Kling et al.'s seven principles and their historical 2025 climate, energy, water, federalism and research-policy applications.
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Political_Economy_of_Cost_Benefit_Analysis|Political Economy of Cost-Benefit Analysis]] — use, quality and influence of appraisal, actors' motives, information and incentives, scrutiny and accountability.
+
+### From physical effects to a welfare problem
+
+The Week 1 network locates waste and utility feedback; Week 2 asks when these become economic externalities. A supplier's action changes a real variable in another person's utility or production relation without accounting for it in the decision. A physical change alone, an ordinary price effect, or a deliberate reciprocal/altruistic relation does not establish the same market failure. Under the smooth first-best model, a harmful activity's private optimum satisfies $MPB=MPC$, while its social optimum satisfies $MPB=MPC+MEC$. A beneficial external effect instead requires $MPB+MEB=MPC$. The correction addresses a marginal wedge, and positive damage can remain at the optimum. The externality note explains the full reasoning and the difference between strict Pareto improvement and a potential gain for which compensation is merely possible. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/01_Regulation_Externality-1.pdf#page=3|Lecture, PDF pp. 3–20]] [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_01a_Verhoef_2002-1.pdf#page=2|Verhoef Externalities, PDF pp. 2–5 (printed pp. 198–205)]]
+
+### Incentives accounting and institutions
+
+Compensation, internalization, regulation and optimization have different meanings and can distribute an identical total surplus differently. Coasean bargaining relies on rights, feasible transfers and sufficiently low transaction costs; large groups and public-bad effects can obstruct it. In the transport application, residual damage $EC$ depends on activity $Q$, supplier abatement $A$ and receptor defence $D$. Welfare is $NPB(Q)-EC(Q,D,A)-A-D$: efficient interior choices balance each avoidance margin, whereas unpaid-bill accounting must include residual damage plus defensive expenditure and specify which harm falls outside the sector. Historical noise/pollution estimates often omit one of these components; accident estimates add aggregation and risk-valuation difficulties. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_01a_Verhoef_2002-1.pdf#page=5|Verhoef Externalities, PDF pp. 5–9]] [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_01b_Verhoef_1994.pdf#page=6|Verhoef 1994, PDF pp. 6–14 (printed pp. 278–286)]]
+
+A common tax or permit price can equalize firms' marginal abatement costs, achieving a covered target at least cost in the smooth comparable-emission setting. A tax fixes the price while its achieved quantity depends on responses; a cap fixes the covered quantity while the price adjusts. Enforcement, coverage and location remain important. Pricing also encourages innovation, but not every technology lowers every part of a marginal-cost curve. The lecture's ETS maps, comparison metrics and revenues are explicitly historical 2024/2023 graphics. They provide evidence on instrument deployment and design rather than proof of current rules or welfare gains. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/01_Regulation_Externality-1.pdf#page=31|Lecture, PDF pp. 31–47]]
+
+### Assess policies beyond one private cost
+
+Environmental taxes interact with revenue needs and existing distortions. The source combines Ramsey and Pigou components with a public-funds weight. Recycling can reduce another distortion while tax interaction worsens labour-supply incentives; weak double dividend compares revenue uses, whereas strong double dividend claims an additional overall efficiency gain and is not guaranteed. The supplied notation/assumptions do not support a numerical Sandmo calculation or a full proof of the final slide's conditional statements. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/01_Regulation_Externality-1.pdf#page=49|Lecture, PDF pp. 49–54]]
+
+Kling et al. apply complete social accounting, discounting, uncertainty, distribution, jurisdictional spillovers and public-good reasoning to policy changes reported in early 2025. Their critique explains why saving regulatory costs alone does not establish improved welfare; it is a sourced conceptual analysis, with no original data or aggregate causal estimate. OECD's CBA chapter adds why good appraisal may nevertheless have limited influence: decisions combine objectives, constrained actors, political motives and information asymmetries. Guidance and technical expertise matter, but incentives, independent scrutiny and credible ex post accountability also affect quality and use. Political economy explains divergence from a normative welfare benchmark without automatically justifying it. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_02_Kling_2025.pdf#page=3|Kling et al., PDF pp. 3–20]] [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_04_Ch17_CBA.pdf#page=2|OECD chapter 17, PDF pp. 2–15 (printed pp. 424–437)]]
+
+### Coverage and source qualifications
+
+All five Week 2 PDFs are now covered: 124 physical pages, including the image-based final lecture slide, scanned chapter spreads, figures, tables, equations, footnotes and reference pages. The earlier Week 1 text's exclusion of Week 2 describes that earlier pass; it does not exclude the populated section here. The missing linked Week 1 climate-foundation lecture remains absent. New qualifications include undeclared Sandmo symbols/tax normalization, the lecture's incomplete 2040 target heading and ICAP counting discrepancy, dimensional slips identified beside their figures/examples, and the incomplete next-chapter risk fragment included in Verhoef's scan. Historical policy/valuation figures retain their dates, units and analytical boundaries. Those source limitations are made explicit in the concept notes; no external sources were retrieved.
+
+## Sources
+
+- [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/00_Intro.pptx|00_Intro.pptx]], all ten slides inspected.
+- [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Předměty.pdf|Předměty.pdf]], all four physical PDF pages inspected, with later-week academic content excluded from the requested Week 1 scope.
+
+- [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/01_Regulation_Externality-1.pdf]], all 54 physical PDF pages inspected.
+- [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_01a_Verhoef_2002-1.pdf]], all 10 physical PDF pages inspected.
+- [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_01b_Verhoef_1994.pdf]], all 15 physical PDF pages inspected.
+- [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_02_Kling_2025.pdf]], all 27 physical PDF pages inspected.
+- [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_04_Ch17_CBA.pdf]], all 18 physical PDF pages inspected.

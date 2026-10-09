@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+  "ingestion_revision": 1,
+  "transaction_id": "T-b3712f4c693b4a68b9c7d919fb7d8257",
+  "status": "complete",
+  "run_id": "20261004T155737+0200_week1_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+  "updated_at": "2026-10-04T19:46:47.686445+02:00",
+  "finished_notes": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Behavioral_Economics_main.md",
+      "sha256": "69ee6890d60c5d4770d82d2406d837179b484279a50a2de738d611535d4c0edf",
+      "headings": [
+        "Behavioral Economics",
+        "Week 1"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Behavioral_and_Experimental_Economics.md",
+      "sha256": "53843939fbb3e4e63528c83b458715a2896fa36a4f64d23854a1021010eb1b4c",
+      "headings": [
+        "Behavioral economics and experimental economics",
+        "What changes in a behavioral model",
+        "A field of questions and a method of evidence",
+        "Theory, evidence, and applications in this course",
+        "Week 1 synthesis"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md",
+      "sha256": "772744d3002e88de0342c6b93e50741a04bb737b9ba7a89d3a67bc398235f2de",
+      "headings": [
+        "Course organization and exam",
+        "Teaching and preparation",
+        "Assessment format and dates",
+        "Boundary of the Week 1 notes"
+      ]
+    }
+  ],
+  "affected_note_paths": [
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Behavioral_and_Experimental_Economics.md",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Behavioral_Economics_main.md"
+  ],
+  "prior_completed_revision": null,
+  "unresolved": [
+    "Printed grade bands do not supply a fractional-score rounding rule. The SIS lists misperceptions conditionally, whereas the syllabus lists the later topic without that condition; the difference is retained only as course orientation."
+  ],
+  "selected_scope": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1",
+  "coverage_status": "Complete for selected supplied files; external advertised source gaps remain in unresolved.",
+  "finished_assets": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Introduction_slide_06_correlation.png",
+      "bytes": 193529,
+      "sha256": "c536e5a0fb1686caa8a5f172706176385f99a451fd0098ae22e42fc3a98ae81f",
+      "change": "new"
+    }
+  ],
+  "prior_passes": [],
+  "prior_plan_paths": [],
+  "independent_checkers": [
+    "/root/factcheck_introductions"
+  ]
+}

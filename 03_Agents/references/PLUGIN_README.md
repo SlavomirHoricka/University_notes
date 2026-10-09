@@ -1,0 +1,11 @@
+# University Assistant
+
+Private `uni-teach` plugin for `/Users/slavomirhoricka/Desktop/Obsidian/Uni`. Four skills: ingest verifies raw materials and creates finished notes; plan prepares versioned executable curriculum; teach conducts sessions and records actual learner evidence; recall derives dates and synchronizes review tasks through the separately installed **Todoist: To Do List & Calendar** harness.
+
+Use a capable model for ingest/plan and a faster model for prepared teaching/recall. Skills cannot switch the host model. Ask to ingest an exact folder; plan a full course identity and bounded scope; teach/resume with a study budget; or synchronize committed reviews with Todoist. Missing/ambiguous project mappings require a unique existing project ID. No guessed course project, solution disclosure, task-completion mastery, or speculative learner records.
+
+Storage/ownership and handoffs are in `LEARNING_ARCHITECTURE.md`; methodology evidence is in `references/LEARNING_METHODS.md`. Skill bodies contain ordinary execution rules. Runtime files belong in the local vault, never this installation: ingestion records in `03_Agents/runtime/ingest`; curriculum, learner log and recall state under `03_Agents/<year>/<semester>/<course>` with separate owners.
+
+Canonical maintained skill folders remain in `03_Agents/ingest`, `plan`, `teach`, `recall`. Package copies are generated and verified by `03_Agents/scripts/sync_plugin.py`; account releases update the existing private plugin ID through Plugin Creator with a guarded release ID. Never edit versioned installation caches as durable source. Installation grants no vault access and starts no background execution. Recall runs on explicit request or after a committed teach handoff when available. No additional push-notification system is required.
+
+Legacy schema-1 history remains intact. New schema-3 readiness requires ingest completion/freshness state and reconciled prepared curriculum. Representative validation artifacts are not real learner evidence. Root portable manifest is authoritative packaging metadata; Codex compatibility manifest is generated with the same identity/interface/default prompts. Account update overlays preserve remote files: obsolete planning-template paths are explicit deprecation redirects, never a second maintained template.

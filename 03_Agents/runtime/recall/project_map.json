@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "owner": "recall",
+  "record_revision": 1,
+  "transaction_id": "T-recall-project-map-20261004",
+  "timezone": "Europe/Prague",
+  "recorded_at": "2026-10-04T07:25:26+00:00",
+  "description": "Verified existing course-project mappings only; no learning evidence, plans, schedules or tasks are created by this record.",
+  "mappings": {
+    "2026_2027/Winter_Semester/Comparative_Economics": {
+      "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+      "course_code": null,
+      "course_title": "Comparative Economics",
+      "hub": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md",
+      "notes_directory": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics",
+      "project_id": "6hf2f5PF5HGrCCWF",
+      "project_name": "Comparative Economics",
+      "parent_project_id": "6hf2f4g5WRR8j2Jc",
+      "match_method": "exact_normalized",
+      "normalization": "NFC; casefold; underscores to spaces; collapse whitespace; preserve accents/numerals",
+      "verified_at": "2026-10-04T07:25:26+00:00",
+      "connector": "Todoist: To Do List & Calendar",
+      "active": true
+    },
+    "2026_2027/Winter_Semester/Economics_of_Green_Deal": {
+      "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+      "course_code": null,
+      "course_title": "Economics of Green Deal",
+      "notes_directory": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal",
+      "project_id": "6hf2f5Pp7Hc82mgc",
+      "project_name": "Economics of Green Deal",
+      "parent_project_id": "6hf2f4g5WRR8j2Jc",
+      "match_method": "exact_normalized",
+      "normalization": "NFC; casefold; underscores to spaces; collapse whitespace; preserve accents/numerals",
+      "verified_at": "2026-10-04T07:25:26+00:00",
+      "connector": "Todoist: To Do List & Calendar",
+      "active": true
+    },
+    "2026_2027/Winter_Semester/Econometrics_II": {
+      "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+      "course_code": null,
+      "course_title": "Econometrics II",
+      "notes_directory": "01_Notes/2026_2027/Winter_Semester/Econometrics_II",
+      "project_id": "6hf2f5Mhjv35w5G4",
+      "project_name": "Econometrics II",
+      "parent_project_id": "6hf2f4g5WRR8j2Jc",
+      "match_method": "exact_normalized",
+      "normalization": "NFC; casefold; underscores to spaces; collapse whitespace; preserve accents/numerals",
+      "verified_at": "2026-10-04T07:25:26+00:00",
+      "connector": "Todoist: To Do List & Calendar",
+      "active": true
+    },
+    "2026_2027/Winter_Semester/Behavioral_Economics": {
+      "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "course_code": null,
+      "course_title": "Behavioral Economics",
+      "notes_directory": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics",
+      "project_id": "6hf2f5JWCP442X4C",
+      "project_name": "Behavioral Economics",
+      "parent_project_id": "6hf2f4g5WRR8j2Jc",
+      "match_method": "exact_normalized",
+      "normalization": "NFC; casefold; underscores to spaces; collapse whitespace; preserve accents/numerals",
+      "verified_at": "2026-10-04T07:25:26+00:00",
+      "connector": "Todoist: To Do List & Calendar",
+      "active": true
+    },
+    "2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions": {
+      "course_id": "2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions",
+      "course_code": "JEM231",
+      "course_title": "Mergers and Acquisitions",
+      "hub": "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/JEM231_Mergers_and_Acquisitions_main.md",
+      "notes_directory": "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions",
+      "project_id": "6hf2f5RmJ32mF8f9",
+      "project_name": "Mergers and Acquisitions",
+      "parent_project_id": "6hf2f4g5WRR8j2Jc",
+      "match_method": "exact_normalized",
+      "normalization": "NFC; casefold; underscores to spaces; collapse whitespace; preserve accents/numerals",
+      "verified_at": "2026-10-04T07:25:26+00:00",
+      "connector": "Todoist: To Do List & Calendar",
+      "active": true
+    }
+  }
+}

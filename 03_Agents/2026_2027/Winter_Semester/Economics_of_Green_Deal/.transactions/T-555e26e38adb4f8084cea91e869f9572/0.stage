@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+  "ingestion_revision": 2,
+  "transaction_id": "T-555e26e38adb4f8084cea91e869f9572",
+  "status": "blocked",
+  "run_id": "20261007T122546+0200_week2_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+  "updated_at": "2026-10-07T12:27:59.680390+02:00",
+  "finished_notes": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md",
+      "sha256": "14d8f9e787454cee92101bb2d381ee714801afe3f846e232333740e07dbd2b81",
+      "headings": [
+        "Economics of Green Deal",
+        "Week 1",
+        "Economy within the environmental system",
+        "Questions for economic assessment",
+        "Advertised lecture and uploaded coverage",
+        "Sources"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope.md",
+      "sha256": "f0b080e8ef565e2c6f73bb37f1ab81239a904c63186fad7659685b96a87ba3a2",
+      "headings": [
+        "Course Orientation and Week 1 Scope",
+        "Údaje o předmětu v dodaném SIS exportu",
+        "The course's central question",
+        "Week 1 content supplied and content only advertised",
+        "Assessment and grading in the supplied materials",
+        "Contacts and materials recorded in the deck",
+        "Sources and page conventions"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md",
+      "sha256": "efb3d63bd3709f51261b845db081603746a89796298bbe89a4849ca6e0e84b23",
+      "headings": [
+        "Environment–Economy Nexus",
+        "Four environmental functions",
+        "Resources",
+        "Sinks and assimilative capacity",
+        "Demand services",
+        "Global biospheric life-supporting services",
+        "The economic core: firms and households",
+        "Reading the physical and utility network",
+        "Resource use and replenishment",
+        "Waste and capacity",
+        "Several paths to wellbeing",
+        "The economic questions placed on the network",
+        "What the introductory framework establishes",
+        "Sources"
+      ]
+    }
+  ],
+  "affected_note_paths": [
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Road_Transport_External_Costs.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Optimal_Environmental_Taxation.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Nonmarket_Valuation_for_Policy.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Climate_Cost_Benefit_Analysis.md"
+  ],
+  "prior_completed_revision": 1,
+  "unresolved": [
+    "Academic source gap: the climate-foundation lecture is an external Prezi link/title, not supplied lecture content. Physical mechanisms, mitigation/adaptation/geoengineering explanations and Kyoto-to-Paris historical teaching are only advertised, not ingested. An accessible authorized copy is needed to cover those strands.",
+    "Network lower-case r is undefined; K lacks an explicit source definition. The notes preserve the diagram and distinguish conventional interpretation from a supplied definition, without inventing equations or equality-case predictions.",
+    "SIS header says 2026/2027, but listed dates/weekday and September 2025 edits reflect older calendar context. No current-year timetable is inferred.",
+    "Assessment allocations add to 110 points. Participation-bonus/cap and fractional-score handling are unspecified; original bands retained."
+  ],
+  "selected_scope": "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2",
+  "coverage_status": "Blocked pending full Week2 inspection, notes, independent check, and structural validation.",
+  "finished_assets": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_03_Economic_Core.png",
+      "bytes": 52497,
+      "sha256": "51957fa7d0b66f5d62a5c834c504c2e93b52eb83d57c6bbf11648f68f805f2f4",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_04_Environment_Economy_Network.png",
+      "bytes": 148841,
+      "sha256": "bcbc52a1565bbe786fc17cbc65c7cd897fbdc08d6e30728e1a7e8ac87a330a8d",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_05_Economic_Questions.png",
+      "bytes": 169551,
+      "sha256": "469cd0b9bcc6f0a231dfc5ff49b7956fcf4508c36ab7feec8412fd0aa9c7a26c",
+      "change": "new"
+    }
+  ],
+  "prior_passes": [],
+  "prior_plan_paths": [],
+  "independent_checkers": [
+    "/root/factcheck_introductions"
+  ]
+}

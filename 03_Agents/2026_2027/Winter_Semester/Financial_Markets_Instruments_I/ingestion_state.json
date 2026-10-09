@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "ingestion_revision": 2,
+  "transaction_id": "INGEST-FINANCIAL_MARKETS_INSTRUMENTS_I-ccde853ce42a4bd9a56bb46e241f3338",
+  "status": "complete",
+  "run_id": "20261007T122546+0200_week2_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+  "updated_at": "2026-10-07T12:41:12+02:00",
+  "finished_notes": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Financial_Markets_Instruments_I_main.md",
+      "sha256": "12acb3a4ec118be8accf95e57e840efa6bcb31a40d1d9fd85f79b019312a7658",
+      "headings": [
+        "Financial Markets Instruments I",
+        "Week 1",
+        "Source selection for this week",
+        "Week 2",
+        "Week 2 source scope and limitations",
+        "Course organization",
+        "Teaching and communication",
+        "Assessment and the handbook's cutoff ambiguity",
+        "Listed examination dates and materials"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md",
+      "sha256": "b3e4487925e9bd1ca9c2c341990863be4d2ff9f9a1e8e2211e1742e1bc4e5956",
+      "headings": [
+        "Basis, convergence and futures hedging",
+        "Basis and calendar spread are different comparisons",
+        "Why the prices converge at delivery",
+        "A purchase hedge, derived step by step",
+        "A sale hedge and early termination",
+        "The lecture's value convention",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Introduction_to_Futures_Seminar_Exercises.md",
+      "sha256": "b10a0ed1ddfde242583a447a4246738dc8f31af4dca1c5f77970596782335d04",
+      "headings": [
+        "Introduction to futures \u2014 seminar exercises",
+        "Problem 1: offsetting contracts",
+        "Problem 2: a short wheat contract",
+        "Problem 3: copper and maximum loss",
+        "Problem 4: a daily margin table",
+        "Problem 5: clearing a larger long position",
+        "Problem 6: two orange-juice contracts",
+        "The seminar's film illustration",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Margins_and_Marking_to_Market.md",
+      "sha256": "c92b574f4c33c97bdbefad673c63cc8029a344a79d7b1da69ed2bba44076e313",
+      "headings": [
+        "Margins and marking to market",
+        "The three margin concepts",
+        "Daily profit and loss, with units",
+        "From daily result to an account balance",
+        "The handout's five-day example",
+        "Payoff and the size of possible losses",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md",
+      "sha256": "ed4177199ebe557e2c52129bcd94b690b22e553a5eafba9ce5f4dc19656c3045",
+      "headings": [
+        "Spot, forward and futures contracts",
+        "Topic map",
+        "When the agreement, payment and delivery happen",
+        "Standardized futures specifications",
+        "Positions, open interest and the clearing house",
+        "How the obligation ends",
+        "Trading limits and market abuse",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Bond_Futures_Conversion_Factors_and_Delivery.md",
+      "sha256": "a9656034a515703d258f470320f1ea171d1dcd964701cf8a1f19c755171cfec1",
+      "headings": [
+        "Bond futures, conversion factors and delivery",
+        "The notional contract and its monetary scale",
+        "A short closing trade",
+        "Clean price, full price and coupon dates",
+        "Conversion factor: price at the contract's reference yield",
+        "Follow the source's valuation steps",
+        "The conversion-factor example has a day-count error",
+        "The short's cost-of-carry transaction",
+        "Delivery timing under the source's carry rule",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Implied_Repo_Rate_and_Cheapest_to_Deliver.md",
+      "sha256": "cc1472840d045ac50e647cb4be41302f7eeca6bf21ea19e86c7d6305b27d2153",
+      "headings": [
+        "Implied repo rate and cheapest to deliver",
+        "Why the return resembles a repo loan",
+        "Notation, units and assumptions",
+        "One coupon before delivery",
+        "Recompute the source's numerical example",
+        "No coupon before delivery",
+        "Compare eligible bonds and choose CTD",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Short_Term_Interest_Rate_Futures.md",
+      "sha256": "60171e496c1089e75dcac3575612a0518e958cac6a80dbe02da9b438b622a003",
+      "headings": [
+        "Short-term interest rate futures",
+        "Quotation, tick value and the deposit period",
+        "Closing the futures before the deposit begins",
+        "Cash settlement and the effective deposit rate",
+        "The slide's day-count and payment-timing qualification",
+        "Physical delivery and compensation for a lower deposit rate",
+        "What to carry forward"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md",
+      "sha256": "9934681819e12121ce3bdcd2bf33e74747d3ecc2cf2232b8981de7f2236997ac",
+      "headings": [
+        "Stock index and currency futures",
+        "Read the contract before calculating",
+        "SIFT 500: index points become euros",
+        "Closing after five days",
+        "Holding until cash settlement",
+        "ECFT: identify the traded and invoice currencies",
+        "Closing after ten days",
+        "Physical delivery fixes the effective purchase rate",
+        "What to carry forward"
+      ]
+    }
+  ],
+  "prior_completed_revision": 1,
+  "unresolved": [
+    "DOC p. 3 says clearing honors obligations after broker default but also warns, as lecture slide 12 does, that clients are not protected against their own broker default. Both statements are retained without an unlimited guarantee.",
+    "Seminar p. 13 uses variation margin for daily transfers and a top-up formula and maintenance for a minimum/payment; the lecture/handout/seminar differ on restoration target. Notes distinguish quantities and state the target/withdrawal assumptions for calculations.",
+    "Seminar p. 7 labels a Treasury-bond quotation example US T-Bill. Verified fractional arithmetic is retained with the label inconsistency flagged.",
+    "Lecture slide 11 discounts a difference assumed paid at maturity; slide 6 settles changes daily. Deferred-payment formulas are retained with the unresolved timing convention, not presented as a universal daily-settled account value.",
+    "Handbook pp. 3\u20134 says at least 50 total points can pass, while its table puts 0\u201350 in F and starts E at 51. Treatment of exactly 50 needs TA clarification; the SIS-linked handbook year differs from the actual uploaded 2026/2027 cover. January examination rooms are not supplied and listed dates/times are expressly changeable rather than live-verified.",
+    "Seminar p. 15 gives an undefined legal label/external videos. No legal explanation or outside content was invented. Exercises do not provide an official key or universal withdrawal/funding/price-bound assumptions; derived answers state conditional assumptions explicitly.",
+    "DOC Ch. I p. 7 final early-hedge verbal label has an apparent sign error: its signed expression is \u2212F\u2080\u2212B\u209c under B=S\u2212F; positive expenditure is F\u2080+B\u209c. The source error is explicitly flagged beside the verified derivation.",
+    "L11 slide7 EDSP is labeled rate, while slide8 EDSP91.25 is a price quote; units distinguished explicitly.",
+    "L11 slide7 quarter-year tick and slide8 91/365 conversion/payment alternatives differ; exact effective-rate identities depend on explicit conventions.",
+    "L11 slide11 171-day exponent differs from170-day timeline and shown values; generic conversion-factor method is supported, defective equality explicitly flagged.",
+    "L11 slide15 stated3.57% differs from3.61742% produced by literal43/180 inputs; consistent supplied coupon accrual is required for practice.",
+    "L11 slide13 first/last-day delivery rule is a simplified constant-carry assertion; actual CTD identification absent a candidate basket is unsupported."
+  ],
+  "selected_scope": "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2",
+  "coverage_status": "complete for selected Week 2 sources and prior completed Week 1 coverage",
+  "finished_assets": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_FI01_Long_Short_Payoffs.png",
+      "bytes": 15695,
+      "sha256": "0031c88b703a27700f6bfb39b64c4c8b9b64abfe97f1aa4d2e6e1fb62f96c7be",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_FI01_Margin_Table.png",
+      "bytes": 71163,
+      "sha256": "791b5a8ad0c57b141534941e4d758d4d07b5999c6d66d55ad2b0502dba061e11",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_L10_Clearing_Arrangement.png",
+      "bytes": 563220,
+      "sha256": "7e782a762b3ab6cb0f8270aaa82f495a4e1ba7bfcebc0d5e2b94c5e867adc8c9",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_L10_Convergence_Patterns.png",
+      "bytes": 138212,
+      "sha256": "a582e9824ebc65437ce015f53e559e4c7dd6c2d238cb527111c38f3a73a3d05c",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_L10_Forward_Timeline.png",
+      "bytes": 63778,
+      "sha256": "caaeedc9f48c35dcfb8971aa6383f583e26345893f42e6acc88e15c98b6be011",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_L10_Spot_Timelines.png",
+      "bytes": 551194,
+      "sha256": "746d6df8f88c67a407ffcb14e9401dc8ce66e2b1d6f33d94d6d7976565b360f4",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_1_Seminar_Problem_4_Table.png",
+      "bytes": 93426,
+      "sha256": "9897534491e124b69f9affcf92729f1e94596fc293a4837a701a29c06e4d696f",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Bond_Delivery_Timeline.png",
+      "bytes": 560506,
+      "sha256": "50f81e2d20373c3aee536abde2f8b02c08fca9789aec45a51504e797b19c7181"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Bond_Specification.png",
+      "bytes": 483413,
+      "sha256": "aa1185a85ac76a4e5b192193b570e5f71474b38ff908f459dca34bc5abcfd051"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Conversion_Factor_Example.png",
+      "bytes": 653884,
+      "sha256": "f5b486a139dabb06effd422c420833a52cf4f5c1135c0c9dc9c8ba2e09fd311b"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Cost_of_Carry_Flows.png",
+      "bytes": 510729,
+      "sha256": "904037172cf5ca319c1c05ad9b0b99ce13f41368790b073d7f08569c08d62917"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Currency_Closing_and_Delivery.png",
+      "bytes": 655568,
+      "sha256": "72533b3b482f8adefb48df1116fce28fe45522aa22c9765b710e425eec05ec45"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Currency_Specification.png",
+      "bytes": 521880,
+      "sha256": "41331195927a28988b3e17c5e93d5aea1741cb7acf2bb11666becfd88bec5199"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_IRR_Formulas.png",
+      "bytes": 655914,
+      "sha256": "7110fa1a1ce876ffc387e310e867173dd9aeac45a0f9da2b73757cdd5fef912c"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Index_Closing_and_Settlement.png",
+      "bytes": 694949,
+      "sha256": "a3b220febac0005f69d4a083e237292585f3f5fcba3890313a51081c3bfa9251"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Index_Specification.png",
+      "bytes": 493084,
+      "sha256": "a8430c714ece0c16ee9368aa1c8919076cc7495ca50c130319752d08b40014d5"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Short_Rate_Settlement.png",
+      "bytes": 664828,
+      "sha256": "3c2f0f5cd2dc703ba5accbee04e937faeda109215173f18e09510c0cb129a8f3"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Short_Rate_Specification.png",
+      "bytes": 493074,
+      "sha256": "a3514c97e0b637d3634d010fca4a409ace334314546a3cfe7a5a6cedb0602669"
+    }
+  ],
+  "prior_passes": [],
+  "prior_plan_paths": [],
+  "independent_checkers": [
+    "/root/independent_review"
+  ]
+}

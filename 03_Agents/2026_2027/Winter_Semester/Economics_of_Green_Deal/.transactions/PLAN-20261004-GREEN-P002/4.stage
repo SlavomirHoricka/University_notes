@@ -1,0 +1,217 @@
+# Interpret harvest and waste capacity comparisons
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+  "transaction_id": "PLAN-20261004-GREEN-P002",
+  "plan_version": "P002",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O003",
+  "objective_revision": 2,
+  "criterion_version": "O003-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "compare_like_measurements",
+    "interpret_harvest_branches",
+    "interpret_waste_branches",
+    "respect_equality_and_model_limits"
+  ],
+  "prerequisite_ids": [
+    "O001",
+    "O002"
+  ],
+  "compatible_versions": [
+    {
+      "objective_revision": 1,
+      "criterion_version": "O003-C1",
+      "plan_version": "P001",
+      "source_version": "V001",
+      "ingestion_revision": 1,
+      "reason": "Finished-note bytes, capability, complete I/D prompts/keys, success criteria and independence/delayed conditions unchanged. P002 only replaces prerequisite entry diagnostics that exposed an upstream I1 item.",
+      "change_class": "unchanged",
+      "requires_reassessment": false
+    }
+  ],
+  "note_locations": [
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md#Resource use and replenishment",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md#Waste and capacity"
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "I1",
+      "I2"
+    ],
+    "allowed_substitutions": []
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Interpret harvest and waste capacity comparisons",
+  "review_instruction": "Begin a closed-note review with teach for O003; request one fresh prepared delayed item before recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+For agent-created comparable quantities, choose h>y or h<y and W>A or W<A, explain the note’s directional resource/utility effects, and withhold unsupported equality cases, numerical limits and universal safety claims.
+
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md#Resource use and replenishment]]
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md#Waste and capacity]]
+
+Supported/completion work may use the finished note and named figure. Independent and delayed checks use no notes, figures, keys, web, AI or hints; a blank page is allowed. O003 may use a basic calculator for comparisons, without conceptual help. The tutor confirms known access/exposure conditions before scoring independence. Tasks describing a figure may be answered verbally or by drawing; the arrow legend and interpretation must still be produced unaided. The allowed hypothetical contexts/numbers instantiate the notes and add no course claims.
+
+## Prerequisites and checks
+
+
+**O003-PRE-O001 v2 (item_version 2).** Prerequisite O001. Needed because harvest-versus-growth reasoning refers to the renewable resource branch, while waste-versus-capacity reasoning refers to the sink function.
+
+**Components probed:** apply_source_resource_taxonomy: renewable versus exhaustible within degradable resources; identify_four_functions: sink/assimilative capacity. The full four-function/coexistence task is not necessary for this comparison-entry check.
+
+**Prompt:** In the supplied taxonomy, how do degradable renewable and degradable exhaustible resources differ for the two resource branches? Which environmental function introduces assimilative capacity, and does the existence of that function imply unlimited reception of unwanted outputs?
+
+**Key and essential reasoning:** The resource branches distinguish degradable renewable resources, whose use is considered with replenishment/growth in the diagram, from degradable non-renewable/exhaustible resources. Waste reception is the sink function, interpreted through assimilative capacity; that capacity is not assumed unlimited. This identifies the relevant branch/function without asserting that every renewable-use pattern maintains stock or inventing a universal capacity law.
+
+**Rubric:** Pass requires correct renewable/exhaustible branch distinction, sink identification and rejection of unlimited capacity. Partial means a missing branch/function distinction or capacity qualification without contradiction. Fail means merging the source branches or treating the sink label as proof of unlimited capacity. An insufficiently interpretable response is unscorable; clarify the existing prompt once without supplying an answer.
+
+**Conditions and use:** Ask this focused diagnostic once before targeted recap, without notes, figures, keys or hints. Record any known relevant exposure; unknown assistance/access makes diagnostic independence unscorable and routes to support. A pass permits the named dependency components for this downstream lesson only; it does not establish the upstream objective's full acquisition or delayed retention. This prompt is a distinct focused item, not the upstream I1/I2 prompt or a substitute for those full acquisition checks. Do not repeat diagnosis after failure.
+
+**Repair route:** After partial/fail or unscorable conditions, use [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O001.md#Explanation steps|O001 explanation]] for the named distinction, then [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O001.md#Practice with fading assistance|O001 S1]]. Assess upstream full acquisition with its untouched, distinct I1 and I2 only if that prerequisite acquisition is needed; hide their keys before the response and confirm no exact full-item exposure. This focused diagnostic does not expose either full item's exact scenario, requested whole-capability answer or key. Return to this downstream lesson after the needed dependency is demonstrated; do not present this diagnostic again as fresh learning evidence. If an upstream I item is already exposed for another reason or its bank is exhausted, raise plan_issue rather than improvising a replacement.
+
+
+**O003-PRE-O002 v2 (item_version 2).** Prerequisite O002. Needed because the comparison lesson must distinguish a physical resource feedback from an amenity effect on utility and interpret signs qualitatively.
+
+**Components probed:** trace_economic_physical_paths: waste-to-resource feedback; distinguish_utility_paths: amenity-to-utility; interpret_signs_and_undefined_symbols: directional rather than quantitative signs. Complete economic-core reconstruction and K/r limits are not needed by these inequality branches.
+
+**Prompt:** A network reading describes one material feedback from waste toward resources and a separate amenity effect on wellbeing. Under the full network legend, which arrow type belongs to each? What does a minus beside an effect say, and can it alone give a physical amount or monetary wellbeing loss?
+
+**Key and essential reasoning:** Material/energy feedback uses a solid arrow; the amenity effect on wellbeing/utility uses a dashed arrow. A minus indicates a qualitative negative direction of effect. It does not specify a physical amount, coefficient, euro loss or numerical utility change; no magnitude follows from the sign alone. This question distinguishes effect types without reconstructing the full network or deciding a W/A inequality.
+
+**Rubric:** Pass requires the two correct arrow types and qualitative-sign/no-magnitude distinction. Partial means one missing arrow or magnitude limitation with the other distinctions sound. Fail means treating a dashed amenity arrow as a material shipment or inferring a measured amount from the sign. An insufficiently interpretable response is unscorable; clarify the existing prompt once without supplying an answer.
+
+**Conditions and use:** Ask this focused diagnostic once before targeted recap, without notes, figures, keys or hints. Record any known relevant exposure; unknown assistance/access makes diagnostic independence unscorable and routes to support. A pass permits the named dependency components for this downstream lesson only; it does not establish the upstream objective's full acquisition or delayed retention. This prompt is a distinct focused item, not the upstream I1/I2 prompt or a substitute for those full acquisition checks. Do not repeat diagnosis after failure.
+
+**Repair route:** After partial/fail or unscorable conditions, use [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O002.md#Explanation steps|O002 explanation]] for the named distinction, then [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O002.md#Practice with fading assistance|O002 S1]]. Assess upstream full acquisition with its untouched, distinct I1 and I2 only if that prerequisite acquisition is needed; hide their keys before the response and confirm no exact full-item exposure. This focused diagnostic does not expose either full item's exact scenario, requested whole-capability answer or key. Return to this downstream lesson after the needed dependency is demonstrated; do not present this diagnostic again as fresh learning evidence. If an upstream I item is already exposed for another reason or its bank is exhausted, raise plan_issue rather than improvising a replacement.
+
+
+Adequate qualifying current or explicitly approved compatible prerequisite evidence permits skipping the matching diagnostic. A focused diagnostic permits only the named dependency components; no acquisition or delayed-retention result is inferred.
+
+## Teaching order and rationale
+
+1. Read [[#Motivation, intuition, and definitions]] to set the question and define nearby terms.
+2. Follow [[#Explanation steps]] in numbered order; definitions precede applying distinctions.
+3. Present [[#Worked example]] and decision points before any novice independent demand.
+4. Use S1 in [[#Practice with fading assistance]] with the stated labels/first step; fade help only after the missing components are produced correctly.
+5. Ask I1 and I2 separately, hiding each key until the initial answer is scored. Already-prepared learners may skip exposition/support after satisfactory prerequisite diagnostics, but still need I1 and I2.
+6. If an error appears, use [[#Misconceptions and correction]] and C1, then return to fresh unused I items.
+7. Use D1 or D2 in [[#Immediate and delayed checks]] after the elapsed guard, before recap. An exposed task is unavailable as a fresh check.
+
+## Motivation, intuition, and definitions
+
+“Renewable” names a category; it does not compare how much is removed with how much grows. A sink similarly has a capacity comparison. Directional conclusions depend on the comparison, not the label alone.
+
+Terms and symbols are defined in the explanation below and exact cited sections. In network lessons P=production, C=consumption, U=utility, R=natural resources, ER=exhaustible resources, RR=renewable resources, h=harvest rate, y=yield/growth, W=waste, A=assimilative capacity. These are qualitative labels; units are supplied explicitly only in our hypothetical comparisons.
+
+Relevant finished-note figure: ![[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_04_Environment_Economy_Network.png]]
+
+## Explanation steps
+
+1. Compare harvest rate h and yield/growth y on the same basis and time interval. A per-year rate cannot be compared directly with a per-month rate; convert only if the relation is explicitly given.
+2. In the renewable branch h>y shows negative resource effect because removal outruns replenishment; h<y shows positive effect because replenishment exceeds removal. The source also displays a negative h>y exhaustible branch, without a full exhaustible-resource dynamic law.
+3. Compare waste W and assimilative capacity A on a common basis. W>A has negative resource feedback and a negative amenity effect on U. W<A has a positive resource-return branch in this schematic model.
+4. These signs do not quantify stock changes or wellbeing. Do not infer that all waste below capacity is harmless in every setting.
+5. The source does not specify h=y or W=A, a growth function, exact sustainable harvest, universal pollution threshold or time horizon. If equality or mismatched units occur, report the missing information rather than extending a sign rule.
+
+## Worked example
+
+**O003-W1 v1, instruction only.** Agent-created quantities on explicitly common annual bases: renewable harvest h=8 and growth y=12 resource-units/year; waste W=15 and capacity A=10 waste-units/year. What signs follow, and what if equality occurs?
+
+**Worked solution:** Step 1: units/time bases match within each comparison; no comparison of resource units to waste units is needed. Step 2: 8<12 implies h<y, positive renewable-resource effect in the diagram. Step 3: 15>10 implies W>A, negative resource and amenity/utility effects. Step 4: effects can coexist; no sizes or net-welfare conclusion follow. Step 5: at h=y or W=A the diagram supplies no equality prediction. No stock-growth amount is calculated from the differences.
+
+## Practice with fading assistance
+
+### O003-S1 v1
+
+**Role:** S1; application. **Allowed assistance:** Finished note/figure and up to two prepared hints allowed; this is supported performance, never acquisition evidence.
+
+**Prompt:** For common annual bases h=14,y=9 and W=6,A=8, complete both inequalities and explain resource/utility branches. What changes if h and y have incompatible time units, or W=A? Can W<A be called universally harmless?
+
+**Key and essential reasoning:** 14>9: h>y negative renewable-resource effect; 6<8: W<A positive resource-return branch in this schematic model, no stated corresponding negative amenity branch. Incompatible bases require conversion/information before comparing; W=A is unspecified. W<A is not a universal harmlessness rule, and no numerical stock/utility amount follows.
+
+**Component mapping:** compare_like_measurements, interpret_harvest_branches, interpret_waste_branches, respect_equality_and_model_limits. **Rubric:** pass requires every keyed component and requested reason/source limitation; partial means a missing component without a contradictory mechanism; fail means a critical misconception listed below; unscorable means insufficient interpretable response or unknown conditions. Accept equivalent plain-language reasoning; source-specific distinctions must remain.
+
+### O003-I1 v1
+
+**Role:** I1; application. **Allowed assistance:** Closed notes/figures; no hints, solution exposure or external help. Score original response before feedback.
+
+**Prompt:** Agent-created common annual bases h=16,y=10 and W=18,A=12. Choose both inequalities; explain resource and utility consequences and why renewability alone is insufficient. Contrast both opposite branches h<y and W<A and evaluate the claim that W<A is universally harmless. State what to do with monthly h versus annual y, both equality cases, and a request for a precise sustainable harvest or net welfare value.
+
+**Key and essential reasoning:** h>y: removal exceeds growth, negative renewable-resource effect; renewability alone does not ensure maintained stock. W>A: waste exceeds capacity, negative resource feedback and negative amenity/utility. Opposite h<y is positive renewable-resource effect; W<A is positive resource-return in the schematic model, not universal harmlessness. Different time bases need a stated conversion/common basis. h=y and W=A unspecified. No growth function, numerical safe threshold, stock change or utility magnitudes supports precise sustainable harvest/net welfare. W<A elsewhere would not be universal safety.
+
+**Component mapping:** compare_like_measurements, interpret_harvest_branches, interpret_waste_branches, respect_equality_and_model_limits. **Rubric:** pass requires every keyed component and requested reason/source limitation; partial means a missing component without a contradictory mechanism; fail means a critical misconception listed below; unscorable means insufficient interpretable response or unknown conditions. Accept equivalent plain-language reasoning; source-specific distinctions must remain.
+
+### O003-I2 v1
+
+**Role:** I2; application. **Allowed assistance:** Closed notes/figures; no hints, solution exposure or external help. Score original response before feedback.
+
+**Prompt:** With common annual bases h=5,y=11 and W=7,A=13, explain both inequalities and signs. Contrast the h>y and W>A branches, then discuss mismatched units, equality, renewability and the claim “below capacity means harmless everywhere.”
+
+**Key and essential reasoning:** h<y: positive renewable-resource effect; W<A: positive resource-return branch in schematic model. Opposite branches h>y negative resource and W>A negative resource plus negative utility amenity. Units/bases must match; equality not supplied. Renewability needs use versus growth comparison; below capacity is not universal safety and no quantitative/optimal policy conclusion follows.
+
+**Component mapping:** compare_like_measurements, interpret_harvest_branches, interpret_waste_branches, respect_equality_and_model_limits. **Rubric:** pass requires every keyed component and requested reason/source limitation; partial means a missing component without a contradictory mechanism; fail means a critical misconception listed below; unscorable means insufficient interpretable response or unknown conditions. Accept equivalent plain-language reasoning; source-specific distinctions must remain.
+
+## Rubric and independence
+
+Every I and D task explicitly tests all indexed components: compare_like_measurements, interpret_harvest_branches, interpret_waste_branches, respect_equality_and_model_limits. Acquisition requires passes on two distinct fresh unassisted current-criterion tasks, I1 and I2. This is an operational acquisition threshold, not a personalized retention guarantee. Supported tasks and C1 cannot substitute for either independent role. Delayed items cannot substitute for acquisition roles in this initial plan. These route restrictions ensure all components receive two complete checks. No numeric point scale is invented.
+
+A missing keyed reason/limit is partial, even if labels or inequalities are right. Wrong mechanism, reversed sign, conflated arrow/service categories, unsupported equality/optimal-policy/universal-safety claim, or invented verified definition is a critical conceptual error and fails the relevant whole task. For O003, a lone transcription/comparison slip with a correct stated mechanism is partial rather than diagnosed conceptual failure; clarify once without providing the answer. Unknown help/exposure conditions do not produce independent pass evidence. General source-faithful alternatives are acceptable; unsupported alternatives trigger a plan issue instead of improvised grading.
+
+## Misconceptions and correction
+
+Signs: renewable is assumed automatically maintained, inequalities are compared across time units, or equality becomes zero change by assumption. Treat arithmetic selection separately from conceptual explanation. Correction: compare on a common basis, identify the source’s strict branch, then state its limited directional conclusion. Hint 1: check units/time. Hint 2: compare removal with replenishment and waste with capacity.
+
+Score the original answer first; use at most the two hints above, then explain the prepared missing step. Corrective feedback creates exposure.
+
+**O003-C1 v1, fresh correction, assistance allowed:** Common annual bases h=9,y=4 and W=3,A=5. Correct “renewable means sustainable, so harvest is safe; W<A is harmless universally; equality is known.” Give both inequalities/signs, contrast excess waste, and handle mismatched bases and numerical-limit requests.
+
+**Key:** h>y negative renewable-resource effect because removal outruns growth; renewable category alone insufficient. W<A positive resource-return schematic branch; W>A would have negative resource and amenity utility. Universal harmlessness unsupported; equalities unspecified; mismatched bases require common basis/conversion data. No numerical safe harvest/stock/net-welfare model supplied.
+
+**Rubric:** the full keyed component set correct = correction pass; omitted reason/limit = partial; repeated critical mechanism error = fail. C1 is repair evidence and does not establish acquisition. If I1/I2 are already exposed or exhausted, stop and request new prepared variants from plan.
+
+## Immediate and delayed checks
+
+I1 and I2 above are the immediate checks. A delayed check requires at least 24 elapsed hours since the latest relevant instruction/feedback/exposure (an operational guard), one fresh unused delayed item, closed notes and known no-help conditions. Ask before recap and record intervening exposure; an early or exposed attempt is practice. Each delayed task covers all components, so one qualifying pass demonstrates performance on this bounded delayed form; it is separate from acquisition and does not prove broad transfer.
+
+### O003-D1 v1
+
+**Relation:** near-transfer within the same note-supported framework, with limited changed context; O003 number changes are parallel variants, not broad transfer.
+
+**Prompt:** Without recap, use common annual bases h=7,y=13 and W=20,A=14. Give comparisons and effects, opposite branches, measurement requirements, equality handling, and limits on renewability, safety and numerical welfare.
+
+**Key:** h<y positive renewable-resource effect; opposite h>y negative. W>A negative resource and utility amenity; W<A positive resource-return in schematic model. Within-comparison bases must match. h=y/W=A unspecified. Renewable label insufficient; W<A not universally harmless; signs do not give exact sustainable harvest, stock or net welfare values.
+
+**Rubric:** all requested components and reasons/limits with no critical error = pass; omission = partial; critical misconception = fail; unknown access/conditions = unscorable for independence. The same independence rules apply.
+
+### O003-D2 v1
+
+**Relation:** near-transfer within the same note-supported framework, with limited changed context; O003 number changes are parallel variants, not broad transfer.
+
+**Prompt:** Common annual bases h=17,y=12 and W=4,A=9. Read both conditions with reasons and contrast their opposite branches. Explain why monthly-vs-annual comparisons, equality cases and universal or numerical safety claims require care.
+
+**Key:** h>y negative renewable-resource effect: removal outruns growth; h<y positive in the diagram. W<A positive resource-return; W>A negative resource and utility amenity. Need common basis; equality unspecified; renewable label alone insufficient; W<A not universally harmless, no exact safe threshold/stock/net utility amount supplied.
+
+**Rubric:** all requested components and reasons/limits with no critical error = pass; omission = partial; critical misconception = fail; unknown access/conditions = unscorable for independence. The same independence rules apply.
+
+## Advance, revisit, pause, and escalate
+
+Advance after I1 and I2 both qualify; do not claim retention from acquisition. At delayed pass, report only actual current-version delayed performance. Failure/partial/assistance calls for the prepared explanation and C1; recall owns any subsequent date. Revisit a named prerequisite only when its prepared diagnostic shows the dependent error. After two ineffective hints show the missing step; after two unsuccessful independent attempts pause assessment and use repair, without cycling exposed questions. Pause when variants are exhausted. For ambiguity/missing key or unsupported alternative, record a teach plan_issue with course 2026_2027/Winter_Semester/Economics_of_Green_Deal, P002/V001, ingestion revision 1, O003/O003-C1 and exact item ID/version. For source contradiction or missing lecture content, hand off exact finished-note path/heading to ingest and block the affected claim; do not fill it from memory. A session can close before acquisition without any invented result.
+
+## Answer-free recall handoff
+
+Topic: Interpret harvest and waste capacity comparisons. Start: Begin a closed-note review with teach for [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O003.md#Immediate and delayed checks|O003]]; request one unused prepared delayed item before recap. Teach sends actual committed evidence IDs and conditions. Recall owns dates and Todoist.

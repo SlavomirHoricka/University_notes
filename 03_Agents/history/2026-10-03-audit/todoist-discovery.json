@@ -1,0 +1,64 @@
+{
+  "verified_at": "2026-10-03",
+  "source": "installed Todoist: To Do List & Calendar harness read-only find_projects and user_info",
+  "timezone": "Europe/Prague",
+  "has_more": false,
+  "projects": [
+    {
+      "id": "6hf2f4g5WRR8j2Jc",
+      "name": "Uni",
+      "parent_id": null
+    },
+    {
+      "id": "6hf2f5Mhjv35w5G4",
+      "name": "Econometrics II",
+      "parent_id": "6hf2f4g5WRR8j2Jc"
+    },
+    {
+      "id": "6hf2f5PphF9hJq9c",
+      "name": "International Trade",
+      "parent_id": "6hf2f4g5WRR8j2Jc"
+    },
+    {
+      "id": "6hf2f5PF5HGrCCWF",
+      "name": "Comparative Economics",
+      "parent_id": "6hf2f4g5WRR8j2Jc"
+    },
+    {
+      "id": "6hf2f5JWCP442X4C",
+      "name": "Behavioral Economics",
+      "parent_id": "6hf2f4g5WRR8j2Jc"
+    },
+    {
+      "id": "6hf2f5Pp7Hc82mgc",
+      "name": "Economics of Green Deal",
+      "parent_id": "6hf2f4g5WRR8j2Jc"
+    },
+    {
+      "id": "6hf2f5RmJ32mF8f9",
+      "name": "Mergers and Acquisitions",
+      "parent_id": "6hf2f4g5WRR8j2Jc"
+    }
+  ],
+  "existing_learner_course": {
+    "course_id": "2025_2026/Summer_Semester/JEB109_Econometrics_I",
+    "course_title": "Econometrics I",
+    "match": null,
+    "reason": "No exact normalized title, code, or code+title match. Econometrics II is a distinct course."
+  },
+  "mutations_performed": [],
+  "background_execution": "none configured",
+  "total_active_projects_returned": 11,
+  "stored_inventory_scope": "University parent and course projects only; other project names omitted",
+  "revalidation_on": "2026-10-04",
+  "verified_mapping_record": "03_Agents/runtime/recall/project_map.json",
+  "verified_mapping_count": 5,
+  "read_only_task_inventory": {
+    "checked_on": "2026-10-04",
+    "project_id": "6hf2f5PF5HGrCCWF",
+    "project_name": "Comparative Economics",
+    "total_count": 2,
+    "has_more": false,
+    "recall_owned_marker_count": 0
+  }
+}

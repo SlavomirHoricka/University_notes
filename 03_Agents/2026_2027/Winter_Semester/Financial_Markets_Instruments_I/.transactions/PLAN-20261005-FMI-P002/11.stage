@@ -1,0 +1,201 @@
+# Derive margin-call and withdrawal price conditions
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "transaction_id": "PLAN-20261005-FMI-P002",
+  "plan_version": "P002",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O004",
+  "objective_revision": 1,
+  "criterion_version": "O004-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "unit_and_position_balance",
+    "threshold_inequality_and_boundary",
+    "withdrawal_retained_balance_condition"
+  ],
+  "prerequisite_ids": [
+    "O003"
+  ],
+  "compatible_versions": [
+    {
+      "objective_revision": 1,
+      "criterion_version": "O004-C1",
+      "plan_version": "P001",
+      "source_version": "V001",
+      "ingestion_revision": 1,
+      "reason": "Finished-note bytes, capability, prompts/keys, success criteria and independence/delayed conditions unchanged. P002 propagates the bundle tuple; only O002 fresh numeric forms are revised.",
+      "change_class": "unchanged",
+      "requires_reassessment": false
+    }
+  ],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Introduction_to_Futures_Seminar_Exercises.md",
+      "heading": "Problem 2: a short wheat contract"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Introduction_to_Futures_Seminar_Exercises.md",
+      "heading": "Problem 6: two orange-juice contracts"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Margins_and_Marking_to_Market.md",
+      "heading": "From daily result to an account balance"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O004-I1",
+        "O004-I2"
+      ],
+      [
+        "O004-I1",
+        "O004-D1"
+      ],
+      [
+        "O004-I1",
+        "O004-D2"
+      ],
+      [
+        "O004-I2",
+        "O004-D1"
+      ],
+      [
+        "O004-I2",
+        "O004-D2"
+      ],
+      [
+        "O004-D1",
+        "O004-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Derive margin-call and withdrawal price conditions",
+  "review_instruction": "Begin a closed-note review with teach for O004; request an unused prepared delayed item before recap."
+}
+```
+
+## Outcome and conditions
+
+Given a long/short, quote units, exposure, initial/maintenance balances and withdrawal rule, derive the strict margin-call price inequality, test equality and derive a withdrawal price condition for retaining initial or maintenance. Use a single uninterrupted price move before deposits/withdrawals; no tick grid is imposed unless stated.
+
+Finished-note locations: [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Introduction_to_Futures_Seminar_Exercises.md#Problem 2: a short wheat contract]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Introduction_to_Futures_Seminar_Exercises.md#Problem 6: two orange-juice contracts]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Margins_and_Marking_to_Market.md#From daily result to an account balance]].
+
+Supported learning permits these note sections and the worked key. Independent checks permit blank paper and a non-programmable calculator only; no notes, formula list, key, hints, external help or generated solution. The tutor must confirm these conditions and known prior item exposure before marking independence. Unknown conditions are unscorable for independence, even if the content is correct. These stricter practice conditions do not purport to reproduce all exam rules. Hypothetical tasks below instantiate only note-supported mechanisms.
+
+## Prerequisites and checks
+
+O004-P1 / v1 (O003): A=1200 before settlement, loss500, M800,R1200. Give A^-, call and C. Key700<800, call, C500; equality800 would not call. Pass all with distinction; partial missing boundary; fail target/threshold confusion. Repair O003 **Explanation steps** and S1. Needed because call inequalities compare a balance with a threshold, not profit with margin.
+
+A qualifying committed prerequisite result may skip its diagnostic only when its exact current tuple or explicitly approved compatible tuple and independence conditions are known. Familiarity is insufficient. Diagnostics do not count as acquisition checks. Do each relevant diagnostic once; failed/partial responses follow the stated repair, then one fresh full check rather than repeated diagnosis.
+
+## Teaching order and rationale
+
+1. Retrieve **Outcome and conditions** and **Prerequisites and checks**; repair a needed dependency before its notation is used.
+2. Teach **Motivation, intuition, and definitions** to attach each symbol to an economic action.
+3. Use **Explanation steps** to connect the assumptions to the result.
+4. Present **Worked example** with the key exposed and ask the learner to identify each decision point.
+5. Give **Practice with fading assistance** supported task; if a conceptual component is missing, use its prepared correction.
+6. Withdraw all help and ask I1, score before feedback, then an unused full check under **Immediate and delayed checks**.
+7. After qualifying acquisition, leave delayed assessment to an unused D item after the minimum elapsed interval. Never recap its solution before the answer.
+
+A learner whose prerequisite diagnostic passes may skip prerequisite support; the objective explanation/example can be shortened to the identified gap. The same two full independent-check requirement remains. Full solutions shown on any route retire that item from independent use.
+
+## Motivation, intuition, and definitions
+
+Motivation: What price first creates a cash call, and what price supports an intended withdrawal? Let X=Nq total exposure. Long balance A=I+X(F−F0); short A=I+X(F0−F). Use F in dollars if X is physical units. A call needs A<M; equality is not a breach. To withdraw W while retaining K, require A−W≥K, hence A≥K+W. K is a policy input; choosing initial versus maintenance changes this condition.
+
+## Explanation steps
+
+1. Put the quote in consistent units and write the signed balance before any intervening cash adjustment.
+2. Substitute the strict-below criterion: long F<F0−(I−M)/X; short F>F0+(I−M)/X. Derive rather than memorize the adverse direction.
+3. At equality the loss exactly consumes the I−M cushion, so A=M and there is no call under this model. If a contract tick grid were supplied, the first allowed price strictly beyond threshold would matter; no grid is invented.
+4. Withdrawal needs A≥K+W. Long requires F≥F0+(K+W−I)/X; short F≤F0−(K+W−I)/X. A withdrawal can be possible immediately if initial cash already exceeds K+W.
+5. A target for a call and K for withdrawal are distinct rules. Source exercises do not set one universal withdrawal policy, so report conditional results and the exact assumptions.
+
+## Worked example
+
+O004-W1 / item_version 1 / worked-example; source-supported example or explicitly hypothetical instantiation.
+
+Source wheat short: X=5000 bushels,F0=$2.50,I3000,M2000. A=3000+5000(2.50−F), call F>2.70 (over270 cents); equality leaves2000. W1500: retainI needs A≥4500→F≤2.20; retainM needs A≥3500→F≤2.40. Source orange long: X30000 lb,F0=1.60,I12000,M9000; call F<1.50. W2000 retainI: F≥1.666666…; retainM: F≥1.566666… (possible immediately at1.60). Rounding to a valid tick requires a supplied tick; none is given. Decision points: adverse direction, strict boundary, required retained balance.
+
+## Practice with fading assistance
+
+O004-S1 / item_version 1 / supported-completion.
+
+**Prompt:** Hypothetical long X=1000 units,F0=$2,I=500,M=300,W=100. Fill A formula, strict call condition/equality, and withdrawal conditions retaining I or M.
+
+**Key:** A=500+1000(F−2); call F<1.80; equality A300 no call. RetainI requires A600→F≥2.10. RetainM requires A400→F≥1.90, already possible at opening. Supported full components; show subtraction if needed.
+
+Allowed help: reveal the named definitions, then at most two prepared hints in **Misconceptions and correction**. After the learner supplies the missing steps and their reasons, hide all keys and use a fresh full check. Supported success is practice evidence only. If even the full worked correction does not restore the needed component, pause and follow the dependency repair.
+
+## Rubric and independence
+
+The required components are: unit_and_position_balance; threshold_inequality_and_boundary; withdrawal_retained_balance_condition. Each full check below explicitly elicits and keys every component. Pass requires all its essential reasoning and requested outputs without a critical error. Partial means a correct mechanism but a missing component, unresolved sign/unit, or isolated arithmetic slip. Fail means a critical conceptual error persists or the method cannot establish the result. Unscorable means the response/conditions cannot be interpreted reliably; ask the existing prompt once for clarification, without adding a new assessment. Accept algebraically equivalent expressions, clearly defined opposite cash-flow signs, and plain-language explanations with the same mechanism. An arithmetic slip is partial until independently corrected; it is not automatically a conceptual failure. No numerical score is inferred.
+
+Critical errors: Reversing the adverse-price inequality; treating equality as below; dollar/cent factor error; imposing an unstated withdrawal or tick rule.
+
+Acquisition requires two distinct unassisted passes from the explicitly permitted routes O004-I1/O004-I2, O004-I1/O004-D1, O004-I1/O004-D2, O004-I2/O004-D1, O004-I2/O004-D2, O004-D1/O004-D2. I items normally establish acquisition; an unused D item may replace an exposed or failed I item and then cannot later be counted as delayed retention. Each selected full item assesses all listed components, so every route covers them twice. W1, S1, prerequisite diagnostics and the narrow C1 correction are forbidden substitutes. The D bank is finite: never repeat an exposed item to certify fresh learning and never invent changed numbers. If fewer than two unused full items remain, raise a plan_issue for a new prepared bank.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| unit_and_position_balance | required | required | required | required |
+| threshold_inequality_and_boundary | required | required | required | required |
+| withdrawal_retained_balance_condition | required | required | required | required |
+
+## Misconceptions and correction
+
+Signs: adverse direction reversed; call at equality; same withdrawal answer regardless K. Correction: write A−W≥K and calculate the balance at the claimed price. Hint1: ask which side loses on a rise. Hint2: compare A with M, not I. O004-C1 / v1: Short X1000,F0=2,I500,M300. Is F2.20 a call? At F2.00 can W100 be withdrawn retaining M? Key equality A300 no call; at opening A500−100=400≥300 yes. Pass both with balance; partial unsupported conclusion; fail equality call/retained-rule confusion.
+
+The sign alone is a tentative diagnosis; use the learner's reasoning to establish the confusion. Score the initial response before any hint. Hint 1 points to the named distinction; hint 2 points to the first correct step. After two ineffective hints show the prepared key, then pause if the fresh C1 response still fails. C1 checks the repaired component only and cannot replace a full independent check.
+
+## Immediate and delayed checks
+
+All items are item_version 1 and role full_capability_check. I1/I2 are immediate; D1/D2 are prepared delayed variants. D items may establish delayed success only when unused, unassisted, attempted before recap, at least 24 elapsed hours after acquisition and the most recent relevant solution/teaching exposure, with intervening exposure recorded. Early D attempts may be immediate checks but are not delayed evidence. Each delayed success is separate from initial acquisition. Numerical changes are parallel variants; a changed buyer/seller context is bounded near transfer, never proof of broad transfer.
+
+### O004-I1
+
+**Prompt:** Hypothetical short covers 4000 bushels at200 cents/bushel, I2000,M1200. No interim deposits/withdrawals. Derive balance with dollar units, strict call price and equality result. For W800 derive F conditions to retain I and to retain M, and check whether each permits withdrawal at opening. Do not invent tick rounding.
+
+**Key and essential rubric:** F0=2.00; A=2000+4000(2−F). A<1200→F>2.20 ($2.20=220 cents equality A1200 no call). RetainI: A≥2800→F≤1.80=180 cents. RetainM: A≥2000→F≤2.00=200 cents, opening withdrawal allowed leaving1200. Quote units, inequality/boundary and both K policies essential; tick absent, no extra rounding. All three components required.
+
+### O004-I2
+
+**Prompt:** Hypothetical two long contracts of5000 lb each open150 cents/lb, total I3000,M2000. Before any funding derive A, call/equality, and price conditions for W500 retaining initial versus maintenance; assess withdrawal at opening.
+
+**Key and essential rubric:** X10000,F0=1.50,A=3000+10000(F−1.50). Call F<1.40; equal140 cents leaves2000 no call. RetainI requires A3500→F≥1.55; retainM requires A2500→F≥1.45. Opening1.50 supports withdrawal under M rule only; no supplied tick. All three components required.
+
+### O004-D1
+
+**Prompt:** Hypothetical one long covers2000 units at300 cents, I1600,M1000,W400. No earlier transfers. Derive dollar balance, strict call/equality, and withdrawal conditions for retaining initial and maintenance and test opening price.
+
+**Key and essential rubric:** A=1600+2000(F−3). Call F<2.70; equality270 cents A1000 no call. RetainI: A≥2000→F≥3.20. RetainM: A≥1400→F≥2.90. At opening3.00, only maintenance policy allows W400 (remaining1200≥1000). Units/sign, strict inequality and policies all required.
+
+### O004-D2
+
+**Prompt:** Hypothetical three short contracts of1000 units each open400 cents/unit, total I2400,M1500,W600. Derive dollar A and strict call/equality. Derive both withdrawal conditions and whether W600 can be withdrawn initially under each policy.
+
+**Key and essential rubric:** X3000,F0=4,A=2400+3000(4−F). Call F>4.30; equality430 cents A1500 no call. RetainI: A≥3000→F≤3.80. RetainM: A≥2100→F≤4.10. Opening4.00 permits maintenance-only withdrawal leaving1800, not initial policy. All three components required; no tick assumed.
+
+## Advance, revisit, pause, and escalate
+
+Advance when teach has committed two qualifying distinct full passes with this current criterion; this defines acquisition, not durable retention. Delayed success requires a later fresh full pass under the delayed conditions. After one failed check, score, teach the named correction and use another unused full item. After two unsuccessful independent attempts or a failed fresh correction, pause independent quizzing and return to the relevant prepared explanation/dependency. Stop if a note/ingest conflict affects the mechanism. Unsupported accepted alternatives, unclear rubric, exhausted item bank, or missing blocks require plan_issue with 2026_2027/Winter_Semester/Financial_Markets_Instruments_I, O004, objective revision 1, O004-C1, P002/V001, ingestion revision 1 and the exact item ID. Academic note contradictions go to ingest with the cited heading; plan gaps go to plan. End a session with honest partial coverage if acquisition is unfinished.
+
+## Answer-free recall handoff
+
+Topic: Derive margin-call and withdrawal price conditions. Instruction: Begin a closed-note review with teach for O004; request an unused prepared delayed item before recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O004.md#Immediate and delayed checks]]. Teach supplies committed evidence IDs and actual timestamps; recall owns due dates and Todoist. Deadline/retention horizon is null. No learner result or review date is created by this definition.

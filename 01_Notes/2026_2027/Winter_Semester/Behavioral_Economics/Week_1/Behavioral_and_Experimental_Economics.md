@@ -1,0 +1,49 @@
+# Behavioral economics and experimental economics
+
+How should economics explain choices when people care about fairness, have difficulty following through on plans, overlook information, or hold inaccurate beliefs? Behavioral economics answers this question by changing particular assumptions about decision-making while retaining economic modeling and testable predictions. Week 1 introduces that approach and distinguishes it from experimental economics, the method used to gather much of the course's evidence. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=2|Introduction, PDF slides 2–3, 5–6]]
+
+Return to [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Behavioral_Economics_main.md#Week 1|the course's Week 1 section]].
+
+## What changes in a behavioral model
+
+Behavioral economics uses variants of traditional economic assumptions, often motivated by psychology, to explain and predict behavior and inform policy. The lecture also calls it *psychology and economics* or *psychological economics*. The word “behavioral” does not mean that other economists ignore behavior. It identifies the use of psychological insights, particularly cognitive psychology and social psychology, to improve assumptions about how people make choices. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=2|Introduction, PDF slide 2]]
+
+The lecture presents this as amendments to traditional economics. Economic models still need precise, falsifiable predictions: predictions that evidence could show to be wrong. Broadening the assumptions is useful when it explains observed choices more accurately, rather than merely making a story sound plausible. Perfect rationality is one classical assumption that the lecture says need not be retained in every model. It does not claim that every traditional model fails or that mathematical modeling should be abandoned. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=3|Introduction, PDF slide 3]]
+
+The lecture identifies five directions for amendments. They concern different parts of a decision, so they should not be collapsed into a single claim that people are “irrational.” The explanations below unpack the lecture's categories; the introduction does not yet provide their formal models. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=3|Introduction, PDF slide 3]]
+
+| Direction in the lecture | What part of a choice it brings into view |
+|---|---|
+| Broader motivations: fairness, social preferences, group identity, social norms | A person's motivation can include the treatment of others or expectations associated with a group, alongside their own material outcome. |
+| Imperfect self-control | Carrying out a plan can itself be difficult; an intended choice and a later action need not coincide. |
+| Imperfect attention | Information can be available without receiving the decision-maker's attention. |
+| Inaccurate beliefs | The decision-maker's view of the situation can differ from the relevant facts. |
+| Preferences may not be fixed | The motivations used to explain choices need not be treated as unchanging. |
+
+These categories organize later lectures rather than establish particular empirical results in Week 1. For example, a fairness explanation and an inaccurate-beliefs explanation change different elements of the model. Distinguishing them matters because a prediction or policy recommendation depends on the mechanism being proposed. This is a synthesis of the lecture's separate categories and its requirement of falsifiable predictions. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=3|Introduction, PDF slide 3]]
+
+## A field of questions and a method of evidence
+
+**Behavioral economics** concerns the assumptions and explanations used to understand choices. **Experimental economics** is an empirical method that often tests those explanations. Calling an investigation experimental identifies how evidence is generated; it does not by itself identify the behavioral assumptions of the model being tested. The lecture deliberately separates the two terms. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=5|Introduction, PDF slide 5]]
+
+Historically, economists often observed naturally occurring economic processes. Their advantage is that the processes can be studied in their undisturbed form. Their difficulty is causal interpretation: if two observed variables move together, that association alone does not tell us whether changing one would change the other. The lecture contrasts this with an experiment, where the researcher can control information, incentives, and context to estimate causal effects and investigate counterfactual scenarios. A **counterfactual** asks what would happen under an alternative situation, including one that did not occur in the naturally observed process. This explanation follows the contrast on slide 5; the slide does not specify a full identification strategy or an estimator. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=5|Introduction, PDF slide 5]]
+
+The distinction matters when reading research. First ask which behavior the model seeks to explain and which assumption it changes. Then ask how the evidence allows the proposed explanation to be tested. An observed association may be informative without establishing the causal effect required by a policy argument. Experimental control offers a way to get closer to causal effects; the introduction does not say that every experiment automatically resolves every problem of interpretation. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=5|Introduction, PDF slides 5–6]]
+
+![[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Introduction_slide_06_correlation.png]]
+
+*The source's correlation-and-causation cartoon illustrates the caution.* A person reports changing their belief after a statistics class. A second person treats that sequence as evidence that the class caused the change; the reply leaves that inference uncertain. The sequence is compatible with the causal explanation, but the cartoon gives no comparison showing what the person would have believed without the class. This is an interpretation of the displayed illustration, not a research result. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=6|Introduction, PDF slide 6]]
+
+## Theory, evidence, and applications in this course
+
+The course's stated lecture sequence combines theory or intuition, evidence mostly from controlled experiments, and applications to issues such as rewarding employees, tackling poverty, and discrimination. Microeconomics I is the prerequisite because a learner needs the conventional framework with which to compare behavioral amendments. The [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md|organization and exam note]] records the study requirements and separates later-topic exam examples from the material taught here. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=9|Introduction, PDF slides 9–10]]
+
+**Agent-created illustration of the course's sequence:** an investigation of how to reward employees can begin with a proposed motivation, derive a prediction about behavior under different incentives, and then ask whether evidence supports it. The lecture supplies the employee-reward application and the theory–evidence–application sequence. This illustration supplies no claim about an actual experiment, wage effect, or preferred policy. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=9|Introduction, PDF slide 9]]
+
+## Week 1 synthesis
+
+Behavioral economics broadens assumptions about motivations, self-control, attention, beliefs, and preferences while requiring testable economic predictions. Experimental economics supplies a frequently used method for testing those predictions and estimating causal effects through control of the research environment. The two concepts answer different questions: what explains a choice, and how can evidence test that explanation? Detailed social-preference models and the later applications are outside this introductory material. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L1 BE_Introduction IES 2026 v2.pdf#page=3|Introduction, PDF slides 3, 5–6, 8–9]]
+
+## From the introduction to social preferences
+
+The introductory categories above are developed further in the additional Social Preferences presentation. [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md|Ultimatum and dictator games]] provides the benchmark and laboratory patterns; [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md|Models of social preferences]] gives the utility functions and curve interpretation; [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md|Trust and cooperation games]] connects those motivations to surplus and cooperation. These pages extend the current Week 1 collection while preserving the scope of the original introductory material described here. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=12|Social Preferences, physical PDF pp. 12–14, 23, 37]]

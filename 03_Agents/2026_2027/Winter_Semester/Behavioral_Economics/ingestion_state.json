@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+  "ingestion_revision": 2,
+  "transaction_id": "T-83ad8c8302404afb87502640520efbfd",
+  "status": "complete",
+  "run_id": "20261004T200313+0200_behavioral_social_preferences_week1",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
+  "updated_at": "2026-10-04T20:25:17.968715+02:00",
+  "finished_notes": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Behavioral_Economics_main.md",
+      "sha256": "9e0efd963aa7985d9f7db080caf616beec5a66ca58226b79ff08a7aa53ce6d81",
+      "headings": [
+        "Behavioral Economics",
+        "Week 1",
+        "Social preferences in the expanded Week 1 collection"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Behavioral_and_Experimental_Economics.md",
+      "sha256": "31bef5277db2c184aebb25798e863489fbb1d3c09f0b61fe2fda9ccad0e8c3c1",
+      "headings": [
+        "Behavioral economics and experimental economics",
+        "What changes in a behavioral model",
+        "A field of questions and a method of evidence",
+        "Theory, evidence, and applications in this course",
+        "Week 1 synthesis",
+        "From the introduction to social preferences"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md",
+      "sha256": "bf0812c56b17d6e611df5fe3ff106faf3cb65c72c942642beae7e9c6cd957796",
+      "headings": [
+        "Course organization and exam",
+        "Teaching and preparation",
+        "Assessment format and dates",
+        "Boundary of the Week 1 notes",
+        "Added social-preferences presentation and current Week 1 scope"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md",
+      "sha256": "a396884c8a7d4f0e18bd39c4f58b861609e05785148d4187d07a3da9db9c548c",
+      "headings": [
+        "Models of social preferences",
+        "Two assumptions that the lecture brings into question",
+        "A piecewise utility function for two people",
+        "How to read the indifference curves",
+        "Selfishness, altruism and spitefulness",
+        "Selfish preferences",
+        "Altruism",
+        "Spitefulness",
+        "Inequality aversion changes sign across equality",
+        "Reciprocity responds to prior treatment",
+        "Efficiency-seeking and the welfare connection"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md",
+      "sha256": "e14303da01e107f5fec8496b95506702aef07ede33359781307e6befec155659",
+      "headings": [
+        "Trust and cooperation games",
+        "The trust game: creating a surplus before deciding its division",
+        "The self-regarding prediction by backward induction",
+        "Observed transfers and what they reveal",
+        "Reading the cross-country table",
+        "The prisoner's dilemma: a simultaneous conflict",
+        "Dominance and Nash equilibrium",
+        "General payoffs and finite repetition",
+        "A warm-glow premium can change best responses",
+        "Deriving the two thresholds",
+        "The numerical threshold and a source qualification",
+        "Reciprocity needs an expectation about the other player",
+        "What these games establish"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md",
+      "sha256": "7fcbcf59c96d3145f48d169f3d0d67803d35906f7eb964956bb862de70dd5693",
+      "headings": [
+        "Ultimatum and dictator games",
+        "The ultimatum game's sequence and payoffs",
+        "Deriving the self-regarding benchmark",
+        "Typical ultimatum results and what they challenge",
+        "The dictator game removes the receiver's veto",
+        "Reading the two games together"
+      ]
+    }
+  ],
+  "affected_note_paths": [
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Behavioral_Economics_main.md",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Behavioral_and_Experimental_Economics.md",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md"
+  ],
+  "prior_completed_revision": 1,
+  "unresolved": [
+    "Printed grade bands do not supply a fractional-score rounding rule. The SIS lists misperceptions conditionally, whereas the syllabus lists the later topic without that condition; the difference is retained only as course orientation.",
+    "Social-preferences poll pages 4, 6–7, 10, 26 and 30 export prompts without classroom responses or results. Empirical UG/DG/TG/cooperation patterns are lecture summaries without underlying observations or full methods.",
+    "PDF p.27 does not define the reported approximately 33% trust-game return denominator or aggregation; usual-denominator arithmetic is explicitly conditional.",
+    "PDF p.28 country table has no visible author/year, pooling or experimental-design controls, uncertainty intervals or precise return denominator; missing Vietnam return is n/a, and causal country rankings or statistical significance are not inferred.",
+    "PDF p.35 broadly asserts cooperation for best-response altruists; the notes preserve that assertion and qualify it using both payoff-threshold orderings, beliefs and the selfish second player. This is a source qualification rather than an unresolved mathematical error.",
+    "Efficiency-seeking is named without a complete separate utility model; p.36 provides no complete study methods/rates or quantitative reciprocity mechanism. The symmetric-weight efficiency illustration and algebraic unpacking are labeled agent derivations."
+  ],
+  "selected_scope": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1",
+  "coverage_status": "Complete for all 37 pages of the added presentation; four unchanged sources retain prior checked coverage. Source limitations are explicitly recorded.",
+  "finished_assets": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p15_Selfish_Indifference.png",
+      "bytes": 64161,
+      "sha256": "ebd41f509d35d76ab9b4cea3d4ee7b57bfcfff0b5f56c5aa60cffd1e75ca2059",
+      "change": "new",
+      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
+      "source_pdf_page": 15
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p17_Altruism_Indifference.png",
+      "bytes": 87224,
+      "sha256": "350e086ad09126e87dd743b5a0994b3ebcdc649eb18807aba0463a50de3bd69f",
+      "change": "new",
+      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
+      "source_pdf_page": 17
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p19_Spite_Indifference.png",
+      "bytes": 52001,
+      "sha256": "94306c1b4ef903977322ac5e79f876c359666d55ffcd0fb6bf58b8acc655eced",
+      "change": "new",
+      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
+      "source_pdf_page": 19
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p21_Inequality_Indifference.png",
+      "bytes": 85935,
+      "sha256": "dc4162ea16419fb53c481d8aeb5c1a5591b0ac9658beda5f4958d53cf1636a74",
+      "change": "new",
+      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
+      "source_pdf_page": 21
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p28_Trust_Country_Table.png",
+      "bytes": 352029,
+      "sha256": "b76da2ae4e1e7594c541ae549e49848910e4238341c04641afcc0398ca36a0a5",
+      "change": "new",
+      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
+      "source_pdf_page": 28
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p32_Prisoners_Dilemma.png",
+      "bytes": 90670,
+      "sha256": "8559e47666239961fe1d67ee49c0a74174384f08545f321e2e30ce3b82751664",
+      "change": "new",
+      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
+      "source_pdf_page": 32
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p35_Warm_Glow_Payoffs.png",
+      "bytes": 159456,
+      "sha256": "161c35b9d9fc3bee7c4c0473615315ff4a2383cf55b8750e3246ae7836668d25",
+      "change": "new",
+      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
+      "source_pdf_page": 35
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Introduction_slide_06_correlation.png",
+      "bytes": 193529,
+      "sha256": "c536e5a0fb1686caa8a5f172706176385f99a451fd0098ae22e42fc3a98ae81f",
+      "change": "unchanged; reused from prior completed pass"
+    }
+  ],
+  "prior_passes": [
+    "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md"
+  ],
+  "prior_plan_paths": [],
+  "independent_checkers": [
+    "/root/factcheck_introductions",
+    "/root/social_preferences_check"
+  ]
+}

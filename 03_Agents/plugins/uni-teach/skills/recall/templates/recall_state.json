@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "owner": "recall",
+  "course_id": null,
+  "course_code": null,
+  "course_title": null,
+  "timezone": "Europe/Prague",
+  "record_revision": 0,
+  "policy_id": "uni-fixed-v1",
+  "policy_parameters": {
+    "initial_interval_days": 1,
+    "first_delayed_success_interval_days": 6,
+    "later_interval_multiplier": 2.5,
+    "rounding": "half_up",
+    "minimum_interval_growth_days": 1,
+    "lapse_reassessment_interval_days": 1,
+    "minimum_delay_hours_source": "lesson.delayed_rule.minimum_elapsed_hours"
+  },
+  "project_mapping": null,
+  "objectives": {},
+  "schedule_history": [],
+  "task_history": [],
+  "scheduling_decisions": [],
+  "sync_journal": []
+}

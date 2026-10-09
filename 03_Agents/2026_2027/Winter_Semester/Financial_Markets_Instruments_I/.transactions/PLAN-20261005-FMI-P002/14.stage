@@ -1,0 +1,188 @@
+# Interpret basis and explain conditional convergence
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "transaction_id": "T-plan-fmi-e129c21f1dfc495bb2d8753c98f22175",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O006",
+  "objective_revision": 1,
+  "criterion_version": "O006-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "basis_and_spread_conventions",
+    "ordering_and_drivers",
+    "two_arbitrage_directions_and_limits",
+    "edsp_and_endpoint"
+  ],
+  "prerequisite_ids": [
+    "O001"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md",
+      "heading": "Basis and calendar spread are different comparisons"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md",
+      "heading": "Why the prices converge at delivery"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O006-I1",
+        "O006-I2"
+      ],
+      [
+        "O006-I1",
+        "O006-D1"
+      ],
+      [
+        "O006-I1",
+        "O006-D2"
+      ],
+      [
+        "O006-I2",
+        "O006-D1"
+      ],
+      [
+        "O006-I2",
+        "O006-D2"
+      ],
+      [
+        "O006-D1",
+        "O006-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Interpret basis and explain conditional convergence",
+  "review_instruction": "Begin a closed-note review with teach for O006; request an unused prepared delayed item before recap."
+}
+```
+
+## Outcome and conditions
+
+Given spot and two futures maturities, compute the course basis and calendar spread, identify the supplied lecture orderings, and explain convergence using both spot/futures delivery directions with execution assumptions. Distinguish short selling an asset from a short futures position, EDSP procedure from a universal formula, and endpoint convergence from smooth movement. No cost-of-carry pricing model is included.
+
+Finished-note locations: [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md#Basis and calendar spread are different comparisons]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md#Why the prices converge at delivery]].
+
+Supported learning permits these note sections and the worked key. Independent checks permit blank paper and a non-programmable calculator only; no notes, formula list, key, hints, external help or generated solution. The tutor must confirm these conditions and known prior item exposure before marking independence. Unknown conditions are unscorable for independence, even if the content is correct. These stricter practice conditions do not purport to reproduce all exam rules. Hypothetical tasks below instantiate only note-supported mechanisms.
+
+## Prerequisites and checks
+
+O006-P1 / v1 (O001): Does a June futures contract equal a September one, and does a short futures trade require borrowing the asset? Key different maturities are different obligations; short futures is selling the contract, distinct from borrowing an asset for a spot short sale. Pass both distinctions; partial one omitted; fail equivalence/borrowing asserted automatically. Repair O001 **How the obligation ends** reasoning in explanation and worked offset; then this lesson W1. Needed to compare prices of matching eligible deliveries and avoid treating futures/asset shorts alike.
+
+A qualifying committed prerequisite result may skip its diagnostic only when its exact current tuple or explicitly approved compatible tuple and independence conditions are known. Familiarity is insufficient. Diagnostics do not count as acquisition checks. Do each relevant diagnostic once; failed/partial responses follow the stated repair, then one fresh full check rather than repeated diagnosis.
+
+## Teaching order and rationale
+
+1. Retrieve **Outcome and conditions** and **Prerequisites and checks**; repair a needed dependency before its notation is used.
+2. Teach **Motivation, intuition, and definitions** to attach each symbol to an economic action.
+3. Use **Explanation steps** to connect the assumptions to the result.
+4. Present **Worked example** with the key exposed and ask the learner to identify each decision point.
+5. Give **Practice with fading assistance** supported task; if a conceptual component is missing, use its prepared correction.
+6. Withdraw all help and ask I1, score before feedback, then an unused full check under **Immediate and delayed checks**.
+7. After qualifying acquisition, leave delayed assessment to an unused D item after the minimum elapsed interval. Never recap its solution before the answer.
+
+A learner whose prerequisite diagnostic passes may skip prerequisite support; the objective explanation/example can be shortened to the identified gap. The same two full independent-check requirement remains. Full solutions shown on any route retire that item from independent use.
+
+## Motivation, intuition, and definitions
+
+Motivation: A spot–futures gap and a two-maturity gap answer different questions. S_t is contemporaneous spot; F_t^X futures for earlier X, F_t^Y for later Y. Course basis B^X=S−F^X; calendar spread D^(X,Y)=F^X−F^Y. Contango F^X>S gives negative B; backwardation F^X<S gives positive B. Lecture normal contango F^Y>F^X>S; normal backwardation F^Y<F^X<S. Opposite sign conventions exist; name one explicitly. Week 1 names expectations, carrying/opportunity costs and expected payments as drivers, without a pricing derivation.
+
+## Explanation steps
+
+1. Keep prices contemporaneous; compare spot against one maturity for B and futures against futures for D. Do not call D a basis.
+2. Substitute the declared signs. A negative B says futures above spot; a negative D says later above earlier. Labels follow those comparisons, not a forecast of rising spot.
+3. At delivery if F>S, buy eligible asset spot for S and deliver using a short futures for F, gross difference F−S. If S>F, obtain via long futures for F and sell spot for S, gross S−F. A borrowing-based spot short sale requires asset borrowing and return; short futures itself is a contractual sale.
+4. These executable positive differences drive theoretical F_T=S_T/B_T=0 only under eligibility/matching delivery, feasible purchase/sale/borrowing and ignored costs. Nonzero costs or unavailable trades break the simple comparison; do not assert a free guaranteed trade in all markets.
+5. EDSP is contract-defined final settlement reference. Sources describe a closing procedure/selected-spot average but do not supply one universal computation. Convergence concerns each contract's own delivery endpoint; neither spot nor futures must move smoothly or monotonically. The source convergence asset illustrates curved paths.
+
+## Worked example
+
+O006-W1 / item_version 1 / worked-example; source-supported example or explicitly hypothetical instantiation.
+
+Hypothetical S80,F^X90,F^Y95. B^X=−10,D=−5, lecture normal contango95>90>80. At X delivery, hypothetical F100/S80 offers spot buy80 plus futures short delivery100, gross20/unit if terms permit. Reverse F80/S100: obtain at80 via long delivery and sell spot100, gross20; if spot sale precedes delivery, borrowing/return is needed. Ignoring costs, both discrepancies disappear in the matching no-arbitrage endpoint. EDSP implements final contract reference; do not infer a universal average or smooth price path.
+
+## Practice with fading assistance
+
+O006-S1 / item_version 1 / supported-completion.
+
+**Prompt:** Fill S100,F^X95,F^Y90: B^X=___,D=___, ordering label=___. At delivery F110,S100, specify the two legs and gross difference; reverse F90/S100. What assumptions and EDSP/path caveats are needed?
+
+**Key:** B+5,D+5, lecture normal backwardation90<95<100. First buy spot100/deliver short110 gross10; reverse long delivery90/sell spot100 gross10. Eligible/matching feasible trades and ignored costs; borrowing spot short distinct from futures short. B_T0 under assumptions; EDSP defined reference not universal formula, convergence not monotonic forecast. Complete supported coverage.
+
+Allowed help: reveal the named definitions, then at most two prepared hints in **Misconceptions and correction**. After the learner supplies the missing steps and their reasons, hide all keys and use a fresh full check. Supported success is practice evidence only. If even the full worked correction does not restore the needed component, pause and follow the dependency repair.
+
+## Rubric and independence
+
+The required components are: basis_and_spread_conventions; ordering_and_drivers; two_arbitrage_directions_and_limits; edsp_and_endpoint. Each full check below explicitly elicits and keys every component. Pass requires all its essential reasoning and requested outputs without a critical error. Partial means a correct mechanism but a missing component, unresolved sign/unit, or isolated arithmetic slip. Fail means a critical conceptual error persists or the method cannot establish the result. Unscorable means the response/conditions cannot be interpreted reliably; ask the existing prompt once for clarification, without adding a new assessment. Accept algebraically equivalent expressions, clearly defined opposite cash-flow signs, and plain-language explanations with the same mechanism. An arithmetic slip is partial until independently corrected; it is not automatically a conceptual failure. No numerical score is inferred.
+
+Critical errors: Basis/spread confused; signs assigned without convention; either arbitrage direction reversed; unrestricted/guaranteed arbitrage claimed without costs/feasibility; EDSP universal formula or convergence monotonic forecast.
+
+Acquisition requires two distinct unassisted passes from the explicitly permitted routes O006-I1/O006-I2, O006-I1/O006-D1, O006-I1/O006-D2, O006-I2/O006-D1, O006-I2/O006-D2, O006-D1/O006-D2. I items normally establish acquisition; an unused D item may replace an exposed or failed I item and then cannot later be counted as delayed retention. Each selected full item assesses all listed components, so every route covers them twice. W1, S1, prerequisite diagnostics and the narrow C1 correction are forbidden substitutes. The D bank is finite: never repeat an exposed item to certify fresh learning and never invent changed numbers. If fewer than two unused full items remain, raise a plan_issue for a new prepared bank.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| basis_and_spread_conventions | required | required | required | required |
+| ordering_and_drivers | required | required | required | required |
+| two_arbitrage_directions_and_limits | required | required | required | required |
+| edsp_and_endpoint | required | required | required | required |
+
+## Misconceptions and correction
+
+Signs: calling F^X−F^Y basis; labeling negative B backwardation; calling all shorts borrowed assets; assuming convergence predicts a smooth fall. Correction: label each price before subtraction; endpoint argument compares executable trades on the same deliverable. Hint1: basis includes spot. Hint2: plug S into S−F. O006-C1 / v1: S40,F^X45,F^Y43. Find B,D and say whether this is the lecture's normal contango. Key B−5,D+2, contango for X but not normal contango because later43<earlier45. Pass both gaps and rejected ordering; partial missing reason; fail wrong comparator.
+
+The sign alone is a tentative diagnosis; use the learner's reasoning to establish the confusion. Score the initial response before any hint. Hint 1 points to the named distinction; hint 2 points to the first correct step. After two ineffective hints show the prepared key, then pause if the fresh C1 response still fails. C1 checks the repaired component only and cannot replace a full independent check.
+
+## Immediate and delayed checks
+
+All items are item_version 1 and role full_capability_check. I1/I2 are immediate; D1/D2 are prepared delayed variants. D items may establish delayed success only when unused, unassisted, attempted before recap, at least 24 elapsed hours after acquisition and the most recent relevant solution/teaching exposure, with intervening exposure recorded. Early D attempts may be immediate checks but are not delayed evidence. Each delayed success is separate from initial acquisition. Numerical changes are parallel variants; a changed buyer/seller context is bounded near transfer, never proof of broad transfer.
+
+### O006-I1
+
+**Prompt:** At a time before delivery S100,F^X105,F^Y110, X earlier. Compute B^X and D, state sign conventions and lecture ordering; name the Week 1 drivers without constructing a pricing model. At delivery compare F120/S110 and F110/S120: give executable legs and gross profit for each, explain borrowing an asset versus short futures and the assumptions. State convergence, EDSP's role and whether it predicts monotonic paths.
+
+**Key and essential rubric:** B=S−F^X=−5,D=F^X−F^Y=−5; normal contango110>105>100. Drivers expectations/carrying-opportunity costs/expected payments. Delivery first spot buy110/short-deliver120 profit10; reverse long-delivery110/sell spot120 profit10 (borrow/return if spot short before delivery). Short futures merely opens contract; not the asset-borrowing operation. Eligible matching asset, feasible trades/delivery/borrowing and ignored costs essential. F_T=S_T,B_T0 conditional. EDSP contract-defined final reference, no universal formula; no smooth/monotonic prediction. All four components required.
+
+### O006-I2
+
+**Prompt:** Before delivery S100,F^X96,F^Y92. Compute basis/spread under course conventions, classify lecture ordering and name introduced price-gap drivers. At delivery analyze F55/S50 and F50/S55, including legs/gross differences, asset short-sale distinction and limits. What do EDSP and convergence establish, and what do they not establish about interim paths?
+
+**Key and essential rubric:** B+4,D+4; normal backwardation92<96<100. Expectations/carry and opportunity cost/expected payments. F55/S50: buy eligible spot50/deliver short55, gross5. F50/S55: long delivery50/spot sale55,gross5; borrowing-return if needed for earlier spot short, distinct from futures short. Require execution/matching and ignored costs; otherwise simple arbitrage conclusion unsupported. Conditional F_T=S_T,B_T0; EDSP final reference procedure not universal average formula; no monotonic interim movement. All four components required.
+
+### O006-D1
+
+**Prompt:** S70,F^X74,F^Y77 before delivery. Compute and interpret course B/D and normal ordering; name supported drivers only. At delivery use F90/S80 then F80/S90 to derive both leg pairs and gross profits. Distinguish borrowed-asset short from short futures and state feasibility/cost assumptions, EDSP role and convergence/path limits.
+
+**Key and essential rubric:** B−4,D−3, normal contango77>74>70. Introduced drivers expectations/carry-opportunity costs/expected payments, no later pricing model. First spot buy80/short delivery90,10; reverse long delivery80/sell spot90,10. Borrowing/return belongs to asset short sale if needed, futures short opens obligation. Eligible matching/feasible trade/delivery and ignored costs support F_T=S_T,B_T0. EDSP defined final reference not universal formula. Endpoint equality does not assert smooth/monotonic paths. All four components required.
+
+### O006-D2
+
+**Prompt:** S200,F^X190,F^Y180, X earlier. Calculate B/D with conventions, lecture ordering and note-supported drivers. At delivery compare F210/S200 and F200/S210: specify legs/gross difference each, short-selling versus short-futures distinction, assumptions, EDSP/convergence claim and whether declining futures throughout is necessary.
+
+**Key and essential rubric:** B+10,D+10, normal backwardation180<190<200. Drivers expectations/carry-opportunity costs/payments. First buy spot200/short deliver210 profit10; reverse long receive200/spot sell210 profit10; asset borrowing/return only for borrowed spot short. Execution, eligibility, matching and ignored costs required. F_T=S_T,B_T0 under assumptions; EDSP final specified procedure, not universal rule. No monotonicity required. All four components required.
+
+## Advance, revisit, pause, and escalate
+
+Advance when teach has committed two qualifying distinct full passes with this current criterion; this defines acquisition, not durable retention. Delayed success requires a later fresh full pass under the delayed conditions. After one failed check, score, teach the named correction and use another unused full item. After two unsuccessful independent attempts or a failed fresh correction, pause independent quizzing and return to the relevant prepared explanation/dependency. Stop if a note/ingest conflict affects the mechanism. Unsupported accepted alternatives, unclear rubric, exhausted item bank, or missing blocks require plan_issue with 2026_2027/Winter_Semester/Financial_Markets_Instruments_I, O006, objective revision 1, O006-C1, P001/V001, ingestion revision 1 and the exact item ID. Academic note contradictions go to ingest with the cited heading; plan gaps go to plan. End a session with honest partial coverage if acquisition is unfinished.
+
+## Answer-free recall handoff
+
+Topic: Interpret basis and explain conditional convergence. Instruction: Begin a closed-note review with teach for O006; request an unused prepared delayed item before recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O006.md#Immediate and delayed checks]]. Teach supplies committed evidence IDs and actual timestamps; recall owns due dates and Todoist. Deadline/retention horizon is null. No learner result or review date is created by this definition.

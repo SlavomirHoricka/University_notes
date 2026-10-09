@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+  "ingestion_revision": 1,
+  "transaction_id": "T-0e418a3a52ae48faaa2dec57eca3ed59",
+  "status": "blocked",
+  "run_id": "20261004T155737+0200_week1_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+  "updated_at": "2026-10-04T16:04:34.651335+02:00",
+  "finished_notes": [],
+  "affected_note_paths": [
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Behavioral_and_Experimental_Economics.md",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Behavioral_Economics_main.md"
+  ],
+  "prior_completed_revision": null,
+  "unresolved": [
+    "Selected Week 1 coverage and independent verification pending."
+  ]
+}

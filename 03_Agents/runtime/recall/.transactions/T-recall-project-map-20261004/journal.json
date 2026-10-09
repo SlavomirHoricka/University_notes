@@ -1,0 +1,11 @@
+{
+  "owner": "recall",
+  "status": "committed",
+  "files": {
+    "project_map.json": {
+      "stage": "0.stage",
+      "expected": null,
+      "new_sha256": "7a9cd6c5c527e32e29fb9083bb378083678e17bd24421134912e394b0ba3b689"
+    }
+  }
+}

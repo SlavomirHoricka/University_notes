@@ -1,0 +1,3 @@
+- a strategic move by which one company gains control over another by acquiring ownership stakes, influencing its operations and decision-making
+- can be friendly and mutual, or hostile and unwelcome
+- specific type of [[Acquisition|acquisition]]

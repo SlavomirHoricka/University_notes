@@ -1,0 +1,265 @@
+# Complete and critique the ten-city regression calculation
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+  "transaction_id": "P-econometrics-II-20261004-001",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O006",
+  "objective_revision": 1,
+  "criterion_version": "O006-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "procedural",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O002",
+    "O005"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "From economic intuition to a model"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Ten-city example: keep the source's measurement scale"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Estimate the line"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Fitted values and residuals"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Disturbance variance, slope variance, and the t statistic"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "permitted_item_ids": [
+      "O006-I1",
+      "O006-I2",
+      "O006-D1",
+      "O006-D2"
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Complete and critique the ten-city regression calculation",
+  "review_instruction": "Begin a closed-note review with teach for O006; request a fresh prepared delayed item before any recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Translate a fare question to a transparent linear model, calculate OLS/predictions/residuals/variance and zero-slope test from a complete summary, and interpret signs/units/domain plus the limits of policy conclusions.
+
+Required components (all must be elicited and passed):
+
+- C1: Transparent model with hypothesis versus imposed shape distinction.
+- C2: Correct complete fit/residual/change calculations with literal units.
+- C3: Correct df, variance, se, t and conditional hypothesis decision.
+- C4: Domain/specification critique, plausible omitted-factor threat, fitting-identity/causal/optimal-policy boundaries.
+
+Finished-note authority:
+
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#From economic intuition to a model]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Ten-city example: keep the source's measurement scale]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Estimate the line]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Fitted values and residuals]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Disturbance variance, slope variance, and the t statistic]]
+
+Teaching/support: relevant finished notes, supplied prompts and calculator permitted. Independent and delayed checks: closed notes, no lesson/keys/software-generated explanation/search/AI assistance, no hints; a basic arithmetic calculator is allowed and must be reported. Numerical inputs/cutoffs/p values in the question are allowed data. The teacher hides keys until an answer is committed. Unknown assistance/access/exposure is unscorable for independent acquisition. A previously exposed item cannot be counted as fresh. A learner may explain orally or in writing; mathematical reasoning and units must be explicit.
+
+## Prerequisites and checks
+
+### O006-P1
+
+`item_id: O006-P1`, `item_version: 1`, role: prerequisite diagnostic. Capability: O002; reason: Scalar fit/residual arithmetic must be available.
+
+Prompt: For mean x=2, mean y 10, Sxx 4, Sxy -8 give slope/intercept and define residual.
+
+Key: Slope -2/intercept 14; residual actual minus fitted.
+
+Rubric: pass only if the stated answer and its essential reason are correct without help; partial for incomplete reasoning or a recoverable arithmetic slip; fail for a contrary concept or no usable answer. This diagnostic never counts toward acquisition. Repair: Return to O002 Explanation2–3 and supported task.
+
+Prepared prerequisite: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Explanation steps]].
+
+### O006-P2
+
+`item_id: O006-P2`, `item_version: 1`, role: prerequisite diagnostic. Capability: O005; reason: Conventional variance/test requires conditions, df and square root.
+
+Prompt: For n 10, k 1, SSE 32, Sxx 4 give df, noise variance, slope variance, se and full exact-test condition.
+
+Key: 8,4,1,1; all six classical assumptions for exact null t 8.
+
+Rubric: pass only if the stated answer and its essential reason are correct without help; partial for incomplete reasoning or a recoverable arithmetic slip; fail for a contrary concept or no usable answer. This diagnostic never counts toward acquisition. Repair: Return to O005 Explanation4–6 and supported task.
+
+Prepared prerequisite: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Explanation steps]].
+
+Adequate committed current-version evidence for the named capability permits skipping that diagnostic; familiarity/confidence does not. If there is no evidence, ask each diagnostic once. Local foundation failures use the exact explanation here, not an improvised prerequisite curriculum.
+
+## Teaching order and rationale
+
+1. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md#Prerequisites and checks]] establishes only the prerequisites needed.
+2. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md#Motivation, intuition, and definitions]] motivates the decision and fixes notation/units before calculation.
+3. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md#Explanation steps]] supplies intermediate reasoning and boundaries.
+4. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md#Worked example]] models the complete chain.
+5. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md#Practice with fading assistance]] uses S as a completion task, then hides help for I1 and I2.
+6. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md#Misconceptions and correction]] repairs the exact observed gap; fresh full checks follow only under the permitted routes below.
+7. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md#Immediate and delayed checks]] tests retrieval after a real interval; immediate success alone never establishes durability.
+
+A knowledgeable learner whose prerequisite diagnostics pass may omit W/S and start I1; both complete independent checks are still required. Teaching reads one bounded lesson with its linked note sections.
+
+## Motivation, intuition, and definitions
+
+Translate a fare question to a transparent linear model, calculate OLS/predictions/residuals/variance and zero-slope test from a complete summary, and interpret signs/units/domain plus the limits of policy conclusions. The question is what the available information lets us calculate or conclude, and which extra conditions the conclusion needs.
+
+A fare-demand linear specification imposes a constant fitted change per fare unit. Expected negative fare sign is a starting hypothesis, not a source-mandated law. Potential omitted factors include population/density, service quality, car availability, income/driving cost; if they affect demand and co-vary with fare, zero conditional mean can fail. The ten-city table explicitly labels y as passengers per hour(thousand), x dollars: preserve this literal scale even when surprising. The CSV uses undocumented file units and is a separate dataset. Optimal fare requires a defined objective, costs/capacity and credible causal response, absent here.
+
+## Explanation steps
+
+1. Specify travel=beta 0+beta 1*fare+u; interpret slope in y-units per dollar, zero-fare intercept only if relevant. Fix the dataset before calculation; never import CSV units into the table.
+2. Obtain mean x, mean y, Sxx, Sxy; divide Sxy/Sxx and solve intercept. Use fitted difference slope*fare change rather than percentage language for a level-level model.
+3. For each city compute fitted and actual-minus-fitted. Check residual sum and fare-weighted residual sum≈0, allowing rounding. These are fitting checks, not assumption evidence.
+4. SSE is sum of squared fitted residuals; divide by n -2 for simple regression with intercept. Slope variance estimate=sigma hat²/Sxx; se is square root; t=slope/se for zero null. Under all six assumptions compare |t| to t(n -2); report nonrejection as uncertainty, not proof of no association.
+5. Inspect impossible fitted values, very large residuals and intercept extrapolation. The ten-city negative fitted travel at observed fare 1.50 signals linear-specification limitations. It does not license deleting observations. Economic explanations are hypotheses requiring evidence.
+6. Interpret the result as sample association unless exogeneity/sampling conditions are supported. Regression alone cannot choose an optimal fare.
+
+## Worked example
+
+O006-W v1, note-grounded ten-city values: n 10, mean x=0.93, mean y 1894, Sxx 1.031, Sxy -3579.7. Slope -3472.065955/intercept 5123.021339; a $0.10 difference predicts -347.206596 printed y-units. At C1 fare 0.85, actual 2073, fitted 2171.765 and residual -98.765; at 1.50 fitted -85.078. SSE 24075579.500 gives sigma hat² 3009447.437; se 1708.496323; t -2.032235, df 8. Under maintained six assumptions, |t|<2.306 gives5% nonrejection. Ten observations/noise leave uncertainty. The zero-fare intercept lies outside 0.50–1.50. These are calculated finished-note results, not a supplied answer key.
+
+Role: complete demonstration, never independent evidence. Unless explicitly identified as a finished-note result, numerical/context examples are agent-created hypothetical instantiations of the note-supported mechanism.
+
+## Practice with fading assistance
+
+For S, show the setup and allow reference to Explanation steps; ask the learner to supply the missing calculations/decisions and reasons before feedback. One hint identifies the relevant definition/step; a second reveals the next operation. If two hints fail, show the key and repair. Fade to independent checks only after the learner can explain the completed method or a passed diagnostic supports skipping S.
+
+### O006-S
+
+`item_id: O006-S`, `item_version: 1`, role: supported_completion, condition: supported, relation: parallel_variant.
+
+Prompt: Use ten-city summaries from Worked example. Fill slope/intercept, fitted/residual at C1, predicted change for+$0.10, df, sigma hat², se, t and decision. Explain literal units, intercept/negative-fit limitation, one omitted-factor threat and why no optimal fare follows. You may refer to the worked block but must explain each step. Write the level-level travel equation, distinguish the hypothesized negative demand sign from the chosen constant-slope linear shape, and explain why a positive sample association would not by itself refute a causal demand hypothesis.
+
+Required response components: Transparent model with hypothesis versus imposed shape distinction; Correct complete fit/residual/change calculations with literal units; Correct df, variance, se, t and conditional hypothesis decision; Domain/specification critique, plausible omitted-factor threat, fitting-identity/causal/optimal-policy boundaries.
+
+Key and essential reasoning: Values as Worked example. Slope=Sxy/Sxx; b0=1894-slope*0.93; fitted 2171.765/residual -98.765; difference -347.206596 thousand-passengers/hour-scale units; df 8, variance 3009447.437, se 1708.496323, t -2.032235, do not reject under 6. Intercept extrapolates; negative travel impossible, model check not deletion. E.g.service quality correlated with fare and affecting travel threatens exogeneity; policy needs objective/costs/capacity/causal response. Model: travel_i=beta 0+beta 1*fare_i+u_i. A negative fare effect holding relevant conditions fixed is a hypothesis; a constant change per fare unit is the imposed linear shape. A positive cross-city sample association may reflect omitted conditions; sign alone does not identify a causal demand curve.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+### O006-I1
+
+`item_id: O006-I1`, `item_version: 1`, role: full_capability_check, condition: independent, relation: parallel_variant.
+
+Prompt: Hypothetical ten-city-type table, x dollars, y thousand-passengers/hour scale: n 10, mean x=2, mean y 10, Sxx 4, Sxy -8, SSE 32, observed fare range 1–3. At x=3 actual 9. Compute coefficients, fitted/residual, change for+$0.10, df, sigma², slope variance, se and t for 0. Use supplied 5% t 8 cutoff 2.306. Explain sign/units/intercept domain, one plausible omitted-factor threat, residual identities versus assumptions, nonrejection meaning and optimal-fare boundary. Write the level-level travel equation, distinguish the hypothesized negative demand sign from the chosen constant-slope linear shape, and explain why a positive sample association would not by itself refute a causal demand hypothesis.
+
+Required response components: Transparent model with hypothesis versus imposed shape distinction; Correct complete fit/residual/change calculations with literal units; Correct df, variance, se, t and conditional hypothesis decision; Domain/specification critique, plausible omitted-factor threat, fitting-identity/causal/optimal-policy boundaries.
+
+Key and essential reasoning: Slope -2, b0=14; fitted 8, residual 1; change -0.2 printed y-units; df 8, sigma hat² 4, var 1, se 1, t -2, do not reject under 6. Negative sample association,-2 y-units/dollar; intercept 14 at 0 outside 1–3. Omitted service/population etc co-varies with fare and affects demand; residual orthogonality mechanical, not exogeneity. Nonrejection is no proof of slope 0; optimal fare lacks objective, costs/capacity and causal response. Model: travel_i=beta 0+beta 1*fare_i+u_i. A negative fare effect holding relevant conditions fixed is a hypothesis; a constant change per fare unit is the imposed linear shape. A positive cross-city sample association may reflect omitted conditions; sign alone does not identify a causal demand curve.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+### O006-I2
+
+`item_id: O006-I2`, `item_version: 1`, role: full_capability_check, condition: independent, relation: parallel_variant.
+
+Prompt: Hypothetical same stated units: n 10, mean x 1, mean y 6, Sxx 9, Sxy 27, SSE 72, observed fare 0.25–3.0. At x=1.5 actual 10. Compute complete fit/test as I1, including+$0.10 change and supplied 5% t 8 cutoff 2.306; explain positive sign relative to starting demand hypothesis, scale/intercept, omitted-factor/residual-identity issue and policy/test boundaries. Write the level-level travel equation, distinguish the hypothesized negative demand sign from the chosen constant-slope linear shape, and explain why a positive sample association would not by itself refute a causal demand hypothesis.
+
+Required response components: Transparent model with hypothesis versus imposed shape distinction; Correct complete fit/residual/change calculations with literal units; Correct df, variance, se, t and conditional hypothesis decision; Domain/specification critique, plausible omitted-factor threat, fitting-identity/causal/optimal-policy boundaries.
+
+Key and essential reasoning: Slope 3, b0=3; fitted 7.5, residual 2.5; change +0.3 printed y-units; df 8, sigma hat² 9, var 1, se 1, t 3, reject 0 under 6. Positive association contrasts negative starting hypothesis without refuting causal demand theory; omitted conditions/data may differ. Intercept 3 at 0 outside 0.25–3.0. Preserve y/dollar scale; causal claim requires exogeneity/random sample not residual identity/significance. Example omitted service correlated with fare. No optimal fare without further inputs. Model: travel_i=beta 0+beta 1*fare_i+u_i. A negative fare effect holding relevant conditions fixed is a hypothesis; a constant change per fare unit is the imposed linear shape. A positive cross-city sample association may reflect omitted conditions; sign alone does not identify a causal demand curve.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+## Rubric and independence
+
+Pass: all C1–C4 correct, essential reasoning explicit, known independent conditions and fresh item. Partial: one or more components missing, an unexplained claim, or a recoverable arithmetic slip with sound method. Fail: a critical conceptual error, wrong method/assumptions/interpretation, or no usable attempt. Unscorable: unknown conditions/exposure or an alternative outside the prepared key. Equivalent algebra, clear verbal reasoning and synonymous units/assumption names are acceptable; assumption numbers alone are insufficient. Numerical rounding to sensible precision is acceptable. A isolated arithmetic slip is partial and is not treated as established conceptual failure; the learner must independently repair it with a fresh prepared full item before a pass qualifies. No numeric grading scale is invented.
+
+Every full task I1, I2, D1, D2 expressly requests all C1–C4 and has a complete task-specific key plus exact conceptual reasoning above. Omitted pieces are partial even if an unasked answer happens to sound fluent. Supported S and narrow correction C never substitute for a full check.
+
+Permitted acquisition routes: I1+I2; if an item was exposed, failed or unavailable, replace only that full check with a previously unexposed D1 or D2. Any selected pair of distinct items from {I1,I2,D1,D2} covers C1–C4 twice. Do not use an item twice or count a corrected answer to the same item as fresh. D items used immediately are logged as independent replacement checks, not delayed evidence. No shortened variant or arbitrary new task is permitted. Two complete unassisted passes under O006-C1 establish acquisition; they do not establish retention. This is a default evidence rule, not a learner outcome.
+
+Component-to-item coverage on every route:
+
+| Component | S | I1 | I2 | D1 | D2 | Correction C |
+|---|---|---|---|---|---|---|
+| C1 | supported | required | required | required | required | narrow repair only |
+| C2 | supported | required | required | required | required | narrow repair only |
+| C3 | supported | required | required | required | required | narrow repair only |
+| C4 | supported | required | required | required | required | narrow repair only |
+
+## Misconceptions and correction
+
+Sign: silently dividing table travel by1000, assigning CSV dollar units, interpreting slope as a percent, negative fitted travel as real demand, or deleting C5 to improve fit. Correction: follow recorded units literally; level-level slope multiplies an absolute fare change; impossible predictions question the chosen specification, not observation validity. Hint1: label units before substituting. Hint2: write fitted and residual on separate lines.
+
+Score the original response before help. One ambiguous error only suggests a tentative misconception; establish it only from explicit reasoning or repeated diagnostic signs. Explain the relevant prepared step and its consequence; never label the learner from confidence or a single slip.
+
+### O006-C
+
+`item_id: O006-C`, `item_version: 1`, role: targeted correction; not an acquisition substitute.
+
+Prompt: Fresh O006-C v1: line10-2*fare, actualtravel7 atfare 2. Find fitted/residual and predicted change for+$0.25; does a negative fitted value atfare6 establish negative real demand?
+
+Key: Fitted6, residual 1, change -0.5 printed y-units. At6 prediction -2 is a linear-model limitation; no real negative demand claim. Narrow repair only.
+
+Rubric: correct supplied answer plus the exact boundary/reason is a repair pass; omitted reason is partial; repeating the original misconception is fail. Repair success licenses returning to a fresh full prepared item; it never replaces full C1–C4 coverage.
+
+## Immediate and delayed checks
+
+I1/I2 are immediate checks after instruction or a justified expert route. D1/D2 are distinct parallel/near-context applications, not broad-transfer proof. Teach records exposure; the exact original must not be re-used as a fresh retrieval question. For delayed evidence require at least24 actual elapsed hours since qualifying acquisition and known independent conditions; ask the item before recap or solutions, record any intervening study, and apply all C1–C4. An early answer can be immediate evidence only.
+
+### O006-D1
+
+`item_id: O006-D1`, `item_version: 1`, role: full_capability_check, default condition: delayed, permitted immediate replacement when fresh, relation: parallel_variant.
+
+Prompt: Hypothetical table units as above: n 10, mean x=3, mean y 8, Sxx 16, Sxy -32, SSE 128, observed fare 1–5. At x=4 actual 9. Compute coefficients, fitted/residual,+$0.10 change, df/noise variance/slope variance/se/zero-null t and 5% decision(cutoff 2.306). Interpret units/sign/domain and one omitted-factor threat; explain residual-identity/nonrejection/optimal-policy limits. Write the level-level travel equation, distinguish the hypothesized negative demand sign from the chosen constant-slope linear shape, and explain why a positive sample association would not by itself refute a causal demand hypothesis.
+
+Required response components: Transparent model with hypothesis versus imposed shape distinction; Correct complete fit/residual/change calculations with literal units; Correct df, variance, se, t and conditional hypothesis decision; Domain/specification critique, plausible omitted-factor threat, fitting-identity/causal/optimal-policy boundaries.
+
+Key and essential reasoning: Slope -2, b0=14; fitted 6, residual 3; change -0.2; df 8, sigma hat² 16, var 1, se 1, t -2, do not reject under 6. Negative y-scale/dollar association; intercept outside fare range. Service/population etc co-variation threatens mean 0; residual identity not proof. Nonrejection does not prove no effect; no optimal fare without objective/costs/capacity/causal response. Model: travel_i=beta 0+beta 1*fare_i+u_i. A negative fare effect holding relevant conditions fixed is a hypothesis; a constant change per fare unit is the imposed linear shape. A positive cross-city sample association may reflect omitted conditions; sign alone does not identify a causal demand curve.
+
+Rubric: all C1–C4 plus known fresh/independent/elapsed conditions for delayed pass. Parallel numerical/context changes support the bounded capability; they do not alone demonstrate broad transfer.
+
+### O006-D2
+
+`item_id: O006-D2`, `item_version: 1`, role: full_capability_check, default condition: delayed, permitted immediate replacement when fresh, relation: parallel_variant.
+
+Prompt: Hypothetical table stated units: n 10, mean x=2, mean y 9, Sxx 4, Sxy 12, SSE 32, observed fare 1–3. At x=3 actual 14. Compute full fit,+$0.10 difference and conventional zero-slope test with supplied 5% cutoff 2.306; explain sign/units, intercept extrapolation, omitted-factor/residual-identity limitations and absent policy inputs. Write the level-level travel equation, distinguish the hypothesized negative demand sign from the chosen constant-slope linear shape, and explain why a positive sample association would not by itself refute a causal demand hypothesis.
+
+Required response components: Transparent model with hypothesis versus imposed shape distinction; Correct complete fit/residual/change calculations with literal units; Correct df, variance, se, t and conditional hypothesis decision; Domain/specification critique, plausible omitted-factor threat, fitting-identity/causal/optimal-policy boundaries.
+
+Key and essential reasoning: Slope 3, b0=3; fitted 12, residual 2; difference +0.3; df 8, sigma hat² 4, var 1, se 1, t 3, reject under 6. Positive cross-city association contrasts expected negative demand sign; units y/dollar, x=0 outside 1–3. Omitted service/population correlated with fare etc; identity/significance not exogeneity. Regression alone lacks objective/costs/capacity/causal response for optimal fare. Model: travel_i=beta 0+beta 1*fare_i+u_i. A negative fare effect holding relevant conditions fixed is a hypothesis; a constant change per fare unit is the imposed linear shape. A positive cross-city sample association may reflect omitted conditions; sign alone does not identify a causal demand curve.
+
+Rubric: all C1–C4 plus known fresh/independent/elapsed conditions for delayed pass. Parallel numerical/context changes support the bounded capability; they do not alone demonstrate broad transfer.
+
+## Advance, revisit, pause, and escalate
+
+Advance after two qualifying distinct full passes. A delayed pass separately requires complete criteria under its time/exposure conditions; no answer/no fresh variant means no durability conclusion. A failed delayed check is scored before explanation, then use the named correction and a fresh full prepared check as appropriate; scheduling belongs to recall. Return to the named prerequisite when its missing capability causes the error, not after every mistake. After two ineffective hints show the necessary key/step or pause; after two unsuccessful fresh independent attempts stop quizzing and repair.
+
+If all full variants have been exposed/exhausted, or an otherwise plausible answer needs an unprepared acceptance rule, emit `plan_issue` with course 2026_2027/Winter_Semester/Econometrics_II, objective O006, revision1, criterion O006-C1, P001/V001/ingestion1 and exact item ID. Do not invent a replacement. Source conflicts/changed ingestion token block affected teaching and route note path+heading, revision/pass and exact issue to ingest. Close an interrupted/unanswered session without fabricating completion; teach alone writes actual evidence.
+
+## Answer-free recall handoff
+
+Review topic: Complete and critique the ten-city regression calculation.
+
+Start instruction: Begin a closed-note review with teach for O006; request a fresh prepared delayed item before any recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md#Immediate and delayed checks]]. No due date is defined. Teach supplies committed learner evidence IDs and actual conditions; recall determines scheduling.

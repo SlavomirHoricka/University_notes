@@ -1,0 +1,148 @@
+# O001 — Explain and identify hold-up
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+  "transaction_id": "VALIDATION-PLAN-002",
+  "plan_version": "P002",
+  "source_version": "V001",
+  "ingestion_revision": "VALIDATION-complete-pass-20261003T142217",
+  "objective_id": "O001",
+  "objective_revision": 1,
+  "criterion_version": "O001-C1",
+  "status": "ready",
+  "validation_artifact": true,
+  "knowledge_components": [
+    "conceptual",
+    "interpretation",
+    "discrimination"
+  ],
+  "prerequisite_ids": [],
+  "note_locations": [
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#2. Hold-up: investment changes bargaining power",
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#3. Commitment: promises can become unattractive to keep",
+    "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#1. Information: hidden quality and hidden action"
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "mechanism",
+      "discrimination"
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Hold-up: timing, specificity and incentives",
+  "review_instruction": "Begin a closed-note review with teach of Comparative Economics objective O001; ask for the prepared delayed mechanism/discrimination item.",
+  "compatible_versions": []
+}
+```
+
+## Outcome and conditions
+
+Without notes or help, explain how a relationship-specific sunk investment changes bargaining power and can discourage investment **before** it is made, while accepting a worse offer **after** investment can be rational. In a new case identify the relevant mechanism and distinguish it from pure commitment or hidden-information problems. State one remedy and its limitation without claiming it always works. No arithmetic is required here; calculation is O002. No calculator or external tool is needed. An explanation lacking the timing/specificity distinction is insufficient, even if it names “hold-up.”
+
+Authority: [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#2. Hold-up: investment changes bargaining power|Hold-up]], with adjacent [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#3. Commitment: promises can become unattractive to keep|commitment]] and [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#1. Information: hidden quality and hidden action|information]] used only for discrimination. The completed note already distinguishes an illustrative mechanism from causal evidence about national development.
+
+## Prerequisites and checks
+
+Required local foundation: distinguish a recoverable future cost from a cost already irreversibly paid, and understand that an outside option affects the value of leaving a relationship. These are supported within the hold-up note and are taught here; no new curriculum objective is needed.
+
+**O001-P1 v1 (diagnostic):** “A producer already paid for a machine with no resale or alternative use. If it refuses today's order, does it get the machine cost back? Why does having another buyer matter?”
+
+**Key:** no, the payment is sunk and is not recovered by refusing; another buyer may supply an alternative return and reduce dependence on the original buyer. **Pass:** both claims with reasons. **Partial:** correct sunk-cost answer but no outside-option reason, or vice versa. **Fail:** claims the past cost is recovered by refusing or alternatives never matter. If partial/fail, use the definitions and worked mechanism below rather than a harder diagnostic. An adequate answer ends diagnosis; do not search for failure.
+
+## Teaching order and rationale
+
+1. Ask why a supplier may distrust a profitable-looking promised order: motivates the decision.
+2. Define sunk cost, asset specificity and timing: the mechanism depends on them.
+3. Explain before/after bargaining: separate investment choice from production choice.
+4. Walk through a nonnumeric case, then fill a causal chain: avoid arithmetic obscuring the mechanism.
+5. Contrast commitment and hidden information using already-defined adjacent mechanisms.
+6. Use independent mechanism and discrimination tasks, then delayed fresh tasks.
+
+O002 follows only once the distinction is explained; it adds quantitative thresholds, not a substitute for this reasoning. A prior compatible committed acquisition declaration may permit skipping the diagnostic/example; still use a fresh prepared check if current applicability is uncertain.
+
+## Motivation, intuition, and definitions
+
+**Motivation:** “Why might a supplier decline to install special equipment even when a buyer promises an adequate price?” A promise is valuable only if its terms remain credible after the supplier becomes dependent.
+
+**Intuition:** Before installation the supplier can decline the relationship; afterward the machine may have little value elsewhere. The buyer can exploit the supplier's weak option to walk away.
+
+- **Sunk cost:** an expense irreversibly paid, not recovered by refusing today's trade.
+- **Asset specificity:** value substantially lower outside this particular relationship; it is more precise than saying equipment is merely expensive.
+- **Ex ante:** before the investment; the decision includes that avoidable investment cost and anticipated later returns.
+- **Ex post:** after investment; the current choice compares future consequences of alternatives. The investment remains in total project accounting, but is already paid under either current choice.
+- **Hold-up:** the counterparty can demand worse terms after a specific investment. It can deter viable investment ex ante.
+
+Assumptions for the clean example: no alternative buyer/use, no recovery of the machine cost, variable production cost still avoidable, and weak enforceability of the original promise. The problems overlap in reality; perfect separation is a teaching contrast, not a claim that cases contain exactly one mechanism.
+
+## Explanation steps
+
+1. A supplier expects a price that would cover variable production costs and its initial equipment investment.
+2. It installs equipment valuable mainly to this buyer. The expenditure is now sunk; withdrawing does not undo it.
+3. The buyer can propose a lower price. Because the supplier's outside option is poor, its bargaining position has worsened.
+4. Producing can still cover future variable cost and recover **part** of the already-paid investment. It may beat refusal even though the overall project loses money.
+5. If the supplier anticipates this outcome **before** spending, it may reject the project. Ex post rational acceptance and ex ante noninvestment are compatible; they compare different available choices at different times.
+6. An enforceable contract or another buyer can reduce the vulnerability. Contract gaps/litigation costs or limited alternative uses may remain. Vertical integration may reduce bargaining across owners but can bring inefficiency and financing costs; it is not universally best.
+
+There need be no hidden quality/action for hold-up. A promise-breaking commitment problem is broader and does not require the specific prior investment. These claims follow the finished note's explanations, not outside academic material.
+
+## Worked example
+
+**O001-W1 v1, note-based qualitative axle case:** A supplier installs equipment specially suited to one truck maker after a promised axle order. Once installed, the maker lowers its price. The machine has no other buyer or use.
+
+**Setup and steps:** (1) Installation makes the initial cost sunk. (2) Specificity gives the maker bargaining power because leaving yields little return. (3) A reduced price above future variable cost can make production better than refusal after installation. (4) The same reduced return may not justify installing the equipment beforehand. **Result:** rational ex post production can coexist with ex ante investment deterrence. **Interpretation/lesson:** a total project loss does not automatically mean current production is irrational; timing and the counterfactual matter. The arithmetic appears in O002.
+
+## Practice with fading assistance
+
+**O001-F1 v1, completion (supported):** “Complete the chain: a relationship-specific investment makes the supplier's ___ weaker; after payment the investment cost is ___; accepting a lower price can still be rational if it exceeds ___; anticipating that result before investment can ___.”
+
+**Key:** outside option/bargaining position; sunk; future variable cost; deter the investment. Accept “returns are better than refusal” for the third blank if its reasoning compares future alternatives. Give a definition cue if needed and record it; this task is never acquisition evidence after cues. Move to independent tasks when the learner explains the completed chain, not because blanks were displayed.
+
+**O001-I1 v1, mechanism, independent:** “A farmer pays to adapt land rented from one landlord. The improvement has little value to the farmer outside that plot. The landlord then demands higher rent. Explain the hold-up mechanism, why the farmer may accept now but avoid the improvement if foreseen, and one remedy with a limitation.”
+
+**Key:** relation-specific improvement is sunk; losing access wastes its return and weakens the farmer's outside option; higher rent may leave better future returns than walking away after improvement while making the initial investment unattractive ex ante. A credible enforceable rent contract can constrain renegotiation but has incomplete terms/enforcement costs; alternatives or integration can help where feasible, with their own limits. No claim that all land improvements must be refused. **Role:** mechanism. **Relation:** near transfer from axles to the note's farming mechanism.
+
+**O001-I2 v1, discrimination, independent:** “Classify and explain: A seller may deliver a bicycle but the buyer can refuse payment afterward; no specific investment is required. A supplier installs equipment useful only to one buyer, who then lowers the price. In a third case a seller already knows defects the buyer cannot observe before purchase. Which feature distinguishes the mechanisms?”
+
+**Key:** first commitment/time inconsistency, because payment incentives change after delivery without necessary specific investment; second hold-up, because specific sunk investment weakens bargaining; third asymmetric information/adverse selection can arise when pooled pricing selects out good types, but hidden quality alone establishes the information problem rather than proving full market collapse. Accept overlap between commitment and hold-up if the defining specific-investment distinction is stated. **Role:** discrimination. This contrast uses mechanisms already introduced; it is not random interleaving.
+
+## Rubric and independence
+
+I1 essential components: specificity/outside option; sunk cost/timing; rational current acceptance versus initial deterrence; credible remedy + limitation. I2 essential components: correct commitment versus hold-up distinction; information hidden before exchange; no unsupported conclusion of universal collapse. Accept plain language with the same causal chain, “relationship-specific” for “asset-specific,” and explicit overlapping mechanisms. Critical errors: sunk cost can be recovered by refusing; hidden information is necessary for hold-up; all lower prices make current acceptance irrational; integration/contracts always solve it.
+
+**Pass:** all item-essential components, no critical error. **Partial:** correct central mechanism with one essential omission or unexplained classification, no contradictory core. **Fail:** critical error or absent/wrong timing mechanism. **Unscorable:** ambiguous answer/rubric-supported content unavailable; ask clarification without teaching the answer or hand plan the gap. No numeric score.
+
+Acquisition requires I1 and I2 passing independently under O001-C1; both must be distinct/unexposed, closed-note, unassisted and tools unnecessary. After correction an exposed item cannot be reused: use C1/D1/D2 according to the required role below. A pass after hints is useful supported performance only. One immediate pass does not imply retention.
+
+## Misconceptions and correction
+
+**Sign:** “The supplier loses overall, so producing now must be irrational.” **Diagnosis:** confusion between overall project accounting and future choice, not proof of a general sunk-cost bias. **Correction:** “Compare produce and refuse from today onward. Both already paid the equipment cost. Producing may add positive operating surplus; refusing adds none. That does not make the earlier investment worthwhile.” Hint 1: “Can refusing undo the earlier payment?” Hint 2: “Which costs differ between the two choices today?” If unsuccessful, show the chain above and pause or use O002's worked calculation when appropriate.
+
+**O001-C1 v1, fresh mechanism follow-up:** “A workshop already made fixtures usable only for one purchaser. A cut offer still covers future work costs. Explain why taking the order can be the better current choice yet why expecting it could deter fixture-making.” **Key/rubric:** specificity weakens option to leave; sunk fixture cost cannot be recovered; positive future contribution beats refusal; anticipated total returns may not cover avoidable initial fixture cost. This satisfies the mechanism role only, not discrimination.
+
+**Sign:** “Any unkept promise is hold-up.” **Correction:** “Commitment is a promise whose incentives can change; hold-up specifically depends on prior relation-specific investment and weakened bargaining. A bicycle delivery/payment sequence need not have that investment.” Use D2 as the fresh discrimination follow-up. Exhausted fresh prepared variants -> plan, not invented exercises.
+
+## Immediate and delayed checks
+
+I1/I2 are immediate. For a delayed check use at least 24 actual hours since last relevant exposure, known exposure conditions, no recap first, a fresh item and closed notes/no help. Unknown/early conditions retain an observation but do not qualify for clean delayed interval extension.
+
+**O001-D1 v1, delayed mechanism:** “A farmer switches to a crop grown for a promised single buyer, who later cuts the offer. Explain how specificity and timing can discourage switching, and why sale can still be preferable after the crop is grown. What would access to another buyer change?” **Key:** crop-specific sunk expenditure and poor alternative weaken bargaining; future sale may exceed avoidable remaining costs although total return fails to justify switching; another buyer improves the outside option and restrains the original buyer. **Pass:** full chain + alternative mechanism. Critical errors as above. **Relation:** fresh near transfer, not evidence about every crop market.
+
+**O001-D2 v1, delayed discrimination:** “A buyer can refuse payment after receiving a standard bicycle; separately, a landlord reprices after a tenant makes plot-specific improvements. Is a specific sunk investment necessary in both? Explain the difference and one limit of enforcing promises through contracts.” **Key:** not necessary in pure sequential exchange commitment; necessary feature of the hold-up illustration in second; contract enforcement can support credibility but terms may omit contingencies and litigation can cost money. **Pass:** defining distinction and limitation. **Role:** discrimination.
+
+A delayed pass in one role supports that sampled role at the observed interval. Use the other role on a later prepared review where appropriate; do not claim both were assessed from one answer.
+
+## Advance, revisit, pause, and escalate
+
+Advance to O002 after acquisition rule or a qualifying prepared current diagnostic establishes its stated prerequisites; no acquisition event unless full rule actually met. If the prerequisite is missing, revisit definitions/causal chain and supported F1. After two ineffective hints show the needed reasoning; after three unsuccessful independent attempts pause and preserve the gap. Missing note/contradiction -> ingest with note/heading and blocked O001/O002. Missing valid-alternative rubric or exhausted variants -> plan with O001-C1, item ID, actual response/event IDs and requested repair. No source/criterion gate is presently asserted in this validation artifact; future changes are plan-owned.
+
+## Answer-free recall handoff
+
+“Review hold-up: timing, specificity and incentives — Comparative Economics O001. Begin with teach and request a prepared delayed question before recap.” Include course/ID and note topic link, never the key. Teach passes actual committed evidence; recall dates/synchronizes the task. This validation creates neither learner events nor Todoist tasks.

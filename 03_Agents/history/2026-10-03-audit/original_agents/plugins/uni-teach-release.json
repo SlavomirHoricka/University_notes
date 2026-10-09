@@ -1,0 +1,14 @@
+{
+  "plugin_id": "plugins_6ac1489d78a0819184b4e8340d8c61cd",
+  "current_release_id": "pluginrel_6ac152d60f9c819181b0b008fd219b11",
+  "plugin_url": "https://chatgpt.com/plugins/plugins_6ac1489d78a0819184b4e8340d8c61cd",
+  "version": "0.2.3",
+  "scope": "USER",
+  "discoverability": "PRIVATE",
+  "archive": "uni-teach-0.2.3-update.zip",
+  "archive_sha256": "b3b9d7f8834d78d6302745b3e795dae98ab85af1b8d364f3e7db38b8f31ea26e",
+  "canonical_skill": "../teach",
+  "verification": "Display name updated in both manifests and README. Private account release published and read back; all other manifest values and remaining 14-file inventory preserved. Local source metadata synchronized. Live host display has not been tested.",
+  "display_name": "University Assistant",
+  "archive_kind": "update-overlay"
+}

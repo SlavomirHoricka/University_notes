@@ -1,0 +1,45 @@
+{
+  "description": "Navigation-only bridges; original snapshot definitions unchanged.",
+  "bridges": [
+    {
+      "bridge": "03_Agents/validation/comparative-institutions/curriculum_history/P002/curriculum_history/P001/learning_plan.md",
+      "target": "03_Agents/validation/comparative-institutions/curriculum_history/P001/learning_plan.md"
+    },
+    {
+      "bridge": "03_Agents/validation/comparative-institutions/curriculum_history/P002/curriculum_history/P001/source_manifest.md",
+      "target": "03_Agents/validation/comparative-institutions/curriculum_history/P001/source_manifest.md"
+    },
+    {
+      "bridge": "03_Agents/validation/comparative-institutions/curriculum_history/P003/curriculum_history/P001/learning_plan.md",
+      "target": "03_Agents/validation/comparative-institutions/curriculum_history/P001/learning_plan.md"
+    },
+    {
+      "bridge": "03_Agents/validation/comparative-institutions/curriculum_history/P003/curriculum_history/P002/learning_plan.md",
+      "target": "03_Agents/validation/comparative-institutions/curriculum_history/P002/learning_plan.md"
+    },
+    {
+      "bridge": "03_Agents/validation/comparative-institutions/curriculum_history/P003/curriculum_history/P001/source_manifest.md",
+      "target": "03_Agents/validation/comparative-institutions/curriculum_history/P001/source_manifest.md"
+    },
+    {
+      "bridge": "03_Agents/validation/comparative-institutions/curriculum_history/P003/curriculum_history/P002/source_manifest.md",
+      "target": "03_Agents/validation/comparative-institutions/curriculum_history/P002/source_manifest.md"
+    },
+    {
+      "bridge": "03_Agents/validation/comparative-institutions/curriculum_history/P004/curriculum_history/P001/learning_plan.md",
+      "target": "03_Agents/validation/comparative-institutions/curriculum_history/P001/learning_plan.md"
+    },
+    {
+      "bridge": "03_Agents/validation/comparative-institutions/curriculum_history/P004/curriculum_history/P002/learning_plan.md",
+      "target": "03_Agents/validation/comparative-institutions/curriculum_history/P002/learning_plan.md"
+    },
+    {
+      "bridge": "03_Agents/validation/comparative-institutions/curriculum_history/P004/curriculum_history/P001/source_manifest.md",
+      "target": "03_Agents/validation/comparative-institutions/curriculum_history/P001/source_manifest.md"
+    },
+    {
+      "bridge": "03_Agents/validation/comparative-institutions/curriculum_history/P004/curriculum_history/P002/source_manifest.md",
+      "target": "03_Agents/validation/comparative-institutions/curriculum_history/P002/source_manifest.md"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "package_version": "0.3.0",
+  "source_root": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents",
+  "files": {
+    "LEARNING_ARCHITECTURE.md": {
+      "source": "LEARNING_ARCHITECTURE.md",
+      "sha256": "532a73057c5ff672866852e09fa4a67a5bfe8cff78127a1717a247dd1c6f8e3a"
+    },
+    "README.md": {
+      "source": "references/PLUGIN_README.md",
+      "sha256": "36ac36fbcfbbd61dbaf184f041fe2c3308697a2ae957901336a60c9ded91ea27"
+    },
+    "references/LEARNING_METHODS.md": {
+      "source": "references/LEARNING_METHODS.md",
+      "sha256": "9cc59b539152920806af7bd515d8348dc49d0da42aecb69c30af52338892d013"
+    },
+    "scripts/records.py": {
+      "source": "scripts/records.py",
+      "sha256": "8b01bf69bc72679914943a20ca78fd642dbbf5bc7e67781985d1030ff2849f7d"
+    },
+    "scripts/test_records.py": {
+      "source": "scripts/test_records.py",
+      "sha256": "a2a904c0eb9b509f130b9343346aaa3bb6834ad3d5829c8cc7b2f66204926a7f"
+    },
+    "skills/ingest/SKILL.md": {
+      "source": "ingest/SKILL.md",
+      "sha256": "73ca0d060d0191c78208847974ea2b0244ee30eae9bba65f861d7bee0879aee0"
+    },
+    "skills/plan/SKILL.md": {
+      "source": "plan/SKILL.md",
+      "sha256": "4e3b6f9688206c1748a9c65875212fd20cb9f4dad85f26faa649162d43d9ec1b"
+    },
+    "skills/plan/templates/learning_plan.md": {
+      "source": "plan/templates/learning_plan.md",
+      "sha256": "7a8ba852d72b277018620b43d70d06b89b9d2667eb959f4afac75d875885de2d"
+    },
+    "skills/plan/templates/objective_lesson.md": {
+      "source": "plan/templates/objective_lesson.md",
+      "sha256": "ec46abbeb1a64ca333a9353cbe9a13a56765379f10c4a1d55dde6fc6cbb5b745"
+    },
+    "skills/plan/templates/source_manifest.md": {
+      "source": "plan/templates/source_manifest.md",
+      "sha256": "8074f01320ba72aabca240b4fd342d906c136b8854afc129f307caa913fbe1d6"
+    },
+    "skills/recall/SKILL.md": {
+      "source": "recall/SKILL.md",
+      "sha256": "d489173f5a34f61375c65b358a89f3c158c1bd433448ecad3a80700987224d72"
+    },
+    "skills/recall/references/TODOIST_HARNESS.md": {
+      "source": "recall/references/TODOIST_HARNESS.md",
+      "sha256": "b027de219baf07c77e9d89a9cbb4b1098f5c8c5cbe37e084d457d9c6fbdf7060"
+    },
+    "skills/recall/scripts/schedule.py": {
+      "source": "recall/scripts/schedule.py",
+      "sha256": "3e35b2f89a89a1692e145eddecf8526c9975c738f282752c15f892967cd577b0"
+    },
+    "skills/recall/templates/recall_state.json": {
+      "source": "recall/templates/recall_state.json",
+      "sha256": "96b1aef74ddf15c93ceb1404d972ec624495f59769f0dd244a2d648433840975"
+    },
+    "skills/recall/tests/test_schedule.py": {
+      "source": "recall/tests/test_schedule.py",
+      "sha256": "d3eb3eac9771048ddcc9b7f75c941e2b27352414c40387c48c14bc745ddc5bda"
+    },
+    "skills/teach/SKILL.md": {
+      "source": "teach/SKILL.md",
+      "sha256": "6cf845547443964fe31837384e1ac4775b18708bd5a9f4842eb7de48110e6ac9"
+    },
+    "skills/teach/references/RECORDS.md": {
+      "source": "teach/references/RECORDS.md",
+      "sha256": "5ca52bcca5e58dc343901ac3e592b83019d6e7646397f4a78bb5faa545ffd412"
+    },
+    "skills/teach/references/WALKTHROUGH.md": {
+      "source": "teach/references/WALKTHROUGH.md",
+      "sha256": "8e4caaeb587044e637d9ee508dfd349787890e8478931bdc1a0995e60c8172ed"
+    },
+    "skills/teach/templates/learning_log.md": {
+      "source": "teach/templates/learning_log.md",
+      "sha256": "bc42458c3b5abc15bf738dd7816e0420cfdc2f5c3563b5287fd03f86db566c2f"
+    },
+    "skills/teach/templates/learning_plan.md": {
+      "source": "teach/templates/learning_plan.md",
+      "sha256": "330b409e3130e427b2d83f070432d3b23c6b43e5adf5459109cd7b90535f030d"
+    },
+    "skills/teach/templates/source_manifest.md": {
+      "source": "teach/templates/source_manifest.md",
+      "sha256": "7de34f220959de29faca998a932463f5270b6a36ed204138e4159bde3b40500b"
+    }
+  }
+}

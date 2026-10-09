@@ -1,0 +1,255 @@
+# Apply BLUE and classical inference with their stated conditions
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+  "transaction_id": "P-econometrics-II-20261004-001",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O005",
+  "objective_revision": 1,
+  "criterion_version": "O005-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "procedural",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O003",
+    "O004"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Unbiasedness_Consistency_and_Efficiency.md",
+      "heading": "Efficiency: specify the comparison class"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Unbiasedness_Consistency_and_Efficiency.md",
+      "heading": "Normality and hypothesis tests add another requirement"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Unbiasedness_Consistency_and_Efficiency.md",
+      "heading": "Distinctions to retain"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "permitted_item_ids": [
+      "O005-I1",
+      "O005-I2",
+      "O005-D1",
+      "O005-D2"
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Apply BLUE and classical inference with their stated conditions",
+  "review_instruction": "Begin a closed-note review with teach for O005; request a fresh prepared delayed item before any recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Derive the simple-slope conditional variance, state the precise BLUE comparison class, calculate a conventional slope standard error/t statistic and degrees of freedom, and discriminate which assumptions support each property.
+
+Required components (all must be elicited and passed):
+
+- C1: Weighted-variance derivation with vanishing cross terms and correct noise/regressor-variation effects.
+- C2: BLUE class and first 4/5/6 distinctions stated precisely.
+- C3: Correct df, noise/slope variance, se and null-centered t with conditional decision.
+- C4: Significance/exogeneity distinction and F joint-restriction purpose.
+
+Finished-note authority:
+
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Unbiasedness_Consistency_and_Efficiency.md#Efficiency: specify the comparison class]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Unbiasedness_Consistency_and_Efficiency.md#Normality and hypothesis tests add another requirement]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Unbiasedness_Consistency_and_Efficiency.md#Distinctions to retain]]
+
+Teaching/support: relevant finished notes, supplied prompts and calculator permitted. Independent and delayed checks: closed notes, no lesson/keys/software-generated explanation/search/AI assistance, no hints; a basic arithmetic calculator is allowed and must be reported. Numerical inputs/cutoffs/p values in the question are allowed data. The teacher hides keys until an answer is committed. Unknown assistance/access/exposure is unscorable for independent acquisition. A previously exposed item cannot be counted as fresh. A learner may explain orally or in writing; mathematical reasoning and units must be explicit.
+
+## Prerequisites and checks
+
+### O005-P1
+
+`item_id: O005-P1`, `item_version: 1`, role: prerequisite diagnostic. Capability: O003; reason: The mean proof defines the unbiased comparison class.
+
+Prompt: Do heteroskedastic nonnormal errors alone refute unbiasedness if first four assumptions hold? Why?
+
+Key: No; fixed-X weights times E[u|X]=0 give the same conditional mean.
+
+Rubric: pass only if the stated answer and its essential reason are correct without help; partial for incomplete reasoning or a recoverable arithmetic slip; fail for a contrary concept or no usable answer. This diagnostic never counts toward acquisition. Repair: Return to O003 Explanation steps3–6 and its supported task.
+
+Prepared prerequisite: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O003.md#Explanation steps]].
+
+### O005-P2
+
+`item_id: O005-P2`, `item_version: 1`, role: prerequisite diagnostic. Capability: O004; reason: Consistency must be separated from finite-sample efficiency and inference.
+
+Prompt: What additional large-sample requirements make covariance0 useful for consistency?
+
+Key: Independent random sampling, sufficient finite moments, nondegenerate positive finite regressor variance/model conditions; not merely a large n.
+
+Rubric: pass only if the stated answer and its essential reason are correct without help; partial for incomplete reasoning or a recoverable arithmetic slip; fail for a contrary concept or no usable answer. This diagnostic never counts toward acquisition. Repair: Return to O004 Explanation1–3 and supported task.
+
+Prepared prerequisite: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O004.md#Explanation steps]].
+
+Adequate committed current-version evidence for the named capability permits skipping that diagnostic; familiarity/confidence does not. If there is no evidence, ask each diagnostic once. Local foundation failures use the exact explanation here, not an improvised prerequisite curriculum.
+
+## Teaching order and rationale
+
+1. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Prerequisites and checks]] establishes only the prerequisites needed.
+2. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Motivation, intuition, and definitions]] motivates the decision and fixes notation/units before calculation.
+3. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Explanation steps]] supplies intermediate reasoning and boundaries.
+4. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Worked example]] models the complete chain.
+5. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Practice with fading assistance]] uses S as a completion task, then hides help for I1 and I2.
+6. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Misconceptions and correction]] repairs the exact observed gap; fresh full checks follow only under the permitted routes below.
+7. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Immediate and delayed checks]] tests retrieval after a real interval; immediate success alone never establishes durability.
+
+A knowledgeable learner whose prerequisite diagnostics pass may omit W/S and start I1; both complete independent checks are still required. Teaching reads one bounded lesson with its linked note sections.
+
+## Motivation, intuition, and definitions
+
+Derive the simple-slope conditional variance, state the precise BLUE comparison class, calculate a conventional slope standard error/t statistic and degrees of freedom, and discriminate which assumptions support each property. The question is what the available information lets us calculate or conclude, and which extra conditions the conclusion needs.
+
+BLUE means best linear unbiased estimator conditional on X. Linear means linear in y observations with X-determined weights; unbiased is the comparison restriction; best is minimum conditional variance within that class, coefficient by coefficient. It is not minimum variance among all estimators/all loss functions. Homoskedasticity is common finite conditional disturbance variance sigma². Normality is additional for the stated exact finite-sample null t/F distributions; F addresses joint coefficient restrictions, whose calculation is outside this bounded lesson.
+
+## Explanation steps
+
+1. In the slope decomposition the error is a weighted sum of u with weights $(x_i-\bar x)/S_{xx}$. Variance of this sum has squared weight variance terms and cross-observation covariance terms.
+2. Sampling conditions remove the cross terms; common conditional variance sigma² gives $Var(\hat\beta_1\mid X)=\sum(x_i-\bar x)^2\sigma^2/S_{xx}^2=\sigma^2/S_{xx}$. More x variation improves precision, more noise worsens it.
+3. With MLR1–5, the Gauss–Markov theorem gives BLUE in the stated linear unbiased class; this explanation calculates OLS variance, not a full proof of the theorem. No normality needed for BLUE.
+4. Estimate unknown sigma² by SSE/(n-k -1), giving simple-slope estimated variance hat-sigma²/Sxx and se its square root. k counts nonconstant regressors: residual df=n-k -1, not n-k.
+5. For null beta 1,0 use t=(estimated slope-null)/se. Under the full six classical assumptions, compare to the t distribution with those df for exact finite-sample inference. Rejecting a zero slope does not establish exogeneity/causality. An F test addresses joint restrictions; no joint-test arithmetic is claimed without further prepared notes.
+6. With heteroskedasticity but first four assumptions maintained, unbiasedness survives and consistency may survive with regularity; stated BLUE/conventional variance and exact classical t claims no longer follow. With MLR1–5 but nonnormality, BLUE still holds while the stated exact classical normal/t/F distributions are not established. This lesson supplies no unsupported replacement variance/test method.
+
+## Worked example
+
+O005-W v1, hypothetical n 10, k 1, Sxx 8, SSE 128, slope -4, null 0: df 8; hat-sigma² 16; slope variance 2; se sqrt2≈1.414214; t≈-2.828427. Under MLR1–6, absolute t>2.306 (the note's approximate two-sided5% t 8 cutoff), so reject 0. Under only MLR1–5, BLUE is justified but that exact reference cannot simply be assumed. Doubling Sxx at the same sigma² halves variance, reducing se by sqrt2 rather than half.
+
+Role: complete demonstration, never independent evidence. Unless explicitly identified as a finished-note result, numerical/context examples are agent-created hypothetical instantiations of the note-supported mechanism.
+
+## Practice with fading assistance
+
+For S, show the setup and allow reference to Explanation steps; ask the learner to supply the missing calculations/decisions and reasons before feedback. One hint identifies the relevant definition/step; a second reveals the next operation. If two hints fail, show the key and repair. Fade to independent checks only after the learner can explain the completed method or a passed diagnostic supports skipping S.
+
+### O005-S
+
+`item_id: O005-S`, `item_version: 1`, role: supported_completion, condition: supported, relation: parallel_variant.
+
+Prompt: Complete slope variance derivation, then use n 10, k 1, Sxx 8, SSE 128, slope -4, null 0 for df/sigma²/variance/se/t and 5% decision (cutoff 2.306 supplied). Define BLUE; explain what is preserved under heteroskedasticity and what normality adds. What does F test? Explain separately how doubling sigma² at fixed Sxx and doubling Sxx at fixed sigma² affect BOTH slope variance and standard error.
+
+Required response components: Weighted-variance derivation with vanishing cross terms and correct noise/regressor-variation effects; BLUE class and first 4/5/6 distinctions stated precisely; Correct df, noise/slope variance, se and null-centered t with conditional decision; Significance/exogeneity distinction and F joint-restriction purpose.
+
+Key and essential reasoning: Weights squared sum cancels one Sxx; sampling cross covariances 0/common variance yield sigma²/Sxx. df 8, sigma² 16, var 2, se 1.414214, t -2.828427, reject under MLR1–6. BLUE under 1–5 is smallest conditional variance among linear-in-y unbiased estimators with X fixed weights. Heteroskedasticity alone need not break unbiasedness/regularity-based consistency but stated BLUE/conventional variance/exact classical test fail to follow. Normality adds exact finite-sample conditional normal/t/F; F joint restrictions. From sigma²/Sxx: doubling noise variance sigma² doubles slope variance and multiplies SE by sqrt(2); doubling Sxx halves slope variance and divides SE by sqrt(2).
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+### O005-I1
+
+`item_id: O005-I1`, `item_version: 1`, role: full_capability_check, condition: independent, relation: parallel_variant.
+
+Prompt: Derive simple-slope variance and explain cross terms. Use hypothetical n 10, k 1, Sxx 4, SSE 32, slope -2, null 0 to compute df, estimated noise variance, slope variance, se, t and 5% decision with cutoff 2.306. Define BLUE precisely; compare MLR1–4 with heteroskedasticity, MLR1–5 without normality, and MLR1–6. Explain limits of statistical significance and purpose of F. Explain separately how doubling sigma² at fixed Sxx and doubling Sxx at fixed sigma² affect BOTH slope variance and standard error.
+
+Required response components: Weighted-variance derivation with vanishing cross terms and correct noise/regressor-variation effects; BLUE class and first 4/5/6 distinctions stated precisely; Correct df, noise/slope variance, se and null-centered t with conditional decision; Significance/exogeneity distinction and F joint-restriction purpose.
+
+Key and essential reasoning: Variance sigma²/Sxx by squared weights and vanishing cross covariances under sampling. df 8, hat-sigma² 4, var 1, se 1, t -2: do not reject under six assumptions. BLUE as above under 1–5; under 1–4 heterogeneous variance unbiasedness survives/consistency under regularity possible, stated BLUE/conventional test not guaranteed. Under1–5/nonnormal BLUE but not stated exact normal/t/F; under 1–6 exact null t/F. Significance not exogeneity/causality; F joint coefficient restrictions. From sigma²/Sxx: doubling noise variance sigma² doubles slope variance and multiplies SE by sqrt(2); doubling Sxx halves slope variance and divides SE by sqrt(2).
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+### O005-I2
+
+`item_id: O005-I2`, `item_version: 1`, role: full_capability_check, condition: independent, relation: parallel_variant.
+
+Prompt: Derive variance from disturbance weights and show effect of doubling Sxx. Use n 10, k 1, Sxx 9, SSE 72, slope 3, null 1 to calculate df, sigma², var, se, t and 5% decision(cutoff 2.306). Define BLUE and classify the same three assumption cases: first 4 with heterogeneous variance; first 5 without normality; all 6. Distinguish null-specific inference from exogeneity and identify F purpose. Explain separately how doubling sigma² at fixed Sxx and doubling Sxx at fixed sigma² affect BOTH slope variance and standard error.
+
+Required response components: Weighted-variance derivation with vanishing cross terms and correct noise/regressor-variation effects; BLUE class and first 4/5/6 distinctions stated precisely; Correct df, noise/slope variance, se and null-centered t with conditional decision; Significance/exogeneity distinction and F joint-restriction purpose.
+
+Key and essential reasoning: Variance sigma²/Sxx, cross terms vanish under sample independence; double Sxx halves var/se divided sqrt2. df 8, sigma² 9, var 1, se 1, t(3-1)=2; do not reject null 1 under 6. BLUE precise linear-in-y unbiased conditional-X class under 1–5; first 4 heteroskedastic unbiased/possibly consistent with regularity but theorem/formula not guaranteed; first 5 nonnormal still BLUE/not exact classical t/F; all 6 exact distributions. Significance/null decision cannot establish exogeneity; F joint restrictions. From sigma²/Sxx: doubling noise variance sigma² doubles slope variance and multiplies SE by sqrt(2); doubling Sxx halves slope variance and divides SE by sqrt(2).
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+## Rubric and independence
+
+Pass: all C1–C4 correct, essential reasoning explicit, known independent conditions and fresh item. Partial: one or more components missing, an unexplained claim, or a recoverable arithmetic slip with sound method. Fail: a critical conceptual error, wrong method/assumptions/interpretation, or no usable attempt. Unscorable: unknown conditions/exposure or an alternative outside the prepared key. Equivalent algebra, clear verbal reasoning and synonymous units/assumption names are acceptable; assumption numbers alone are insufficient. Numerical rounding to sensible precision is acceptable. A isolated arithmetic slip is partial and is not treated as established conceptual failure; the learner must independently repair it with a fresh prepared full item before a pass qualifies. No numeric grading scale is invented.
+
+Every full task I1, I2, D1, D2 expressly requests all C1–C4 and has a complete task-specific key plus exact conceptual reasoning above. Omitted pieces are partial even if an unasked answer happens to sound fluent. Supported S and narrow correction C never substitute for a full check.
+
+Permitted acquisition routes: I1+I2; if an item was exposed, failed or unavailable, replace only that full check with a previously unexposed D1 or D2. Any selected pair of distinct items from {I1,I2,D1,D2} covers C1–C4 twice. Do not use an item twice or count a corrected answer to the same item as fresh. D items used immediately are logged as independent replacement checks, not delayed evidence. No shortened variant or arbitrary new task is permitted. Two complete unassisted passes under O005-C1 establish acquisition; they do not establish retention. This is a default evidence rule, not a learner outcome.
+
+Component-to-item coverage on every route:
+
+| Component | S | I1 | I2 | D1 | D2 | Correction C |
+|---|---|---|---|---|---|---|
+| C1 | supported | required | required | required | required | narrow repair only |
+| C2 | supported | required | required | required | required | narrow repair only |
+| C3 | supported | required | required | required | required | narrow repair only |
+| C4 | supported | required | required | required | required | narrow repair only |
+
+## Misconceptions and correction
+
+Sign: BLUE means best among every estimator; variance and se confused; t ignores nonzero null; or homoskedasticity confused with normality. Correction: theorem restricts the class; standard error is square root of variance; subtract the null; homoskedasticity concerns spread, normality shape. Hint1: name class and write t numerator. Hint2: calculate residual df and square root explicitly.
+
+Score the original response before help. One ambiguous error only suggests a tentative misconception; establish it only from explicit reasoning or repeated diagnostic signs. Explain the relevant prepared step and its consequence; never label the learner from confidence or a single slip.
+
+### O005-C
+
+`item_id: O005-C`, `item_version: 1`, role: targeted correction; not an acquisition substitute.
+
+Prompt: Fresh O005-C v1: slope 5, null 2, se 1.5. Find t; if MLR1–5 hold but normality unknown, what BLUE/exact-test claims follow?
+
+Key: t 2. BLUE in the conditional linear-unbiased class follows; exact finite-sample t reference is not established without additional normality. Narrow repair only.
+
+Rubric: correct supplied answer plus the exact boundary/reason is a repair pass; omitted reason is partial; repeating the original misconception is fail. Repair success licenses returning to a fresh full prepared item; it never replaces full C1–C4 coverage.
+
+## Immediate and delayed checks
+
+I1/I2 are immediate checks after instruction or a justified expert route. D1/D2 are distinct parallel/near-context applications, not broad-transfer proof. Teach records exposure; the exact original must not be re-used as a fresh retrieval question. For delayed evidence require at least24 actual elapsed hours since qualifying acquisition and known independent conditions; ask the item before recap or solutions, record any intervening study, and apply all C1–C4. An early answer can be immediate evidence only.
+
+### O005-D1
+
+`item_id: O005-D1`, `item_version: 1`, role: full_capability_check, default condition: delayed, permitted immediate replacement when fresh, relation: parallel_variant.
+
+Prompt: Derive variance, define BLUE, and calculate from n 10, k 1, Sxx 16, SSE 128, slope -2, null 0 the df, variance estimate, se, t and 5% decision(cutoff 2.306). Explain variance response to doubled sigma² and classify heteroskedastic first 4, nonnormal first 5, full 6 cases; state significance limits and F purpose. Explain separately how doubling sigma² at fixed Sxx and doubling Sxx at fixed sigma² affect BOTH slope variance and standard error.
+
+Required response components: Weighted-variance derivation with vanishing cross terms and correct noise/regressor-variation effects; BLUE class and first 4/5/6 distinctions stated precisely; Correct df, noise/slope variance, se and null-centered t with conditional decision; Significance/exogeneity distinction and F joint-restriction purpose.
+
+Key and essential reasoning: df 8, sigma² 16, var 1, se 1, t -2, nonrejection under 6. Derivation weighted variances/sampling cross terms/common sigma²; double sigma² doubles var/se×sqrt2. Precise BLUE conditional-X linear unbiased comparison. First 4 heteroskedastic mean preserved/consistency with regularity possible but theorem/test not guaranteed; first 5 nonnormal BLUE not stated exact tests; all 6 exact null t/F. No causality/exogeneity conclusion; F joint restrictions. From sigma²/Sxx: doubling noise variance sigma² doubles slope variance and multiplies SE by sqrt(2); doubling Sxx halves slope variance and divides SE by sqrt(2).
+
+Rubric: all C1–C4 plus known fresh/independent/elapsed conditions for delayed pass. Parallel numerical/context changes support the bounded capability; they do not alone demonstrate broad transfer.
+
+### O005-D2
+
+`item_id: O005-D2`, `item_version: 1`, role: full_capability_check, default condition: delayed, permitted immediate replacement when fresh, relation: parallel_variant.
+
+Prompt: From disturbance decomposition derive variance and compare equal sigma² designs Sxx 4 versus 8. For n 10, k 1, Sxx 4, SSE 32, slope 3, null 0 compute df, sigma², var, se, t and 5% decision(cutoff 2.306). Define BLUE, contrast first 4 heteroskedastic, first 5 nonnormal, all 6 cases, and explain F purpose/inference limitations. Explain separately how doubling sigma² at fixed Sxx and doubling Sxx at fixed sigma² affect BOTH slope variance and standard error.
+
+Required response components: Weighted-variance derivation with vanishing cross terms and correct noise/regressor-variation effects; BLUE class and first 4/5/6 distinctions stated precisely; Correct df, noise/slope variance, se and null-centered t with conditional decision; Significance/exogeneity distinction and F joint-restriction purpose.
+
+Key and essential reasoning: Variance sigma²/Sxx; larger Sxx 8 halves variance relative 4. df 8, sigma² 4, var 1, se 1, t 3, reject under 6. BLUE precise comparison as above. First 4 heteroskedastic allows unbiasedness/consistency with regularity but no stated BLUE/conventional inference; first 5 nonnormal BLUE yet exact classical distributions not established; all 6 exact null t/F. F joint restrictions; rejection 0 does not verify population exogeneity or optimal policy. From sigma²/Sxx: doubling noise variance sigma² doubles slope variance and multiplies SE by sqrt(2); doubling Sxx halves slope variance and divides SE by sqrt(2).
+
+Rubric: all C1–C4 plus known fresh/independent/elapsed conditions for delayed pass. Parallel numerical/context changes support the bounded capability; they do not alone demonstrate broad transfer.
+
+## Advance, revisit, pause, and escalate
+
+Advance after two qualifying distinct full passes. A delayed pass separately requires complete criteria under its time/exposure conditions; no answer/no fresh variant means no durability conclusion. A failed delayed check is scored before explanation, then use the named correction and a fresh full prepared check as appropriate; scheduling belongs to recall. Return to the named prerequisite when its missing capability causes the error, not after every mistake. After two ineffective hints show the necessary key/step or pause; after two unsuccessful fresh independent attempts stop quizzing and repair.
+
+If all full variants have been exposed/exhausted, or an otherwise plausible answer needs an unprepared acceptance rule, emit `plan_issue` with course 2026_2027/Winter_Semester/Econometrics_II, objective O005, revision1, criterion O005-C1, P001/V001/ingestion1 and exact item ID. Do not invent a replacement. Source conflicts/changed ingestion token block affected teaching and route note path+heading, revision/pass and exact issue to ingest. Close an interrupted/unanswered session without fabricating completion; teach alone writes actual evidence.
+
+## Answer-free recall handoff
+
+Review topic: Apply BLUE and classical inference with their stated conditions.
+
+Start instruction: Begin a closed-note review with teach for O005; request a fresh prepared delayed item before any recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Immediate and delayed checks]]. No due date is defined. Teach supplies committed learner evidence IDs and actual conditions; recall determines scheduling.

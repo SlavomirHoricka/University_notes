@@ -1,0 +1,203 @@
+# Distinguish futures contract operation and its limits
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "transaction_id": "T-plan-fmi-e129c21f1dfc495bb2d8753c98f22175",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O001",
+  "objective_revision": 1,
+  "criterion_version": "O001-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "timing_and_price_agreement",
+    "standardization_and_matching_offset",
+    "clearing_and_broker_limit",
+    "settlement_and_market_limits"
+  ],
+  "prerequisite_ids": [],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md",
+      "heading": "When the agreement, payment and delivery happen"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md",
+      "heading": "Standardized futures specifications"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md",
+      "heading": "Positions, open interest and the clearing house"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md",
+      "heading": "How the obligation ends"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md",
+      "heading": "Trading limits and market abuse"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Introduction_to_Futures_Seminar_Exercises.md",
+      "heading": "Problem 1: offsetting contracts"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O001-I1",
+        "O001-I2"
+      ],
+      [
+        "O001-I1",
+        "O001-D1"
+      ],
+      [
+        "O001-I1",
+        "O001-D2"
+      ],
+      [
+        "O001-I2",
+        "O001-D1"
+      ],
+      [
+        "O001-I2",
+        "O001-D2"
+      ],
+      [
+        "O001-D1",
+        "O001-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Distinguish futures contract operation and its limits",
+  "review_instruction": "Begin a closed-note review with teach for O001; request an unused prepared delayed item before recap."
+}
+```
+
+## Outcome and conditions
+
+Given a trading description, identify when terms are fixed, compare future spot/forward/futures, choose a matching offset, count open interest without double counting, explain clearing and the broker warning, and distinguish maturity settlement, daily price limits and position limits. This is a coherent capability to explain what contractual obligation a trader opens and how it ends; it does not assess legal rules or current exchange specifications.
+
+Finished-note locations: [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md#When the agreement, payment and delivery happen]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md#Standardized futures specifications]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md#Positions, open interest and the clearing house]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md#How the obligation ends]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md#Trading limits and market abuse]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Introduction_to_Futures_Seminar_Exercises.md#Problem 1: offsetting contracts]].
+
+Supported learning permits these note sections and the worked key. Independent checks permit blank paper and a non-programmable calculator only; no notes, formula list, key, hints, external help or generated solution. The tutor must confirm these conditions and known prior item exposure before marking independence. Unknown conditions are unscorable for independence, even if the content is correct. These stricter practice conditions do not purport to reproduce all exam rules. Hypothetical tasks below instantiate only note-supported mechanisms.
+
+## Prerequisites and checks
+
+No earlier course objective is required. O001-P0 / v1: A buyer intends today to buy in December but will agree the price only in December. Is today's price fixed? Key: no; intention is future spot, all specification/payment/delivery belong to the future deal. Pass: identifies unfixed future price and why; partial: correct label without timing; fail: says intention fixes it. Repair: the first two paragraphs of **Explanation steps**, then W1. This is an entry diagnostic of the objective, not an external assumed foundation.
+
+A qualifying committed prerequisite result may skip its diagnostic only when its exact current tuple or explicitly approved compatible tuple and independence conditions are known. Familiarity is insufficient. Diagnostics do not count as acquisition checks. Do each relevant diagnostic once; failed/partial responses follow the stated repair, then one fresh full check rather than repeated diagnosis.
+
+## Teaching order and rationale
+
+1. Retrieve **Outcome and conditions** and **Prerequisites and checks**; repair a needed dependency before its notation is used.
+2. Teach **Motivation, intuition, and definitions** to attach each symbol to an economic action.
+3. Use **Explanation steps** to connect the assumptions to the result.
+4. Present **Worked example** with the key exposed and ask the learner to identify each decision point.
+5. Give **Practice with fading assistance** supported task; if a conceptual component is missing, use its prepared correction.
+6. Withdraw all help and ask I1, score before feedback, then an unused full check under **Immediate and delayed checks**.
+7. After qualifying acquisition, leave delayed assessment to an unused D item after the minimum elapsed interval. Never recap its solution before the answer.
+
+A learner whose prerequisite diagnostic passes may skip prerequisite support; the objective explanation/example can be shortened to the identified gap. The same two full independent-check requirement remains. Full solutions shown on any route retire that item from independent use.
+
+## Motivation, intuition, and definitions
+
+Motivation: How can a later purchase have terms fixed today, and how can an obligation disappear before delivery? Spot agrees the current-price trade now, permitting the note's practical settlement delay. Future spot waits to trade at the later then-current price. A forward privately specifies asset, quantity, price and maturity now, with payment/delivery later. Futures standardize exchange terms, add clearing and daily settlement. Long means bought, short means sold. Open interest counts contracts via either open longs or open shorts, not their sum. Grade, delivery location and month matter to contract identity. The course's usual financial months and illustrative delivery percentages are introductory source statements, not universal live facts.
+
+## Explanation steps
+
+1. Separate specifying the deal from performing it: later delivery alone does not show whether price was agreed now. A forward supplies today's terms; waiting supplies none.
+2. A fixed price removes that agreed-price uncertainty but creates unfavorable-value incentives to default: above the forward price the seller prefers spot; below it the buyer prefers spot.
+3. Published asset, size, grade, place and delivery month make futures interchangeable. An equal opposite position in the same contract offsets; an opposite different month leaves two obligations.
+4. Clearing interposes a formal counterparty and tracks/net positions through members, reducing reliance on the original opposing client. Brokers remain the client's access path. The notes explicitly warn about own-broker default; the handout's contrary wording is unresolved, so do not claim unlimited protection.
+5. Offset before maturity ends open delivery exposure and fixes cumulative trading result. At maturity physical settlement delivers an eligible asset against cash (notification, assignment, eligible delivery, invoice/payment); cash settlement uses the defined final reference EDSP. An eligible-asset choice can permit cheapest-to-deliver selection; later bond calculations are excluded.
+6. A daily price limit constrains the session band around prior settlement and may suspend trading; a position limit constrains speculative concentration. Neither is a lifetime loss guarantee. Cornering combines concentrated long futures with control of underlying supply, hurting shorts' ability to close/deliver. Margin supports performance and does not buy the asset.
+
+## Worked example
+
+O001-W1 / item_version 1 / worked-example; source-supported example or explicitly hypothetical instantiation.
+
+John buys ten June Nasdaq futures and closes in April by selling ten equivalent June contracts. Selling September instead would create a September short while leaving the June long. Jane shorts one September S&P contract and closes by buying one equivalent September contract. These are the note's source exercises; no numerical profit follows without opening/closing prices. If ten outstanding contracts have ten long and ten short sides, open interest is ten. Decision checks: contract month and size match; opposite direction alone is insufficient. Clearing does not erase own-broker risk. Held positions follow physical/cash specification; an offset ends the open delivery obligation.
+
+## Practice with fading assistance
+
+O001-S1 / item_version 1 / supported-completion.
+
+**Prompt:** Complete: intending a January spot purchase leaves ___ unknown; a private forward fixes ___ now and performs ___ later; closing three long June contracts requires ___; six outstanding matched contracts imply open interest ___; clearing protects against reliance on ___ but is no blanket protection against ___; distinguish physical/cash settlement and price/position limits.
+
+**Key:** future spot price; asset/quantity/price/maturity; payment/delivery; sell three identical June contracts; six; original opposing client; own broker's default. Physical exchanges eligible asset and cash; cash uses final monetary settlement/EDSP. Daily price band vs concentration cap. Essential: all four outcome components. Supported omissions lead to the prepared correction, not an independent pass.
+
+Allowed help: reveal the named definitions, then at most two prepared hints in **Misconceptions and correction**. After the learner supplies the missing steps and their reasons, hide all keys and use a fresh full check. Supported success is practice evidence only. If even the full worked correction does not restore the needed component, pause and follow the dependency repair.
+
+## Rubric and independence
+
+The required components are: timing_and_price_agreement; standardization_and_matching_offset; clearing_and_broker_limit; settlement_and_market_limits. Each full check below explicitly elicits and keys every component. Pass requires all its essential reasoning and requested outputs without a critical error. Partial means a correct mechanism but a missing component, unresolved sign/unit, or isolated arithmetic slip. Fail means a critical conceptual error persists or the method cannot establish the result. Unscorable means the response/conditions cannot be interpreted reliably; ask the existing prompt once for clarification, without adding a new assessment. Accept algebraically equivalent expressions, clearly defined opposite cash-flow signs, and plain-language explanations with the same mechanism. An arithmetic slip is partial until independently corrected; it is not automatically a conceptual failure. No numerical score is inferred.
+
+Critical errors: A future-spot intention fixes today's price; a different maturity offsets; OI doubles both sides; clearing eliminates own-broker risk; price/position limits cap cumulative loss.
+
+Acquisition requires two distinct unassisted passes from the explicitly permitted routes O001-I1/O001-I2, O001-I1/O001-D1, O001-I1/O001-D2, O001-I2/O001-D1, O001-I2/O001-D2, O001-D1/O001-D2. I items normally establish acquisition; an unused D item may replace an exposed or failed I item and then cannot later be counted as delayed retention. Each selected full item assesses all listed components, so every route covers them twice. W1, S1, prerequisite diagnostics and the narrow C1 correction are forbidden substitutes. The D bank is finite: never repeat an exposed item to certify fresh learning and never invent changed numbers. If fewer than two unused full items remain, raise a plan_issue for a new prepared bank.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| timing_and_price_agreement | required | required | required | required |
+| standardization_and_matching_offset | required | required | required | required |
+| clearing_and_broker_limit | required | required | required | required |
+| settlement_and_market_limits | required | required | required | required |
+
+## Misconceptions and correction
+
+Observable signs: treating any opposite contract as offset; adding longs and shorts; saying clearing guarantees every participant. Correction: equivalence includes month/asset/size, each contract has two sides, and the broker remains between client and clearing. Hint 1: ask which obligation was opened. Hint 2: list its maturity and reverse only direction. O001-C1 / v1: A short has three July contracts, and 11 contracts remain outstanding. What closes the short, what is OI, and does clearing prove own-broker immunity? Key: buy three equivalent July, OI 11, no—the warning remains. Pass: all three with reasons; partial: missing reason; fail: different month/double counting/immunity.
+
+The sign alone is a tentative diagnosis; use the learner's reasoning to establish the confusion. Score the initial response before any hint. Hint 1 points to the named distinction; hint 2 points to the first correct step. After two ineffective hints show the prepared key, then pause if the fresh C1 response still fails. C1 checks the repaired component only and cannot replace a full independent check.
+
+## Immediate and delayed checks
+
+All items are item_version 1 and role full_capability_check. I1/I2 are immediate; D1/D2 are prepared delayed variants. D items may establish delayed success only when unused, unassisted, attempted before recap, at least 24 elapsed hours after acquisition and the most recent relevant solution/teaching exposure, with intervening exposure recorded. Early D attempts may be immediate checks but are not delayed evidence. Each delayed success is separate from initial acquisition. Numerical changes are parallel variants; a changed buyer/seller context is bounded near transfer, never proof of broad transfer.
+
+### O001-I1
+
+**Prompt:** A bakery will buy grain in December. Compare (a) waiting to negotiate then, (b) privately fixing price/quantity today, and (c) buying standardized December futures today. Explain losing-party default incentives at a high later spot price. It buys four December futures and proposes selling four March futures to close: assess and correct. There are nine outstanding contracts: give open interest. Explain clearing's benefit and own-broker limitation. Describe maturity physical versus cash settlement, daily price versus position limits, and the mechanism of cornering.
+
+**Key and essential rubric:** (a) future spot, future price unknown; (b) forward, terms now and payment/delivery later; (c) futures, published terms plus clearing/daily settlement. Above forward price seller has an incentive to prefer selling spot, though the contract remains an obligation. March sale does not offset December: sell four equivalent December contracts. OI=9, not 18. Clearing becomes counterparty/reduces original counterparty exposure; own broker warning and ambiguous handout are not unlimited protection. Physical eligible asset/cash versus final monetary EDSP settlement. Daily band/suspension versus speculative quantity cap, neither loss cap. Cornering combines concentrated longs and controlled supply, making short closing/delivery difficult. Pass requires all timing, offset/OI, clearing and settlement/limit components.
+
+### O001-I2
+
+**Prompt:** A manufacturer agrees today on a tailored delivery in August. Classify and contrast with buying spot today and waiting to buy spot in August; identify the default incentive if later spot falls. A trader shorts two September index futures and suggests buying December to exit. Give the proper exit and OI when 12 contracts have 12 long and 12 short sides. Explain standard terms (grade/location/month/size), clearing and its broker boundary, physical/cash maturity settlement, and why a position limit and a daily price limit do different jobs. Describe cornering.
+
+**Key and essential rubric:** Tailored fixed terms now/payment and delivery later is forward. Spot now uses current price and prompt exchange; future spot leaves August price unknown. Below agreed forward price buyer prefers cheaper spot. Buy two identical September index contracts, not December. OI=12. Terms create equivalent obligations: grade/location affect what/how delivered; month differs; size determines exposure. Clearing interposes counterparty but does not guarantee own broker. Physical delivers eligible goods for payment; cash uses EDSP monetary settlement. Position caps concentration/cornering; daily band restricts trading movement/session, neither guarantees bounded total loss. Cornering pairs many long futures and control of supply, pressuring shorts. All four components required.
+
+### O001-D1
+
+**Prompt:** A fuel buyer considers spot now, spot next month, private forward now for next month, or standardized next-month futures. Compare their agreement timing and futures operational additions; if the later spot price rises, who prefers to walk away from the forward? A long holds five October contracts: can a five-contract November sale close it? Give the correct trade, OI for seven outstanding contracts, clearing/broker caveat, physical/cash settlement distinction, and daily/position limits plus cornering.
+
+**Key and essential rubric:** Spot now fixes current terms with prompt settlement; future spot negotiates next month at unknown price; forward fixes now and performs later; futures standardize, clear and mark daily. With a rise seller prefers higher spot rather than lower agreed price. November cannot offset October; sell five identical October. OI=7. Clearing reduces original opposing-client exposure without blanket own-broker protection. Physical eligible delivery/cash vs cash EDSP final settlement. Daily prior-settlement band vs speculative concentration cap; neither caps lifetime loss. Cornering uses long concentration and supply control to pressure shorts. All four components required.
+
+### O001-D2
+
+**Prompt:** A commodity seller privately fixes February terms now while another seller waits for a February spot deal. Compare them with spot today and a standardized February short. At a falling later spot price, identify the forward party with a default incentive. Close a short of six May contracts, reject a June buy as substitute, and count OI with 20 long and 20 matching short sides. Explain clearing, own-broker warning, eligible physical settlement versus cash EDSP, and daily/position limits and cornering.
+
+**Key and essential rubric:** Forward terms today/performance February; future spot price unknown now; current spot near-present trade; futures standard terms/clearing/daily settlement. Falling spot gives buyer incentive to avoid paying agreed higher price. Buy six identical May contracts, June leaves May exposure. OI=20. Clearing interposition is original-counterparty-risk management, not a universal own-broker guarantee. Physical delivers eligible asset with invoice/payment; cash transfers final reference amount. Daily price band is a trading restriction, position cap restrains concentrated speculative holdings. Cornering combines many longs and supply control; neither limit is a loss cap. All four components required.
+
+## Advance, revisit, pause, and escalate
+
+Advance when teach has committed two qualifying distinct full passes with this current criterion; this defines acquisition, not durable retention. Delayed success requires a later fresh full pass under the delayed conditions. After one failed check, score, teach the named correction and use another unused full item. After two unsuccessful independent attempts or a failed fresh correction, pause independent quizzing and return to the relevant prepared explanation/dependency. Stop if a note/ingest conflict affects the mechanism. Unsupported accepted alternatives, unclear rubric, exhausted item bank, or missing blocks require plan_issue with 2026_2027/Winter_Semester/Financial_Markets_Instruments_I, O001, objective revision 1, O001-C1, P001/V001, ingestion revision 1 and the exact item ID. Academic note contradictions go to ingest with the cited heading; plan gaps go to plan. End a session with honest partial coverage if acquisition is unfinished.
+
+## Answer-free recall handoff
+
+Topic: Distinguish futures contract operation and its limits. Instruction: Begin a closed-note review with teach for O001; request an unused prepared delayed item before recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O001.md#Immediate and delayed checks]]. Teach supplies committed evidence IDs and actual timestamps; recall owns due dates and Todoist. Deadline/retention horizon is null. No learner result or review date is created by this definition.
