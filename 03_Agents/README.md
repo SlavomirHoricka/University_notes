@@ -1,6 +1,6 @@
 # University Assistant workspace
 
-Current architecture and exclusive ownership: [[03_Agents/LEARNING_ARCHITECTURE]]. Paths below are relative to this folder. Academic notes/raw materials and real learner history remain in place.
+Canonical master plugin document: [[03_Agents/LEARNING_ARCHITECTURE|University Assistant architecture]] — current skill ownership, checked handoffs, and the proposed PC-only localhost learning hub. The hub and learning-site skill are architectural goals, not implemented components. Paths below are relative to this folder. Academic notes/raw materials and real learner history remain in place.
 
 | Category | Maintained / runtime path | Meaning |
 |---|---|---|

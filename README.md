@@ -91,7 +91,7 @@ Planning defines the curriculum; teaching records what the learner actually did;
 | `validation/` | Example curricula and contract rehearsals, separate from real learner evidence. |
 | `history/` and `.backups/` | Archived audits, reviews, migrations, snapshots, and plugin releases. |
 
-Start with the [agent workspace README](03_Agents/README.md). The [learning architecture](03_Agents/LEARNING_ARCHITECTURE.md) defines ownership, handoffs, freshness, versions, and record handling. The [vault map](03_Agents/VAULT_MAP.md) provides a dated course inventory, and [naming conventions](03_Agents/NAMING_CONVENTIONS.md) describe how to name new files and folders. Consult current files and ingestion records for changes since the inventory was written.
+Start with the [agent workspace README](03_Agents/README.md). The canonical [master plugin architecture](03_Agents/LEARNING_ARCHITECTURE.md) defines current skill ownership, handoffs, freshness, versions, and record handling, plus the proposed PC-only localhost learning hub and its separation of course content from learner progress. The [vault map](03_Agents/VAULT_MAP.md) provides a dated course inventory, and [naming conventions](03_Agents/NAMING_CONVENTIONS.md) describe how to name new files and folders. Consult current files and ingestion records for changes since the inventory was written.
 
 ### Using the skills
 
@@ -102,7 +102,7 @@ With the skills registered in a compatible host, typical requests are:
 - `$teach Teach/resume/review <full course path>, <topic>; I have <study budget>` — work through prepared lessons. `$uni-teach:teach` is the plugin equivalent.
 - `$uni-teach:recall Synchronize my committed course reviews with Todoist` — synchronize evidence-based reviews with existing course projects.
 
-The workflow was configured for the original Obsidian vault at `/Users/slavomirhoricka/Desktop/Obsidian/Uni`. Cloning this repository copies its files; using the agent workflow from a different location requires checking its configured vault paths and skill registrations. Todoist synchronization also requires the separate Todoist integration and verified project mappings.
+The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`; root `AGENTS.md` requires isolated tasks to use their selected checkout as the vault root. Some skill and release documentation retains the legacy `/Users/slavomirhoricka/Desktop/Obsidian/Uni` path, which the repository instructions override. Cloning copies the files; verify tool paths and registrations before running a workflow in another checkout. Todoist synchronization also requires the separate Todoist integration and verified project mappings.
 
 Recall runs on request or after a qualifying teaching handoff when available. The workflow does not install a background watcher. Legacy records remain preserved, while current lesson readiness depends on matching ingestion and curriculum versions.
 
