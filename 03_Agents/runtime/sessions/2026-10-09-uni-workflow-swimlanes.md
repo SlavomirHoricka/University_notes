@@ -1,6 +1,6 @@
 # Editable Uni workflow swimlanes
 
-- Status: in_progress
+- Status: ready_for_merge
 - Objective: visualize the current University Assistant architecture for brainstorming in an editable Excalidraw drawing; five swimlanes for learner, ingest, plan, teach and recall. Start with learner upload/add files, then request ingestion.
 - Scope: new `Excalidraw/University_Assistant_Workflow_Swimlanes.excalidraw.md` and this task record. No course notes, curricula, learner evidence, scheduling records, skill behavior or plugin packaging changed. Existing drawings preserved.
 - Branch: `codex/uni-workflow-swimlanes`
@@ -21,4 +21,4 @@
 
 ## Integration and handoff
 
-Drawing validation is complete. Next: scoped staging/review, PR creation, record the known PR URL and ready state, merge after repository gates, verify remote merge, fast-forward primary checkout if clean, and clean up the task branch/worktree only when preserved artifacts permit it.
+Drawing validation and scoped staged-diff review are complete. PR: https://github.com/SlavomirHoricka/University_notes/pull/3 targeting `main`. Remaining integration: confirm the validated PR head and required checks, merge, verify remote merge, and fast-forward the primary checkout if clean. The portable scene and native previews remain preserved independently of this checkout. Remove the remote task branch after confirmed merge; archive this checkout only if the host allows it. This committed record records readiness, not predicted merge success.
