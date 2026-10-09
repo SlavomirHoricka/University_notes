@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "uni-teach",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Course-note ingestion, planning, tutoring, and spaced recall for the Uni Obsidian vault.",
   "author": {
     "name": "Slavomir Horicka"
