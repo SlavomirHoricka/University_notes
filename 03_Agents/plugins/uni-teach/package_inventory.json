@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "package_version": "0.3.0",
-  "source_root": "/Users/slavomirhoricka/Desktop/Obsidian/Uni/03_Agents",
+  "package_version": "0.3.1",
+  "source_root": "/Users/slavomirhoricka/.codex/worktrees/ingest-concept-priorities/University_notes/03_Agents",
   "files": {
     "LEARNING_ARCHITECTURE.md": {
       "source": "LEARNING_ARCHITECTURE.md",
@@ -25,7 +25,7 @@
     },
     "skills/ingest/SKILL.md": {
       "source": "ingest/SKILL.md",
-      "sha256": "73ca0d060d0191c78208847974ea2b0244ee30eae9bba65f861d7bee0879aee0"
+      "sha256": "7bc0a98893334bcfa345d0605ca0d2a6b618685a86e228fbc9ab8a5cce8dfa15"
     },
     "skills/plan/SKILL.md": {
       "source": "plan/SKILL.md",

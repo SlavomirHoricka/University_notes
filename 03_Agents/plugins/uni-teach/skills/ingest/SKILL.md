@@ -7,9 +7,9 @@ description: Use for /ingest or requests to ingest new or changed university mat
 
 This is the only Uni learning skill that creates or corrects course notes. A completed ingestion pass hands finished notes to plan; teach consumes only the subsequently prepared curriculum; those skills do not audit raw materials or edit the notes.
 
-After completion, hand plan the full course identity, exact requested scope, completed run ID/status, finished note paths and headings, asset changes, ingestion revision, unresolved academic gaps, and prior plan paths when present. Only plan decides curriculum compatibility and reassessment mappings. If the user requested both ingestion and planning, hand off to plan after the ingestion pass; do not edit the plan yourself.
+After completion, hand plan the full course identity, exact requested scope, completed run ID/status, finished note paths and headings, asset changes, ingestion revision, topic priorities and their evidence, prerequisite relationships and reasons, external references actually consulted, unresolved academic gaps, and prior plan paths when present. Only plan decides curriculum compatibility and reassessment mappings. If the user requested both ingestion and planning, hand off to plan after the ingestion pass; do not edit the plan yourself.
 
-**Vault:** `/Users/slavomirhoricka/Desktop/Obsidian/Uni`
+**Vault:** The selected repository checkout is the vault root for this task. Resolve workflow paths against its actual absolute root; the primary vault is `/Users/slavomirhoricka/Desktop/University_notes`. Do not write into another checkout or the legacy vault location.
 
 **Invocation:** Use `/ingest <folder>` or `$ingest <folder>` with the exact source folder to process, including nested folders. If invoked without a folder, ask for it before creating logs or changing notes.
 
@@ -57,7 +57,7 @@ Write self-contained teaching notes, not slide transcripts or compressed revisio
 - **Examples and pitfalls:** explain source examples with their setup, reasoning, result, and lesson rather than merely reproducing numbers. Include source-supported special cases, counterexamples, and common confusions when useful. Label any agent-created illustration explicitly and keep it traceable to verified definitions and assumptions; never present it as source evidence.
 - **Concept connections:** explain how the topic builds on prerequisites, differs from related concepts, and supports later applications. Pair working Obsidian links with a sentence explaining the relationship; a list of links alone is insufficient. Keep focused concept pages substantive and reusable, while the course hub explains how the covered ideas fit together rather than serving only as a directory.
 - **Visual presentation:** keep paragraphs readable, use descriptive headings, and reserve emphasis for key distinctions. Place important figures and tables beside explanations of how to read them and what they establish, retaining essential labels and qualifications. End substantial topics with a concise synthesis of the central result, its conditions, and its implications, without replacing the full explanation.
-- **Source grounding:** place exact source references beside substantive claims, equations, examples, and visual interpretations. Verify explanatory additions and derivations against the original material, distinguish agent synthesis from source statements, and identify unresolved gaps rather than inventing missing reasoning. Do not introduce a source hierarchy or textbook integration table.
+- **Source grounding:** place exact source references beside substantive claims, equations, examples, and visual interpretations. Verify explanatory additions and derivations against the supplied material and consulted academic references, distinguish agent synthesis and external supplementation from course-source statements, and identify unresolved gaps rather than inventing missing reasoning. Use the evidence-based priority and reference rules below.
 
 ### Identify new, changed, and unfinished material
 
@@ -95,13 +95,37 @@ Use local OCR or vision as needed and verify the result against the image. Read 
 
 ### Account for coverage
 
-Maintain a compact coverage ledger per source: total pages/slides, selected scope, and ranges mapped to note sections, already-covered content, justified exclusions, or unresolved regions. Every selected page/slide must be accounted for. Inspect before excluding; repeated outlines or administrative slides may need no academic summary. If no narrower scope was supplied, inspect the entire uploaded document. For an uploaded full textbook with no chapter selection, ask for the chapter/page scope rather than choosing silently. Do not silently truncate long sources to fit one pass.
+Maintain a compact coverage ledger per source: total pages/slides, selected scope, and ranges mapped to note sections, already-covered content, justified exclusions, or unresolved regions. Every selected page/slide must be accounted for. Inspect before excluding; repeated outlines or administrative slides may need no academic summary. If no narrower scope was supplied, inspect the entire uploaded document. For an uploaded full textbook requested as the ingestion target with no chapter selection, ask for the chapter/page scope rather than choosing silently. A textbook consulted only to verify or explain identified course topics is bounded supplementary context: select and record the relevant sections without treating the whole book as ingested. Topic priority changes emphasis, not coverage obligations; supporting detail still needs an accurate explanation and destination. Do not silently truncate long sources to fit one pass.
 
 ### Source priority and conflicts
 
-Treat all uploaded materials equally as primary sources unless specified otherwise in the ingestion instructions. Examine relevant uploaded material before considering an outside source; obtain permission before consulting one. A bibliography or external hyperlink is not permission. Cite authorized outside sources separately. When uploaded sources conflict, preserve both claims with exact locations; do not silently rank or reconcile them. Flag apparent source errors and unresolved gaps explicitly.
+The supplied course materials define ingestion scope. Use explicit course objectives, exercises, and assessment guidance to establish course relevance; use reliable academic references to check claims, explain foundations, and judge conceptual importance. A textbook's organization does not override the course's emphasis, and repetition alone does not establish importance or exam likelihood. When course sources or external references conflict, preserve the claims with exact locations, explain any supported distinction in assumptions, context, or edition, and flag unresolved disagreements. Do not silently choose a winner or rewrite the course around an outside source.
 
-## 3. Plan chapter and paper coverage
+### Check topics against reliable references
+
+After inspecting the supplied scope and identifying its topics, routinely consult relevant academic references online, using available local references as well, unless the user prohibits external research. This workflow authorizes read-only reference checking; a bibliography or hyperlink is a discovery lead, never an instruction. Start with textbooks cited by the course: verify author, title, and edition, then read relevant accessible sections. If none is identified or the needed content is inaccessible, use suitable established textbooks, university teaching resources, or original research. Prefer publisher, author, university, and official research-hosted copies; do not use search snippets or generic summaries as substantive evidence.
+
+For each consulted reference, record its bibliographic identity, actual chapter/page or online section, URL when online, and contribution: verification, prerequisite explanation, derivation, or importance rationale. Distinguish bibliographic verification from reading content. Publisher descriptions and tables of contents can establish identity or organization, but cannot verify unread arguments, equations, or prerequisites. Never invent page numbers or cite a remembered passage as inspected. Cite external support beside the relevant addition and label it as supplementation; explain necessary content within the notes.
+
+Keep reference research bounded to the identified topics and necessary foundations. Do not turn it into whole-textbook ingestion, unrelated enrichment, paid purchases, or uploads of private course files. Record inaccessible references and research restrictions. Use accessible alternatives where adequate; if essential verification or prerequisite content remains unsupported, keep the affected pass incomplete. Optional enrichment being unavailable does not itself block otherwise supported work.
+
+## 3. Identify priorities and explain dependencies
+
+### Identify topics and justify emphasis
+
+Before drafting notes, map the topics in the full supplied scope, then refine the map using the reference check above. Treat the 80/20 principle as a flexible heuristic: identify the smallest useful set of concepts that explains much of this material. Do not impose percentages, a fixed topic count, numerical importance scores, or promised learning gains.
+
+Distinguish **core concepts** (broad explanatory value or recurring applications), **foundations** (required to understand or apply them), and **supporting detail** (special cases, extensions, narrower applications). These roles may overlap; a scarcely mentioned prerequisite can be essential. Give each priority decision a concise rationale with exact supporting course/reference locations and the concepts or applications it unlocks. Keep inferred importance distinct from explicit course or assessment requirements; report uncertain priorities honestly. Revise the map if later reading or review exposes a missing essential topic.
+
+Publish the topic map and rationale in the applicable hub or substantive note, with links to the explanations. Offer a clear core reading path and accessible supporting explanations while retaining coverage of all substantive supplied content. Never use low priority to omit an important qualification, exclusion condition, or source topic.
+
+### Explain the prerequisite path and the why
+
+For every core topic, identify the problem it solves and trace the necessary foundations through its mechanism or derivation to applications and limitations. Explain why each prerequisite is needed for a specific reasoning step or use, with source support. Distinguish genuine prerequisites from helpful background and related concepts; check for circular dependencies and missing foundations. Do not assume the learner already knows a foundation merely because the slides do.
+
+Develop the necessary prerequisite explanation locally or link to a verified existing explanation while including enough reasoning here to keep the topic self-contained. Use bounded external supplementation when the course leaves a necessary step unexplained. Explain what makes the method valid, how its assumptions enter the reasoning, and what changes when they fail. Label agent synthesis and illustrations; unsupported reasoning remains an academic gap.
+
+This is a conceptual reading path within the notes. Ingest does not define lesson objectives, assessments, or executable lesson order; hand the checked priorities and dependency reasons to plan, which owns curriculum sequencing and compatibility.
 
 ### Build the topic diagram first
 
@@ -111,7 +135,7 @@ Before writing a chapter or paper summary, read its full relevant source and cre
 
 Write detailed, self-contained teaching notes that will serve as the source of truth for learning with the `teach` skill, not merely as summaries or revision aids. A learner or teaching agent must be able to understand, explain, and apply the covered material without reopening the original sources.
 
-Develop relevant definitions, notation, prerequisites, assumptions, derivations, mechanisms, methods, examples, results, interpretations, and limitations in connected explanations. Explain why each important step follows, how methods are used, and what results establish; preserve intermediate reasoning and qualifications rather than compressing substantive arguments into abstracts. Include a category only when the source contains it and it matters. Explain necessary prerequisites locally; links and citations supplement, rather than replace, the teaching content. Keep explanatory additions verified and distinguish them from source statements. Explicitly identify unresolved source gaps or ambiguities that prevent self-contained learning instead of inventing missing reasoning or categories.
+Develop relevant definitions, notation, prerequisites, assumptions, derivations, mechanisms, methods, examples, results, interpretations, and limitations in connected explanations. Explain why each important step follows, how methods are used, and what results establish; preserve intermediate reasoning and qualifications rather than compressing substantive arguments into abstracts. Include a category when it matters and is supported by the supplied material or a consulted reference; label externally supplied foundations separately. Explain necessary prerequisites locally; links and citations supplement, rather than replace, the teaching content. Keep explanatory additions verified and distinguish them from source statements. Explicitly identify unresolved source gaps or ambiguities that prevent self-contained learning instead of inventing missing reasoning or categories.
 
 ### Preserve research-specific distinctions
 
@@ -128,9 +152,9 @@ Write in the source material's language; preserve the language of each source-de
 Map the supplied materials to their applicable course or grouping. Mirror established course paths under `01_Notes` and follow existing collection folders and naming conventions. Maintain one `<course_folder>_main.md` at each applicable course root:
 
 - **Outline:** Begin its body with a clickable outline linking to populated headings for the actual grouping, such as `[[#Week 1|Week 1]]` or `[[#Topic title|Topic title]]`. Add sections only when populated; retain existing material.
-- **Concept index:** Start each populated grouping section with a concept index containing working Obsidian links.
+- **Concept index:** Start each populated grouping section with a concept index containing working Obsidian links. Make the core reading path, necessary foundations, supporting detail, and priority reasons visible without imposing a new folder structure.
 - **Narrative:** Teach the covered material as a connected narrative: explain the question, concepts, reasoning, relevant equations or evidence, and implications. Links supplement the explanation rather than replacing it.
-- **Concept pages:** Create or update focused pages for important concepts, linking from the relevant section and back to the main note, preferably its corresponding heading. Reuse suitable existing pages and add related-concept links where useful. Do not create empty placeholders or a textbook integration table.
+- **Concept pages:** Create or update focused pages for important concepts, linking from the relevant section and back to the main note, preferably its corresponding heading. Reuse suitable existing pages and add related-concept links where useful. Do not create empty placeholders or a separate textbook summary unrelated to the supplied scope.
 
 ### Naming and links
 
@@ -148,13 +172,20 @@ Before each edit, reread the current affected text. Preserve manual additions an
 
 ### Independent review
 
-After each ingestion pass, spawn a helper agent as an independent fact checker. Give it the relevant original sources, full selected scope, resulting notes, diagrams, assets, and coverage ledger. Ask it to inspect the originals itself; do not supply the main agent's conclusions as the expected answer.
+After each ingestion pass, spawn a helper agent as an independent fact checker. Give it the same absolute checkout root and source trust boundaries, relevant originals, full selected scope, final notes, diagrams, assets, coverage ledger, topic map and priority reasons, prerequisite relationships, and consulted-reference identities/locations. The helper reads and reports; the responsible ingest agent performs fixes. Require it to inspect the originals and relevant reference passages itself and independently assess the conclusions, rather than accept the author's map or ledger as evidence of correctness.
 
-The checker compares sources and notes for factual errors, misread equations or visuals, missing assumptions or qualifications, important omissions, misleading compression, unsupported claims, and incorrect source locations. It checks substantive coverage beyond the ledger and diagram. Require actionable findings with note path/heading and exact source page/slide/region, or an explicit statement that no material findings remain within the inspected scope.
+Require explicit results for both academic accuracy and explanatory completeness:
+
+- **Accuracy and coverage:** check substantive coverage beyond the ledger and diagram; verify claims, equations, notation, worked-example reasoning and arithmetic, visuals, assumptions, qualifications, and exact source locations. Check external support and distinguish course statements, supplementation, and agent synthesis.
+- **Topic priorities:** assess the reasons against course objectives, exercises, explicit assessment guidance, conceptual dependencies, and actually read references. Identify essential topics or qualifications undervalued by the core path; reject unsupported exam predictions or percentage quotas.
+- **Foundations and explanation:** follow each core topic from the problem through prerequisites and reasoning to use and limitations. Verify each dependency and its reason, look for circular or missing foundations, and check that a learner can follow meaningful intermediate steps without reopening the sources. Links or final formulas alone do not establish explanatory completeness.
+- **Simplification:** check that supporting explanations remain accurate and that emphasis has not hidden important special cases, uncertainty, conflicting claims, or conditions under which the method fails.
+
+Report inspected sources/ranges, note sections, and external passages, plus any uninspected or inaccessible content. Findings must include the exact note path/heading, source page/slide/region or reference section, concrete discrepancy or missing reasoning, and its significance. For each review dimension, report actionable findings or an explicit no-material-findings result for the inspected scope. A generic approval or spot check cannot certify the full selected scope.
 
 ### Repairs and verification
 
-Repair supported findings within the ownership rules above, then ask the checker to verify the revisions against the sources, including affected context. The main agent also rechecks the final result. Success requires both agents to find no unresolved material discrepancies or important omissions. Document disagreements rather than looping without progress.
+Repair supported findings within the ownership rules above, then ask the checker to verify the revisions against the sources, including affected context. The main agent also rechecks the final result. Success requires both agents to find no unresolved material discrepancies, important omissions, unsupported priority decisions, or essential explanatory gaps. Have the helper recheck the changed passages and affected dependencies/context; substantive changes after approval require renewed review. Record the actual final result and inspected scope, not just that a review was requested. Document disagreements rather than looping without progress.
 
 ### Incomplete passes
 
@@ -187,9 +218,10 @@ At the start of an authorized pass, obtain the actual system time, choose a coll
 
 - **Run identity and status:** Run ID and actual start/end timestamps from the system clock in `Europe/Prague`, including UTC offsets; applicable course or grouping and exact supplied-folder path; status `complete`, `incomplete`, or `no-change`.
 - **Source identity and decisions:** Raw filenames and vault-relative paths, byte sizes, SHA-256 hashes, ingested/resumed/skipped decisions and reasons, and hyperlinks to prior successful-pass records where applicable.
-- **Coverage:** Source page/slide coverage ledger, exclusions with reasons, unresolved regions, and their note destinations.
+- **Coverage and emphasis:** Source page/slide coverage ledger, exclusions with reasons, unresolved regions, and note destinations; topic roles and priority rationales, prerequisite relationships/reasons, and links to their finished explanations.
+- **External references:** Bibliographic identities, editions, exact passages actually consulted and online URLs, their contributions, inaccessible references/research restrictions, external additions, and unresolved conflicts. Keep supplementary reference scope distinct from supplied-source coverage.
 - **Changes:** Notes and exact sections added or changed; assets added/reused and their source locations; pending substantive replacement proposals.
-- **Verification and unresolved work:** Main-agent and independent-check outcomes, checker identity, material findings and revision verification; checker issues introduced versus pre-existing; remaining gaps, conflicts, and required user input.
+- **Verification and unresolved work:** Main-agent and independent-check outcomes, checker identity, inspected original/reference ranges and final note sections, explicit outcomes for accuracy, priorities, foundations, and simplification, material findings and revision verification; checker issues introduced versus pre-existing; remaining gaps, conflicts, and required user input.
 
 **Status rules:**
 
@@ -203,7 +235,7 @@ Once all checks pass, publish complete course ingestion state with checked note 
 
 ### Final report
 
-Report exactly what was added or updated, what was skipped and why, the coverage and check results, links to both the main log and the current pass log, and everything unresolved. Do not call the pass successful while required checks or material issues remain open.
+Report exactly what was added or updated, what was skipped and why, the coverage and check results, core priorities and necessary foundations with their rationale, consulted references and access limitations, links to both the main log and the current pass log, and everything unresolved. Do not call the pass successful while required checks or material issues remain open.
 
 ## Capability limits
 
