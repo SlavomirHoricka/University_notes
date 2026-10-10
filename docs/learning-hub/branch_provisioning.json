@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "base_policy": "Create from verified merged technical-package commit; no implementation work claimed. Verify actual local/remote refs before dispatch.",
+  "preserve_remote_role_branches": true,
+  "branches": [
+    {
+      "role": "hub_coordinator",
+      "branch": "codex/hub-integration",
+      "purpose": "Coordinate dependency receipts, integration, release and narrowly reviewed interface changes."
+    },
+    {
+      "role": "hub_foundation",
+      "branch": "codex/hub-foundation",
+      "purpose": "Own backend models, schema, migrations, storage/receipt foundation and generated API types."
+    },
+    {
+      "role": "hub_provider",
+      "branch": "codex/hub-provider",
+      "purpose": "Own supported Plus OAuth, Codex RPC/process adapter, model access and usage transport."
+    },
+    {
+      "role": "hub_frontend",
+      "branch": "codex/hub-frontend",
+      "purpose": "Own typed app shell, course/section/assessment/review UI, Agents tab and accessibility."
+    },
+    {
+      "role": "hub_visuals",
+      "branch": "codex/hub-visuals",
+      "purpose": "Own safe deterministic visual components, equation registry and accessible reference-case validation."
+    },
+    {
+      "role": "hub_workflows",
+      "branch": "codex/hub-workflows",
+      "purpose": "Own source inventory/extraction, durable jobs, owner adapters, checked preparation and publication."
+    },
+    {
+      "role": "hub_assessment",
+      "branch": "codex/hub-assessment",
+      "purpose": "Own deterministic grading, prepared-rubric AI assessment, exposure-aware selection and course-specific reviews."
+    },
+    {
+      "role": "hub_operations",
+      "branch": "codex/hub-operations",
+      "purpose": "Own manual launcher, process supervision, backup/restore, diagnostics and user runbooks."
+    },
+    {
+      "role": "hub_qa",
+      "branch": "codex/hub-qa",
+      "purpose": "Own cross-feature end-to-end/fault/security verification, fixtures and release evidence; route product fixes to owner."
+    },
+    {
+      "role": "hub_reviewer",
+      "branch": "codex/hub-review",
+      "purpose": "Independently review exact integrated commits for correctness, trust boundaries, evidence safety and release completeness."
+    }
+  ]
+}

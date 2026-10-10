@@ -1,0 +1,746 @@
+{
+  "schema_version": 1,
+  "package_id": "personal-learning-hub-v1",
+  "status": "implementation_not_started",
+  "max_total_agents": 4,
+  "root_counts_as_slot": true,
+  "ownership_rules": {
+    "longest_matching_prefix_wins": true,
+    "scaffold_exception": "H00 may create empty package entrypoints and shared tooling under apps/learning_hub; root records the exact initial files and transfers future edits to their registered owner. No feature implementation under another owner's path.",
+    "canonical_exception": "H09 proposes an exact canonical patch; root explicitly assigns that maintained-source path set after the H02 schema/compatibility gate. No canonical changes before that recorded assignment.",
+    "shared_composition": "H00 composition hooks and shared configs remain foundation-owned; root routes registration/interface edits to foundation, never competing worker edits."
+  },
+  "roles": [
+    {
+      "id": "hub_coordinator",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "branch": "codex/hub-integration",
+      "profile": ".codex/agents/hub_coordinator.toml",
+      "responsibility": "Coordinate dependency receipts, integration, release and narrowly reviewed interface changes.",
+      "owned_paths": [
+        "docs/learning-hub/",
+        "03_Agents/runtime/sessions/",
+        ".codex/agents/hub_",
+        "apps/learning_hub/docs/validation/release.md"
+      ],
+      "tasks": [
+        "H16"
+      ],
+      "read_only": false
+    },
+    {
+      "id": "hub_foundation",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "branch": "codex/hub-foundation",
+      "profile": ".codex/agents/hub_foundation.toml",
+      "responsibility": "Own backend models, schema, migrations, storage/receipt foundation and generated API types.",
+      "owned_paths": [
+        "apps/learning_hub/pyproject.toml",
+        "apps/learning_hub/uv.lock",
+        "apps/learning_hub/Makefile",
+        "apps/learning_hub/backend/learning_hub/domain/models/",
+        "apps/learning_hub/backend/learning_hub/domain/ports/",
+        "apps/learning_hub/backend/learning_hub/application/core/",
+        "apps/learning_hub/backend/learning_hub/adapters/storage/",
+        "apps/learning_hub/backend/learning_hub/adapters/evidence/",
+        "apps/learning_hub/backend/learning_hub/api/core/",
+        "apps/learning_hub/backend/learning_hub/api/courses/",
+        "apps/learning_hub/backend/learning_hub/api/lessons/",
+        "apps/learning_hub/frontend/src/api/",
+        "apps/learning_hub/tests/unit/foundation/",
+        "apps/learning_hub/tests/contracts/",
+        "apps/learning_hub/tests/integration/foundation/",
+        "apps/learning_hub/frontend/package.json",
+        "apps/learning_hub/frontend/package-lock.json",
+        "apps/learning_hub/frontend/tsconfig.json",
+        "apps/learning_hub/frontend/vite.config.ts",
+        "apps/learning_hub/scripts/export_contracts.py"
+      ],
+      "tasks": [
+        "H00",
+        "H02",
+        "H03"
+      ],
+      "read_only": false
+    },
+    {
+      "id": "hub_provider",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "branch": "codex/hub-provider",
+      "profile": ".codex/agents/hub_provider.toml",
+      "responsibility": "Own supported Plus OAuth, Codex RPC/process adapter, model access and usage transport.",
+      "owned_paths": [
+        "apps/learning_hub/backend/learning_hub/adapters/codex/",
+        "apps/learning_hub/backend/learning_hub/api/provider/",
+        "apps/learning_hub/tests/unit/provider/",
+        "apps/learning_hub/tests/integration/provider/"
+      ],
+      "tasks": [
+        "H01"
+      ],
+      "read_only": false
+    },
+    {
+      "id": "hub_frontend",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "branch": "codex/hub-frontend",
+      "profile": ".codex/agents/hub_frontend.toml",
+      "responsibility": "Own typed app shell, course/section/assessment/review UI, Agents tab and accessibility.",
+      "owned_paths": [
+        "apps/learning_hub/frontend/src/app/",
+        "apps/learning_hub/frontend/src/features/",
+        "apps/learning_hub/frontend/src/components/math/",
+        "apps/learning_hub/frontend/src/components/outline/",
+        "apps/learning_hub/frontend/src/components/questions/",
+        "apps/learning_hub/frontend/src/styles/",
+        "apps/learning_hub/frontend/tests/"
+      ],
+      "tasks": [
+        "H04",
+        "H05",
+        "H13"
+      ],
+      "read_only": false
+    },
+    {
+      "id": "hub_visuals",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "branch": "codex/hub-visuals",
+      "profile": ".codex/agents/hub_visuals.toml",
+      "responsibility": "Own safe deterministic visual components, equation registry and accessible reference-case validation.",
+      "owned_paths": [
+        "apps/learning_hub/frontend/src/components/visuals/",
+        "apps/learning_hub/frontend/tests/visuals/",
+        "apps/learning_hub/backend/learning_hub/domain/visuals/",
+        "apps/learning_hub/tests/unit/visuals/"
+      ],
+      "tasks": [
+        "H06"
+      ],
+      "read_only": false
+    },
+    {
+      "id": "hub_workflows",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "branch": "codex/hub-workflows",
+      "profile": ".codex/agents/hub_workflows.toml",
+      "responsibility": "Own source inventory/extraction, durable jobs, owner adapters, checked preparation and publication.",
+      "owned_paths": [
+        "apps/learning_hub/backend/learning_hub/application/uploads/",
+        "apps/learning_hub/backend/learning_hub/application/ingestion/",
+        "apps/learning_hub/backend/learning_hub/application/publication/",
+        "apps/learning_hub/backend/learning_hub/adapters/vault/",
+        "apps/learning_hub/backend/learning_hub/adapters/extraction/",
+        "apps/learning_hub/backend/learning_hub/adapters/repository/",
+        "apps/learning_hub/backend/learning_hub/api/workflows/",
+        "apps/learning_hub/backend/learning_hub/worker/",
+        "apps/learning_hub/tests/unit/workflows/",
+        "apps/learning_hub/tests/integration/workflows/"
+      ],
+      "tasks": [
+        "H07",
+        "H08",
+        "H09",
+        "H10"
+      ],
+      "read_only": false
+    },
+    {
+      "id": "hub_assessment",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "branch": "codex/hub-assessment",
+      "profile": ".codex/agents/hub_assessment.toml",
+      "responsibility": "Own deterministic grading, prepared-rubric AI assessment, exposure-aware selection and course-specific reviews.",
+      "owned_paths": [
+        "apps/learning_hub/backend/learning_hub/domain/grading/",
+        "apps/learning_hub/backend/learning_hub/domain/selection/",
+        "apps/learning_hub/backend/learning_hub/domain/review_policy/",
+        "apps/learning_hub/backend/learning_hub/application/attempts/",
+        "apps/learning_hub/backend/learning_hub/application/assessments/",
+        "apps/learning_hub/backend/learning_hub/application/reviews/",
+        "apps/learning_hub/backend/learning_hub/api/assessments/",
+        "apps/learning_hub/tests/unit/assessment/",
+        "apps/learning_hub/tests/integration/assessment/"
+      ],
+      "tasks": [
+        "H11",
+        "H12"
+      ],
+      "read_only": false
+    },
+    {
+      "id": "hub_operations",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "branch": "codex/hub-operations",
+      "profile": ".codex/agents/hub_operations.toml",
+      "responsibility": "Own manual launcher, process supervision, backup/restore, diagnostics and user runbooks.",
+      "owned_paths": [
+        "apps/learning_hub/backend/learning_hub/operations/",
+        "apps/learning_hub/scripts/operations/",
+        "apps/learning_hub/README.md",
+        "apps/learning_hub/docs/operations/",
+        "apps/learning_hub/tests/unit/operations/",
+        "apps/learning_hub/tests/integration/operations/"
+      ],
+      "tasks": [
+        "H14"
+      ],
+      "read_only": false
+    },
+    {
+      "id": "hub_qa",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "branch": "codex/hub-qa",
+      "profile": ".codex/agents/hub_qa.toml",
+      "responsibility": "Own cross-feature end-to-end/fault/security verification, fixtures and release evidence; route product fixes to owner.",
+      "owned_paths": [
+        "apps/learning_hub/tests/e2e/",
+        "apps/learning_hub/tests/fixtures/",
+        "apps/learning_hub/docs/validation/"
+      ],
+      "tasks": [
+        "H15"
+      ],
+      "read_only": false
+    },
+    {
+      "id": "hub_reviewer",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "branch": "codex/hub-review",
+      "profile": ".codex/agents/hub_reviewer.toml",
+      "responsibility": "Independently review exact integrated commits for correctness, trust boundaries, evidence safety and release completeness.",
+      "owned_paths": [],
+      "tasks": [],
+      "read_only": true
+    }
+  ],
+  "tasks": [
+    {
+      "id": "H00",
+      "title": "Scaffold and locked quality tooling",
+      "role": "hub_foundation",
+      "depends_on": [],
+      "steps": [
+        "Read package; record supported runtime/dependency versions. Create Python package with backend package-dir and React/TS frontend; lock dependencies and document baseline. No production fake content.",
+        "Create composition entry point and health route, typed Clock/IDs and test transports, feature namespaces, temporary-vault fixtures and private/runtime ignore rules scoped to app.",
+        "Create Makefile targets check-unit, check-contracts, check-integration, check-ui, check-e2e, check-all, build, export-contracts, launch and stop; targets must invoke real tools and propagate failure.",
+        "Establish Ruff, one static Python type checker, pytest, ESLint/TS strict, component tests and Playwright. Cross-language API types generated, not hand-copied.",
+        "Produce initial development README and install diagnostic. Shared scaffold edit ownership transfers explicitly to later role owners."
+      ],
+      "outputs": [
+        "apps/learning_hub/pyproject.toml",
+        "apps/learning_hub/Makefile",
+        "apps/learning_hub/frontend/package.json",
+        "apps/learning_hub/backend/learning_hub/application/core/bootstrap.py"
+      ],
+      "acceptance": [
+        "Fresh checkout install/build works with documented locked dependencies.",
+        "Health serves loopback and no course/learner records are fabricated.",
+        "Deliberately failing check exits nonzero; no catch-all disabled tests.",
+        "App runtime secrets/database/temp outputs are ignored without ignoring canonical journals."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H01",
+      "title": "Prove supported Plus sign-in and provider adapter",
+      "role": "hub_provider",
+      "depends_on": [
+        "H00"
+      ],
+      "steps": [
+        "Implement ProviderClient against supported SIWC registration/sign-in. Validate state/nonce/PKCE, redirect origin and ID token/scopes. Persist opaque host/client IDs and credentials in protected local storage.",
+        "Implement length-bounded newline JSON-RPC stdio framing, initialize/initialized handshake, thread start/resume, turn start/cancel and terminal event mapping. Pin compatible app-server binary/version.",
+        "Implement account-specific model/effort access verification, redacted provider events, refresh/restart/resume and typed error taxonomy. Do not equate model catalog with access.",
+        "Perform one real subscribed inference with explicit model+effort after user sign-in. No browser cookie scraping, backend-api routes, API key fallback or purchased credits.",
+        "Return supported/unsupported capabilities to core and worker. Store receipt without tokens; pause unavailable eligibility rather than retry endlessly."
+      ],
+      "outputs": [
+        "apps/learning_hub/backend/learning_hub/adapters/codex/",
+        "apps/learning_hub/backend/learning_hub/api/provider/"
+      ],
+      "acceptance": [
+        "Mock OAuth wrong state/nonce/redirect/expired token rejected; secrets absent from UI/logs.",
+        "Real terminal completed request proves selected subscription access; revoked login remains blocked.",
+        "Interrupted/failed turn never marked successful; fragmented RPC/events handled.",
+        "Auth refresh resumes correct thread without duplicating a logical task."
+      ],
+      "external_gate": "user_sign_in_and_account_eligibility",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H02",
+      "title": "Typed contracts and compatibility gate",
+      "role": "hub_foundation",
+      "depends_on": [
+        "H00"
+      ],
+      "steps": [
+        "Implement CONTRACTS canonical models (strict/discriminated unions, ID/version types, allowed states) and public/private serialization.",
+        "Create SQLite migrations/constraints, repository protocols and generated OpenAPI/TypeScript types. Add proposed web bundle/evidence extension schemas only after compatibility review.",
+        "Write exact migration proposal for current records contract: legacy prefix preservation, schema3 immutable event acceptance, appended web facts, owner fields/validation. Root assigns canonical patches in H09.",
+        "Generate controlled illustrative synthetic bundles/questions and contract fixtures. No ingestion readiness or learner outcome inferred from fixtures.",
+        "Freeze API version v1/schema revision; root reviews exported interface before dependent tasks merge it."
+      ],
+      "outputs": [
+        "apps/learning_hub/backend/learning_hub/domain/models/",
+        "apps/learning_hub/backend/learning_hub/adapters/storage/migrations/",
+        "apps/learning_hub/frontend/src/api/generated/"
+      ],
+      "acceptance": [
+        "Unknown fields/invalid version tuple/dangling question IDs rejected.",
+        "Private keys and retention items excluded from learner payload snapshot tests.",
+        "Upgrade from existing legacy/schema3 fixtures preserves byte-identical prior events.",
+        "Generated TS matches OpenAPI; migration empty/upgrade/conflict tests pass."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H03",
+      "title": "Durable receipts, owner evidence and projections",
+      "role": "hub_foundation",
+      "depends_on": [
+        "H02"
+      ],
+      "steps": [
+        "Implement receipt command boundary and request hash uniqueness, actual timestamps, pending outbox and response replay. Server creates attempt/item/version identity.",
+        "Checkpoint prepared prompt through teach owner before delivery; store display acknowledgement separately. Actual raw answer persisted before AI dispatch.",
+        "EvidenceWriter commits compatible teach-owned transaction and verifies bytes/journal; only then marks outbox acknowledged and rebuilds projections. H09 supplies production owner runtime capability.",
+        "Handle crash cuts before/after canonical commit and DB acknowledgement with stable event/transaction IDs and recovery inspection. Preserve unsaved pending intent.",
+        "Expose catalog/session/resume/readiness and receipt endpoints with legal transitions. Completion derives from received process facts; result pending/absent is not fail/pass."
+      ],
+      "outputs": [
+        "apps/learning_hub/backend/learning_hub/adapters/evidence/",
+        "apps/learning_hub/backend/learning_hub/application/core/",
+        "apps/learning_hub/backend/learning_hub/api/lessons/"
+      ],
+      "acceptance": [
+        "Repeated same key/body replays; different body returns conflict.",
+        "Crash after canonical write replays without a duplicate event; uncertain journal blocks projection.",
+        "85%-style status projection never rewrites objective acquisition evidence.",
+        "Refresh/second tab/version conflict preserves exact attempt and learner response."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H04",
+      "title": "Typed UI shell, courses/weeks and upload surface",
+      "role": "hub_frontend",
+      "depends_on": [
+        "H02"
+      ],
+      "steps": [
+        "Port design reference into modular shared tokens/layout/semantic components and generated API client.",
+        "Implement routes, full identity catalog, week/lesson lists, truthful readiness/completion/attention badges and empty/pending/error states.",
+        "Replace localStorage course/lesson counters; expose no manual completion UI/mutation.",
+        "Build course/week upload picker/dropzone and per-file states using contract fake transport until H07 is integrated; mocks only in development/tests.",
+        "Implement responsive navigation and provider/health status view, preserve keyboard/focus and error retry behavior."
+      ],
+      "outputs": [
+        "apps/learning_hub/frontend/src/app/",
+        "apps/learning_hub/frontend/src/features/courses/",
+        "apps/learning_hub/frontend/src/styles/"
+      ],
+      "acceptance": [
+        "All published weeks accessible without score locks.",
+        "Partial coverage denominator is explicit; missing evidence shows unknown.",
+        "Desktop/narrow/empty/error screenshots inspected; no demo statistics.",
+        "Upload saved state is distinguishable from ingested/published state."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H05",
+      "title": "Section lesson player, maths and deterministic checkpoint UI",
+      "role": "hub_frontend",
+      "depends_on": [
+        "H03",
+        "H04"
+      ],
+      "steps": [
+        "Implement structured section renderer and pinned lesson sessions; navigation/heading IDs come from bundle contract.",
+        "Implement active outline IntersectionObserver with reduced-motion behavior and accessible scroll/focus handling.",
+        "Render sanitized prose, maths, source assets, worked steps and generic visuals. Validate supported math and no arbitrary HTML.",
+        "Implement numeric/matching/choice question inputs, receipt lifecycle, prepared feedback/correction flow, assistance and resume bookmark.",
+        "Implement separate prepared quiz/test/review UI states; final assessment/selection services from H11/H12 integrate through unchanged contracts."
+      ],
+      "outputs": [
+        "apps/learning_hub/frontend/src/features/lessons/",
+        "apps/learning_hub/frontend/src/components/math/",
+        "apps/learning_hub/frontend/src/components/questions/"
+      ],
+      "acceptance": [
+        "Scrolling/navigation alone never verifies completion.",
+        "Wrong/correct feedback displayed after persisted response and repeat submits are idempotent.",
+        "New publication mid-session cannot swap key/content; reload resumes outstanding item.",
+        "Long maths/headings/reduced motion/keyboard matching supported."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H06",
+      "title": "Validated interactive visual component library",
+      "role": "hub_visuals",
+      "depends_on": [
+        "H05"
+      ],
+      "steps": [
+        "Implement versioned safe visual registry and typed configurations for timeline, relationship/payoff plots, scenario table, derivation reveal and annotations.",
+        "Use controlled numeric functions; declare units/domains/assumptions/reference cases. Never eval arbitrary generated expressions/scripts.",
+        "Coordinate required model/schema additions through foundation; align public rendering and backend publication validators.",
+        "Provide keyboard controls, semantic text/table alternatives and bounded parameter input.",
+        "Prepare synthetic reference fixtures with checked numerical cases; actual course instances await academic review."
+      ],
+      "outputs": [
+        "apps/learning_hub/frontend/src/components/visuals/",
+        "apps/learning_hub/backend/learning_hub/domain/visuals/"
+      ],
+      "acceptance": [
+        "Invalid parameter/domain/formula config is rejected, not rendered as credible content.",
+        "Reference cases below/at/above strike and bond domain examples pass when supported.",
+        "Interactions do not fabricate mastery; accessibility alternatives work.",
+        "No component introduces a new course topic without finished-note support."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H07",
+      "title": "Uploads, stable source revisions and previous-week delta inventory",
+      "role": "hub_workflows",
+      "depends_on": [
+        "H02"
+      ],
+      "steps": [
+        "Persist staged bytes durably, inspect actual media type/size, sanitize path and assign stable source ID/course/week; preserve immutable revisions.",
+        "Implement managed-source and primary 00_Materials same-course scans on upload/startup plus debounced watcher; hash bytes/record relevant dependencies.",
+        "Handle duplicate/replacement/rename/deletion explicitly; never delete notes/evidence due to file removal.",
+        "Coalesce batches into source snapshot, mark affected dependency scope and create durable requested job using H08 repository port.",
+        "Implement local extraction/render/OCR adapter inventory with page/slide locator and failure coverage. Preserve figures/tables/maths."
+      ],
+      "outputs": [
+        "apps/learning_hub/backend/learning_hub/application/uploads/",
+        "apps/learning_hub/backend/learning_hub/adapters/extraction/",
+        "apps/learning_hub/backend/learning_hub/api/workflows/"
+      ],
+      "acceptance": [
+        "Identical upload triggers no extra AI step; earlier-week bytes change is detected.",
+        "Traversal/symlink/type mismatch/oversize rejected; original revisions preserved.",
+        "Unreadable page remains unresolved; partial extraction cannot certify coverage.",
+        "Rename-only delta preserves identity and missing-file conflict does not delete learner records."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H08",
+      "title": "Durable worker, quota recovery and serialized course reservations",
+      "role": "hub_workflows",
+      "depends_on": [
+        "H01",
+        "H03"
+      ],
+      "steps": [
+        "Implement job/step transition graph, atomic leases/fencing, heartbeats, expired worker recovery and input/output fingerprinted checkpoints.",
+        "Serialize course owner mutations across checkout roots with configured global coordinator reservation and existing local records lock; do not steal active locks.",
+        "Handle quota eligibility with reported reset time or bounded unknown-reset probes; distinguish auth/permanent/input/provider-transient errors.",
+        "Yield safely for pause/cancel and interactive grading priority, release course locks while waiting. Persist every next eligible run time.",
+        "Expose job reads/events/legal commands, retention-safe cleanup and dependency invalidation; no in-memory-only FastAPI background queue."
+      ],
+      "outputs": [
+        "apps/learning_hub/backend/learning_hub/worker/",
+        "apps/learning_hub/backend/learning_hub/api/workflows/"
+      ],
+      "acceptance": [
+        "Browser closure does not stop worker and restart recovers exact eligible pending step.",
+        "Crash/expired lease cannot allow stale worker publish or duplicate canonical write.",
+        "Unknown reset is not assumed 5h; low-frequency probes do not rerun full job.",
+        "Cancelled/paused/limit-wait job releases locks and preserves staged artifacts."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H09",
+      "title": "Canonical owner-contract support and bounded Uni runtime adapters",
+      "role": "hub_workflows",
+      "depends_on": [
+        "H02",
+        "H03",
+        "H08"
+      ],
+      "steps": [
+        "Have root explicitly serialize and assign the canonical extension patch proposed by H02. Scope exact maintained records/templates/validators and generated package checks, no installed cache edits or private plugin release.",
+        "Implement strict SkillRunRequest/Result with selected absolute vault root, full course/source scope, transaction/review IDs, allowed owned tools and compatibility.",
+        "Dispatch existing Uni owners and separate reviewers with fixed model/effort and no competing writers; required source reviews use originals, curriculum reviews use checked notes.",
+        "Bridge deterministic web facts to teach logical ownership without LLM per checkpoint and without unsupported current schema fields; verify owner transaction.",
+        "Support plan/ingest repair and exhausted-item-bank handoffs, pending intent recovery and source approvals inside site. Return blockers honestly."
+      ],
+      "outputs": [
+        "apps/learning_hub/backend/learning_hub/adapters/vault/",
+        "apps/learning_hub/backend/learning_hub/adapters/repository/",
+        "canonical-extension patch explicitly assigned by root"
+      ],
+      "acceptance": [
+        "Legacy/schema3 fixture bytes/events unchanged through migration and replay.",
+        "Tools cannot target another checkout, source text cannot expand permission, wrong owner rejected.",
+        "No ready plan or completed ingestion if independent review absent/material findings remain.",
+        "Grade/journal failure leaves answer pending; no fabricated source/learner evidence."
+      ],
+      "external_gate": "canonical_contract_independent_review",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H10",
+      "title": "Checked ingestion/planning pipeline and atomic publication",
+      "role": "hub_workflows",
+      "depends_on": [
+        "H07",
+        "H09"
+      ],
+      "steps": [
+        "Implement snapshot->ingest review->plan review->structural/transaction/Git gate->export->publish DAG with coverage matrix.",
+        "Prepare 25min sections, checkpoints/all-option feedback, sample-assessment-inspired keys/variants/visual specs via canonical plan owner.",
+        "Verify input revision and dependency fingerprints before each handoff; superseded job cannot publish against newer sources.",
+        "Stage public/private bundle/assets, validate schema/links/math/visuals/required content/versions, fsync then atomically publish pointer.",
+        "Freeze active sessions, preserve previous definitions/evidence and derive compatibility/delta routes. Queue noncritical notification until lesson end."
+      ],
+      "outputs": [
+        "apps/learning_hub/backend/learning_hub/application/ingestion/",
+        "apps/learning_hub/backend/learning_hub/application/publication/"
+      ],
+      "acceptance": [
+        "Every required finished-note concept maps to taught/assessed objective or remains an explicit blocked gap.",
+        "Fault between staging/pointer leaves complete old or new bundle, never mixed files.",
+        "Unreviewed/stale/partial academic output or repository integration blocker cannot publish Ready.",
+        "Changed criterion does not regrade old attempts or reset course progress."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H11",
+      "title": "Prepared quizzes, scoring and short-answer assessment",
+      "role": "hub_assessment",
+      "depends_on": [
+        "H03",
+        "H05",
+        "H09"
+      ],
+      "steps": [
+        "Implement deterministic exact-choice/matching/numeric grading using prepared tolerances/units with Decimal-safe parsing.",
+        "Implement prepared quiz sessions and weekly blueprint50/50 points, current/historical scope rules, no repeated exposed independent questions.",
+        "Implement short-answer grader bounded to exact rubric/version and actual response; validate structured component result; escalate ambiguous supported cases to Sol/high runtime assessor.",
+        "Separate submitted/completed/graded/passed/attention/unscorable and essential criteria. <90 attention, >=80+essentials pass; existing acquisition rules remain separate.",
+        "Support immediate retry variants, delayed classification and feedback only after canonical result committed. Slow/limit-limited grade remains pending while other study continues."
+      ],
+      "outputs": [
+        "apps/learning_hub/backend/learning_hub/domain/grading/",
+        "apps/learning_hub/backend/learning_hub/application/assessments/",
+        "apps/learning_hub/backend/learning_hub/api/assessments/"
+      ],
+      "acceptance": [
+        "85%+essentials: pass+attention;95% with missing essential: no pass.",
+        "Malformed/ambiguous AI score can't commit, invent new rubric or turn missing answer into fail.",
+        "Numeric rounding/decimal-v-percent/tolerance cases explicitly tested.",
+        "Weekly50/50 score weight and Week1 exception tested; original/assisted/retry results remain separate."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H12",
+      "title": "Exposure-aware course-specific review and recommendation adaptation",
+      "role": "hub_assessment",
+      "depends_on": [
+        "H10",
+        "H11"
+      ],
+      "steps": [
+        "Implement selection from prechecked unseen banks using item and family relation/exposure metadata; option shuffle alone never fresh.",
+        "Implement recall-owned evidence replay/date/gates via existing deterministic policy, no AI arithmetic or invented acquisition.",
+        "Implement corrective refresh vs retention pre-recap routes, estimates based on included topics, no fixed duration cap and no score locks.",
+        "Derive per-course Needs attention queues and adaptive next-study recommendations without rewriting canonical requirements.",
+        "Trigger background plan bank extension when variants exhausted; incoming checked version reconciles exact compatibilities/reassessment."
+      ],
+      "outputs": [
+        "apps/learning_hub/backend/learning_hub/domain/selection/",
+        "apps/learning_hub/backend/learning_hub/domain/review_policy/",
+        "apps/learning_hub/backend/learning_hub/application/reviews/"
+      ],
+      "acceptance": [
+        "Review session never mixes courses; weak-topic reason/evidence visible.",
+        "Fresh retrieval shown before recap; exposed/too-early/unknown-condition answer cannot become delayed retention.",
+        "Unseen bank exhaustion queues checked preparation rather than repeats marked fresh.",
+        "Recall updates derived only from committed results; retries/pending grades don't fabricate schedule evidence."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H13",
+      "title": "Agents UI and role/model controls",
+      "role": "hub_frontend",
+      "depends_on": [
+        "H04",
+        "H08",
+        "H10"
+      ],
+      "steps": [
+        "Implement resumable job timeline/events, source/review/publication details and changed-lesson summaries.",
+        "Display requested/actual model+effort and known usage/reset separately, never guessed cost/ETA.",
+        "Implement legal pause/resume/cancel/retry and future-job role settings through backend; validate supported choices.",
+        "Use post-lesson information queue, no progress toasts while reading; credential/private-reasoning redaction.",
+        "Exercise restart/reconnect/cursor gap states against integrated worker, not mock-only production behavior."
+      ],
+      "outputs": [
+        "apps/learning_hub/frontend/src/features/agents/"
+      ],
+      "acceptance": [
+        "SSE duplicate/gap handled via event dedup/resnapshot.",
+        "Unknown usage shown unknown, reviews not falsely labelled approved.",
+        "Changing role config cannot alter running attempt/key/rubric or disable required academic checks.",
+        "Browser lesson uninterrupted by routine publication jobs."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H14",
+      "title": "Manual launcher, supervision, diagnostics and backup/restore",
+      "role": "hub_operations",
+      "depends_on": [
+        "H01",
+        "H03",
+        "H08"
+      ],
+      "steps": [
+        "Implement installed local CLI and double-click launcher, single-instance lock/health discovery, detached supervisor and explicit stop.",
+        "Bind only loopback, enforce allowed origin/local mutation session, keep secrets in protected store and runtime outside Git.",
+        "Implement graceful shutdown, child cleanup, quota/sleep/restart recovery, log rotation and redacted diagnostic output.",
+        "Implement consistent operational DB+canonical records/bundles backup with manifest and restore into isolated directory; verify pending intents/version links.",
+        "Write setup/start/stop/update/troubleshooting/restore runbooks; no login autostart or machine waking."
+      ],
+      "outputs": [
+        "apps/learning_hub/backend/learning_hub/operations/",
+        "apps/learning_hub/scripts/operations/",
+        "apps/learning_hub/docs/operations/"
+      ],
+      "acceptance": [
+        "Manual launch->browser close->worker continues; explicit stop->launch resumes safely.",
+        "Existing unrelated port process never killed and no wildcard origin exposure.",
+        "Restore preserves attempts/history/pending outbox/private assets; invalid backup fails safely.",
+        "Launcher usable by learner without opening terminal/Obsidian."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H15",
+      "title": "Integrated behavioral, security and recovery QA",
+      "role": "hub_qa",
+      "depends_on": [
+        "H06",
+        "H12",
+        "H13",
+        "H14"
+      ],
+      "steps": [
+        "Build end-to-end Playwright and fault matrices in VALIDATION against exact integrated SHA with fake provider/temporary isolated vault.",
+        "Test origin/path/auth/secret/answer-key boundaries, concurrent tabs/workers, upload versions, journal crashes and publication pointer cuts.",
+        "Verify all agreed learner flows and responsive/math/visual accessibility screenshots; route bugs to owners, do not patch their modules.",
+        "Run repository before/after issue identity comparison, records fixture suite, all app check/build targets and migrations/restore.",
+        "Produce redacted release evidence and unresolved issues; no claim academic fact check from engineering tests."
+      ],
+      "outputs": [
+        "apps/learning_hub/tests/e2e/",
+        "apps/learning_hub/docs/validation/"
+      ],
+      "acceptance": [
+        "Every V01–V16 acceptance case mapped to actual result; material failures block release.",
+        "Injected loss/duplication/version/quota cases pass without fake grades or lost evidence.",
+        "Native displayed UI inspected with long/empty/pending/error scenarios.",
+        "No production fixture authority, skipped critical checks or secret in bundle/log."
+      ],
+      "external_gate": "none",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "H16",
+      "title": "Independent review, bounded real pilot and completed release",
+      "role": "hub_coordinator",
+      "depends_on": [
+        "H15"
+      ],
+      "steps": [
+        "Have fresh hub_reviewer inspect exact candidate SHA, security/data/role/Git boundaries, task receipts and acceptance evidence. Repair/recheck all material findings.",
+        "Prove supported real account integration and one bounded permissioned real-course upload->independent source check->independent plan check->publication->lesson UI flow. Do not fabricate a learner answer to populate dashboard.",
+        "If learner assessment behavior needs real answers, use isolated fictional rehearsal tagged test-only; record pilot limits and validate real app response plumbing without inventing evidence.",
+        "Open/update protected PR, verify exact head/checks, record ready_for_merge, merge/read back remote main, sync clean primary and preserve role branches/needed artifacts.",
+        "Deliver working manual launcher, runbook and final scope/checks/limits/commit/merge refs. If external source/signin/review gate fails, preserve work and report blocker, not finished app."
+      ],
+      "outputs": [
+        "integrated app release",
+        "apps/learning_hub/docs/validation/release.md",
+        "03_Agents/runtime/sessions/<implementation-session>.md"
+      ],
+      "acceptance": [
+        "All prior task acceptance validated on exact integrated SHA and reviewed final content.",
+        "Real source/curriculum reviewers report exact scope/final result; no inferred learner mastery.",
+        "Launcher and complete upload-to-study flow work with verified subscription access.",
+        "Actual PR merge/main sync/branch provenance confirmed."
+      ],
+      "external_gate": "real_subscription_and_academic_pilot",
+      "initial_status": "pending",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    }
+  ]
+}

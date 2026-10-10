@@ -1,0 +1,18 @@
+# Learning hub technical implementation package
+
+- Status: in_progress
+- Objective: commit executable engineering instructions, fixed subagent roles/model/effort, task graph, and separate implementation branches; add a natural-language next-chat start entry point. This task prepares implementation, not the application.
+- Primary checkout: `/Users/slavomirhoricka/Desktop/University_notes`, clean main at inspection.
+- Branch: `codex/hub-technical-plan`.
+- Worktree: `/Users/slavomirhoricka/.codex/worktrees/hub-technical-plan/University_notes`.
+- Base: freshly fetched `origin/main`, `92167c61fd8229133ccbfc39fa1a8b9121200ab9`.
+- Inputs: approved `/private/tmp/personal-learning-hub-implementation-plan-2026-10-10.md`; user prototype `/Users/slavomirhoricka/Downloads/personal_learning_hub_v3.html`; current root instructions, master learning architecture and model routing. Prior architecture/routing/recovery records remain provenance, not readiness declarations for new app work.
+- Scope: `docs/learning-hub/`, engineering `.codex/agents/hub_*.toml`, a narrow root AGENTS.md start pointer, this session record. No academic content, learner evidence, maintained Uni skill behavior or generated plugin changes.
+- Draft contributors: contracts and workflow specialists on separate managed worktrees/branches. Read-only independent review follows integration. Requested/actual settings and exact review findings will be recorded here.
+- Contracts specialist `/root/contracts_plan`: requested/host-dispatched `gpt-6.1-sol`, high, fresh context; branch `codex/hub-contracts-plan`, worktree `/Users/slavomirhoricka/.codex/worktrees/hub-contracts-plan/University_notes`, commit `be168bba57c54314f5393f9379c99c02c75a25bb`. Only CONTRACTS.md; merged preserving its history.
+- Workflow specialist `/root/workflows_plan`: requested/host-dispatched `gpt-6.1-sol`, high, fresh context; branch `codex/hub-workflows-plan`, worktree `/Users/slavomirhoricka/.codex/worktrees/hub-workflows-plan/University_notes`, commit `26e885fe0ef108c0adb422e5a069e3b8e19e9e63`. Only WORKFLOWS.md; merged preserving its history. Root aligned the single app-data-directory and binding SQL names with architecture/contracts.
+- Package: 10 fixed engineering profiles; 17 tasks H00–H16; three delivery stages, typed module/API/schema/evidence contracts, runtime owner gates, provider/quota recovery, immutable publication and V01–V16 release matrix. Root AGENTS entry point makes a future human begin request executable, without beginning coding now.
+- Baseline vault checker exit 1: four conceptual missing links (Data_Types_and_Variables→Descriptive_Statistics_Overview, Binomial_Distribution→Bernoulli_Distribution, Cumulative_Distribution_Function→Kolmogorov_Smirnov_Test, Variance→Standard_Error); two existing anchors (Measures_of_Central_Tendency→Measures_of_Dispersion interquartile range, Set_Operations_on_Events→Kolmogorov_Axioms inclusion-exclusion); eleven absent empty course mirrors in this fresh checkout. No course records fabricated. Full issue-identity comparison follows final content.
+- Structural plan validation passed under `/opt/homebrew/bin/python3.11`; nine isolated dispatch-safety tests passed. The reference prototype matches original SHA-256 `be558e726fe68093fb2672b2d1e54a9c829c6ac1f060393c5bd6bf58716aedaf`.
+- Validation: before/after vault issue identity comparison; task-DAG/role/TOML/ownership/link checks; scoped diff and whitespace review. Academic transaction verification is inapplicable to unchanged records.
+- Integration: normal protected PR to main; verify actual merge, fast-forward clean primary. Preserve user-requested future implementation branches. Archive only this task's disposable worktrees after confirming preserved changes.
