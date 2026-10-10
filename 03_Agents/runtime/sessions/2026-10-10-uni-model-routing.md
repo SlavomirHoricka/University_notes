@@ -1,6 +1,6 @@
 # University Assistant model routing
 
-- Status: in_progress
+- Status: ready_for_merge
 - Objective: implement the user's approved model/effort table, staged ingestion and configured subagents in all four maintained skills.
 - Branch: `codex/uni-model-routing`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/uni-model-routing/University_notes`
@@ -22,3 +22,10 @@
 - Plugin0.4.0 full archive:40 files, SHA256 `9edae9c92272a0285a0382805ddfbfb40f9891f69c2a8ce7c6679bcdb1e6a9bd`. Guarded publish from observed0.3.2 release to existing USER/PRIVATE identity succeeded at `pluginrel_6aca8f6ed03c8191895f46a6462cd80c`. All40 published files read back:39 byte-identical, compatibility manifest JSON-equivalent. Interface/prompts/icon/audience unchanged. Release receipt preserves requested settings vs actual/unknown host execution and activation limitation.
 - Host cache remains0.3.2 at inspection; no cache/global config edits. Project agent copies become available from synchronized checkouts in supported new Codex sessions. Installed plugin supporting configs are not claimed auto-installed. A full interactive teaching/assessment session remains untested; no learner response/result or recall task invented for testing.
 - Next: stage only task-owned instruction/configuration/packaging/session files, commit/push and open PR, record known PR and ready_for_merge, recheck head/gates, merge without protection overrides, fast-forward clean primary, then archive only this worktree after artifact checks. Preserve it if remote integration blocks.
+
+## Integration handoff — ready_for_merge
+
+- PR: [#7](https://github.com/SlavomirHoricka/University_notes/pull/7), main target; implementation/release commit `fcc5fb14093457eccde82b8a715329b36adee9a8`. This final handoff changes engineering documentation only; reviewed skill/config/package bytes remain unchanged.
+- GitHub reports actual validated head, MERGEABLE/CLEAN, no status checks listed and no required review decision. No GitHub approval is fabricated from internal review. Refetched main remains `ca18fd5de24daf329ab345c1fd4b098e9502f46d`; preserve remote protection and merge with a normal allowed method.
+- All65 staged paths were explicitly task-owned; no academic/learner changes. Worktree is clean with no ignored/untracked artifacts after the implementation commit. Primary was inspected clean/on main at the current base; recheck before fast-forward.
+- Next: push this handoff, confirm final PR head equals the validated content plus this documentation-only commit, merge/verify actual GitHub and remote-main state, fast-forward clean primary, verify generated profiles/package in that checkout and archive only this task worktree/delete its branches. No final success is predicted here. Host0.4.0 activation and full interactive teaching are separate unverified checks recorded above.
