@@ -1,6 +1,6 @@
 # Uni vault paths and Week 2 recovery
 
-- Status: in_progress
+- Status: ready_for_merge
 - Objective: resolve only the conflicting vault paths/registration and unfinished Week 2 ingestion with stale affected plans identified by the architecture task. Other hub decisions and unrelated maintenance remain untouched.
 - Branch: `codex/uni-paths-week2-recovery`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/uni-paths-week2-recovery/University_notes`
@@ -45,3 +45,11 @@
 - `sync_plugin.py` regenerated existing distribution at0.3.2; `--check` passes for all21 generated source files. Archive contains exactly25 expected files, SHA256 `abbdab1ffec84312b764f7f2b2687010d53509bcc0a0e127d2170b8289283efe`; old0.3.1 archive unchanged. All unrelated backend content, identity, private audience, interface/prompts and icon preserved.
 - Initial private upload was rejected by automatic approval review for lacking explicit exact-destination payload authorization. User then explicitly approved that upload; owned USER/private identity was independently confirmed by the backend listing. Guarded publish succeeded at release `pluginrel_6aca4d8fd8a4819182e216ece93f0fc5`; all25 files read back, 24 byte-identical and compatibility manifest JSON-equivalent. [[03_Agents/plugins/uni-teach-release.json]] retains factual cache/activation limitations. Source-root inventory portability remains deferred and does not redirect workflow writes.
 - Integration remains: commit explicit task paths, push/open PR, confirm remote gates/current head, record known PR/ready_for_merge, merge/verify, fast-forward clean primary, align standalone teach registration and remove only this task’s branch/worktree. No implementation or other architectural problem is included.
+
+## Integration handoff — ready_for_merge
+
+- PR: [#6](https://github.com/SlavomirHoricka/University_notes/pull/6), targeting main from this task branch. Content commit `553bbfe9dd18523990d21a61a99ff4a2459391d5`; this handoff update changes session documentation only, leaving all approved curriculum/note/package bytes untouched.
+- GitHub inspection: actual PR head matched the content commit; MERGEABLE/CLEAN, no status checks listed, reviewDecision empty. Repository has no configured `.github` workflows. All required source/curriculum and local gates above passed. Recheck the final PR head and merge eligibility after this handoff commit; use an allowed normal merge method, with no protection override.
+- Refetched origin/main remained `80204bf464751a67c4003675744d86a1aaa31fc0`; no upstream content integration/conflict required. Explicit staged-path review contained only the authorized two fixes and required immutable history/journals. Primary was inspected clean/on main; fresh inspection is required before its fast-forward.
+- After actual confirmed merge, fast-forward the clean primary, atomically change standalone `~/.agents/skills/teach` from its verified legacy symlink to primary canonical `03_Agents/teach`, and verify both standalone registrations. Preserve the old vault itself. Archive only this task worktree after checking tracked/untracked/ignored artifacts; delete only this task branch. Host cache activation of private0.3.2 remains the explicitly recorded separate limitation.
+- Final response must report actual merge evidence, primary synchronization, registration verification and cleanup result; this record does not predict successful merge or fabricate its hash.
