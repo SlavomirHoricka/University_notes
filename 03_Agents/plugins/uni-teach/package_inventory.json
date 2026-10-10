@@ -1,19 +1,79 @@
 {
   "schema_version": 1,
-  "package_version": "0.3.2",
-  "source_root": "/Users/slavomirhoricka/.codex/worktrees/uni-paths-week2-recovery/University_notes/03_Agents",
+  "package_version": "0.4.0",
+  "source_root": "03_Agents",
   "files": {
     "LEARNING_ARCHITECTURE.md": {
       "source": "LEARNING_ARCHITECTURE.md",
-      "sha256": "969b32006e4ce7e7d9fe8468f58a682b56135cc34ea026b19ddde56942f12bd3"
+      "sha256": "d2106999c6193da1e7bce9ef973876c4b91acfb74fde569e2ce35588663ddfad"
     },
     "README.md": {
       "source": "references/PLUGIN_README.md",
-      "sha256": "7a0d2a56b3b89c9c51189a1374852242ba5e933cb2f24a8716f3a7440174254f"
+      "sha256": "43750cbb9de5b8efc7a4494e486676cebe18160de725a796593b8058fe1ccd78"
+    },
+    "agents/uni_curriculum_checker.toml": {
+      "source": "agents/uni_curriculum_checker.toml",
+      "sha256": "146a371273839d4bd682f8e5aca45221c3764fb8c92b90600c84682ffa4f5ebf"
+    },
+    "agents/uni_curriculum_checker_xhigh.toml": {
+      "source": "agents/uni_curriculum_checker_xhigh.toml",
+      "sha256": "f233f651798bd7fab339f75c474289fb87f562105984fa2223c7f8fc9cff1515"
+    },
+    "agents/uni_ingest_draft.toml": {
+      "source": "agents/uni_ingest_draft.toml",
+      "sha256": "96a432a1a8d1dae0980e9bd25a3707001d4aca4ac301f3127fc63468c733d154"
+    },
+    "agents/uni_ingest_draft_high.toml": {
+      "source": "agents/uni_ingest_draft_high.toml",
+      "sha256": "356c3f2634deaf881763d74d931cf2d06e061b733836910bb1502758c4641558"
+    },
+    "agents/uni_ingest_owner.toml": {
+      "source": "agents/uni_ingest_owner.toml",
+      "sha256": "88b38340cbae775500197e427788ea33430e662bb5fcb935438537fec8940207"
+    },
+    "agents/uni_ingest_reasoning_astra.toml": {
+      "source": "agents/uni_ingest_reasoning_astra.toml",
+      "sha256": "238184516245109210cba5e23333f9001094854188b20ccc5cd929bd09cff893"
+    },
+    "agents/uni_plan_owner.toml": {
+      "source": "agents/uni_plan_owner.toml",
+      "sha256": "65cb835e9064584e7cba5c5f5b4c2923060944f7a6f62bd588a7d1d50ea9c4de"
+    },
+    "agents/uni_plan_owner_astra.toml": {
+      "source": "agents/uni_plan_owner_astra.toml",
+      "sha256": "b3795a5f7110b31fc568f1d71706d3084e470c0bfb4973e547c7f1914ccbfa5c"
+    },
+    "agents/uni_recall_owner.toml": {
+      "source": "agents/uni_recall_owner.toml",
+      "sha256": "867b1e3ea38f4a1efbbb0ab866a3b94951c954dc4966711997834e0dfac66682"
+    },
+    "agents/uni_recall_owner_medium.toml": {
+      "source": "agents/uni_recall_owner_medium.toml",
+      "sha256": "ccf5adb6e96142445d3c784e1b5a9ca6080955f0cb465bbd66d98e8971ac4c61"
+    },
+    "agents/uni_source_checker.toml": {
+      "source": "agents/uni_source_checker.toml",
+      "sha256": "7e9547acbdbf0ca68287c6023e0bb8d6be6881688b531cbec8bb6b7710a03d67"
+    },
+    "agents/uni_source_checker_xhigh.toml": {
+      "source": "agents/uni_source_checker_xhigh.toml",
+      "sha256": "16374e99bc4bdf348d6813fb70decd459da9c2da12bb8b2318e00e5f2c32c57e"
+    },
+    "agents/uni_teach_assessor.toml": {
+      "source": "agents/uni_teach_assessor.toml",
+      "sha256": "d773d683a0ad82957775e6b7e587efa7a95826a0cff0659b6a030f34982397f3"
+    },
+    "agents/uni_teach_owner.toml": {
+      "source": "agents/uni_teach_owner.toml",
+      "sha256": "dffce79eca633c60e777d435fd226b398026b96f766c3a0d65710c62871a1807"
     },
     "references/LEARNING_METHODS.md": {
       "source": "references/LEARNING_METHODS.md",
       "sha256": "9cc59b539152920806af7bd515d8348dc49d0da42aecb69c30af52338892d013"
+    },
+    "references/MODEL_ROUTING.md": {
+      "source": "references/MODEL_ROUTING.md",
+      "sha256": "88aef445d25f75bb03ae243b056ea51bc794dc2dcf506a3dac34fed705f8c7b6"
     },
     "scripts/records.py": {
       "source": "scripts/records.py",
@@ -25,11 +85,11 @@
     },
     "skills/ingest/SKILL.md": {
       "source": "ingest/SKILL.md",
-      "sha256": "7bc0a98893334bcfa345d0605ca0d2a6b618685a86e228fbc9ab8a5cce8dfa15"
+      "sha256": "250683a90fdf2f88100fdffe54304a099a47c82ed3ff4b2c8c77edb40b5dbf72"
     },
     "skills/plan/SKILL.md": {
       "source": "plan/SKILL.md",
-      "sha256": "ad436daef1f1d022260c53f12b9c7c1be032cb22366e90632ca76f9141299640"
+      "sha256": "b6387b3af5ce404a515dd4b5b350b3549526848f8cd641f2ebd77c536edede0a"
     },
     "skills/plan/templates/learning_plan.md": {
       "source": "plan/templates/learning_plan.md",
@@ -45,7 +105,7 @@
     },
     "skills/recall/SKILL.md": {
       "source": "recall/SKILL.md",
-      "sha256": "45b1e38b1d63ab2bdc3f469c3a743f87f35fdb4ffa86ee9205e9289fbd577acc"
+      "sha256": "9851beed763bffcb4ee699d5d8a633d5d949becfbd1f6835d9da2d8d82227875"
     },
     "skills/recall/references/TODOIST_HARNESS.md": {
       "source": "recall/references/TODOIST_HARNESS.md",
@@ -65,7 +125,7 @@
     },
     "skills/teach/SKILL.md": {
       "source": "teach/SKILL.md",
-      "sha256": "4899fa9f4951dbcc3c08de7ada459d875c4b49905aae3b3a0008fcd6e81a439d"
+      "sha256": "dd41122d3d22deef8dd15eefe9b5b5be8ecc982fd5f2f18daa8d4fce71fcc509"
     },
     "skills/teach/references/RECORDS.md": {
       "source": "teach/references/RECORDS.md",

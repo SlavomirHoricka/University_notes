@@ -7,7 +7,13 @@ description: Create or revise executable Uni curricula from finished ingestion n
 
 Vault root: the actual selected repository checkout for this task. The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`; an isolated worktree uses its own absolute checkout root. Resolve all note, record, state, lock, log, template and utility paths against that root, and invoke scripts by their absolute selected-checkout paths when cwd differs. Never write into another checkout or the legacy vault location.
 
-Use a highly capable model for curriculum reasoning. Model selection belongs to the host/user; this skill does not switch it. Prepare enough reasoning and assessment detail that a faster teaching model can execute a bounded lesson without solving its exercises or inventing pedagogy. Academic completeness is more important than a compact plan.
+Use the configured capable owner for curriculum reasoning. The skill dispatches an owner through host subagent tools; it does not change the already-running chat model. Prepare enough reasoning and assessment detail that a faster teaching model can execute a bounded lesson without solving its exercises or inventing pedagogy. Academic completeness is more important than a compact plan.
+
+## Model routing and independent curriculum review
+
+Follow `03_Agents/references/MODEL_ROUTING.md` in the selected checkout (packaged equivalent: `references/MODEL_ROUTING.md`). At top-level entry, dispatch once to `uni_plan_owner` (`gpt-6.1-sol`, `high`); a marked delegated owner executes directly. Use `uni_plan_owner_astra` (`gpt-6-astra`, `high`) for a mathematically demanding or substantially revised curriculum. Explicit user overrides take precedence; disclose unavailable routing without claiming a different model ran. Stop/hand off the prior owner and inspect journals before an owner escalation; no concurrent authoritative writers.
+
+The owner prepares the full curriculum from finished checked notes. Before readiness/commit, obtain a separate fresh `uni_curriculum_checker` (`gpt-6-astra`, `high`), or `uni_curriculum_checker_xhigh` (`xhigh`) for complex assessment routes or version compatibility. It independently checks all changed lessons, every permitted assessment route, keys/rubrics, dependencies, locators, version compatibility and preserved history against finished notes and checked ingestion provenance. It does not audit originals or edit files. Plan fixes; the checker rechecks final revisions/context. Missing review or material findings blocks affected readiness/publication. Record identity, actual inspected scope/findings/fixes/final result and requested versus host-confirmed settings. Academic gaps return to ingest with renewed source review, not a planner repair.
 
 ## Purpose, boundaries, and authoritative files
 
