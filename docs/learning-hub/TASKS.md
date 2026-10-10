@@ -4,6 +4,8 @@ The task graph is definitive for dependencies and dispatch. Each ticket is perfo
 
 Foundation H00 creates `make -C apps/learning_hub` targets `check-unit`, `check-contracts`, `check-integration`, `check-ui`, `check-e2e`, `check-all`, `build`, `export-contracts`, `launch`, `stop`. Run applicable targets on each feature; no placeholder target that succeeds without checks. Owners add tests in their owned feature directories; root serializes shared migrations/composition edits. H09's canonical patch is a separately reviewed parent assignment, not an unrestricted source-write allowance.
 
+Staged evidence acceptance: H02 compatibility acceptance uses proposed contracts/isolated migration fixtures, with no maintained schema change. H03 completes against a typed fault-injected EvidenceWriter fixture; production canonical writes remain disabled. H09 implements the separately assigned maintained schema/readers/production bridge and reruns the H03 crash/idempotency suite against real records tools in an isolated vault. No H02/H03 fixture receipt claims live support. This sequencing avoids an implicit H03→H09→H03 completion cycle.
+
 ## H00 — Scaffold and locked quality tooling
 
 Role `hub_foundation`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-foundation`. Requires: none. External gate: none.
@@ -66,7 +68,7 @@ Procedure:
 
 1. Implement CONTRACTS canonical models (strict/discriminated unions, ID/version types, allowed states) and public/private serialization.
 2. Create SQLite migrations/constraints, repository protocols and generated OpenAPI/TypeScript types. Add proposed web bundle/evidence extension schemas only after compatibility review.
-3. Write exact migration proposal for current records contract: legacy prefix preservation, schema3 immutable event acceptance, appended web facts, owner fields/validation. Root assigns canonical patches in H09.
+3. Write exact migration proposal for current records contract: legacy prefix preservation, schema3 immutable event acceptance, appended web facts, owner fields/validation. Root assigns canonical patches in H09. This ticket accepts only proposed contract/migration fixtures; maintained reader/writer support is H09, not an implicit H02 prerequisite.
 4. Generate controlled illustrative synthetic bundles/questions and contract fixtures. No ingestion readiness or learner outcome inferred from fixtures.
 5. Freeze API version v1/schema revision; root reviews exported interface before dependent tasks merge it.
 
@@ -80,7 +82,7 @@ Acceptance:
 
 - H02-A1: Unknown fields/invalid version tuple/dangling question IDs rejected.
 - H02-A2: Private keys and retention items excluded from learner payload snapshot tests.
-- H02-A3: Upgrade from existing legacy/schema3 fixtures preserves byte-identical prior events.
+- H02-A3: Proposed migration/union-reader fixtures preserve byte-identical legacy/schema3 events; no live canonical extension claimed.
 - H02-A4: Generated TS matches OpenAPI; migration empty/upgrade/conflict tests pass.
 
 Checks: check-unit, check-contracts, feature check-integration; affected vault/records checks if canonical files change. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
@@ -93,7 +95,7 @@ Procedure:
 
 1. Implement receipt command boundary and request hash uniqueness, actual timestamps, pending outbox and response replay. Server creates attempt/item/version identity.
 2. Checkpoint prepared prompt through teach owner before delivery; store display acknowledgement separately. Actual raw answer persisted before AI dispatch.
-3. EvidenceWriter commits compatible teach-owned transaction and verifies bytes/journal; only then marks outbox acknowledged and rebuilds projections. H09 supplies production owner runtime capability.
+3. Implement typed EvidenceWriter port and a fault-injected fixture owner; verify outbox acknowledgement and projections in isolated tests. H09 supplies the production maintained-reader/writer adapter and reruns these cases before live sessions.
 4. Handle crash cuts before/after canonical commit and DB acknowledgement with stable event/transaction IDs and recovery inspection. Preserve unsaved pending intent.
 5. Expose catalog/session/resume/readiness and receipt endpoints with legal transitions. Completion derives from received process facts; result pending/absent is not fail/pass.
 
@@ -106,7 +108,7 @@ Deliverables:
 Acceptance:
 
 - H03-A1: Repeated same key/body replays; different body returns conflict.
-- H03-A2: Crash after canonical write replays without a duplicate event; uncertain journal blocks projection.
+- H03-A2: Fault-injected fixture owner replay after canonical commit yields no duplicate; uncertain journal blocks projection. H09 must repeat against actual compatible records tools.
 - H03-A3: 85%-style status projection never rewrites objective acquisition evidence.
 - H03-A4: Refresh/second tab/version conflict preserves exact attempt and learner response.
 
@@ -137,11 +139,11 @@ Acceptance:
 - H04-A3: Desktop/narrow/empty/error screenshots inspected; no demo statistics.
 - H04-A4: Upload saved state is distinguishable from ingested/published state.
 
-Checks: check-ui, check-contracts, feature unit/integration checks and build. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
+Checks: check-ui, focused component/integration tests and build; applicable contract tests. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
 
 ## H05 — Section lesson player, maths and deterministic checkpoint UI
 
-Role `hub_frontend`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-frontend`. Requires: H03, H04. External gate: none.
+Role `hub_frontend`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-frontend`. Requires: H03,H04. External gate: none.
 
 Procedure:
 
@@ -164,7 +166,7 @@ Acceptance:
 - H05-A3: New publication mid-session cannot swap key/content; reload resumes outstanding item.
 - H05-A4: Long maths/headings/reduced motion/keyboard matching supported.
 
-Checks: check-ui, check-contracts, feature unit/integration checks and build. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
+Checks: check-ui, focused component/integration tests and build; applicable contract tests. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
 
 ## H06 — Validated interactive visual component library
 
@@ -190,7 +192,7 @@ Acceptance:
 - H06-A3: Interactions do not fabricate mastery; accessibility alternatives work.
 - H06-A4: No component introduces a new course topic without finished-note support.
 
-Checks: check-ui, check-contracts, feature unit/integration checks and build. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
+Checks: check-ui, focused component/integration tests and build; applicable contract tests. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
 
 ## H07 — Uploads, stable source revisions and previous-week delta inventory
 
@@ -221,7 +223,7 @@ Checks: check-unit, check-contracts, feature check-integration; affected vault/r
 
 ## H08 — Durable worker, quota recovery and serialized course reservations
 
-Role `hub_workflows`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-workflows`. Requires: H01, H03. External gate: none.
+Role `hub_workflows`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-workflows`. Requires: H01,H03. External gate: none.
 
 Procedure:
 
@@ -247,7 +249,7 @@ Checks: check-unit, check-contracts, feature check-integration; affected vault/r
 
 ## H09 — Canonical owner-contract support and bounded Uni runtime adapters
 
-Role `hub_workflows`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-workflows`. Requires: H02, H03, H08. External gate: canonical_contract_independent_review.
+Role `hub_workflows`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-workflows`. Requires: H02,H03,H08. External gate: canonical_contract_independent_review.
 
 Procedure:
 
@@ -256,6 +258,7 @@ Procedure:
 3. Dispatch existing Uni owners and separate reviewers with fixed model/effort and no competing writers; required source reviews use originals, curriculum reviews use checked notes.
 4. Bridge deterministic web facts to teach logical ownership without LLM per checkpoint and without unsupported current schema fields; verify owner transaction.
 5. Support plan/ingest repair and exhausted-item-bank handoffs, pending intent recovery and source approvals inside site. Return blockers honestly.
+6. Re-run H03 durability/crash/idempotency acceptance against actual maintained compatible records tools in an isolated vault before enabling real session mutations; fixture receipts alone cannot open this gate.
 
 Deliverables:
 
@@ -274,7 +277,7 @@ Checks: check-unit, check-contracts, feature check-integration; affected vault/r
 
 ## H10 — Checked ingestion/planning pipeline and atomic publication
 
-Role `hub_workflows`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-workflows`. Requires: H07, H09. External gate: none.
+Role `hub_workflows`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-workflows`. Requires: H07,H09. External gate: none.
 
 Procedure:
 
@@ -300,7 +303,7 @@ Checks: check-unit, check-contracts, feature check-integration; affected vault/r
 
 ## H11 — Prepared quizzes, scoring and short-answer assessment
 
-Role `hub_assessment`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-assessment`. Requires: H03, H05, H09. External gate: none.
+Role `hub_assessment`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-assessment`. Requires: H03,H05,H09. External gate: none.
 
 Procedure:
 
@@ -327,7 +330,7 @@ Checks: check-unit, check-contracts, feature check-integration; affected vault/r
 
 ## H12 — Exposure-aware course-specific review and recommendation adaptation
 
-Role `hub_assessment`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-assessment`. Requires: H10, H11. External gate: none.
+Role `hub_assessment`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-assessment`. Requires: H10,H11. External gate: none.
 
 Procedure:
 
@@ -354,7 +357,7 @@ Checks: check-unit, check-contracts, feature check-integration; affected vault/r
 
 ## H13 — Agents UI and role/model controls
 
-Role `hub_frontend`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-frontend`. Requires: H04, H08, H10. External gate: none.
+Role `hub_frontend`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-frontend`. Requires: H04,H08,H10. External gate: none.
 
 Procedure:
 
@@ -375,11 +378,11 @@ Acceptance:
 - H13-A3: Changing role config cannot alter running attempt/key/rubric or disable required academic checks.
 - H13-A4: Browser lesson uninterrupted by routine publication jobs.
 
-Checks: check-ui, check-contracts, feature unit/integration checks and build. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
+Checks: check-ui, focused component/integration tests and build; applicable contract tests. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
 
 ## H14 — Manual launcher, supervision, diagnostics and backup/restore
 
-Role `hub_operations`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-operations`. Requires: H01, H03, H08. External gate: none.
+Role `hub_operations`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-operations`. Requires: H01,H03,H08. External gate: none.
 
 Procedure:
 
@@ -406,7 +409,7 @@ Checks: check-unit, check-contracts, feature check-integration; affected vault/r
 
 ## H15 — Integrated behavioral, security and recovery QA
 
-Role `hub_qa`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-qa`. Requires: H06, H12, H13, H14. External gate: none.
+Role `hub_qa`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-qa`. Requires: H06,H12,H13,H14. External gate: none.
 
 Procedure:
 
@@ -428,7 +431,7 @@ Acceptance:
 - H15-A3: Native displayed UI inspected with long/empty/pending/error scenarios.
 - H15-A4: No production fixture authority, skipped critical checks or secret in bundle/log.
 
-Checks: check-all, build, complete release matrix and exact-commit review. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
+Checks: check-all, build, full V01–V16 ledger and required observed pilot/review evidence. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
 
 ## H16 — Independent review, bounded real pilot and completed release
 
@@ -455,4 +458,4 @@ Acceptance:
 - H16-A3: Launcher and complete upload-to-study flow work with verified subscription access.
 - H16-A4: Actual PR merge/main sync/branch provenance confirmed.
 
-Checks: check-all, build, complete release matrix and exact-commit review. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
+Checks: check-all, build, full V01–V16 ledger and required observed pilot/review evidence. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.

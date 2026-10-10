@@ -110,4 +110,3 @@ H15 creates `apps/learning_hub/docs/validation/matrix.json`: schema version, int
 Review receipt: role/model/effort requested and host-confirmed (unknown if unavailable), inspected SHA/scope, exact findings, fix SHAs, rechecked scope/final result. Reviewers read/report; owners fix. Academic reviewers are distinct. Substantive changes invalidate affected review; session metadata cannot manufacture a review.
 
 Failed gates return tasks to correction; genuine external blockers preserve artifacts and next action while independent work continues. Never mark partial delivery finished, lower criteria, invent readiness or buy a paid fallback to close the ledger.
-

@@ -6,24 +6,30 @@ Status: proposed implementation instructions, 2026-10-10. No application, schema
 
 `B` below means `apps/learning_hub/backend/learning_hub/`. Each module is a concrete implementation destination, not a current file. API models use Pydantic with strict types, forbidden extra fields on commands, discriminated unions and generated OpenAPI/TypeScript. Domain code does not import FastAPI, SQLite or provider SDKs. Application services receive interfaces; adapters perform IO. No course business decisions belong in frontend handlers.
 
-| Task / owner | Owned contracts and modules | Required predecessors |
+| Task / owner | Owned modules (exact registry prefixes) | DAG predecessors |
 |---|---|---|
-| H00 scaffold / `hub_foundation` | `B/domain/identity.py`, `B/domain/errors.py`, `B/domain/versions.py`; contract fixtures and namespace registry | Approved document/registry |
-| H01 / `hub_provider` | `B/adapters/codex/transport.py`, `capabilities.py`, `auth.py`; private account credentials | H00; real Plus sign-in/completed-request feasibility gate |
-| H02 contracts / `hub_foundation` | `B/adapters/storage/{connection,migrations,repositories}.py`, `B/application/ports.py`; migrations below | H00 |
-| H03 receipts/evidence / `hub_foundation` | `B/domain/{attempts,deliveries,evidence}.py`, `B/application/{sessions,submissions,evidence_bridge}.py`, `B/adapters/vault/{records,evidence_reader}.py`, `B/api/{auth,schemas,sessions,attempts,events}.py` | H00,H02; canonical teach extension validated |
-| H04,H05,H13 / `hub_frontend` | Generated client consumers, section/assessment/review delivery acknowledgements | H03; public schemas; no keys/authority |
-| H06 / `hub_visuals` | `B/domain/visuals.py` public specification validator; maintained frontend components | H00; checked prepared content |
-| H07 uploads, H08 jobs, H09 owner bridge, H10 publication / `hub_workflows` | `B/domain/bundles.py`, `B/application/{inventory,publication,workflow_bridge}.py`, `B/adapters/vault/{curriculum,owner_gateway}.py`, `B/worker/{jobs,leases,recovery}.py`, `B/api/{catalogue,uploads,jobs,settings}.py` | H00,H02,H01 for inference; owner/review/integration gates |
-| H11 assessment, H12 reviews / `hub_assessment` | `B/domain/{grading,selection,exposure,assessment_states}.py`, `B/application/{assessment,question_selection,reviews}.py`, `B/api/{assessments,reviews}.py` | H03; checked keys/rubrics; H01 for written answers |
-| H14 / `hub_operations` | `B/worker/{supervisor,lifecycle}.py`, backup/restore/migration runner, distribution configuration | H02,H03,H07–H12 |
-| H15 / `hub_qa` | Independent contract, integration, crash and browser acceptance suites | Completed relevant task interfaces |
-| H16 release / `hub_coordinator` | Cross-task compatibility, release and integration, interface change arbitration | Owner handoffs; no replacement of academic owners |
-| `hub_reviewer` | Read-only review of final implementation/instruction compliance | No mutation ownership |
+| H00 / hub_foundation | Minimal package/tool scaffold; root records bootstrap exceptions and future ownership | None |
+| H01 / hub_provider | `B/adapters/codex/`, `B/api/provider/` | H00; real sign-in/completed inference gate |
+| H02 / hub_foundation | `B/domain/{models,ports}/`, `B/adapters/storage/`, generated frontend API | H00 |
+| H03 / hub_foundation | `B/application/core/`, `B/adapters/evidence/`, `B/api/{core,courses,lessons}/` | H02; fixture-only owner port acceptance |
+| H04 / hub_frontend | Frontend app, courses, styles | H02 |
+| H05 / hub_frontend | Frontend lesson/assessment/review screens, maths/outline/questions | H03,H04 |
+| H06 / hub_visuals | Frontend visuals/tests; `B/domain/visuals/` | H05 |
+| H07 / hub_workflows | `B/application/uploads/`, `B/adapters/extraction/`, `B/api/workflows/` | H02 |
+| H08 / hub_workflows | `B/worker/`, workflow job endpoints | H01,H03 |
+| H09 / hub_workflows | `B/adapters/{vault,repository}/`; separately assigned maintained canonical patch | H02,H03,H08 |
+| H10 / hub_workflows | `B/application/{ingestion,publication}/` | H07,H09 |
+| H11 / hub_assessment | `B/domain/grading/`, `B/application/{attempts,assessments}/`, `B/api/assessments/` | H03,H05,H09 |
+| H12 / hub_assessment | `B/domain/{selection,review_policy}/`, `B/application/reviews/` | H10,H11 |
+| H13 / hub_frontend | Frontend Agents/settings and final API integration | H04,H08,H10 |
+| H14 / hub_operations | `B/operations/`, operations scripts/docs | H01,H03,H08 |
+| H15 / hub_qa | Cross-feature e2e, fixtures and validation receipts | H06,H12,H13,H14 |
+| H16 / hub_coordinator | Release and integration; exact root-assigned release receipt | H15 |
+| hub_reviewer | Read-only engineering review, no mutation ownership | Exact integrated candidate |
 
 Task registry controls fixed requested model/effort settings: implementation engineering owners use GPT-6.1 Sol/high; independent engineering reviewer uses GPT-6 Astra/high. Maintained engineering role files are `.codex/agents/hub_*.toml`; these are separate from academic Uni roles. This table does not override the registry or academic model routing. Owners coordinate interface changes before modifying another owner's module. Foundation owns receipt/outbox mechanics; assessment owns scoring and selection; workflows owns publication and academic workflow invocation. The evidence bridge executes logical **teach** ownership even when deterministic code scores an item. Recall alone schedules canonical due dates and writes Todoist. App recommendations are derived route suggestions, never a second recall scheduler.
 
-Implementation sequence: identity/models → operational migrations → fixture-only bundle validator → canonical extension and bridge tests → durable session/submission slice → deterministic scoring/player → publication adapters → written scoring/reviews. Keep real-course import disabled until all relevant canonical extension and readiness checks pass. Provider sign-in feasibility runs early in parallel with fixture work, never blocks offline rendering of already published valid content.
+Implementation dispatch follows the JSON DAG. H02 specifies and tests proposed compatibility models/migration fixtures without changing maintained records. H03 implements receipt/outbox/projection mechanics through the typed EvidenceWriter port and a fault-injected fixture owner; its acceptance is explicitly fixture-only. H09 later owns the root-assigned maintained canonical patch and production owner adapter, then reruns H03 crash/idempotency cases against actual compatible records tools in an isolated vault. H08 scheduling can use the port before H09 exists, with production owner writes disabled. No H02/H03 receipt claims live schema-4 support. H09 production acceptance is a hard prerequisite for live sessions and H10/H11. Keep real-course import disabled until canonical/readiness checks pass. Provider feasibility runs early in parallel with fixture work; offline rendering of already published content remains available.
 
 ## 2. Identity, times and immutable references
 
@@ -209,7 +215,7 @@ SQLite/WAL, owner filesystem transactions and Git are distinct commit boundaries
 
 ## 7. Teach/recall extension gate and evidence authority
 
-H03/H09/H10 must implement and independently verify maintained canonical extensions before real sessions. Proposed **canonical evidence schema 4** uses the existing teach event-type vocabulary with a typed `site_extension_version:1` envelope. A new schema-4 log starts with `<!-- uni-teach-log:4 -->` and first metadata `{schema_version:4,owner:"teach",course_id,timezone,record_revision,transaction_id}`. For an existing schema-3 or legacy log, preserve its entire original bytes as an exact prefix, then append an explicit `## Schema 4 boundary` with schema-4 metadata and new events; never rewrite its old marker/header/events. Each new event carries `schema_version:4` plus existing required common fields. Future derived summaries append after this boundary, never replace the preserved prefix. Add a maintained `03_Agents/teach/references/SITE_EVIDENCE.md` plus validators/tests; update packaging only through canonical synchronizer. A future change to event vocabulary or field semantics requires a separately versioned migration, not a quiet reader change. Current `records.py` recognizes schema-3 markers/core event types but does **not** validate schema 4. H02 defines the union contract/migration fixtures; H03/H09 implement updated records/readers and owner bridge before consumers enable live writes. Validation must locate the latest explicit metadata boundary, enforce schema-4 fields, preserve old prefix/history, and retain owner path restrictions. Permissive acceptance of extra fields is not readiness.
+H09 must implement and independently verify the root-assigned maintained canonical extensions before real sessions; H10 consumes only that accepted production bridge. Proposed **canonical evidence schema 4** uses the existing teach event-type vocabulary with a typed `site_extension_version:1` envelope. A new schema-4 log starts with `<!-- uni-teach-log:4 -->` and first metadata `{schema_version:4,owner:"teach",course_id,timezone,record_revision,transaction_id}`. For an existing schema-3 or legacy log, preserve its entire original bytes as an exact prefix, then append an explicit `## Schema 4 boundary` with schema-4 metadata and new events; never rewrite its old marker/header/events. Each new event carries `schema_version:4` plus existing required common fields. Future derived summaries append after this boundary, never replace the preserved prefix. Add a maintained `03_Agents/teach/references/SITE_EVIDENCE.md` plus validators/tests; update packaging only through canonical synchronizer. A future change to event vocabulary or field semantics requires a separately versioned migration, not a quiet reader change. Current `records.py` recognizes schema-3 markers/core event types but does **not** validate schema 4. H02 defines the union contract/migration fixtures; H09 exclusively implements root-assigned maintained records/readers and the production bridge, then reruns H03 port cases before consumers enable live writes. Validation must locate the latest explicit metadata boundary, enforce schema-4 fields, preserve old prefix/history, and retain owner path restrictions. Permissive acceptance of extra fields is not readiness.
 
 Map site facts to existing teach types:
 
