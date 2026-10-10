@@ -1,6 +1,6 @@
 # Uni vault paths and Week 2 recovery
 
-- Status: ready_for_merge
+- Status: merged
 - Objective: resolve only the conflicting vault paths/registration and unfinished Week 2 ingestion with stale affected plans identified by the architecture task. Other hub decisions and unrelated maintenance remain untouched.
 - Branch: `codex/uni-paths-week2-recovery`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/uni-paths-week2-recovery/University_notes`
@@ -53,3 +53,11 @@
 - Refetched origin/main remained `80204bf464751a67c4003675744d86a1aaa31fc0`; no upstream content integration/conflict required. Explicit staged-path review contained only the authorized two fixes and required immutable history/journals. Primary was inspected clean/on main; fresh inspection is required before its fast-forward.
 - After actual confirmed merge, fast-forward the clean primary, atomically change standalone `~/.agents/skills/teach` from its verified legacy symlink to primary canonical `03_Agents/teach`, and verify both standalone registrations. Preserve the old vault itself. Archive only this task worktree after checking tracked/untracked/ignored artifacts; delete only this task branch. Host cache activation of private0.3.2 remains the explicitly recorded separate limitation.
 - Final response must report actual merge evidence, primary synchronization, registration verification and cleanup result; this record does not predict successful merge or fabricate its hash.
+
+## Verified integration and host alignment
+
+- GitHub PR #6 actually merged 2026-10-10T14:42:43Z; squash commit `031ea76c4fbb052d70e841bb1f7684ec1c4e5c4f` is verified on remote main. Clean primary main fast-forwarded to that commit; its complete tree equals the reviewed task tree. All five ingestion journals and 55 ready lesson bundles verify from the primary root, and its archive digest matches the published artifact.
+- Existing standalone teach symlink was atomically changed from the legacy vault to `/Users/slavomirhoricka/Desktop/University_notes/03_Agents/teach`; both ingest/teach symlink destinations and instruction bytes verify against primary canonical sources. The old vault was preserved.
+- After publication, host automatically refreshed its cache to0.3.2. All25 installed files match the private release/package (24 byte-identical, one JSON-equivalent compatibility manifest); every installed skill root uses the selected checkout. This supersedes the earlier observed0.3.1 cache limitation. Current chat began with0.3.1 metadata; no fresh-chat lesson execution or learner result is claimed. The release receipt records installed-copy verification separately from execution.
+- Task remote branch deleted after confirmed merge and artifact preservation. Host archive requested for the clean task worktree, with no untracked or ignored artifacts requiring rescue; verify eventual archival/local-branch cleanup before final report. Other worktrees, including the separate model-routing task, are preserved.
+- This small post-merge maintenance update records newly verified installation/registration state; it changes no course, skill, package or future-hub content.

@@ -22,10 +22,12 @@
   "published_on": "2026-10-10",
   "verification": "Explicit user approval obtained for uploading this exact verified archive to the existing private plugin; owned personal-plugin listing confirmed identity. Guarded USER/PRIVATE update succeeded. All 25 published files read back: 24 byte-identical, compatibility manifest JSON values identical with backend-reordered keys. Only checkout-root paragraphs, maintained walkthrough links, canonical architecture export, version and generated inventory changed. Other skill content, identity, audience, interface/default prompts and assets preserved. Source/package check and archive digest pass. No cache edits.",
   "observed_cache_versions": [
-    "0.3.1"
+    "0.3.2"
   ],
   "current_chat_loaded_skill_snapshot": "0.3.1",
   "host_activation_verified": false,
-  "activation_limitation": "Backend 0.3.2 is published and read-back verified. The current chat retains its 0.3.1 snapshot; observed host cache remains 0.3.1. Direct Codex UI control is denied and no supported connected refresh action is exposed. Refresh the existing published plugin in the host and start a new chat; actual 0.3.2 host activation remains unverified. Canonical and standalone registrations are maintained separately.",
-  "packaging_validation_limitation": "package_inventory.json records the actual absolute build checkout in source_root. --check passes in that checkout; another checkout can report inventory-only mismatch despite identical source/package bytes. Existing inventory portability remains a deferred maintenance decision, outside the two blocker fixes."
+  "activation_limitation": "Host refreshed its installed cache automatically during final verification. All 25 installed 0.3.2 files match the published package (24 byte-identical, compatibility manifest JSON-equivalent); all four skill roots are aligned. This chat began with 0.3.1 metadata, so a fresh-chat 0.3.2 lesson execution is not claimed or simulated. Standalone ingest/teach registrations both resolve to the merged primary canonical source.",
+  "packaging_validation_limitation": "package_inventory.json records the actual absolute build checkout in source_root. --check passes in that checkout; another checkout can report inventory-only mismatch despite identical source/package bytes. Existing inventory portability remains a deferred maintenance decision, outside the two blocker fixes.",
+  "installed_cache_verified": true,
+  "verified_cache_path": "/Users/slavomirhoricka/.codex/plugins/cache/created-by-me-remote/uni-teach/0.3.2"
 }
