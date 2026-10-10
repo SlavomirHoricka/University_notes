@@ -22,6 +22,14 @@ The folder will often contain one week's material from a single course, but may 
 - **Organization:** Preserve the existing folder structure, including Week_1–Week_13 where present, without imposing a weekly structure on other folders.
 - **Scope records:** Use the supplied folder's actual organization for inventory, integration, and logging. Record its exact path and applicable course or grouping.
 
+## Model routing and staged execution
+
+Follow `03_Agents/references/MODEL_ROUTING.md` in the selected checkout (packaged equivalent: `references/MODEL_ROUTING.md`). At top-level entry, dispatch once to `uni_ingest_owner` (`gpt-6.1-sol`, `high`); a marked delegated owner executes directly. Explicit user overrides take precedence; unavailable routing must be disclosed, never silently claimed.
+
+Use the seven ingestion stages in that policy: deterministic inventory/extraction -> Sol scope/topic structure -> bounded Luna drafts -> Sol/Astra difficult reasoning -> owner integration -> independent Astra source review -> repaired/rechecked publication. Drafts use `uni_ingest_draft` (`gpt-6-luna`, `medium`), or `uni_ingest_draft_high` (`high`) for complex clear sections. The owner handles interpretation-heavy sections; difficult derivations/conflicts/foundations use read-only `uni_ingest_reasoning_astra` (`gpt-6-astra`, `high`). Chunk by coherent concept with its assumptions, definitions and original source context.
+
+Workers return text, exact claim/equation/visual locators and gaps; they never write notes, assets, locks, state or logs. Only the owner integrates authoritative content and runs the existing freshness/preserve-text/coverage contracts. Independent review uses a separate fresh `uni_source_checker` (`gpt-6-astra`, `high`), escalated to `uni_source_checker_xhigh` (`xhigh`) for difficult proofs, identification arguments or unresolved discrepancies. The checker independently inspects the full original selected scope and relevant references before comparing notes/author ledger. Full review, repairs and final recheck remain mandatory before completion. Record actual reviewer scope/results and requested versus host-confirmed settings.
+
 ## Ownership, inputs, and freshness contract
 
 Read raw materials only inside the authorized scope (and authorized verification context), relevant current notes/assets, shared navigation, and ingestion history. Create/update only notes/assets, hubs, ingestion logs, and the affected course's `03_Agents/<year>/<semester>/<course>/ingestion_state.json`. Never write plans, criterion definitions, learner logs, recall schedules, or Todoist tasks. Raw materials remain user-owned and read-only except an expressly authorized relocation. Do not guess a course code from a title; resolve the actual path, preserving Unicode and all year/semester qualifiers. Distinct courses with similar names stay distinct.
@@ -172,7 +180,7 @@ Before each edit, reread the current affected text. Preserve manual additions an
 
 ### Independent review
 
-After each ingestion pass, spawn a helper agent as an independent fact checker. Give it the same absolute checkout root and source trust boundaries, relevant originals, full selected scope, final notes, diagrams, assets, coverage ledger, topic map and priority reasons, prerequisite relationships, and consulted-reference identities/locations. The helper reads and reports; the responsible ingest agent performs fixes. Require it to inspect the originals and relevant reference passages itself and independently assess the conclusions, rather than accept the author's map or ledger as evidence of correctness.
+After each ingestion pass, spawn a fresh `uni_source_checker` (`gpt-6-astra`, `high`) as an independent fact checker under the routing policy; it must be separate from all authors/draft workers. Give it the same absolute checkout root and source trust boundaries, relevant originals, full selected scope, final notes, diagrams, assets, coverage ledger, topic map and priority reasons, prerequisite relationships, and consulted-reference identities/locations. The helper reads and reports; the responsible ingest agent performs fixes. Require it to inspect the originals and relevant reference passages itself and independently assess the conclusions, rather than accept the author's map or ledger as evidence of correctness.
 
 Require explicit results for both academic accuracy and explanatory completeness:
 

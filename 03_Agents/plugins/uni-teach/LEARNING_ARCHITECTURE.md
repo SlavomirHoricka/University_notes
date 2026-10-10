@@ -41,6 +41,12 @@ flowchart LR
   P -->|academic gap| I
 ```
 
+## Model roles and execution
+
+[[03_Agents/references/MODEL_ROUTING|Model routing policy]] defines the seven role defaults, escalation, capability fallback, one-writer authority and interactive learner relay. Canonical custom-agent TOML files live in `03_Agents/agents/`; the synchronizer generates project `.codex/agents/` and packaged `agents/` copies. These internal roles preserve exactly four public skills. Host dispatch selects subagent models; a skill cannot change the running chat model or automatically install global configuration.
+
+Ingest uses deterministic extraction, Sol scope/structure, bounded Luna drafts and Sol/Astra difficult reasoning, then owner integration and independent Astra review of full originals. Repairs receive renewed checking before publication. Plan prepares from finished notes and obtains an independent Astra curriculum review before readiness. Teach keeps a Luna owner across turns and uses a read-only Sol assessor for demanding prepared-rubric responses; teach remains evidence owner. Recall uses Luna with the deterministic scheduler and its existing outbox/ownership gates. Requested and actual host-confirmed model settings remain distinct; no benchmarked quality/cost improvement is claimed.
+
 ## Existing skill responsibility and ownership matrix
 
 Read permissions are scoped to the resolved course and requested work. Each row summarizes the maintained skill's actual contract; it grants no extra writes. Shared transaction journals and lock metadata support each owner's writes without transferring ownership of the underlying record.
