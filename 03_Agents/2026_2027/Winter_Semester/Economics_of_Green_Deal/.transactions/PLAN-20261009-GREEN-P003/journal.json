@@ -1,0 +1,111 @@
+{
+  "owner": "plan",
+  "status": "committed",
+  "files": {
+    "curriculum_history/P002/learning_plan.md": {
+      "stage": "0.stage",
+      "expected": null,
+      "new_sha256": "f5791fb4ce237463385211154389760114ef763e85836ada35ddf52b0f99efd6"
+    },
+    "curriculum_history/P002/source_manifest.md": {
+      "stage": "1.stage",
+      "expected": null,
+      "new_sha256": "b957577a68469675d3ebfe2f6b611374f039e9f2c0256d57020bedfee6c4b993"
+    },
+    "curriculum_history/P002/lessons/O001.md": {
+      "stage": "2.stage",
+      "expected": null,
+      "new_sha256": "8c1bcd26f93de10f5b030b4b9bcda647b2d1722f44c8320958d2a31f7075652b"
+    },
+    "curriculum_history/P002/lessons/O002.md": {
+      "stage": "3.stage",
+      "expected": null,
+      "new_sha256": "e34119e50bb5f1189e040969b31e216e9156b4ec1c8ca51e5fbdfe5ef402a850"
+    },
+    "curriculum_history/P002/lessons/O003.md": {
+      "stage": "4.stage",
+      "expected": null,
+      "new_sha256": "c2371de582ccae1163b486b8ef99772df691f916e7cc3db3df21085466685103"
+    },
+    "curriculum_history/P002/lessons/O004.md": {
+      "stage": "5.stage",
+      "expected": null,
+      "new_sha256": "8350efc132b6eb04391d67e06ec03d73d08b392c45bf74d496bfdc1448756703"
+    },
+    "lessons/O001.md": {
+      "stage": "6.stage",
+      "expected": "8c1bcd26f93de10f5b030b4b9bcda647b2d1722f44c8320958d2a31f7075652b",
+      "new_sha256": "561402801512a5a4e114ad3099d94d338196b8865b17d90c8af214bc15f3d9ca"
+    },
+    "lessons/O002.md": {
+      "stage": "7.stage",
+      "expected": "e34119e50bb5f1189e040969b31e216e9156b4ec1c8ca51e5fbdfe5ef402a850",
+      "new_sha256": "7949f0acb651709ba28792ee4202c585d418836d42bb83c2d1ab94452db12bc2"
+    },
+    "lessons/O003.md": {
+      "stage": "8.stage",
+      "expected": "c2371de582ccae1163b486b8ef99772df691f916e7cc3db3df21085466685103",
+      "new_sha256": "d3f48c225f222f4cdadec81392079768936d33daa5d032fd4791ae407c346ff8"
+    },
+    "lessons/O004.md": {
+      "stage": "9.stage",
+      "expected": "8350efc132b6eb04391d67e06ec03d73d08b392c45bf74d496bfdc1448756703",
+      "new_sha256": "46aa9b48133b864e9174ee2ab5de4115fe6fab2670314a20bc89b6a3cc6f821a"
+    },
+    "lessons/O005.md": {
+      "stage": "10.stage",
+      "expected": null,
+      "new_sha256": "4982be3107a63312312be4dffd005c7e522cdb74c62a9febe1e9358dde9ede94"
+    },
+    "lessons/O006.md": {
+      "stage": "11.stage",
+      "expected": null,
+      "new_sha256": "24c8770390040a34603f49c2175831df7c1a2e13304e6bac842d1b69dc6d17b8"
+    },
+    "lessons/O007.md": {
+      "stage": "12.stage",
+      "expected": null,
+      "new_sha256": "3a24e735cbcf459b7e6dcece71cfbc47ca82cf5c478d99757c521d34e20019e7"
+    },
+    "lessons/O008.md": {
+      "stage": "13.stage",
+      "expected": null,
+      "new_sha256": "a9a5a624fdb61d0f67fbbf9e6400578d30642d4abc069f8fafbbd9af6f7f44ad"
+    },
+    "lessons/O009.md": {
+      "stage": "14.stage",
+      "expected": null,
+      "new_sha256": "dd6bc632f58d58ed5a5d5c0293198616871f8328ac1a09ff3af7079eaa7f5e20"
+    },
+    "lessons/O010.md": {
+      "stage": "15.stage",
+      "expected": null,
+      "new_sha256": "82dca00d2871efb61b89626bf5bb43d9b6afa95c51443fd213bdc76e3c29fa56"
+    },
+    "lessons/O011.md": {
+      "stage": "16.stage",
+      "expected": null,
+      "new_sha256": "aed910d8a789023bf93455651df23255e0b2bd77980fab3e8bb09106854c4865"
+    },
+    "lessons/O012.md": {
+      "stage": "17.stage",
+      "expected": null,
+      "new_sha256": "a8439ea705089d76a972ad4b4c406852f820d126b935c39b19d1b8a45bd9f17a"
+    },
+    "lessons/O013.md": {
+      "stage": "18.stage",
+      "expected": null,
+      "new_sha256": "8ee2429774e4933b0c2996650f8c79a3ce2817532a9fdce31eea7d60d529ee39"
+    },
+    "learning_plan.md": {
+      "stage": "19.stage",
+      "expected": "f5791fb4ce237463385211154389760114ef763e85836ada35ddf52b0f99efd6",
+      "new_sha256": "67da3f2cfd84c57cd5501e9911e78396c4f5ca577923073798b7039786c770b6"
+    },
+    "source_manifest.md": {
+      "stage": "20.stage",
+      "expected": "b957577a68469675d3ebfe2f6b611374f039e9f2c0256d57020bedfee6c4b993",
+      "new_sha256": "2d4e15bc054fef151d6cd3ced5579f4e0fb39d78dd98b6c84fcec4d309c93a49"
+    }
+  }
+}

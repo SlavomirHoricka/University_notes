@@ -5,7 +5,7 @@ description: Create or revise executable Uni curricula from finished ingestion n
 
 # Plan
 
-Vault root: `/Users/slavomirhoricka/Desktop/Obsidian/Uni`. Resolve every vault-relative path below against this root regardless of the execution working directory; invoke utility scripts by their absolute vault path if cwd differs.
+Vault root: the actual selected repository checkout for this task. The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`; an isolated worktree uses its own absolute checkout root. Resolve all note, record, state, lock, log, template and utility paths against that root, and invoke scripts by their absolute selected-checkout paths when cwd differs. Never write into another checkout or the legacy vault location.
 
 Use a highly capable model for curriculum reasoning. Model selection belongs to the host/user; this skill does not switch it. Prepare enough reasoning and assessment detail that a faster teaching model can execute a bounded lesson without solving its exercises or inventing pedagogy. Academic completeness is more important than a compact plan.
 

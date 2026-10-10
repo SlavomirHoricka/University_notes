@@ -2,16 +2,16 @@
   "plugin_id": "plugins_6ac1489d78a0819184b4e8340d8c61cd",
   "name": "uni-teach",
   "description": "Course-note ingestion, planning, tutoring, and spaced recall for the Uni Obsidian vault.",
-  "version": "0.3.1",
-  "current_release_id": "pluginrel_6ac9385a91b881919ae8106bc7f535e1",
+  "version": "0.3.2",
+  "current_release_id": "pluginrel_6aca4d8fd8a4819182e216ece93f0fc5",
   "scope": "USER",
   "discoverability": "PRIVATE",
   "plugin_url": "https://chatgpt.com/plugins/plugins_6ac1489d78a0819184b4e8340d8c61cd",
   "display_name": "University Assistant",
-  "previous_release_id": "pluginrel_6ac246d6604c81918bc495ff5e7da99f",
-  "archive": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach-0.3.1.zip",
+  "previous_release_id": "pluginrel_6ac9385a91b881919ae8106bc7f535e1",
+  "archive": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach-0.3.2.zip",
   "archive_kind": "full-package",
-  "archive_sha256": "55f9d356a903b3ae32c57c8233fea6cf5649b744189b8de7c2c4b625a1f8d7b6",
+  "archive_sha256": "abbdab1ffec84312b764f7f2b2687010d53509bcc0a0e127d2170b8289283efe",
   "canonical_skill_sources": {
     "ingest": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/ingest",
     "plan": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plan",
@@ -19,12 +19,13 @@
     "recall": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/recall"
   },
   "packaging_source": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach",
-  "published_on": "2026-10-09",
-  "verification": "Guarded private USER-scope update confirmed. All 25 published files read back against the final package: 24 byte-identical, compatibility manifest JSON values identical with backend-reordered keys. Only ingestion behavior, version and generated inventory changed; other skill source hashes, identity, audience, interface/default prompts and assets preserved. Source/package synchronization and final archive hashes pass. No installation cache edits.",
+  "published_on": "2026-10-10",
+  "verification": "Explicit user approval obtained for uploading this exact verified archive to the existing private plugin; owned personal-plugin listing confirmed identity. Guarded USER/PRIVATE update succeeded. All 25 published files read back: 24 byte-identical, compatibility manifest JSON values identical with backend-reordered keys. Only checkout-root paragraphs, maintained walkthrough links, canonical architecture export, version and generated inventory changed. Other skill content, identity, audience, interface/default prompts and assets preserved. Source/package check and archive digest pass. No cache edits.",
   "observed_cache_versions": [
-    "0.3.0"
+    "0.3.1"
   ],
-  "current_chat_loaded_skill_snapshot": "0.3.0",
+  "current_chat_loaded_skill_snapshot": "0.3.1",
   "host_activation_verified": false,
-  "activation_limitation": "Backend 0.3.1 is published and read-back verified. This chat began with 0.3.0 plugin skill metadata; the observed host cache remains 0.3.0. Refresh the published release through the host plugin UI and start a new chat; actual 0.3.1 host load remains unverified. Standalone ingest registration alignment is tracked separately in the maintenance session."
+  "activation_limitation": "Backend 0.3.2 is published and read-back verified. The current chat retains its 0.3.1 snapshot; observed host cache remains 0.3.1. Direct Codex UI control is denied and no supported connected refresh action is exposed. Refresh the existing published plugin in the host and start a new chat; actual 0.3.2 host activation remains unverified. Canonical and standalone registrations are maintained separately.",
+  "packaging_validation_limitation": "package_inventory.json records the actual absolute build checkout in source_root. --check passes in that checkout; another checkout can report inventory-only mismatch despite identical source/package bytes. Existing inventory portability remains a deferred maintenance decision, outside the two blocker fixes."
 }

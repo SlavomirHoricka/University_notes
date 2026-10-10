@@ -1,0 +1,178 @@
+# Identify economic externalities and apply conditional welfare criteria
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+  "transaction_id": "PLAN-20261009-GREEN-P003",
+  "plan_version": "P003",
+  "source_version": "V002",
+  "ingestion_revision": 2,
+  "objective_id": "O005",
+  "objective_revision": 1,
+  "criterion_version": "O005-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "neglected_real_effect_and_types",
+    "pareto_and_compensation_tests",
+    "intervention_and_risk_boundaries"
+  ],
+  "prerequisite_ids": [
+    "O002"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md",
+      "heading": "Identify the externality before proposing a remedy"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md",
+      "heading": "Types and boundaries"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md",
+      "heading": "What welfare criteria can establish"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md",
+      "heading": "The next-chapter fragment included in the file"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O005-I1",
+        "O005-I2"
+      ],
+      [
+        "O005-I1",
+        "O005-D1"
+      ],
+      [
+        "O005-I1",
+        "O005-D2"
+      ],
+      [
+        "O005-I2",
+        "O005-D1"
+      ],
+      [
+        "O005-I2",
+        "O005-D2"
+      ],
+      [
+        "O005-D1",
+        "O005-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Identify economic externalities and apply conditional welfare criteria",
+  "review_instruction": "Begin a closed-note review with teach for O005; request an unused prepared delayed item before recap."
+}
+```
+
+## Outcome and conditions
+
+Classify a neglected real welfare relationship and distinguish actual versus potential welfare improvement with stated boundaries. Required components: neglected_real_effect_and_types, pareto_and_compensation_tests, intervention_and_risk_boundaries. Supported work may use the cited notes; independent checks use no notes, internet, solution or hints. A basic calculator and blank paper are allowed; reasoning, formula selection and assumptions must be supplied by the learner. Numerical examples below are agent-created hypothetical instantiations unless explicitly labelled as a finished-note example. They do not assert current market or policy facts.
+
+[[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md#Identify the externality before proposing a remedy|Identify the externality before proposing a remedy]]
+[[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md#Types and boundaries|Types and boundaries]]
+[[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md#What welfare criteria can establish|What welfare criteria can establish]]
+[[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md#The next-chapter fragment included in the file|The next-chapter fragment included in the file]]
+
+## Prerequisites and checks
+
+O005-P1 / item_version 1: O002 is needed because material/utility paths identify whose wellbeing can change. Prompt: Does a waste arrow alone prove another person loses welfare? Key: No; trace exposure/utility and whether the actor considers it, rather than infer harm from physical movement alone. Pass requires the keyed mechanism and qualification; partial means an omitted step; fail means a conflicting mechanism. Adequate committed evidence under a compatible criterion permits skipping this diagnostic. Otherwise repair through [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O002.md#Outcome and conditions]] before continuing.
+
+## Teaching order and rationale
+
+1. Read **Motivation and explanation** for the decision, definitions and conditions before performing calculations.
+2. Follow **Worked example** with all steps visible to connect the model to its interpretation.
+3. Attempt **Supported completion** with the named help, then remove notes and solutions.
+4. Use **Immediate and delayed checks** I1 and I2, answering before feedback. These each assess the entire outcome.
+5. Use **Misconceptions and correction** after scoring an error; then use an unused full item.
+6. Later use an unused D item before recap under the actual elapsed-time rule. The order avoids treating helped performance as independent learning.
+
+## Motivation and explanation
+
+Start with the decision maker (supplier), affected receptor and real variable in utility or production. The effect must be omitted from that decision for this technological-externality framework. Physical changes, competitive price effects and deliberate reciprocal/altruistic relations must be distinguished; social/private benefits of transport do not erase an external wedge. Effects differ by sign, production/consumption origin, spatial reach (local or global), temporal reach (current or intergenerational), depletability and recipient structure. These dimensions require separately stated facts; location or activity alone does not imply a particular magnitude. Congestion shows an actor can also be a receptor. A strict Pareto improvement has at least one gain and no loss. Pareto efficiency says no feasible such improvement remains, not that distribution is uniquely fair. Kaldor accepts if winners could compensate afterwards; Hicks if initial losers could not compensate winners sufficiently to prevent the change. These potential tests do not require payment. Competitive welfare theorems are conditional and equity/merit arguments are separate; a remedy also incurs costs. The supplied risk opening distinguishes event probability/severity and defensive choices from compensating insurance, without a complete later model.
+
+## Worked example
+
+O005-W1 / item_version 1, worked_example. **Prompt:** Given hypothetical cases: (a)factory discharge reduces an angler’s utility, explicitly omitted from the supplier’s decision; (b)cheaper production lowers a product price through ordinary competitive prices without an unpriced real effect; (c)a friend deliberately enjoys helping another friend, deliberately considered by the actor. Classify each using supplier/receptor/real-variable/neglected-effect criteria; explain why a physical change alone is insufficient and what depletable/public-bad and congestion distinctions mean. In three additional hypothetical omitted-effect cases, the household actions are consumption and the mine/farm/workshop/factory/plant/forest actions are production. Classify sign, origin and spatial/temporal reach from the declared effects: a factory’s smoke harms nearby households today; a household’s ornamental garden benefits a local neighbour in the next generation; a factory’s greenhouse emissions harm people worldwide in future generations. A separate money-valued policy gives winners20, losers−10; within this declared transferable-money illustration explain strict Pareto, Kaldor and Hicks acceptance directions and apply them without assuming actual compensation. State why market-failure and welfare-theorem conditions do not automatically justify any intervention. Distinguish defensive reduction of environmental illness risk from insurance compensation using the supplied next-chapter fragment, and limit the inference to that fragment.
+
+**Steps and interpretation:** (a) is a technological externality: identify the supplier action, other person’s utility/production affected through the specified real variable, and its omission. (b) is a pecuniary market effect under the stated competitive boundary, not that externality; ordinary price transmission already enters decisions. (c) is an intentionally considered unpriced relation, so omission is absent; unpriced alone is not enough. The additional cases are respectively negative/production/local/current; positive/consumption/local/intergenerational; negative/production/global/intergenerational. Classification follows the declared origin and recipients/timing; it does not estimate magnitude or prove the effect exists in an actual case. A physical alteration without welfare effect does not meet the definition. Depletable/rival benefit can be used up; an undepletable public bad affects many simultaneously and creates coordination/free-rider problems. Congestion can be caused and received by the same road users but remains external to the individual actor. With gains20 and loss10, net10>0 but losers remain: no strict Pareto improvement absent compensation. Kaldor accepts if winners could compensate afterwards; here20>10. Hicks accepts if initial losers cannot compensate winners enough to prevent it; under this explicitly transferable-money example their10 is insufficient against20. Actual transfer is not required by these potential criteria and redistribution/equity remains separate. Conditional competitive welfare results can fail with externalities, public goods, market power, increasing returns or information limits; correction costs must be compared with possible gain, so identifying failure is not universal policy approval. Boiling contaminated water can change illness likelihood; risk includes likelihood and severity, while insurance compensates a loss without itself changing probability. The supplied page is only an opening fragment, not a complete risk model.
+
+## Supported completion
+
+O005-S1 / item_version 1, supported_completion. **Prompt:** Given hypothetical cases: (a)noise reduces a neighbour’s utility, explicitly omitted from the supplier’s decision; (b)competition reduces a shop’s price through ordinary competitive prices without an unpriced real effect; (c)a relative deliberately makes a reciprocal visit, deliberately considered by the actor. Classify each using supplier/receptor/real-variable/neglected-effect criteria; explain why a physical change alone is insufficient and what depletable/public-bad and congestion distinctions mean. In three additional hypothetical omitted-effect cases, the household actions are consumption and the mine/farm/workshop/factory/plant/forest actions are production. Classify sign, origin and spatial/temporal reach from the declared effects: a workshop’s machine noise harms neighbouring households now; household recreation releases a persistent contaminant harming people worldwide in later generations; a farm’s production creates an unpriced benefit for nearby households today. A separate money-valued policy gives winners30, losers−12; within this declared transferable-money illustration explain strict Pareto, Kaldor and Hicks acceptance directions and apply them without assuming actual compensation. State why market-failure and welfare-theorem conditions do not automatically justify any intervention. Distinguish defensive reduction of environmental illness risk from insurance compensation using the supplied next-chapter fragment, and limit the inference to that fragment.
+
+**Key:** (a) is a technological externality: identify the supplier action, other person’s utility/production affected through the specified real variable, and its omission. (b) is a pecuniary market effect under the stated competitive boundary, not that externality; ordinary price transmission already enters decisions. (c) is an intentionally considered unpriced relation, so omission is absent; unpriced alone is not enough. The additional cases are respectively negative/production/local/current; negative/consumption/global/intergenerational; positive/production/local/current. Classification follows the declared origin and recipients/timing; it does not estimate magnitude or prove the effect exists in an actual case. A physical alteration without welfare effect does not meet the definition. Depletable/rival benefit can be used up; an undepletable public bad affects many simultaneously and creates coordination/free-rider problems. Congestion can be caused and received by the same road users but remains external to the individual actor. With gains30 and loss12, net18>0 but losers remain: no strict Pareto improvement absent compensation. Kaldor accepts if winners could compensate afterwards; here30>12. Hicks accepts if initial losers cannot compensate winners enough to prevent it; under this explicitly transferable-money example their12 is insufficient against30. Actual transfer is not required by these potential criteria and redistribution/equity remains separate. Conditional competitive welfare results can fail with externalities, public goods, market power, increasing returns or information limits; correction costs must be compared with possible gain, so identifying failure is not universal policy approval. Boiling contaminated water can change illness likelihood; risk includes likelihood and severity, while insurance compensates a loss without itself changing probability. The supplied page is only an opening fragment, not a complete risk model.
+
+Allowed support: show the named definition or equation in Motivation and explanation, then ask for the missing substitution and interpretation. At most two hints: first identify the relevant distinction; second point to the first keyed step. Reveal the worked solution if those fail. Supported success does not establish acquisition. Fade assistance only once the learner explains the keyed steps; then hide the solution and use an unused full check.
+
+## Rubric and independence
+
+Pass requires every listed component, all requested outputs and essential keyed reasoning without a critical conceptual error. Algebraically equivalent formulas, explicitly defined opposite cash-flow signs and equivalent plain-language reasoning are accepted. Partial means a missing component or a correct method with an unresolved isolated arithmetic slip; fail means the central mechanism or condition is wrong. Unscorable means the response or help/exposure conditions cannot be established. Unknown conditions never certify independence. Arithmetic slips require independent correction before a pass. No numerical grade is invented.
+
+Critical errors: Any unpriced/physical/price effect automatically external; positive aggregate benefit establishes no losers; Hicks acceptance reversed; market failure proves every remedy worthwhile; risk fragment promoted to full model.
+
+Acquisition requires two distinct unassisted passes from I1/I2/D1/D2 using the exact six routes in metadata. Each full prompt and key covers every component; any pair therefore covers the whole outcome twice. A fresh D item used for acquisition cannot later certify delayed retention. Worked/support/prerequisite items and the narrow C1 correction cannot substitute for a full check. The finite bank must not be reused after exposure; request a plan_issue when fewer than two fresh full items remain.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| neglected_real_effect_and_types | required | required | required | required |
+| pareto_and_compensation_tests | required | required | required | required |
+| intervention_and_risk_boundaries | required | required | required | required |
+
+## Misconceptions and correction
+
+If gain totals are called Pareto improvement, identify the actual loser before discussing possible transfers. If an unpriced act is called external, check whether it was intentionally considered. Observe the learner's reasoning before diagnosing: a sign or omitted word alone is tentative. Score before help. O005-C1 / item_version 1, narrow_correction. **Fresh prompt:** Fresh narrow check: winners gain 12, losers lose5, no transfer. Strict Pareto and Kaldor? **Key and rubric:** No strict Pareto because an actual loser exists. In the declared transferable-money case winners could compensate5 from12, so Kaldor accepts without asserting payment. Pass only if the keyed repaired component is supplied; partial for an omission or arithmetic slip; fail for the same conflicting mechanism. C1 is not a full independent check. After two ineffective hints show the relevant worked step; after another failed correction pause and return to the named prerequisite or explanation.
+
+## Immediate and delayed checks
+
+All items are item_version 1 and full_capability_check. I1/I2 are immediate forms; D1/D2 are distinct delayed forms. Delayed success requires an unused unassisted item before recap, at least 24 actual elapsed hours after acquisition and the most recent relevant teaching/solution exposure, with intervening exposure recorded. A date change alone does not qualify. Early D attempts may be acquisition checks only. Each item is a bounded parallel or near-context variant, not proof of broad transfer. Each key states the full required response; do not improvise extra variants.
+
+### O005-I1
+
+**Prompt:** Given hypothetical cases: (a)vehicle emissions harm another household’s health, explicitly omitted from the supplier’s decision; (b)faster paid delivery lowers traded-goods cost through ordinary competitive prices without an unpriced real effect; (c)a donor knowingly values a recipient’s wellbeing, deliberately considered by the actor. Classify each using supplier/receptor/real-variable/neglected-effect criteria; explain why a physical change alone is insufficient and what depletable/public-bad and congestion distinctions mean. In three additional hypothetical omitted-effect cases, the household actions are consumption and the mine/farm/workshop/factory/plant/forest actions are production. Classify sign, origin and spatial/temporal reach from the declared effects: a mine’s operations damage nearby crops now; a household’s shade tree benefits local neighbours in a later generation; a power plant’s emissions harm people globally in future generations. A separate money-valued policy gives winners40, losers−15; within this declared transferable-money illustration explain strict Pareto, Kaldor and Hicks acceptance directions and apply them without assuming actual compensation. State why market-failure and welfare-theorem conditions do not automatically justify any intervention. Distinguish defensive reduction of environmental illness risk from insurance compensation using the supplied next-chapter fragment, and limit the inference to that fragment.
+
+**Key and essential rubric:** (a) is a technological externality: identify the supplier action, other person’s utility/production affected through the specified real variable, and its omission. (b) is a pecuniary market effect under the stated competitive boundary, not that externality; ordinary price transmission already enters decisions. (c) is an intentionally considered unpriced relation, so omission is absent; unpriced alone is not enough. The additional cases are respectively negative/production/local/current; positive/consumption/local/intergenerational; negative/production/global/intergenerational. Classification follows the declared origin and recipients/timing; it does not estimate magnitude or prove the effect exists in an actual case. A physical alteration without welfare effect does not meet the definition. Depletable/rival benefit can be used up; an undepletable public bad affects many simultaneously and creates coordination/free-rider problems. Congestion can be caused and received by the same road users but remains external to the individual actor. With gains40 and loss15, net25>0 but losers remain: no strict Pareto improvement absent compensation. Kaldor accepts if winners could compensate afterwards; here40>15. Hicks accepts if initial losers cannot compensate winners enough to prevent it; under this explicitly transferable-money example their15 is insufficient against40. Actual transfer is not required by these potential criteria and redistribution/equity remains separate. Conditional competitive welfare results can fail with externalities, public goods, market power, increasing returns or information limits; correction costs must be compared with possible gain, so identifying failure is not universal policy approval. Boiling contaminated water can change illness likelihood; risk includes likelihood and severity, while insurance compensates a loss without itself changing probability. The supplied page is only an opening fragment, not a complete risk model. All components are required.
+
+### O005-I2
+
+**Prompt:** Given hypothetical cases: (a)smoke damages another grower’s crops, explicitly omitted from the supplier’s decision; (b)more competitive supply reduces input price through ordinary competitive prices without an unpriced real effect; (c)a visitor deliberately reciprocates friendship, deliberately considered by the actor. Classify each using supplier/receptor/real-variable/neglected-effect criteria; explain why a physical change alone is insufficient and what depletable/public-bad and congestion distinctions mean. In three additional hypothetical omitted-effect cases, the household actions are consumption and the mine/farm/workshop/factory/plant/forest actions are production. Classify sign, origin and spatial/temporal reach from the declared effects: household heating smoke harms nearby residents today; a production forest creates an unpriced global carbon benefit in future generations; factory waste harms a nearby community in a later generation. A separate money-valued policy gives winners50, losers−20; within this declared transferable-money illustration explain strict Pareto, Kaldor and Hicks acceptance directions and apply them without assuming actual compensation. State why market-failure and welfare-theorem conditions do not automatically justify any intervention. Distinguish defensive reduction of environmental illness risk from insurance compensation using the supplied next-chapter fragment, and limit the inference to that fragment.
+
+**Key and essential rubric:** (a) is a technological externality: identify the supplier action, other person’s utility/production affected through the specified real variable, and its omission. (b) is a pecuniary market effect under the stated competitive boundary, not that externality; ordinary price transmission already enters decisions. (c) is an intentionally considered unpriced relation, so omission is absent; unpriced alone is not enough. The additional cases are respectively negative/consumption/local/current; positive/production/global/intergenerational; negative/production/local/intergenerational. Classification follows the declared origin and recipients/timing; it does not estimate magnitude or prove the effect exists in an actual case. A physical alteration without welfare effect does not meet the definition. Depletable/rival benefit can be used up; an undepletable public bad affects many simultaneously and creates coordination/free-rider problems. Congestion can be caused and received by the same road users but remains external to the individual actor. With gains50 and loss20, net30>0 but losers remain: no strict Pareto improvement absent compensation. Kaldor accepts if winners could compensate afterwards; here50>20. Hicks accepts if initial losers cannot compensate winners enough to prevent it; under this explicitly transferable-money example their20 is insufficient against50. Actual transfer is not required by these potential criteria and redistribution/equity remains separate. Conditional competitive welfare results can fail with externalities, public goods, market power, increasing returns or information limits; correction costs must be compared with possible gain, so identifying failure is not universal policy approval. Boiling contaminated water can change illness likelihood; risk includes likelihood and severity, while insurance compensates a loss without itself changing probability. The supplied page is only an opening fragment, not a complete risk model. All components are required.
+
+### O005-D1
+
+**Prompt:** Given hypothetical cases: (a)traffic delay imposed on another driver, explicitly omitted from the supplier’s decision; (b)traded labour demand raises an ordinary wage through ordinary competitive prices without an unpriced real effect; (c)a person deliberately values another person’s benefit, deliberately considered by the actor. Classify each using supplier/receptor/real-variable/neglected-effect criteria; explain why a physical change alone is insufficient and what depletable/public-bad and congestion distinctions mean. In three additional hypothetical omitted-effect cases, the household actions are consumption and the mine/farm/workshop/factory/plant/forest actions are production. Classify sign, origin and spatial/temporal reach from the declared effects: a producer’s discharge harms a local fisher today; a household’s leisure activity creates an unpriced benefit for people worldwide in future generations; a factory’s persistent pollutant harms local descendants. A separate money-valued policy gives winners60, losers−25; within this declared transferable-money illustration explain strict Pareto, Kaldor and Hicks acceptance directions and apply them without assuming actual compensation. State why market-failure and welfare-theorem conditions do not automatically justify any intervention. Distinguish defensive reduction of environmental illness risk from insurance compensation using the supplied next-chapter fragment, and limit the inference to that fragment.
+
+**Key and essential rubric:** (a) is a technological externality: identify the supplier action, other person’s utility/production affected through the specified real variable, and its omission. (b) is a pecuniary market effect under the stated competitive boundary, not that externality; ordinary price transmission already enters decisions. (c) is an intentionally considered unpriced relation, so omission is absent; unpriced alone is not enough. The additional cases are respectively negative/production/local/current; positive/consumption/global/intergenerational; negative/production/local/intergenerational. Classification follows the declared origin and recipients/timing; it does not estimate magnitude or prove the effect exists in an actual case. A physical alteration without welfare effect does not meet the definition. Depletable/rival benefit can be used up; an undepletable public bad affects many simultaneously and creates coordination/free-rider problems. Congestion can be caused and received by the same road users but remains external to the individual actor. With gains60 and loss25, net35>0 but losers remain: no strict Pareto improvement absent compensation. Kaldor accepts if winners could compensate afterwards; here60>25. Hicks accepts if initial losers cannot compensate winners enough to prevent it; under this explicitly transferable-money example their25 is insufficient against60. Actual transfer is not required by these potential criteria and redistribution/equity remains separate. Conditional competitive welfare results can fail with externalities, public goods, market power, increasing returns or information limits; correction costs must be compared with possible gain, so identifying failure is not universal policy approval. Boiling contaminated water can change illness likelihood; risk includes likelihood and severity, while insurance compensates a loss without itself changing probability. The supplied page is only an opening fragment, not a complete risk model. All components are required.
+
+### O005-D2
+
+**Prompt:** Given hypothetical cases: (a)pollution reduces another firm’s productive water quality, explicitly omitted from the supplier’s decision; (b)an ordinary market cost saving raises consumer surplus through ordinary competitive prices without an unpriced real effect; (c)a household deliberately chooses an altruistic gift, deliberately considered by the actor. Classify each using supplier/receptor/real-variable/neglected-effect criteria; explain why a physical change alone is insufficient and what depletable/public-bad and congestion distinctions mean. In three additional hypothetical omitted-effect cases, the household actions are consumption and the mine/farm/workshop/factory/plant/forest actions are production. Classify sign, origin and spatial/temporal reach from the declared effects: household music harms local neighbours now; a factory’s emissions harm people globally in future generations; a producer’s landscaping benefits a nearby community in a later generation. A separate money-valued policy gives winners70, losers−30; within this declared transferable-money illustration explain strict Pareto, Kaldor and Hicks acceptance directions and apply them without assuming actual compensation. State why market-failure and welfare-theorem conditions do not automatically justify any intervention. Distinguish defensive reduction of environmental illness risk from insurance compensation using the supplied next-chapter fragment, and limit the inference to that fragment.
+
+**Key and essential rubric:** (a) is a technological externality: identify the supplier action, other person’s utility/production affected through the specified real variable, and its omission. (b) is a pecuniary market effect under the stated competitive boundary, not that externality; ordinary price transmission already enters decisions. (c) is an intentionally considered unpriced relation, so omission is absent; unpriced alone is not enough. The additional cases are respectively negative/consumption/local/current; negative/production/global/intergenerational; positive/production/local/intergenerational. Classification follows the declared origin and recipients/timing; it does not estimate magnitude or prove the effect exists in an actual case. A physical alteration without welfare effect does not meet the definition. Depletable/rival benefit can be used up; an undepletable public bad affects many simultaneously and creates coordination/free-rider problems. Congestion can be caused and received by the same road users but remains external to the individual actor. With gains70 and loss30, net40>0 but losers remain: no strict Pareto improvement absent compensation. Kaldor accepts if winners could compensate afterwards; here70>30. Hicks accepts if initial losers cannot compensate winners enough to prevent it; under this explicitly transferable-money example their30 is insufficient against70. Actual transfer is not required by these potential criteria and redistribution/equity remains separate. Conditional competitive welfare results can fail with externalities, public goods, market power, increasing returns or information limits; correction costs must be compared with possible gain, so identifying failure is not universal policy approval. Boiling contaminated water can change illness likelihood; risk includes likelihood and severity, while insurance compensates a loss without itself changing probability. The supplied page is only an opening fragment, not a complete risk model. All components are required.
+
+## Advance, revisit, pause, and escalate
+
+Advance after teach commits two distinct qualifying full passes; initial acquisition and delayed retention remain separate observations. After one failure, score, explain the named repair and use another unused item. After two unsuccessful independent attempts, pause repeated quizzing and revisit the explanation or diagnostic dependency. Source conflict stops the affected lesson and goes to ingest with the exact note heading. Missing or ambiguous keys, unsupported alternatives and an exhausted bank go to plan as plan_issue with 2026_2027/Winter_Semester/Economics_of_Green_Deal, O005, revision1/O005-C1, P003/V002/ingestion2 and the exact item ID. Closing a partial session does not fabricate acquisition.
+
+## Answer-free recall handoff
+
+Topic: Identify economic externalities and apply conditional welfare criteria. Instruction: Begin a closed-note review with teach for O005; request an unused prepared delayed item before recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O005.md#Immediate and delayed checks]]. Teach supplies committed evidence and timestamps; recall alone assigns due dates or Todoist tasks. Deadline/retention horizon is null; this plan defines no learner result.

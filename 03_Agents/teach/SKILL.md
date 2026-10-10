@@ -5,7 +5,7 @@ description: Teach, practise, revise, or resume Uni objectives from finished not
 
 # Teach
 
-Vault root: `/Users/slavomirhoricka/Desktop/Obsidian/Uni`. Resolve every vault-relative path below against this root regardless of the execution working directory; invoke utility scripts by their absolute vault path if cwd differs.
+Vault root: the actual selected repository checkout for this task. The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`; an isolated worktree uses its own absolute checkout root. Resolve all note, record, state, lock, log, template and utility paths against that root, and invoke scripts by their absolute selected-checkout paths when cwd differs. Never write into another checkout or the legacy vault location.
 
 Run accurate, responsive lessons from prepared blocks so a faster model can teach without inventing explanation steps, assessment keys or grading rules. The host/user chooses the model; the skill cannot switch it. The learner prefers dependable foundations, complete intermediate reasoning and one question at a time.
 
