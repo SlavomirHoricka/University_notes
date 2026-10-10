@@ -1,0 +1,183 @@
+# Derive finite distributed lag responses and interpret long-run precision
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+  "transaction_id": "PLAN-20261009-ECOX-P003",
+  "plan_version": "P003",
+  "source_version": "V002",
+  "ingestion_revision": 2,
+  "objective_id": "O011",
+  "objective_revision": 1,
+  "criterion_version": "O011-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "pulse_step_and_usable_rows",
+    "static_boundary_and_lrp_reparameterisation",
+    "covariance_precision_and_causal_limits"
+  ],
+  "prerequisite_ids": [
+    "O009"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md",
+      "heading": "An FDL model spreads adjustment across dates"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md",
+      "heading": "A temporary pulse and a permanent step"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md",
+      "heading": "A static model is a special case, with a source caveat"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md",
+      "heading": "Precision of the long-run sum"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md",
+      "heading": "The EET restaurant-price example"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O011-I1",
+        "O011-I2"
+      ],
+      [
+        "O011-I1",
+        "O011-D1"
+      ],
+      [
+        "O011-I1",
+        "O011-D2"
+      ],
+      [
+        "O011-I2",
+        "O011-D1"
+      ],
+      [
+        "O011-I2",
+        "O011-D2"
+      ],
+      [
+        "O011-D1",
+        "O011-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Derive finite distributed lag responses and interpret long-run precision",
+  "review_instruction": "Begin a closed-note review with teach for O011; request an unused prepared delayed item before recap."
+}
+```
+
+## Outcome and conditions
+
+Derive pulse/step response paths, long-run reparameterisation and variance-of-sum reasoning for a supplied finite-lag model. Required components: pulse_step_and_usable_rows, static_boundary_and_lrp_reparameterisation, covariance_precision_and_causal_limits. Supported work may use the cited notes; independent checks use no notes, internet, solution or hints. A basic calculator and blank paper are allowed; reasoning, formula selection and assumptions must be supplied by the learner. Numerical examples below are agent-created hypothetical instantiations unless explicitly labelled as a finished-note example. They do not assert current market or policy facts.
+
+[[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md#An FDL model spreads adjustment across dates|An FDL model spreads adjustment across dates]]
+[[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md#A temporary pulse and a permanent step|A temporary pulse and a permanent step]]
+[[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md#A static model is a special case, with a source caveat|A static model is a special case, with a source caveat]]
+[[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md#Precision of the long-run sum|Precision of the long-run sum]]
+[[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md#The EET restaurant-price example|The EET restaurant-price example]]
+
+## Prerequisites and checks
+
+O011-P1 / item_version 1: O009 is needed because writing a time-series equation does not establish exogeneity/causation. Prompt: Does an intervention dummy with significant slope prove causal policy effect? Key: No; specification and exogeneity/identification need support beyond the fitted association. Pass requires the keyed mechanism and qualification; partial means an omitted step; fail means a conflicting mechanism. Adequate committed evidence under a compatible criterion permits skipping this diagnostic. Otherwise repair through [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O009.md#Outcome and conditions]] before continuing.
+
+## Teaching order and rationale
+
+1. Read **Motivation and explanation** for the decision, definitions and conditions before performing calculations.
+2. Follow **Worked example** with all steps visible to connect the model to its interpretation.
+3. Attempt **Supported completion** with the named help, then remove notes and solutions.
+4. Use **Immediate and delayed checks** I1 and I2, answering before feedback. These each assess the entire outcome.
+5. Use **Misconceptions and correction** after scoring an error; then use an unused full item.
+6. Later use an unused D item before recap under the actual elapsed-time rule. The order avoids treating helped performance as independent learning.
+
+## Motivation and explanation
+
+An FDL of orderq contains currentz and q lags, with q+1 slopes. Compare paths holding disturbances/other regressors fixed. A pulse at dates changes just one slot in each future equation: δ_h for0≤h≤q, then0. A maintained step progressively fills all slots, givingΣ(j=0..min(h,q))δ_j; its eventual level difference is the LRP sum. Units inherit the outcome/regressor transformation. Without prior history q first rows cannot construct lags. Static means remove lagged slopes, not currentδ0. For q2 setθ=δ0+δ1+δ2 and substituteδ0=θ−δ1−δ2: θ multipliesz_t whileδ1/δ2 multiply lag-minus-current contrasts. Equivalent columns let the software report the SE ofθ directly. Alternatively Var(sum)=Σvariances+2Σpair covariances. Separate SEs alone omit covariance. Correlated lags may hurt individual precision without proving that the sum is imprecise. Model paths, source intervention examples and timing plots are not causal estimates; unprovided data/coding and unverified policy dates remain boundaries.
+
+## Worked example
+
+O011-W1 / item_version 1, worked_example. **Prompt:** Hypothetical order-two FDL y_t=α+2z_t+0.5z_(t−1)+-0.5z_(t−2)+u_t, outcome in index points, z a0/1 regime indicator; raw series has 24 rows and no earlierz. Holding other inputs/disturbance path fixed, derive pulse and maintained step responses at h0,1,2,3, impact and long-run propensity, and usable sample size. Explain which coefficients vanish for a static model. Derive the LRP reparameterisation and why separate coefficient SEs cannot determine its SE. Given every coefficient variance 0.04 and each pair covariance -0.01, calculate variance of their sum. Interpret lag correlation and whether the path alone identifies a causal/current policy effect or the source’s visual lag length.
+
+**Steps and interpretation:** One-unit pulse response(2,0.5,-0.5,0); step(2,2.5,2.0,2.0); impactδ0=2, LRP=δ0+δ1+δ2=2.0 index points per unit regime. Substitution explains each lag entering the step versus one changing slot for pulse. Usable dates3..24, 22 rows. Static setsδ1=δ2=0, retainsδ0; the deck's prose zero-list incorrectly includes current coefficient. Withθ=sumδ, substituteδ0=θ−δ1−δ2 to obtain y=α+θz_t+δ1(z_(t−1)−z_t)+δ2(z_(t−2)−z_t)+u. Covariance matters: Varθhat=ΣVarδhat+2ΣpairCov=0.12+-0.06=0.060000; SE=sqrt(0.060000), not sum ofSEs. Imperfect lag collinearity reduces independent variation and may inflate individual variances; exact collinearity loses rank. A well-estimated sum may coexist with imprecise individual slopes. These model paths need exogeneity/specification for causal claims; indicator coefficients are index points, not percentages/currency by default. No unprovided EET dataset/current legal fact or estimated lag length from case/hospital plots is inferred.
+
+## Supported completion
+
+O011-S1 / item_version 1, supported_completion. **Prompt:** Hypothetical order-two FDL y_t=α+1z_t+2z_(t−1)+-1z_(t−2)+u_t, outcome in index points, z a0/1 regime indicator; raw series has 30 rows and no earlierz. Holding other inputs/disturbance path fixed, derive pulse and maintained step responses at h0,1,2,3, impact and long-run propensity, and usable sample size. Explain which coefficients vanish for a static model. Derive the LRP reparameterisation and why separate coefficient SEs cannot determine its SE. Given every coefficient variance 0.09 and each pair covariance -0.02, calculate variance of their sum. Interpret lag correlation and whether the path alone identifies a causal/current policy effect or the source’s visual lag length.
+
+**Key:** One-unit pulse response(1,2,-1,0); step(1,3,2,2); impactδ0=1, LRP=δ0+δ1+δ2=2 index points per unit regime. Substitution explains each lag entering the step versus one changing slot for pulse. Usable dates3..30, 28 rows. Static setsδ1=δ2=0, retainsδ0; the deck's prose zero-list incorrectly includes current coefficient. Withθ=sumδ, substituteδ0=θ−δ1−δ2 to obtain y=α+θz_t+δ1(z_(t−1)−z_t)+δ2(z_(t−2)−z_t)+u. Covariance matters: Varθhat=ΣVarδhat+2ΣpairCov=0.27+-0.12=0.150000; SE=sqrt(0.150000), not sum ofSEs. Imperfect lag collinearity reduces independent variation and may inflate individual variances; exact collinearity loses rank. A well-estimated sum may coexist with imprecise individual slopes. These model paths need exogeneity/specification for causal claims; indicator coefficients are index points, not percentages/currency by default. No unprovided EET dataset/current legal fact or estimated lag length from case/hospital plots is inferred.
+
+Allowed support: show the named definition or equation in Motivation and explanation, then ask for the missing substitution and interpretation. At most two hints: first identify the relevant distinction; second point to the first keyed step. Reveal the worked solution if those fail. Supported success does not establish acquisition. Fade assistance only once the learner explains the keyed steps; then hide the solution and use an unused full check.
+
+## Rubric and independence
+
+Pass requires every listed component, all requested outputs and essential keyed reasoning without a critical conceptual error. Algebraically equivalent formulas, explicitly defined opposite cash-flow signs and equivalent plain-language reasoning are accepted. Partial means a missing component or a correct method with an unresolved isolated arithmetic slip; fail means the central mechanism or condition is wrong. Unscorable means the response or help/exposure conditions cannot be established. Unknown conditions never certify independence. Arithmetic slips require independent correction before a pass. No numerical grade is invented.
+
+Critical errors: Using LRP for a temporary pulse each period; addingq+1 lostrows; static deletesδ0; summing standard errors; indexpoints calledpercent causal effects without conditions.
+
+Acquisition requires two distinct unassisted passes from I1/I2/D1/D2 using the exact six routes in metadata. Each full prompt and key covers every component; any pair therefore covers the whole outcome twice. A fresh D item used for acquisition cannot later certify delayed retention. Worked/support/prerequisite items and the narrow C1 correction cannot substitute for a full check. The finite bank must not be reused after exposure; request a plan_issue when fewer than two fresh full items remain.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| pulse_step_and_usable_rows | required | required | required | required |
+| static_boundary_and_lrp_reparameterisation | required | required | required | required |
+| covariance_precision_and_causal_limits | required | required | required | required |
+
+## Misconceptions and correction
+
+If pulse and step paths coincide at everyh, substitute the changed input slots one date at a time. If sum uncertainty is inferred from individual SEs, name the omitted covariances. Observe the learner's reasoning before diagnosing: a sign or omitted word alone is tentative. Score before help. O011-C1 / item_version 1, narrow_correction. **Fresh prompt:** Fresh narrow check: δ=(1,−.5,.25), one-unit pulse vs step at h2/h3? **Key and rubric:** Pulse h2=.25,h3=0; step h2=.75,h3=.75, because the maintained change occupies all included slots. Pass only if the keyed repaired component is supplied; partial for an omission or arithmetic slip; fail for the same conflicting mechanism. C1 is not a full independent check. After two ineffective hints show the relevant worked step; after another failed correction pause and return to the named prerequisite or explanation.
+
+## Immediate and delayed checks
+
+All items are item_version 1 and full_capability_check. I1/I2 are immediate forms; D1/D2 are distinct delayed forms. Delayed success requires an unused unassisted item before recap, at least 24 actual elapsed hours after acquisition and the most recent relevant teaching/solution exposure, with intervening exposure recorded. A date change alone does not qualify. Early D attempts may be acquisition checks only. Each item is a bounded parallel or near-context variant, not proof of broad transfer. Each key states the full required response; do not improvise extra variants.
+
+### O011-I1
+
+**Prompt:** Hypothetical order-two FDL y_t=α+3z_t+-1z_(t−1)+0.5z_(t−2)+u_t, outcome in index points, z a0/1 regime indicator; raw series has 18 rows and no earlierz. Holding other inputs/disturbance path fixed, derive pulse and maintained step responses at h0,1,2,3, impact and long-run propensity, and usable sample size. Explain which coefficients vanish for a static model. Derive the LRP reparameterisation and why separate coefficient SEs cannot determine its SE. Given every coefficient variance 0.16 and each pair covariance -0.03, calculate variance of their sum. Interpret lag correlation and whether the path alone identifies a causal/current policy effect or the source’s visual lag length.
+
+**Key and essential rubric:** One-unit pulse response(3,-1,0.5,0); step(3,2,2.5,2.5); impactδ0=3, LRP=δ0+δ1+δ2=2.5 index points per unit regime. Substitution explains each lag entering the step versus one changing slot for pulse. Usable dates3..18, 16 rows. Static setsδ1=δ2=0, retainsδ0; the deck's prose zero-list incorrectly includes current coefficient. Withθ=sumδ, substituteδ0=θ−δ1−δ2 to obtain y=α+θz_t+δ1(z_(t−1)−z_t)+δ2(z_(t−2)−z_t)+u. Covariance matters: Varθhat=ΣVarδhat+2ΣpairCov=0.48+-0.18=0.300000; SE=sqrt(0.300000), not sum ofSEs. Imperfect lag collinearity reduces independent variation and may inflate individual variances; exact collinearity loses rank. A well-estimated sum may coexist with imprecise individual slopes. These model paths need exogeneity/specification for causal claims; indicator coefficients are index points, not percentages/currency by default. No unprovided EET dataset/current legal fact or estimated lag length from case/hospital plots is inferred. All components are required.
+
+### O011-I2
+
+**Prompt:** Hypothetical order-two FDL y_t=α+-2z_t+1z_(t−1)+0.5z_(t−2)+u_t, outcome in index points, z a0/1 regime indicator; raw series has 40 rows and no earlierz. Holding other inputs/disturbance path fixed, derive pulse and maintained step responses at h0,1,2,3, impact and long-run propensity, and usable sample size. Explain which coefficients vanish for a static model. Derive the LRP reparameterisation and why separate coefficient SEs cannot determine its SE. Given every coefficient variance 0.25 and each pair covariance -0.04, calculate variance of their sum. Interpret lag correlation and whether the path alone identifies a causal/current policy effect or the source’s visual lag length.
+
+**Key and essential rubric:** One-unit pulse response(-2,1,0.5,0); step(-2,-1,-0.5,-0.5); impactδ0=-2, LRP=δ0+δ1+δ2=-0.5 index points per unit regime. Substitution explains each lag entering the step versus one changing slot for pulse. Usable dates3..40, 38 rows. Static setsδ1=δ2=0, retainsδ0; the deck's prose zero-list incorrectly includes current coefficient. Withθ=sumδ, substituteδ0=θ−δ1−δ2 to obtain y=α+θz_t+δ1(z_(t−1)−z_t)+δ2(z_(t−2)−z_t)+u. Covariance matters: Varθhat=ΣVarδhat+2ΣpairCov=0.75+-0.24=0.510000; SE=sqrt(0.510000), not sum ofSEs. Imperfect lag collinearity reduces independent variation and may inflate individual variances; exact collinearity loses rank. A well-estimated sum may coexist with imprecise individual slopes. These model paths need exogeneity/specification for causal claims; indicator coefficients are index points, not percentages/currency by default. No unprovided EET dataset/current legal fact or estimated lag length from case/hospital plots is inferred. All components are required.
+
+### O011-D1
+
+**Prompt:** Hypothetical order-two FDL y_t=α+0.5z_t+1.5z_(t−1)+-0.5z_(t−2)+u_t, outcome in index points, z a0/1 regime indicator; raw series has 36 rows and no earlierz. Holding other inputs/disturbance path fixed, derive pulse and maintained step responses at h0,1,2,3, impact and long-run propensity, and usable sample size. Explain which coefficients vanish for a static model. Derive the LRP reparameterisation and why separate coefficient SEs cannot determine its SE. Given every coefficient variance 0.36 and each pair covariance -0.05, calculate variance of their sum. Interpret lag correlation and whether the path alone identifies a causal/current policy effect or the source’s visual lag length.
+
+**Key and essential rubric:** One-unit pulse response(0.5,1.5,-0.5,0); step(0.5,2.0,1.5,1.5); impactδ0=0.5, LRP=δ0+δ1+δ2=1.5 index points per unit regime. Substitution explains each lag entering the step versus one changing slot for pulse. Usable dates3..36, 34 rows. Static setsδ1=δ2=0, retainsδ0; the deck's prose zero-list incorrectly includes current coefficient. Withθ=sumδ, substituteδ0=θ−δ1−δ2 to obtain y=α+θz_t+δ1(z_(t−1)−z_t)+δ2(z_(t−2)−z_t)+u. Covariance matters: Varθhat=ΣVarδhat+2ΣpairCov=1.08+-0.30000000000000004=0.780000; SE=sqrt(0.780000), not sum ofSEs. Imperfect lag collinearity reduces independent variation and may inflate individual variances; exact collinearity loses rank. A well-estimated sum may coexist with imprecise individual slopes. These model paths need exogeneity/specification for causal claims; indicator coefficients are index points, not percentages/currency by default. No unprovided EET dataset/current legal fact or estimated lag length from case/hospital plots is inferred. All components are required.
+
+### O011-D2
+
+**Prompt:** Hypothetical order-two FDL y_t=α+4z_t+-2z_(t−1)+1z_(t−2)+u_t, outcome in index points, z a0/1 regime indicator; raw series has 20 rows and no earlierz. Holding other inputs/disturbance path fixed, derive pulse and maintained step responses at h0,1,2,3, impact and long-run propensity, and usable sample size. Explain which coefficients vanish for a static model. Derive the LRP reparameterisation and why separate coefficient SEs cannot determine its SE. Given every coefficient variance 0.49 and each pair covariance -0.06, calculate variance of their sum. Interpret lag correlation and whether the path alone identifies a causal/current policy effect or the source’s visual lag length.
+
+**Key and essential rubric:** One-unit pulse response(4,-2,1,0); step(4,2,3,3); impactδ0=4, LRP=δ0+δ1+δ2=3 index points per unit regime. Substitution explains each lag entering the step versus one changing slot for pulse. Usable dates3..20, 18 rows. Static setsδ1=δ2=0, retainsδ0; the deck's prose zero-list incorrectly includes current coefficient. Withθ=sumδ, substituteδ0=θ−δ1−δ2 to obtain y=α+θz_t+δ1(z_(t−1)−z_t)+δ2(z_(t−2)−z_t)+u. Covariance matters: Varθhat=ΣVarδhat+2ΣpairCov=1.47+-0.36=1.110000; SE=sqrt(1.110000), not sum ofSEs. Imperfect lag collinearity reduces independent variation and may inflate individual variances; exact collinearity loses rank. A well-estimated sum may coexist with imprecise individual slopes. These model paths need exogeneity/specification for causal claims; indicator coefficients are index points, not percentages/currency by default. No unprovided EET dataset/current legal fact or estimated lag length from case/hospital plots is inferred. All components are required.
+
+## Advance, revisit, pause, and escalate
+
+Advance after teach commits two distinct qualifying full passes; initial acquisition and delayed retention remain separate observations. After one failure, score, explain the named repair and use another unused item. After two unsuccessful independent attempts, pause repeated quizzing and revisit the explanation or diagnostic dependency. Source conflict stops the affected lesson and goes to ingest with the exact note heading. Missing or ambiguous keys, unsupported alternatives and an exhausted bank go to plan as plan_issue with 2026_2027/Winter_Semester/Econometrics_II, O011, revision1/O011-C1, P003/V002/ingestion2 and the exact item ID. Closing a partial session does not fabricate acquisition.
+
+## Answer-free recall handoff
+
+Topic: Derive finite distributed lag responses and interpret long-run precision. Instruction: Begin a closed-note review with teach for O011; request an unused prepared delayed item before recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O011.md#Immediate and delayed checks]]. Teach supplies committed evidence and timestamps; recall alone assigns due dates or Todoist tasks. Deadline/retention horizon is null; this plan defines no learner result.

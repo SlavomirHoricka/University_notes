@@ -1,0 +1,197 @@
+# Use the lecture deferred-payment value with its timing boundary
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "transaction_id": "PLAN-20261005-FMI-P002",
+  "plan_version": "P002",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O008",
+  "objective_revision": 1,
+  "criterion_version": "O008-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "discounted_value_calculation_and_units",
+    "inception_maturity_sign_checks",
+    "daily_settlement_boundary"
+  ],
+  "prerequisite_ids": [
+    "O002"
+  ],
+  "compatible_versions": [
+    {
+      "objective_revision": 1,
+      "criterion_version": "O008-C1",
+      "plan_version": "P001",
+      "source_version": "V001",
+      "ingestion_revision": 1,
+      "reason": "Finished-note bytes, capability, prompts/keys, success criteria and independence/delayed conditions unchanged. P002 propagates the bundle tuple; only O002 fresh numeric forms are revised.",
+      "change_class": "unchanged",
+      "requires_reassessment": false
+    }
+  ],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md",
+      "heading": "The lecture's value convention"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Margins_and_Marking_to_Market.md",
+      "heading": "Daily profit and loss, with units"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O008-I1",
+        "O008-I2"
+      ],
+      [
+        "O008-I1",
+        "O008-D1"
+      ],
+      [
+        "O008-I1",
+        "O008-D2"
+      ],
+      [
+        "O008-I2",
+        "O008-D1"
+      ],
+      [
+        "O008-I2",
+        "O008-D2"
+      ],
+      [
+        "O008-D1",
+        "O008-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Use the lecture deferred-payment value with its timing boundary",
+  "review_instruction": "Begin a closed-note review with teach for O008; request an unused prepared delayed item before recap."
+}
+```
+
+## Outcome and conditions
+
+Compute the lecture's deferred-payment normalized long/short values with simple interest in matching time units, extend by a stated fixed exposure, and check inception/maturity signs. Explain the assumption that the difference is paid at maturity and why it is not the daily-settled margin balance or a universal valuation of all daily cash flows. The source timing conflict is retained, not solved by importing later financial theory.
+
+Finished-note locations: [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md#The lecture's value convention]]; [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Margins_and_Marking_to_Market.md#Daily profit and loss, with units]].
+
+Supported learning permits these note sections and the worked key. Independent checks permit blank paper and a non-programmable calculator only; no notes, formula list, key, hints, external help or generated solution. The tutor must confirm these conditions and known prior item exposure before marking independence. Unknown conditions are unscorable for independence, even if the content is correct. These stricter practice conditions do not purport to reproduce all exam rules. Hypothetical tasks below instantiate only note-supported mechanisms.
+
+## Prerequisites and checks
+
+O008-P1 / v1 (O002): Opening40,current44,X10. Give undiscounted long/short cumulative differences. Key+40/−40 dollars; pass both; partial arithmetic; fail sign/exposure. Repair O002 **Explanation steps** and S1. O008-P2 / v1 entry: r10% per year and six months remaining—what is r and time in matching units? Key0.10 and0.5 year, product0.05. Pass conversion; partial one missing; fail multiply10×6. Repair definitions and W1 here. Needed for the numerator and simple-interest denominator.
+
+A qualifying committed prerequisite result may skip its diagnostic only when its exact current tuple or explicitly approved compatible tuple and independence conditions are known. Familiarity is insufficient. Diagnostics do not count as acquisition checks. Do each relevant diagnostic once; failed/partial responses follow the stated repair, then one fresh full check rather than repeated diagnosis.
+
+## Teaching order and rationale
+
+1. Retrieve **Outcome and conditions** and **Prerequisites and checks**; repair a needed dependency before its notation is used.
+2. Teach **Motivation, intuition, and definitions** to attach each symbol to an economic action.
+3. Use **Explanation steps** to connect the assumptions to the result.
+4. Present **Worked example** with the key exposed and ask the learner to identify each decision point.
+5. Give **Practice with fading assistance** supported task; if a conceptual component is missing, use its prepared correction.
+6. Withdraw all help and ask I1, score before feedback, then an unused full check under **Immediate and delayed checks**.
+7. After qualifying acquisition, leave delayed assessment to an unused D item after the minimum elapsed interval. Never recap its solution before the answer.
+
+A learner whose prerequisite diagnostic passes may skip prerequisite support; the objective explanation/example can be shortened to the identified gap. The same two full independent-check requirement remains. Full solutions shown on any route retire that item from independent use.
+
+## Motivation, intuition, and definitions
+
+Motivation: What does a formula discount if its payoff has already been settled daily? The selected slide explicitly illustrates income paid at T: per-unit long V=(Ft−F0)/[1+r(T−t)] and short opposite. r is simple interest per time unit and remaining time uses the same unit. This is a stated deferred-payment representation; the daily-settlement slide pays changes as they arise. The notes do not reconcile their timing or price interest on the actual daily transfers.
+
+## Explanation steps
+
+1. Identify numerator as the price difference for a normalized unit, then multiply by stated X=Nq when using full-contract money.
+2. Use annual r as a decimal with remaining years, or another consistently matched time unit. Denominator1+rΔt is dimensionless; V has money units after multiplying X.
+3. The assumed maturity cash difference equals today's representation times1+rΔt; divide to move backward under simple-interest assumption. This reasoning depends on payment being deferred, not paid daily.
+4. Long/short values are opposite. At inception Ft=F0 gives0; at maturityΔt0 and, under convergence,Ft=St, V_long=X(St−F0), short opposite.
+5. An actual margin account also contains deposits, withdrawals and daily realized transfers. Its balance cannot be inferred from this formula alone. Nor does this illustration value interest on every realized daily transfer. Do not call a negative V negative margin or a loss cap.
+
+## Worked example
+
+O008-W1 / item_version 1 / worked-example; source-supported example or explicitly hypothetical instantiation.
+
+Hypothetical X100,F0=50,Ft54,r0.10/year,Δt0.5year. Maturity-assumed price difference is400; denominator1.05; lecture V_long=400/1.05=$380.952381,short−$380.952381. At inception numerator0→0. At matching maturitySt54,time0→long400,short−400. If the real futures gains were paid daily, 400 is cumulative undiscounted trade gain ignoring interest; V380.95 is not the account balance, which needs deposits/withdrawals/path. The source supplies no universal reconciliation.
+
+## Practice with fading assistance
+
+O008-S1 / item_version 1 / supported-completion.
+
+**Prompt:** Hypothetical X10,F0=20,Ft18,r0.08/year,one year remaining. Fill numerator,denominator,long/short V,then inception and maturity checks. What timing assumption is used; can margin balance be inferred?
+
+**Key:** numerator−20,denominator1.08,long−18.5185185,short+18.5185185. Inception0; maturity atSt18 gives−20/+20. Difference assumed paid atT; daily realization is different, account requires funding/path. Supported complete components.
+
+Allowed help: reveal the named definitions, then at most two prepared hints in **Misconceptions and correction**. After the learner supplies the missing steps and their reasons, hide all keys and use a fresh full check. Supported success is practice evidence only. If even the full worked correction does not restore the needed component, pause and follow the dependency repair.
+
+## Rubric and independence
+
+The required components are: discounted_value_calculation_and_units; inception_maturity_sign_checks; daily_settlement_boundary. Each full check below explicitly elicits and keys every component. Pass requires all its essential reasoning and requested outputs without a critical error. Partial means a correct mechanism but a missing component, unresolved sign/unit, or isolated arithmetic slip. Fail means a critical conceptual error persists or the method cannot establish the result. Unscorable means the response/conditions cannot be interpreted reliably; ask the existing prompt once for clarification, without adding a new assessment. Accept algebraically equivalent expressions, clearly defined opposite cash-flow signs, and plain-language explanations with the same mechanism. An arithmetic slip is partial until independently corrected; it is not automatically a conceptual failure. No numerical score is inferred.
+
+Critical errors: Annual rate multiplied by raw months; percentage treated as whole number; sign reversed; deferred value treated as margin balance or universal valuation despite source timing ambiguity.
+
+Acquisition requires two distinct unassisted passes from the explicitly permitted routes O008-I1/O008-I2, O008-I1/O008-D1, O008-I1/O008-D2, O008-I2/O008-D1, O008-I2/O008-D2, O008-D1/O008-D2. I items normally establish acquisition; an unused D item may replace an exposed or failed I item and then cannot later be counted as delayed retention. Each selected full item assesses all listed components, so every route covers them twice. W1, S1, prerequisite diagnostics and the narrow C1 correction are forbidden substitutes. The D bank is finite: never repeat an exposed item to certify fresh learning and never invent changed numbers. If fewer than two unused full items remain, raise a plan_issue for a new prepared bank.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| discounted_value_calculation_and_units | required | required | required | required |
+| inception_maturity_sign_checks | required | required | required | required |
+| daily_settlement_boundary | required | required | required | required |
+
+## Misconceptions and correction
+
+Signs: annual rate times months unconverted; daily margin account equated with discounted difference. Correction: label rate/time units and label the assumed future payment before discounting. Hint1: denominator must be dimensionless. Hint2: six months is0.5year. O008-C1 / v1: Difference100 dollars,r10%/year,six months. Denominator/value and account inference? Key1.05,95.238095; not margin balance because formula assumes deferred payment and ignores account funding/path. Pass units/value/boundary; partial arithmetic; fail months factor/account assertion.
+
+The sign alone is a tentative diagnosis; use the learner's reasoning to establish the confusion. Score the initial response before any hint. Hint 1 points to the named distinction; hint 2 points to the first correct step. After two ineffective hints show the prepared key, then pause if the fresh C1 response still fails. C1 checks the repaired component only and cannot replace a full independent check.
+
+## Immediate and delayed checks
+
+All items are item_version 1 and role full_capability_check. I1/I2 are immediate; D1/D2 are prepared delayed variants. D items may establish delayed success only when unused, unassisted, attempted before recap, at least 24 elapsed hours after acquisition and the most recent relevant solution/teaching exposure, with intervening exposure recorded. Early D attempts may be immediate checks but are not delayed evidence. Each delayed success is separate from initial acquisition. Numerical changes are parallel variants; a changed buyer/seller context is bounded near transfer, never proof of broad transfer.
+
+### O008-I1
+
+**Prompt:** Hypothetical X100 units,F0=50,Ft55,annual simple r8%,six months remaining. Compute numerator,dimensionless denominator and lecture long/short values with units. Give inception values and matching maturity values if St55. Explain the payment-timing assumption and why neither value gives margin balance or a universal daily-settled cash-flow valuation.
+
+**Key and essential rubric:** Xdifference500 dollars,Δt0.5year,r0.08,denominator1.04,long$480.769231,short−$480.769231. Inception numerator0→0. At maturity denominator1/St=Ft55 gives+500/−500. Assumed difference paid atT; actual futures settle daily and need deposits/withdrawals/path/flow-interest model for account/value. Slide timing not reconciled; no universal claim. All three components required.
+
+### O008-I2
+
+**Prompt:** Hypothetical X200,F0=30,Ft28,annual simple r10%,three months remaining. Compute signed numerator,matching units,denominator and long/short lecture values; state inception and matching maturity values at St28. Explain deferred versus daily settlement and whether a $1000 initial deposit makes account equal to the formula.
+
+**Key and essential rubric:** Numerator−400,Δt0.25year,r0.10,denominator1.025,long−$390.243902,short+$390.243902. Inception0; maturitylong−400,short+400. Formula assumes deferred maturity difference; daily-settled account includes initial1000 plus actual transfers/topups/withdrawals. Deposit does not equate it withV; selected sources supply no all-flow valuation. All three components required.
+
+### O008-D1
+
+**Prompt:** Hypothetical X50,F0=80,Ft84,annual simple r12%,nine months remaining. Compute numerator,denominator,long/short V and units; verify inception/matching maturity signs at St84. Explain the assumed payment date, source timing boundary and whether the computed V is a required margin balance.
+
+**Key and essential rubric:** Numerator200 dollars,Δt0.75,r0.12,denominator1.09,long$183.486239,short−$183.486239. Inception0;maturity+200/−200. Difference paid atT in illustration; daily actual settlement differs; V is not required margin/account balance or universal all-daily-flow value. Need actual cash flows/deposits/withdrawals and timing treatment absent in notes. All three components required.
+
+### O008-D2
+
+**Prompt:** Hypothetical X300,F0=10,Ft9,annual simple r6%,two years remaining. Compute numerator,denominator,long/short V with units and inception/matching maturity values at St9. Explain why replacing daily-settled margin accounting with the lecture formula is unjustified and identify the formula's exact timing assumption.
+
+**Key and essential rubric:** Numerator−300 dollars,Δt2years,r0.06,denominator1.12,long−$267.857143,short+$267.857143. Inception0;maturity−300/+300. Difference assumed paid once atT; real marking to market realizes changes daily. Account has deposits/withdrawals and timing; source has no reconciliation or universal interest-on-daily-flows valuation. All three components required.
+
+## Advance, revisit, pause, and escalate
+
+Advance when teach has committed two qualifying distinct full passes with this current criterion; this defines acquisition, not durable retention. Delayed success requires a later fresh full pass under the delayed conditions. After one failed check, score, teach the named correction and use another unused full item. After two unsuccessful independent attempts or a failed fresh correction, pause independent quizzing and return to the relevant prepared explanation/dependency. Stop if a note/ingest conflict affects the mechanism. Unsupported accepted alternatives, unclear rubric, exhausted item bank, or missing blocks require plan_issue with 2026_2027/Winter_Semester/Financial_Markets_Instruments_I, O008, objective revision 1, O008-C1, P002/V001, ingestion revision 1 and the exact item ID. Academic note contradictions go to ingest with the cited heading; plan gaps go to plan. End a session with honest partial coverage if acquisition is unfinished.
+
+## Answer-free recall handoff
+
+Topic: Use the lecture deferred-payment value with its timing boundary. Instruction: Begin a closed-note review with teach for O008; request an unused prepared delayed item before recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O008.md#Immediate and delayed checks]]. Teach supplies committed evidence IDs and actual timestamps; recall owns due dates and Todoist. Deadline/retention horizon is null. No learner result or review date is created by this definition.

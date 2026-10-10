@@ -1,6 +1,6 @@
 # University Assistant
 
-Private `uni-teach` plugin for `/Users/slavomirhoricka/Desktop/Obsidian/Uni`. Four skills: ingest verifies raw materials and creates finished notes; plan prepares versioned executable curriculum; teach conducts sessions and records actual learner evidence; recall derives dates and synchronizes review tasks through the separately installed **Todoist: To Do List & Calendar** harness.
+Private `uni-teach` plugin for the selected University Notes checkout. The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`; isolated tasks use their actual worktree root for all workflow paths. Never redirect writes to the legacy vault or another checkout. Four skills: ingest verifies raw materials and creates finished notes; plan prepares versioned executable curriculum; teach conducts sessions and records actual learner evidence; recall derives dates and synchronizes review tasks through the separately installed **Todoist: To Do List & Calendar** harness.
 
 Use a capable model for ingest/plan and a faster model for prepared teaching/recall. Skills cannot switch the host model. Ask to ingest an exact folder; plan a full course identity and bounded scope; teach/resume with a study budget; or synchronize committed reviews with Todoist. Missing/ambiguous project mappings require a unique existing project ID. No guessed course project, solution disclosure, task-completion mastery, or speculative learner records.
 

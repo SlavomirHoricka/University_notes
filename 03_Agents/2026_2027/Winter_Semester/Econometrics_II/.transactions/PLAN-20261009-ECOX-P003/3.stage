@@ -1,0 +1,253 @@
+# Derive and interpret scalar and matrix OLS
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+  "transaction_id": "PLAN-20261005-ECONOMETRICS-P002",
+  "plan_version": "P002",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O002",
+  "objective_revision": 1,
+  "criterion_version": "O002-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "procedural",
+    "interpretation"
+  ],
+  "prerequisite_ids": [],
+  "compatible_versions": [
+    {
+      "objective_revision": 1,
+      "criterion_version": "O002-C1",
+      "plan_version": "P001",
+      "source_version": "V001",
+      "ingestion_revision": 1,
+      "reason": "Finished-note bytes, outcome components, success criteria and independence/delayed conditions are unchanged. P002 replaces O006 prerequisite diagnostics and numerical full-check cases to avoid prior exact exposure in entry and upstream O005 routes; no old response is regraded.",
+      "change_class": "unchanged",
+      "requires_reassessment": false
+    }
+  ],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md",
+      "heading": "Population model, sample, and notation"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md",
+      "heading": "How OLS chooses the line"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md",
+      "heading": "The assumption ladder"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md",
+      "heading": "Why multiple regression uses matrix notation"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "permitted_item_ids": [
+      "O002-I1",
+      "O002-I2",
+      "O002-D1",
+      "O002-D2"
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Derive and interpret scalar and matrix OLS",
+  "review_instruction": "Begin a closed-note review with teach for O002; request a fresh prepared delayed item before any recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Derive the OLS normal equations and centered solution, calculate fitted values/residuals, use matrix dimensions/full rank, and distinguish algebraic fitting identities from population assumptions.
+
+Required components (all must be elicited and passed):
+
+- C1: Derives both normal equations and centered formula with nonzero denominator.
+- C2: Correct coefficients, fitted values, residual signs and units/domain.
+- C3: Correct matrix dimensions/full-rank condition and joint interpretation.
+- C4: Names six assumptions and distinguishes residual identities from exogeneity.
+
+Finished-note authority:
+
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md#Population model, sample, and notation]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md#How OLS chooses the line]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md#The assumption ladder]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md#Why multiple regression uses matrix notation]]
+
+Teaching/support: relevant finished notes, supplied prompts and calculator permitted. Independent and delayed checks: closed notes, no lesson/keys/software-generated explanation/search/AI assistance, no hints; a basic arithmetic calculator is allowed and must be reported. Numerical inputs/cutoffs/p values in the question are allowed data. The teacher hides keys until an answer is committed. Unknown assistance/access/exposure is unscorable for independent acquisition. A previously exposed item cannot be counted as fresh. A learner may explain orally or in writing; mathematical reasoning and units must be explicit.
+
+## Prerequisites and checks
+
+### O002-P1
+
+`item_id: O002-P1`, `item_version: 1`, role: prerequisite diagnostic. Capability: local; reason: Means, centered sums, derivative and dimensions are needed for the stated derivation.
+
+Prompt: For x=(1,2,3), find mean and Sxx. Differentiate (y-b0-b1 x)^2 with respect to b0. What does transpose do to a3×2 matrix?
+
+Key: Mean2; Sxx=1+0+1=2; derivative -2(y-b0-b1 x); transpose is 2×3.
+
+Rubric: pass only if the stated answer and its essential reason are correct without help; partial for incomplete reasoning or a recoverable arithmetic slip; fail for a contrary concept or no usable answer. This diagnostic never counts toward acquisition. Repair: Use Explanation steps1–3 as local arithmetic/differentiation/dimension repair; then S. No unrelated prerequisite course is required.
+
+Adequate committed current-version evidence for the named capability permits skipping that diagnostic; familiarity/confidence does not. If there is no evidence, ask each diagnostic once. Local foundation failures use the exact explanation here, not an improvised prerequisite curriculum.
+
+## Teaching order and rationale
+
+1. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Prerequisites and checks]] establishes only the prerequisites needed.
+2. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Motivation, intuition, and definitions]] motivates the decision and fixes notation/units before calculation.
+3. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Explanation steps]] supplies intermediate reasoning and boundaries.
+4. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Worked example]] models the complete chain.
+5. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Practice with fading assistance]] uses S as a completion task, then hides help for I1 and I2.
+6. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Misconceptions and correction]] repairs the exact observed gap; fresh full checks follow only under the permitted routes below.
+7. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Immediate and delayed checks]] tests retrieval after a real interval; immediate success alone never establishes durability.
+
+A knowledgeable learner whose prerequisite diagnostics pass may omit W/S and start I1; both complete independent checks are still required. Teaching reads one bounded lesson with its linked note sections.
+
+## Motivation, intuition, and definitions
+
+Derive the OLS normal equations and centered solution, calculate fitted values/residuals, use matrix dimensions/full rank, and distinguish algebraic fitting identities from population assumptions. The question is what the available information lets us calculate or conclude, and which extra conditions the conclusion needs.
+
+Population model $y_i=\beta_0+\beta_1 x_i+u_i$: fixed population parameters, generally unobserved disturbance. Hats mark sample estimates; $\hat u_i=y_i-\hat y_i$ is an observable fitted residual. Slope units are y units per x unit; intercept at x=0 needs substantive relevance. $S_{xx}=\sum(x_i-\bar x)^2$, $S_{xy}=\sum(x_i-\bar x)(y_i-\bar y)$. In multiple regression X includes ones; k counts nonconstant regressors. OLS can be calculated without certifying a causal relationship.
+
+## Explanation steps
+
+1. Minimize $Q(b)=\sum(y_i-b_0-b_1 x_i)^2$. Derivatives are $-2\sum\hat u_i$ and $-2\sum x_i\hat u_i$; set both to zero.
+2. The first implies $b_0=\bar y-b_1\bar x$. Substitute into the second: $S_{xy}-b_1 S_{xx}=0$, giving $\hat\beta_1=S_{xy}/S_{xx}$ and $\hat\beta_0=\bar y-\hat\beta_1\bar x$ if $S_{xx}>0$. Centering makes $\sum(x_i-\bar x)=0$.
+3. Predictions are $\hat y_i=\hat\beta_0+\hat\beta_1 x_i$; residuals are actual minus fitted. Thus positive residual means actual exceeds prediction. Intercept OLS yields $\sum\hat u_i=\sum x_i\hat u_i=0$ as minimization identities; it does not yield $E[u\mid x]=0$.
+4. For $y=X\beta+u$, dimensions are y, u:n×1; X:n×(k +1); beta:(k +1)×1. Normal equations $X'X\hat\beta=X'y$ have (k +1)×(k +1) multiplying (k +1)×1. Full column rank makes the inverse available and yields $(X'X)^{-1}X'y=\beta+(X'X)^{-1}X'u$. The equations estimate all coefficients jointly; separate simple regressions do not hold the other variables fixed.
+5. Name the assumption ladder: linear in parameters, random sampling, no perfect collinearity, zero conditional mean, homoskedasticity, conditional normality. A squared/transformed regressor can still be linear in parameters. Algebra needs full rank for uniqueness; sampling properties need additional named assumptions. Zero population conditional mean is about disturbances, not fitted residuals.
+
+## Worked example
+
+O002-W v1, hypothetical x=(1,2,3), y=(2,3,7): means 2 and 4; Sxx 2; Sxy=(-1)(-2)+0(-1)+(1)(3)=5. Slope 2.5, intercept -1. Predictions 1.5,4,6.5, residuals 0.5,-1,0.5; sum 0 and x-weighted sum 0. The line passes through(2,4); this checks intercept arithmetic. Slope 2.5 y units per x unit; zero-x intercept is outside observations. For n=20, k=2, X is 20×3, X'X 3×3; a regressor equal to twice another makes X rank deficient, so the inverse formula cannot be used. No sample identity establishes exogeneity.
+
+Role: complete demonstration, never independent evidence. Unless explicitly identified as a finished-note result, numerical/context examples are agent-created hypothetical instantiations of the note-supported mechanism.
+
+## Practice with fading assistance
+
+For S, show the setup and allow reference to Explanation steps; ask the learner to supply the missing calculations/decisions and reasons before feedback. One hint identifies the relevant definition/step; a second reveals the next operation. If two hints fail, show the key and repair. Fade to independent checks only after the learner can explain the completed method or a passed diagnostic supports skipping S.
+
+### O002-S
+
+`item_id: O002-S`, `item_version: 1`, role: supported_completion, condition: supported, relation: parallel_variant.
+
+Prompt: Complete the worked calculation: slope=5/___, intercept=4-slope×___, residual at x=2 is 3-___. Supply the two normal equations, matrix dimensions for n 20/k 2, and explain why zero residual correlation does not establish population zero conditional mean. State dimensions of y, u, X, beta and X'X explicitly.
+
+Required response components: Derives both normal equations and centered formula with nonzero denominator; Correct coefficients, fitted values, residual signs and units/domain; Correct matrix dimensions/full-rank condition and joint interpretation; Names six assumptions and distinguishes residual identities from exogeneity.
+
+Key and essential reasoning: 2;2;4; slope 2.5/intercept -1/residual -1. Equations sum residual=0 and sum x×residual=0. X 20×3, beta 3×1, X'X 3×3; inverse requires full column rank. Residual orthogonality is imposed by minimization; exogeneity concerns unobserved u in the population. Name all six assumptions as in Explanation5. Dimensions: y and u 20×1; X 20×3; beta 3×1; X'X 3×3.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+### O002-I1
+
+`item_id: O002-I1`, `item_version: 1`, role: full_capability_check, condition: independent, relation: parallel_variant.
+
+Prompt: For hypothetical x=(0,1,2), y=(1,2,6), derive normal equations then calculate means, Sxx, Sxy, coefficients and residuals. Give slope/intercept units and domain caution. For n 12/k 3 give dimensions and inverse condition; describe joint estimation. Name the six assumptions and say whether residual orthogonality proves MLR4. State dimensions of y, u, X, beta and X'X explicitly.
+
+Required response components: Derives both normal equations and centered formula with nonzero denominator; Correct coefficients, fitted values, residual signs and units/domain; Correct matrix dimensions/full-rank condition and joint interpretation; Names six assumptions and distinguishes residual identities from exogeneity.
+
+Key and essential reasoning: Means 1,3; Sxx 2, Sxy 5; slope 2.5/intercept 0.5; fitted 0.5,3,5.5; residual 0.5,-1,0.5. Derive both equations by differentiating squared residuals, substitute intercept into second. Slope y units per x unit; intercept y-units at zero (observed here but model relevance still needed). X 12×4, beta 4×1, X'X 4×4; full column rank; jointly holds other regressors fixed. Six assumptions: linear parameters/random sample/no perfect collinearity/zero conditional mean/homoskedasticity/normality. Orthogonality is a fitted identity and cannot prove MLR4. Dimensions: y and u 12×1; X 12×4; beta 4×1; X'X 4×4.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+### O002-I2
+
+`item_id: O002-I2`, `item_version: 1`, role: full_capability_check, condition: independent, relation: parallel_variant.
+
+Prompt: For x=(1,2,3), y=(3,4,8), derive normal equations, means, centered sums, coefficients, fitted values and residuals; interpret units/intercept domain. With n 30 and regressors z and 2 z plus intercept, give matrix dimensions, explain failure of inverse/joint coefficient identification. Name the assumption ladder and distinguish fitted residual from disturbance. State dimensions of y, u, X, beta and X'X explicitly.
+
+Required response components: Derives both normal equations and centered formula with nonzero denominator; Correct coefficients, fitted values, residual signs and units/domain; Correct matrix dimensions/full-rank condition and joint interpretation; Names six assumptions and distinguishes residual identities from exogeneity.
+
+Key and essential reasoning: Means 2,5; Sxx 2, Sxy 5; slope 2.5/intercept 0; fitted 2.5,5,7.5; residual 0.5,-1,0.5. Normal-equation derivation and substitution as above. Slope y units per x unit; x=0 unobserved. X 30×3/X'X 3×3/beta 3×1 but rank deficient because z and 2 z duplicate variation; cannot separate their coefficients. Joint estimation otherwise holds controls fixed. Name six assumptions. Disturbance generally unobserved; residual calculated from line, orthogonal by construction, no proof of exogeneity. Dimensions: y and u 30×1; X 30×3; beta 3×1; X'X 3×3.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+## Rubric and independence
+
+Pass: all C1–C4 correct, essential reasoning explicit, known independent conditions and fresh item. Partial: one or more components missing, an unexplained claim, or a recoverable arithmetic slip with sound method. Fail: a critical conceptual error, wrong method/assumptions/interpretation, or no usable attempt. Unscorable: unknown conditions/exposure or an alternative outside the prepared key. Equivalent algebra, clear verbal reasoning and synonymous units/assumption names are acceptable; assumption numbers alone are insufficient. Numerical rounding to sensible precision is acceptable. A isolated arithmetic slip is partial and is not treated as established conceptual failure; the learner must independently repair it with a fresh prepared full item before a pass qualifies. No numeric grading scale is invented.
+
+Every full task I1, I2, D1, D2 expressly requests all C1–C4 and has a complete task-specific key plus exact conceptual reasoning above. Omitted pieces are partial even if an unasked answer happens to sound fluent. Supported S and narrow correction C never substitute for a full check.
+
+Permitted acquisition routes: I1+I2; if an item was exposed, failed or unavailable, replace only that full check with a previously unexposed D1 or D2. Any selected pair of distinct items from {I1,I2,D1,D2} covers C1–C4 twice. Do not use an item twice or count a corrected answer to the same item as fresh. D items used immediately are logged as independent replacement checks, not delayed evidence. No shortened variant or arbitrary new task is permitted. Two complete unassisted passes under O002-C1 establish acquisition; they do not establish retention. This is a default evidence rule, not a learner outcome.
+
+Component-to-item coverage on every route:
+
+| Component | S | I1 | I2 | D1 | D2 | Correction C |
+|---|---|---|---|---|---|---|
+| C1 | supported | required | required | required | required | narrow repair only |
+| C2 | supported | required | required | required | required | narrow repair only |
+| C3 | supported | required | required | required | required | narrow repair only |
+| C4 | supported | required | required | required | required | narrow repair only |
+
+## Misconceptions and correction
+
+Sign: using uncentered sum(xy)/sum(x²) despite an intercept, reversing residual sign, or calling zero residual correlation exogeneity. Correction: the intercept is eliminated through sample means; use actual minus fitted; OLS forces orthogonality regardless of population disturbance relation. Hint1: isolate the intercept with the first normal equation. Hint2: substitute the centered form into the second.
+
+Score the original response before help. One ambiguous error only suggests a tentative misconception; establish it only from explicit reasoning or repeated diagnostic signs. Explain the relevant prepared step and its consequence; never label the learner from confidence or a single slip.
+
+### O002-C
+
+`item_id: O002-C`, `item_version: 1`, role: targeted correction; not an acquisition substitute.
+
+Prompt: Fresh O002-C v1: x=(1,2), y=(4,8). Give line/residuals and explain whether a perfect fit proves exogeneity.
+
+Key: Means 1.5,6; Sxx 0.5, Sxy 2; slope 4/intercept 0; residual 0,0. Perfect sample fit does not establish population exogeneity. This targets centering/identity only; it is not a complete substitute.
+
+Rubric: correct supplied answer plus the exact boundary/reason is a repair pass; omitted reason is partial; repeating the original misconception is fail. Repair success licenses returning to a fresh full prepared item; it never replaces full C1–C4 coverage.
+
+## Immediate and delayed checks
+
+I1/I2 are immediate checks after instruction or a justified expert route. D1/D2 are distinct parallel/near-context applications, not broad-transfer proof. Teach records exposure; the exact original must not be re-used as a fresh retrieval question. For delayed evidence require at least24 actual elapsed hours since qualifying acquisition and known independent conditions; ask the item before recap or solutions, record any intervening study, and apply all C1–C4. An early answer can be immediate evidence only.
+
+### O002-D1
+
+`item_id: O002-D1`, `item_version: 1`, role: full_capability_check, default condition: delayed, permitted immediate replacement when fresh, relation: parallel_variant.
+
+Prompt: Use x=(2,3,4), y=(3,4,8). Derive scalar OLS, compute full fit/residuals, and interpret units/zero-x extrapolation. For n 25/k 2 state all dimensions and full-rank requirement; explain joint estimation, name the six assumptions and distinguish exogeneity from residual orthogonality. State dimensions of y, u, X, beta and X'X explicitly.
+
+Required response components: Derives both normal equations and centered formula with nonzero denominator; Correct coefficients, fitted values, residual signs and units/domain; Correct matrix dimensions/full-rank condition and joint interpretation; Names six assumptions and distinguishes residual identities from exogeneity.
+
+Key and essential reasoning: Means 3,5; Sxx 2, Sxy 5; slope 2.5/intercept -2.5; fitted 2.5,5,7.5; residual 0.5,-1,0.5. Derive normal equations then centered formula. Zero-x outside sample; slope units y/x. X 25×3, y/u 25×1, beta 3×1, X'X 3×3; full rank, joint slopes conditional on controls. Six assumptions as Explanation5. Residual orthogonality imposed, not population exogeneity. Dimensions: y and u 25×1; X 25×3; beta 3×1; X'X 3×3.
+
+Rubric: all C1–C4 plus known fresh/independent/elapsed conditions for delayed pass. Parallel numerical/context changes support the bounded capability; they do not alone demonstrate broad transfer.
+
+### O002-D2
+
+`item_id: O002-D2`, `item_version: 1`, role: full_capability_check, default condition: delayed, permitted immediate replacement when fresh, relation: parallel_variant.
+
+Prompt: Use x=(0,2,4), y=(2,4,10). Derive scalar OLS, calculate fit/residuals, interpret slope/intercept units. In n 18/k 2 design a constant regressor 2 besides the intercept; explain matrix dimensions/inverse failure, joint estimation and all six population assumptions. Why cannot fitted residuals verify MLR4? State dimensions of y, u, X, beta and X'X explicitly.
+
+Required response components: Derives both normal equations and centered formula with nonzero denominator; Correct coefficients, fitted values, residual signs and units/domain; Correct matrix dimensions/full-rank condition and joint interpretation; Names six assumptions and distinguishes residual identities from exogeneity.
+
+Key and essential reasoning: Means 2,16/3; Sxx 8; Sxy 16; slope 2/intercept 4/3; predictions 4/3,16/3,28/3; residual 2/3,-4/3,2/3. Derivation as Explanation1–2. Slope y/x; intercept y at 0 present in sample. X 18×3, y/u 18×1, beta 3×1, X'X 3×3; constant 2 collinear with ones, full rank fails. Joint estimation holds included controls fixed when identified. Name six assumptions; residual constraints arise from minimizing SSE, population u/exogeneity not observed. Dimensions: y and u 18×1; X 18×3; beta 3×1; X'X 3×3.
+
+Rubric: all C1–C4 plus known fresh/independent/elapsed conditions for delayed pass. Parallel numerical/context changes support the bounded capability; they do not alone demonstrate broad transfer.
+
+## Advance, revisit, pause, and escalate
+
+Advance after two qualifying distinct full passes. A delayed pass separately requires complete criteria under its time/exposure conditions; no answer/no fresh variant means no durability conclusion. A failed delayed check is scored before explanation, then use the named correction and a fresh full prepared check as appropriate; scheduling belongs to recall. Return to the named prerequisite when its missing capability causes the error, not after every mistake. After two ineffective hints show the necessary key/step or pause; after two unsuccessful fresh independent attempts stop quizzing and repair.
+
+If all full variants have been exposed/exhausted, or an otherwise plausible answer needs an unprepared acceptance rule, emit `plan_issue` with course 2026_2027/Winter_Semester/Econometrics_II, objective O002, revision1, criterion O002-C1, P002/V001/ingestion1 and exact item ID. Do not invent a replacement. Source conflicts/changed ingestion token block affected teaching and route note path+heading, revision/pass and exact issue to ingest. Close an interrupted/unanswered session without fabricating completion; teach alone writes actual evidence.
+
+## Answer-free recall handoff
+
+Review topic: Derive and interpret scalar and matrix OLS.
+
+Start instruction: Begin a closed-note review with teach for O002; request a fresh prepared delayed item before any recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Immediate and delayed checks]]. No due date is defined. Teach supplies committed learner evidence IDs and actual conditions; recall determines scheduling.

@@ -1,0 +1,270 @@
+# Calculate residual diagnostics and bound their conclusions
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+  "transaction_id": "PLAN-20261005-ECONOMETRICS-P002",
+  "plan_version": "P002",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O008",
+  "objective_revision": 1,
+  "criterion_version": "O008-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "procedural",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O002",
+    "O005"
+  ],
+  "compatible_versions": [
+    {
+      "objective_revision": 1,
+      "criterion_version": "O008-C1",
+      "plan_version": "P001",
+      "source_version": "V001",
+      "ingestion_revision": 1,
+      "reason": "Finished-note bytes, outcome components, success criteria and independence/delayed conditions are unchanged. P002 replaces O006 prerequisite diagnostics and numerical full-check cases to avoid prior exact exposure in entry and upstream O005 routes; no old response is regraded.",
+      "change_class": "unchanged",
+      "requires_reassessment": false
+    }
+  ],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Assumption checks: what diagnostics can establish"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Normality: a plot and a moment test"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Homoskedasticity: a spread plot and an auxiliary regression"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "heading": "Assumptions that remain substantive"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "permitted_item_ids": [
+      "O008-I1",
+      "O008-I2",
+      "O008-D1",
+      "O008-D2"
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Calculate residual diagnostics and bound their conclusions",
+  "review_instruction": "Begin a closed-note review with teach for O008; request a fresh prepared delayed item before any recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Interpret the recorded residual plots, compute the note-supported Jarque–Bera and studentized Breusch–Pagan/Koenker statistics, make stated-level decisions from supplied p values, and identify assumptions they cannot establish.
+
+Required components (all must be elicited and passed):
+
+- C1: Defines moments/normal benchmarks and correctly calculates JB with df2.
+- C2: Correct squared-residual auxiliary model/LM and nonconstant-regressor df.
+- C3: Appropriate shape/spread plot reading and stated5% decisions with asymptotic conditions.
+- C4: Explicit limited-test, nonrejection, sampling/exogeneity/causal/provenance boundaries.
+
+Finished-note authority:
+
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Assumption checks: what diagnostics can establish]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Normality: a plot and a moment test]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Homoskedasticity: a spread plot and an auxiliary regression]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md#Assumptions that remain substantive]]
+
+Teaching/support: relevant finished notes, supplied prompts and calculator permitted. Independent and delayed checks: closed notes, no lesson/keys/software-generated explanation/search/AI assistance, no hints; a basic arithmetic calculator is allowed and must be reported. Numerical inputs/cutoffs/p values in the question are allowed data. The teacher hides keys until an answer is committed. Unknown assistance/access/exposure is unscorable for independent acquisition. A previously exposed item cannot be counted as fresh. A learner may explain orally or in writing; mathematical reasoning and units must be explicit.
+
+## Prerequisites and checks
+
+### O008-P1
+
+`item_id: O008-P1`, `item_version: 1`, role: prerequisite diagnostic. Capability: O002; reason: Residuals/orthogonality and rank distinguish fitting from assumptions.
+
+Prompt: Define residual and say whether sum residual 0 demonstrates population exogeneity.
+
+Key: Residual actual minus fitted; sum 0 with intercept is a fitting identity, not E[u|x]=0.
+
+Rubric: pass only if the stated answer and its essential reason are correct without help; partial for incomplete reasoning or a recoverable arithmetic slip; fail for a contrary concept or no usable answer. This diagnostic never counts toward acquisition. Repair: Return to O002 Explanation3–5 and supported task.
+
+Prepared prerequisite: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Explanation steps]].
+
+### O008-P2
+
+`item_id: O008-P2`, `item_version: 1`, role: prerequisite diagnostic. Capability: O005; reason: Shape, constant spread and inference conditions must be distinguished.
+
+Prompt: Does homoskedasticity mean normality? What does nonrejection say?
+
+Key: No: constant conditional variance versus conditional shape. Nonrejection records insufficient evidence against the null at the stated level, not proof.
+
+Rubric: pass only if the stated answer and its essential reason are correct without help; partial for incomplete reasoning or a recoverable arithmetic slip; fail for a contrary concept or no usable answer. This diagnostic never counts toward acquisition. Repair: Return to O005 definitions/Explanation6; local p-value decision repair is Explanation4 below.
+
+Prepared prerequisite: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Explanation steps]].
+
+Adequate committed current-version evidence for the named capability permits skipping that diagnostic; familiarity/confidence does not. If there is no evidence, ask each diagnostic once. Local foundation failures use the exact explanation here, not an improvised prerequisite curriculum.
+
+## Teaching order and rationale
+
+1. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md#Prerequisites and checks]] establishes only the prerequisites needed.
+2. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md#Motivation, intuition, and definitions]] motivates the decision and fixes notation/units before calculation.
+3. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md#Explanation steps]] supplies intermediate reasoning and boundaries.
+4. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md#Worked example]] models the complete chain.
+5. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md#Practice with fading assistance]] uses S as a completion task, then hides help for I1 and I2.
+6. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md#Misconceptions and correction]] repairs the exact observed gap; fresh full checks follow only under the permitted routes below.
+7. [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md#Immediate and delayed checks]] tests retrieval after a real interval; immediate success alone never establishes durability.
+
+A knowledgeable learner whose prerequisite diagnostics pass may omit W/S and start I1; both complete independent checks are still required. Teaching reads one bounded lesson with its linked note sections.
+
+## Motivation, intuition, and definitions
+
+Interpret the recorded residual plots, compute the note-supported Jarque–Bera and studentized Breusch–Pagan/Koenker statistics, make stated-level decisions from supplied p values, and identify assumptions they cannot establish. The question is what the available information lets us calculate or conclude, and which extra conditions the conclusion needs.
+
+The finished note explicitly selects these diagnostic methods to implement an open-ended seminar task; the handout did not name them. Jarque–Bera uses skewness S and kurtosis K with normal benchmarks 0 and 3. Homoskedasticity is constant conditional disturbance variance; the studentized BP/Koenker auxiliary regression explains squared residuals by an intercept and selected regressors. These are large-sample tests with their own conditions, not exact proofs of population assumptions.
+
+## Explanation steps
+
+1. Inspect residual histogram/normal Q–Q plot: diagonal compatibility supports a normal-shaped description; curvature/tail departures raise concerns. The recorded plot is broadly symmetric/near diagonal with some tails. Residuals are estimated disturbances constrained by OLS, not direct iid draws of true u.
+2. Centered residual moments mr=n^-1 sum residual^r yield S=m3/m2^(3/2), K=m4/m2². JB=n[S²/6+(K -3)²/24], with chi-square2 large-sample reference under normal-null/regularity. S=0, K=3 yields0, but matching two moments cannot prove all conditional-distribution properties.
+3. Residuals versus fitted values and squared residuals versus fitted show spread: funnel suggests variance concern. The recorded image has no conspicuous funnel, but a single projection can miss regressor-specific patterns. Regress squared residuals on intercept plus q nonconstant chosen regressors: LM=n*Raux², asymptotic chi-squareq under homoskedastic null/independent sampling/moment conditions. q excludes the intercept; auxiliary specification determines the alternatives probed.
+4. Fix alpha0.05 before interpreting supplied p. If p<0.05 reject null; otherwise do not reject. Nonrejection means this test found insufficient contrary evidence; it is not acceptance/proof. No p value is computed from a invented reference table; prepared p values are part of the prompts.
+5. Neither diagram/test establishes random sampling, representativeness, population exogeneity, causality or structural definition of the CSV u column. Sample full rank can establish unique coefficients, but functional form and mean assumptions remain substantive. A good fit and passing diagnostics cannot turn a regression into a causal model.
+
+## Worked example
+
+O008-W v1, finished-note model3 n 1000: S 0.031493, K 3.051706 yields JB≈0.276697, p 0.870795; do not reject at 5%. Auxiliary q 3, Raux²0.004737882 yields LM4.737882, p 0.192028; do not reject at 5% against this variance alternative. The diagnostic figure shows near-diagonal Q–Q with tail deviations and no conspicuous funnel; report compatibility, not exact normality/homoskedasticity. Full rank supports uniqueness; unavailable sampling/DGP details remain unavailable.
+
+Role: complete demonstration, never independent evidence. Unless explicitly identified as a finished-note result, numerical/context examples are agent-created hypothetical instantiations of the note-supported mechanism.
+
+## Practice with fading assistance
+
+For S, show the setup and allow reference to Explanation steps; ask the learner to supply the missing calculations/decisions and reasons before feedback. One hint identifies the relevant definition/step; a second reveals the next operation. If two hints fail, show the key and repair. Fade to independent checks only after the learner can explain the completed method or a passed diagnostic supports skipping S.
+
+### O008-S
+
+`item_id: O008-S`, `item_version: 1`, role: supported_completion, condition: supported, relation: parallel_variant.
+
+Prompt: For the worked model identify what each of its four plots asks, complete JB and LM from provided inputs, give reference df and 5% decisions, and list assumptions that remain unverified. Explain why a nonrejected moment test cannot prove conditional normality.
+
+Required response components: Defines moments/normal benchmarks and correctly calculates JB with df2; Correct squared-residual auxiliary model/LM and nonconstant-regressor df; Appropriate shape/spread plot reading and stated5% decisions with asymptotic conditions; Explicit limited-test, nonrejection, sampling/exogeneity/causal/provenance boundaries.
+
+Key and essential reasoning: Histogram shape; Q–Q normal-shape deviations; residuals/fitted spread; squared residuals/fitted spread. JB≈0.276697, df2, p 0.870795, do not reject. LM4.737882, df3, p 0.192028, do not reject. Independent-sampling/moment/large-sample conditions; auxiliary alternative limited. Sampling/representativeness/exogeneity/causality/DGP/u definition remain unverified; two moments/estimated residuals not all conditional normality.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+### O008-I1
+
+`item_id: O008-I1`, `item_version: 1`, role: full_capability_check, condition: independent, relation: parallel_variant.
+
+Prompt: Hypothetical n 1200, S 0.1, K 3.2; JB p 0.135335 supplied. Auxiliary squared residual regression on intercept +3 regressors has R² 0.01, p 0.007383 supplied. Compute JB/LM/reference df and 5% decisions. Describe informative histogram/Q–Q and spread-plot features; define moment inputs and auxiliary dependent variable; state test conditions/limited alternatives and what sampling/exogeneity/causality conclusions remain unsupported.
+
+Required response components: Defines moments/normal benchmarks and correctly calculates JB with df2; Correct squared-residual auxiliary model/LM and nonconstant-regressor df; Appropriate shape/spread plot reading and stated5% decisions with asymptotic conditions; Explicit limited-test, nonrejection, sampling/exogeneity/causal/provenance boundaries.
+
+Key and essential reasoning: JB 1200(0.01/6+0.04/24)=4, chi-square2, do not reject at 5%. LM 12, chi-square3, reject homoskedastic null. Histogram/Q–Q shape/diagonal vs curvature/tail, residual/squared residual spread vs fitted/funnel. S=m3/m2^1.5, K=m4/m2²; normal 0/3; aux outcome squared residual, intercept excluded from df. Asymptotic usual independent sampling/moments; alternative depends selected regressors. Nonrejection not proof, rejection not diagnosis of all model failures; no sampling/exogeneity/causality/u-column proof.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+### O008-I2
+
+`item_id: O008-I2`, `item_version: 1`, role: full_capability_check, condition: independent, relation: parallel_variant.
+
+Prompt: Hypothetical n 600, S 0.2, K 3.4; JB p 0.018316 supplied. Auxiliary with intercept +2 regressors has R² 0.004, p 0.301194 supplied. Give formula inputs, compute statistics/reference df and 5% decisions, explain Q–Q/histogram and residual/squared-residual spread features, conditions/alternatives and what remains substantive even if no funnel.
+
+Required response components: Defines moments/normal benchmarks and correctly calculates JB with df2; Correct squared-residual auxiliary model/LM and nonconstant-regressor df; Appropriate shape/spread plot reading and stated5% decisions with asymptotic conditions; Explicit limited-test, nonrejection, sampling/exogeneity/causal/provenance boundaries.
+
+Key and essential reasoning: JB 600(0.04/6+0.16/24)=8, chi-square2, reject normal null; LM 2.4, chi-square2, do not reject the homoskedastic null. Moment definitions and normal benchmarks 0/3; aux squared residual/q 2 excluding the intercept. Q–Q curvature/tails concern/histogram shape; funnel variance concern, single projection can miss patterns. Asymptotic sampling/moment conditions; LM limited alternative. Nonrejection not proof, no claims of exogeneity/representativeness/causality/u definition.
+
+Task rubric: apply C1–C4 and the cross-task decision rule below. The proof/definition/condition steps in Explanation steps are the exact shared conceptual key, not optional extra credit. All four components are expressly requested above.
+
+## Rubric and independence
+
+Pass: all C1–C4 correct, essential reasoning explicit, known independent conditions and fresh item. Partial: one or more components missing, an unexplained claim, or a recoverable arithmetic slip with sound method. Fail: a critical conceptual error, wrong method/assumptions/interpretation, or no usable attempt. Unscorable: unknown conditions/exposure or an alternative outside the prepared key. Equivalent algebra, clear verbal reasoning and synonymous units/assumption names are acceptable; assumption numbers alone are insufficient. Numerical rounding to sensible precision is acceptable. A isolated arithmetic slip is partial and is not treated as established conceptual failure; the learner must independently repair it with a fresh prepared full item before a pass qualifies. No numeric grading scale is invented.
+
+Every full task I1, I2, D1, D2 expressly requests all C1–C4 and has a complete task-specific key plus exact conceptual reasoning above. Omitted pieces are partial even if an unasked answer happens to sound fluent. Supported S and narrow correction C never substitute for a full check.
+
+Permitted acquisition routes: I1+I2; if an item was exposed, failed or unavailable, replace only that full check with a previously unexposed D1 or D2. Any selected pair of distinct items from {I1,I2,D1,D2} covers C1–C4 twice. Do not use an item twice or count a corrected answer to the same item as fresh. D items used immediately are logged as independent replacement checks, not delayed evidence. No shortened variant or arbitrary new task is permitted. Two complete unassisted passes under O008-C1 establish acquisition; they do not establish retention. This is a default evidence rule, not a learner outcome.
+
+Component-to-item coverage on every route:
+
+| Component | S | I1 | I2 | D1 | D2 | Correction C |
+|---|---|---|---|---|---|---|
+| C1 | supported | required | required | required | required | narrow repair only |
+| C2 | supported | required | required | required | required | narrow repair only |
+| C3 | supported | required | required | required | required | narrow repair only |
+| C4 | supported | required | required | required | required | narrow repair only |
+
+## Misconceptions and correction
+
+Sign: saying p 0.87 is 87% probability normality is true, counting intercept in LMdf, or using normality test to prove exogeneity. Correction: p is not the posterior probability of the null; compare it with alpha, count tested nonconstant auxiliary regressors, and separate mean assumptions from shape/spread. Hint1: name each null. Hint2: identify auxiliary outcome and regressors.
+
+Score the original response before help. One ambiguous error only suggests a tentative misconception; establish it only from explicit reasoning or repeated diagnostic signs. Explain the relevant prepared step and its consequence; never label the learner from confidence or a single slip.
+
+### O008-C
+
+`item_id: O008-C`, `item_version: 1`, role: targeted correction; not an acquisition substitute.
+
+Prompt: Fresh O008-C v1: n 1000, aux R² 0.006, three controls+intercept, p 0.111610 supplied. Compute LM/df/5% decision; can it prove exogeneity?
+
+Key: LM 6, df3, do not reject homoskedastic null; it cannot prove exogeneity or even prove homoskedasticity. Narrow repair only.
+
+Rubric: correct supplied answer plus the exact boundary/reason is a repair pass; omitted reason is partial; repeating the original misconception is fail. Repair success licenses returning to a fresh full prepared item; it never replaces full C1–C4 coverage.
+
+## Immediate and delayed checks
+
+I1/I2 are immediate checks after instruction or a justified expert route. D1/D2 are distinct parallel/near-context applications, not broad-transfer proof. Teach records exposure; the exact original must not be re-used as a fresh retrieval question. For delayed evidence require at least24 actual elapsed hours since qualifying acquisition and known independent conditions; ask the item before recap or solutions, record any intervening study, and apply all C1–C4. An early answer can be immediate evidence only.
+
+### O008-D1
+
+`item_id: O008-D1`, `item_version: 1`, role: full_capability_check, default condition: delayed, permitted immediate replacement when fresh, relation: parallel_variant.
+
+Prompt: Hypothetical n 300, S 0.2, K 3.4, JB p 0.135335 supplied; auxiliary intercept +3 regressors, R² 0.02, p 0.111610 supplied. Compute both statistics/reference df and 5% decisions, define ingredients, explain four plot roles and limitations, regularity/alternative scope and which population/causal claims cannot be drawn.
+
+Required response components: Defines moments/normal benchmarks and correctly calculates JB with df2; Correct squared-residual auxiliary model/LM and nonconstant-regressor df; Appropriate shape/spread plot reading and stated5% decisions with asymptotic conditions; Explicit limited-test, nonrejection, sampling/exogeneity/causal/provenance boundaries.
+
+Key and essential reasoning: JB 4, chi-square2, do not reject; LM 6, chi-square3, do not reject. S/K centered moments normal 0/3; aux squared residual and q 3 df. Histogram/Q–Q shape/tails; residual/squared residual fitted spread/funnel; projection may miss patterns. Large-sample/independent sampling/moment conditions; limited alternatives. Neither proves normality/homoskedasticity/exogeneity/sampling/causality/u definition.
+
+Rubric: all C1–C4 plus known fresh/independent/elapsed conditions for delayed pass. Parallel numerical/context changes support the bounded capability; they do not alone demonstrate broad transfer.
+
+### O008-D2
+
+`item_id: O008-D2`, `item_version: 1`, role: full_capability_check, default condition: delayed, permitted immediate replacement when fresh, relation: parallel_variant.
+
+Prompt: Hypothetical n 900, S 0.2, K 3.4, JB p 0.002479 supplied; auxiliary intercept +2 regressors, R² 0.012, p 0.004517 supplied. Compute both statistics/df and 5% decisions, define inputs, connect shape/spread plots to the respective nulls and explain reference conditions, limited alternatives and remaining model/provenance issues.
+
+Required response components: Defines moments/normal benchmarks and correctly calculates JB with df2; Correct squared-residual auxiliary model/LM and nonconstant-regressor df; Appropriate shape/spread plot reading and stated5% decisions with asymptotic conditions; Explicit limited-test, nonrejection, sampling/exogeneity/causal/provenance boundaries.
+
+Key and essential reasoning: JB 12, chi-square2, reject the normal null; LM 10.8, chi-square2, reject the homoskedastic null. S/K moments as above; aux squares/q 2. Histogram/Q–Q shape/curvature, tails; residual/fitted and squared residual/fitted spread variance concern. Asymptotic independent sampling/moment conditions; selected auxiliary regressors test limited alternatives. Rejections do not diagnose exogeneity/sampling/DGP or establish a causal correction; units/u definition remain missing.
+
+Rubric: all C1–C4 plus known fresh/independent/elapsed conditions for delayed pass. Parallel numerical/context changes support the bounded capability; they do not alone demonstrate broad transfer.
+
+## Advance, revisit, pause, and escalate
+
+Advance after two qualifying distinct full passes. A delayed pass separately requires complete criteria under its time/exposure conditions; no answer/no fresh variant means no durability conclusion. A failed delayed check is scored before explanation, then use the named correction and a fresh full prepared check as appropriate; scheduling belongs to recall. Return to the named prerequisite when its missing capability causes the error, not after every mistake. After two ineffective hints show the necessary key/step or pause; after two unsuccessful fresh independent attempts stop quizzing and repair.
+
+If all full variants have been exposed/exhausted, or an otherwise plausible answer needs an unprepared acceptance rule, emit `plan_issue` with course 2026_2027/Winter_Semester/Econometrics_II, objective O008, revision1, criterion O008-C1, P002/V001/ingestion1 and exact item ID. Do not invent a replacement. Source conflicts/changed ingestion token block affected teaching and route note path+heading, revision/pass and exact issue to ingest. Close an interrupted/unanswered session without fabricating completion; teach alone writes actual evidence.
+
+## Answer-free recall handoff
+
+Review topic: Calculate residual diagnostics and bound their conclusions.
+
+Start instruction: Begin a closed-note review with teach for O008; request a fresh prepared delayed item before any recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md#Immediate and delayed checks]]. No due date is defined. Teach supplies committed learner evidence IDs and actual conditions; recall determines scheduling.

@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "package_version": "0.3.1",
-  "source_root": "/Users/slavomirhoricka/.codex/worktrees/ingest-concept-priorities/University_notes/03_Agents",
+  "package_version": "0.3.2",
+  "source_root": "/Users/slavomirhoricka/.codex/worktrees/uni-paths-week2-recovery/University_notes/03_Agents",
   "files": {
     "LEARNING_ARCHITECTURE.md": {
       "source": "LEARNING_ARCHITECTURE.md",
-      "sha256": "532a73057c5ff672866852e09fa4a67a5bfe8cff78127a1717a247dd1c6f8e3a"
+      "sha256": "969b32006e4ce7e7d9fe8468f58a682b56135cc34ea026b19ddde56942f12bd3"
     },
     "README.md": {
       "source": "references/PLUGIN_README.md",
-      "sha256": "36ac36fbcfbbd61dbaf184f041fe2c3308697a2ae957901336a60c9ded91ea27"
+      "sha256": "7a0d2a56b3b89c9c51189a1374852242ba5e933cb2f24a8716f3a7440174254f"
     },
     "references/LEARNING_METHODS.md": {
       "source": "references/LEARNING_METHODS.md",
@@ -29,7 +29,7 @@
     },
     "skills/plan/SKILL.md": {
       "source": "plan/SKILL.md",
-      "sha256": "4e3b6f9688206c1748a9c65875212fd20cb9f4dad85f26faa649162d43d9ec1b"
+      "sha256": "ad436daef1f1d022260c53f12b9c7c1be032cb22366e90632ca76f9141299640"
     },
     "skills/plan/templates/learning_plan.md": {
       "source": "plan/templates/learning_plan.md",
@@ -45,7 +45,7 @@
     },
     "skills/recall/SKILL.md": {
       "source": "recall/SKILL.md",
-      "sha256": "d489173f5a34f61375c65b358a89f3c158c1bd433448ecad3a80700987224d72"
+      "sha256": "45b1e38b1d63ab2bdc3f469c3a743f87f35fdb4ffa86ee9205e9289fbd577acc"
     },
     "skills/recall/references/TODOIST_HARNESS.md": {
       "source": "recall/references/TODOIST_HARNESS.md",
@@ -65,7 +65,7 @@
     },
     "skills/teach/SKILL.md": {
       "source": "teach/SKILL.md",
-      "sha256": "6cf845547443964fe31837384e1ac4775b18708bd5a9f4842eb7de48110e6ac9"
+      "sha256": "4899fa9f4951dbcc3c08de7ada459d875c4b49905aae3b3a0008fcd6e81a439d"
     },
     "skills/teach/references/RECORDS.md": {
       "source": "teach/references/RECORDS.md",
@@ -73,7 +73,7 @@
     },
     "skills/teach/references/WALKTHROUGH.md": {
       "source": "teach/references/WALKTHROUGH.md",
-      "sha256": "8e4caaeb587044e637d9ee508dfd349787890e8478931bdc1a0995e60c8172ed"
+      "sha256": "fb5626bf6e47fd96edc43a7e331a8cdb19d5ad3ced7e49c50d617a436a0e8825"
     },
     "skills/teach/templates/learning_log.md": {
       "source": "teach/templates/learning_log.md",
