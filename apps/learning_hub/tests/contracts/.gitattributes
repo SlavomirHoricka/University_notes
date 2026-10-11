@@ -1,0 +1,2 @@
+# Exact historical CRLF bytes are part of this compatibility fixture.
+history_fixtures/legacy.md -text whitespace=cr-at-eol
