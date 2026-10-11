@@ -1,0 +1,41 @@
+{
+  "task_id": "H00",
+  "reviewer": "/root/review_h00",
+  "role": "hub_reviewer",
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "high",
+  "actual_settings_evidence": "Native role declaration specifies Astra/high; separate runtime telemetry unavailable",
+  "inspected_sha": "0dc7697019faf41af6424727167fad5afeefe827",
+  "scope": "All substantive scaffold code/config/generated contracts/tests/docs/locks/distributions against H00",
+  "findings": [],
+  "result": "no_material_findings",
+  "checks": [
+    {
+      "command": "Fresh Python and make install",
+      "exit_code": 0
+    },
+    {
+      "command": "make diagnostic check-all build",
+      "exit_code": 0
+    },
+    {
+      "command": "make check-ui NPM=false",
+      "exit_code": 2,
+      "expected_failure": true
+    },
+    {
+      "command": "make launch; make stop",
+      "exit_code": 2,
+      "expected_failure": true
+    },
+    {
+      "command": "Plan validator and scoped diff check",
+      "exit_code": 0
+    }
+  ],
+  "limitations": [
+    "H00 scaffold only; no feature/account/academic release readiness",
+    "Existing six vault link issues and eleven absent empty mirrors",
+    "Visible Starlette/httpx deprecation"
+  ]
+}
