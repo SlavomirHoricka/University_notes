@@ -72,7 +72,7 @@ def relative_path(value: str) -> str:
 RelativePath = Annotated[str, AfterValidator(relative_path)]
 
 
-def decimal_string(value: str) -> str:
+def decimal_string(value: str, *, significant_digits: int = 50) -> str:
     if len(value) > 128:
         raise ValueError("Decimal input is too long")
     import re
@@ -83,8 +83,10 @@ def decimal_string(value: str) -> str:
         parsed = Decimal(value)
     except InvalidOperation as error:
         raise ValueError("Invalid decimal") from error
-    if not parsed.is_finite() or len(parsed.as_tuple().digits) > 50:
-        raise ValueError("Finite decimal with at most 50 significant digits required")
+    if not parsed.is_finite() or len(parsed.as_tuple().digits) > significant_digits:
+        raise ValueError(
+            f"Finite decimal with at most {significant_digits} significant digits required"
+        )
     return value
 
 
@@ -123,3 +125,14 @@ def decimal_weight_between(amount: Decimal, total: Decimal, lower: str, upper: s
     with localcontext() as context:
         context.prec = 80
         return total * Decimal(lower) <= amount <= total * Decimal(upper)
+
+
+def calculated_decimal(value: str) -> str:
+    """Server-derived precision-80 Decimal; learner numeric input remains limited to 50 digits."""
+    decimal_string(value, significant_digits=80)
+    if Decimal(value) < 0:
+        raise ValueError("Nonnegative calculated decimal required")
+    return value
+
+
+CalculatedDecimal = Annotated[str, AfterValidator(calculated_decimal)]

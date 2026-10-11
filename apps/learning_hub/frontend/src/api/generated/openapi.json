@@ -302,6 +302,23 @@
             "title": "Assessment Id",
             "type": "string"
           },
+          "canonical_commit_state": {
+            "enum": [
+              "pending",
+              "verified",
+              "conflict",
+              "unknown"
+            ],
+            "title": "Canonical Commit State",
+            "type": "string"
+          },
+          "essential_states": {
+            "items": {
+              "$ref": "#/components/schemas/EssentialStateV1"
+            },
+            "title": "Essential States",
+            "type": "array"
+          },
           "final_result_id": {
             "anyOf": [
               {
@@ -314,8 +331,54 @@
             ],
             "title": "Final Result Id"
           },
+          "finalized_item_count": {
+            "minimum": 0,
+            "title": "Finalized Item Count",
+            "type": "integer"
+          },
+          "max_points": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Max Points"
+          },
           "prepared_ref": {
             "$ref": "#/components/schemas/AuthoringRef"
+          },
+          "required_item_count": {
+            "minimum": 0,
+            "title": "Required Item Count",
+            "type": "integer"
+          },
+          "result": {
+            "anyOf": [
+              {
+                "discriminator": {
+                  "mapping": {
+                    "final": "#/components/schemas/FinalAssessmentResultV1",
+                    "provisional": "#/components/schemas/ProvisionalAssessmentResultV1"
+                  },
+                  "propertyName": "kind"
+                },
+                "oneOf": [
+                  {
+                    "$ref": "#/components/schemas/ProvisionalAssessmentResultV1"
+                  },
+                  {
+                    "$ref": "#/components/schemas/FinalAssessmentResultV1"
+                  }
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Result"
           },
           "revision": {
             "minimum": 1,
@@ -360,7 +423,13 @@
           "status",
           "revision",
           "submitted_at",
-          "final_result_id"
+          "final_result_id",
+          "max_points",
+          "required_item_count",
+          "finalized_item_count",
+          "result",
+          "essential_states",
+          "canonical_commit_state"
         ],
         "title": "AssessmentViewV1",
         "type": "object"
@@ -800,6 +869,93 @@
         "title": "CourseIdentity",
         "type": "object"
       },
+      "DefinitionEvidenceV1": {
+        "additionalProperties": false,
+        "properties": {
+          "acquisition_event_ids": {
+            "items": {
+              "maxLength": 500,
+              "minLength": 1,
+              "type": "string"
+            },
+            "title": "Acquisition Event Ids",
+            "type": "array"
+          },
+          "acquisition_state": {
+            "enum": [
+              "met",
+              "not_met",
+              "unknown"
+            ],
+            "title": "Acquisition State",
+            "type": "string"
+          },
+          "applicability": {
+            "enum": [
+              "current",
+              "stale",
+              "reassessment_needed",
+              "unknown"
+            ],
+            "title": "Applicability",
+            "type": "string"
+          },
+          "definition": {
+            "$ref": "#/components/schemas/DefinitionRef"
+          },
+          "delayed_result_event_ids": {
+            "items": {
+              "maxLength": 500,
+              "minLength": 1,
+              "type": "string"
+            },
+            "title": "Delayed Result Event Ids",
+            "type": "array"
+          },
+          "last_outcome": {
+            "anyOf": [
+              {
+                "enum": [
+                  "pass",
+                  "partial",
+                  "fail",
+                  "incomplete",
+                  "unscorable"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Last Outcome"
+          },
+          "last_result_event_id": {
+            "anyOf": [
+              {
+                "maxLength": 500,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Last Result Event Id"
+          }
+        },
+        "required": [
+          "definition",
+          "applicability",
+          "acquisition_state",
+          "acquisition_event_ids",
+          "last_result_event_id",
+          "last_outcome",
+          "delayed_result_event_ids"
+        ],
+        "title": "DefinitionEvidenceV1",
+        "type": "object"
+      },
       "DefinitionRef": {
         "additionalProperties": false,
         "properties": {
@@ -924,6 +1080,196 @@
           "conditions"
         ],
         "title": "DisplayAckCommand",
+        "type": "object"
+      },
+      "EssentialStateV1": {
+        "additionalProperties": false,
+        "properties": {
+          "component_id": {
+            "maxLength": 500,
+            "minLength": 1,
+            "title": "Component Id",
+            "type": "string"
+          },
+          "item_id": {
+            "maxLength": 500,
+            "minLength": 1,
+            "title": "Item Id",
+            "type": "string"
+          },
+          "prepared_rule": {
+            "maxLength": 500,
+            "minLength": 1,
+            "title": "Prepared Rule",
+            "type": "string"
+          },
+          "state": {
+            "enum": [
+              "pending",
+              "met",
+              "unmet",
+              "unscorable"
+            ],
+            "title": "State",
+            "type": "string"
+          }
+        },
+        "required": [
+          "item_id",
+          "component_id",
+          "prepared_rule",
+          "state"
+        ],
+        "title": "EssentialStateV1",
+        "type": "object"
+      },
+      "EvidenceActivityV1": {
+        "additionalProperties": false,
+        "properties": {
+          "canonical_activity_event_ids": {
+            "items": {
+              "maxLength": 500,
+              "minLength": 1,
+              "type": "string"
+            },
+            "title": "Canonical Activity Event Ids",
+            "type": "array"
+          },
+          "last_receipt_id": {
+            "anyOf": [
+              {
+                "pattern": "^rec_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Last Receipt Id"
+          },
+          "progress": {
+            "$ref": "#/components/schemas/LessonProgressV1"
+          },
+          "session_id": {
+            "pattern": "^ses_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+            "title": "Session Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "progress",
+          "canonical_activity_event_ids",
+          "last_receipt_id"
+        ],
+        "title": "EvidenceActivityV1",
+        "type": "object"
+      },
+      "EvidenceViewV1": {
+        "additionalProperties": false,
+        "properties": {
+          "activity": {
+            "items": {
+              "$ref": "#/components/schemas/EvidenceActivityV1"
+            },
+            "title": "Activity",
+            "type": "array"
+          },
+          "canonical_cursor": {
+            "anyOf": [
+              {
+                "maxLength": 500,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Canonical Cursor"
+          },
+          "course_id": {
+            "title": "Course Id",
+            "type": "string"
+          },
+          "definitions": {
+            "items": {
+              "$ref": "#/components/schemas/DefinitionEvidenceV1"
+            },
+            "title": "Definitions",
+            "type": "array"
+          },
+          "git_sync_state": {
+            "enum": [
+              "unknown",
+              "pending",
+              "local_committed",
+              "pushed",
+              "merged",
+              "conflict"
+            ],
+            "title": "Git Sync State",
+            "type": "string"
+          },
+          "owner_verified": {
+            "title": "Owner Verified",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "course_id",
+          "canonical_cursor",
+          "owner_verified",
+          "git_sync_state",
+          "definitions",
+          "activity"
+        ],
+        "title": "EvidenceViewV1",
+        "type": "object"
+      },
+      "FinalAssessmentResultV1": {
+        "additionalProperties": false,
+        "properties": {
+          "active_committed_review_weakness": {
+            "title": "Active Committed Review Weakness",
+            "type": "boolean"
+          },
+          "earned_points": {
+            "title": "Earned Points",
+            "type": "string"
+          },
+          "kind": {
+            "const": "final",
+            "title": "Kind",
+            "type": "string"
+          },
+          "max_points": {
+            "title": "Max Points",
+            "type": "string"
+          },
+          "needs_attention": {
+            "title": "Needs Attention",
+            "type": "boolean"
+          },
+          "passed": {
+            "title": "Passed",
+            "type": "boolean"
+          },
+          "percentage": {
+            "title": "Percentage",
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "earned_points",
+          "max_points",
+          "percentage",
+          "passed",
+          "needs_attention",
+          "active_committed_review_weakness"
+        ],
+        "title": "FinalAssessmentResultV1",
         "type": "object"
       },
       "FinalizeDraftSnapshotV1": {
@@ -1205,6 +1551,149 @@
           "requested_revision"
         ],
         "title": "JobInputV1",
+        "type": "object"
+      },
+      "JobSummaryV1": {
+        "additionalProperties": false,
+        "properties": {
+          "actual_settings": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ModelSettings"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "completed_step_count": {
+            "minimum": 0,
+            "title": "Completed Step Count",
+            "type": "integer"
+          },
+          "course_key": {
+            "anyOf": [
+              {
+                "pattern": "^crs_[A-Za-z0-9_-]{8,64}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Course Key"
+          },
+          "created_at": {
+            "title": "Created At",
+            "type": "string"
+          },
+          "current_step": {
+            "anyOf": [
+              {
+                "maxLength": 500,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current Step"
+          },
+          "error_code": {
+            "anyOf": [
+              {
+                "maxLength": 500,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Error Code"
+          },
+          "job_id": {
+            "pattern": "^job_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+            "title": "Job Id",
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "ingest_prepare",
+              "plan_prepare",
+              "grade_written",
+              "extend_bank",
+              "publish",
+              "source_inventory"
+            ],
+            "title": "Kind",
+            "type": "string"
+          },
+          "next_eligible_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Next Eligible At"
+          },
+          "requested_settings": {
+            "$ref": "#/components/schemas/ModelSettings"
+          },
+          "revision": {
+            "minimum": 1,
+            "title": "Revision",
+            "type": "integer"
+          },
+          "state": {
+            "enum": [
+              "queued",
+              "running",
+              "waiting_usage",
+              "waiting_sign_in",
+              "waiting_dependency",
+              "retry_scheduled",
+              "blocked",
+              "paused",
+              "succeeded",
+              "cancelled"
+            ],
+            "title": "State",
+            "type": "string"
+          },
+          "total_step_count": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Total Step Count"
+          }
+        },
+        "required": [
+          "job_id",
+          "course_key",
+          "kind",
+          "state",
+          "revision",
+          "created_at",
+          "current_step",
+          "completed_step_count",
+          "total_step_count",
+          "requested_settings",
+          "actual_settings",
+          "next_eligible_at",
+          "error_code"
+        ],
+        "title": "JobSummaryV1",
         "type": "object"
       },
       "JobViewV1": {
@@ -1819,6 +2308,86 @@
         "title": "Pair",
         "type": "object"
       },
+      "PreferenceCommand": {
+        "additionalProperties": false,
+        "properties": {
+          "expected_revision": {
+            "minimum": 1,
+            "title": "Expected Revision",
+            "type": "integer"
+          },
+          "preferences": {
+            "$ref": "#/components/schemas/PresentationPreferencesV1"
+          }
+        },
+        "required": [
+          "preferences",
+          "expected_revision"
+        ],
+        "title": "PreferenceCommand",
+        "type": "object"
+      },
+      "PreferencesV1": {
+        "additionalProperties": false,
+        "properties": {
+          "preferences": {
+            "$ref": "#/components/schemas/PresentationPreferencesV1"
+          },
+          "revision": {
+            "minimum": 1,
+            "title": "Revision",
+            "type": "integer"
+          },
+          "schema_version": {
+            "const": 1,
+            "default": 1,
+            "title": "Schema Version",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "preferences",
+          "revision"
+        ],
+        "title": "PreferencesV1",
+        "type": "object"
+      },
+      "PresentationPreferencesV1": {
+        "additionalProperties": false,
+        "properties": {
+          "outline_visible": {
+            "default": true,
+            "title": "Outline Visible",
+            "type": "boolean"
+          },
+          "reduced_motion": {
+            "default": false,
+            "title": "Reduced Motion",
+            "type": "boolean"
+          },
+          "text_size": {
+            "default": "normal",
+            "enum": [
+              "normal",
+              "large"
+            ],
+            "title": "Text Size",
+            "type": "string"
+          },
+          "theme": {
+            "default": "system",
+            "enum": [
+              "system",
+              "light",
+              "dark"
+            ],
+            "title": "Theme",
+            "type": "string"
+          }
+        },
+        "title": "PresentationPreferencesV1",
+        "type": "object"
+      },
       "PreservedVersion": {
         "additionalProperties": false,
         "properties": {
@@ -2148,6 +2717,37 @@
           "usage"
         ],
         "title": "ProviderStatusV1",
+        "type": "object"
+      },
+      "ProvisionalAssessmentResultV1": {
+        "additionalProperties": false,
+        "properties": {
+          "earned_points": {
+            "title": "Earned Points",
+            "type": "string"
+          },
+          "kind": {
+            "const": "provisional",
+            "title": "Kind",
+            "type": "string"
+          },
+          "label": {
+            "const": "partial",
+            "default": "partial",
+            "title": "Label",
+            "type": "string"
+          },
+          "possible_points": {
+            "title": "Possible Points",
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "earned_points",
+          "possible_points"
+        ],
+        "title": "ProvisionalAssessmentResultV1",
         "type": "object"
       },
       "PublicBundleV1": {
@@ -3503,6 +4103,34 @@
         "title": "StartAssessmentV1",
         "type": "object"
       },
+      "StartReviewV1": {
+        "additionalProperties": false,
+        "properties": {
+          "bundle_id": {
+            "pattern": "^pub_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+            "title": "Bundle Id",
+            "type": "string"
+          },
+          "expected_projection_cursor": {
+            "maxLength": 500,
+            "minLength": 1,
+            "title": "Expected Projection Cursor",
+            "type": "string"
+          },
+          "recommendation_id": {
+            "pattern": "^[a-z]{3}_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+            "title": "Recommendation Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "recommendation_id",
+          "bundle_id",
+          "expected_projection_cursor"
+        ],
+        "title": "StartReviewV1",
+        "type": "object"
+      },
       "StartSessionCommand": {
         "additionalProperties": false,
         "properties": {
@@ -3643,6 +4271,43 @@
           "text"
         ],
         "title": "TextNode",
+        "type": "object"
+      },
+      "UploadReceiptV1": {
+        "additionalProperties": false,
+        "properties": {
+          "course_key": {
+            "pattern": "^crs_[A-Za-z0-9_-]{8,64}$",
+            "title": "Course Key",
+            "type": "string"
+          },
+          "duplicate_source_revision_ids": {
+            "items": {
+              "pattern": "^[a-z]{3}_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+              "type": "string"
+            },
+            "title": "Duplicate Source Revision Ids",
+            "type": "array"
+          },
+          "receipt": {
+            "$ref": "#/components/schemas/ReceiptV1"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRevisionV1"
+            },
+            "minItems": 1,
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "receipt",
+          "course_key",
+          "sources",
+          "duplicate_source_revision_ids"
+        ],
+        "title": "UploadReceiptV1",
         "type": "object"
       },
       "UploadV1": {

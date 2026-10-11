@@ -2,13 +2,14 @@ from typing import Annotated, Literal, Self
 
 from pydantic import AfterValidator, Field, SecretStr, model_validator
 
-from learning_hub.domain.models.api import JobState, RoleEffort
+from learning_hub.domain.models.api import JobState, ReceiptV1, RoleEffort
 from learning_hub.domain.models.base import (
     CommandId,
     Contract,
     Digest,
     JobId,
     NonEmpty,
+    NonNegativeInt,
     OperationalId,
     PositiveInt,
     RelativePath,
@@ -166,6 +167,30 @@ class UploadV1(Contract):
         return self
 
 
+class UploadReceiptV1(Contract):
+    receipt: ReceiptV1
+    course_key: CourseKey
+    sources: tuple[SourceRevisionV1, ...] = Field(min_length=1)
+    duplicate_source_revision_ids: tuple[OperationalId, ...]
+
+    @model_validator(mode="after")
+    def durable_originals(self) -> Self:
+        if self.receipt.kind != "upload" or self.receipt.canonical_commit_state != "not_applicable":
+            raise ValueError("Upload acceptance must be a durable nonacademic receipt")
+        revisions = {source.source_revision_id for source in self.sources}
+        if len(revisions) != len(self.sources) or len(
+            set(self.duplicate_source_revision_ids)
+        ) != len(self.duplicate_source_revision_ids):
+            raise ValueError("Duplicate upload receipt source reference")
+        if not set(self.duplicate_source_revision_ids) <= revisions or any(
+            source.course_key != self.course_key for source in self.sources
+        ):
+            raise ValueError(
+                "Upload receipts require exact same-course original hash/revision references"
+            )
+        return self
+
+
 class JobInputV1(Contract):
     course_id: CourseId | None
     source_snapshot_id: OperationalId | None
@@ -180,17 +205,15 @@ class JobInputV1(Contract):
         return self
 
 
+JobKind = Literal[
+    "ingest_prepare", "plan_prepare", "grade_written", "extend_bank", "publish", "source_inventory"
+]
+
+
 class RequestedJobV1(Contract):
     job_id: JobId
     course_key: CourseKey | None
-    kind: Literal[
-        "ingest_prepare",
-        "plan_prepare",
-        "grade_written",
-        "extend_bank",
-        "publish",
-        "source_inventory",
-    ]
+    kind: JobKind
     dedupe_key: Digest
     input_ref: JobInputV1
     requested_settings: ModelSettings
@@ -210,6 +233,28 @@ class JobViewV1(Contract):
     actual_settings: ModelSettings | None
     next_eligible_at: UTCTime | None
     error_code: NonEmpty | None
+
+
+class JobSummaryV1(Contract):
+    job_id: JobId
+    course_key: CourseKey | None
+    kind: JobKind
+    state: JobState
+    revision: PositiveInt
+    created_at: UTCTime
+    current_step: NonEmpty | None
+    completed_step_count: NonNegativeInt
+    total_step_count: NonNegativeInt | None
+    requested_settings: ModelSettings
+    actual_settings: ModelSettings | None
+    next_eligible_at: UTCTime | None
+    error_code: NonEmpty | None
+
+    @model_validator(mode="after")
+    def measured_step_counts(self) -> Self:
+        if self.total_step_count is not None and self.completed_step_count > self.total_step_count:
+            raise ValueError("Completed step count exceeds measured total")
+        return self
 
 
 class JobActionV1(Contract):

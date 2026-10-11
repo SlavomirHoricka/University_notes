@@ -221,6 +221,11 @@ class BundleManifestV1(Contract):
         }
         lessons = {lesson.lesson_ref.id for lesson in self.lessons}
         blueprints = {blueprint.assessment_ref.id for blueprint in self.blueprints}
+        weeks = {week.week_ref.id for week in self.weeks}
+        routes = {route.route_id for route in self.routes}
+        if len(weeks) != len(self.weeks) or len(routes) != len(self.routes):
+            raise ValueError("Duplicate week/route IDs")
+        blueprints_by_id = {blueprint.assessment_ref.id: blueprint for blueprint in self.blueprints}
         visuals = {visual.visual_id for visual in self.visuals}
         activities = {activity.activity_ref.id for activity in self.activities}
         if len(activities) != len(self.activities) or len(visuals) != len(self.visuals):
@@ -288,9 +293,13 @@ class BundleManifestV1(Contract):
         for lesson in self.lessons:
             if lesson.quiz_ref not in blueprints:
                 raise ValueError("Dangling quiz")
+            if blueprints_by_id[lesson.quiz_ref].kind != "lesson_quiz":
+                raise ValueError("Lesson quiz references non-quiz blueprint")
         for week in self.weeks:
             if not set(week.lesson_refs) <= lessons or week.weekly_blueprint_ref not in blueprints:
                 raise ValueError("Dangling week lesson/blueprint")
+            if blueprints_by_id[week.weekly_blueprint_ref].kind != "weekly_test":
+                raise ValueError("Weekly assessment references non-weekly blueprint")
         for activity in self.activities:
             if (
                 not set(activity.section_refs) <= sections.keys()
@@ -330,8 +339,14 @@ class BundleManifestV1(Contract):
                 Decimal(i.points) != Decimal(items[i.item_id].max_points) for i in blueprint.items
             ):
                 raise ValueError("Blueprint/item point mismatch")
+            selected_components = {
+                f"{entry.item_id}/{component.component_id}"
+                for entry in blueprint.items
+                for component in items[entry.item_id].components
+            }
             if any(
-                f"{e.item_id}/{e.component_id}" not in components for e in blueprint.essential_rules
+                f"{e.item_id}/{e.component_id}" not in selected_components
+                for e in blueprint.essential_rules
             ):
                 raise ValueError("Dangling essential rule")
         return self

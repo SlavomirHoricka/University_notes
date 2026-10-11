@@ -41,7 +41,7 @@ CREATE TABLE source_revisions (
   created_at TEXT NOT NULL,
   UNIQUE(source_id,revision)
 ) STRICT;
-CREATE TRIGGER source_revisions_no_update BEFORE UPDATE ON source_revisions BEGIN SELECT RAISE(ABORT,'immutable_source_revisions'); END;
+CREATE TRIGGER source_revisions_no_update BEFORE UPDATE ON source_revisions WHEN NEW.source_revision_id IS NOT OLD.source_revision_id OR NEW.source_id IS NOT OLD.source_id OR NEW.revision IS NOT OLD.revision OR NEW.sha256 IS NOT OLD.sha256 OR NEW.byte_size IS NOT OLD.byte_size OR NEW.media_type IS NOT OLD.media_type OR NEW.storage_ref IS NOT OLD.storage_ref OR NEW.created_at IS NOT OLD.created_at BEGIN SELECT RAISE(ABORT,'immutable_source_revisions'); END;
 CREATE TRIGGER source_revisions_no_delete BEFORE DELETE ON source_revisions BEGIN SELECT RAISE(ABORT,'immutable_source_revisions'); END;
 CREATE TABLE source_snapshots (
   snapshot_id TEXT PRIMARY KEY NOT NULL,
