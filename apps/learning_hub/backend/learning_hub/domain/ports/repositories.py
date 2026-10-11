@@ -1,0 +1,43 @@
+from collections.abc import Iterator
+from typing import Protocol
+
+from learning_hub.domain.models.api import OperationalEventV1, ReceiptV1
+from learning_hub.domain.models.bundles import BundleManifestV1, PublicBundleV1
+from learning_hub.domain.models.evidence import EvidenceCommitV1, EvidenceIntentV1
+from learning_hub.domain.models.services import JobViewV1, RequestedJobV1, SourceSnapshotV1
+
+
+class ReceiptRepository(Protocol):
+    def get(self, receipt_id: str) -> ReceiptV1 | None: ...
+    def replay(
+        self, principal: str, kind: str, key: str, request_digest: str
+    ) -> ReceiptV1 | None: ...
+
+
+class EvidenceWriter(Protocol):
+    def inspect(self, intent: EvidenceIntentV1) -> EvidenceCommitV1 | None: ...
+    def commit(self, intent: EvidenceIntentV1) -> EvidenceCommitV1: ...
+    def live_writes_supported(self) -> bool: ...
+
+
+class CurriculumReader(Protocol):
+    def checked_manifest(self, bundle_id: str) -> BundleManifestV1: ...
+    def public_bundle(self, bundle_id: str) -> PublicBundleV1: ...
+
+
+class SourceInventory(Protocol):
+    def snapshot(self, course_key: str) -> SourceSnapshotV1: ...
+
+
+class PublicationStore(Protocol):
+    def read(self, bundle_id: str) -> BundleManifestV1: ...
+    def current(self, course_key: str) -> PublicBundleV1 | None: ...
+
+
+class JobRepository(Protocol):
+    def request(self, request: RequestedJobV1) -> JobViewV1: ...
+    def get(self, job_id: str) -> JobViewV1 | None: ...
+
+
+class EventRepository(Protocol):
+    def after(self, cursor: int) -> Iterator[OperationalEventV1]: ...
