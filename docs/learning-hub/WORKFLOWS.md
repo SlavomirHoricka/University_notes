@@ -10,14 +10,14 @@ All module names below are relative to `apps/learning_hub/backend/learning_hub/`
 
 | Implementation role | Task IDs | Owned responsibility and module seam |
 | --- | --- | --- |
-| `hub_foundation` | H00, H02, H03 | Project scaffold, validated contracts and canonical evidence bridge, domain identity/state types, SQLite schema/migrations and storage interfaces in `domain/` and foundational `application/` modules. |
+| `hub_foundation` | H00, H02, H03 | Minimal bootstrap; `domain/{models,ports}/`, `adapters/storage/`, `adapters/evidence/`, `application/core/`, core/course/lesson API and generated frontend API; H03 is fixture-port acceptance until H09. |
 | `hub_provider` | H01 | `adapters/codex/`: SIWC credentials, catalog/capabilities, app-server RPC transport, confirmed terminal events and normalized failures. |
 | `hub_frontend` | H04, H05, H13 | Course/lesson player, outline/math/checkpoint UI, Agents tab; frontend consumes API contracts and never writes vault files. |
 | `hub_visuals` | H06 | Reviewed visual components/configuration schemas and numeric reference cases; no AI-supplied executable scripts. |
-| `hub_workflows` | H07, H08, H09, H10 | `adapters/extraction/`, owner-scoped `adapters/vault/`, `adapters/repository/`, workflow state orchestration, dependency invalidation and publication. |
+| `hub_workflows` | H07, H08, H09, H10 | `adapters/extraction/`, owner-scoped `adapters/vault/`, `adapters/repository/`, `worker/`, workflow state orchestration, dependency invalidation and publication. |
 | `hub_assessment` | H11, H12 | Assessment/retention selection and evidence/receipt application services, prepared-rubric assessment adapter; coordinate shared vault interfaces with `hub_workflows`. |
-| `hub_operations` | H14 | `worker/`, launcher/process supervision, backups/restore, bounded recovery and diagnostic operations. |
-| `hub_qa` | H15 | `tests/{unit,contracts,integration,e2e}/`, fault injection and meaningful invariant checks; fixtures remain isolated. |
+| `hub_operations` | H14 | `operations/`, `scripts/operations/`, operations tests/docs and user runbook; workflow worker orchestration remains workflows-owned. |
+| `hub_qa` | H15 | Cross-feature `tests/e2e/`, `tests/fixtures/`, validation receipts; unit/contract/feature-integration tests remain with their registered module owner. |
 | `hub_coordinator` | H16 | Final integration, task dependencies, documentation/review reconciliation and repository gates; no parallel authoritative course writes. |
 | `hub_reviewer` | Assigned review | Read-only engineering review of changed contracts, code and final tests; findings have exact paths and reproduction steps. |
 
@@ -163,7 +163,7 @@ Acceptance: launch from terminal then exit terminal and browser; worker remains 
 
 ### 5.1 Receipt, durability and selection
 
-Default initial upload limits: 250 MiB per file, 1 GiB per batch, 100 files per batch, 5,000 pages/slides per job; configurable local limits are disclosed before submission. Exceeding a limit holds the batch for splitting/explicit limit adjustment; it never silently truncates coverage. Accept validated PDF, PPTX/PPT, DOCX/DOC, images and structured data only when required extraction tools exist. Initial release rejects archives and executable uploads. MIME, extension and parser signatures must agree; unsupported or suspicious input receives a precise error.
+Default initial upload limits match CONTRACTS §10: 100 MiB per file, 500 MiB per batch, 20 files per batch, plus 5,000 pages/slides per job. Configurable local limits are disclosed before submission. Exceeding a limit holds the batch for splitting/explicit limit adjustment; it never silently truncates coverage. Accept validated PDF, PPTX/PPT, DOCX/DOC, Markdown/plain text, images and structured data only when required extraction tools exist. Initial release rejects archives and executable uploads. MIME, extension and parser signatures must agree; unsupported or suspicious input receives a precise error.
 
 Stream an upload into a unique staging file in durable app storage while computing SHA-256/byte count; enforce size limits during streaming. Flush/fsync it, then move atomically on the same filesystem to content-addressed immutable storage and fsync its parent. Insert source-version/receipt/batch intent only after durable bytes exist. Return accepted only after receipt commit. Crash before receipt leaves a collectible staged blob, not a falsely accepted upload; crash after receipt is recovered by intent replay. Retrying a request with its idempotency key returns the same receipt if payload identity agrees; mismatch is conflict.
 
@@ -191,6 +191,7 @@ Perform deterministic native extraction and local structural comparisons first. 
 | DOCX | Native paragraphs/tables/notes/media plus render | Cite renderer/pagination, inspect embedded objects and equations against renders. |
 | Image/scanned pages | Local OCR plus original render | Verify symbols, subscripts, signs, units, axes/legends and small text visually; OCR confidence is diagnostic, not truth. |
 | Data/table inputs | Native parser with schema/type/unit report | Preserve values, dimensions and definitions; no executing macros, formula side effects or embedded code. |
+| Markdown/plain text | UTF-8/native line and heading extraction | Preserve equations, source line locators and linked-asset scope; active HTML/code blocks stay inert data, not tools/instructions. |
 
 Cache by source hash, extractor/renderer/OCR version, settings and output digest. Store tool version, language, actual page/slide/region locators, errors and rendered artifact hashes. Scratch conversions remain outside the vault; originals are read-only. Proposed render density 150 dpi, 300 dpi for difficult text/equations; OCR page timeout 120 seconds, conversion timeout 300 seconds, at most two concurrent extraction processes. Resource limits stop with exact unprocessed pages. Test local tools on representative real file types before selecting dependencies; deterministic fakes do not establish fidelity.
 
@@ -211,7 +212,7 @@ Extraction runs sandboxed without macros, source-directed code, shell interpolat
 | teach | `learning_log.md` | Actual learner events/session state under existing schema; immutable attempts and real delivery/receipt facts. |
 | recall | `recall_state.json`, verified shared project map and owned synchronization intentions | Derive from committed evidence; deterministic utility/outbox; no grading. |
 
-The current records utility does not automatically authorize arbitrary web lesson files, multi-file note transactions, source version registries, new receipt events or every proposed app contract. H02/H03 must define compatibility extensions; the responsible canonical owner implements approved changes in maintained sources with migrations/tests and packaging checks when applicable. H09 must detect unsupported contracts and return `blocked_adapter_extension`. Do not create a generic filesystem writer as a shortcut. Engineering approval of an adapter schema does not substitute for ingest approval of a substantive existing-note replacement.
+The current records utility does not automatically authorize arbitrary web lesson files, multi-file note transactions, source version registries, new receipt events or every proposed app contract. H02 defines the proposed compatibility contract and H03 tests its owner port with fixtures; H09 implements the root-assigned maintained canonical changes with migrations/tests and packaging checks when applicable, and rechecks the port against actual records tools. H09 must detect unsupported contracts and return `blocked_adapter_extension`. Do not create a generic filesystem writer as a shortcut. Engineering approval of an adapter schema does not substitute for ingest approval of a substantive existing-note replacement.
 
 Proposals must identify exact schema/owner, backward behavior, expected-byte strategy, stable IDs, crash recovery, historical preservation and test cases. The proposed schema-4 evidence/receipt extension must preserve existing schema-3 events and immutable history; readiness depends on canonical implementation, compatibility tests and owner review, not this proposal. Existing records/journals remain verifiable during migration. SQLite accepted-answer receipts are operational intake until teach confirms the canonical event; never display them as recorded academic outcomes. The evidence/receipt contract in the adjacent contracts document owns detailed event definitions; no rival evidence authority is introduced here.
 

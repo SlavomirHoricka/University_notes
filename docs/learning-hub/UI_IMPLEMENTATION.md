@@ -41,7 +41,7 @@ While submission is pending, prevent duplicate accidental submissions but allow 
 
 ## Assessment/review screens
 
-Lesson quiz is separate from instruction, 5–10-minute estimate, one prepared item at a time with post-submit feedback. Weekly test has 25–35-minute estimate, question navigator and saved draft answers; withhold correctness until final submission. Permit revisiting unanswered questions before submitting. Open-ended short answers use a plain text area, typically a few sentences, with optional word guidance rather than a forced long essay.
+Lesson quiz is separate from instruction, 5–10-minute estimate, one prepared item at a time with feedback after that item's immutable submission and verified grading; whole-quiz finalization records aggregate coverage. Weekly test has 25–35-minute estimate, question navigator and editable saved drafts through CONTRACTS draft GET/PATCH commands; withhold correctness until atomic final draft-snapshot submission. Display saved/pending draft state, preserve input on revision conflicts and permit revisiting/editing questions before final submit. Session bookmarks use the explicit non-evidence PATCH, independently from delivery acknowledgements. Open-ended short answers use a plain text area, typically a few sentences, with optional word guidance rather than a forced long essay.
 
 Show submitted, grading pending, graded and unscorable states. AI delay does not prevent continuing to another lesson. Result view separates first result, corrections, latest applicable result and objective-level weaknesses. Do not imply that selecting a best attempt establishes retention. Unmet essential criteria are visible even when total score is high.
 
@@ -62,6 +62,8 @@ Mark interaction prompts such as “Predict the direction, then move the slider�
 ## H13 Agents tab/settings
 
 Use `JobList`, `JobDetails`, `StepTimeline`, `ReviewFindings`, `ChangedContent`, `UsageStatus`, `RoleSettings`, `JobControls`. Subscribe via resumable SSE and refresh authoritative queries after relevant events; duplicates are ignored by event ID. A cursor gap means resnapshot, not missing jobs counted Done. Avoid a websocket unless a later concrete requirement needs bidirectionality.
+
+`ChangedContent` handles owner-required approval proposals with concrete scope, preserved-version/diff preview and explicit Approve/Reject bound to proposal digest/job revision; Retry is never approval. A changed proposal refreshes the decision screen. Already-authorized work proceeds automatically. Preview access is recorded as possible study exposure. Settings/Agents contains Connect/Grant/Sign out using typed provider lifecycle endpoints; open only the server-validated authorization URL and show pending/validated/failed flow status without secrets. Local offline session and AI subscription login are separate statuses; a connected badge alone cannot imply completed inference.
 
 Default summary shows course/week, stage, role/model/effort and last actual checkpoint. Expand technical tool/check/commit details without credentials or private chain-of-thought. Percentages appear only for measured file/page/task counts. Unknown quota/reset is displayed as unknown, never 0 or an invented ETA.
 

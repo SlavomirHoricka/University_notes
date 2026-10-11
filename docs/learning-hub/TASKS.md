@@ -45,6 +45,7 @@ Procedure:
 3. Implement account-specific model/effort access verification, redacted provider events, refresh/restart/resume and typed error taxonomy. Do not equate model catalog with access.
 4. Perform one real subscribed inference with explicit model+effort after user sign-in. No browser cookie scraping, backend-api routes, API key fallback or purchased credits.
 5. Return supported/unsupported capabilities to core and worker. Store receipt without tokens; pause unavailable eligibility rather than retry endlessly.
+6. Implement typed in-site provider auth-flow start/status/model choices/sign-out API and registered loopback callback; local offline auth remains separate. Use exact CONTRACTS seams and never log OAuth secrets.
 
 Deliverables:
 
@@ -71,6 +72,7 @@ Procedure:
 3. Write exact migration proposal for current records contract: legacy prefix preservation, schema3 immutable event acceptance, appended web facts, owner fields/validation. Root assigns canonical patches in H09. This ticket accepts only proposed contract/migration fixtures; maintained reader/writer support is H09, not an implicit H02 prerequisite.
 4. Generate controlled illustrative synthetic bundles/questions and contract fixtures. No ingestion readiness or learner outcome inferred from fixtures.
 5. Freeze API version v1/schema revision; root reviews exported interface before dependent tasks merge it.
+6. Include operational weekly assessment drafts, immutable approval proposals/decisions and provider auth flows in the normative migrations/contracts; enforce revision/selected-item/human-decision constraints.
 
 Deliverables:
 
@@ -98,6 +100,7 @@ Procedure:
 3. Implement typed EvidenceWriter port and a fault-injected fixture owner; verify outbox acknowledgement and projections in isolated tests. H09 supplies the production maintained-reader/writer adapter and reruns these cases before live sessions.
 4. Handle crash cuts before/after canonical commit and DB acknowledgement with stable event/transaction IDs and recovery inspection. Preserve unsaved pending intent.
 5. Expose catalog/session/resume/readiness and receipt endpoints with legal transitions. Completion derives from received process facts; result pending/absent is not fail/pass.
+6. Implement authenticated idempotent bookmark PATCH as navigation-only state, with pinned-anchor/aggregate revision checks; no completion/exposure evidence.
 
 Deliverables:
 
@@ -152,6 +155,7 @@ Procedure:
 3. Render sanitized prose, maths, source assets, worked steps and generic visuals. Validate supported math and no arbitrary HTML.
 4. Implement numeric/matching/choice question inputs, receipt lifecycle, prepared feedback/correction flow, assistance and resume bookmark.
 5. Implement separate prepared quiz/test/review UI states; final assessment/selection services from H11/H12 integrate through unchanged contracts.
+6. Build weekly editable saved-draft and atomic-submit UI from typed API, including unsaved/conflict states; quiz feedback is per committed item, weekly feedback after whole-test freeze. H15 later tests real backend integration.
 
 Deliverables:
 
@@ -259,6 +263,7 @@ Procedure:
 4. Bridge deterministic web facts to teach logical ownership without LLM per checkpoint and without unsupported current schema fields; verify owner transaction.
 5. Support plan/ingest repair and exhausted-item-bank handoffs, pending intent recovery and source approvals inside site. Return blockers honestly.
 6. Re-run H03 durability/crash/idempotency acceptance against actual maintained compatible records tools in an isolated vault before enabling real session mutations; fixture receipts alone cannot open this gate.
+7. Implement owner-required in-site approval proposals and explicit human decision bound to snapshot/scope/expected bytes/proposal digest; no source-text or Retry approval, new proposal invalidates old grant.
 
 Deliverables:
 
@@ -312,6 +317,7 @@ Procedure:
 3. Implement short-answer grader bounded to exact rubric/version and actual response; validate structured component result; escalate ambiguous supported cases to Sol/high runtime assessor.
 4. Separate submitted/completed/graded/passed/attention/unscorable and essential criteria. <90 attention, >=80+essentials pass; existing acquisition rules remain separate.
 5. Support immediate retry variants, delayed classification and feedback only after canonical result committed. Slow/limit-limited grade remains pending while other study continues.
+6. Implement weekly draft GET/PATCH and atomic revision-manifest finalization into immutable child responses/outbox; drafts are operational and never graded/canonical before submit. Quiz existing-response finalization uses distinct mode and per-item feedback.
 
 Deliverables:
 
@@ -325,6 +331,7 @@ Acceptance:
 - H11-A2: Malformed/ambiguous AI score can't commit, invent new rubric or turn missing answer into fail.
 - H11-A3: Numeric rounding/decimal-v-percent/tolerance cases explicitly tested.
 - H11-A4: Weekly50/50 score weight and Week1 exception tested; original/assisted/retry results remain separate.
+- H11-A5: Stale/double-tab weekly draft conflict aborts full finalization without partial evidence; restart restores drafts, exact final-submit replay returns same child receipts.
 
 Checks: check-unit, check-contracts, feature check-integration; affected vault/records checks if canonical files change. Include actual commands/exits, exact changed paths and input/output commit IDs in the receipt. No manual marking of an acceptance case without its stated evidence.
 
@@ -366,6 +373,7 @@ Procedure:
 3. Implement legal pause/resume/cancel/retry and future-job role settings through backend; validate supported choices.
 4. Use post-lesson information queue, no progress toasts while reading; credential/private-reasoning redaction.
 5. Exercise restart/reconnect/cursor gap states against integrated worker, not mock-only production behavior.
+6. Wire approval preview/Approve/Reject and provider Connect/Grant/Sign out into Agents/Settings; show exact proposed scope/revisions and no secret/cookie/terminal dependency.
 
 Deliverables:
 
@@ -418,6 +426,7 @@ Procedure:
 3. Verify all agreed learner flows and responsive/math/visual accessibility screenshots; route bugs to owners, do not patch their modules.
 4. Run repository before/after issue identity comparison, records fixture suite, all app check/build targets and migrations/restore.
 5. Produce redacted release evidence and unresolved issues; no claim academic fact check from engineering tests.
+6. Test bookmark without false evidence, editable draft/restart/conflict/atomic freeze, per-item quiz versus whole-test feedback, approval proposal mutation/rejection and provider lifecycle from UI.
 
 Deliverables:
 

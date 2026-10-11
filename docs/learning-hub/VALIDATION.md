@@ -51,6 +51,8 @@ H07/H10: explicit course/week, durable immutable originals/hashes; PDF/PPTX/DOCX
 
 H09/H10/H16: owner ingest→independent original-source review→verified records→plan→independent curriculum review→normal Git integration→export. Required notes map to taught/assessed objectives, explanations, keys/rubrics and supported visuals. Inject missing review, finding, stale source, pending transaction and integration failure: no Ready publication. Optional scope only when sources explicitly mark it.
 
+Where an owner requires missing authorization, test in-site concrete proposal approval/rejection, revision/digest mismatch and changed proposal invalidating old grant. Already-authorized work stays automatic; source text/Retry cannot approve.
+
 ### V04 — course/lesson flow
 
 H04/H05: published weeks accessible without score locks; roughly 25-minute teaching with separate quiz estimate. Sections, headings/prose/bullets, free revisit, Previous/Next, bookmark resume, keyboard controls. Partial coverage and unknown evidence explicit. No manual completion control/endpoint; scrolling cannot establish understanding.
@@ -71,6 +73,8 @@ H02/H03/H09: prompt reserve/display/answer, immutable response, canonical verifi
 
 H11: completion/pass/attention/objective evidence separate. 85% plus essentials passes with attention; 95% with unmet essential fails. Decimal 80/90 boundaries, units/percent/tolerance/intentional blanks. Prepared short-answer rubric validates component support and ambiguity; unavailable grading stays pending. Weekly ~50/50 new/prior points in same course, Week1 exception; no cooldown/future-week lock.
 
+Editable weekly drafts survive reload; stale revision/double-tab finalization aborts without partial canonical writes. Exact manifest freeze/replay produces the same immutable child receipts. Quiz feedback is per committed item, weekly feedback after whole-test freeze. Bookmark saving emits no learning evidence.
+
 ### V09 — exposure and retention
 
 H11/H12: persist lineage/possible display before release; fresh retrieval precedes recap/hints and obeys existing actual-time/independence conditions. Reused/shuffled prompt, exposed sibling, worked example, unknown assistance and too-early result cannot become fresh delayed retention. Exhausted bank queues checked preparation and offers corrective/new work; historical mastery policy preserved.
@@ -90,6 +94,8 @@ H03/H10: immutable staged bundle plus atomic CAS pointer; crash gives complete o
 ### V13 — Agents tab
 
 H13: factual job/step/review progress, requested/actual settings, measured counts and known/unknown limits. SSE deduplication and gap resnapshot, authorized polling fallback. Future-role settings capability-checked; required gates/current rubric immutable. Durable pause/retry/cancel. No chain-of-thought, secret/key/unseen item in events/errors.
+
+Provider Connect/Grant/Sign out and approval preview/decisions operate inside the site; local study authentication remains separate. Callback secrets and proposal-private banks never appear in learner logs/status payloads.
 
 ### V14 — local security
 
