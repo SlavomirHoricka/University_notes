@@ -9,7 +9,7 @@ Status: proposed implementation instructions, 2026-10-10. No application, schema
 | Task / owner | Owned modules (exact registry prefixes) | DAG predecessors |
 |---|---|---|
 | H00 / hub_foundation | Minimal package/tool scaffold; root records bootstrap exceptions and future ownership | None |
-| H01 / hub_provider | `B/adapters/codex/`, `B/api/provider/` | H00; real sign-in/completed inference gate |
+| H01 / hub_provider | `B/adapters/codex/`, `B/api/provider/` | H00,H02; real sign-in/completed inference gate |
 | H02 / hub_foundation | `B/domain/{models,ports}/`, `B/adapters/storage/`, generated frontend API | H00 |
 | H03 / hub_foundation | `B/application/core/`, `B/adapters/evidence/`, `B/api/{core,courses,lessons}/` | H02; fixture-only owner port acceptance |
 | H04 / hub_frontend | Frontend app, courses, styles | H02 |
@@ -316,7 +316,7 @@ The following tables/columns are required. `PK` = primary key; `FK` = foreign ke
 | `provider_auth_flows` | flow_id PK, requested_action, state, registration/host refs J, state_digest/nonce_digest, expires_at, terminal_at nullable, subject_ref nullable; protected credential/PKCE material in credential store, never public JSON; no eligibility before validated terminal auth |
 | `assessments` | `assessment_id PK`, `session_id FK`, prepared_ref J, blueprint_digest, selected_items J, selection_seed, algorithm_version, `status CHECK assessment states`, `revision CHECK >0`, nullable `submitted_at`, nullable `final_result_id`; exact selected list immutable after activation |
 | `attempts` | `attempt_id PK`, `session_id FK`, nullable `assessment_id FK`, item_ref J, equivalence_id, nullable `previous_attempt_id FK attempts`, `status CHECK attempt states`, `revision CHECK >0`, `created_at`; item/bundle/parent immutable; no self-parent |
-| `receipts` | `receipt_id PK`, `command_id FK commands`, kind CHECK IN ('response','delivery','activity','assessment_submission','session','job_action','upload'), aggregate_id, immutable payload J/digest, received_at; UQ(command_id,kind,aggregate_id); durable command receipt independent of owner commit |
+| `receipts` | `receipt_id PK`, `command_id FK commands`, kind CHECK IN ('response','delivery','activity','assessment_submission','assessment_draft','session','job_action','upload','approval_decision','provider_action'), aggregate_id, immutable payload J/digest, received_at; UQ(command_id,kind,aggregate_id); durable command receipt independent of owner commit |
 | `responses` | `receipt_id PK/FK receipts`, `attempt_id UQ/FK`, `command_id FK commands`, `response J`, response_digest, conditions J, `received_at`, nullable reported_answered_at; immutable original, no updates/deletes |
 | `deliveries` | `delivery_id PK`, `session_id FK`, nullable `attempt_id FK`, `kind CHECK IN ('prompt','section','feedback','hint','worked_example')`, content_ref J, content_digest, equivalence_refs J, `state CHECK delivery states`, `offered_at` nullable; no raw private key unless eligible feedback reference |
 | `delivery_receipts` | `receipt_id PK/FK receipts`, `delivery_id UQ/FK`, `command_id UQ/FK`, reported_display_at nullable, timing_quality, observed_conditions J, `received_at`; immutable acknowledgements; identical replay only |
@@ -336,6 +336,8 @@ The following tables/columns are required. `PK` = primary key; `FK` = foreign ke
 | `local_auth_sessions` | session_digest PK, local_principal, csrf_digest, created_at, last_used_at, expires_at, revoked_at nullable; no raw cookie/CSRF in database; replaceable local authentication state |
 | `bootstrap_capabilities` | capability_digest PK, expires_at, consumed_at nullable; one-time CAS exchange, process-local launcher only; never OAuth material |
 | `preferences` | `local_principal PK`, schema_version, preferences J, revision; UI preferences only, no evidence/mastery |
+
+Draft-save receipts use assessment_draft; approval decisions use approval_decision; provider start/grant/sign-out uses provider_action; bookmark uses session. These operational receipt kinds return canonical_commit_state not_applicable and cannot be promoted into teach events.
 
 For final-submission intentional blanks, the command creates one parent assessment receipt plus immutable child response receipts keyed by each attempt, in the same transaction; child receipts share the originating command and do not count as independent command replays. Each response still has a unique attempt ID. Command replay returns the parent and the original child IDs; owner intents reference their exact receipts. Response payloads require the same originating command ID as their common receipt. Circular FK between responses/commands is avoided by inserting command first and updating its replay receipt within the same transaction. `grading_results.evidence_commit_id` refers only to a verified result intent; in-progress decisions live in `job_steps.output_ref`/private staging until canonical verification. Outbox receipt kinds require application validation against response/delivery/assessment command and immutable IDs; use the normalized common `receipts` parent table above. Do not weaken a FK to solve insert ordering.
 

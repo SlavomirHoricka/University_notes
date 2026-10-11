@@ -36,7 +36,7 @@ Checks: all initialized quality targets and build. Include actual commands/exits
 
 ## H01 — Prove supported Plus sign-in and provider adapter
 
-Role `hub_provider`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-provider`. Requires: H00. External gate: user_sign_in_and_account_eligibility.
+Role `hub_provider`, model `gpt-6.1-sol`, effort `high`, branch `codex/hub-provider`. Requires: H00,H02. External gate: user_sign_in_and_account_eligibility.
 
 Procedure:
 
@@ -73,6 +73,7 @@ Procedure:
 4. Generate controlled illustrative synthetic bundles/questions and contract fixtures. No ingestion readiness or learner outcome inferred from fixtures.
 5. Freeze API version v1/schema revision; root reviews exported interface before dependent tasks merge it.
 6. Include operational weekly assessment drafts, immutable approval proposals/decisions and provider auth flows in the normative migrations/contracts; enforce revision/selected-item/human-decision constraints.
+7. Test exact receipt-kind enum for assessment_draft, approval_decision and provider_action; bookmarks map to session with canonical state not_applicable. Reject unsupported kinds rather than removing SQL CHECK.
 
 Deliverables:
 

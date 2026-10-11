@@ -42,8 +42,8 @@ The human's begin request authorizes required implementation and normal integrat
 
 ## Waves (JSON DAG remains definitive)
 
-- H00 scaffold first; then H01 subscription proof and H02 contracts.
-- After H02, H03 durable evidence and H04 UI shell; H07 uploads on independent paths. H08 jobs also needs H01/H03.
+- H00 scaffold first, then H02 contracts; H01 subscription/API proof consumes the accepted H02 auth-flow migrations.
+- After H02, H01 subscription proof runs alongside H03 durable evidence and H04 UI shell; H07 uploads on independent paths. H08 jobs also needs H01/H03.
 - H05 player after H03/H04; H06 visuals after H05. H09 owner bridge after H02/H03/H08; H10 checked pipeline/publication after H07/H09.
 - H11 assessments after H03/H05/H09; H12 reviews after H10/H11. H13 Agents UI after H04/H08/H10.
 - H14 operations after H01/H03/H08; H15 full QA after all functional tickets; H16 reviewed real pilot and release after H15.
