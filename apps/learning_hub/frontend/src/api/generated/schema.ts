@@ -120,9 +120,24 @@ export interface components {
         AssessmentViewV1: {
             /** Assessment Id */
             assessment_id: string;
+            /**
+             * Canonical Commit State
+             * @enum {string}
+             */
+            canonical_commit_state: "pending" | "verified" | "conflict" | "unknown";
+            /** Essential States */
+            essential_states: components["schemas"]["EssentialStateV1"][];
             /** Final Result Id */
             final_result_id: string | null;
+            /** Finalized Item Count */
+            finalized_item_count: number;
+            /** Max Points */
+            max_points: string | null;
             prepared_ref: components["schemas"]["AuthoringRef"];
+            /** Required Item Count */
+            required_item_count: number;
+            /** Result */
+            result: (components["schemas"]["ProvisionalAssessmentResultV1"] | components["schemas"]["FinalAssessmentResultV1"]) | null;
             /** Revision */
             revision: number;
             /** Session Id */
@@ -273,6 +288,28 @@ export interface components {
              */
             semester: "Winter_Semester" | "Summer_Semester";
         };
+        /** DefinitionEvidenceV1 */
+        DefinitionEvidenceV1: {
+            /** Acquisition Event Ids */
+            acquisition_event_ids: string[];
+            /**
+             * Acquisition State
+             * @enum {string}
+             */
+            acquisition_state: "met" | "not_met" | "unknown";
+            /**
+             * Applicability
+             * @enum {string}
+             */
+            applicability: "current" | "stale" | "reassessment_needed" | "unknown";
+            definition: components["schemas"]["DefinitionRef"];
+            /** Delayed Result Event Ids */
+            delayed_result_event_ids: string[];
+            /** Last Outcome */
+            last_outcome: ("pass" | "partial" | "fail" | "incomplete" | "unscorable") | null;
+            /** Last Result Event Id */
+            last_result_event_id: string | null;
+        };
         /** DefinitionRef */
         DefinitionRef: {
             /** Course Id */
@@ -309,6 +346,68 @@ export interface components {
             digest: string;
             /** Reported Display At */
             reported_display_at: string | null;
+        };
+        /** EssentialStateV1 */
+        EssentialStateV1: {
+            /** Component Id */
+            component_id: string;
+            /** Item Id */
+            item_id: string;
+            /** Prepared Rule */
+            prepared_rule: string;
+            /**
+             * State
+             * @enum {string}
+             */
+            state: "pending" | "met" | "unmet" | "unscorable";
+        };
+        /** EvidenceActivityV1 */
+        EvidenceActivityV1: {
+            /** Canonical Activity Event Ids */
+            canonical_activity_event_ids: string[];
+            /** Last Receipt Id */
+            last_receipt_id: string | null;
+            progress: components["schemas"]["LessonProgressV1"];
+            /** Session Id */
+            session_id: string;
+        };
+        /** EvidenceViewV1 */
+        EvidenceViewV1: {
+            /** Activity */
+            activity: components["schemas"]["EvidenceActivityV1"][];
+            /** Canonical Cursor */
+            canonical_cursor: string | null;
+            /** Course Id */
+            course_id: string;
+            /** Definitions */
+            definitions: components["schemas"]["DefinitionEvidenceV1"][];
+            /**
+             * Git Sync State
+             * @enum {string}
+             */
+            git_sync_state: "unknown" | "pending" | "local_committed" | "pushed" | "merged" | "conflict";
+            /** Owner Verified */
+            owner_verified: boolean;
+        };
+        /** FinalAssessmentResultV1 */
+        FinalAssessmentResultV1: {
+            /** Active Committed Review Weakness */
+            active_committed_review_weakness: boolean;
+            /** Earned Points */
+            earned_points: string;
+            /**
+             * @description discriminator enum property added by openapi-typescript
+             * @enum {string}
+             */
+            kind: "final";
+            /** Max Points */
+            max_points: string;
+            /** Needs Attention */
+            needs_attention: boolean;
+            /** Passed */
+            passed: boolean;
+            /** Percentage */
+            percentage: string;
         };
         /** FinalizeDraftSnapshotV1 */
         FinalizeDraftSnapshotV1: {
@@ -417,6 +516,39 @@ export interface components {
             source_snapshot_digest: string | null;
             /** Source Snapshot Id */
             source_snapshot_id: string | null;
+        };
+        /** JobSummaryV1 */
+        JobSummaryV1: {
+            actual_settings: components["schemas"]["ModelSettings"] | null;
+            /** Completed Step Count */
+            completed_step_count: number;
+            /** Course Key */
+            course_key: string | null;
+            /** Created At */
+            created_at: string;
+            /** Current Step */
+            current_step: string | null;
+            /** Error Code */
+            error_code: string | null;
+            /** Job Id */
+            job_id: string;
+            /**
+             * Kind
+             * @enum {string}
+             */
+            kind: "ingest_prepare" | "plan_prepare" | "grade_written" | "extend_bank" | "publish" | "source_inventory";
+            /** Next Eligible At */
+            next_eligible_at: string | null;
+            requested_settings: components["schemas"]["ModelSettings"];
+            /** Revision */
+            revision: number;
+            /**
+             * State
+             * @enum {string}
+             */
+            state: "queued" | "running" | "waiting_usage" | "waiting_sign_in" | "waiting_dependency" | "retry_scheduled" | "blocked" | "paused" | "succeeded" | "cancelled";
+            /** Total Step Count */
+            total_step_count: number | null;
         };
         /** JobViewV1 */
         JobViewV1: {
@@ -640,6 +772,49 @@ export interface components {
             /** Right Id */
             right_id: string;
         };
+        /** PreferenceCommand */
+        PreferenceCommand: {
+            /** Expected Revision */
+            expected_revision: number;
+            preferences: components["schemas"]["PresentationPreferencesV1"];
+        };
+        /** PreferencesV1 */
+        PreferencesV1: {
+            preferences: components["schemas"]["PresentationPreferencesV1"];
+            /** Revision */
+            revision: number;
+            /**
+             * Schema Version
+             * @default 1
+             * @constant
+             */
+            schema_version: 1;
+        };
+        /** PresentationPreferencesV1 */
+        PresentationPreferencesV1: {
+            /**
+             * Outline Visible
+             * @default true
+             */
+            outline_visible: boolean;
+            /**
+             * Reduced Motion
+             * @default false
+             */
+            reduced_motion: boolean;
+            /**
+             * Text Size
+             * @default normal
+             * @enum {string}
+             */
+            text_size: "normal" | "large";
+            /**
+             * Theme
+             * @default system
+             * @enum {string}
+             */
+            theme: "system" | "light" | "dark";
+        };
         /** PreservedVersion */
         PreservedVersion: {
             /** Preserved Ref */
@@ -745,6 +920,24 @@ export interface components {
             /** Signed In */
             signed_in: boolean;
             usage: components["schemas"]["ReportedUsage"] | null;
+        };
+        /** ProvisionalAssessmentResultV1 */
+        ProvisionalAssessmentResultV1: {
+            /** Earned Points */
+            earned_points: string;
+            /**
+             * @description discriminator enum property added by openapi-typescript
+             * @enum {string}
+             */
+            kind: "provisional";
+            /**
+             * Label
+             * @default partial
+             * @constant
+             */
+            label: "partial";
+            /** Possible Points */
+            possible_points: string;
         };
         /** PublicBundleV1 */
         PublicBundleV1: {
@@ -1140,6 +1333,15 @@ export interface components {
             expected_revision: number;
             prepared_assessment_ref: components["schemas"]["AuthoringRef"];
         };
+        /** StartReviewV1 */
+        StartReviewV1: {
+            /** Bundle Id */
+            bundle_id: string;
+            /** Expected Projection Cursor */
+            expected_projection_cursor: string;
+            /** Recommendation Id */
+            recommendation_id: string;
+        };
         /** StartSessionCommand */
         StartSessionCommand: {
             /** Bundle Id */
@@ -1179,6 +1381,16 @@ export interface components {
             kind: "text";
             /** Text */
             text: string;
+        };
+        /** UploadReceiptV1 */
+        UploadReceiptV1: {
+            /** Course Key */
+            course_key: string;
+            /** Duplicate Source Revision Ids */
+            duplicate_source_revision_ids: string[];
+            receipt: components["schemas"]["ReceiptV1"];
+            /** Sources */
+            sources: components["schemas"]["SourceRevisionV1"][];
         };
         /** UploadV1 */
         UploadV1: {

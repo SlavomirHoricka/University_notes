@@ -142,7 +142,11 @@ def seed_attempt(db: sqlite3.Connection, suffix: str = "", assessment: str = "as
 
 
 def seed_command(
-    db: sqlite3.Connection, name: str = "command", kind: str = "response", principal: str = "human"
+    db: sqlite3.Connection,
+    name: str = "command",
+    kind: str = "response",
+    principal: str = "human",
+    aggregate_id: str = "attempt",
 ) -> None:
     insert(
         db,
@@ -152,7 +156,7 @@ def seed_command(
         kind=kind,
         idempotency_key=name,
         request_digest=HASH,
-        aggregate_id="attempt",
+        aggregate_id=aggregate_id,
         status="accepted",
         response_status=202,
         replay_response="{}",
@@ -604,7 +608,7 @@ def test_v4_approval_digest_revision_and_human_command_guards(tmp_path: Path) ->
             safe_preview="{}",
             created_at=STAMP,
         )
-        seed_command(db, "decision", kind="approval_decision")
+        seed_command(db, "decision", kind="approval_decision", aggregate_id="proposal")
         seed_command(db, "retry", kind="retry")
         for digest, revision, command, principal in (
             ("b" * 64, 1, "decision", "human"),

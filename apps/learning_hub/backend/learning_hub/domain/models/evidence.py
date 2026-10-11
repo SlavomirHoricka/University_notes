@@ -1,6 +1,6 @@
 from typing import Annotated, Literal, Self
 
-from pydantic import Field, model_validator
+from pydantic import Field, SerializerFunctionWrapHandler, model_serializer, model_validator
 
 from learning_hub.domain.models.api import CanonicalCommitState
 from learning_hub.domain.models.base import (
@@ -280,6 +280,15 @@ class CorrectedFieldsV4(Contract):
     elapsed_hours_since_exposure: Points | None = None
     # The sole proposed extension to the old correction allowlist is a new typed component decision.
     component_result: SiteComponentResultV1 | None = None
+
+    @model_serializer(mode="wrap")
+    def sparse_fields(self, handler: SerializerFunctionWrapHandler) -> dict[str, object]:
+        # Canonical corrections apply exactly the supplied keys. Keep explicit nulls,
+        # but never manufacture null replacements for omitted optional fields.
+        values = handler(self)
+        if not isinstance(values, dict):
+            raise ValueError("Correction serializer requires field mapping")
+        return {name: value for name, value in values.items() if name in self.model_fields_set}
 
     @model_validator(mode="after")
     def nonempty_changes(self) -> Self:

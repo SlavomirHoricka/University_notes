@@ -116,15 +116,15 @@ CREATE TRIGGER approval_proposals_no_delete BEFORE DELETE ON approval_proposals 
 CREATE TABLE approval_decisions (
   decision_id TEXT PRIMARY KEY NOT NULL,
   proposal_id TEXT NOT NULL UNIQUE REFERENCES approval_proposals(proposal_id),
-  command_id TEXT NOT NULL REFERENCES commands(command_id),
+  command_id TEXT NOT NULL UNIQUE REFERENCES commands(command_id),
   principal TEXT NOT NULL,
   decision TEXT NOT NULL CHECK(decision IN ('approve','reject')),
   proposal_digest TEXT NOT NULL CHECK(length(proposal_digest)=64 AND proposal_digest NOT GLOB '*[^0-9a-f]*'),
   expected_job_revision INTEGER NOT NULL CHECK(expected_job_revision>0),
   decided_at TEXT NOT NULL
 ) STRICT;
-CREATE TRIGGER approval_decisions_approval_not_digest_bound_human_command_insert BEFORE INSERT ON approval_decisions WHEN NOT EXISTS(SELECT 1 FROM approval_proposals p JOIN jobs j ON j.job_id=p.job_id JOIN commands c ON c.command_id=NEW.command_id WHERE p.proposal_id=NEW.proposal_id AND p.proposal_digest=NEW.proposal_digest AND j.revision=NEW.expected_job_revision AND c.local_principal=NEW.principal AND c.kind='approval_decision') BEGIN SELECT RAISE(ABORT,'approval_not_digest_bound_human_command'); END;
-CREATE TRIGGER approval_decisions_approval_not_digest_bound_human_command_update BEFORE UPDATE ON approval_decisions WHEN NOT EXISTS(SELECT 1 FROM approval_proposals p JOIN jobs j ON j.job_id=p.job_id JOIN commands c ON c.command_id=NEW.command_id WHERE p.proposal_id=NEW.proposal_id AND p.proposal_digest=NEW.proposal_digest AND j.revision=NEW.expected_job_revision AND c.local_principal=NEW.principal AND c.kind='approval_decision') BEGIN SELECT RAISE(ABORT,'approval_not_digest_bound_human_command'); END;
+CREATE TRIGGER approval_decisions_approval_not_digest_bound_human_command_insert BEFORE INSERT ON approval_decisions WHEN NOT EXISTS(SELECT 1 FROM approval_proposals p JOIN jobs j ON j.job_id=p.job_id JOIN commands c ON c.command_id=NEW.command_id WHERE p.proposal_id=NEW.proposal_id AND p.proposal_digest=NEW.proposal_digest AND j.revision=NEW.expected_job_revision AND c.local_principal=NEW.principal AND c.kind='approval_decision' AND c.aggregate_id=NEW.proposal_id) BEGIN SELECT RAISE(ABORT,'approval_not_digest_bound_human_command'); END;
+CREATE TRIGGER approval_decisions_approval_not_digest_bound_human_command_update BEFORE UPDATE ON approval_decisions WHEN NOT EXISTS(SELECT 1 FROM approval_proposals p JOIN jobs j ON j.job_id=p.job_id JOIN commands c ON c.command_id=NEW.command_id WHERE p.proposal_id=NEW.proposal_id AND p.proposal_digest=NEW.proposal_digest AND j.revision=NEW.expected_job_revision AND c.local_principal=NEW.principal AND c.kind='approval_decision' AND c.aggregate_id=NEW.proposal_id) BEGIN SELECT RAISE(ABORT,'approval_not_digest_bound_human_command'); END;
 CREATE TRIGGER approval_decisions_no_update BEFORE UPDATE ON approval_decisions BEGIN SELECT RAISE(ABORT,'immutable_approval_decisions'); END;
 CREATE TRIGGER approval_decisions_no_delete BEFORE DELETE ON approval_decisions BEGIN SELECT RAISE(ABORT,'immutable_approval_decisions'); END;
 INSERT INTO role_settings(role_key,requested_model,requested_effort,speed,revision,updated_at) VALUES
