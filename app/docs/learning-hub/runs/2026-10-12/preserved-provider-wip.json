@@ -1,0 +1,79 @@
+{
+  "status": "unfinished_not_accepted_not_exported",
+  "worktree": "/Users/slavomirhoricka/.codex/worktrees/hub-provider/University_notes",
+  "branch": "codex/hub-provider",
+  "commit": "682fd3f3969a842182331ea0dabf0857abdac630",
+  "reason": "Untracked provider adapter/route/tests lack final H01 completion proof and independent acceptance. Existing source preserved unchanged, not substituted for working integration.",
+  "files": [
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/codex/capabilities.py",
+      "sha256": "152ceb6cc54fc0c2139e2a3a46397d075b9c32b2ad9af5830f9a05cf24912e29",
+      "size": 1547
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/codex/client.py",
+      "sha256": "f3d26b20fa3ddb319bf83e9b607c20af983d9b0e4d6c480131a5ff7cbcfae3fe",
+      "size": 15717
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/codex/errors.py",
+      "sha256": "154e89b93fe907e7bb8eec8cfb2d912b5cba2b14c57699b3650ee82ed49da1b8",
+      "size": 2252
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/codex/framing.py",
+      "sha256": "fe867fa8bca4cbe4d0feb5ccd13df7b41406bf468ef49eb1611f5e423d5d6f03",
+      "size": 3080
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/codex/lifecycle.py",
+      "sha256": "f98ea5e1388cdd84c0ff609aaf400aa9e1d24491c18be116c29921d0ee52a4a3",
+      "size": 15340
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/codex/oauth.py",
+      "sha256": "641479ee750d6e9d4f2ddda695cd2b8849bc2ecdcebbe9adc0fcd344e8a07ff1",
+      "size": 14607
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/codex/pilot.py",
+      "sha256": "78c6c96627c3737be1bafd92a5bfad33bf8d1db5fc09903b147c843d18a702c6",
+      "size": 7798
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/codex/protected.py",
+      "sha256": "f18a244269bc491c69a9e180e6024477729995b20fb8fc6b8fd522c091701f89",
+      "size": 3976
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/codex/rpc.py",
+      "sha256": "a5f28bbac911ae34db674919df128bd6a40ef3174d995cb374eee6254dd7dd70",
+      "size": 10490
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/api/provider/routes.py",
+      "sha256": "53fa867e4de30b21453df067eaa216cb3250d14e5fd1cfd0d497485372d556b1",
+      "size": 5928
+    },
+    {
+      "path": "apps/learning_hub/tests/integration/provider/test_lifecycle.py",
+      "sha256": "47579e9ad5c3f14abb474860c510f9dc4dbf82a9c5ea9d3e3d85e1089fb0ccf1",
+      "size": 15385
+    },
+    {
+      "path": "apps/learning_hub/tests/integration/provider/test_rpc.py",
+      "sha256": "036c64499aa1ab555629bea6c943b3b729dac48c3ec16094c636652da937085e",
+      "size": 4109
+    },
+    {
+      "path": "apps/learning_hub/tests/unit/provider/test_oauth.py",
+      "sha256": "e1bfa6f16e5656b427fbaeb1b81bf0ecf0c042ad71aa5c6ce2980a4ea1cc7606",
+      "size": 6116
+    },
+    {
+      "path": "apps/learning_hub/tests/unit/provider/test_protocol.py",
+      "sha256": "b276b18d56686a89aa46cf071049b1aef89fb4b72f5acd5767e0182dfe564d1e",
+      "size": 4159
+    }
+  ]
+}

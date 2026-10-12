@@ -32,3 +32,7 @@ Run the frontend/backend foreground commands in the implementation README to ins
 Independent `hub_reviewer` (native Astra/high) reviewed exact `0be1033`: 134 backend tests, Ruff, mypy and unchanged accepted migrations passed; only material finding was the stale smoke selectors. `hub_qa` (native Sol/high) repaired that test and passed one real Chromium/loopback smoke with `ready:false`. Runtime model-setting telemetry is unavailable beyond host role declarations.
 
 No release readiness is inferred from the build or these checks. No paid API fallback or remote binding was enabled.
+
+## Verified checkpoint integration and package scope
+
+PR #9 merged on 2026-10-12 at `4272b77d3b9aa4080116b4ba022b82bd7864ba2f`; clean primary main was fast-forwarded. The next commit separates source under app/ without changing app runtime behavior. App workflow sources are a bounded legacy fork and are not enabled to read/write the parent vault. See ../../MIGRATION.md before continuing ownership/storage work. Historical task branch/absolute worktree paths in receipts are provenance, not live dispatch instructions.

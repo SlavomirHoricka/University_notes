@@ -6,6 +6,7 @@ A university study vault for Obsidian, containing course materials, connected st
 
 ```text
 University_notes/
+├── app/                   Copyable standalone learning-app source package
 ├── 00_Materials/          Original course materials
 │   └── <academic_year>/<semester>/<course>/
 ├── 01_Notes/              Study notes, course hubs, and visual assets
@@ -124,3 +125,9 @@ python3 03_Agents/scripts/sync_plugin.py --check
 ```
 
 The vault checker reports unresolved references; it does not certify academic accuracy or PDF page bounds. Generating a plugin package is separate from installing or publishing it.
+
+## Standalone learning app
+
+The app is separated under [app/](app/README.md). Its backend/frontend, engineering plan, profiles and workflow-source fork can be exported without this vault; see [migration instructions](app/MIGRATION.md). The original notes, materials, academic records and canonical skills stay at their existing paths so current Obsidian links and personal skill registrations keep working. App and vault workflows now have separate ownership; they are not synchronized automatically.
+
+The app is a partial engineering checkpoint, not a finished learning tool. [Current implementation state](app/docs/learning-hub/CURRENT_STATE.md) records what works and what remains.

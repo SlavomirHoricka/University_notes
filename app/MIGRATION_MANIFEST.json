@@ -1,0 +1,1346 @@
+{
+  "schema_version": 1,
+  "provenance_commit": "4272b77d3b9aa4080116b4ba022b82bd7864ba2f",
+  "files": [
+    {
+      "path": ".codex/agents/hub_assessment.toml",
+      "sha256": "84339de7c36bb169582bda0a3f2a9b64bb24c9168dd16a1d39a2cfbf96bf2bec",
+      "size": 2303
+    },
+    {
+      "path": ".codex/agents/hub_coordinator.toml",
+      "sha256": "0fb8f2b15fa7e61ef7c20b3251445f38fc449f8c0c10abd426f87a2a229f706e",
+      "size": 2524
+    },
+    {
+      "path": ".codex/agents/hub_foundation.toml",
+      "sha256": "49dac4ee33fed5b5cc967a2e592ebde74189af92bae765e22081f65144fb49c1",
+      "size": 2268
+    },
+    {
+      "path": ".codex/agents/hub_frontend.toml",
+      "sha256": "6a1ad390d179161d2e7f69c0fc4e4bb82ae5ab3035ef3102b9d3e1a5f20d0687",
+      "size": 2256
+    },
+    {
+      "path": ".codex/agents/hub_operations.toml",
+      "sha256": "f612f4978a68399ce6c227ffaf64f5e4ae61ba6d255e79a967af2fae42f759d9",
+      "size": 2252
+    },
+    {
+      "path": ".codex/agents/hub_provider.toml",
+      "sha256": "426fc9f0c5677f485212c25ce0cb88d4068b79d8ca8f4818b6f33bb49aaf9fc0",
+      "size": 2244
+    },
+    {
+      "path": ".codex/agents/hub_qa.toml",
+      "sha256": "24ce98299e47fea9fb15db083ab77ba06d95561425c973c4d2aef67a212f231a",
+      "size": 2296
+    },
+    {
+      "path": ".codex/agents/hub_reviewer.toml",
+      "sha256": "eea61cb75effcff3f20942c0b5a7e7f35d6841247ac61e953e2514f1985a1b83",
+      "size": 2240
+    },
+    {
+      "path": ".codex/agents/hub_visuals.toml",
+      "sha256": "7a89050662c384a48460fc8d7b3fc30827689b5ad91315644d273d3001cac1ac",
+      "size": 2272
+    },
+    {
+      "path": ".codex/agents/hub_workflows.toml",
+      "sha256": "e41c87049cc114159e3bf2a5f9ce7af25a7a8ae06da71c794761d81a3e391960",
+      "size": 2287
+    },
+    {
+      "path": ".codex/agents/uni_curriculum_checker.toml",
+      "sha256": "146a371273839d4bd682f8e5aca45221c3764fb8c92b90600c84682ffa4f5ebf",
+      "size": 1690
+    },
+    {
+      "path": ".codex/agents/uni_curriculum_checker_xhigh.toml",
+      "sha256": "f233f651798bd7fab339f75c474289fb87f562105984fa2223c7f8fc9cff1515",
+      "size": 1681
+    },
+    {
+      "path": ".codex/agents/uni_ingest_draft.toml",
+      "sha256": "96a432a1a8d1dae0980e9bd25a3707001d4aca4ac301f3127fc63468c733d154",
+      "size": 1495
+    },
+    {
+      "path": ".codex/agents/uni_ingest_draft_high.toml",
+      "sha256": "356c3f2634deaf881763d74d931cf2d06e061b733836910bb1502758c4641558",
+      "size": 1504
+    },
+    {
+      "path": ".codex/agents/uni_ingest_owner.toml",
+      "sha256": "88b38340cbae775500197e427788ea33430e662bb5fcb935438537fec8940207",
+      "size": 1510
+    },
+    {
+      "path": ".codex/agents/uni_ingest_reasoning_astra.toml",
+      "sha256": "238184516245109210cba5e23333f9001094854188b20ccc5cd929bd09cff893",
+      "size": 1293
+    },
+    {
+      "path": ".codex/agents/uni_plan_owner.toml",
+      "sha256": "65cb835e9064584e7cba5c5f5b4c2923060944f7a6f62bd588a7d1d50ea9c4de",
+      "size": 1503
+    },
+    {
+      "path": ".codex/agents/uni_plan_owner_astra.toml",
+      "sha256": "b3795a5f7110b31fc568f1d71706d3084e470c0bfb4973e547c7f1914ccbfa5c",
+      "size": 1511
+    },
+    {
+      "path": ".codex/agents/uni_recall_owner.toml",
+      "sha256": "867b1e3ea38f4a1efbbb0ab866a3b94951c954dc4966711997834e0dfac66682",
+      "size": 1508
+    },
+    {
+      "path": ".codex/agents/uni_recall_owner_medium.toml",
+      "sha256": "ccf5adb6e96142445d3c784e1b5a9ca6080955f0cb465bbd66d98e8971ac4c61",
+      "size": 1506
+    },
+    {
+      "path": ".codex/agents/uni_source_checker.toml",
+      "sha256": "7e9547acbdbf0ca68287c6023e0bb8d6be6881688b531cbec8bb6b7710a03d67",
+      "size": 1818
+    },
+    {
+      "path": ".codex/agents/uni_source_checker_xhigh.toml",
+      "sha256": "16374e99bc4bdf348d6813fb70decd459da9c2da12bb8b2318e00e5f2c32c57e",
+      "size": 1837
+    },
+    {
+      "path": ".codex/agents/uni_teach_assessor.toml",
+      "sha256": "d773d683a0ad82957775e6b7e587efa7a95826a0cff0659b6a030f34982397f3",
+      "size": 1592
+    },
+    {
+      "path": ".codex/agents/uni_teach_owner.toml",
+      "sha256": "dffce79eca633c60e777d435fd226b398026b96f766c3a0d65710c62871a1807",
+      "size": 2890
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5cba94db1468a134678fc3a19b5f014a022a37a32a191801d64a8ce2f3ac427b",
+      "size": 107
+    },
+    {
+      "path": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "sha256": "d2106999c6193da1e7bce9ef973876c4b91acfb74fde569e2ce35588663ddfad",
+      "size": 40837
+    },
+    {
+      "path": "03_Agents/NAMING_CONVENTIONS.md",
+      "sha256": "9c6a78bfd74c54f30e2657d74d8e343c8301c20cca7eaa94d01d146928c4f0c0",
+      "size": 3047
+    },
+    {
+      "path": "03_Agents/README.md",
+      "sha256": "0e3087596f202cef4292127eef963a87abe8c94d7fd1d1576e0c8ae8ec751b1d",
+      "size": 1582
+    },
+    {
+      "path": "03_Agents/VAULT_MAP.md",
+      "sha256": "0efe77e5c7154dce1cf559a5953c6efc5790ff11bf4f6c540f4985b49d8215a9",
+      "size": 632
+    },
+    {
+      "path": "03_Agents/agents/uni_curriculum_checker.toml",
+      "sha256": "146a371273839d4bd682f8e5aca45221c3764fb8c92b90600c84682ffa4f5ebf",
+      "size": 1690
+    },
+    {
+      "path": "03_Agents/agents/uni_curriculum_checker_xhigh.toml",
+      "sha256": "f233f651798bd7fab339f75c474289fb87f562105984fa2223c7f8fc9cff1515",
+      "size": 1681
+    },
+    {
+      "path": "03_Agents/agents/uni_ingest_draft.toml",
+      "sha256": "96a432a1a8d1dae0980e9bd25a3707001d4aca4ac301f3127fc63468c733d154",
+      "size": 1495
+    },
+    {
+      "path": "03_Agents/agents/uni_ingest_draft_high.toml",
+      "sha256": "356c3f2634deaf881763d74d931cf2d06e061b733836910bb1502758c4641558",
+      "size": 1504
+    },
+    {
+      "path": "03_Agents/agents/uni_ingest_owner.toml",
+      "sha256": "88b38340cbae775500197e427788ea33430e662bb5fcb935438537fec8940207",
+      "size": 1510
+    },
+    {
+      "path": "03_Agents/agents/uni_ingest_reasoning_astra.toml",
+      "sha256": "238184516245109210cba5e23333f9001094854188b20ccc5cd929bd09cff893",
+      "size": 1293
+    },
+    {
+      "path": "03_Agents/agents/uni_plan_owner.toml",
+      "sha256": "65cb835e9064584e7cba5c5f5b4c2923060944f7a6f62bd588a7d1d50ea9c4de",
+      "size": 1503
+    },
+    {
+      "path": "03_Agents/agents/uni_plan_owner_astra.toml",
+      "sha256": "b3795a5f7110b31fc568f1d71706d3084e470c0bfb4973e547c7f1914ccbfa5c",
+      "size": 1511
+    },
+    {
+      "path": "03_Agents/agents/uni_recall_owner.toml",
+      "sha256": "867b1e3ea38f4a1efbbb0ab866a3b94951c954dc4966711997834e0dfac66682",
+      "size": 1508
+    },
+    {
+      "path": "03_Agents/agents/uni_recall_owner_medium.toml",
+      "sha256": "ccf5adb6e96142445d3c784e1b5a9ca6080955f0cb465bbd66d98e8971ac4c61",
+      "size": 1506
+    },
+    {
+      "path": "03_Agents/agents/uni_source_checker.toml",
+      "sha256": "7e9547acbdbf0ca68287c6023e0bb8d6be6881688b531cbec8bb6b7710a03d67",
+      "size": 1818
+    },
+    {
+      "path": "03_Agents/agents/uni_source_checker_xhigh.toml",
+      "sha256": "16374e99bc4bdf348d6813fb70decd459da9c2da12bb8b2318e00e5f2c32c57e",
+      "size": 1837
+    },
+    {
+      "path": "03_Agents/agents/uni_teach_assessor.toml",
+      "sha256": "d773d683a0ad82957775e6b7e587efa7a95826a0cff0659b6a030f34982397f3",
+      "size": 1592
+    },
+    {
+      "path": "03_Agents/agents/uni_teach_owner.toml",
+      "sha256": "dffce79eca633c60e777d435fd226b398026b96f766c3a0d65710c62871a1807",
+      "size": 2890
+    },
+    {
+      "path": "03_Agents/check_vault.py",
+      "sha256": "0909e693e7302a65488c838b0d862a22e69c515eab59402d332eea5917424bad",
+      "size": 6998
+    },
+    {
+      "path": "03_Agents/ingest/SKILL.md",
+      "sha256": "250683a90fdf2f88100fdffe54304a099a47c82ed3ff4b2c8c77edb40b5dbf72",
+      "size": 39505
+    },
+    {
+      "path": "03_Agents/plan/SKILL.md",
+      "sha256": "b6387b3af5ce404a515dd4b5b350b3549526848f8cd641f2ebd77c536edede0a",
+      "size": 20718
+    },
+    {
+      "path": "03_Agents/plan/templates/learning_plan.md",
+      "sha256": "7a8ba852d72b277018620b43d70d06b89b9d2667eb959f4afac75d875885de2d",
+      "size": 4767
+    },
+    {
+      "path": "03_Agents/plan/templates/objective_lesson.md",
+      "sha256": "ec46abbeb1a64ca333a9353cbe9a13a56765379f10c4a1d55dde6fc6cbb5b745",
+      "size": 6030
+    },
+    {
+      "path": "03_Agents/plan/templates/source_manifest.md",
+      "sha256": "8074f01320ba72aabca240b4fd342d906c136b8854afc129f307caa913fbe1d6",
+      "size": 2808
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/.codex-plugin/plugin.json",
+      "sha256": "f28a2501e74720fc27c3e57cb040fa48c4c35e74cb282462481d4f550b10f86b",
+      "size": 1243
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/LEARNING_ARCHITECTURE.md",
+      "sha256": "d2106999c6193da1e7bce9ef973876c4b91acfb74fde569e2ce35588663ddfad",
+      "size": 40837
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/README.md",
+      "sha256": "43750cbb9de5b8efc7a4494e486676cebe18160de725a796593b8058fe1ccd78",
+      "size": 3077
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_curriculum_checker.toml",
+      "sha256": "146a371273839d4bd682f8e5aca45221c3764fb8c92b90600c84682ffa4f5ebf",
+      "size": 1690
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_curriculum_checker_xhigh.toml",
+      "sha256": "f233f651798bd7fab339f75c474289fb87f562105984fa2223c7f8fc9cff1515",
+      "size": 1681
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_ingest_draft.toml",
+      "sha256": "96a432a1a8d1dae0980e9bd25a3707001d4aca4ac301f3127fc63468c733d154",
+      "size": 1495
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_ingest_draft_high.toml",
+      "sha256": "356c3f2634deaf881763d74d931cf2d06e061b733836910bb1502758c4641558",
+      "size": 1504
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_ingest_owner.toml",
+      "sha256": "88b38340cbae775500197e427788ea33430e662bb5fcb935438537fec8940207",
+      "size": 1510
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_ingest_reasoning_astra.toml",
+      "sha256": "238184516245109210cba5e23333f9001094854188b20ccc5cd929bd09cff893",
+      "size": 1293
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_plan_owner.toml",
+      "sha256": "65cb835e9064584e7cba5c5f5b4c2923060944f7a6f62bd588a7d1d50ea9c4de",
+      "size": 1503
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_plan_owner_astra.toml",
+      "sha256": "b3795a5f7110b31fc568f1d71706d3084e470c0bfb4973e547c7f1914ccbfa5c",
+      "size": 1511
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_recall_owner.toml",
+      "sha256": "867b1e3ea38f4a1efbbb0ab866a3b94951c954dc4966711997834e0dfac66682",
+      "size": 1508
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_recall_owner_medium.toml",
+      "sha256": "ccf5adb6e96142445d3c784e1b5a9ca6080955f0cb465bbd66d98e8971ac4c61",
+      "size": 1506
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_source_checker.toml",
+      "sha256": "7e9547acbdbf0ca68287c6023e0bb8d6be6881688b531cbec8bb6b7710a03d67",
+      "size": 1818
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_source_checker_xhigh.toml",
+      "sha256": "16374e99bc4bdf348d6813fb70decd459da9c2da12bb8b2318e00e5f2c32c57e",
+      "size": 1837
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_teach_assessor.toml",
+      "sha256": "d773d683a0ad82957775e6b7e587efa7a95826a0cff0659b6a030f34982397f3",
+      "size": 1592
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/agents/uni_teach_owner.toml",
+      "sha256": "dffce79eca633c60e777d435fd226b398026b96f766c3a0d65710c62871a1807",
+      "size": 2890
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/assets/book.svg",
+      "sha256": "1e7c78c39aef964a4aff99ed7c277c763bd330567e0d93c20592dd02af17d999",
+      "size": 459
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/package_inventory.json",
+      "sha256": "fc05e4d42bade440d8ee856e36fb339432c77aef75005825e8a605f49eae969b",
+      "size": 6575
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/plugin.json",
+      "sha256": "67f89794a10c56e2e58e28e898ae8bcd0ca67b3841f7887f40eb546791c9d57f",
+      "size": 1392
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/references/LEARNING_METHODS.md",
+      "sha256": "9cc59b539152920806af7bd515d8348dc49d0da42aecb69c30af52338892d013",
+      "size": 19368
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/references/MODEL_ROUTING.md",
+      "sha256": "88aef445d25f75bb03ae243b056ea51bc794dc2dcf506a3dac34fed705f8c7b6",
+      "size": 12851
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/scripts/records.py",
+      "sha256": "8b01bf69bc72679914943a20ca78fd642dbbf5bc7e67781985d1030ff2849f7d",
+      "size": 11351
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/scripts/test_records.py",
+      "sha256": "a2a904c0eb9b509f130b9343346aaa3bb6834ad3d5829c8cc7b2f66204926a7f",
+      "size": 7102
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/ingest/SKILL.md",
+      "sha256": "250683a90fdf2f88100fdffe54304a099a47c82ed3ff4b2c8c77edb40b5dbf72",
+      "size": 39505
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/plan/SKILL.md",
+      "sha256": "b6387b3af5ce404a515dd4b5b350b3549526848f8cd641f2ebd77c536edede0a",
+      "size": 20718
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/plan/templates/learning_plan.md",
+      "sha256": "7a8ba852d72b277018620b43d70d06b89b9d2667eb959f4afac75d875885de2d",
+      "size": 4767
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/plan/templates/objective_lesson.md",
+      "sha256": "ec46abbeb1a64ca333a9353cbe9a13a56765379f10c4a1d55dde6fc6cbb5b745",
+      "size": 6030
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/plan/templates/source_manifest.md",
+      "sha256": "8074f01320ba72aabca240b4fd342d906c136b8854afc129f307caa913fbe1d6",
+      "size": 2808
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/recall/SKILL.md",
+      "sha256": "9851beed763bffcb4ee699d5d8a633d5d949becfbd1f6835d9da2d8d82227875",
+      "size": 31544
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/recall/references/TODOIST_HARNESS.md",
+      "sha256": "b027de219baf07c77e9d89a9cbb4b1098f5c8c5cbe37e084d457d9c6fbdf7060",
+      "size": 4540
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/recall/scripts/schedule.py",
+      "sha256": "3e35b2f89a89a1692e145eddecf8526c9975c738f282752c15f892967cd577b0",
+      "size": 24051
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/recall/templates/recall_state.json",
+      "sha256": "96b1aef74ddf15c93ceb1404d972ec624495f59769f0dd244a2d648433840975",
+      "size": 681
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/recall/tests/test_schedule.py",
+      "sha256": "d3eb3eac9771048ddcc9b7f75c941e2b27352414c40387c48c14bc745ddc5bda",
+      "size": 17418
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/teach/SKILL.md",
+      "sha256": "dd41122d3d22deef8dd15eefe9b5b5be8ecc982fd5f2f18daa8d4fce71fcc509",
+      "size": 18752
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/teach/references/RECORDS.md",
+      "sha256": "5ca52bcca5e58dc343901ac3e592b83019d6e7646397f4a78bb5faa545ffd412",
+      "size": 8233
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/teach/references/WALKTHROUGH.md",
+      "sha256": "fb5626bf6e47fd96edc43a7e331a8cdb19d5ad3ced7e49c50d617a436a0e8825",
+      "size": 652
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/teach/templates/learning_log.md",
+      "sha256": "bc42458c3b5abc15bf738dd7816e0420cfdc2f5c3563b5287fd03f86db566c2f",
+      "size": 6219
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/teach/templates/learning_plan.md",
+      "sha256": "330b409e3130e427b2d83f070432d3b23c6b43e5adf5459109cd7b90535f030d",
+      "size": 465
+    },
+    {
+      "path": "03_Agents/plugins/uni-teach/skills/teach/templates/source_manifest.md",
+      "sha256": "7de34f220959de29faca998a932463f5270b6a36ed204138e4159bde3b40500b",
+      "size": 379
+    },
+    {
+      "path": "03_Agents/recall/SKILL.md",
+      "sha256": "9851beed763bffcb4ee699d5d8a633d5d949becfbd1f6835d9da2d8d82227875",
+      "size": 31544
+    },
+    {
+      "path": "03_Agents/recall/references/TODOIST_HARNESS.md",
+      "sha256": "b027de219baf07c77e9d89a9cbb4b1098f5c8c5cbe37e084d457d9c6fbdf7060",
+      "size": 4540
+    },
+    {
+      "path": "03_Agents/recall/scripts/schedule.py",
+      "sha256": "3e35b2f89a89a1692e145eddecf8526c9975c738f282752c15f892967cd577b0",
+      "size": 24051
+    },
+    {
+      "path": "03_Agents/recall/templates/recall_state.json",
+      "sha256": "96b1aef74ddf15c93ceb1404d972ec624495f59769f0dd244a2d648433840975",
+      "size": 681
+    },
+    {
+      "path": "03_Agents/recall/tests/test_schedule.py",
+      "sha256": "d3eb3eac9771048ddcc9b7f75c941e2b27352414c40387c48c14bc745ddc5bda",
+      "size": 17418
+    },
+    {
+      "path": "03_Agents/references/LEARNING_METHODS.md",
+      "sha256": "9cc59b539152920806af7bd515d8348dc49d0da42aecb69c30af52338892d013",
+      "size": 19368
+    },
+    {
+      "path": "03_Agents/references/MODEL_ROUTING.md",
+      "sha256": "88aef445d25f75bb03ae243b056ea51bc794dc2dcf506a3dac34fed705f8c7b6",
+      "size": 12851
+    },
+    {
+      "path": "03_Agents/references/PLUGIN_README.md",
+      "sha256": "43750cbb9de5b8efc7a4494e486676cebe18160de725a796593b8058fe1ccd78",
+      "size": 3077
+    },
+    {
+      "path": "03_Agents/scripts/records.py",
+      "sha256": "8b01bf69bc72679914943a20ca78fd642dbbf5bc7e67781985d1030ff2849f7d",
+      "size": 11351
+    },
+    {
+      "path": "03_Agents/scripts/sync_plugin.py",
+      "sha256": "b12a91567c2336b008a0e56888c9ee76f3b620080319a6922fe2224f44273638",
+      "size": 5071
+    },
+    {
+      "path": "03_Agents/scripts/test_model_routing.py",
+      "sha256": "66b56987055afcffb96a782b449afd354feb5ecc2e8a4361b75274a9b1a0ba8e",
+      "size": 6232
+    },
+    {
+      "path": "03_Agents/scripts/test_records.py",
+      "sha256": "a2a904c0eb9b509f130b9343346aaa3bb6834ad3d5829c8cc7b2f66204926a7f",
+      "size": 7102
+    },
+    {
+      "path": "03_Agents/scripts/test_vault.py",
+      "sha256": "32846f1a6bc6dc299441da9881b35a00ef9a7f7f2cd2e07f7ce2210e6a2acaf9",
+      "size": 2121
+    },
+    {
+      "path": "03_Agents/teach/SKILL.md",
+      "sha256": "dd41122d3d22deef8dd15eefe9b5b5be8ecc982fd5f2f18daa8d4fce71fcc509",
+      "size": 18752
+    },
+    {
+      "path": "03_Agents/teach/references/RECORDS.md",
+      "sha256": "5ca52bcca5e58dc343901ac3e592b83019d6e7646397f4a78bb5faa545ffd412",
+      "size": 8233
+    },
+    {
+      "path": "03_Agents/teach/references/WALKTHROUGH.md",
+      "sha256": "fb5626bf6e47fd96edc43a7e331a8cdb19d5ad3ced7e49c50d617a436a0e8825",
+      "size": 652
+    },
+    {
+      "path": "03_Agents/teach/templates/learning_log.md",
+      "sha256": "bc42458c3b5abc15bf738dd7816e0420cfdc2f5c3563b5287fd03f86db566c2f",
+      "size": 6219
+    },
+    {
+      "path": "03_Agents/teach/templates/learning_plan.md",
+      "sha256": "330b409e3130e427b2d83f070432d3b23c6b43e5adf5459109cd7b90535f030d",
+      "size": 465
+    },
+    {
+      "path": "03_Agents/teach/templates/source_manifest.md",
+      "sha256": "7de34f220959de29faca998a932463f5270b6a36ed204138e4159bde3b40500b",
+      "size": 379
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7f44dc091600e2524c883006ef8f0d1642bb7b46d78160bfa75f7ee5c90c5950",
+      "size": 3441
+    },
+    {
+      "path": "MIGRATION.md",
+      "sha256": "0984b12594fcf0ef9132c4ee6437cf82d34fa65e598f14fffa6ef9ac76c454cb",
+      "size": 6379
+    },
+    {
+      "path": "README.md",
+      "sha256": "900a2fdc320e30a082083cff9d8a434ba5628995c5328dc098a17630e930f271",
+      "size": 1204
+    },
+    {
+      "path": "apps/learning_hub/.gitignore",
+      "sha256": "f857b28dae492436bcb572bf2ce0f4827759eaf3f8f58a543647fd28cbcc92c3",
+      "size": 277
+    },
+    {
+      "path": "apps/learning_hub/.python-version",
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+      "size": 5
+    },
+    {
+      "path": "apps/learning_hub/Makefile",
+      "sha256": "914c8b689716523fa834f3ffd7d95db44c00d4e116114e1c205f54bf31cf4aad",
+      "size": 1157
+    },
+    {
+      "path": "apps/learning_hub/README.md",
+      "sha256": "c8258499c6fce736a4654f5d27c5d8b5ffad0c5710203b8f9c786739a87acccf",
+      "size": 3931
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/codex/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/evidence/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/extraction/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/repository/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/database.py",
+      "sha256": "f7aa2781d6ec62c7a99579fa7dd4b443186c1ea69d3977d1add3b34b6922695c",
+      "size": 889
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/jobs.py",
+      "sha256": "2dafe8ee6832ba5aa68d70093141429ca235a8c340d2f61535deb51f27844b7c",
+      "size": 3382
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/migration.py",
+      "sha256": "11f0e070ce1c82a0d3d0ef54d1d06c3ac149c659ab15acb416879f0f968021b8",
+      "size": 4905
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/migrations/0001_identity_publication.sql",
+      "sha256": "aefa40e137054186eda41baa5935d92376e85850219286d4935c703c30e9140e",
+      "size": 7119
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/migrations/0002_delivery_evidence.sql",
+      "sha256": "a377c68bdf85d6f46acf89e8a4913050912ae3933b6652ab46ca397437e5f840",
+      "size": 20064
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/migrations/0003_assessment_exposure.sql",
+      "sha256": "dedab86882484ea4ebe5b6dc03b893a71577f19d6619043a14fad44474699bb9",
+      "size": 7876
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/migrations/0004_jobs_events_settings.sql",
+      "sha256": "82bcad37c90706ae547e09286fe0fec0fbd3057400b7a6f85bf623d9d4d5aff8",
+      "size": 12447
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/migrations/0005_integrity_guards.sql",
+      "sha256": "6bd16c91cb31acbad64496a39f49da991a01b91b8ae2bdc23d918ff8d660e00b",
+      "size": 342
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/migrations/0006_provider_state.sql",
+      "sha256": "cbd81f591fae12e7819765f975ddc3f6882d5caa44dac8d2c7927fbef064d064",
+      "size": 6816
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/storage/provider.py",
+      "sha256": "b18f5d9ffa3768db24aecbfd513dca8868379dad01340468e7215fdcd75ccd92",
+      "size": 24959
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/adapters/vault/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/api/assessments/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/api/core/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/api/core/health.py",
+      "sha256": "b20b7d4d38ce7fa220f6118dbe6c80f021e7f701dddf5ff7afb242cd4a2b660d",
+      "size": 656
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/api/core/schema.py",
+      "sha256": "645d4af4104330ab21d46f7e43a9a72c432a16e7d80fd8ca66623137fa0c69f3",
+      "size": 2324
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/api/courses/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/api/lessons/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/api/provider/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/api/workflows/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/application/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/application/assessments/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/application/attempts/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/application/core/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/application/core/bootstrap.py",
+      "sha256": "5c6894cdd63a4ba1297c56d920bf0a6e4723c13812d08615d4c7f4415b08e4e6",
+      "size": 762
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/application/core/runtime.py",
+      "sha256": "edfccf067fad85c3228e23bba429a251860662efb79b013e0050cfdbb3514706",
+      "size": 393
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/application/ingestion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/application/publication/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/application/reviews/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/application/uploads/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/grading/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/models/api.py",
+      "sha256": "a79cfcdb41acb157a5295e295e3f9ad9d92b6ba25930b141db31c944707d9f60",
+      "size": 22989
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/models/base.py",
+      "sha256": "dcf7ef8c7ad55c5a8660e0912d33f28111c39ff36f84b5b602dbdc4e65d5faa1",
+      "size": 4463
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/models/bundles.py",
+      "sha256": "5a008bda166f984a012d299775bf583aae8738cca36f579cdf7825aad7080538",
+      "size": 15018
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/models/evidence.py",
+      "sha256": "25f082d1628c7b3aa688c7dd0b7932c367ef7aa3b94869d6157957593cd0b532",
+      "size": 14265
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/models/identity.py",
+      "sha256": "9b61440acd95717925676755caa3f021377fa9afdad07e8000364f5f2aff2a64",
+      "size": 3418
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/models/provider_state.py",
+      "sha256": "7910321a0c78459bce64a3f12260381c215d580d4fe14a577621428e26e82fa7",
+      "size": 6270
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/models/questions.py",
+      "sha256": "966a80ad01db08b2d6c599cddac17fd8e13f4dc31b75004eabab1dd00e020d76",
+      "size": 13788
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/models/services.py",
+      "sha256": "8c0bb345947644e878e356b3218598874bef5157445e76eb758f71abbf7dc765",
+      "size": 11490
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/ports/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/ports/coordination.py",
+      "sha256": "31c46259a872304ec9505c72033ecc4910058b9e1641aacd32e84bdb24215b1a",
+      "size": 840
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/ports/provider.py",
+      "sha256": "ccbdc7163b86c64095aef1965b48b5f60dc42c4261b4e52549d16121fc0e2bd0",
+      "size": 4578
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/ports/repositories.py",
+      "sha256": "462567a24fff67da0389ea02990a92cb7596bbcc7ea918ef849ba154a60dbf54",
+      "size": 1543
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/ports/runtime.py",
+      "sha256": "7c4b98bd4d5b5aebe498ebf008603a860d75894bd8976b8408ba0b0b0d49b8d4",
+      "size": 318
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/review_policy/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/selection/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/domain/visuals/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/operations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/backend/learning_hub/worker/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/docs/development.md",
+      "sha256": "f3503d5ad4fb9a1ef4b5ed8d067b72ae948c65b387cd53a324ecc33eda59a4e1",
+      "size": 3828
+    },
+    {
+      "path": "apps/learning_hub/docs/foundation/h02-contracts.md",
+      "sha256": "3c1cfcfeabbd4d0817893a9c62e9a67d6199dd95003ec842f55b73d5e3c17774",
+      "size": 11573
+    },
+    {
+      "path": "apps/learning_hub/docs/foundation/h09-canonical-proposal.md",
+      "sha256": "e40c6dcc188f0acdd9186e18c89c48b4a7ee0b356fb17333838cd9eba4ca872c",
+      "size": 7917
+    },
+    {
+      "path": "apps/learning_hub/docs/foundation/provider-state.md",
+      "sha256": "4589bb2f3941b6c95e15a7ebc579145ec6023d1e5111908adf3a230cde17e098",
+      "size": 5381
+    },
+    {
+      "path": "apps/learning_hub/frontend/.nvmrc",
+      "sha256": "73fb1b615e2043a933be1c0895cde4358036acc28d785692509b822aa53c761f",
+      "size": 8
+    },
+    {
+      "path": "apps/learning_hub/frontend/eslint.config.js",
+      "sha256": "fff46eff6cc2403004d00d32a7e9f34b32454736e5909aa2564847c049d930f2",
+      "size": 536
+    },
+    {
+      "path": "apps/learning_hub/frontend/index.html",
+      "sha256": "8b3d5222b79116520c22ae4e24e342c1019127b06c3cf66bd94e7a2d62440e33",
+      "size": 261
+    },
+    {
+      "path": "apps/learning_hub/frontend/package-lock.json",
+      "sha256": "20d9579f8afd8c97765227a98a2c420ed3432f19dfca2f09373b0cdc51dfe0f4",
+      "size": 143609
+    },
+    {
+      "path": "apps/learning_hub/frontend/package.json",
+      "sha256": "c069533c32fd5d41e0bd5d777606870cfff3e75788af321ecea93fae2ce52586",
+      "size": 973
+    },
+    {
+      "path": "apps/learning_hub/frontend/playwright.config.ts",
+      "sha256": "b93d226595a5490beae3081e3339387b41935b1a4b98caf5cffdaa9c12009eff",
+      "size": 513
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/api/client/index.ts",
+      "sha256": "6cf278cce032a95e2c8fef616e5503bc1eec010bc476e328a1dd17f0230e9065",
+      "size": 8468
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/api/generated/openapi.json",
+      "sha256": "2e28e5657072610f6955ec70ccbe37e936d136a16144c8973c364430ca6e2aa8",
+      "size": 119296
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/api/generated/schema.ts",
+      "sha256": "8f45f1d7218767c05436906c2c6860a28ee28399cbf10ef28e67a929c660b730",
+      "size": 50318
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/app/App.tsx",
+      "sha256": "e2331debfa44aecb68e2b1da8b854b82611e63ebfa92626c7181d2b7299da2d3",
+      "size": 7643
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/app/navigation.tsx",
+      "sha256": "0465beaeaaea35999447bc5a24e852f7ef1dfb6e26eaae957b7ed2d2c53fce16",
+      "size": 1076
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/app/query.ts",
+      "sha256": "1fa878e2da5633ade21321d8805f342b505e1ae6fdfc5877a45c9465bbab3d2f",
+      "size": 1216
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/app/ui.tsx",
+      "sha256": "b5e956ca1082e0981baf853f2fe68b789119e8bf6f3876525f32b687c3be86a7",
+      "size": 3379
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/features/courses/Catalogue.tsx",
+      "sha256": "cc48e3ed9c9f0c2b04cc327fe4bbbdc63df82973fccfe4b5a0b4ac06f7147ff0",
+      "size": 7798
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/features/courses/Materials.tsx",
+      "sha256": "1e5f9232a4357f45607c3fb1f5b00932bb083f0b79618e28e2de93cb3c140087",
+      "size": 8335
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/main.tsx",
+      "sha256": "523e5dd17f0ca9a1e17b3900669fac9428553b78e04483d4fc294348f4eb14aa",
+      "size": 315
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/styles/base.css",
+      "sha256": "1bb0477a46b390ba9b1ab36461d04be1bd31ab9ca911824f70a8c736468971b0",
+      "size": 4573
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/styles/courses.css",
+      "sha256": "fd33a393330a9db6be15f9e1bc4d9cd6c37d6cb9ca08c9e58a28d4eb1344a017",
+      "size": 5382
+    },
+    {
+      "path": "apps/learning_hub/frontend/src/styles/shell.css",
+      "sha256": "3f800dbc990c6127784bd84df258406415cda9f771d6f799751a3b526f6367f6",
+      "size": 5509
+    },
+    {
+      "path": "apps/learning_hub/frontend/tests/H04_RUNBOOK.md",
+      "sha256": "5a992250a04ddd12c21f8ecf8734a60e878555622a202756b677e0d0ec57ff6e",
+      "size": 2309
+    },
+    {
+      "path": "apps/learning_hub/frontend/tests/app.test.tsx",
+      "sha256": "a680a328094ef06c2eaa5ab5ad659d0b9c9e287974f9cd3b57e667d3abe4862e",
+      "size": 4321
+    },
+    {
+      "path": "apps/learning_hub/frontend/tests/client.test.tsx",
+      "sha256": "a43fcaefe22503121f58e09d886bc05c4958637e35bc70ab44e93f603ff44edd",
+      "size": 2659
+    },
+    {
+      "path": "apps/learning_hub/frontend/tests/e2eHarness.ts",
+      "sha256": "4c46c22a4f2527700b95f697ff6e3ff0664d344d60ee12107444e4ece6ae58a7",
+      "size": 49
+    },
+    {
+      "path": "apps/learning_hub/frontend/tests/h04.browser.mjs",
+      "sha256": "395e0dedf572f4dc95d0abc0d7b7d5056040b116c211126dc120f2a8ba10d510",
+      "size": 6173
+    },
+    {
+      "path": "apps/learning_hub/frontend/tests/h04.fixtures.ts",
+      "sha256": "6aa7e3efb3acc96bce2e4ed6ea44e9227315ffe2be0076238473d66b8cb8de66",
+      "size": 2825
+    },
+    {
+      "path": "apps/learning_hub/frontend/tests/materials.test.tsx",
+      "sha256": "6a09dc9938224ad95a8b4db60711dba5d4868804dc682f572e22f5af4669202f",
+      "size": 4645
+    },
+    {
+      "path": "apps/learning_hub/frontend/tests/setup.ts",
+      "sha256": "4f0575c74d735ec9310eeeb8c5e649c50d3ae58ecf9dff9fbb95163c980b0efb",
+      "size": 189
+    },
+    {
+      "path": "apps/learning_hub/frontend/tsconfig.json",
+      "sha256": "6efe0ef3a46fafb40ea0a9672494651b24342a4199245784c463edf7c5664817",
+      "size": 738
+    },
+    {
+      "path": "apps/learning_hub/frontend/vite.config.ts",
+      "sha256": "cc7dcf3f014dcfcf59f4f41c1041e2b0fbc7c25246fdbc245892c6c37d64a116",
+      "size": 393
+    },
+    {
+      "path": "apps/learning_hub/pyproject.toml",
+      "sha256": "e63cecfa1e666b4357c1d0d9630833a2a0277f42c9ae5cae58dca5cc9458c194",
+      "size": 869
+    },
+    {
+      "path": "apps/learning_hub/scripts/diagnostic.py",
+      "sha256": "4066f5784a7e7992308b72b6cf49998fcb68c6ce58e23d14e6581b4e2ebb4284",
+      "size": 1419
+    },
+    {
+      "path": "apps/learning_hub/scripts/export_contracts.py",
+      "sha256": "1524d42b42bc6c511a1186ffe757e0db85696743c457a8848e6e9a2a43e2920b",
+      "size": 1809
+    },
+    {
+      "path": "apps/learning_hub/tests/conftest.py",
+      "sha256": "35603a498a60d5c0cb7fd1993f3f40687b89f79de4aca4141d3ca4301806f648",
+      "size": 1072
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/.gitattributes",
+      "sha256": "110e0ce543071734d61e1d2db1edf1b0fca6a616dece1686f4ef4e574cbf94ad",
+      "size": 124
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/fixtures.py",
+      "sha256": "8479e4c3c37d455c4e9aeeb2a0ca539ebea69b3c5899f61f9cfab98eff3e0076",
+      "size": 8604
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/history_fixtures/legacy.md",
+      "sha256": "2e560d4576910cda1bef8f2ad847f207d8de6b3c15e2b5c7402d05f164b0b6c1",
+      "size": 152
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/history_fixtures/schema3.md",
+      "sha256": "bc29c97faacc5ee06f0dc680d28e8cd7d7c4904ee785c1d17195d322991cd336",
+      "size": 454
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/public_bundle.snapshot.json",
+      "sha256": "3abf087859070126520eda48733bbdcce893d4ca83ffe0b3fc68c1f55e6a6fdc",
+      "size": 1703
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/test_h02_canonical_extension.py",
+      "sha256": "164945d3030ab5d5a7e5d1778d21c31fc402d6cecfbbc3a4dc99dadf1b142398",
+      "size": 9925
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/test_h02_models.py",
+      "sha256": "7de3f95cdc767a1808f31cfbea7b8234bfb5b468928c66dd9bc20ea1313b7788",
+      "size": 12768
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/test_h02_review_repairs.py",
+      "sha256": "7f8489e572228bce65dc4dc7f1ce839363534fdaca334cb5e2f9b4bc95fe09d2",
+      "size": 15694
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/test_health_contract.py",
+      "sha256": "9c1e231c92ec0dcbf75d071bf7c9c2201a126410be55417b495187130d656a89",
+      "size": 797
+    },
+    {
+      "path": "apps/learning_hub/tests/contracts/test_provider_error_contract.py",
+      "sha256": "4fc72a573b1fa9107ba89a2131d9b72586af06908258042ff0c4ce82a00ea100",
+      "size": 1420
+    },
+    {
+      "path": "apps/learning_hub/tests/e2e/scaffold.spec.ts",
+      "sha256": "67508b30ab0a80799e13e784533f9a306e3f1ca31ecbad199f8cf7198eef6cc3",
+      "size": 913
+    },
+    {
+      "path": "apps/learning_hub/tests/integration/foundation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "apps/learning_hub/tests/integration/foundation/test_git_boundaries.py",
+      "sha256": "214f42812da63b2e005ba9456202af53aa5d0b0af71cb216176c79689716e75d",
+      "size": 962
+    },
+    {
+      "path": "apps/learning_hub/tests/integration/foundation/test_h02_migrations.py",
+      "sha256": "c59811ca3662ff264d6063bbe70832bb8455e89270adecafc459786686f00765",
+      "size": 30902
+    },
+    {
+      "path": "apps/learning_hub/tests/integration/foundation/test_h02_review_storage.py",
+      "sha256": "4805a15bcc5300f47b2c74960f4dcbed39ce3ccc0d1f8012a37e2e48cc6e175b",
+      "size": 5711
+    },
+    {
+      "path": "apps/learning_hub/tests/integration/foundation/test_isolation.py",
+      "sha256": "d7dbc373c8e9178e930c60aec7784d7782cb9abfed536071e345a0b295df0a43",
+      "size": 1503
+    },
+    {
+      "path": "apps/learning_hub/tests/integration/foundation/test_provider_state.py",
+      "sha256": "8cb20de56c0320b62ced9f09912e50a8630d167836fff40f15ef646d631ad366",
+      "size": 21936
+    },
+    {
+      "path": "apps/learning_hub/tests/unit/foundation/test_local_authorization_port.py",
+      "sha256": "ab0fed7226e25c29904f87a29a58b992d8a2adc9e6e17662b1260f4616e51390",
+      "size": 714
+    },
+    {
+      "path": "apps/learning_hub/tests/unit/foundation/test_runtime.py",
+      "sha256": "98bcea1dc06173e094341253f0c68a319da6a897b895da91b512809ddb310e7f",
+      "size": 831
+    },
+    {
+      "path": "apps/learning_hub/tests/unit/foundation/test_transport.py",
+      "sha256": "34e8eb9f2788d50b03985381bc97172a7f5e51fe08a70095b8710bc9d350e976",
+      "size": 329
+    },
+    {
+      "path": "apps/learning_hub/uv.lock",
+      "sha256": "50caf831d2a06f28a8d38d9a0c8633f955f3ffe1de5d50950d61452722929bec",
+      "size": 62636
+    },
+    {
+      "path": "docs/learning-hub/.gitattributes",
+      "sha256": "3e13a247946427d4876b96945ab2a7ba844b4454d744b9d2c207c2b35c662ad8",
+      "size": 141
+    },
+    {
+      "path": "docs/learning-hub/.gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+      "size": 19
+    },
+    {
+      "path": "docs/learning-hub/ARCHITECTURE.md",
+      "sha256": "51af41d2990aae5a5aebd2b727b01b68b5abe2361b8ba807ee62920331e1b0fa",
+      "size": 10383
+    },
+    {
+      "path": "docs/learning-hub/CONTRACTS.md",
+      "sha256": "5b789921496c03dbccf2ef898e166f7e68a2e0e3eb17cba1d217f21d218ec847",
+      "size": 80457
+    },
+    {
+      "path": "docs/learning-hub/CURRENT_STATE.md",
+      "sha256": "7682ad99fef4e9124d1afcaec1c72322a55f11766d57b911d73e68d1d34af29c",
+      "size": 4181
+    },
+    {
+      "path": "docs/learning-hub/PRODUCT_SPEC.md",
+      "sha256": "b621bc46971fc8ced7a9e8421fd28baaa1dd6d40b3427a650c13fe1c801a98da",
+      "size": 39281
+    },
+    {
+      "path": "docs/learning-hub/README.md",
+      "sha256": "ba3011eb418b68d183bef4c613934291628e548a43f05ce361c336b2deecd8eb",
+      "size": 3165
+    },
+    {
+      "path": "docs/learning-hub/START_HERE.md",
+      "sha256": "cbe768f44f34c91c01fe3650241c5cd4f8cb7fa191adf71cd4a13af2ff0ca6bc",
+      "size": 8663
+    },
+    {
+      "path": "docs/learning-hub/TASKS.md",
+      "sha256": "ffa6c8c26df03fa50f33a59cc985e3376ee8de91315df932cdbbb06ae9c08a92",
+      "size": 34078
+    },
+    {
+      "path": "docs/learning-hub/UI_IMPLEMENTATION.md",
+      "sha256": "0002ba13d591a3ab47f331dbb84441c5e4e490f61eae11253d0db369a1564f7d",
+      "size": 12835
+    },
+    {
+      "path": "docs/learning-hub/VALIDATION.md",
+      "sha256": "66393ae2b9130bb44aa57d75a5baba6d293b2d5d128d838e755c94884d2c850e",
+      "size": 10977
+    },
+    {
+      "path": "docs/learning-hub/WORKFLOWS.md",
+      "sha256": "46111adc2e2a9304e369fec94101b4c2532a5e3f34a97c5cf43bf8512e4d3437",
+      "size": 63595
+    },
+    {
+      "path": "docs/learning-hub/branch_provisioning.json",
+      "sha256": "5e22d5a6e330eb69522eacddbac083e59dd71b2407b944024ac308bd2998d1bd",
+      "size": 2252
+    },
+    {
+      "path": "docs/learning-hub/history/2026-10-09-learning-hub-architecture.md",
+      "sha256": "389c8329e2c5e83220a8fb477a9184ca002ecb279f30c6440a68a84edffa5587",
+      "size": 6106
+    },
+    {
+      "path": "docs/learning-hub/history/2026-10-10-hub-technical-plan.md",
+      "sha256": "b204b378bb131eb850db22b791922552e38987f3d2eef477ecfea5d8fcda0e63",
+      "size": 6369
+    },
+    {
+      "path": "docs/learning-hub/history/2026-10-11-hub-implementation.md",
+      "sha256": "821ee6f245e14f45be9f2b7f8b66db01dc04cf9370656b69d47031afdb51624b",
+      "size": 14346
+    },
+    {
+      "path": "docs/learning-hub/history/2026-10-12-hub-repo-separation.md",
+      "sha256": "e5d6194fb37b215427afad70371ffe4add88404e500549bd8281a737ed223533",
+      "size": 6447
+    },
+    {
+      "path": "docs/learning-hub/reference/personal_learning_hub_v3.html",
+      "sha256": "be558e726fe68093fb2672b2d1e54a9c829c6ac1f060393c5bd6bf58716aedaf",
+      "size": 98862
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-11/H00-foundation.json",
+      "sha256": "7c8a465c9e2ebca807cd6aa411c907e599c7c3b5c9cb14c4207eda5daf7bb0f4",
+      "size": 11133
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-11/H00-review.json",
+      "sha256": "ce968655a5af441d1cd65291d208fb931178a94516970ed05d4cd51e0e1fff7e",
+      "size": 1204
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-11/H01-foundation-support.json",
+      "sha256": "6a38802e0bcccdd6e9d50793d4755dd4fa045046ac5e2b78655e35b3c51f91ad",
+      "size": 6025
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-11/H02-foundation.json",
+      "sha256": "7500b1c7bc4390f21b29ba0a1d95a918ea7547d94d67080648d4845c14aa19e7",
+      "size": 9275
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-11/H02-repair-foundation.json",
+      "sha256": "ffb9124a1c7cf942e1521969446f0eca8d11bd640665710663ba1c470acdc1b3",
+      "size": 7762
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-11/H02-review-final.json",
+      "sha256": "375199c3100170d4bace5b34c43285bc22f1b1af8c928b8a130d0fc3a728bd79",
+      "size": 938
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-11/H02-review-initial.json",
+      "sha256": "ef594a1f72d55477bd9f6e5e203828bcbd35a92eaf06e933c3d779c40cec50c0",
+      "size": 2579
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-11/H04-frontend.json",
+      "sha256": "27e49a25c434bf48682ca1b1679d10f90a82c71375c426946625e7afcb108c57",
+      "size": 6186
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-12/checkpoint-review.json",
+      "sha256": "95170c359a131ff86ef308039a89745c49e05b841415782d2bea68f06d5a68f8",
+      "size": 755
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-12/preserved-provider-wip.json",
+      "sha256": "75a5b2816a41560f5fe6a758c183e255b358f02fe374eb3643e62ed222456741",
+      "size": 3181
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-12/separation-qa.json",
+      "sha256": "ee83d9149314a7a6f37ca69d8b3b0f556148d4dadc50dd28d9692c5bd619c6af",
+      "size": 1136
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-12/separation-review.json",
+      "sha256": "9e7bfd6431864db27fed5842274217a439d54d71a471ebe5fd3bb1343120a447",
+      "size": 911
+    },
+    {
+      "path": "docs/learning-hub/task_graph.json",
+      "sha256": "fdb80d2858a25527ddd7d90cc47697d28c48b73ea7e49a4d4ce01cab50c8d326",
+      "size": 40704
+    },
+    {
+      "path": "docs/learning-hub/tests/test_validate_plan.py",
+      "sha256": "0c77dd8977a635019c8cca139d30ec3367e015465aad5eb7f2ce571d4ddf2292",
+      "size": 3011
+    },
+    {
+      "path": "docs/learning-hub/validate_plan.py",
+      "sha256": "cd7983fdcb2c1c1dec4f75a0578742b4882c99bd2f8fddac6499d56bc4780c28",
+      "size": 7457
+    },
+    {
+      "path": "tools/export_app.py",
+      "sha256": "5a9e9d95e89df2d38a73e33e4381869807982e832ec6200e718484f4294f9f8c",
+      "size": 8623
+    },
+    {
+      "path": "tools/test_export_app.py",
+      "sha256": "fb4feac6198f5ce09aa20f0252b6ce2bd9115ce42c996b72c3f6d2840c145b22",
+      "size": 7777
+    }
+  ]
+}
