@@ -1,0 +1,129 @@
+{
+  "task_id": "H01-foundation-extension (serialized while H03 awaits)",
+  "role": "hub_foundation",
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "high",
+  "actual_settings_evidence": "Native role host declaration configures Sol/high; independent runtime telemetry unknown",
+  "input_integration_sha": "cc2972e839d9b03fa9ce5ffbe9375c03c4b3882b",
+  "dependency_commit": "588d8201af4677522b307e117168bf90175443f6",
+  "branch": "codex/hub-foundation",
+  "worktree": "/Users/slavomirhoricka/.codex/worktrees/hub-foundation/University_notes",
+  "commit": "da9ec0d98863d8acffb069cd05b14289458da680",
+  "changed_paths": [
+    "apps/learning_hub/backend/learning_hub/adapters/storage/migrations/0006_provider_state.sql",
+    "apps/learning_hub/backend/learning_hub/adapters/storage/provider.py",
+    "apps/learning_hub/backend/learning_hub/domain/models/api.py",
+    "apps/learning_hub/backend/learning_hub/domain/models/provider_state.py",
+    "apps/learning_hub/backend/learning_hub/domain/ports/provider.py",
+    "apps/learning_hub/docs/foundation/provider-state.md",
+    "apps/learning_hub/frontend/src/api/generated/openapi.json",
+    "apps/learning_hub/frontend/src/api/generated/schema.ts",
+    "apps/learning_hub/tests/contracts/test_provider_error_contract.py",
+    "apps/learning_hub/tests/integration/foundation/test_h02_migrations.py",
+    "apps/learning_hub/tests/integration/foundation/test_provider_state.py",
+    "apps/learning_hub/tests/unit/foundation/test_local_authorization_port.py"
+  ],
+  "checks": [
+    {
+      "command": "uv lock; uv sync --locked; python import jwt,httpx (dependency patch)",
+      "exit_code": 0,
+      "result": "PyJWT2.15.1,cryptography50.0.2,httpx0.28.1"
+    },
+    {
+      "command": "make export-contracts",
+      "exit_code": 0,
+      "result": "Owning generator refreshed only approved provider errors"
+    },
+    {
+      "command": "make check-unit check-contracts check-integration",
+      "exit_code": 0,
+      "result": "Ruff74 formattedfiles,mypy72sources;10unit,76contracts,48integration;2UI"
+    },
+    {
+      "command": "make check-ui",
+      "exit_code": 0,
+      "result": "ESLint,strictTS,2Vitest components"
+    },
+    {
+      "command": "make check-e2e",
+      "exit_code": 0,
+      "result": "1 actual Chromium+loopback API test; coordinated port release; no unrelated server killed"
+    },
+    {
+      "command": "make build (final committed bytes)",
+      "exit_code": 0,
+      "result": "76contracts+generated drift,Python wheel/sdist,Vite production build"
+    },
+    {
+      "command": "ruff check; mypy; pytest unit/foundation contracts/test_provider_error_contract integration/foundation/test_provider_state -q (final import cleanup)",
+      "exit_code": 0,
+      "result": "41 focused tests pass"
+    },
+    {
+      "command": "git diff --check; git diff --cached --check; scoped diff review",
+      "exit_code": 0
+    },
+    {
+      "command": "git diff cc2972e8 -- migrations/0001..0005",
+      "exit_code": 0,
+      "result": "Empty, accepted checksums/bytes preserved"
+    },
+    {
+      "command": "python3 03_Agents/check_vault.py",
+      "exit_code": 1,
+      "result": "Existing4missinglinks+2missinganchors+11absentemptycoursedirs; nointroducedissues"
+    },
+    {
+      "command": "cmp /private/tmp/hub-foundation-vault-before.txt /private/tmp/hub-provider-store-vault-final.txt",
+      "exit_code": 0,
+      "result": "Byteidentical baseline"
+    }
+  ],
+  "acceptance_cases": [
+    {
+      "case": "Provider seam additive migration",
+      "evidence": "test_additive_upgrade_keeps_prior_checksums_rows_and_backup; original0001-5 unchanged"
+    },
+    {
+      "case": "Durable human actions",
+      "evidence": "atomic replay before stale accountrevision; changed hash conflicts; command/receipt conflicts rollback entire flow; provider receipt nonacademic/nooutbox"
+    },
+    {
+      "case": "Account/flow CAS and completion",
+      "evidence": "monotonic retained registrations; exact returning subject/client; originalrevisionconflicts; atomic activation+terminal; expiry rejects"
+    },
+    {
+      "case": "Initial supported dynamic registration",
+      "evidence": "initialsign_in/sentinel/noexpectedsubject only; issuednonempty/nonsentinel;5 mixed returning/grant rejectioncases"
+    },
+    {
+      "case": "Pre-dispatch/recovery proof",
+      "evidence": "prepare/claimdurablesubmitted; restartoneoriginalrun; no redispatch; unboundunknownunresolvable; boundunknownonlyoriginalturnterminal"
+    },
+    {
+      "case": "Inference facts/private safety",
+      "evidence": "exactcompletedactual/requestedsettings/boundaccount proof; scopes CAS; terminalboundedoutput; observedidentities/settings immutable; DTOextra-forbid; private exclusion publicschema"
+    },
+    {
+      "case": "Local authorization seam",
+      "evidence": "exact4safeexceptions + sharedcookieconstant only; noauthimplementation"
+    }
+  ],
+  "nonfinal_failed_checks": [
+    "Initial focused run9pass/1fail: invalidtransitionraisedmodelValidationError; fixed explicit lifecycle rejection and added boundunknownguard",
+    "Initial fullcheck-all failed legacy futureversion6fixture afterv6 addition; corrected tolen(known)+1; historical H02cases target5 preserved",
+    "Intermediate realE2E blocked becauseanotherroleowned8765/5173; waited forgracefulrelease, final realE2Epassed",
+    "Initial staticfinalcaughtunusedtypeignore; removed; finalmyPy/Ruffpass"
+  ],
+  "blockers": [
+    "Independent exactcandidate review and rootacceptance pending",
+    "H03 core implementation not started; production local auth/evidence awaitH03/H09",
+    "Actual providerauth/inference proof is H01-owned, not demonstrated by fixtures"
+  ],
+  "limitations": [
+    "Upstream Starlette/httpx TestClient deprecation warning retained",
+    "No production DB upgrade/account/token/run/learner/canonical record created",
+    "No push/merge/PR/subagents"
+  ],
+  "next_step": "STOP for parent independent review; parent delivers complete accepted integration before H03 resumes"
+}

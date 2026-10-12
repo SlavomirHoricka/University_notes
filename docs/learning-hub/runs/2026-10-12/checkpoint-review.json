@@ -1,0 +1,13 @@
+{
+  "scope": "partial engineering checkpoint",
+  "reviewer": "hub_reviewer",
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "high",
+  "actual_settings_evidence": "Native host role declaration; separate telemetry unavailable",
+  "initial_candidate": "0be10333b0139633ebdd443fe54ea667d109457c",
+  "final_reviewed_commit": "e80d135c123b9aa18457da2d7f08c74fa4bdf383",
+  "finding": "Stale QA smoke selectors for H04 heading and service status",
+  "resolution": "QA repaired locators and passed real loopback Chromium smoke, preserving ready:false assertion",
+  "final_result": "no material findings; acceptable partial checkpoint",
+  "limitations": "No working provider inference, uploads, lessons, learner evidence or finished release certified"
+}

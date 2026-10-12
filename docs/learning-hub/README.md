@@ -1,6 +1,6 @@
 # Learning hub implementation package
 
-Status: execution-ready engineering plan; application implementation has not started. This package complements the existing learning architecture and does not replace academic skill ownership or certify course readiness.
+Status: implementation in progress; see [CURRENT_STATE.md](CURRENT_STATE.md) for the audited partial checkpoint. This package complements the existing learning architecture and does not replace academic skill ownership or certify course readiness.
 
 In a new chat in this repository, say **“Begin the implementation of the app plan.”** The root agent follows [START_HERE.md](START_HERE.md), resumes verified work and dispatches fixed-role subagents on their separate branches/worktrees. No new feature questionnaire is required. This planning request does not itself start application coding; a later explicit begin/resume request activates execution.
 
