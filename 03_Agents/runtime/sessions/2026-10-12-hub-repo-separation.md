@@ -28,4 +28,4 @@ Checkpoint checks: locked install; Ruff/format; mypy (72 sources); 10 unit + 76 
 
 ## Checkpoint integration gate
 
-Checkpoint status: ready_for_merge. Independent Astra/high reviewer rechecked e80d135; no material findings, original smoke issue resolved. App bytes unchanged after tests/review; additional commit records only review metadata and PR handoff. PR URL will be inserted before merge. Separation remains in_progress and follows checkpoint integration.
+Checkpoint status: ready_for_merge. Independent Astra/high reviewer rechecked e80d135; no material findings, original smoke issue resolved. App bytes unchanged after tests/review; additional commit records only review metadata and PR handoff. Checkpoint PR: https://github.com/SlavomirHoricka/University_notes/pull/9. Verified CLEAN with no required status checks/reviews at inspection. Separation remains in_progress and follows checkpoint integration.
