@@ -43,3 +43,5 @@ Plan validator and 9 plan tests; 18 model-routing/record/vault-utility tests wit
 Original vault issue identities exactly unchanged after restoring navigation stubs for moved engineering sessions. Checked link count falls only because full engineering history moved outside the vault scan. No academic repairs made.
 
 Standalone app QA results and independent separation review recorded next. Future migration step is creating a new repository from app export and revising app-native data/owner contracts; current scope does not move/import course content or enable copied legacy workflows.
+
+Standalone hub_qa (native Sol/high) passed 134 backend cases, 24 UI cases and one actual Chromium/loopback smoke; static/schema checks, wheel/sdist, Vite build and diagnostic pass. Initial sandbox denied port bind; permitted escalated retry passed. No services retained. The source package is independently runnable/buildable as today's incomplete shell; copied workflows remain gated. A hash inventory preserves the identity/location of 14 excluded unfinished provider files for later transfer. No notes, evidence or secrets were added.

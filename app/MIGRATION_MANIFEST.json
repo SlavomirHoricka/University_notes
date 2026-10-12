@@ -1249,8 +1249,8 @@
     },
     {
       "path": "docs/learning-hub/history/2026-10-12-hub-repo-separation.md",
-      "sha256": "658f33beb4c536c429ae6fdae28d1304c3f4447e0f3a2aeb4f2a63bc3ddd65f3",
-      "size": 5154
+      "sha256": "90ceea60f557faf92b7434e4607d813fc9470773d143d6c3e692a64da28272b6",
+      "size": 5693
     },
     {
       "path": "docs/learning-hub/reference/personal_learning_hub_v3.html",
@@ -1301,6 +1301,16 @@
       "path": "docs/learning-hub/runs/2026-10-12/checkpoint-review.json",
       "sha256": "95170c359a131ff86ef308039a89745c49e05b841415782d2bea68f06d5a68f8",
       "size": 755
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-12/preserved-provider-wip.json",
+      "sha256": "75a5b2816a41560f5fe6a758c183e255b358f02fe374eb3643e62ed222456741",
+      "size": 3181
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-12/separation-qa.json",
+      "sha256": "ee83d9149314a7a6f37ca69d8b3b0f556148d4dadc50dd28d9692c5bd619c6af",
+      "size": 1136
     },
     {
       "path": "docs/learning-hub/task_graph.json",
