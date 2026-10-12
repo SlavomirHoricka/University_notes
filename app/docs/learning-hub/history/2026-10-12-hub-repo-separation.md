@@ -1,6 +1,6 @@
 # App audit and repository separation
 
-Status: in_progress
+Status: ready_for_merge
 
 ## Scope and checkout
 
@@ -32,7 +32,7 @@ Checkpoint status: ready_for_merge. Independent Astra/high reviewer rechecked e8
 
 ## Package separation phase
 
-Verified PR #9 merged at 4272b77d3b9aa4080116b4ba022b82bd7864ba2f; primary main fast-forwarded cleanly. Second branch: codex/hub-app-package, based on that merged checkpoint, same dedicated worktree. Engineering paths/history moved to app/; curated canonical workflow sources and generated package copied as an explicitly maintained fork. Academic notes/materials/records and original canonical workflow sources remain byte-identical. Copied academic dispatch blocked until explicit runtime data-root bridge; no new repository or global registrations changed. Separation status: in_progress.
+Verified PR #9 merged at 4272b77d3b9aa4080116b4ba022b82bd7864ba2f; primary main fast-forwarded cleanly. Second branch: codex/hub-app-package, based on that merged checkpoint, same dedicated worktree. Engineering paths/history moved to app/; curated canonical workflow sources and generated package copied as an explicitly maintained fork. Academic notes/materials/records and original canonical workflow sources remain byte-identical. Copied academic dispatch blocked until explicit runtime data-root bridge; no new repository or global registrations changed. Separation status: ready_for_merge.
 
 ## Standalone verification
 
@@ -45,3 +45,7 @@ Original vault issue identities exactly unchanged after restoring navigation stu
 Standalone app QA results and independent separation review recorded next. Future migration step is creating a new repository from app export and revising app-native data/owner contracts; current scope does not move/import course content or enable copied legacy workflows.
 
 Standalone hub_qa (native Sol/high) passed 134 backend cases, 24 UI cases and one actual Chromium/loopback smoke; static/schema checks, wheel/sdist, Vite build and diagnostic pass. Initial sandbox denied port bind; permitted escalated retry passed. No services retained. The source package is independently runnable/buildable as today's incomplete shell; copied workflows remain gated. A hash inventory preserves the identity/location of 14 excluded unfinished provider files for later transfer. No notes, evidence or secrets were added.
+
+## Final separation integration gate
+
+Status: ready_for_merge. PR: https://github.com/SlavomirHoricka/University_notes/pull/10. Independent Astra/high reviewer inspected caeca6f against4272b77, including full source/manifest/workflow closure and14WIP hashes: no material findings. Final additional changes only record this review/PR handoff and refresh manifest; no application/tool source changes. No release claim. Primary synchronization and task-only cleanup follow actual confirmed merge, not a predicted result. Existing role branches/worktrees and provider WIP must remain. Reproducible ignored dependencies/build/test outputs in this task worktree need no migration; standalone QA screenshots/logs remain in /private/tmp for inspection.

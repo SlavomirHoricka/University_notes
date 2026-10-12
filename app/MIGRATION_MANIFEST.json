@@ -1249,8 +1249,8 @@
     },
     {
       "path": "docs/learning-hub/history/2026-10-12-hub-repo-separation.md",
-      "sha256": "90ceea60f557faf92b7434e4607d813fc9470773d143d6c3e692a64da28272b6",
-      "size": 5693
+      "sha256": "e5d6194fb37b215427afad70371ffe4add88404e500549bd8281a737ed223533",
+      "size": 6447
     },
     {
       "path": "docs/learning-hub/reference/personal_learning_hub_v3.html",
@@ -1311,6 +1311,11 @@
       "path": "docs/learning-hub/runs/2026-10-12/separation-qa.json",
       "sha256": "ee83d9149314a7a6f37ca69d8b3b0f556148d4dadc50dd28d9692c5bd619c6af",
       "size": 1136
+    },
+    {
+      "path": "docs/learning-hub/runs/2026-10-12/separation-review.json",
+      "sha256": "9e7bfd6431864db27fed5842274217a439d54d71a471ebe5fd3bb1343120a447",
+      "size": 911
     },
     {
       "path": "docs/learning-hub/task_graph.json",
