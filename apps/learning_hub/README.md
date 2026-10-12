@@ -1,6 +1,6 @@
 # Uni Learning Hub
 
-H00 development scaffold: a loopback health API and an empty React shell. Course publication, provider access, learner evidence and the detached manual launcher are not available yet. Health reports `ready: false` with `reason: scaffold_only`.
+Partial engineering checkpoint: a loopback health API, typed SQLite/domain foundation, private provider-state storage, and a responsive course/materials React shell. Course data and save authorization are not connected to production handlers yet. Course publication, provider access, learner evidence and the detached manual launcher are not available yet. Health reports `ready: false` with `reason: scaffold_only`.
 
 ## Locked development install
 
