@@ -25,3 +25,7 @@ Primary vault baseline: four missing links and two missing anchors, unrelated to
 Next: QA smoke repair, complete checkpoint checks/review, merge checkpoint, then package and independently verify separation in a temporary standalone checkout. PR references and final results added at milestones.
 
 Checkpoint checks: locked install; Ruff/format; mypy (72 sources); 10 unit + 76 contract + 48 integration Python cases; 24 frontend cases; ESLint/typecheck; schema drift; backend wheel/sdist and Vite build; diagnostic all passed. QA real Chromium/loopback smoke passed (one case). Plan validator passed using installed Python3.12 (system Python lacks tomllib); canonical package check passed. Vault before/after byte-identical. Final exact-commit recheck requested next.
+
+## Checkpoint integration gate
+
+Checkpoint status: ready_for_merge. Independent Astra/high reviewer rechecked e80d135; no material findings, original smoke issue resolved. App bytes unchanged after tests/review; additional commit records only review metadata and PR handoff. PR URL will be inserted before merge. Separation remains in_progress and follows checkpoint integration.
