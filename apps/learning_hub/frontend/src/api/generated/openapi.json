@@ -2455,7 +2455,18 @@
               "LOCAL_RATE_LIMIT",
               "STORAGE_BUSY",
               "OWNER_BRIDGE_UNAVAILABLE",
-              "SERVICE_STOPPING"
+              "SERVICE_STOPPING",
+              "PROVIDER_AUTH_REQUIRED",
+              "PROVIDER_MISSING_GRANT",
+              "PROVIDER_INELIGIBLE",
+              "PROVIDER_USAGE_LIMIT",
+              "PROVIDER_TRANSIENT",
+              "PROVIDER_INVALID_INPUT",
+              "PROVIDER_PROTOCOL_ERROR",
+              "PROVIDER_UNKNOWN_OUTCOME",
+              "PROVIDER_REVISION_CONFLICT",
+              "PROVIDER_STORAGE_FAILURE",
+              "PROVIDER_VERSION_UNSUPPORTED"
             ],
             "title": "Code",
             "type": "string"
