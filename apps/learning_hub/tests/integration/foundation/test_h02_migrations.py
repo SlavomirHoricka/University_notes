@@ -254,7 +254,7 @@ def test_each_prior_version_upgrades_with_exact_rows_and_restorable_wal_backup(
             tuple(tuple(row) for row in db.execute("SELECT * FROM responses")) if prior >= 2 else ()
         )
         backup = tmp_path / "backups" / "before.sqlite3"
-        assert migrate(db, backup_path=backup) == 5
+        assert migrate(db, target=5, backup_path=backup) == 5
         assert tuple(tuple(row) for row in db.execute("SELECT * FROM bundles")) == before
         if prior >= 2:
             assert tuple(tuple(row) for row in db.execute("SELECT * FROM responses")) == responses
@@ -277,8 +277,8 @@ def test_each_prior_version_upgrades_with_exact_rows_and_restorable_wal_backup(
 
 def test_empty_database_versions_checksums_and_settings(tmp_path: Path) -> None:
     with connect_database(tmp_path / "empty.sqlite3") as db:
-        assert migrate(db) == 5
-        assert migrate(db) == 5
+        assert migrate(db, target=5) == 5
+        assert migrate(db, target=5) == 5
         assert db.execute("PRAGMA foreign_keys").fetchone()[0] == 1
         assert db.execute("PRAGMA journal_mode").fetchone()[0] == "wal"
         assert db.execute("PRAGMA synchronous").fetchone()[0] == 2
@@ -301,7 +301,12 @@ def test_checksum_unknown_schema_and_unversioned_database_fail_closed(tmp_path: 
         with pytest.raises(MigrationError, match="checksum"):
             migrate(db, migrations=altered)
         insert(
-            db, "schema_migrations", version=6, name="future.sql", checksum=HASH, applied_at=STAMP
+            db,
+            "schema_migrations",
+            version=len(known) + 1,
+            name="future.sql",
+            checksum=HASH,
+            applied_at=STAMP,
         )
         with pytest.raises(MigrationError, match="Unknown newer"):
             migrate(db)
@@ -330,7 +335,7 @@ def test_upgrade_requires_backup_and_rollback_preserves_prior_schema(tmp_path: P
             "SELECT name FROM sqlite_master WHERE name='partial_write'"
         ).fetchall()
         assert db.execute("SELECT count(*) FROM courses").fetchone()[0] == 1
-        assert migrate(db, backup_path=tmp_path / "retry.sqlite3") == 5
+        assert migrate(db, target=5, backup_path=tmp_path / "retry.sqlite3") == 5
         with pytest.raises(MigrationError, match="Downgrade"):
             migrate(db, target=4)
 
