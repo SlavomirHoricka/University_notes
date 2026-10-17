@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "package_version": "0.5.2",
+  "package_version": "0.5.3",
   "source_root": "03_Agents",
   "files": {
     "LEARNING_ARCHITECTURE.md": {
       "source": "LEARNING_ARCHITECTURE.md",
-      "sha256": "8774b88895f81f975fc9ad5223be5e28d78928344491cf036e9a1fb4353c061f"
+      "sha256": "6f7fa3b56d0bdedc8f2206ac647f0639ced93990b1615e847f209ead325d0433"
     },
     "README.md": {
       "source": "references/PLUGIN_README.md",

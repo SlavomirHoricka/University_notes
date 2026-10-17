@@ -21,9 +21,12 @@ flowchart LR
 
     Blueprint --> Recall["Recall agent<br/>recall skill · lighter model"]
     Log --> Recall
-    Recall -->|schedule proposal| Log
-    Recall -->|actionable reminder| Learner["Learner"]
+    Recall -->|persists schedule and sync state| Schedule["Recall state<br/>03_Agents"]
+    Schedule -->|synchronizes owned review tasks| Todoist["Todoist"]
+    Todoist -->|actionable reminder| Learner["Learner"]
     Learner -->|starts review| Teach
 ```
 
-The planner is the only writer of the learning plan. The teaching agent reads the finished notes and plan, and writes learner evidence to the log. Recall schedules reviews and reminders; only an observed teaching or review session can add learning outcomes. Skill selection follows the request; model selection is a separate host setting.
+The current editable swimlane drawing is [[Excalidraw/University_Assistant_Workflow_Swimlanes.excalidraw|University Assistant workflow]]. The older source drawing above is retained as history.
+
+The planner is the only writer of the learning plan. The teaching agent reads the finished notes and plan, and writes learner evidence to the log. Recall writes schedules to its own state and synchronizes review tasks; only teach records observed learning outcomes in the log. Skill selection follows the request; model selection is a separate host setting.
