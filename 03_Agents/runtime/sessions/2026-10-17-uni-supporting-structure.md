@@ -1,6 +1,6 @@
 # University Assistant supporting-document structure
 
-- Status: ready_for_merge
+- Status: merged
 - Objective: apply the human-approved presentation structure to15 supporting references/templates, preserving meaning strictly, all JSON/code examples, metadata order, compatibility redirects and linked headings. Recall JSON remains byte-identical. No course sources, notes, actual curricula, evidence or scheduling state is changed.
 - Branch: `codex/uni-supporting-structure`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/uni-supporting-structure/University_notes`
@@ -8,7 +8,7 @@
 - Scope:14 formatted Markdown files plus unchanged `recall/templates/recall_state.json` as a preservation control; generated distribution/inventory and a prepared patch package. No private-plugin upload is part of this repository commit/push/merge request; live release receipt remains0.5.1.
 - Baseline: generated37-source parity0.5.1 passes. Vault audit retained at `/private/tmp/uni-supporting-baseline.json`; compare issue identities/targets after edits.
 - Approved approach: reference sections with purpose/authority, named responsibilities, procedures, exceptions, verification and provenance; templates retain current main headings and first fenced metadata JSON, with smaller authoring subsections. Long documents get GitHub/Obsidian contents tables. Compatibility redirects remain compact. Bibliographic citations and redirect destinations are preserved.
-- Next: apply structure, mechanically verify clause/example/heading preservation, render Markdown, obtain independent instruction/compatibility review, repair/recheck, package/validate, commit/push/PR/merge and clean only this task worktree.
+- Current outcome: reviewed changes merged via PR14; primary synchronized; task branch/worktree removed; prepared0.5.2 archive preserved. Published private plugin remains0.5.1.
 
 ## Final review and validation
 
@@ -27,3 +27,9 @@
 - All14 final Markdown files and unchanged JSON/skill controls retain the exact independently reviewed content; generated distribution and41-file prepared0.5.2 archive validated. No post-review semantic changes.
 - Refetched main remains baseline39752ba; primary is clean/on main. PR head matches implementation, with no reported required checks/review decision. Require final updated PR head/gates before normal merge; verify actual merge commit on remote main.
 - Next: push this documentation handoff, merge after gates, fast-forward clean primary, verify the exact archive remains available, then archive/remove only this clean task worktree and delete its remote/local branch. Published private plugin and release receipt remain0.5.1;0.5.2 is prepared only.
+
+## Confirmed integration and cleanup
+
+- PR14 actually merged at `81c213b133916bc6c369ce6101c658c02a6dab8c`; remote main verified and clean primary fast-forwarded. No source changes followed final review.
+- Exact prepared0.5.2 archive verified in primary after synchronization. Local and remote `codex/uni-supporting-structure` branches deleted. Host archive returned queued; after a fresh clean tracked/untracked/ignored and merged-ancestor check, normal non-forced Git worktree removal completed. No unrelated worktree was touched and no successful host archive snapshot is claimed.
+- Repository task complete. This final maintenance update records actual merge/cleanup facts; it does not modify reviewed references/templates, package bytes, skill bodies, JSON, course records or the published0.5.1 release receipt. No external plugin upload or live host activation is claimed.
