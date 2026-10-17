@@ -8,7 +8,7 @@
 - Scope:14 formatted Markdown files plus unchanged `recall/templates/recall_state.json` as a preservation control; generated distribution/inventory and a prepared patch package. No private-plugin upload is part of this repository commit/push/merge request; live release receipt remains0.5.1.
 - Baseline: generated37-source parity0.5.1 passes. Vault audit retained at `/private/tmp/uni-supporting-baseline.json`; compare issue identities/targets after edits.
 - Approved approach: reference sections with purpose/authority, named responsibilities, procedures, exceptions, verification and provenance; templates retain current main headings and first fenced metadata JSON, with smaller authoring subsections. Long documents get GitHub/Obsidian contents tables. Compatibility redirects remain compact. Bibliographic citations and redirect destinations are preserved.
-- Current outcome: reviewed changes merged via PR14; primary synchronized; task branch/worktree removed; prepared0.5.2 archive preserved. Published private plugin remains0.5.1.
+- Current outcome: reviewed changes merged via PR14; primary synchronized; task branch/worktree removed; exact0.5.2 archive preserved. After a later explicit human upload request, private0.5.2 publication and all41 readbacks are verified; live host activation remains unverified.
 
 ## Final review and validation
 
@@ -33,3 +33,10 @@
 - PR14 actually merged at `81c213b133916bc6c369ce6101c658c02a6dab8c`; remote main verified and clean primary fast-forwarded. No source changes followed final review.
 - Exact prepared0.5.2 archive verified in primary after synchronization. Local and remote `codex/uni-supporting-structure` branches deleted. Host archive returned queued; after a fresh clean tracked/untracked/ignored and merged-ancestor check, normal non-forced Git worktree removal completed. No unrelated worktree was touched and no successful host archive snapshot is claimed.
 - Repository task complete. This final maintenance update records actual merge/cleanup facts; it does not modify reviewed references/templates, package bytes, skill bodies, JSON, course records or the published0.5.1 release receipt. No external plugin upload or live host activation is claimed.
+
+## Authorized0.5.2 publication
+
+- Human explicitly requested uploading the prepared0.5.2 archive to the existing private University Assistant plugin and verifying the update. The195015-byte archive remained hash-identical: `ad6dc0dc73902aab9282bcd2e4c48845a37067ca8e3b8292b824bd867c94510b`.
+- Inspected the existing41-file USER/PRIVATE0.5.1 inventory and all41 files; matched the stored0.5.1 archive before upload. Guarded update against `pluginrel_6ad3d02b7f208191a566df1cdf1cde7b` succeeded. New0.5.2 release: `pluginrel_6ad3d8cc324881919c81fe756c937a82`.
+- Read back all41 inventory entries/files from that exact release:40 byte-identical to the candidate package, compatibility manifest JSON-equivalent. All paths, name, identity, private audience, prompts/assets, four skill bodies and agent configurations preserved. No deletion or additional external mutation.
+- Release receipt updated separately from immutable archive/source bytes. Observed cache and current chat metadata remain0.4.0; backend publication is verified, live reload/teaching/native Obsidian execution are not claimed. No cache/global settings were edited. No task worktree or branch was recreated; only the release receipt and this session record changed.

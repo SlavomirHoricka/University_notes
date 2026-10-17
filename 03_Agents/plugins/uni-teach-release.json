@@ -2,16 +2,16 @@
   "plugin_id": "plugins_6ac1489d78a0819184b4e8340d8c61cd",
   "name": "uni-teach",
   "description": "Course-note ingestion, planning, tutoring, and spaced recall for the Uni Obsidian vault.",
-  "version": "0.5.1",
-  "current_release_id": "pluginrel_6ad3d02b7f208191a566df1cdf1cde7b",
+  "version": "0.5.2",
+  "current_release_id": "pluginrel_6ad3d8cc324881919c81fe756c937a82",
   "scope": "USER",
   "discoverability": "PRIVATE",
   "plugin_url": "https://chatgpt.com/plugins/plugins_6ac1489d78a0819184b4e8340d8c61cd",
   "display_name": "University Assistant",
-  "previous_release_id": "pluginrel_6ad3c797f42881918a7159e6b8bd014a",
-  "archive": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach-0.5.1.zip",
+  "previous_release_id": "pluginrel_6ad3d02b7f208191a566df1cdf1cde7b",
+  "archive": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach-0.5.2.zip",
   "archive_kind": "full-package",
-  "archive_sha256": "950c06553e6de7391090e6542b862f632595f4974e36fe96a6e2a8376509b68b",
+  "archive_sha256": "ad6dc0dc73902aab9282bcd2e4c48845a37067ca8e3b8292b824bd867c94510b",
   "canonical_skill_sources": {
     "ingest": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/ingest",
     "plan": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plan",
@@ -20,15 +20,15 @@
   },
   "packaging_source": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach",
   "published_on": "2026-10-17",
-  "verification": "After explicit human authorization, guarded update of existing USER/PRIVATE University Assistant identity to0.5.1 succeeded. Complete41-file inventory and all41 files read back:40 byte-identical, compatibility manifest JSON-equivalent. All prior files, four skills, identity, audience, presentation/default prompts/assets and model defaults preserved. Independent final instruction and supporting-change review: no remaining material findings. Maintenance22 and recall35 tests pass;37-source parity and41-file archive verified; vault issue identities unchanged. No course content, actual curricula, learner evidence or scheduling state changed. PR13 merged at4831c25484b78a68f9b22147a44527cb98ad1165.",
+  "verification": "After explicit human authorization, guarded update of the existing USER/PRIVATE University Assistant identity from0.5.1 to0.5.2 succeeded. Complete41-file inventory and all41 files read back:40 byte-identical, compatibility manifest JSON-equivalent. All prior paths, four skill bodies, identity, private audience, presentation/default prompts/assets and role configurations preserved. Supporting-document review: no remaining material findings;1237 original clauses/table cells, six byte-identical ordered JSON examples and compatibility controls verified. Maintenance22 and recall35 tests pass;37-source parity and41-entry archive verified; vault issue identities unchanged. PR14 merged at81c213b133916bc6c369ce6101c658c02a6dab8c. No course content, actual curricula, learner evidence or scheduling state changed.",
   "observed_cache_versions": [
     "0.4.0"
   ],
   "current_chat_loaded_skill_snapshot": "0.4.0",
   "host_activation_verified": false,
-  "activation_limitation": "Backend0.5.1 publication and all41 file readbacks verified. Current chat skill metadata and observed installation cache retain0.4.0. Refresh the existing plugin and start a new chat to load0.5.1. No cache/global configuration edits; host activation, native Obsidian clicks and real learner execution are not claimed.",
-  "packaging_validation_limitation": "Canonical/generated parity37 sources, configuration tests and archive preservation verified. Skill quick_validate.py could not run without PyYAML; Ruby YAML independently parsed all four frontmatters and checked required string fields/description lengths. Marked/Chromium structural renders and independent instruction/fictional-case review passed. No claim of live learner or native Obsidian testing.",
+  "activation_limitation": "Backend0.5.2 publication and all41 file readbacks verified. Current chat metadata and observed installation cache retain0.4.0. Refresh the existing plugin and start a new chat to load0.5.2. No cache/global configuration edits; host activation, native Obsidian clicks and real learner execution are not claimed.",
+  "packaging_validation_limitation": "Canonical/generated parity37 sources,41 archive entries, original JSON/marker/heading/citation/redirect preservation and independent semantic/compatibility review verified. Marked/Chromium structural renders passed for all14 supporting Markdown files. Four skill bodies and recall JSON unchanged. No native Obsidian UI or live learner execution is claimed.",
   "installed_cache_verified": false,
   "verified_cache_path": null,
-  "publication_worktree_archive": "/Users/slavomirhoricka/.codex/worktrees/uni-skill-structure/University_notes/03_Agents/plugins/uni-teach-0.5.1.zip"
+  "publication_worktree_archive": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach-0.5.2.zip"
 }
