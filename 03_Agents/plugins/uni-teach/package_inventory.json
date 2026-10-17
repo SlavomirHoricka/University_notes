@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "package_version": "0.5.0",
+  "package_version": "0.5.1",
   "source_root": "03_Agents",
   "files": {
     "LEARNING_ARCHITECTURE.md": {
@@ -89,11 +89,11 @@
     },
     "skills/ingest/SKILL.md": {
       "source": "ingest/SKILL.md",
-      "sha256": "6020013002728d2caeb6b2f03ea5049467154f8f159d64dd8b09ec7adf63ef71"
+      "sha256": "d1b13309c14483976aca1a998ba4646914702d3d286c082b9566568155afb119"
     },
     "skills/plan/SKILL.md": {
       "source": "plan/SKILL.md",
-      "sha256": "ef064a5035e7db903908cc7456ad677fe9f35f343d9a2cf4d91a8c6c92aff744"
+      "sha256": "018992c8c7d78743f3ed029771521c1b5626e36eb2ac509ce3a17a10fd120c6d"
     },
     "skills/plan/templates/learning_plan.md": {
       "source": "plan/templates/learning_plan.md",
@@ -109,7 +109,7 @@
     },
     "skills/recall/SKILL.md": {
       "source": "recall/SKILL.md",
-      "sha256": "9851beed763bffcb4ee699d5d8a633d5d949becfbd1f6835d9da2d8d82227875"
+      "sha256": "4fd2a0ad3e4aa4ad3cda2bb08cb3b0b69e04010d5ebe56ceed8e7703a7f0291c"
     },
     "skills/recall/references/TODOIST_HARNESS.md": {
       "source": "recall/references/TODOIST_HARNESS.md",
@@ -129,7 +129,7 @@
     },
     "skills/teach/SKILL.md": {
       "source": "teach/SKILL.md",
-      "sha256": "118073d18aac08f17af813d9c41d6f8e27be52d0971ef7a5b3704742549d01e4"
+      "sha256": "4a0c5f6e125e9edc4ca21e9533c326d533f6d875c5203362638d4e11d503018c"
     },
     "skills/teach/references/RECORDS.md": {
       "source": "teach/references/RECORDS.md",

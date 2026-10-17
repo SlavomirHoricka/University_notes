@@ -49,7 +49,9 @@ class RoutingContractTests(unittest.TestCase):
                 self.assertEqual(source.read_bytes(),(AGENTS/'plugins/uni-teach/agents'/source.name).read_bytes())
         for skill in ('ingest','plan','teach','recall'):
             text=(AGENTS/skill/'SKILL.md').read_text()
-            self.assertIn('MODEL_ROUTING.md',text)
+            # Self-contained skills embed routing; they must preserve owner/helper dispatch guards.
+            self.assertIn('delegated_owner: <profile>',text)
+            self.assertIn('helper_role',text)
             self.assertIn(f'uni_{skill}_owner',text)
             self.assertNotIn('this skill does not switch it',text)
 
