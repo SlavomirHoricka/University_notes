@@ -1,6 +1,6 @@
 # Repository navigation and reference audit
 
-- Status: ready_for_merge
+- Status: merged
 - Objective: audit local links and paths, organize agent support files, remove retired product guidance, then update the main documentation from verified structure.
 - Branch: `codex/repository-navigation-audit`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/8479/University_notes`
@@ -27,3 +27,9 @@
 - GitHub inspection: implementation head matches the validated commit; mergeable/CLEAN; no status checks or required review decision reported. Refetched main remains the original base. Primary checkout inspected clean/on main. Local checker output matches the committed final evidence exactly.
 - Status: ready_for_merge. This handoff changes only this session record; the reviewed maintenance content, protected bytes, generated package and archive are unchanged.
 - Next: push this handoff, verify the final PR head and gates, merge normally and confirm actual remote merge evidence. Fast-forward the primary only if still clean/on main; preserve both ZIPs/audit records, then archive/remove only this clean task worktree and delete its task branches. No merge/cleanup success is predicted here.
+
+## Confirmed integration and scoped follow-up
+
+- PR15 actually merged at `82833a50c3e4d06cf8676373aea0a6f8faa0a359`; remote main verified and clean primary fast-forwarded. Both current ZIPs and audit evidence are preserved. No plugin publication occurred.
+- The human subsequently authorized repair of the six previously protected note-reference issues. That separate scoped ingestion pass uses a fresh worktree/branch and its own session, `2026-10-17-statistics-reference-repairs.md`; the original maintenance audit remains an accurate dated snapshot.
+- Local/remote maintenance branches deleted after merge/clean/preservation checks. The host refused to archive this chat's primary checkout; it is retained, clean and detached on verified main. No archive snapshot or removal is claimed; no unrelated worktree was changed.

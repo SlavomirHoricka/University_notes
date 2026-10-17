@@ -100,6 +100,6 @@ python3 03_Agents/scripts/sync_plugin.py --check
 
 See the [utility guide](03_Agents/scripts/README.md) for record verification and the [package guide](03_Agents/plugins/README.md) for regeneration and release status. Edit canonical sources; generated packages, project role copies, publication and host activation are separate concerns.
 
-The [local-reference audit](03_Agents/history/2026-10-17-repository-audit/REPORT.md) documents the remaining pre-existing issues in protected notes and absent empty course mirrors. The checker reports structural problems; it does not certify academic correctness or PDF page bounds.
+The [repository audit](03_Agents/history/2026-10-17-repository-audit/REPORT.md) records the structural cleanup. Its six note-reference findings were subsequently repaired with source checks; see the [repair summary](03_Agents/history/2026-10-17-repository-audit/NOTE_REFERENCE_REPAIRS.md). Fresh Git worktrees can still report absent empty course mirrors. The checker reports structural problems; it does not certify academic correctness or PDF page bounds.
 
 The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`. An isolated task uses its own checkout root for all workflow paths. Historical records may retain older paths as dated provenance. Keep original materials, learner evidence, curriculum history and transaction journals intact. Todoist requires its separate connector; no background watcher is installed by this repository.

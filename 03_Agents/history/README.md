@@ -4,7 +4,7 @@ Historical evidence and release artifacts live here. Current instructions are in
 
 | Archive | Contents |
 | --- | --- |
-| [2026-10-17 repository audit](2026-10-17-repository-audit/REPORT.md) | Local-reference findings, preservation checks, file moves and validation results. |
+| [2026-10-17 repository audit](2026-10-17-repository-audit/REPORT.md) | Local-reference findings, preservation checks, file moves and validation results; [subsequent source-checked note repairs](2026-10-17-repository-audit/NOTE_REFERENCE_REPAIRS.md). |
 | [2026-10-03 audit](2026-10-03-audit/REPORT.md) | Earlier structural audit; [migration map](2026-10-03-audit/MIGRATION.md), original snapshots and checks. |
 | [2026-10-02 standardization](2026-10-02-standardization/STANDARDIZATION_REPORT.md) | Original naming/structure review and migration manifest. |
 | [2026-10-02 teaching review](2026-10-02-teaching-review/TEACHING_SKILL_REVIEW.md) | Original review and [review prompt](2026-10-02-teaching-review/TEACHING_SKILL_REVIEW_PROMPT.md). |
