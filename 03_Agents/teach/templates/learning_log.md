@@ -72,7 +72,7 @@ Attempt-result fields:
   "source_version": "<current notes version>",
   "ingestion_revision": null,
   "attempt_id": "<already started attempt>",
-  "item_id": "<prepared item id>",
+  "item_id": "<prepared or prechecked generated item id>",
   "item_version": 1,
   "item_text": "<exact presented prompt>",
   "task_relation": "parallel_variant",
@@ -103,6 +103,10 @@ Production evidence copies the actual integer ingest revision; null is an unread
 An `acquisition_met` event references `evidence_event_ids`, the exact `acquisition_rule` and current objective/criterion tuple. Normally these are two distinct independent passing current-criterion attempts with required item roles. `reassessment_met` references its plan `requirement_id`, current-version qualifying evidence IDs and rule. Neither event is created from confidence, restudy, a reminder or a passed same-item retry.
 
 Other teach-owned types: `session_started`, `session_route`, `attempt_started`, `instruction_or_feedback`, `exposure_reported`, `attempt_abandoned`, `session_paused`, `session_closed`, `plan_issue`, `note_issue`, `correction`. A correction cites `supersedes_event_id`, reason and corrected fields while preserving original. A `session_route`/pause preserves unresolved time deferrals and reason. Scheduler events are prohibited here; recall owns `recall_state.json`.
+
+## Optional generated-item snapshot
+
+For a teach-generated item, persist `item_origin: teach_generated` and the full `item_contract` in `attempt_started` before displaying its prompt. See `references/RECORDS.md` for required snapshot fields and `03_Agents/references/LESSON_CONTENT.md` for permitted scope and evidence use. The result references the same attempt/item/version and definition tuple. `assessment_basis` may document a valid alternative method under unchanged criteria. These optional fields do not migrate old events or grant permission to replace exact named reassessment items.
 
 ## Legacy history
 

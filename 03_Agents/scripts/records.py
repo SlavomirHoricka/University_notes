@@ -85,6 +85,73 @@ def events(text):
             if isinstance(o := json.loads(s), dict) and o.get('event_id')]
 
 
+def check_generated_items(following, prior):
+    """Check frozen generated-item identity; does not grade academic content."""
+    prior_ids = {event['event_id'] for event in prior}
+    starts = {}
+    generated_attempts = {event.get('attempt_id') for event in following
+                          if event.get('event_type') == 'attempt_started' and event.get('item_origin') == 'teach_generated'}
+    generated_items = {(event.get('item_id'), event.get('item_version')) for event in following
+                       if event.get('event_type') == 'attempt_started' and event.get('item_origin') == 'teach_generated'}
+    contracts = {}
+    definition = ('objective_id', 'objective_revision', 'criterion_version',
+                  'plan_version', 'source_version', 'ingestion_revision')
+    for event in following:
+        is_new = event['event_id'] not in prior_ids
+        attempt = event.get('attempt_id')
+        generated = event.get('item_origin') == 'teach_generated'
+        if event.get('event_type') == 'attempt_started':
+            if attempt and attempt in starts and (generated or
+                    starts[attempt].get('item_origin') == 'teach_generated'):
+                raise ValueError('generated attempt identity already started')
+            if generated:
+                contract = event.get('item_contract')
+                if is_new:
+                    if not isinstance(attempt, str) or not attempt or not event.get('item_id') or type(event.get('item_version')) is not int or event['item_version'] < 1:
+                        raise ValueError('generated item needs stable attempt/item/version identity')
+                    if not isinstance(contract, dict):
+                        raise ValueError('generated item needs a frozen item_contract')
+                    for field in ('prompt', 'solution', 'item_role', 'task_relation', 'verification'):
+                        if not isinstance(contract.get(field), str) or not contract[field].strip():
+                            raise ValueError('generated item missing ' + field)
+                    for field in ('component_ids', 'source_basis'):
+                        value = contract.get(field)
+                        if not isinstance(value, list) or not value or any(not isinstance(v, str) or not v.strip() for v in value):
+                            raise ValueError('generated item missing ' + field)
+                    if len(set(contract['component_ids'])) != len(contract['component_ids']):
+                        raise ValueError('generated component identity must be unique')
+                    rubric = contract.get('rubric')
+                    if not isinstance(rubric, dict) or not isinstance(rubric.get('components'), dict) or any(
+                            not isinstance(rubric['components'].get(c), str) or not rubric['components'][c].strip()
+                            for c in contract['component_ids']) or not isinstance(rubric.get('outcome_rules'), dict) or any(
+                            not isinstance(rubric['outcome_rules'].get(outcome), str) or not rubric['outcome_rules'][outcome].strip()
+                            for outcome in ('pass', 'partial', 'fail', 'unscorable')):
+                        raise ValueError('generated item needs component and outcome rubric rules')
+                    if event.get('item_text') != contract['prompt'] or event.get('task_relation') != contract['task_relation']:
+                        raise ValueError('generated prompt/task relation differs from frozen contract')
+                    if any(event.get(field) is None for field in definition):
+                        raise ValueError('generated item needs the full definition tuple')
+                key = (event.get('item_id'), event.get('item_version'))
+                signature = json.dumps(contract, sort_keys=True)
+                if key in contracts and contracts[key] != signature:
+                    raise ValueError('generated item contract changed under the same item/version')
+                contracts[key] = signature
+            elif is_new and 'item_contract' in event:
+                raise ValueError('item_contract requires teach_generated origin')
+            if attempt:
+                starts[attempt] = event
+        elif event.get('event_type') == 'attempt_result' and is_new:
+            start = starts.get(attempt)
+            if generated or attempt in generated_attempts or (event.get('item_id'), event.get('item_version')) in generated_items:
+                if not start or start.get('item_origin') != 'teach_generated' or start['event_id'] not in prior_ids:
+                    raise ValueError('generated result requires a previously committed start')
+                for field in ('item_id', 'item_version', 'item_text', 'task_relation', *definition):
+                    if json.dumps(event.get(field), sort_keys=True) != json.dumps(start.get(field), sort_keys=True):
+                        raise ValueError('generated result identity differs from frozen start: ' + field)
+                if 'item_contract' in event and event['item_contract'] != start.get('item_contract'):
+                    raise ValueError('generated result cannot change the frozen contract')
+
+
 def check_history(path, new):
     if new.startswith('<!-- uni-teach-log:3 -->\n'):
         h = re.search(r'```json\s*\n(.*?)\n```', new, re.S)
@@ -97,6 +164,7 @@ def check_history(path, new):
         raise ValueError('duplicate event id')
     prior = events(path.read_bytes().decode('utf-8')) if path.exists() else []
     prior_ids = {o['event_id'] for o in prior}
+    check_generated_items(following, prior)
     allowed_events = {'session_started', 'session_route', 'session_paused', 'session_closed',
                       'attempt_started', 'attempt_result', 'attempt_abandoned', 'instruction_or_feedback',
                       'exposure_reported', 'acquisition_met', 'reassessment_met', 'plan_issue',

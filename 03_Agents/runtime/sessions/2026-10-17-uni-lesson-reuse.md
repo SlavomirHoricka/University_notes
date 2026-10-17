@@ -1,0 +1,34 @@
+# University Assistant self-contained lesson reuse
+
+- Status: ready_for_merge
+- Objective: implement the human-approved ingest/plan/teach boundaries from the completed implementation interview; retain four skills, full ingestion quality and self-contained lessons.
+- Branch: `codex/uni-lesson-reuse`
+- Worktree: `/Users/slavomirhoricka/.codex/worktrees/uni-lesson-reuse/University_notes`
+- Base: freshly fetched `origin/main`, `94351f52cab870aeb4bf12167c2fa8c4a11b91b2` (app removed by prior PR11; app outside scope).
+- Prior work: model routing session `2026-10-10-uni-model-routing.md`, current ingestion index and private release receipt. No course sources, notes, actual curricula or learner evidence are changed; no course transaction is being authored.
+- Scope: canonical skill instructions/templates, shared content contract/architecture/routing, relevant agent profiles, additive generated-item record validation/tests, generated package and guarded private update of existing USER/PRIVATE University Assistant identity. Preserve interface/prompts/assets/audience and existing model defaults.
+- Decisions: embed complete relevant note content with provenance rather than reauthoring it; allow verified plan supplements; plan prepares main assessments; teach can generate prechecked scoped items and assess valid alternatives under fixed criteria. Preserve exact named reassessment gates, old evidence and curriculum history. Existing curricula adopt on substantive revision; successful ingestion triggers scoped sequential reconciliation.
+- Baseline: package parity passed (36 generated files,0.4.0). Vault audit exit1: four missing conceptual targets, two missing anchors, four existing session redirects to removed app, eleven absent empty mirrors. Compare identities/targets after changes; do not fabricate empty course records.
+- Backend observed: `plugins_6ac1489d78a0819184b4e8340d8c61cd`, USER/PRIVATE,0.4.0 at `pluginrel_6aca8f6ed03c8191895f46a6462cd80c`. Complete40-file inventory read; guarded release/readback pending. No cache edits.
+- Next: finish record safeguards, regenerate/test, independent workflow review and fictional behavioral rehearsal, fix/recheck, publish/read back, commit/PR/merge and synchronize clean primary; archive only this task worktree after preserving needed artifacts.
+
+## Pre-publication validation
+
+- Independent engineering reviewer `/root/lesson_contract_review`: inspected canonical skills/templates/contracts, agent profiles, repository boundaries and generated-item records code. Found two P2 issues: reverse-order generated result bypass and old ownership rules in AGENTS/methodology. Both repaired; reviewer rechecked final content with no material findings. This is instruction/configuration review, not a claim of source/curriculum review for unchanged academic artifacts.
+- Independent behavioral evaluator `/root/lesson_behavior_rehearsal`: fictional equal-contribution fixture; produced a full reused derivation/self-contained lesson, prepared keyed exercises and an answer-free generated prompt with private frozen snapshot, and assessed an explicitly fictional alternative solution under unchanged criteria. R2 remained blocked, independence/retention unknown, no answer invented for the new item. Artifacts only in `/private/tmp/uni_lesson_rehearsal/`; not production records or model-performance evidence. Structural snapshot validation passed after adding the fixture event writer field; production metadata/persistence intentionally untested.
+- Maintenance22 tests passed; recall35 passed. Generated37-source parity passed; full0.5.0 archive41 files matches package bytes, retaining all40 prior files and four public skills. Root manifest metadata/presentation/default prompts unchanged except version; compatibility interface preserved. All40 backend0.4.0 files matched repository baseline (compatibility manifest compared semantically).
+- Existing owner transactions: five ingestion states and all55 ready indexed lessons verified under current records utility; no course state or evidence changed. Vault issue identities unchanged from baseline; audit remains exit1. `git diff --check` passed. Skill quick_validate.py unavailable because PyYAML is missing; Ruby YAML parser independently parsed all four skill frontmatters and verified required string fields/description lengths.
+- Next: guarded existing private plugin publication/readback, release receipt, commit/PR/merge, clean-primary fast-forward and task cleanup. Live host reload/interactive tutoring remain distinct unverified checks.
+
+## Private release verified
+
+- University Assistant0.5.0 published to existing USER/PRIVATE `plugins_6ac1489d78a0819184b4e8340d8c61cd` at `pluginrel_6ad3c797f42881918a7159e6b8bd014a`, guarded against the observed0.4.0 release. [Plugin](https://chatgpt.com/plugins/plugins_6ac1489d78a0819184b4e8340d8c61cd). All41 files read back:40 byte-identical, compatibility manifest JSON-equivalent. SHA256 `0354af29c21198c254cdd76ed6ccfaca6d7f28422985942d005dd7af532cbb5c`. Prior files, interface/default prompts, assets, model defaults and audience preserved.
+- Observed installation cache/current chat remain0.4.0; backend publication is verified, host reload and a real teaching session are not. Refresh existing plugin/start new chat; never edit installed caches.
+- Refetched origin/main remains base94351f5. Primary clean/on main, behind remote by two prior commits; synchronize only after actual merge and renewed clean check. No other open PRs at inspection.
+- Next: commit only task paths, push/open PR, record ready_for_merge with known PR URL, verify head/CI/protections, merge and verify actual remote state. Preserve worktree if integration blocks.
+
+## Integration handoff — ready_for_merge
+
+- PR: [#12](https://github.com/SlavomirHoricka/University_notes/pull/12), targeting main. Implementation/release receipt commit `6643526`; this handoff adds documentation only and does not change reviewed/published plugin bytes.
+- Validated source/package and actual private release are preserved. No task worktree changes or ignored artifacts remained after the implementation commit. Primary was clean/on main at inspection; recheck before fast-forward.
+- Next: push this handoff, require actual PR head to match the validated implementation plus documentation, inspect CI/review/protection gates, merge by an allowed method and verify merged state/remote main. Then fast-forward clean primary and archive only this managed task worktree/delete its branch. Preserve checkout on any blocker. No merge success is predicted here.

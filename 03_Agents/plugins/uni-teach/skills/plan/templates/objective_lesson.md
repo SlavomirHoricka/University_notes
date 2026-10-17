@@ -1,6 +1,6 @@
 # <Objective title> — lesson template
 
-Plan-owned, teacher-executable block. This template is not a lesson or observed learner evidence. Replace all placeholders before marking ready. Explain omitted categories as not applicable; do not leave key/rubric reasoning to the teaching model.
+Plan-owned, self-contained teacher-executable block following `03_Agents/references/LESSON_CONTENT.md`. This template is not a lesson or observed learner evidence. Replace all placeholders before marking ready. Explain omitted categories as not applicable; do not leave key/rubric reasoning to the teaching model.
 
 ```json
 {
@@ -15,6 +15,7 @@ Plan-owned, teacher-executable block. This template is not a lesson or observed 
   "objective_revision": 1,
   "criterion_version": "O001-C1",
   "status": "ready",
+  "lesson_content_contract": "self-contained-lessons-v1",
   "knowledge_components": ["conceptual", "procedural", "interpretation"],
   "prerequisite_ids": [],
   "compatible_versions": [],
@@ -44,19 +45,19 @@ Numbered small blocks and reasons: motivation; intuition; definitions/notation/a
 
 ## Motivation, intuition, and definitions
 
-Concrete motivating question; intuitive model; definitions; notation with units; assumptions; limits and boundaries. Link fuller note content while supplying the reasoning needed for this lesson.
+Concrete motivating question; intuitive model; definitions; notation with units; assumptions; limits and boundaries. Embed the full relevant existing note explanation with reused/adapted provenance, exact origin and necessary assumptions. Preserve language/notation; map any changes. Supply missing bridges with plan-created provenance and verified citations where needed. No required explanation may be replaced by a locator or short excerpt.
 
 ## Explanation steps
 
-Intermediate reasoning or derivation with each step's justification; result; interpretation; checks and exceptions. Identify what follows from assumptions versus source observations. Do not add externally sourced course claims.
+Reuse the complete relevant derivation and its justifications, result, interpretation, checks and exceptions. Identify adaptations and any plan-created intermediate reasoning. Verify additional claims with authoritative sources and precise citations under `LESSON_CONTENT.md`; distinguish supplementary explanation from assessed scope. Include usable figures, captions/interpretation and checked asset paths. Delivery must not require opening original notes.
 
 ## Worked example
 
-`item_id`/version; setup; conditions; labelled steps; result; interpretation; lesson. Clearly label agent-created hypothetical numbers or context as an instantiation of note-supported reasoning.
+Reuse a suitable full worked example from the notes and record its origin; design a new one only when needed. `item_id`/version; setup; conditions; labelled steps; result; interpretation; lesson. Clearly label agent-created hypothetical numbers or context as an instantiation of note-supported reasoning.
 
 ## Practice with fading assistance
 
-Each task has stable item ID/version, role, exact prompt, allowed help and tools, full key/worked solution, essential rubric components, acceptable alternatives, critical errors and outcome rules. At least a completion task and two distinct independent checks unless a justified alternative is explicitly defined. State which components each tests and assistance fade criteria. Prepared variants include their exact changed inputs and keys; no “make up a similar question.”
+Each task has stable item ID/version, role, exact prompt, allowed help and tools, full key/worked solution, essential rubric components, acceptable alternatives, critical errors and outcome rules. At least a completion task and two distinct independent checks unless a justified alternative is explicitly defined. State which components each tests and assistance fade criteria. Prepared variants include their exact changed inputs and keys; do not leave the main exercise bank or keys to teach. Declare permitted generated-item roles/component coverage under `LESSON_CONTENT.md`; teach may add verified items within those bounds, freezing the key/criteria before presentation.
 
 ## Rubric and independence
 
@@ -64,7 +65,7 @@ Cross-task essential components; acceptable notation/methods; critical conceptua
 
 ## Misconceptions and correction
 
-For each likely misconception: diagnostic sign; tentative versus established interpretation; specific corrective explanation; hint 1/2 if used; fresh follow-up task + complete key/rubric. Score the initial response before help. After two ineffective hints show the necessary step or pause; after repeated unsuccessful independent attempts stop quizzing and use the prepared repair route.
+For each likely misconception: diagnostic sign; tentative versus established interpretation; route to an included explanation/prepared prerequisite lesson; optional prepared hints, with teach free to phrase responsive feedback; fresh follow-up task + complete key/rubric. Score the initial response before help. After two ineffective hints show the necessary step or pause; after repeated unsuccessful independent attempts stop quizzing and use the prepared repair route.
 
 ## Immediate and delayed checks
 
@@ -72,7 +73,11 @@ Distinct prepared immediate versus delayed items, minimum elapsed condition and 
 
 ## Advance, revisit, pause, and escalate
 
-Rules for advancing after qualifying acquisition evidence; delayed review after a real interval; returning to named prerequisite; closing a session without claiming completion; blocked source; unsupported answer alternative/ambiguous rubric or exhausted prepared variants -> `plan_issue`. Exact course/version/objective/item information and responsible recipient.
+Rules for advancing after qualifying acquisition evidence; delayed review after a real interval; returning to named prerequisite; closing a session without claiming completion; blocked source; alternative requiring changed standards/ambiguous rubric or new objective/method -> `plan_issue`. Exhausted variants may use eligible checked generated items; difficult/uncertain cases need stronger assessment support. Valid unlisted methods meeting unchanged criteria may receive credit. Exact course/version/objective/item information and responsible recipient.
+
+## Content provenance and generation boundaries
+
+Map each substantive explanation/example/figure to reused, adapted or plan-created origin; exact note locators, fingerprints and adaptation/notation reasons belong in the manifest. Cite actually verified authoritative support for additional claims. Mark supplementary explanation versus assessed content. Prerequisite routes point to complete prepared lessons rather than repeating every foundation. Specify generated-item roles, essential component coverage and verification boundaries; preserve exact named reassessment items unless substitution is expressly defined.
 
 ## Answer-free recall handoff
 

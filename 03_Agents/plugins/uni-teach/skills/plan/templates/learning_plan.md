@@ -49,7 +49,7 @@ Explain the order in a short paragraph. Identify independent branches and when a
 
 ## Execution and assessment contract
 
-Each indexed lesson follows `03_Agents/plan/templates/objective_lesson.md` with definitions, intermediate reasoning, worked examples, concrete questions/keys, rubrics, misconceptions/correction variants, advancement rules and delayed tasks. No row becomes ready if the tutor must derive an answer key or design an assessment. Ordinary teaching retrieves the index plus one lesson block and relevant note sections.
+Each indexed lesson follows `03_Agents/plan/templates/objective_lesson.md` and `03_Agents/references/LESSON_CONTENT.md`. Embed complete relevant existing explanations/derivations/examples, supply verified additions, and design the main questions/solutions/criteria. Ordinary delivery retrieves the index, one self-contained lesson and its assets/prerequisite lessons, without original notes. No ready row may delegate its main assessment preparation to teach. Bounded checked generated items and valid alternative methods remain permitted under unchanged standards. A topic/week is prepared completely; a whole-course route may be partial with explicit unprepared units. Preserve existing curricula until substantive revision and reconcile ingestion changes through the normal freshness gates.
 
 ## Revisions and evidence compatibility
 
