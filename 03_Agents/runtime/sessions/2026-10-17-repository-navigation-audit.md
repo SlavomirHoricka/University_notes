@@ -1,6 +1,6 @@
 # Repository navigation and reference audit
 
-- Status: in_progress
+- Status: ready_for_merge
 - Objective: audit local links and paths, organize agent support files, remove retired product guidance, then update the main documentation from verified structure.
 - Branch: `codex/repository-navigation-audit`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/8479/University_notes`
@@ -20,3 +20,10 @@
 - Bundled Python: 24 maintenance tests and 35 recall tests pass without skips; generated parity (37 files), prepared archive (41 entries) and whitespace checks pass. Exact published 0.5.2 archive and receipt unchanged. Prepared 0.5.3 is repository-local only; no publication/install/cache edits.
 - Local sandbox required escalation for Git metadata and for the synchronizer's identical generated role writes. Both were approved; no automatic-review rejection occurred.
 - Next: commit explicit task paths, refetch main, open/attach PR; record ready_for_merge with the known URL, confirm final head/gates, merge normally, verify remote main, fast-forward the clean primary and remove only this task's clean worktree/branch. Preserve audit evidence and both current ZIPs.
+
+## Repository integration handoff
+
+- PR: [#15](https://github.com/SlavomirHoricka/University_notes/pull/15), targeting `main`; implementation commit `3cbe38188ab153312313434076347d62f3011938`.
+- GitHub inspection: implementation head matches the validated commit; mergeable/CLEAN; no status checks or required review decision reported. Refetched main remains the original base. Primary checkout inspected clean/on main. Local checker output matches the committed final evidence exactly.
+- Status: ready_for_merge. This handoff changes only this session record; the reviewed maintenance content, protected bytes, generated package and archive are unchanged.
+- Next: push this handoff, verify the final PR head and gates, merge normally and confirm actual remote merge evidence. Fast-forward the primary only if still clean/on main; preserve both ZIPs/audit records, then archive/remove only this clean task worktree and delete its task branches. No merge/cleanup success is predicted here.
