@@ -2,16 +2,16 @@
   "plugin_id": "plugins_6ac1489d78a0819184b4e8340d8c61cd",
   "name": "uni-teach",
   "description": "Course-note ingestion, planning, tutoring, and spaced recall for the Uni Obsidian vault.",
-  "version": "0.5.0",
-  "current_release_id": "pluginrel_6ad3c797f42881918a7159e6b8bd014a",
+  "version": "0.5.1",
+  "current_release_id": "pluginrel_6ad3d02b7f208191a566df1cdf1cde7b",
   "scope": "USER",
   "discoverability": "PRIVATE",
   "plugin_url": "https://chatgpt.com/plugins/plugins_6ac1489d78a0819184b4e8340d8c61cd",
   "display_name": "University Assistant",
-  "previous_release_id": "pluginrel_6aca8f6ed03c8191895f46a6462cd80c",
-  "archive": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach-0.5.0.zip",
+  "previous_release_id": "pluginrel_6ad3c797f42881918a7159e6b8bd014a",
+  "archive": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach-0.5.1.zip",
   "archive_kind": "full-package",
-  "archive_sha256": "0354af29c21198c254cdd76ed6ccfaca6d7f28422985942d005dd7af532cbb5c",
+  "archive_sha256": "950c06553e6de7391090e6542b862f632595f4974e36fe96a6e2a8376509b68b",
   "canonical_skill_sources": {
     "ingest": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/ingest",
     "plan": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plan",
@@ -20,15 +20,15 @@
   },
   "packaging_source": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach",
   "published_on": "2026-10-17",
-  "verification": "Guarded update of the existing USER/PRIVATE University Assistant identity to 0.5.0 succeeded. All41 published files read back:40 byte-identical, compatibility manifest JSON-equivalent. Prior40 files, four skills, identity, audience, presentation/default prompts/assets and existing model defaults preserved. Independent final engineering review: no material findings after two repairs; independent fictional behavioral rehearsal completed. Maintenance22 and recall35 tests pass; five ingest and55 ready lesson transactions verify; vault issue identities unchanged. No academic notes, actual curriculum or learner evidence changed.",
+  "verification": "After explicit human authorization, guarded update of existing USER/PRIVATE University Assistant identity to0.5.1 succeeded. Complete41-file inventory and all41 files read back:40 byte-identical, compatibility manifest JSON-equivalent. All prior files, four skills, identity, audience, presentation/default prompts/assets and model defaults preserved. Independent final instruction and supporting-change review: no remaining material findings. Maintenance22 and recall35 tests pass;37-source parity and41-file archive verified; vault issue identities unchanged. No course content, actual curricula, learner evidence or scheduling state changed. PR13 merged at4831c25484b78a68f9b22147a44527cb98ad1165.",
   "observed_cache_versions": [
     "0.4.0"
   ],
   "current_chat_loaded_skill_snapshot": "0.4.0",
   "host_activation_verified": false,
-  "activation_limitation": "Backend0.5.0 publication and all41 file readbacks verified. This chat and observed installation cache retain0.4.0. Refresh the existing plugin and start a new chat to load0.5.0. No cache/global configuration edits. Fictional behavioral rehearsal is not a live learner session or proof of native model-role activation.",
-  "packaging_validation_limitation": "Canonical/generated parity37 sources, configuration tests and archive preservation verified. Skill quick_validate.py could not run without PyYAML; Ruby YAML independently parsed all four frontmatters and checked required string fields/description lengths. Independent fictional snapshot structural validation does not establish production persistence or learner outcomes.",
+  "activation_limitation": "Backend0.5.1 publication and all41 file readbacks verified. Current chat skill metadata and observed installation cache retain0.4.0. Refresh the existing plugin and start a new chat to load0.5.1. No cache/global configuration edits; host activation, native Obsidian clicks and real learner execution are not claimed.",
+  "packaging_validation_limitation": "Canonical/generated parity37 sources, configuration tests and archive preservation verified. Skill quick_validate.py could not run without PyYAML; Ruby YAML independently parsed all four frontmatters and checked required string fields/description lengths. Marked/Chromium structural renders and independent instruction/fictional-case review passed. No claim of live learner or native Obsidian testing.",
   "installed_cache_verified": false,
   "verified_cache_path": null,
-  "publication_worktree_archive": "/Users/slavomirhoricka/.codex/worktrees/uni-lesson-reuse/University_notes/03_Agents/plugins/uni-teach-0.5.0.zip"
+  "publication_worktree_archive": "/Users/slavomirhoricka/.codex/worktrees/uni-skill-structure/University_notes/03_Agents/plugins/uni-teach-0.5.1.zip"
 }
