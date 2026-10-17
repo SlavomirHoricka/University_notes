@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "package_version": "0.5.1",
+  "package_version": "0.5.2",
   "source_root": "03_Agents",
   "files": {
     "LEARNING_ARCHITECTURE.md": {
       "source": "LEARNING_ARCHITECTURE.md",
-      "sha256": "4823a734343f58de558b0c5cbc51cea981851de7b9e5a8061a7aa0f805372ecc"
+      "sha256": "8774b88895f81f975fc9ad5223be5e28d78928344491cf036e9a1fb4353c061f"
     },
     "README.md": {
       "source": "references/PLUGIN_README.md",
-      "sha256": "61e048c38a4ba033778f036844692de9de72e2bd2586bd5db1cfa4cbb182dac9"
+      "sha256": "0be61a56780d3b45e44491d0c826fbeda1002a3bb235405d697b941db510e18d"
     },
     "agents/uni_curriculum_checker.toml": {
       "source": "agents/uni_curriculum_checker.toml",
@@ -69,15 +69,15 @@
     },
     "references/LEARNING_METHODS.md": {
       "source": "references/LEARNING_METHODS.md",
-      "sha256": "3946d57066d97e307ee345627022db80dfad354e8ed82bc23ef2c2e54d608d24"
+      "sha256": "70629e4b4360ffedc7c0368df82396c1f2f94199ceced4e994c40d2d1c1058ef"
     },
     "references/LESSON_CONTENT.md": {
       "source": "references/LESSON_CONTENT.md",
-      "sha256": "a6b0642c74141c244d2daa40d6d5de522a11479c3f54cd1327befbb2ebd3be9e"
+      "sha256": "1e0109f323abaa0edf970f82feee208b1cc5a25b3ba434673a48025569a97530"
     },
     "references/MODEL_ROUTING.md": {
       "source": "references/MODEL_ROUTING.md",
-      "sha256": "084e1c8719db8a31c7f7281432e02789f897b450656a466d7588a1234ad084d8"
+      "sha256": "3c64e1ce909b4541cf76c36aa22ca293d5b439362472e5f5c9bea83bab64c0e1"
     },
     "scripts/records.py": {
       "source": "scripts/records.py",
@@ -97,15 +97,15 @@
     },
     "skills/plan/templates/learning_plan.md": {
       "source": "plan/templates/learning_plan.md",
-      "sha256": "4fa295418746108aed9314904345b56c405d525044e9995c97aff1f06ca40f32"
+      "sha256": "befdd48533a5d24dae6b3e0ae2f286d6fe11fea0d3fd07404153e83a07f53cbb"
     },
     "skills/plan/templates/objective_lesson.md": {
       "source": "plan/templates/objective_lesson.md",
-      "sha256": "93ef274aad805811b50d4287aa3eb1c55401c6eba0ba2d8de4285228349f0a55"
+      "sha256": "400befa39214fb410a49e6a9b25b766bc2515ef274630d84dc6eff4b341d5ad1"
     },
     "skills/plan/templates/source_manifest.md": {
       "source": "plan/templates/source_manifest.md",
-      "sha256": "3347c06c3b5a2cf04c7d140e079f57d47fa1bec9fcb457ae37f8837faadfe191"
+      "sha256": "f6ef3912eae23a8746829617df8d905bc95f402bdb5230f05a8ab15440eff521"
     },
     "skills/recall/SKILL.md": {
       "source": "recall/SKILL.md",
@@ -113,7 +113,7 @@
     },
     "skills/recall/references/TODOIST_HARNESS.md": {
       "source": "recall/references/TODOIST_HARNESS.md",
-      "sha256": "b027de219baf07c77e9d89a9cbb4b1098f5c8c5cbe37e084d457d9c6fbdf7060"
+      "sha256": "d545b86f189d91490f775c6d952ebd869dd622768c9fee3b369935be94b3ff15"
     },
     "skills/recall/scripts/schedule.py": {
       "source": "recall/scripts/schedule.py",
@@ -133,23 +133,23 @@
     },
     "skills/teach/references/RECORDS.md": {
       "source": "teach/references/RECORDS.md",
-      "sha256": "ce04a1657838ff45d101b144a1195a50b9c2bbaf2f018728e270cb0d070681cc"
+      "sha256": "7a00885b7ec22ea4cc8ba0780d0cca8a8a4daf383e8fe84e0af35b72ab53733b"
     },
     "skills/teach/references/WALKTHROUGH.md": {
       "source": "teach/references/WALKTHROUGH.md",
-      "sha256": "fb5626bf6e47fd96edc43a7e331a8cdb19d5ad3ced7e49c50d617a436a0e8825"
+      "sha256": "02fa11676d03fbfdabc2f1b814f43872b2fd4eb7e22607767a90404b1d01fc3a"
     },
     "skills/teach/templates/learning_log.md": {
       "source": "teach/templates/learning_log.md",
-      "sha256": "39fd0a7f929c027f50657decee7767491aeded5762588e5e3a1f1bfb0e763bae"
+      "sha256": "567d2c102ab2b691828390951e4de0c71e8d16fb489acc4b0675f01b28032423"
     },
     "skills/teach/templates/learning_plan.md": {
       "source": "teach/templates/learning_plan.md",
-      "sha256": "330b409e3130e427b2d83f070432d3b23c6b43e5adf5459109cd7b90535f030d"
+      "sha256": "677bd0ffe089b4c34f2720f5f18457b5b405af11f3b2cba51a141530da6f4d38"
     },
     "skills/teach/templates/source_manifest.md": {
       "source": "teach/templates/source_manifest.md",
-      "sha256": "7de34f220959de29faca998a932463f5270b6a36ed204138e4159bde3b40500b"
+      "sha256": "a63c75258777eb02a668157e8aa8ec529fe4c9ca80999b0d296e488b4e01e263"
     }
   }
 }

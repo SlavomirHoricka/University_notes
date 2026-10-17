@@ -1,10 +1,41 @@
 # University Assistant — master plugin architecture
 
+## Contents
+
+| Section | GitHub | Obsidian |
+|---|---|---|
+| **1. Authority and overview** | [Jump](#1-authority-and-overview) | [Jump](#1.%20Authority%20and%20overview) |
+| Authority and current component map | [Jump](#authority-and-current-component-map) | [Jump](#Authority%20and%20current%20component%20map) |
+| **2. Current workflow and ownership** | [Jump](#2-current-workflow-and-ownership) | [Jump](#2.%20Current%20workflow%20and%20ownership) |
+| Self-contained lessons and reuse | [Jump](#self-contained-lessons-and-reuse) | [Jump](#Self-contained%20lessons%20and%20reuse) |
+| Model roles and execution | [Jump](#model-roles-and-execution) | [Jump](#Model%20roles%20and%20execution) |
+| Existing skill responsibility and ownership matrix | [Jump](#existing-skill-responsibility-and-ownership-matrix) | [Jump](#Existing%20skill%20responsibility%20and%20ownership%20matrix) |
+| Responsibility and artifact matrix | [Jump](#responsibility-and-artifact-matrix) | [Jump](#Responsibility%20and%20artifact%20matrix) |
+| **3. Freshness, versions and history** | [Jump](#3-freshness-versions-and-history) | [Jump](#3.%20Freshness%2C%20versions%20and%20history) |
+| Freshness, versions, and history | [Jump](#freshness-versions-and-history) | [Jump](#Freshness%2C%20versions%2C%20and%20history) |
+| **4. Writes and recovery** | [Jump](#4-writes-and-recovery) | [Jump](#4.%20Writes%20and%20recovery) |
+| Safe writes and interruption recovery | [Jump](#safe-writes-and-interruption-recovery) | [Jump](#Safe%20writes%20and%20interruption%20recovery) |
+| **5. Handoffs and validation** | [Jump](#5-handoffs-and-validation) | [Jump](#5.%20Handoffs%20and%20validation) |
+| Handoffs | [Jump](#handoffs) | [Jump](#Handoffs) |
+| Current checks and review points | [Jump](#current-checks-and-review-points) | [Jump](#Current%20checks%20and%20review%20points) |
+| **6. Dated runtime snapshot** | [Jump](#6-dated-runtime-snapshot) | [Jump](#6.%20Dated%20runtime%20snapshot) |
+| Inspected runtime state and limits | [Jump](#inspected-runtime-state-and-limits) | [Jump](#Inspected%20runtime%20state%20and%20limits) |
+| **7. Methods and scheduling** | [Jump](#7-methods-and-scheduling) | [Jump](#7.%20Methods%20and%20scheduling) |
+| Methods and scheduling | [Jump](#methods-and-scheduling) | [Jump](#Methods%20and%20scheduling) |
+| **8. Packaging** | [Jump](#8-packaging) | [Jump](#8.%20Packaging) |
+| Source and generated packaging | [Jump](#source-and-generated-packaging) | [Jump](#Source%20and%20generated%20packaging) |
+| **9. Future proposals** | [Jump](#9-future-proposals) | [Jump](#9.%20Future%20proposals) |
+| Future personal learning hub — proposed, not yet implemented | [Jump](#future-personal-learning-hub--proposed-not-yet-implemented) | [Jump](#Future%20personal%20learning%20hub%20%E2%80%94%20proposed%2C%20not%20yet%20implemented) |
+
+## 1. Authority and overview
+
 Canonical master overview, inspected 2026-10-10. This existing document owns cross-skill boundaries and storage; the maintained skill bodies own execution details. The current workflow contract below is retained. The future learning hub sections are architectural goals only, **proposed, not yet implemented**; they do not change skill behavior or authorize implementation. Historical reviews describe earlier designs, never current instructions.
 
-Primary vault: `/Users/slavomirhoricka/Desktop/University_notes`. For an isolated task, its actual selected checkout is the vault root, as required by root `AGENTS.md`. All four maintained skill bodies now resolve workflow paths against that selected checkout. Older historical records may retain `/Users/slavomirhoricka/Desktop/Obsidian/Uni` as provenance; it is not a current write destination. The scoped path and Week2 recovery is recorded in [[03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery]]. Private release and host activation are distinguished in [[03_Agents/plugins/uni-teach-release.json]].
+Primary vault: `/Users/slavomirhoricka/Desktop/University_notes`. For an isolated task, its actual selected checkout is the vault root, as required by root `AGENTS.md`. All four maintained skill bodies now resolve workflow paths against that selected checkout. Older historical records may retain `/Users/slavomirhoricka/Desktop/Obsidian/Uni` as provenance; it is not a current write destination. The scoped path and Week2 recovery is recorded in [[03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery]].
 
-## Authority and current component map
+Private release and host activation are distinguished in [[03_Agents/plugins/uni-teach-release.json]].
+
+### Authority and current component map
 
 University Assistant is the private plugin with identity `uni-teach`. Inspection of the maintained folders, packaging utility and generated plugin manifest establishes **exactly four current skills**: [[03_Agents/ingest/SKILL|ingest]], [[03_Agents/plan/SKILL|plan]], [[03_Agents/teach/SKILL|teach]] and [[03_Agents/recall/SKILL|recall]]. There is no learning-site skill. Templates, references, scripts, legacy template redirects and validation examples are supporting components, not additional skills.
 
@@ -41,30 +72,111 @@ flowchart LR
   P -->|note error or provenance gap| I
 ```
 
-## Self-contained lessons and reuse
+## 2. Current workflow and ownership
 
-The maintained `03_Agents/references/LESSON_CONTENT.md` contract defines the 2026-10-17 boundaries. Ingest keeps producing complete checked notes. Plan reuses their full relevant explanations, derivations, figures and examples inside self-contained lessons, orders them and designs the main exercises/solutions/criteria. It may add verified teaching explanations without editing notes. Teach delivers those lessons with adaptive pacing, questions/tangents, bounded prechecked generated items and valid alternative-method assessment under unchanged standards. New item contracts persist before prompts in the teach log; old definitions/evidence remain immutable. Completed ingestion triggers sequential plan reconciliation unless explicitly limited; existing curricula adopt the contract at their next substantive revision. Independent curriculum review includes lesson additions and their cited authoritative support.
+### Self-contained lessons and reuse
 
-## Model roles and execution
+The maintained `03_Agents/references/LESSON_CONTENT.md` contract defines the 2026-10-17 boundaries. Ingest keeps producing complete checked notes. Plan reuses their full relevant explanations, derivations, figures and examples inside self-contained lessons, orders them and designs the main exercises/solutions/criteria. It may add verified teaching explanations without editing notes.
+
+Teach delivers those lessons with adaptive pacing, questions/tangents, bounded prechecked generated items and valid alternative-method assessment under unchanged standards. New item contracts persist before prompts in the teach log; old definitions/evidence remain immutable. Completed ingestion triggers sequential plan reconciliation unless explicitly limited; existing curricula adopt the contract at their next substantive revision.
+
+Independent curriculum review includes lesson additions and their cited authoritative support.
+
+### Model roles and execution
 
 [[03_Agents/references/MODEL_ROUTING|Model routing policy]] defines the seven role defaults, escalation, capability fallback, one-writer authority and interactive learner relay. Canonical custom-agent TOML files live in `03_Agents/agents/`; the synchronizer generates project `.codex/agents/` and packaged `agents/` copies. These internal roles preserve exactly four public skills. Host dispatch selects subagent models; a skill cannot change the running chat model or automatically install global configuration.
 
-Ingest uses deterministic extraction, Sol scope/structure, bounded Luna drafts and Sol/Astra difficult reasoning, then owner integration and independent Astra review of full originals. Repairs receive renewed checking before publication. Plan prepares from finished notes and obtains an independent Astra curriculum review before readiness. Teach keeps a Luna owner across turns and uses a read-only Sol assessor for demanding prepared-rubric responses; teach remains evidence owner. Recall uses Luna with the deterministic scheduler and its existing outbox/ownership gates. Requested and actual host-confirmed model settings remain distinct; no benchmarked quality/cost improvement is claimed.
+Ingest uses deterministic extraction, Sol scope/structure, bounded Luna drafts and Sol/Astra difficult reasoning, then owner integration and independent Astra review of full originals. Repairs receive renewed checking before publication. Plan prepares from finished notes and obtains an independent Astra curriculum review before readiness.
 
-## Existing skill responsibility and ownership matrix
+Teach keeps a Luna owner across turns and uses a read-only Sol assessor for demanding prepared-rubric responses; teach remains evidence owner. Recall uses Luna with the deterministic scheduler and its existing outbox/ownership gates. Requested and actual host-confirmed model settings remain distinct; no benchmarked quality/cost improvement is claimed.
+
+### Existing skill responsibility and ownership matrix
 
 Read permissions are scoped to the resolved course and requested work. Each row summarizes the maintained skill's actual contract; it grants no extra writes. Shared transaction journals and lock metadata support each owner's writes without transferring ownership of the underlying record.
 
-| Skill / purpose | Inputs and permitted reads | Owned data and permitted changes | Outputs and handoff points | Work it must not take over |
-|---|---|---|---|---|
-| **ingest** — inspect new/changed or adopted source material and establish checked, self-contained teaching notes | Exact user-supplied folder including nested files; originals and bounded verification context; existing notes/assets/hubs; ingestion index, linked passes and state; navigation guidance. May consult bounded academic references for verification/foundations and records their actual contribution. | Course notes, hubs and assets in `01_Notes`; runtime ingestion index and pass records; course `ingestion_state.json`, revisions, checked hashes/headings and unresolved gaps. Originals remain user-owned, read-only unless relocation was expressly authorized. | Finished notes plus independent source review, coverage ledger, conceptual priorities and prerequisite reasons; completion/run/revision, exact locators and gaps to **plan**. Interrupted coverage stays discoverable and incomplete; existing note replacement conflicts follow ingest's approval rule. | No lesson objectives, executable sequence, rubrics, criterion compatibility, curriculum archives, learner outcomes, recall dates or Todoist tasks. Its conceptual reading path is input to plan, not curriculum design. |
-| **plan** — turn finished, checked notes into executable, versioned curriculum | Selected finished notes and necessary dependencies/assets; complete ingestion state and linked successful passes; existing plan/manifest/lessons/history; relevant committed learner events for gaps/version context; recall state only for requested timing constraints; explicit goals/scope/tools/deadline. | `learning_plan.md`, `source_manifest.md`, `lessons/<objective_id>.md`, immutable `curriculum_history/<plan_version>/`. Owns objectives, dependencies, sequence, prepared explanations/examples/tasks/keys/rubrics, acquisition/delayed conditions, compatibility and reassessment definitions; fingerprints finished-note inputs. | Matching committed bundle and ready/partial/blocked scope to **teach**; exact academic/provenance gaps to **ingest**; changed objective/version mappings, reassessment gates and answer-free review labels to **recall**, without due dates. | No original-course-source audit or note repair; verified lesson supplements follow the lesson-content contract; no live teaching/grading, learning-log initialization, learner-status changes, regrading old answers, recall-state writes or task synchronization. |
-| **teach** — run/resume prepared lessons, practise/review, assess actual answers | Matching committed ingestion and plan metadata; only indexed lesson blocks and cited finished-note sections/dependencies; committed learning events/session state; historical definitions when interpreting old evidence; recall review identity and reason. A narrow factual answer from a finished note may be given without objective records; structured study needs a ready executable plan. | Only course `learning_log.md`: observed presentations, responses/results, help/feedback/exposure, supported acquisition/reassessment events, issues, append-only corrections and derived session/evidence summaries. | Checkpointed attempts and actual version-qualified evidence; committed event IDs, times, assistance/exposure and gates to **recall**; precise missing prepared rules/variants to **plan**; note contradictions or explicit freshness warnings to **ingest**. | No curriculum/criterion redefinition, original-course-source re-audit, note/manifest repair, academic-note hashing, review-date arithmetic or Todoist. Bounded prechecked generated items, responsive explanations and valid alternative-method assessment follow the lesson-content contract. |
-| **recall** — derive due reviews from committed evidence and synchronize verified course tasks | Requested course/objectives or existing recall states for a vault-wide due queue; targeted plan/lesson/manifest/ingestion metadata and committed teach events; current scheduling state; verified existing Todoist projects and positively owned task inventories. Checks event reference/commit/version integrity, not answers. | Course `recall_state.json`: evidence cursor, intended schedules, policy/version gates, deferrals/suppression, outbox, task IDs and append-only schedule/task/sync history. Runtime `project_map.json`: factual verified project mapping. External mutations only to positively identified recall-owned tasks under its synchronization contract. | Due/overdue/reassessment identities to **teach**; committed intended dates and separately connector-confirmed tasks; held conflicts/retry state when synchronization is uncertain; readiness/criterion gaps to **plan**, unfinished ingestion/academic issues to **ingest** through the appropriate handoff. | No teaching, grading, inferred mastery/acquisition, academic audits, note/plan/log writes, regrading, guessed project creation or treating task completion/missed dates/confidence as learning. No automatic watcher or notification service. |
+#### ingest
+
+**ingest** — inspect new/changed or adopted source material and establish checked, self-contained teaching notes
+
+**Inputs and permitted reads**
+
+Exact user-supplied folder including nested files; originals and bounded verification context; existing notes/assets/hubs; ingestion index, linked passes and state; navigation guidance. May consult bounded academic references for verification/foundations and records their actual contribution.
+
+**Owned data and permitted changes**
+
+Course notes, hubs and assets in `01_Notes`; runtime ingestion index and pass records; course `ingestion_state.json`, revisions, checked hashes/headings and unresolved gaps. Originals remain user-owned, read-only unless relocation was expressly authorized.
+
+**Outputs and handoff points**
+
+Finished notes plus independent source review, coverage ledger, conceptual priorities and prerequisite reasons; completion/run/revision, exact locators and gaps to **plan**. Interrupted coverage stays discoverable and incomplete; existing note replacement conflicts follow ingest's approval rule.
+
+**Work it must not take over**
+
+No lesson objectives, executable sequence, rubrics, criterion compatibility, curriculum archives, learner outcomes, recall dates or Todoist tasks. Its conceptual reading path is input to plan, not curriculum design.
+
+#### plan
+
+**plan** — turn finished, checked notes into executable, versioned curriculum
+
+**Inputs and permitted reads**
+
+Selected finished notes and necessary dependencies/assets; complete ingestion state and linked successful passes; existing plan/manifest/lessons/history; relevant committed learner events for gaps/version context; recall state only for requested timing constraints; explicit goals/scope/tools/deadline.
+
+**Owned data and permitted changes**
+
+`learning_plan.md`, `source_manifest.md`, `lessons/<objective_id>.md`, immutable `curriculum_history/<plan_version>/`. Owns objectives, dependencies, sequence, prepared explanations/examples/tasks/keys/rubrics, acquisition/delayed conditions, compatibility and reassessment definitions; fingerprints finished-note inputs.
+
+**Outputs and handoff points**
+
+Matching committed bundle and ready/partial/blocked scope to **teach**; exact academic/provenance gaps to **ingest**; changed objective/version mappings, reassessment gates and answer-free review labels to **recall**, without due dates.
+
+**Work it must not take over**
+
+No original-course-source audit or note repair; verified lesson supplements follow the lesson-content contract; no live teaching/grading, learning-log initialization, learner-status changes, regrading old answers, recall-state writes or task synchronization.
+
+#### teach
+
+**teach** — run/resume prepared lessons, practise/review, assess actual answers
+
+**Inputs and permitted reads**
+
+Matching committed ingestion and plan metadata; only indexed lesson blocks and cited finished-note sections/dependencies; committed learning events/session state; historical definitions when interpreting old evidence; recall review identity and reason. A narrow factual answer from a finished note may be given without objective records; structured study needs a ready executable plan.
+
+**Owned data and permitted changes**
+
+Only course `learning_log.md`: observed presentations, responses/results, help/feedback/exposure, supported acquisition/reassessment events, issues, append-only corrections and derived session/evidence summaries.
+
+**Outputs and handoff points**
+
+Checkpointed attempts and actual version-qualified evidence; committed event IDs, times, assistance/exposure and gates to **recall**; precise missing prepared rules/variants to **plan**; note contradictions or explicit freshness warnings to **ingest**.
+
+**Work it must not take over**
+
+No curriculum/criterion redefinition, original-course-source re-audit, note/manifest repair, academic-note hashing, review-date arithmetic or Todoist. Bounded prechecked generated items, responsive explanations and valid alternative-method assessment follow the lesson-content contract.
+
+#### recall
+
+**recall** — derive due reviews from committed evidence and synchronize verified course tasks
+
+**Inputs and permitted reads**
+
+Requested course/objectives or existing recall states for a vault-wide due queue; targeted plan/lesson/manifest/ingestion metadata and committed teach events; current scheduling state; verified existing Todoist projects and positively owned task inventories. Checks event reference/commit/version integrity, not answers.
+
+**Owned data and permitted changes**
+
+Course `recall_state.json`: evidence cursor, intended schedules, policy/version gates, deferrals/suppression, outbox, task IDs and append-only schedule/task/sync history. Runtime `project_map.json`: factual verified project mapping. External mutations only to positively identified recall-owned tasks under its synchronization contract.
+
+**Outputs and handoff points**
+
+Due/overdue/reassessment identities to **teach**; committed intended dates and separately connector-confirmed tasks; held conflicts/retry state when synchronization is uncertain; readiness/criterion gaps to **plan**, unfinished ingestion/academic issues to **ingest** through the appropriate handoff.
+
+**Work it must not take over**
+
+No teaching, grading, inferred mastery/acquisition, academic audits, note/plan/log writes, regrading, guessed project creation or treating task completion/missed dates/confidence as learning. No automatic watcher or notification service.
 
 The detailed artifact matrix below makes file-level ownership explicit. Maintenance of this overview is separate from executing any learning skill.
 
-## Responsibility and artifact matrix
+### Responsibility and artifact matrix
 
 Shared reading never grants write ownership. Maintenance of infrastructure is an explicitly authorized maintenance task, separate from ordinary learning workflows.
 
@@ -90,39 +202,59 @@ Shared reading never grants write ownership. Maintenance of infrastructure is an
 
 Paths are relative to `03_Agents/` unless beginning `00_Materials` or `01_Notes`. `course_id` is exact `<academic_year>/<semester>/<course_folder>`. Preserve language, actual Unicode spelling, known code, year and semester. Compare NFC Unicode and spaces/underscores for lookup; never merge distinct codes/years/courses automatically.
 
-## Source and generated packaging
+## 3. Freshness, versions and history
 
-Canonical skills remain `03_Agents/{ingest,plan,teach,recall}/SKILL.md`, with their owned templates/references/utilities. Existing `~/.agents/skills/ingest` and `~/.agents/skills/teach` symlinks remain unchanged. Plan/recall are discovered through the plugin; additional registrations are unnecessary. See [[03_Agents/README]].
-
-`plugins/uni-teach/` is generated packaging. Run `python3 03_Agents/scripts/sync_plugin.py`, then `--check` before release. It copies skills, shared references/scripts and architecture, excludes runtime/history/validation/bytecode, verifies manifests/default prompts, and writes `package_inventory.json`. Never edit installed versioned caches. `plugins/uni-teach-release.json` separates confirmed account release and inspected host cache status; publishing does not prove the current chat reloaded it.
-
-One owner per template: plan `templates/learning_plan.md`, `source_manifest.md`, `objective_lesson.md`; teach `templates/learning_log.md`; recall `templates/recall_state.json`. Old teaching planning-template paths are compatibility redirects only. Course records remain `03_Agents/<course_id>/`; no speculative records in empty mirror folders.
-
-## Freshness, versions, and history
+### Freshness, versions, and history
 
 Ingest increments `ingestion_revision` and publishes blocked state before changing finished notes, then complete state after required checks. Plan enumerates/hashes finished note inputs, interprets changes and publishes source version plus ingest revision. Teach/recall compare those small tokens and transaction readiness; they never hash notes or reconcile curriculum.
 
-Schema 3 plan, manifest and selected lesson must agree on `transaction_id`, `plan_version`, `source_version`, `ingestion_revision`, and course identity. Plan status must authorize that objective; unresolved academic gaps must not affect it. Ingest state must be complete and match. Absent state means an ingest adoption gap, not verification of old notes. Plan may prepare a blocked draft but cannot declare it ready. Legacy schema 1 remains preserved, never automatically certified as schema 3.
+Schema 3 plan, manifest and selected lesson must agree on `transaction_id`, `plan_version`, `source_version`, `ingestion_revision`, and course identity. Plan status must authorize that objective; unresolved academic gaps must not affect it. Ingest state must be complete and match. Absent state means an ingest adoption gap, not verification of old notes. Plan may prepare a blocked draft but cannot declare it ready.
+
+Legacy schema 1 remains preserved, never automatically certified as schema 3.
 
 Manual edits outside ingest cannot reliably invalidate tokens. An explicit plan freshness pass detects them by hashes; only explicitly identified non-academic formatting changes can be reconciled there. Academic changes/uncertain provenance return to ingest. No active watcher exists. Report these limits.
 
 Stable objective IDs are never reused. Changed objectives receive revisions; changed criteria receive criterion versions. Before replacement, plan archives definitions/manifests and necessary old cited excerpts if changed notes would erase interpretability. Splits/merges map predecessors and declare evidence compatibility or reassessment. Results retain original tuples. Plan/recall never regrade; teach records new assessment or append-only correction with `supersedes_event_id`, preserving originals.
 
-## Safe writes and interruption recovery
+## 4. Writes and recovery
 
-Use `03_Agents/scripts/records.py` for owned course records. All writers share course `.learning-write.lock`; no authoritative file has multiple writers. `owner.json` carries owner/token/host/PID/time. Atomic mkdir acquires; release only a matching token. Held lock means conflict: retain draft outside authoritative records and report path. Never expire by age. Explicit maintenance recovery may release abandoned lock only after verifying recorded process is inactive on the recorded host and inspecting journals; PID reuse/unknown host needs human resolution.
+### Safe writes and interruption recovery
 
-1. Read current records and retain exact hashes for write-conflict detection. Lighter agents may hash records via utility; never academic notes.
-2. Draft JSON outside records: `changes` maps owned relative filenames to full UTF-8 text; `expected` maps those same filenames to last-read SHA-256 (null only if absent). Optional stable `transaction_id`.
-3. Run `python3 03_Agents/scripts/records.py commit COURSE_DIR OWNER DRAFT_JSON`. It locks, rereads, rejects stale hashes/ownership/path escapes, stages `.transactions/<id>/` and journal before replacements. Plan includes lessons, history, plan and manifest in one draft.
-4. Atomic replacement fsyncs bytes/parent; journal commits only when all files match stages. Matching plan/manifest IDs provide an additional check.
-5. Run `... status COURSE_DIR`. Readers stop while locked or journal unfinished. Also run `... verify COURSE_DIR plan PLAN_TRANSACTION_ID learning_plan.md source_manifest.md lessons/OBJECTIVE.md`: the referenced journal must exist, be committed/plan-owned and match active record bytes. Absence is not readiness; record hashing here is a transaction check, never academic-note hashing. Recall also runs `... verify-record COURSE_DIR teach learning_log.md` to require a committed teach journal exactly matching the active log; legacy unjournaled history is never silently promoted. Owner runs `... recover COURSE_DIR OWNER TRANSACTION_ID` after interruption. Old/staged bytes permit idempotent roll-forward; unexpected edits preserve journal and fail. Never discard unfinished updates or claim mismatched plans ready.
+Use `03_Agents/scripts/records.py` for owned course records. All writers share course `.learning-write.lock`; no authoritative file has multiple writers. `owner.json` carries owner/token/host/PID/time. Atomic mkdir acquires; release only a matching token. Held lock means conflict: retain draft outside authoritative records and report path. Never expire by age.
 
-Global recall project mappings use the same utility at `03_Agents/runtime/recall/` (recall owns only `project_map.json` there). Utility validates owned paths and immutable events/history, not academic correctness or connector side effects. Ingest commits blocked state via utility, then separately locks/rereads it for note/assets edits, releasing before the utility completion commit. It never nests utility acquisition inside a manually held lock. Index/pass writes use ingest-owned runtime lock and atomic replacement; completed detail repairs index. Do not hold locks across handoffs. A crash before journaling leaves staged orphan data but no changed authoritative bytes; inspect/preserve orphan rather than treating it as a commit.
+Explicit maintenance recovery may release abandoned lock only after verifying recorded process is inactive on the recorded host and inspecting journals; PID reuse/unknown host needs human resolution.
+
+#### 1. Read current records and retain exact hashes for write-conflict detection
+
+Read current records and retain exact hashes for write-conflict detection. Lighter agents may hash records via utility; never academic notes.
+
+#### 2. Draft JSON outside records: `changes` maps owned relative filenames to full UTF-8 text; `expected` maps those same filenames to last-read SHA-256 (null only if absent)
+
+Draft JSON outside records: `changes` maps owned relative filenames to full UTF-8 text; `expected` maps those same filenames to last-read SHA-256 (null only if absent). Optional stable `transaction_id`.
+
+#### 3. Run `python3 03_Agents/scripts/records.py commit COURSE_DIR OWNER DRAFT_JSON`
+
+Run `python3 03_Agents/scripts/records.py commit COURSE_DIR OWNER DRAFT_JSON`. It locks, rereads, rejects stale hashes/ownership/path escapes, stages `.transactions/<id>/` and journal before replacements. Plan includes lessons, history, plan and manifest in one draft.
+
+#### 4. Atomic replacement fsyncs bytes/parent; journal commits only when all files match stages
+
+Atomic replacement fsyncs bytes/parent; journal commits only when all files match stages. Matching plan/manifest IDs provide an additional check.
+
+#### 5. Run `... status COURSE_DIR`
+
+Run `... status COURSE_DIR`. Readers stop while locked or journal unfinished. Also run `... verify COURSE_DIR plan PLAN_TRANSACTION_ID learning_plan.md source_manifest.md lessons/OBJECTIVE.md`: the referenced journal must exist, be committed/plan-owned and match active record bytes. Absence is not readiness; record hashing here is a transaction check, never academic-note hashing.
+
+Recall also runs `... verify-record COURSE_DIR teach learning_log.md` to require a committed teach journal exactly matching the active log; legacy unjournaled history is never silently promoted. Owner runs `... recover COURSE_DIR OWNER TRANSACTION_ID` after interruption. Old/staged bytes permit idempotent roll-forward; unexpected edits preserve journal and fail. Never discard unfinished updates or claim mismatched plans ready.
+
+Global recall project mappings use the same utility at `03_Agents/runtime/recall/` (recall owns only `project_map.json` there). Utility validates owned paths and immutable events/history, not academic correctness or connector side effects. Ingest commits blocked state via utility, then separately locks/rereads it for note/assets edits, releasing before the utility completion commit. It never nests utility acquisition inside a manually held lock.
+
+Index/pass writes use ingest-owned runtime lock and atomic replacement; completed detail repairs index. Do not hold locks across handoffs. A crash before journaling leaves staged orphan data but no changed authoritative bytes; inspect/preserve orphan rather than treating it as a commit.
 
 Learner events have unique IDs and actual offset-aware timestamps. Schema 3 uses fenced JSON. Presentation precedes result; unanswered presentations have no outcome. Derived summaries may change; committed payloads cannot. Legacy log text remains an exact prefix when new events append. No migration infers acquisition from confidence or task completion.
 
-## Handoffs
+## 5. Handoffs and validation
+
+### Handoffs
 
 | From → recipient | Trigger | Exact payload |
 |---|---|---|
@@ -137,20 +269,43 @@ Learner events have unique IDs and actual offset-aware timestamps. Schema 3 uses
 
 Invoke recipient within authorized workflow when available; otherwise return exact payload and next invocation. Never claim dispatch occurred without executing it. Reports distinguish intended, committed, synchronized, unverified.
 
-## Current checks and review points
+### Current checks and review points
 
 These are existing repository and skill gates, not new hub integrations:
 
-1. **Source → notes:** ingest inventories source identities and full selected coverage, publishes blocked freshness before note changes, then obtains an independent helper's original-source review of accuracy, coverage, priorities, prerequisites, explanations and visuals. Ingest repairs findings; the checker verifies the final revised content. Completion requires structural validation, finalized pass/index records and committed complete ingestion state.
-2. **Notes → curriculum:** plan requires checked ingestion provenance and verifies its committed state, inspects finished-note changes, prepares every ready block with keys/rubrics and reconciles versions. Root `AGENTS.md` requires a separate curriculum reviewer of finished notes, plan/manifest, changed lessons, dependencies, keys, compatibility and preserved history. That reviewer does not substitute raw sources for notes or repair them. Actual note errors/source-coverage or provenance gaps return to ingest for repair and renewed source review; verified teaching supplements remain plan-owned under `LESSON_CONTENT.md`.
-3. **Curriculum → lesson/review execution:** teach and recall require unlocked records, no unfinished journal, committed matching plan/manifest/selected-lesson transactions and complete matching ingestion revision. A partial plan permits only explicitly ready objectives. Token checks are not academic re-audits and do not detect every out-of-workflow edit; explicit changes return to ingest/plan.
-4. **Response → evidence → schedule:** teach checkpoints the prompt before presentation and the actual response before later help, then verifies its log journal. Recall verifies committed log bytes and supporting event journals, version compatibility and delayed conditions before deriving dates. No answer means no result; elapsed time or task completion creates no learning evidence.
-5. **Schedule → external task:** recall journals intended state/outbox before dispatch, verifies unique existing projects and positively owned tasks, confirms connector readback, and retains uncertain/conflicting operations for recovery. Local persistence and Todoist mutation are separate operations.
-6. **Repository integration:** scoped diff, before/after vault audit, applicable owner-transaction verification and final independent reviews gate ingestion/planning publication. Root `AGENTS.md` governs branch/PR, CI/protection, merge verification and cleanup. Workflow-record commitment and Git commitment are separate guarantees.
+#### 1. Source → notes
 
-## Inspected runtime state and limits
+ingest inventories source identities and full selected coverage, publishes blocked freshness before note changes, then obtains an independent helper's original-source review of accuracy, coverage, priorities, prerequisites, explanations and visuals. Ingest repairs findings; the checker verifies the final revised content. Completion requires structural validation, finalized pass/index records and committed complete ingestion state.
 
-Snapshot refreshed 2026-10-10 during the scoped recovery from repository base `80204bf`; navigation only, never an ongoing readiness certificate. [[03_Agents/VAULT_MAP]] is dated 2026-10-03 and predates subsequent notes/plans. Current course records and linked pass details remain authoritative. The [[03_Agents/runtime/ingest/ingestion_log|ingestion index]] and [[03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses|existing Week2 detail]] now agree: all three supplied scopes are complete at ingestion revision2. Independently reviewed P003/V002 curricula reconcile their earlier revision1 plans while preserving exact P002 bundles and older history. See [[03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery]] for review identities, repairs and transaction checks.
+#### 2. Notes → curriculum
+
+plan requires checked ingestion provenance and verifies its committed state, inspects finished-note changes, prepares every ready block with keys/rubrics and reconciles versions. Root `AGENTS.md` requires a separate curriculum reviewer of finished notes, plan/manifest, changed lessons, dependencies, keys, compatibility and preserved history. That reviewer does not substitute raw sources for notes or repair them.
+
+Actual note errors/source-coverage or provenance gaps return to ingest for repair and renewed source review; verified teaching supplements remain plan-owned under `LESSON_CONTENT.md`.
+
+#### 3. Curriculum → lesson/review execution
+
+teach and recall require unlocked records, no unfinished journal, committed matching plan/manifest/selected-lesson transactions and complete matching ingestion revision. A partial plan permits only explicitly ready objectives. Token checks are not academic re-audits and do not detect every out-of-workflow edit; explicit changes return to ingest/plan.
+
+#### 4. Response → evidence → schedule
+
+teach checkpoints the prompt before presentation and the actual response before later help, then verifies its log journal. Recall verifies committed log bytes and supporting event journals, version compatibility and delayed conditions before deriving dates. No answer means no result; elapsed time or task completion creates no learning evidence.
+
+#### 5. Schedule → external task
+
+recall journals intended state/outbox before dispatch, verifies unique existing projects and positively owned tasks, confirms connector readback, and retains uncertain/conflicting operations for recovery. Local persistence and Todoist mutation are separate operations.
+
+#### 6. Repository integration
+
+scoped diff, before/after vault audit, applicable owner-transaction verification and final independent reviews gate ingestion/planning publication. Root `AGENTS.md` governs branch/PR, CI/protection, merge verification and cleanup. Workflow-record commitment and Git commitment are separate guarantees.
+
+## 6. Dated runtime snapshot
+
+### Inspected runtime state and limits
+
+Snapshot refreshed 2026-10-10 during the scoped recovery from repository base `80204bf`; navigation only, never an ongoing readiness certificate. [[03_Agents/VAULT_MAP]] is dated 2026-10-03 and predates subsequent notes/plans. Current course records and linked pass details remain authoritative. The [[03_Agents/runtime/ingest/ingestion_log|ingestion index]] and [[03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses|existing Week2 detail]] now agree: all three supplied scopes are complete at ingestion revision2.
+
+Independently reviewed P003/V002 curricula reconcile their earlier revision1 plans while preserving exact P002 bundles and older history. See [[03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery]] for review identities, repairs and transaction checks.
 
 | Existing course records (`2026_2027/Winter_Semester/`) | Plan declaration / captured ingestion revision | Current ingestion state | Architectural implication |
 |---|---|---|---|
@@ -160,31 +315,53 @@ Snapshot refreshed 2026-10-10 during the scoped recovery from repository base `8
 | `Economics_of_Green_Deal` | P003, partial, revision 2 | complete, revision 2 | Week2 supplied sources independently complete; supported contracts reconcile revision2. Missing climate-foundation lecture and expanded numerical tax assumptions remain bounded exclusions. |
 | `Financial_Markets_Instruments_I` | P003, ready, revision 2 | complete, revision 2 | Week1 and supplied Week2 scope has checked executable contracts at revision2; a ready scoped plan does not certify every future syllabus topic. |
 
-The five courses' current ingestion records and all 55 indexed ready lesson bundle transactions verify against their owner journals, with no locks or pending transactions at inspection. The three reconciled curricula passed separate independent reviews of their supported scope. Journal integrity and these bounded reviews do not establish whole-semester/exam coverage or learner mastery. These courses have no learning logs or recall states in this snapshot. Legacy `2025_2026/Summer_Semester/JEB109_Econometrics_I` retains a provisional P001 plan and actual earlier learner log; preserve them without promoting legacy claims to schema-3 readiness. Validation curricula remain fictional rehearsals. No learner record should be invented to fill a hub dashboard.
+The five courses' current ingestion records and all 55 indexed ready lesson bundle transactions verify against their owner journals, with no locks or pending transactions at inspection. The three reconciled curricula passed separate independent reviews of their supported scope. Journal integrity and these bounded reviews do not establish whole-semester/exam coverage or learner mastery.
 
-## Methods and scheduling
+These courses have no learning logs or recall states in this snapshot. Legacy `2025_2026/Summer_Semester/JEB109_Econometrics_I` retains a provisional P001 plan and actual earlier learner log; preserve them without promoting legacy claims to schema-3 readiness. Validation curricula remain fictional rehearsals. No learner record should be invented to fill a hub dashboard.
+
+## 7. Methods and scheduling
+
+### Methods and scheduling
 
 Plan embeds retrieval, feedback/correction, worked-example fading, prerequisites, discrimination/transfer and separate delayed checks in small blocks with keys/rubric reasons. Teach implements one question at a time and records assistance. Normally two distinct unaided immediate checks establish acquisition: operational default, not personalized mastery. Delayed performance is separate. See [[03_Agents/references/LEARNING_METHODS]] for evidence/limits; methodology does not authorize external curriculum.
 
-Recall uses `uni-fixed-v1`: 1 day after qualifying acquisition, 6 after first delayed pass, then half-up-rounded previous interval ×2.5 with at least one-day growth. Failed/partial/assisted delayed assessment schedules a 1-day reassessment gate plus corrective teaching/reacquisition. Source/criterion changes follow plan gates. No response preserves overdue date. Use actual response date converted to Europe/Prague and calendar-day arithmetic. These are defaults, not full SM-2, personal optima, or proof of retention. Calendar +1 day can be less than 24 hours: the plan's minimum elapsed delayed-check separation still governs qualifying evidence.
+Recall uses `uni-fixed-v1`: 1 day after qualifying acquisition, 6 after first delayed pass, then half-up-rounded previous interval ×2.5 with at least one-day growth. Failed/partial/assisted delayed assessment schedules a 1-day reassessment gate plus corrective teaching/reacquisition. Source/criterion changes follow plan gates. No response preserves overdue date. Use actual response date converted to Europe/Prague and calendar-day arithmetic.
+
+These are defaults, not full SM-2, personal optima, or proof of retention. Calendar +1 day can be less than 24 hours: the plan's minimum elapsed delayed-check separation still governs qualifying evidence.
 
 Recall consumes committed evidence idempotently, saves intended schedule/outbox before connector calls, and uses installed **Todoist: To Do List & Calendar** harness. At most one active positively owned task per logical review; stable markers/confirmed IDs support retries. Completion/deletion/notifications/user edits never create learning evidence. Unknown create outcomes require complete remote reconciliation before retry; unavailable/incomplete pagination blocks creation.
 
 Recall runs explicitly or as same-session workflow after teach commits. Invoke recall then if available, otherwise report pending handoff. Skills create no background execution. No periodic automation/push-notification system is configured by this audit. Synchronized tasks appear on their due day; new evidence needs the next recall run.
 
-## Future personal learning hub — proposed, not yet implemented
+## 8. Packaging
 
-The product goal is **one interactive learning hub for all courses**, presenting checked vault curriculum through a PC browser at `localhost`. Course content, learner evidence, recall scheduling and the presentation layer should remain independently owned and updateable. The current plugin is a file-based workflow, not a web application; this section defines desired boundaries without choosing a framework, database, server, site generator, deployment setup or API transport.
+### Source and generated packaging
 
-### Scope and exclusions
+Canonical skills remain `03_Agents/{ingest,plan,teach,recall}/SKILL.md`, with their owned templates/references/utilities. Existing `~/.agents/skills/ingest` and `~/.agents/skills/teach` symlinks remain unchanged. Plan/recall are discovered through the plugin; additional registrations are unnecessary. See [[03_Agents/README]].
 
-The first version is for one learner on their PC, accessed on that same machine through `localhost`. Localhost access is the intended boundary; access from other machines on a home network is not part of this version. It should show available courses, supported coverage, prepared learning routes and honest readiness/progress states. “All courses” means a common catalogue and navigation experience, not presumed checked plans for every vault folder. Missing, partial, stale and blocked curriculum must stay visible as such.
+`plugins/uni-teach/` is generated packaging. Run `python3 03_Agents/scripts/sync_plugin.py`, then `--check` before release. It copies skills, shared references/scripts and architecture, excludes runtime/history/validation/bytecode, verifies manifests/default prompts, and writes `package_inventory.json`. Never edit installed versioned caches. `plugins/uni-teach-release.json` separates confirmed account release and inspected host cache status; publishing does not prove the current chat reloaded it.
+
+One owner per template: plan `templates/learning_plan.md`, `source_manifest.md`, `objective_lesson.md`; teach `templates/learning_log.md`; recall `templates/recall_state.json`. Old teaching planning-template paths are compatibility redirects only. Course records remain `03_Agents/<course_id>/`; no speculative records in empty mirror folders.
+
+## 9. Future proposals
+
+### Future personal learning hub — proposed, not yet implemented
+
+The product goal is **one interactive learning hub for all courses**, presenting checked vault curriculum through a PC browser at `localhost`. Course content, learner evidence, recall scheduling and the presentation layer should remain independently owned and updateable.
+
+The current plugin is a file-based workflow, not a web application; this section defines desired boundaries without choosing a framework, database, server, site generator, deployment setup or API transport.
+
+#### Scope and exclusions
+
+The first version is for one learner on their PC, accessed on that same machine through `localhost`. Localhost access is the intended boundary; access from other machines on a home network is not part of this version. It should show available courses, supported coverage, prepared learning routes and honest readiness/progress states.
+
+“All courses” means a common catalogue and navigation experience, not presumed checked plans for every vault folder. Missing, partial, stale and blocked curriculum must stay visible as such.
 
 Phone access, remote hosting, public access, accounts, cross-device syncing and ChatGPT embedding are explicitly out of scope. Existing recall may still use its separate Todoist connector; the future local hub does not acquire that integration or create a new remote service. Whether a hub view shows already-derived recall context remains an interface decision.
 
 **Flashcards are excluded from this architecture task and the proposed first-version scope.** No flashcard fields, generators, plan/workflow changes or plan revisions are introduced. Existing prepared retrieval and delayed checks remain the current lesson contract. Flashcards could be reconsidered only as a separate future decision.
 
-### Proposed learning-site skill and component boundaries
+#### Proposed learning-site skill and component boundaries
 
 **learning-site is proposed, not yet implemented.** Its future purpose would be to maintain the hub's presentation and produce replaceable course views from completed, checked plan bundles. It would consume plan outputs, not create curriculum. No skill file, hub files, prototype, integration or application code is created by this document.
 
@@ -210,7 +387,7 @@ flowchart LR
 
 Solid arrows express existing ownership or proposed read flows; dotted arrows are undecided future interfaces. This map is conceptual, not a configured system. The hub and learning-site skill have no write arrow to curriculum, evidence storage or schedules.
 
-### Content and progress remain separate
+#### Content and progress remain separate
 
 | Data class | Authority now | Future hub treatment / update guarantee |
 |---|---|---|
@@ -221,11 +398,13 @@ Solid arrows express existing ownership or proposed read flows; dotted arrows ar
 
 Two invariants guide future design: **updating generated course content must preserve learner progress**, and **recording progress must not edit plans**. Version-qualified stable course/objective identities join the content and progress views without combining their ownership. Preserve historical definitions so old results remain interpretable; plan compatibility mappings or teach's new reassessment resolve changed content, never a site rebuild or automatic regrading.
 
-For example, publishing P002 after P001 would replace the generated course view while retaining P001 attempt events and their definition references. The progress view would show compatibility/reassessment according to the plan and committed new evidence. Conversely, a new response recorded by teach would update the progress view while leaving the published plan bundle unchanged. If publication fails or a version becomes stale, retain the evidence, mark the affected view unavailable/stale and route the issue to its owner; never reset progress as a repair.
+For example, publishing P002 after P001 would replace the generated course view while retaining P001 attempt events and their definition references. The progress view would show compatibility/reassessment according to the plan and committed new evidence. Conversely, a new response recorded by teach would update the progress view while leaving the published plan bundle unchanged.
+
+If publication fails or a version becomes stale, retain the evidence, mark the affected view unavailable/stale and route the issue to its owner; never reset progress as a repair.
 
 Independent updates need explicit interface versions, compatible identities and failure states. Course publication, progress persistence and recall synchronization have separate commit/recovery boundaries. The future hub should distinguish last displayed state from verified current state and avoid consuming mixed bundles during concurrent writes. The exact snapshot, invalidation and refresh mechanisms are open decisions; no watcher is assumed.
 
-### Open decisions and next documentation step
+#### Open decisions and next documentation step
 
 No relevant hub technology decision was found in the maintained architecture, skill instructions, references or current session records. Existing Markdown/JSON files and `records.py` are current workflow infrastructure, not a selection of a future web stack.
 
@@ -239,4 +418,6 @@ No relevant hub technology decision was found in the maintained architecture, sk
 | Recall exposure | Decide whether due queues are shown locally and how a learner explicitly requests teach/recall; retain the current distinction between intended schedule, synchronized task and assessed review. |
 | Maintenance and verification | Define ownership of future UI/accessibility checks, interface compatibility checks, publication/recovery validation and progress-preservation checks. Source and curriculum checks remain with their current reviewers. |
 
-**Next step:** a separate documentation task should settle first-version interaction depth and write the content-read, progress-read/submit and optional recall-view interface contracts, including version/failure cases and progress-preservation acceptance criteria. Then record any technology choice in a decision document linked here. Neither that next task nor implementation is authorized by this overview. Skill creation, integration and product development require a later explicit request.
+**Next step:** a separate documentation task should settle first-version interaction depth and write the content-read, progress-read/submit and optional recall-view interface contracts, including version/failure cases and progress-preservation acceptance criteria. Then record any technology choice in a decision document linked here. Neither that next task nor implementation is authorized by this overview.
+
+Skill creation, integration and product development require a later explicit request.
