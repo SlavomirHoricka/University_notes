@@ -3,6 +3,8 @@
 
 Teach is the sole writer. This template is not learner history. Initialize only for an authorized real session; never copy example events into real course records. Evidence lives in committed events, not in plan status or Todoist task completion.
 
+## Record metadata
+
 ```json
 {
   "schema_version": 3,
@@ -13,6 +15,22 @@ Teach is the sole writer. This template is not learner history. Initialize only 
   "transaction_id": "<this log write transaction>"
 }
 ```
+
+## Contents
+
+| Section | GitHub | Obsidian |
+|---|---|---|
+| **Record metadata** | [Jump](#record-metadata) | [Jump](#Record%20metadata) |
+| **Current state** | [Jump](#current-state) | [Jump](#Current%20state) |
+| **Evidence index — derived only** | [Jump](#evidence-index--derived-only) | [Jump](#Evidence%20index%20%E2%80%94%20derived%20only) |
+| **Events — append only** | [Jump](#events--append-only) | [Jump](#Events%20%E2%80%94%20append%20only) |
+| Allowed values and observed conditions | [Jump](#allowed-values-and-observed-conditions) | [Jump](#Allowed%20values%20and%20observed%20conditions) |
+| Revision and scoring corrections | [Jump](#revision-and-scoring-corrections) | [Jump](#Revision%20and%20scoring%20corrections) |
+| Acquisition and reassessment declarations | [Jump](#acquisition-and-reassessment-declarations) | [Jump](#Acquisition%20and%20reassessment%20declarations) |
+| Other event types | [Jump](#other-event-types) | [Jump](#Other%20event%20types) |
+| **Optional generated-item snapshot** | [Jump](#optional-generated-item-snapshot) | [Jump](#Optional%20generated-item%20snapshot) |
+| **Legacy history** | [Jump](#legacy-history) | [Jump](#Legacy%20history) |
+
 
 ## Current state
 
@@ -50,7 +68,9 @@ No due dates or scheduler fields. Add only touched objectives with actual event 
 
 ## Events — append only
 
-Each event is its own fenced JSON object. Required common fields: `event_id`, `event_type`, `committed`, `transaction_id`, `writer` (`teach`), `occurred_at` (actual ISO 8601 offset or null only if unknown), `recorded_at`, `timezone`, `session_id` (or null), and definition tuple (`objective_id`, `objective_revision`, `criterion_version`, `plan_version`, `source_version`, `ingestion_revision`; nullable only for a session-wide event). IDs remain stable on retry. A schema-3 event is usable only after its utility journal is committed; staged intent is not evidence.
+Each event is its own fenced JSON object. Required common fields: `event_id`, `event_type`, `committed`, `transaction_id`, `writer` (`teach`), `occurred_at` (actual ISO 8601 offset or null only if unknown), `recorded_at`, `timezone`, `session_id` (or null), and definition tuple (`objective_id`, `objective_revision`, `criterion_version`, `plan_version`, `source_version`, `ingestion_revision`; nullable only for a session-wide event). IDs remain stable on retry.
+
+A schema-3 event is usable only after its utility journal is committed; staged intent is not evidence.
 
 Attempt-result fields:
 
@@ -96,18 +116,38 @@ Attempt-result fields:
 }
 ```
 
-This is a schema example, not an event to copy. Allowed outcome: `pass`, `partial`, `fail`, `incomplete`, `unscorable`. Allowed review_kind: `diagnostic`, `immediate`, `delayed`, `reassessment`. Allowed assistance level: `none`, `cue`, `strategy_hint`, `partial_worked`, `full_solution`, `unknown`. Notes: `closed`, `open`, `unknown`; tools include actual allowed/used tool identifiers and unknown condition if needed. Solution exposure: `none`, `prior_same_session`, `during_attempt`, `unknown`. Intervening exposure uses `none`, `reported`, or `unknown`, with actual details in `intervening_exposure_details`; clean delayed extension requires known conditions and a reliable relevant-exposure timestamp. Independence requires known rubric-allowed conditions; it is not inferred from prose.
+### Allowed values and observed conditions
+
+This is a schema example, not an event to copy.
+
+- Allowed outcome: `pass`, `partial`, `fail`, `incomplete`, `unscorable`.
+- Allowed review_kind: `diagnostic`, `immediate`, `delayed`, `reassessment`.
+- Allowed assistance level: `none`, `cue`, `strategy_hint`, `partial_worked`, `full_solution`, `unknown`.
+- Notes: `closed`, `open`, `unknown`; tools include actual allowed/used tool identifiers and unknown condition if needed.
+- Solution exposure: `none`, `prior_same_session`, `during_attempt`, `unknown`.
+- Intervening exposure uses `none`, `reported`, or `unknown`, with actual details in `intervening_exposure_details`; clean delayed extension requires known conditions and a reliable relevant-exposure timestamp.
+- Independence requires known rubric-allowed conditions; it is not inferred from prose.
+
+### Revision and scoring corrections
 
 Production evidence copies the actual integer ingest revision; null is an unready placeholder. A `correction` uses `corrected_fields` containing teach-assessed field replacements and `supersedes_event_id`. Corrections cannot manufacture learner answers or acquisition.
 
+### Acquisition and reassessment declarations
+
 An `acquisition_met` event references `evidence_event_ids`, the exact `acquisition_rule` and current objective/criterion tuple. Normally these are two distinct independent passing current-criterion attempts with required item roles. `reassessment_met` references its plan `requirement_id`, current-version qualifying evidence IDs and rule. Neither event is created from confidence, restudy, a reminder or a passed same-item retry.
+
+### Other event types
 
 Other teach-owned types: `session_started`, `session_route`, `attempt_started`, `instruction_or_feedback`, `exposure_reported`, `attempt_abandoned`, `session_paused`, `session_closed`, `plan_issue`, `note_issue`, `correction`. A correction cites `supersedes_event_id`, reason and corrected fields while preserving original. A `session_route`/pause preserves unresolved time deferrals and reason. Scheduler events are prohibited here; recall owns `recall_state.json`.
 
 ## Optional generated-item snapshot
 
-For a teach-generated item, persist `item_origin: teach_generated` and the full `item_contract` in `attempt_started` before displaying its prompt. See `references/RECORDS.md` for required snapshot fields and `03_Agents/references/LESSON_CONTENT.md` for permitted scope and evidence use. The result references the same attempt/item/version and definition tuple. `assessment_basis` may document a valid alternative method under unchanged criteria. These optional fields do not migrate old events or grant permission to replace exact named reassessment items.
+For a teach-generated item, persist `item_origin: teach_generated` and the full `item_contract` in `attempt_started` before displaying its prompt. See `references/RECORDS.md` for required snapshot fields and `03_Agents/references/LESSON_CONTENT.md` for permitted scope and evidence use. The result references the same attempt/item/version and definition tuple. `assessment_basis` may document a valid alternative method under unchanged criteria.
+
+These optional fields do not migrate old events or grant permission to replace exact named reassessment items.
 
 ## Legacy history
 
-For existing logs, retain the entire original content/events and append an explicit schema-3 boundary with new metadata/events. Link corresponding archived plan/criterion definitions. Do not translate historical attempts, invent timestamps, mark old events committed, reinterpret original statuses or remove scheduler history from old records. Legacy scheduler fields remain read-only historical data, not active scheduling state. Current summaries cite only interpretable evidence with versions and a compatibility mapping.
+For existing logs, retain the entire original content/events and append an explicit schema-3 boundary with new metadata/events. Link corresponding archived plan/criterion definitions. Do not translate historical attempts, invent timestamps, mark old events committed, reinterpret original statuses or remove scheduler history from old records. Legacy scheduler fields remain read-only historical data, not active scheduling state.
+
+Current summaries cite only interpretable evidence with versions and a compatibility mapping.

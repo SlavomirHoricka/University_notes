@@ -2,6 +2,8 @@
 
 Plan is the exclusive writer. It fingerprints the finished notes used by this curriculum; it does not audit or hash raw academic materials. Preserve previous snapshots and semantic baselines in immutable curriculum history.
 
+## Record metadata
+
 ```json
 {
   "schema_version": 3,
@@ -19,9 +21,37 @@ Plan is the exclusive writer. It fingerprints the finished notes used by this cu
 }
 ```
 
+## Contents
+
+| Section | GitHub | Obsidian |
+|---|---|---|
+| **Record metadata** | [Jump](#record-metadata) | [Jump](#Record%20metadata) |
+| **Metadata rules** | [Jump](#metadata-rules) | [Jump](#Metadata%20rules) |
+| **Completion provenance and scope** | [Jump](#completion-provenance-and-scope) | [Jump](#Completion%20provenance%20and%20scope) |
+| **Snapshot and semantic changes** | [Jump](#snapshot-and-semantic-changes) | [Jump](#Snapshot%20and%20semantic%20changes) |
+| **Lesson content provenance** | [Jump](#lesson-content-provenance) | [Jump](#Lesson%20content%20provenance) |
+| **Prior versions and commit** | [Jump](#prior-versions-and-commit) | [Jump](#Prior%20versions%20and%20commit) |
+
+
+## Metadata rules
+
 Production `ingestion_revision` is the actual ingest integer (no string conversion); null is an unready placeholder.
 
-Each entry: `path` (exact vault-relative existing path), `sha256`, `bytes`, `note_sections` (actual headings/block IDs), `objective_ids`, `semantic_baseline` (relevant claims, conditions, symbols, limitations needed to judge later changes), `change_class`, `previous_path`, `previous_hash`, `affected_objective_ids`, and `inspection_status`. Include only selected finished notes and explicitly necessary dependencies/assets; note newly enumerated candidates outside scope in the coverage section. `null` with an access reason is different from deletion. Retain the actual current path after Unicode-normalized lookup.
+Each entry:
+
+- `path` (exact vault-relative existing path)
+- `sha256`
+- `bytes`
+- `note_sections` (actual headings/block IDs)
+- `objective_ids`
+- `semantic_baseline` (relevant claims, conditions, symbols, limitations needed to judge later changes)
+- `change_class`
+- `previous_path`
+- `previous_hash`
+- `affected_objective_ids`
+- and `inspection_status`.
+
+Include only selected finished notes and explicitly necessary dependencies/assets; note newly enumerated candidates outside scope in the coverage section. `null` with an access reason is different from deletion. Retain the actual current path after Unicode-normalized lookup.
 
 ## Completion provenance and scope
 
@@ -37,7 +67,9 @@ Hash changes require inspecting finished-note meaning before classifying impact.
 
 ## Lesson content provenance
 
-Map lesson sections to complete reused note passages, adapted passages (with reasons/notation mapping), or plan-created explanations/examples. Include asset dependencies and meaning needed for self-contained delivery. For additional claims record actually consulted authoritative source identity, URL/exact section, verified claim/assumptions and sufficient passage summary; distinguish supplementary explanation from assessed scope. These references support lesson additions; they do not certify original-material ingestion coverage or authorize note edits. Reconciliation checks copied content and affected exercises/dependencies without rewriting unrelated lessons.
+Map lesson sections to complete reused note passages, adapted passages (with reasons/notation mapping), or plan-created explanations/examples. Include asset dependencies and meaning needed for self-contained delivery. For additional claims record actually consulted authoritative source identity, URL/exact section, verified claim/assumptions and sufficient passage summary; distinguish supplementary explanation from assessed scope.
+
+These references support lesson additions; they do not certify original-material ingestion coverage or authorize note edits. Reconciliation checks copied content and affected exercises/dependencies without rewriting unrelated lessons.
 
 ## Prior versions and commit
 
