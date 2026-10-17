@@ -2,7 +2,7 @@
 
 Maintained methodology reference for `uni-teach`. Research checked on **2026-10-03**, using Europe/Prague as the workflow timezone. These recommendations combine findings from several domains; they are not a claim that one universally best learning plan or review algorithm exists. This was a focused evidence check, including searches for 2024–2026 findings, not a systematic review.
 
-This document supports the ordinary instructions embedded in the skills. An ordinary `teach` or `recall` run must not browse to reconstruct these methods. Methodology research authorizes instructional design only: course facts, definitions, derivations, examples and assessment content still come from finished, ingestion-verified notes. A study about learning biology, algebra or psychology is not permission to add that study's course content to this vault.
+This document supports the ordinary instructions embedded in the skills. An ordinary `teach` or `recall` run must not browse to reconstruct these methods. Methodology research informs instructional design, not course-content authority. Course content starts from finished, ingestion-verified notes; verified plan supplements and checked teach-generated exercises follow `references/LESSON_CONTENT.md`. A study about learning biology, algebra or psychology is not permission to add that study's course content to this vault.
 
 ## Evidence, application and limitations
 
@@ -40,7 +40,7 @@ A cluster randomized middle-school mathematics study found benefits from mixed r
 
 Two experiments on avoiding biased reasoning found no advantage of interleaving over blocking, while worked examples helped novices more than low-assistance problems. This is a reason to select interleaving for a concrete discrimination problem rather than adopt it indiscriminately. [van Peppen et al., 2021](https://repub.eur.nl/pub/134860/Repub_134860_O-A.pdf).
 
-`plan` prepares contrast pairs or mixed tasks when the learner must identify which related concept or method applies, with keys explaining decisive cues and why alternatives fail. Introduce the component methods first. `teach` mixes only prepared, introduced items; an unexplained method-selection failure returns to its prepared diagnostic route. `recall` can group due items for convenience, but grouping is not evidence or a new curriculum decision.
+`plan` prepares contrast pairs or mixed tasks when the learner must identify which related concept or method applies, with keys explaining decisive cues and why alternatives fail. Introduce the component methods first. `teach` mixes prepared or eligible prechecked generated items for introduced methods under `references/LESSON_CONTENT.md`; an unexplained method-selection failure returns to its prepared diagnostic route. `recall` can group due items for convenience, but grouping is not evidence or a new curriculum decision.
 
 ### Explanation, application and transfer
 

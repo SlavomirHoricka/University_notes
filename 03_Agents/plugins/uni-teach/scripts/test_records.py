@@ -89,4 +89,74 @@ class RecordsTests(unittest.TestCase):
         for changed in (event.replace('":1','":true'),event.replace('":1','":1.0')):
             with self.assertRaises(ValueError):r.check_history(p,head+changed)
 
+    def generated(self):
+        return {'event_id':'G-start', 'writer':'teach', 'event_type':'attempt_started',
+                'attempt_id':'A-G', 'item_id':'G1', 'item_version':1,
+                'objective_id':'O1', 'objective_revision':1, 'criterion_version':'C1',
+                'plan_version':'P1', 'source_version':'V1', 'ingestion_revision':1,
+                'item_origin':'teach_generated', 'item_text':'Solve 2x=6 and justify.',
+                'task_relation':'parallel_variant',
+                'item_contract':{'prompt':'Solve 2x=6 and justify.',
+                  'solution':'Divide both sides by nonzero 2: x=3. Check 2*3=6.',
+                  'component_ids':['procedure','reason'], 'item_role':'independent',
+                  'task_relation':'parallel_variant', 'source_basis':['lesson O1 linear equation method'],
+                  'verification':'Substitution gives 6=6; nonzero divisor and criteria checked.',
+                  'rubric':{'components':{'procedure':'x=3', 'reason':'same nonzero division on each side'},
+                    'outcome_rules':{'pass':'both components correct', 'partial':'one component',
+                                     'fail':'neither component', 'unscorable':'ambiguous criterion'}}}}
+
+    def log(self, *events):
+        return '<!-- uni-teach-log:3 -->\n```json\n{"schema_version":3,"owner":"teach"}\n```\n'+''.join(
+            '```json\n'+json.dumps(event)+'\n```\n' for event in events)
+
+    def generated_result(self, start):
+        return {**{k:v for k,v in start.items() if k not in ('item_contract','item_origin')},
+                'event_id':'G-result','event_type':'attempt_result',
+                'response_evidence':'x=3, divide both sides by 2', 'outcome':'pass'}
+
+    def test_generated_item_commits_before_result_and_preserves_legacy(self):
+        start=self.generated();result=self.generated_result(start)
+        name='learning_log.md';p=self.root/name
+        tx=r.commit(self.root,'teach',{name:self.log(start)},{name:None},'T-start')
+        self.assertTrue(r.verify(self.root,'teach',tx,[name]))
+        tx=r.commit(self.root,'teach',{name:self.log(start,result)},{name:r.digest(p)},'T-answer')
+        self.assertTrue(r.verify(self.root,'teach',tx,[name]))
+        self.assertEqual(r.events(p.read_text())[0]['item_contract'],start['item_contract'])
+        legacy=self.root/'legacy';legacy.write_text('Old manually recorded history\n')
+        r.check_history(legacy,legacy.read_text()+self.log(start))
+
+    def test_generated_item_rejects_missing_key_rubric_or_verification(self):
+        import copy
+        base=self.generated()
+        for field in ('solution','rubric','verification','component_ids','source_basis'):
+            event=copy.deepcopy(base);del event['item_contract'][field]
+            with self.subTest(field=field),self.assertRaises(ValueError):
+                r.check_history(self.root/'learning_log.md',self.log(event))
+        event=copy.deepcopy(base);del event['item_contract']['rubric']['components']['reason']
+        with self.assertRaises(ValueError):r.check_history(self.root/'learning_log.md',self.log(event))
+
+    def test_generated_result_cannot_precede_commit_or_change_contract(self):
+        import copy
+        start=self.generated();result=self.generated_result(start);p=self.root/'learning_log.md'
+        for content in (self.log(start,result),self.log(result,start),self.log({**result,'item_origin':'teach_generated'})):
+            with self.assertRaises(ValueError):r.check_history(p,content)
+        p.write_text(self.log(start))
+        for field,value in (('criterion_version','new standard'),('item_version',True),
+                            ('item_text','different question'),('objective_id','O2'),('attempt_id','wrong-attempt')):
+            changed={**result,field:value}
+            with self.subTest(field=field),self.assertRaises(ValueError):r.check_history(p,self.log(start,changed))
+        changed={**result,'item_contract':{**start['item_contract'],'solution':'x=4'}}
+        with self.assertRaises(ValueError):r.check_history(p,self.log(start,changed))
+        changed=copy.deepcopy(start);changed['item_contract']['solution']='x=4'
+        with self.assertRaises(ValueError):r.check_history(p,self.log(changed,result))
+
+    def test_generated_identity_reuse_requires_identical_contract(self):
+        import copy
+        start=self.generated();p=self.root/'learning_log.md';p.write_text(self.log(start))
+        same={**start,'event_id':'G-start2','attempt_id':'A-G2'}
+        r.check_history(p,self.log(start,same))
+        changed=copy.deepcopy(same);changed['item_contract']['solution']='changed'
+        with self.assertRaises(ValueError):r.check_history(p,self.log(start,changed))
+        with self.assertRaises(ValueError):r.check_history(p,self.log(start,{**same,'attempt_id':start['attempt_id']}))
+
 if __name__=='__main__':unittest.main()

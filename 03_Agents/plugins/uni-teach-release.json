@@ -2,16 +2,16 @@
   "plugin_id": "plugins_6ac1489d78a0819184b4e8340d8c61cd",
   "name": "uni-teach",
   "description": "Course-note ingestion, planning, tutoring, and spaced recall for the Uni Obsidian vault.",
-  "version": "0.4.0",
-  "current_release_id": "pluginrel_6aca8f6ed03c8191895f46a6462cd80c",
+  "version": "0.5.0",
+  "current_release_id": "pluginrel_6ad3c797f42881918a7159e6b8bd014a",
   "scope": "USER",
   "discoverability": "PRIVATE",
   "plugin_url": "https://chatgpt.com/plugins/plugins_6ac1489d78a0819184b4e8340d8c61cd",
   "display_name": "University Assistant",
-  "previous_release_id": "pluginrel_6aca4d8fd8a4819182e216ece93f0fc5",
-  "archive": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach-0.4.0.zip",
+  "previous_release_id": "pluginrel_6aca8f6ed03c8191895f46a6462cd80c",
+  "archive": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach-0.5.0.zip",
   "archive_kind": "full-package",
-  "archive_sha256": "9edae9c92272a0285a0382805ddfbfb40f9891f69c2a8ce7c6679bcdb1e6a9bd",
+  "archive_sha256": "0354af29c21198c254cdd76ed6ccfaca6d7f28422985942d005dd7af532cbb5c",
   "canonical_skill_sources": {
     "ingest": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/ingest",
     "plan": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plan",
@@ -19,15 +19,16 @@
     "recall": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/recall"
   },
   "packaging_source": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach",
-  "published_on": "2026-10-10",
-  "verification": "Guarded update to the existing USER/PRIVATE University Assistant plugin succeeded. All 40 source files read back: 39 byte-identical, compatibility manifest JSON-equivalent. Prior identity, audience, presentation/default prompts/assets and unchanged templates/utilities preserved. Canonical and generated 14 model-role configurations and four skills match, with checkout-independent inventory. Independent Sol High engineering review rechecked final repaired content with no material findings; Astra initial design review completed but final turn hit usage limit. No academic content or learner evidence changed.",
+  "published_on": "2026-10-17",
+  "verification": "Guarded update of the existing USER/PRIVATE University Assistant identity to 0.5.0 succeeded. All41 published files read back:40 byte-identical, compatibility manifest JSON-equivalent. Prior40 files, four skills, identity, audience, presentation/default prompts/assets and existing model defaults preserved. Independent final engineering review: no material findings after two repairs; independent fictional behavioral rehearsal completed. Maintenance22 and recall35 tests pass; five ingest and55 ready lesson transactions verify; vault issue identities unchanged. No academic notes, actual curriculum or learner evidence changed.",
   "observed_cache_versions": [
-    "0.3.2"
+    "0.4.0"
   ],
-  "current_chat_loaded_skill_snapshot": "0.3.2",
+  "current_chat_loaded_skill_snapshot": "0.4.0",
   "host_activation_verified": false,
-  "activation_limitation": "Private backend0.4.0 publication and all40 file readbacks verified. This chat and observed cache retain0.3.2. Refresh the existing plugin and start a new chat for0.4.0; do not edit installed caches. Generated project agent TOML and explicit model/effort routing are present. Native custom-profile activation and end-to-end interactive teaching remain unverified; explicit Luna Medium read-only synthetic draft dispatch completed.",
-  "packaging_validation_limitation": "Inventory uses checkout-relative source_root03_Agents; cross-checkout check, agent collision protection and generated-profile parity tests pass. Configuration contract validation is distinct from runtime native-profile selection and academic quality.",
-  "installed_cache_verified": true,
-  "verified_cache_path": "/Users/slavomirhoricka/.codex/plugins/cache/created-by-me-remote/uni-teach/0.3.2"
+  "activation_limitation": "Backend0.5.0 publication and all41 file readbacks verified. This chat and observed installation cache retain0.4.0. Refresh the existing plugin and start a new chat to load0.5.0. No cache/global configuration edits. Fictional behavioral rehearsal is not a live learner session or proof of native model-role activation.",
+  "packaging_validation_limitation": "Canonical/generated parity37 sources, configuration tests and archive preservation verified. Skill quick_validate.py could not run without PyYAML; Ruby YAML independently parsed all four frontmatters and checked required string fields/description lengths. Independent fictional snapshot structural validation does not establish production persistence or learner outcomes.",
+  "installed_cache_verified": false,
+  "verified_cache_path": null,
+  "publication_worktree_archive": "/Users/slavomirhoricka/.codex/worktrees/uni-lesson-reuse/University_notes/03_Agents/plugins/uni-teach-0.5.0.zip"
 }

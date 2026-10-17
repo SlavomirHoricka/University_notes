@@ -35,6 +35,10 @@ Link `03_Agents/<course_id>/ingestion_state.json` and relevant complete/no-chang
 
 Hash changes require inspecting finished-note meaning before classifying impact. Record additions, missing paths, access errors, anchor movement and uncertainty explicitly. A renamed file with identical bytes can preserve identity only when the match is unique; rename plus edit needs additional evidence. Do not silently advance a baseline while the semantic change is unresolved.
 
+## Lesson content provenance
+
+Map lesson sections to complete reused note passages, adapted passages (with reasons/notation mapping), or plan-created explanations/examples. Include asset dependencies and meaning needed for self-contained delivery. For additional claims record actually consulted authoritative source identity, URL/exact section, verified claim/assumptions and sufficient passage summary; distinguish supplementary explanation from assessed scope. These references support lesson additions; they do not certify original-material ingestion coverage or authorize note edits. Reconciliation checks copied content and affected exercises/dependencies without rewriting unrelated lessons.
+
 ## Prior versions and commit
 
 Link exact prior manifest/definitions under `curriculum_history/<old_plan_version>/`; do not mutate them. The active manifest and plan must share transaction ID, plan/source versions and ingestion revision and have a committed utility journal. Runtime agents compare metadata/state tokens; plan alone hashes and reconciles notes.
