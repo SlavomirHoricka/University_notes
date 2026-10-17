@@ -38,6 +38,16 @@ $$\text{Var}(\bar{X}_n) = \frac{\sigma^2}{n}.$$
 $$E[\bar{X}_n] = \frac{1}{n}\sum_{i=1}^n E[X_i] = \mu.$$
 $$\text{Var}(\bar{X}_n) = \frac{1}{n^2}\sum_{i=1}^n \text{Var}(X_i) = \frac{n\sigma^2}{n^2} = \frac{\sigma^2}{n}.$$
 
+### Standard Error of the Sample Mean
+
+The **standard error** of an estimator is the standard deviation of its sampling distribution: it measures how much the estimator varies across repeated samples. For the i.i.d. finite-variance sample above, taking the square root of $\operatorname{Var}(\bar{X}_n)=\sigma^2/n$ gives
+
+$$\operatorname{SE}(\bar{X}_n)=\frac{\sigma}{\sqrt{n}}.$$
+
+When $\sigma$ is unknown, its usual estimate is $\widehat{\operatorname{SE}}(\bar{X}_n)=S/\sqrt{n}$, with $S$ the sample standard deviation and $n\geq2$. Thus $S$ describes the spread of individual observations, whereas $S/\sqrt{n}$ estimates the sampling spread of their mean. The variance identity requires independence and a common finite variance; it does not require a normal population. Exact normal- and $t$-based confidence intervals add the normal-sample assumption, as described in [[Confidence_Intervals]].
+
+*Source-grounded explanation:* [[00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_07_Random_Samples.pdf#page=4|Lecture 7, Theorem 47, p. 4]] gives the sampling variance; [[00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_09_Interval_Estimation-1.pdf#page=4|Lecture 9, Example 90, p. 4]] and [[00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_09_Interval_Estimation-1.pdf#page=7|Example 92, p. 7]] use $\sigma/\sqrt{n}$ and $S/\sqrt{n}$ in normal-mean inference. The distinction between data spread and sampling spread makes the link from variance to estimator precision explicit.
+
 ### Properties of the Sample Variance
 
 **Unbiasedness:** $E[S^2] = \sigma^2$.

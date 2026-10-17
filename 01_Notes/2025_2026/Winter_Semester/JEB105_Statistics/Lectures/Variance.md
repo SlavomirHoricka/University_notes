@@ -8,7 +8,7 @@ created: 2026-04-19
 
 Parent: [[JEB105_Statistics_main]]
 Source: [[00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_04_Expectations-1.pdf]]
-Related: [[Expected_Value]], [[Covariance_and_Correlation]], [[Standard_Error]], [[Moment_Generating_Function]], [[Measures_of_Dispersion]]
+Related: [[Expected_Value]], [[Covariance_and_Correlation]], [[Sample_Mean_and_Sample_Variance#Standard Error of the Sample Mean|Standard error]], [[Moment_Generating_Function]], [[Measures_of_Dispersion]]
 
 ---
 

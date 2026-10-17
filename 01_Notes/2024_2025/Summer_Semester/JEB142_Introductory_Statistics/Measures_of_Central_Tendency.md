@@ -68,9 +68,11 @@ $$L_p = \frac{p}{100}(n+1)\text{-th ordered value}$$
 
 (with linear interpolation if this is not an integer).
 
+**Calculation conventions:** The formula above is an alternative $(n+1)$-position interpolation convention, not a unique rule for sample percentiles. For interior percentiles $0<p<100$, the lecture instead sets $q=p/100$ (so $0<q<1$) and uses the ordered observations as follows: if $nq$ is not an integer, take $x_{(\lceil nq\rceil)}$; if $nq=k$ is an integer, average $x_{(k)}$ and $x_{(k+1)}$. Both conventions describe sample percentiles, but they can produce different finite-sample values. Use the lecture's convention when reproducing its examples: its salary data give $Q_1=3465$, $Q_3=3600$ and $\mathrm{IQR}=3600-3465=135$. See [[00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_3_Descriptive_Statistics.pdf#page=20|Lecture 3, p. 20 (calculation rule)]] and [[00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_3_Descriptive_Statistics.pdf#page=21|pp. 21–22 (quartiles and IQR)]].
+
 The **quartiles** divide the data into four equal parts:
 - $Q_1 = L_{25}$ (lower quartile / 25th percentile)
 - $Q_2 = L_{50}$ (median)
 - $Q_3 = L_{75}$ (upper quartile / 75th percentile)
 
-Quartiles feed directly into the [[Measures_of_Dispersion#Interquartile Range|interquartile range]] and the box plot in [[Frequency_Distribution_and_Visualization]].
+Quartiles feed directly into the [[Measures_of_Dispersion#2. Interquartile Range (IQR)|interquartile range]] and the box plot in [[Frequency_Distribution_and_Visualization]].
