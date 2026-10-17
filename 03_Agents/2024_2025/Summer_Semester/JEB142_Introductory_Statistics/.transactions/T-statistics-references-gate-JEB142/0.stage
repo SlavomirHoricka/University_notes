@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2024_2025/Summer_Semester/JEB142_Introductory_Statistics",
+  "ingestion_revision": 1,
+  "transaction_id": "T-statistics-references-gate-JEB142",
+  "status": "blocked",
+  "run_id": "20261017T224005+0200_statistics_reference_repairs",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261017T224005+0200_statistics_reference_repairs.md",
+  "updated_at": "2026-10-17T22:40:05.608573+02:00",
+  "finished_notes": [],
+  "affected_note_paths": [
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Data_Types_and_Variables.md",
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Central_Tendency.md",
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Set_Operations_on_Events.md"
+  ],
+  "prior_completed_revision": null,
+  "selected_scope": "Explicit bounded correction/adoption: three identified broken references and only their necessary target context. Source folder: 00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics",
+  "coverage_status": "Blocked; no whole-note/course adoption or readiness.",
+  "unresolved": [
+    "Authorized six-reference repair subset pending edits, independent source review and final validation."
+  ],
+  "prior_plan_paths": []
+}

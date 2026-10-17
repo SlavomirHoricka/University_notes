@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2024_2025/Summer_Semester/JEB142_Introductory_Statistics",
+  "ingestion_revision": 2,
+  "transaction_id": "T-statistics-percentile-boundary-gate-JEB142",
+  "status": "blocked",
+  "run_id": "20261017T224419+0200_statistics_percentile_boundary",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261017T224419+0200_statistics_percentile_boundary.md",
+  "updated_at": "2026-10-17T22:44:19.620829+02:00",
+  "finished_notes": [
+    {
+      "path": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Data_Types_and_Variables.md",
+      "sha256": "429140a101b6b2cbd4053c5a8094c4340cc833b7cf3829a192cb695df9cd7f7b",
+      "headings": [
+        "Data Types and Variables"
+      ],
+      "checked_passages": "Related descriptive-overview link only; body not adopted"
+    },
+    {
+      "path": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Central_Tendency.md",
+      "sha256": "e4e00ed207d8b366d43f7df1687dc31db292d9d5278c5be28ca116ccd6d771f1",
+      "headings": [
+        "Percentiles and Quartiles"
+      ],
+      "checked_passages": "Percentile calculation-conventions qualification, cited lecture quartiles/IQR, and final IQR link; other claims not adopted"
+    },
+    {
+      "path": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Set_Operations_on_Events.md",
+      "sha256": "e2543cab715d89de33b8977bf93c86fe0a12fa9e80df32c17d7430fe195dcf72",
+      "headings": [
+        "Decomposition into Disjoint Events"
+      ],
+      "checked_passages": "Theorem 4 link and its union/intersection target context only; full note not adopted"
+    }
+  ],
+  "affected_note_paths": [
+    "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Central_Tendency.md"
+  ],
+  "prior_completed_revision": 1,
+  "selected_scope": "Explicit bounded correction/adoption: three identified broken references and only their necessary target context. Source folder: 00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics",
+  "coverage_status": "Complete ONLY for listed checked_passages/target context in explicit bounded correction/adoption. Hashes identify whole file bytes but do not certify unlisted headings or whole-note/course coverage.",
+  "unresolved": [
+    "Interior-percentile qualification and independent final check pending."
+  ],
+  "prior_plan_paths": [],
+  "coverage_limits": [
+    "No whole-note or whole-course adoption; unrelated legacy sections and material uninspected.",
+    "No existing curriculum: compatibility/impact handoff to plan, no readiness or learner outcome inferred."
+  ],
+  "independent_checkers": [
+    "/root/statistics_ingest/source_check"
+  ],
+  "prior_passes": [
+    "03_Agents/runtime/ingest/logs/20261017T224005+0200_statistics_reference_repairs.md"
+  ]
+}

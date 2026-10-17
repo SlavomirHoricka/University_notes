@@ -50,6 +50,6 @@ Existing standalone ingest/teach registrations point to their maintained folders
 
 Run the [maintenance commands](scripts/README.md) before and after scoped changes. Preserve `.transactions/` journals and staged bytes: they establish committed record integrity and support recovery. Record verification is distinct from a Git commit and from independent academic review.
 
-The [repository audit](history/2026-10-17-repository-audit/REPORT.md) records remaining protected-note reference issues and absent empty course mirrors. See actual ingestion passes and course bundles for coverage; neither a successful structural check nor a sample validation curriculum certifies readiness or learning.
+The [repository audit](history/2026-10-17-repository-audit/REPORT.md) preserves the cleanup baseline. All six note-reference findings were subsequently [repaired and independently source checked](history/2026-10-17-repository-audit/NOTE_REFERENCE_REPAIRS.md). The two Statistics correction states certify only their listed passages, not whole-note/course adoption. Fresh worktrees may still lack empty course mirrors. See actual ingestion passes and course bundles for coverage; neither a successful structural check nor a sample validation curriculum certifies readiness or learning.
 
 Recall runs on request or after a qualifying committed teach handoff when available. It uses the separate Todoist connector and verified existing projects; this repository installs no watcher or periodic notification service.

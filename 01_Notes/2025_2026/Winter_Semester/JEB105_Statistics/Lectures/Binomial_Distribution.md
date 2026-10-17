@@ -8,7 +8,7 @@ created: 2026-04-19
 
 Parent: [[JEB105_Statistics_main]]
 Source: [[00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Statistics_2025_06_Selected_Families_of_Distributions.pdf]]
-Related: [[Probability_Mass_Function]], [[Expected_Value]], [[Variance]], [[Poisson_Distribution]], [[Normal_Distribution]], [[Bernoulli_Distribution]], [[Binomial_Coefficient]]
+Related: [[Probability_Mass_Function]], [[Expected_Value]], [[Variance]], [[Poisson_Distribution]], [[Normal_Distribution]], [[Probability_Mass_Function#Examples|Bernoulli distribution]], [[Binomial_Coefficient]]
 
 ---
 

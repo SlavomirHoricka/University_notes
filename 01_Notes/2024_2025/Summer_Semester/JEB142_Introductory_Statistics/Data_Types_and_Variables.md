@@ -7,7 +7,7 @@ created: 2026-04-19
 ---
 Parent: [[JEB142_Introductory_Statistics_main]]
 Source: [[00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Introductory_Statistics_2025_2_Data_and_Statistics.pdf]]
-Related: [[Scales_of_Measurement]], [[Descriptive_Statistics_Overview]], [[Frequency_Distribution_and_Visualization]]
+Related: [[Scales_of_Measurement]], [[JEB142_Introductory_Statistics_main#I. Data and Descriptive Statistics|Descriptive statistics overview]], [[Frequency_Distribution_and_Visualization]]
 
 # Data Types and Variables
 

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2025_2026/Winter_Semester/JEB105_Statistics",
+  "ingestion_revision": 1,
+  "transaction_id": "T-statistics-references-complete-JEB105",
+  "status": "complete",
+  "run_id": "20261017T224005+0200_statistics_reference_repairs",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261017T224005+0200_statistics_reference_repairs.md",
+  "updated_at": "2026-10-17T22:43:12.528370+02:00",
+  "finished_notes": [
+    {
+      "path": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Binomial_Distribution.md",
+      "sha256": "149921cf857db0ebd006a7f69be7f52b71189d400ac347faf16e438a7aa032a2",
+      "headings": [
+        "Binomial Distribution"
+      ],
+      "checked_passages": "Related Bernoulli link and Bernoulli/binomial definition context only; other properties not adopted"
+    },
+    {
+      "path": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Variance.md",
+      "sha256": "0512e177bcda190adacc4ad0826bd25bb158875001848234407add3fa4d6c485",
+      "headings": [
+        "Variance"
+      ],
+      "checked_passages": "Related standard-error link only; body not adopted"
+    },
+    {
+      "path": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Sample_Mean_and_Sample_Variance.md",
+      "sha256": "ba41ce087d26ca6b9f6597cbb1d96be44395752b4dd26fb4f751f6f994bd9e21",
+      "headings": [
+        "Properties of the Sample Mean",
+        "Standard Error of the Sample Mean"
+      ],
+      "checked_passages": "Added standard-error section and its finite-variance sample-mean derivation/normal-inference context only"
+    },
+    {
+      "path": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Cumulative_Distribution_Function.md",
+      "sha256": "b712e0bd65431ad60dd3ece8a6e7903fcbcf57210d96d0f32dba61077c83de26",
+      "headings": [
+        "Interpretation",
+        "One-Sample Kolmogorov\u2013Smirnov Test"
+      ],
+      "checked_passages": "Interpretation KS link and entire added one-sample KS subsection only; other CDF sections not adopted"
+    }
+  ],
+  "affected_note_paths": [
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Binomial_Distribution.md",
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Variance.md",
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Cumulative_Distribution_Function.md",
+    "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Sample_Mean_and_Sample_Variance.md"
+  ],
+  "prior_completed_revision": null,
+  "selected_scope": "Explicit bounded correction/adoption: three identified broken references and only their necessary target context. Source folder: 00_Materials/2025_2026/Winter_Semester/JEB105_Statistics",
+  "coverage_status": "Complete ONLY for listed checked_passages/target context in explicit bounded correction/adoption. Hashes identify whole file bytes but do not certify unlisted headings or whole-note/course coverage.",
+  "unresolved": [],
+  "prior_plan_paths": [],
+  "coverage_limits": [
+    "No whole-note or whole-course adoption; unrelated legacy sections and material uninspected.",
+    "No existing curriculum: compatibility/impact handoff to plan, no readiness or learner outcome inferred."
+  ],
+  "independent_checkers": [
+    "/root/statistics_ingest/source_check"
+  ]
+}

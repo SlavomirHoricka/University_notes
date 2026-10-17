@@ -78,4 +78,20 @@ The CDF gives the probability that $X$ does not exceed a given threshold. It pro
 
 - Compute quantiles: $Q(p) = \inf\{x : F(x) \geq p\}$.
 - Define the **probability integral transform**: if $F$ is continuous and strictly increasing, $F(X) \sim U(0,1)$.
-- Compare distributions via the **empirical CDF** in non-parametric tests (see [[Kolmogorov_Smirnov_Test]]).
+- Compare distributions via the **empirical CDF** in non-parametric tests (see [[#One-Sample Kolmogorov–Smirnov Test|Kolmogorov–Smirnov test]]).
+
+### One-Sample Kolmogorov–Smirnov Test
+
+How can we compare an observed sample with a proposed distribution? For an i.i.d. sample $X_1,\ldots,X_n$, the **empirical CDF** is the fraction of observations at or below each threshold:
+
+$$F_n(x)=\frac{1}{n}\sum_{i=1}^{n}\mathbf{1}\{X_i\leq x\}.$$
+
+Here $\mathbf{1}\{X_i\leq x\}$ equals 1 when the condition holds and 0 otherwise. Unlike a specified population CDF, $F_n$ varies with the sample. To test $H_0:F=F_0$ against $H_1:F\neq F_0$, the one-sample **Kolmogorov–Smirnov statistic** measures the largest vertical discrepancy:
+
+$$D_n=\sup_{x\in\mathbb{R}}|F_n(x)-F_0(x)|.$$
+
+A large discrepancy is evidence against $H_0$. For a **continuous, fully specified** $F_0$ and i.i.d. observations, $\sqrt{n}D_n$ has a limiting null distribution that does not depend on $F_0$. The large-sample test rejects when this scaled distance exceeds the corresponding upper-tail critical value. This explains why a CDF can be used for a goodness-of-fit test without reducing the comparison to a mean or variance.
+
+The usual calibration above does **not** apply unchanged when parameters of $F_0$ are estimated from the same sample, or when the null distribution is discrete. In particular, fitting a normal mean and variance first does not justify using the standard fully specified-null critical values.
+
+*Local textbook supplementation:* Niewiadomska-Bugaj and Bartoszyński, *Probability and Statistical Inference*, 3rd ed. (2021), [[00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-479-501.pdf#page=2|§14.2, printed p. 468 (PDF p. 2)]] defines the empirical CDF; [[00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/Textbook_Chapters/Textbook-479-501.pdf#page=5|§14.3, printed pp. 471–472 (PDF pp. 5–6)]] gives the one-sample statistic, continuous-null asymptotic calibration and fitted-parameter warning.

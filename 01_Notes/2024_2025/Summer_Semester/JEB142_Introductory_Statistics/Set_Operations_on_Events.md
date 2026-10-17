@@ -65,7 +65,7 @@ Partitions are central to the total probability formula (see [[Total_Probability
 Any union of events can be rewritten as a union of **disjoint** events:
 $$A_1 \cup A_2 \cup \cdots = A_1 \cup (A_1^c \cap A_2) \cup (A_1^c \cap A_2^c \cap A_3) \cup \cdots$$
 
-Each term $B_i = A_1^c \cap \cdots \cap A_{i-1}^c \cap A_i$ is the event "$A_i$ is the first event in the sequence to occur". This decomposition is used in the proof of the inclusion-exclusion principle ([[Kolmogorov_Axioms#Inclusion-Exclusion Principle|Theorem 4]]).
+Each term $B_i = A_1^c \cap \cdots \cap A_{i-1}^c \cap A_i$ is the event "$A_i$ is the first event in the sequence to occur". This decomposition is used in the proof of the inclusion-exclusion principle ([[Kolmogorov_Axioms#Inclusion-Exclusion Principle (Theorem 4)|Theorem 4]]).
 
 ## Practical Exercises
 
