@@ -24,3 +24,9 @@ Ingest owner `/root/statistics_ingest` obtained independent checks from `/root/s
 JEB142 correction revision 2 (`T-statistics-percentile-boundary-complete-JEB142`) and JEB105 correction revision 1 (`T-statistics-references-complete-JEB105`) verify as complete only for the listed passages. Their notes' remaining sections and whole-course coverage were not adopted. No learner evidence, scheduling state or external tasks were created. Curriculum-impact inspection and final integration checks are recorded in the [engineering session](../../runtime/sessions/2026-10-17-statistics-reference-repairs.md).
 
 All six reference/anchor issues are resolved. Fresh worktrees still report nine unrelated empty course mirrors absent because Git does not track empty directories; the two affected courses now have genuine bounded correction records. Structural validation does not certify unrelated academic content or full-course readiness.
+
+## Final validation
+
+The plan owner and fresh independent curriculum-impact reviewer found no affected consumer across all six existing curriculum bundles (67 current plan/manifest/lesson files, 55 ready indexed lessons). No plan version, hash, assessment route or reassessment gate requires a change. Both Statistics courses retain absent curricula; the bounded corrections do not create course readiness.
+
+After integrating latest main, 24 maintenance tests, generated-source parity and whitespace checks pass. Both active correction states, seven note hashes, all 44 journals and 233 staged payload hashes verify. [Final reference output](post_repair_vault_check.json) has no broken link/anchor/metadata category; fresh-checkout empty mirrors remain separately disclosed. Original materials, shared resources, Obsidian settings, skill bodies and existing curricula/learner records remain unchanged.
