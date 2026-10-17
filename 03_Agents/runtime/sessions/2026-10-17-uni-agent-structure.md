@@ -26,3 +26,11 @@
 - PR: https://github.com/SlavomirHoricka/University_notes/pull/16, targeting main.
 - Implementation commit: ea1a3fb. This handoff changes only the session record; all final validated role/configuration/package bytes are unchanged.
 - Ready for merge after confirming the final pushed PR head, current remote base and required CI/review gates. Merge using a normal allowed method, verify actual merged state and remote-main ancestry, fast-forward primary only if clean/on main, then delete this task branch and archive/remove its clean worktree.
+
+## Updated-main integration and final gates
+
+- Main advanced through unrelated repository-navigation PR15 to 82833a50c3e4d06cf8676373aea0a6f8faa0a359 before integration. Merged it into this published branch without rewriting history; package inventory merged automatically and was inspected/validated. No role files changed upstream or during this integration.
+- Revalidation: 24 maintenance tests pass without skips; generated parity passes for all 37 sources at upstream package version 0.5.3; all 228 sentences/configuration values still match current main; all 14 role bodies remain byte-identical to validated implementation ea1a3fb; git diff --check passes. The only task changes relative to updated main are 42 role files, their 14 inventory hashes and this session record.
+- Updated checker baseline is the committed final report from PR15. Issue identities/targets match it exactly: four missing note links, two anchors and eleven absent empty mirrors. PR15 removed the four dead support redirects; this task introduces no issue.
+- Preserve both upstream ZIP snapshots (published 0.5.2 and repository-cleanup 0.5.3), manifests and receipt byte-for-byte relative to updated main. This formatting task updates loose canonical/generated role sources only; neither existing ZIP contains the new role formatting. A future release needs a new version/archive before publication. No synchronizer regeneration was run after integrating upstream metadata.
+- Status remains ready_for_merge for PR16. Require final pushed head/gates before merging; then verify actual integration, synchronize the clean primary and clean only this task branch/worktree.
