@@ -1,6 +1,6 @@
 # University Assistant self-contained lesson reuse
 
-- Status: in_progress
+- Status: ready_for_merge
 - Objective: implement the human-approved ingest/plan/teach boundaries from the completed implementation interview; retain four skills, full ingestion quality and self-contained lessons.
 - Branch: `codex/uni-lesson-reuse`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/uni-lesson-reuse/University_notes`
@@ -26,3 +26,9 @@
 - Observed installation cache/current chat remain0.4.0; backend publication is verified, host reload and a real teaching session are not. Refresh existing plugin/start new chat; never edit installed caches.
 - Refetched origin/main remains base94351f5. Primary clean/on main, behind remote by two prior commits; synchronize only after actual merge and renewed clean check. No other open PRs at inspection.
 - Next: commit only task paths, push/open PR, record ready_for_merge with known PR URL, verify head/CI/protections, merge and verify actual remote state. Preserve worktree if integration blocks.
+
+## Integration handoff — ready_for_merge
+
+- PR: [#12](https://github.com/SlavomirHoricka/University_notes/pull/12), targeting main. Implementation/release receipt commit `6643526`; this handoff adds documentation only and does not change reviewed/published plugin bytes.
+- Validated source/package and actual private release are preserved. No task worktree changes or ignored artifacts remained after the implementation commit. Primary was clean/on main at inspection; recheck before fast-forward.
+- Next: push this handoff, require actual PR head to match the validated implementation plus documentation, inspect CI/review/protection gates, merge by an allowed method and verify merged state/remote main. Then fast-forward clean primary and archive only this managed task worktree/delete its branch. Preserve checkout on any blocker. No merge success is predicted here.
