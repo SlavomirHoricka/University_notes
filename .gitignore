@@ -1,0 +1,7 @@
+# Local operating-system metadata and Python caches.
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local locks are transient; committed transaction journals/stages are retained.
+.learning-write.lock/

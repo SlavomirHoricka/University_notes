@@ -33,3 +33,7 @@
 - Host cache activation remains unverified; observed installed cache is 0.3.0. Do not edit generated installed caches. Refresh the plugin release in the host and start a new chat to load it.
 - The standalone `~/.agents/skills/ingest` registration still targets the legacy vault at inspection time. After confirmed merge and primary synchronization, align only this existing registration with `/Users/slavomirhoricka/Desktop/University_notes/03_Agents/ingest`; preserve other registrations and original materials.
 - PR: https://github.com/SlavomirHoricka/University_notes/pull/4 targeting `main`. Implementation/release artifacts committed as `19daa56`. Status is `ready_for_merge`: independent review and required local checks have passed. Next: confirm this final record commit is the PR head and required remote checks permit integration, merge through an allowed method, verify actual remote merge, and fast-forward the clean primary checkout before registration alignment and branch/worktree cleanup. Preserve the published receipt and archive if integration is blocked; the committed record does not predict merger or cleanup success.
+
+## Archive navigation (2026-10-17)
+
+The original publication path above is dated provenance. Its unchanged release archive is now [uni-teach-0.3.1.zip](../../history/plugin-releases/uni-teach-0.3.1.zip); the [move ledger](../../history/2026-10-17-repository-audit/file_changes.json) records its SHA-256 identity.

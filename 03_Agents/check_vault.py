@@ -1,4 +1,4 @@
-"""Read-only live vault path/heading/block audit; historical/generated copies excluded.
+"""Read-only live vault path/heading/block audit, including root docs and drawings.
 
 Run from any cwd: python3 /absolute/vault/03_Agents/check_vault.py.
 Does not certify academic content or PDF page bounds. Template placeholders skipped.
@@ -19,6 +19,10 @@ def canonical(value):
 
 def excluded(path, root):
     rel = path.relative_to(root).parts
+    # Archive navigation is maintained; archived snapshots are historical data.
+    if rel in {('03_Agents', 'history', 'README.md'),
+               ('03_Agents', 'history', 'plugin-releases', 'README.md')}:
+        return False
     return (any(p.startswith('.') or p == '__pycache__' for p in rel)
             or (rel[0] == '03_Agents' and len(rel) > 1 and rel[1] in {'history', 'plugins'}))
 
@@ -38,21 +42,23 @@ def placeholder(s):
     return '...' in s or bool(re.search(r'<[^>]+>|\{[^}]+\}', s))
 
 
-def audit(root):
+def audit(root, references=None):
     root = Path(root).resolve()
     index = defaultdict(set)
     live = []
-    for folder in ['00_Materials', '01_Notes', '02_Resources', '03_Agents']:
-        for path in (root / folder).rglob('*'):
-            if not path.is_file() or excluded(path, root):
-                continue
-            rel = str(path.relative_to(root))
-            keys = [rel, path.name]
-            if path.suffix == '.md':
-                keys += [rel[:-3], path.stem]
-                live.append(path)
-            for key in keys:
-                index[canonical(key)].add(rel)
+    paths = list(root.glob('*.md'))
+    for folder in ['00_Materials', '01_Notes', '02_Resources', '03_Agents', 'Excalidraw']:
+        paths.extend((root / folder).rglob('*'))
+    for path in paths:
+        if not path.is_file() or excluded(path, root):
+            continue
+        rel = str(path.relative_to(root))
+        keys = [rel, path.name]
+        if path.suffix == '.md':
+            keys += [rel[:-3], path.stem]
+            live.append(path)
+        for key in keys:
+            index[canonical(key)].add(rel)
     missing, ambiguous, malformed, sources, naming = [], [], [], [], []
     agent_missing, markdown_issues, anchors = [], [], []
     total = 0
@@ -67,21 +73,21 @@ def audit(root):
             return None, None
         if not target:
             return {str(path.relative_to(root))}, anchor
-        if target.startswith(('00_Materials/', '01_Notes/', '02_Resources/', '03_Agents/')):
+        if target.startswith(('00_Materials/', '01_Notes/', '02_Resources/', '03_Agents/', 'Excalidraw/')):
             candidates = [root / target]
             if not Path(target).suffix:
                 candidates.append(root / (target + '.md'))
             for candidate in candidates:
-                if candidate.is_file():
+                if candidate.exists():
                     return {str(candidate.resolve())}, anchor
         if markdown:
             candidate = path.parent / target
             if target.startswith('/'):
                 candidate = Path(target)
-            if candidate.is_file():
+            if candidate.exists():
                 return {str(candidate.resolve())}, anchor
             # Obsidian often uses vault-relative Markdown image links.
-            if (root / target).is_file():
+            if (root / target).exists():
                 return {str((root / target).resolve())}, anchor
             return set(), anchor
         direct = path.parent / target
@@ -116,6 +122,9 @@ def audit(root):
                     continue
                 total += 1
                 item = {'file': rel, 'line': number, 'target': raw}
+                if references is not None:
+                    references.append({**item, 'kind': 'markdown' if md else 'wikilink',
+                                       'matches': sorted(hits)})
                 if not hits:
                     (markdown_issues if md else missing if rel.startswith('01_Notes/') else agent_missing).append(item)
                 elif len(hits) > 1:

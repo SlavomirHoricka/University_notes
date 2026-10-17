@@ -1,135 +1,105 @@
 # University Notes
 
-A university study vault for Obsidian, containing course materials, connected study notes, diagrams, and an AI-assisted learning workflow. The academic content spans economics, finance, accounting, statistics, econometrics, mathematics, and related subjects across the 2024–2025, 2025–2026, and 2026–2027 academic years.
+An Obsidian university vault for original course materials, connected study notes, diagrams, and an AI-assisted study workflow. Courses retain their academic year, semester, code and original Unicode names.
 
-## Repository structure
+Open this repository folder as a vault in Obsidian. Course hubs, `[[wikilinks]]`, embedded figures and Excalidraw drawings provide the study navigation. The existing folder layout and Obsidian configuration are preserved.
+
+## Find your way
+
+| I want to… | Start here |
+| --- | --- |
+| Find a course, its notes or materials | [Course map](03_Agents/VAULT_MAP.md) |
+| Browse original lectures, seminars or textbooks | [00_Materials](00_Materials/) |
+| Study connected notes | [01_Notes](01_Notes/), then the course's `<course_folder>_main.md` hub |
+| Find shared references or drawings | [02_Resources](02_Resources/) and [Excalidraw](Excalidraw/) |
+| Use or maintain the learning assistant | [Agent workspace](03_Agents/README.md) |
+| Check what sources were processed | [Ingestion index](03_Agents/runtime/ingest/ingestion_log.md) and its detailed passes |
+| Find maintenance findings or old reports | [History index](03_Agents/history/README.md) |
+
+## Structure
 
 ```text
 University_notes/
-├── app/                   Copyable standalone learning-app source package
-├── 00_Materials/          Original course materials
-│   └── <academic_year>/<semester>/<course>/
-├── 01_Notes/              Study notes, course hubs, and visual assets
-│   └── <academic_year>/<semester>/<course>/
-├── 02_Resources/          Shared reference notes and drawings
-├── 03_Agents/             Learning skills, course records, and maintenance tools
-│   ├── <academic_year>/<semester>/<course>/
-│   ├── ingest/
-│   ├── plan/
-│   ├── teach/
-│   ├── recall/
-│   ├── runtime/
-│   ├── references/
-│   ├── scripts/
-│   ├── plugins/
-│   ├── validation/
-│   └── history/
-├── Excalidraw/            Standalone drawings and workflow diagrams
-├── .obsidian/             Vault settings, plugins, and theme files
-└── .claudian/             Claudian settings
+├── 00_Materials/          Original course sources
+├── 01_Notes/              Study notes, course hubs and assets
+├── 02_Resources/          Shared references and drawings
+├── 03_Agents/             Learning assistant and workflow records
+│   ├── README.md          Workspace navigation
+│   ├── <year>/<semester>/<course>/
+│   │                      Ingestion, curriculum and learner records
+│   ├── ingest/            Canonical source-to-notes skill
+│   ├── plan/              Canonical curriculum-preparation skill
+│   ├── teach/             Canonical teaching/evidence skill
+│   ├── recall/            Canonical review-scheduling skill
+│   ├── agents/            Maintained model-role profiles
+│   ├── references/        Shared lesson, methodology and routing contracts
+│   ├── scripts/           Record, packaging and maintenance utilities
+│   ├── runtime/           Ingestion passes, project mappings and handoffs
+│   ├── plugins/           Generated package and publication receipt
+│   ├── validation/        Fictional contract rehearsals
+│   └── history/           Archived reviews, audits and earlier releases
+├── Excalidraw/            Editable workflow and standalone drawings
+├── .obsidian/             Vault settings, plugins and themes
+├── .claudian/             Claudian settings
+├── .codex/agents/         Generated copies of maintained role profiles
+├── AGENTS.md              Repository instructions for agents
+└── README.md              This entry point
 ```
 
-Course folders use the same year, semester, and course identity across materials, notes, and agent records. Years use names such as `2026_2027`; semesters use `Winter_Semester` or `Summer_Semester`. Course names include their code when known, for example `JEB109_Econometrics_I`, or retain a descriptive name such as `Behavioral_Economics`.
+Materials, notes and course records share the identity `<academic_year>/<semester>/<course>`, for example `2026_2027/Winter_Semester/Comparative_Economics`. Semesters are `Winter_Semester` or `Summer_Semester`. Sources may be organized by week, lecture, seminar or textbook; notes keep their existing course hubs and `assets/` folders. Empty record folders are created only when the workflow needs them.
 
-### 00_Materials — original sources
+The main guidance is deliberately small: this README explains the repository, [AGENTS.md](AGENTS.md) defines agent working rules, and the [workspace README](03_Agents/README.md) points to detailed contracts. Old reviews and release archives belong in history.
 
-[00_Materials](00_Materials/) stores lecture slides, seminar exercises, textbooks, articles, handbooks, and other course documents. Most files are PDFs, with PowerPoint slides, Word documents, and occasional data or image files. Depending on the course, sources are grouped into folders such as `Week_1`, `Lectures`, `Seminars`, `Textbook`, or `Additional_Reading`.
-
-These files provide the source material for the notes. The ingestion workflow reads them and records which sources and sections it covered.
-
-### 01_Notes — study content
-
-[01_Notes](01_Notes/) contains Markdown explanations, definitions, derivations, worked examples, and seminar notes. A course hub named `<course_folder>_main.md` links its topics together. Course `assets/` folders contain figures and tables used by the notes.
-
-The collection includes microeconomics, macroeconomics, statistics, econometrics, financial economics, accounting, international finance, and game theory. The 2026–2027 notes also cover behavioral economics, comparative economics, environmental economics, financial markets and instruments, and mergers and acquisitions. Coverage varies by course; a folder or hub alone does not indicate complete source coverage.
-
-### 02_Resources and Excalidraw — shared references and visuals
-
-[02_Resources](02_Resources/) contains material shared outside the course hierarchy, currently a shareholder activism note and an Excalidraw drawing. [Excalidraw](Excalidraw/) contains standalone drawings, including a learning workflow architecture diagram. Excalidraw files retain their `.excalidraw.md` format.
-
-### Hidden configuration
-
-`.obsidian/` contains vault preferences, workspace state, community plugin files, and the Things theme. The bundled plugins include Dataview, Excalidraw, LaTeX helpers, Omnisearch, and other vault tools. `.claudian/` contains the Claudian settings file.
-
-## 03_Agents — the learning workflow
-
-[03_Agents](03_Agents/) stores both the maintained learning skills and the records produced while using them. Its four stages have separate responsibilities:
+## Study workflow
 
 ```mermaid
 flowchart LR
-    M[Course materials] --> I[ingest]
-    I --> N[Finished notes]
+    M[Original materials] --> I[ingest]
+    I --> N[Checked notes]
     N --> P[plan]
     P --> L[Prepared lessons]
     L --> T[teach]
-    T --> E[Recorded learner evidence]
+    T --> E[Observed learner evidence]
     E --> R[recall]
     R --> D[Todoist review tasks]
     D --> T
 ```
 
-| Skill | Responsibility | Main outputs |
+| Stage | What it does | Records it owns |
 | --- | --- | --- |
-| [ingest](03_Agents/ingest/SKILL.md) | Inspect and verify raw materials; create source-grounded notes and visuals; track coverage and freshness. | Notes and assets in `01_Notes/`, ingestion pass records, and course `ingestion_state.json`. |
-| [plan](03_Agents/plan/SKILL.md) | Turn finished notes into a versioned, executable curriculum with objectives, explanations, practice, answer keys, and assessment criteria. | `learning_plan.md`, `source_manifest.md`, `lessons/`, and `curriculum_history/`. |
-| [teach](03_Agents/teach/SKILL.md) | Run or resume prepared lessons, assess actual answers against prepared criteria, and record session progress. | Course `learning_log.md` containing learner evidence and session state. |
-| [recall](03_Agents/recall/SKILL.md) | Derive review dates from committed learner evidence and synchronize review tasks with verified existing Todoist course projects. | Course `recall_state.json`, shared project mappings, and synchronized review tasks. |
+| [ingest](03_Agents/ingest/SKILL.md) | Reads an exact source scope, writes complete teaching notes, checks coverage and obtains independent source review. | Notes/assets/hubs, ingestion passes and `ingestion_state.json`. |
+| [plan](03_Agents/plan/SKILL.md) | Turns checked finished notes into versioned lessons with explanations, exercises, keys and assessment criteria; obtains independent curriculum review. | `learning_plan.md`, `source_manifest.md`, `lessons/`, `curriculum_history/`. |
+| [teach](03_Agents/teach/SKILL.md) | Runs prepared lessons, assesses actual responses and saves resumable progress. | `learning_log.md`. |
+| [recall](03_Agents/recall/SKILL.md) | Derives review dates from committed evidence and synchronizes owned tasks to verified existing Todoist projects. | `recall_state.json` and the shared project map. |
 
-Planning defines the curriculum; teaching records what the learner actually did; recall schedules reviews from that evidence. Missing or stale source verification returns to ingestion, and a missing or stale lesson plan returns to planning. Completing a task alone does not establish learning.
+Ingestion normally hands off to planning for the affected scope. Teaching needs a matching ready lesson bundle; missing notes or curriculum return to the responsible stage. Recall uses actual recorded evidence. A folder, completed task or elapsed time does not establish coverage or learning.
 
-### Files and folders inside 03_Agents
+Typical requests in a host with the skills registered:
 
-| Path | Contents |
-| --- | --- |
-| `<academic_year>/<semester>/<course>/` | Course records mirroring the academic folder structure. Records are created as the workflow needs them; the presence of notes does not imply a ready curriculum or learner history. |
-| `ingest/`, `plan/`, `teach/`, `recall/` | Canonical skill instructions, templates, references, and skill utilities. |
-| `runtime/ingest/` | Vault-wide ingestion index (`ingestion_log.md`) and individual pass records in `logs/`. |
-| `runtime/recall/` | Verified course-to-Todoist project mappings in `project_map.json`. |
-| `references/` | Learning methodology and plugin documentation. |
-| `scripts/` | Utilities for record handling, plugin packaging, and maintenance checks. |
-| `plugins/uni-teach/` | Generated plugin package built from the canonical skills. Make skill changes in the canonical folders and regenerate the package. |
-| `plugins/uni-teach-release.json` | Release receipt recording the private plugin release and host installation status. |
-| `validation/` | Example curricula and contract rehearsals, separate from real learner evidence. |
-| `history/` and `.backups/` | Archived audits, reviews, migrations, snapshots, and plugin releases. |
-
-Start with the [agent workspace README](03_Agents/README.md). The canonical [master plugin architecture](03_Agents/LEARNING_ARCHITECTURE.md) defines current skill ownership, handoffs, freshness, versions, and record handling, plus the proposed PC-only localhost learning hub and its separation of course content from learner progress. The [vault map](03_Agents/VAULT_MAP.md) provides a dated course inventory, and [naming conventions](03_Agents/NAMING_CONVENTIONS.md) describe how to name new files and folders. Consult current files and ingestion records for changes since the inventory was written.
-
-### Using the skills
-
-With the skills registered in a compatible host, typical requests are:
-
-- `$ingest 00_Materials/<academic_year>/<semester>/<course>/<scope>` — process an exact source folder.
-- `$uni-teach:plan Prepare a learning plan for <full course path>, <topic/scope>` — prepare lessons from completed ingestion notes.
-- `$teach Teach/resume/review <full course path>, <topic>; I have <study budget>` — work through prepared lessons. `$uni-teach:teach` is the plugin equivalent.
+- `$ingest 00_Materials/<year>/<semester>/<course>/<scope>` — process that exact source folder and reconcile the affected plan.
+- `$uni-teach:plan Prepare <full course identity>, <bounded scope>` — prepare lessons from checked notes.
+- `$teach Teach/resume/review <full course identity>, <topic>; I have <budget>` — use prepared lessons. `$uni-teach:teach` is the plugin equivalent.
 - `$uni-teach:recall Synchronize my committed course reviews with Todoist` — synchronize evidence-based reviews with existing course projects.
 
-The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`; root `AGENTS.md` requires isolated tasks to use their selected checkout as the vault root. Some skill and release documentation retains the legacy `/Users/slavomirhoricka/Desktop/Obsidian/Uni` path, which the repository instructions override. Cloning copies the files; verify tool paths and registrations before running a workflow in another checkout. Todoist synchronization also requires the separate Todoist integration and verified project mappings.
+The [architecture](03_Agents/LEARNING_ARCHITECTURE.md) defines ownership, freshness, versions and handoffs. [Lesson content](03_Agents/references/LESSON_CONTENT.md) defines self-contained preparation and bounded teaching additions. Actual course records and pass details establish current scope; the course map is navigation only.
 
-Recall runs on request or after a qualifying teaching handoff when available. The workflow does not install a background watcher. Legacy records remain preserved, while current lesson readiness depends on matching ingestion and curriculum versions.
+## Maintenance
 
-## Opening and maintaining the vault
-
-Open this repository folder as a vault in Obsidian to navigate its internal `[[wikilinks]]`, embedded assets, and drawings. GitHub can display the Markdown files, but Obsidian provides the vault navigation and plugin features.
-
-Run maintenance commands from the repository root:
+Run from the repository root:
 
 ```sh
-# Audit live vault links, source paths, hubs, and course-folder mirrors.
+# Check live local files, links, headings, embeds and course mirrors.
 python3 03_Agents/check_vault.py
 
-# Regenerate the plugin after changing canonical skill sources.
-python3 03_Agents/scripts/sync_plugin.py
+# Run maintenance regressions; Python 3.11+ includes TOML validation.
+python3 -m unittest discover -s 03_Agents/scripts -p 'test_*.py'
 
-# Check whether generated packaging matches its sources.
+# Check generated plugin and role copies against maintained sources.
 python3 03_Agents/scripts/sync_plugin.py --check
 ```
 
-The vault checker reports unresolved references; it does not certify academic accuracy or PDF page bounds. Generating a plugin package is separate from installing or publishing it.
+See the [utility guide](03_Agents/scripts/README.md) for record verification and the [package guide](03_Agents/plugins/README.md) for regeneration and release status. Edit canonical sources; generated packages, project role copies, publication and host activation are separate concerns.
 
-## Standalone learning app
+The [local-reference audit](03_Agents/history/2026-10-17-repository-audit/REPORT.md) documents the remaining pre-existing issues in protected notes and absent empty course mirrors. The checker reports structural problems; it does not certify academic correctness or PDF page bounds.
 
-The app is separated under [app/](app/README.md). Its backend/frontend, engineering plan, profiles and workflow-source fork can be exported without this vault; see [migration instructions](app/MIGRATION.md). The original notes, materials, academic records and canonical skills stay at their existing paths so current Obsidian links and personal skill registrations keep working. App and vault workflows now have separate ownership; they are not synchronized automatically.
-
-The app is a partial engineering checkpoint, not a finished learning tool. [Current implementation state](app/docs/learning-hub/CURRENT_STATE.md) records what works and what remains.
-
-Self-contained lesson preparation follows `03_Agents/references/LESSON_CONTENT.md`. Ingest supplies complete notes; plan reuses full explanations, orders instruction and designs the main exercises/solutions. Teach may answer questions, follow relevant tangents and add checked exercises within unchanged objectives and criteria. Existing curricula migrate on substantive revision; actual learner history remains intact.
+The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`. An isolated task uses its own checkout root for all workflow paths. Historical records may retain older paths as dated provenance. Keep original materials, learner evidence, curriculum history and transaction journals intact. Todoist requires its separate connector; no background watcher is installed by this repository.

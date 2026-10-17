@@ -1,0 +1,96 @@
+{
+  "moves": [
+    {
+      "from": "03_Agents/plugins/uni-teach-0.3.0.zip",
+      "to": "03_Agents/history/plugin-releases/uni-teach-0.3.0.zip",
+      "sha256": "d0bba4558bb8bf42e0439c5bfd39148e57ab7a0055383a491d96186afd70984c"
+    },
+    {
+      "from": "03_Agents/plugins/uni-teach-0.3.1.zip",
+      "to": "03_Agents/history/plugin-releases/uni-teach-0.3.1.zip",
+      "sha256": "55f9d356a903b3ae32c57c8233fea6cf5649b744189b8de7c2c4b625a1f8d7b6"
+    },
+    {
+      "from": "03_Agents/plugins/uni-teach-0.3.2.zip",
+      "to": "03_Agents/history/plugin-releases/uni-teach-0.3.2.zip",
+      "sha256": "abbdab1ffec84312b764f7f2b2687010d53509bcc0a0e127d2170b8289283efe"
+    },
+    {
+      "from": "03_Agents/plugins/uni-teach-0.4.0.zip",
+      "to": "03_Agents/history/plugin-releases/uni-teach-0.4.0.zip",
+      "sha256": "9edae9c92272a0285a0382805ddfbfb40f9891f69c2a8ce7c6679bcdb1e6a9bd"
+    },
+    {
+      "from": "03_Agents/plugins/uni-teach-0.5.0.zip",
+      "to": "03_Agents/history/plugin-releases/uni-teach-0.5.0.zip",
+      "sha256": "0354af29c21198c254cdd76ed6ccfaca6d7f28422985942d005dd7af532cbb5c"
+    },
+    {
+      "from": "03_Agents/plugins/uni-teach-0.5.1.zip",
+      "to": "03_Agents/history/plugin-releases/uni-teach-0.5.1.zip",
+      "sha256": "950c06553e6de7391090e6542b862f632595f4974e36fe96a6e2a8376509b68b"
+    }
+  ],
+  "removed": [
+    {
+      "path": "03_Agents/TEACHING_SKILL_REVIEW.md",
+      "reason": "Unused redirect; full original report remains in history.",
+      "sha256": "b8314fcbb203bf8fbaff9879fa7b9c6f2f0bd42c712f2ae0599e162929fddc80"
+    },
+    {
+      "path": "03_Agents/TEACHING_SKILL_REVIEW_PROMPT.md",
+      "reason": "Unused redirect; full original report remains in history.",
+      "sha256": "b9e2a044d7d32b5071f45ec0af0ccd31d5cba3bfca40fa51a5a495b9d49aa272"
+    },
+    {
+      "path": "03_Agents/STANDARDIZATION_REPORT.md",
+      "reason": "Unused redirect; full original report remains in history.",
+      "sha256": "e5861e86f71463c4330be90df8e51799349360c13ad693242a9225c9fb702e67"
+    },
+    {
+      "path": "03_Agents/runtime/sessions/2026-10-09-learning-hub-architecture.md",
+      "reason": "Redirect targets a component intentionally removed from this repository; contains no substantive session record.",
+      "sha256": "867bc197c91398ca84c85b7744616a79721b9620b29f30c14628a776f1901f4b"
+    },
+    {
+      "path": "03_Agents/runtime/sessions/2026-10-10-hub-technical-plan.md",
+      "reason": "Redirect targets a component intentionally removed from this repository; contains no substantive session record.",
+      "sha256": "5b9b4b6d31627c17f2a8c840286ea341397992e5f6c599f48546636fb421bd2e"
+    },
+    {
+      "path": "03_Agents/runtime/sessions/2026-10-11-hub-implementation.md",
+      "reason": "Redirect targets a component intentionally removed from this repository; contains no substantive session record.",
+      "sha256": "ebdf886e0d9f7c1839344651d8a28aee4ea4362d6b00da96b6554595fda18e0e"
+    },
+    {
+      "path": "03_Agents/runtime/sessions/2026-10-12-hub-repo-separation.md",
+      "reason": "Redirect targets a component intentionally removed from this repository; contains no substantive session record.",
+      "sha256": "3a640d172059bcd9789547fdf96344478faef1748c5ba4fc7e4607c5f4a9befd"
+    },
+    {
+      "path": ".DS_Store",
+      "reason": "Disposable Finder metadata or Python bytecode.",
+      "sha256": "f790d45f70f6b61484d04575f5fe61a2565da553e45dfed585d73b8382d02671"
+    },
+    {
+      "path": "03_Agents/.DS_Store",
+      "reason": "Disposable Finder metadata or Python bytecode.",
+      "sha256": "8925845d28c819f3489906a41fafc2b679440c3b28ece7a743c9493047c09a8a"
+    },
+    {
+      "path": "03_Agents/__pycache__/check_vault.cpython-312.pyc",
+      "reason": "Disposable Finder metadata or Python bytecode.",
+      "sha256": "48d72a26be93d337aeff9d3be713f7ab75cc4658ce91917cfead19f12caebf05"
+    },
+    {
+      "path": "03_Agents/scripts/__pycache__/records.cpython-312.pyc",
+      "reason": "Disposable Finder metadata or Python bytecode.",
+      "sha256": "30a507b42cda90f6bf621999b1479f27842b9ff9f0dfbe86fa30015d3c73edd4"
+    },
+    {
+      "path": "03_Agents/teach/.DS_Store",
+      "reason": "Disposable Finder metadata or Python bytecode.",
+      "sha256": "03f50bf7d6df81aaa35513123d268186fec9e9a0aaa786745b6d90dde44e072f"
+    }
+  ]
+}

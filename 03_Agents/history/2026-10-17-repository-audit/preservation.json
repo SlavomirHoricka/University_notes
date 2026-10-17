@@ -1,0 +1,17 @@
+{
+  "protected_tracked_files_unchanged": 1158,
+  "additional_skill_role_snapshot_transaction_files_compared_to_base": 374,
+  "journals_checked": 38,
+  "staged_payloads_checked": 227,
+  "published_version": "0.5.2",
+  "published_archive_sha256": "ad6dc0dc73902aab9282bcd2e4c48845a37067ca8e3b8292b824bd867c94510b",
+  "prepared_version": "0.5.3",
+  "prepared_archive_entries": 41,
+  "prepared_archive_sha256": "65f8e63ce030674af713192f01a7049a477d0dfb6e3503ec3496eb8f9e6f6132",
+  "archive_moves_verified": 6,
+  "disposable_files_and_redirects_removed": 12,
+  "canonical_skill_bodies_changed": false,
+  "course_records_changed": false,
+  "external_url_checks": false,
+  "academic_content_audit": false
+}

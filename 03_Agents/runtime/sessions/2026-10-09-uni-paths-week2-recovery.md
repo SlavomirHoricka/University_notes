@@ -6,7 +6,7 @@
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/uni-paths-week2-recovery/University_notes`
 - Base: `80204bf464751a67c4003675744d86a1aaa31fc0`, freshly fetched `origin/main`.
 - Primary inspected: clean `main`; no active competing course writer found in available chat inventory. Previous Week 2 work occurred in primary before current worktree policy, with no dedicated checkout/session record. This recovery retains its existing run ID and selected scope; it is not a new ingestion.
-- Authority/prior work: [[03_Agents/runtime/sessions/2026-10-09-learning-hub-architecture]], [[03_Agents/runtime/sessions/2026-10-09-ingest-concept-priorities]], [[03_Agents/runtime/ingest/ingestion_log]], [[03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses]].
+- Authority/prior work: [[03_Agents/runtime/sessions/2026-10-09-ingest-concept-priorities]], [[03_Agents/runtime/ingest/ingestion_log]], [[03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses]].
 - Exact source scope: existing run `20261007T122546+0200_week2_courses`; three `00_Materials/2026_2027/Winter_Semester/{Economics_of_Green_Deal,Econometrics_II,Financial_Markets_Instruments_I}/Week_2` folders and authorized bounded Econometrics `Dump/textbook.pdf` context. All requested sources exist in this Git checkout; originals unchanged, no input copies required.
 - Initial state: Green Deal blocked revision 2; ECOX/FMI complete revision 2 with prior independent reviews recorded. All three plans capture revision 1 and need owning-plan reconciliation. No learner logs, recall tasks or flashcards are authorized or created.
 
