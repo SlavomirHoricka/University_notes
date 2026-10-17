@@ -1,6 +1,6 @@
 # Statistics note-reference repairs
 
-- Status: in_progress
+- Status: ready_for_merge
 - Human scope update: explicitly repair the six note-reference findings despite the earlier protected-folder restriction; correctness takes priority. The override is limited to the identified repairs and their necessary checked context. Original materials and unrelated notes/resources remain unchanged.
 - Branch: `codex/statistics-reference-repairs`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/statistics-reference-repairs/University_notes`
@@ -34,3 +34,9 @@
 - Post-integration: 24 maintenance tests pass without skips; 37-file generated-source parity passes; both active repair states and seven note hashes verify. All 44 committed journals and 233 staged payload hashes verify. Original materials, shared resources, settings, skill bodies and existing curricula/evidence unchanged against integrated main. Whitespace check passes.
 - Final reference evidence is post_repair_vault_check.json beside the historical audit. No broken link/anchor/metadata category; only nine pre-existing absent empty mirrors in this fresh checkout.
 - Next: push/open/attach PR, record ready_for_merge with URL, verify exact final head/gates, merge normally, fast-forward still-clean primary and run its full checker. Preserve evidence and both package ZIPs; archive/remove only the new repair worktree after all owners/reviewers finish. Retain host-protected chat primary checkout.
+
+## Repository integration handoff
+
+- PR: [#17](https://github.com/SlavomirHoricka/University_notes/pull/17), targeting main. Inspected implementation/evidence head e1a74cda19831bcda57c6da548b98b3efe053298 matches the validated branch. Remote base 7a97a927066adfd92a1af672b1009998d3ffe5a1; mergeable/CLEAN, no reported status checks or required review decision. Primary inspected clean/on main.
+- Status: ready_for_merge. All required source and no-op curriculum reviews are final; no material repair-scope findings, locks, pending transactions or blocked requested work remain. This handoff changes only this engineering session; reviewed academic bytes and their tokens remain exact.
+- Next: push this handoff, verify exact final PR head and current remote gates, merge normally and verify actual merged state/remote main. Fast-forward still-clean primary, run its full vault check, then preserve artifacts and remove only the clean repair worktree/branches. Chat primary checkout remains host-protected. No merge or cleanup success is predicted.
