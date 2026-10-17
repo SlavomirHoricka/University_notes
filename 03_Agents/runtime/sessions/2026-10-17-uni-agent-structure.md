@@ -1,6 +1,6 @@
 # University Assistant agent-role structure
 
-- Status: in_progress
+- Status: ready_for_merge
 - Objective: apply the approved six-section structure to all 14 canonical agent-role TOML files, strictly preserving instructions and configuration.
 - Branch: codex/uni-agent-structure
 - Worktree: /Users/slavomirhoricka/.codex/worktrees/uni-agent-structure/University_notes
@@ -20,3 +20,9 @@
 - Vault checker remains exit 1 with exactly the same issue identities/targets: four missing note links, two missing anchors, four session redirects to removed app paths, eleven absent empty course mirrors. No introduced issues. Reports and sentence-preservation tooling remain in /private/tmp/uni-agent-* and /private/tmp/format_uni_roles.py.
 - Published archive remains byte-identical: 0.5.2 SHA256 ad6dc0dc73902aab9282bcd2e4c48845a37067ca8e3b8292b824bd867c94510b. Loose source/generated copies contain this new unreleased formatting; the published archive is intentionally the prior release snapshot. Manifests and release receipt are unchanged. No native host reload or private upload was performed.
 - Remote main refetched before integration and still equals base 4f88aeb5f66c2d77f91b2ae939b8145356b34a01. Next: commit scoped paths, push/open PR, record ready_for_merge with its URL, confirm validated head and gates, merge normally, verify remote main, synchronize clean primary and remove only this task branch/worktree.
+
+## Integration handoff
+
+- PR: https://github.com/SlavomirHoricka/University_notes/pull/16, targeting main.
+- Implementation commit: ea1a3fb. This handoff changes only the session record; all final validated role/configuration/package bytes are unchanged.
+- Ready for merge after confirming the final pushed PR head, current remote base and required CI/review gates. Merge using a normal allowed method, verify actual merged state and remote-main ancestry, fast-forward primary only if clean/on main, then delete this task branch and archive/remove its clean worktree.
