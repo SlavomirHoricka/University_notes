@@ -1,6 +1,6 @@
 # University Assistant supporting-document structure
 
-- Status: in_progress
+- Status: ready_for_merge
 - Objective: apply the human-approved presentation structure to15 supporting references/templates, preserving meaning strictly, all JSON/code examples, metadata order, compatibility redirects and linked headings. Recall JSON remains byte-identical. No course sources, notes, actual curricula, evidence or scheduling state is changed.
 - Branch: `codex/uni-supporting-structure`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/uni-supporting-structure/University_notes`
@@ -20,3 +20,10 @@
 - Prepared archive: `03_Agents/plugins/uni-teach-0.5.2.zip`, SHA256 `ad6dc0dc73902aab9282bcd2e4c48845a37067ca8e3b8292b824bd867c94510b`. The live0.5.1 release receipt is unchanged; no upload or installation/cache change is performed.
 - Vault audit remains exit1 with the same issue identities/targets: four missing note links, two missing note anchors, four session redirects to removed app, eleven absent empty course mirrors. No introduced issues. No course records changed, so course transactions are outside this maintenance pass.
 - Refetched origin/main still matches the base. Primary is clean/on main. Next: commit scoped files, push/open PR, record ready_for_merge with its URL, confirm actual validated PR head/gates, merge normally, verify remote main, fast-forward clean primary and clean only this task worktree/branch.
+
+## Repository integration handoff
+
+- PR: [#14](https://github.com/SlavomirHoricka/University_notes/pull/14), targeting main. Implementation commit `ae47594`; this handoff changes only this session record.
+- All14 final Markdown files and unchanged JSON/skill controls retain the exact independently reviewed content; generated distribution and41-file prepared0.5.2 archive validated. No post-review semantic changes.
+- Refetched main remains baseline39752ba; primary is clean/on main. PR head matches implementation, with no reported required checks/review decision. Require final updated PR head/gates before normal merge; verify actual merge commit on remote main.
+- Next: push this documentation handoff, merge after gates, fast-forward clean primary, verify the exact archive remains available, then archive/remove only this clean task worktree and delete its remote/local branch. Published private plugin and release receipt remain0.5.1;0.5.2 is prepared only.
