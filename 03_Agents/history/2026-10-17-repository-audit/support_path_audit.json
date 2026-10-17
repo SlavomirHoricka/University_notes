@@ -1,0 +1,2269 @@
+{
+  "method": "294 literal path-like spans from supporting prose, with contextual review. Branch/timezone/API names, patterns and transient/record contracts are classified separately from existing filesystem targets. This is a reviewed snapshot, not a general parser.",
+  "summary": {
+    "course_relative_directory_contract": 16,
+    "existing_local_path": 236,
+    "non_filesystem_identifier": 31,
+    "filename_pattern": 1,
+    "qualified_in_final_document": 3,
+    "transient_lock_location": 1,
+    "course_relative_source_scope": 1,
+    "course_relative_asset": 1,
+    "historical_path_with_relocation_annotation": 1,
+    "course_relative_source_file": 1,
+    "skill_relative_path": 2
+  },
+  "paths": [
+    {
+      "file": "README.md",
+      "path": "assets/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "README.md",
+      "path": "lessons/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "README.md",
+      "path": "curriculum_history/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/README.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/README.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/LEARNING_ARCHITECTURE.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/VAULT_MAP.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/VAULT_MAP.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/NAMING_CONVENTIONS.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/NAMING_CONVENTIONS.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/scripts/README.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/README.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "runtime/README.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/README.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "plugins/README.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins/README.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "history/README.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/history/README.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/README.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/README.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/LEARNING_ARCHITECTURE.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/VAULT_MAP.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/VAULT_MAP.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/NAMING_CONVENTIONS.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/NAMING_CONVENTIONS.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/runtime/sessions/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/sessions"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "origin/main",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/plugins/uni-teach/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins/uni-teach"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "03_Agents/runtime/sessions/YYYY-MM-DD-short-task-name.md",
+      "classification": "filename_pattern",
+      "matches": []
+    },
+    {
+      "file": "AGENTS.md",
+      "path": "origin/main",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/runtime/ingest/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/runtime/recall/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/recall"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/references/LEARNING_METHODS.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LEARNING_METHODS.md"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/scripts/sync_plugin.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/sync_plugin.py"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "plugins/uni-teach/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins/uni-teach"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/runtime/sessions/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/sessions"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "history/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/history"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "validation/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/validation"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/agents/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/agents"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": ".codex/agents/",
+      "classification": "existing_local_path",
+      "matches": [
+        ".codex/agents"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "agents/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/agents"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "00_Materials/",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "runtime/ingest/ingestion_log.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest/ingestion_log.md"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "runtime/recall/project_map.json",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/recall/project_map.json"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "validation/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/validation"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "history/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/history"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "03_Agents/runtime/recall/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/recall"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "plugins/uni-teach/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins/uni-teach"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "plugins/uni-teach-release.json",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins/uni-teach-release.json"
+      ]
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "templates/learning_plan.md",
+      "classification": "qualified_in_final_document",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "templates/learning_log.md",
+      "classification": "qualified_in_final_document",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "path": "templates/recall_state.json",
+      "classification": "qualified_in_final_document",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "01_Notes/",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "03_Agents/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "ingest/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/ingest"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "plan/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plan"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "teach/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/teach"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "recall/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/recall"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "agents/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/agents"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": ".codex/agents/",
+      "classification": "existing_local_path",
+      "matches": [
+        ".codex/agents"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "references/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "scripts/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "runtime/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "plugins/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "validation/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/validation"
+      ]
+    },
+    {
+      "file": "03_Agents/README.md",
+      "path": "history/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/history"
+      ]
+    },
+    {
+      "file": "03_Agents/NAMING_CONVENTIONS.md",
+      "path": "03_Agents/runtime/ingest/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest"
+      ]
+    },
+    {
+      "file": "03_Agents/references/PLUGIN_README.md",
+      "path": "references/MODEL_ROUTING.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins/uni-teach/references/MODEL_ROUTING.md",
+        "03_Agents/references/MODEL_ROUTING.md"
+      ]
+    },
+    {
+      "file": "03_Agents/references/PLUGIN_README.md",
+      "path": ".codex/agents/",
+      "classification": "existing_local_path",
+      "matches": [
+        ".codex/agents"
+      ]
+    },
+    {
+      "file": "03_Agents/references/PLUGIN_README.md",
+      "path": "references/LEARNING_METHODS.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins/uni-teach/references/LEARNING_METHODS.md",
+        "03_Agents/references/LEARNING_METHODS.md"
+      ]
+    },
+    {
+      "file": "03_Agents/references/PLUGIN_README.md",
+      "path": "03_Agents/runtime/ingest",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest"
+      ]
+    },
+    {
+      "file": "03_Agents/references/PLUGIN_README.md",
+      "path": "03_Agents/ingest",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/ingest"
+      ]
+    },
+    {
+      "file": "03_Agents/references/PLUGIN_README.md",
+      "path": "03_Agents/scripts/sync_plugin.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/sync_plugin.py"
+      ]
+    },
+    {
+      "file": "03_Agents/references/PLUGIN_README.md",
+      "path": "references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins/uni-teach/references/LESSON_CONTENT.md",
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "03_Agents/references/LEARNING_METHODS.md",
+      "path": "references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "03_Agents/references/LEARNING_METHODS.md",
+      "path": "references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "03_Agents/references/LEARNING_METHODS.md",
+      "path": "Europe/Prague",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/references/MODEL_ROUTING.md",
+      "path": "03_Agents/references/MODEL_ROUTING.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/MODEL_ROUTING.md"
+      ]
+    },
+    {
+      "file": "03_Agents/references/MODEL_ROUTING.md",
+      "path": "references/MODEL_ROUTING.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/MODEL_ROUTING.md"
+      ]
+    },
+    {
+      "file": "03_Agents/references/MODEL_ROUTING.md",
+      "path": "references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "03_Agents/references/MODEL_ROUTING.md",
+      "path": "references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "03_Agents/references/MODEL_ROUTING.md",
+      "path": "03_Agents/agents/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/agents"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "lessons/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "curriculum_history/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "03_Agents/VAULT_MAP.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/VAULT_MAP.md"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "03_Agents/plan/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plan"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "03_Agents/runtime/ingest/ingestion_log.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest/ingestion_log.md"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "runtime/ingest/logs/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest/logs"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "03_Agents/plan/templates/learning_plan.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plan/templates/learning_plan.md"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "03_Agents/runtime/ingest/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "templates/objective_lesson.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plan/templates/objective_lesson.md"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "Europe/Prague",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "Europe/Prague",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "path": "03_Agents/runtime/recall/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/recall"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/templates/source_manifest.md",
+      "path": "03_Agents/runtime/ingest/logs/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest/logs"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/templates/learning_plan.md",
+      "path": "03_Agents/plan/templates/objective_lesson.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plan/templates/objective_lesson.md"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/templates/learning_plan.md",
+      "path": "03_Agents/references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "03_Agents/plan/templates/objective_lesson.md",
+      "path": "03_Agents/references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "lessons/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "curriculum_history/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "03_Agents/runtime/ingest/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest"
+      ]
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "03_Agents/README.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/README.md"
+      ]
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "03_Agents/VAULT_MAP.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/VAULT_MAP.md"
+      ]
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "03_Agents/runtime/ingest/ingestion_log.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest/ingestion_log.md"
+      ]
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "03_Agents/runtime/ingest/.learning-write.lock",
+      "classification": "transient_lock_location",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "03_Agents/runtime/ingest/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest"
+      ]
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "03_Agents/runtime/ingest/ingestion_log.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest/ingestion_log.md"
+      ]
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "Europe/Prague",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "path": "03_Agents/runtime/recall/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/recall"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/ingestion_log.md",
+      "path": "03_Agents/runtime/ingest/logs/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest/logs"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/ingestion_log.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/ingestion_log.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_2",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_2"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/ingestion_log.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/ingestion_log.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
+      "path": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Central_Tendency.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Central_Tendency.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
+      "path": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Set_Operations_on_Events.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Set_Operations_on_Events.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
+      "path": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Data_Types_and_Variables.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Data_Types_and_Variables.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
+      "path": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Binomial_Distribution.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Binomial_Distribution.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
+      "path": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Cumulative_Distribution_Function.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Cumulative_Distribution_Function.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
+      "path": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Variance.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Variance.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261003T142217+0200_behavioral_week1.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261003T142217+0200_behavioral_week1.md",
+      "path": "Comparative_Economics/Week_1",
+      "classification": "course_relative_source_scope",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261003T142217+0200_behavioral_week1.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_2",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_2"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/learning_plan.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/learning_plan.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Financial_Markets_Instruments_I_main.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Financial_Markets_Instruments_I_main.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Bond_Futures_Conversion_Factors_and_Delivery.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Bond_Futures_Conversion_Factors_and_Delivery.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Implied_Repo_Rate_and_Cheapest_to_Deliver.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Implied_Repo_Rate_and_Cheapest_to_Deliver.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Short_Term_Interest_Rate_Futures.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Short_Term_Interest_Rate_Futures.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_2",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_2"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_2/2026_Lecture2_print.pdf",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_2/2026_Lecture2_print.pdf"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "SSR/(T-k-1)",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Econometrics_II_main.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Econometrics_II_main.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Time_Series_OLS_and_Strict_Exogeneity.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Time_Series_OLS_and_Strict_Exogeneity.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Trends_Detrending_and_Seasonality.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Trends_Detrending_and_Seasonality.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p17_error_covariance_matrix.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p17_error_covariance_matrix.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p32_GDP_against_productivity.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p32_GDP_against_productivity.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p33_GDP_over_time.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p33_GDP_over_time.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p34_productivity_over_time.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p34_productivity_over_time.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p35_cases_and_hospital_patients.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/lecture2_p35_cases_and_hospital_patients.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/textbook_ch10_printed347_lag_distribution.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Econometrics_II/assets/textbook_ch10_printed347_lag_distribution.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Optimal_Environmental_Taxation.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Optimal_Environmental_Taxation.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Political_Economy_of_Cost_Benefit_Analysis.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Political_Economy_of_Cost_Benefit_Analysis.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Road_Transport_External_Costs.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Road_Transport_External_Costs.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/US_Environmental_Policy_and_Economic_Principles.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/US_Environmental_Policy_and_Economic_Principles.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_1.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_1.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_2.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_2.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_3.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_3.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Dimensions_Slide39.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Dimensions_Slide39.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Revenue_Slide40.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Revenue_Slide40.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_World_Map_Slide38.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_World_Map_Slide38.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Externality_Optimum_Slide15.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Externality_Optimum_Slide15.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Innovation_MAC_Slide45.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Innovation_MAC_Slide45.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Instrument_Families_Slide31.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Instrument_Families_Slide31.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Positive_Externality_Slide17.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Positive_Externality_Slide17.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Sandmo_Tax_Slide51.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Sandmo_Tax_Slide51.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Tax_and_Permits_Slide46.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Tax_and_Permits_Slide46.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table1_Noise.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table1_Noise.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table2_Air_Pollution.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table2_Air_Pollution.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table3_Accidents.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table3_Accidents.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Transport_Typology.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Transport_Typology.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Figure13_1.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Figure13_1.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_1.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_1.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_2.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_2.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Weak_Double_Dividend_Slide54.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Weak_Double_Dividend_Slide54.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Optimal_Environmental_Taxation.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Optimal_Environmental_Taxation.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Political_Economy_of_Cost_Benefit_Analysis.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Political_Economy_of_Cost_Benefit_Analysis.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Road_Transport_External_Costs.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Road_Transport_External_Costs.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/US_Environmental_Policy_and_Economic_Principles.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/US_Environmental_Policy_and_Economic_Principles.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_1.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_1.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_2.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_2.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_3.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_3.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Dimensions_Slide39.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Dimensions_Slide39.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Revenue_Slide40.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Revenue_Slide40.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_World_Map_Slide38.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_World_Map_Slide38.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Externality_Optimum_Slide15.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Externality_Optimum_Slide15.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Innovation_MAC_Slide45.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Innovation_MAC_Slide45.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Instrument_Families_Slide31.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Instrument_Families_Slide31.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Positive_Externality_Slide17.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Positive_Externality_Slide17.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Sandmo_Tax_Slide51.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Sandmo_Tax_Slide51.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Tax_and_Permits_Slide46.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Tax_and_Permits_Slide46.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table1_Noise.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table1_Noise.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table2_Air_Pollution.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table2_Air_Pollution.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table3_Accidents.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table3_Accidents.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Transport_Typology.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Transport_Typology.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Figure13_1.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Figure13_1.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Figure13_2.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Figure13_2.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_1.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_1.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_2.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_2.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Weak_Double_Dividend_Slide54.png",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Weak_Double_Dividend_Slide54.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "assets/Introduction_slide_06_correlation.png",
+      "classification": "course_relative_asset",
+      "matches": [
+        "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Introduction_slide_06_correlation.png"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_1",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_1"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Data_Types_and_Variables.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Data_Types_and_Variables.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Binomial_Distribution.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Binomial_Distribution.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Cumulative_Distribution_Function.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Cumulative_Distribution_Function.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Variance.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Variance.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Central_Tendency.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Central_Tendency.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "path": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Set_Operations_on_Events.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Set_Operations_on_Events.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-10-uni-model-routing.md",
+      "path": "codex/uni-model-routing",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-10-uni-model-routing.md",
+      "path": "origin/main",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-10-uni-model-routing.md",
+      "path": "03_Agents/agents/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/agents"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-uni-workflow-swimlanes.md",
+      "path": "Excalidraw/University_Assistant_Workflow_Swimlanes.excalidraw.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "Excalidraw/University_Assistant_Workflow_Swimlanes.excalidraw.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-uni-workflow-swimlanes.md",
+      "path": "codex/uni-workflow-swimlanes",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-uni-lesson-reuse.md",
+      "path": "codex/uni-lesson-reuse",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-uni-lesson-reuse.md",
+      "path": "origin/main",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-ingest-concept-priorities.md",
+      "path": "03_Agents/ingest/SKILL.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/ingest/SKILL.md"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-ingest-concept-priorities.md",
+      "path": "codex/ingest-concept-priorities",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-ingest-concept-priorities.md",
+      "path": "origin/main",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-ingest-concept-priorities.md",
+      "path": "03_Agents/plugins/uni-teach-release.json",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins/uni-teach-release.json"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-ingest-concept-priorities.md",
+      "path": "03_Agents/plugins/uni-teach-0.3.1.zip",
+      "classification": "historical_path_with_relocation_annotation",
+      "matches": [
+        "03_Agents/history/plugin-releases/uni-teach-0.3.1.zip"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery.md",
+      "path": "codex/uni-paths-week2-recovery",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery.md",
+      "path": "origin/main",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery.md",
+      "path": "Dump/textbook.pdf",
+      "classification": "course_relative_source_file",
+      "matches": [
+        "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery.md",
+      "path": "origin/main",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery.md",
+      "path": "03_Agents/teach",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/teach"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-repository-navigation-audit.md",
+      "path": "codex/repository-navigation-audit",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-repository-navigation-audit.md",
+      "path": "origin/main",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-repository-navigation-audit.md",
+      "path": "00_Materials/",
+      "classification": "existing_local_path",
+      "matches": [
+        "00_Materials"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-repository-navigation-audit.md",
+      "path": "01_Notes/",
+      "classification": "existing_local_path",
+      "matches": [
+        "01_Notes"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-repository-navigation-audit.md",
+      "path": "02_Resources/",
+      "classification": "existing_local_path",
+      "matches": [
+        "02_Resources"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-repository-instructions.md",
+      "path": "codex/repository-instructions",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-uni-skill-structure.md",
+      "path": "codex/uni-skill-structure",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-uni-skill-structure.md",
+      "path": "origin/main",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-uni-supporting-structure.md",
+      "path": "codex/uni-supporting-structure",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-uni-supporting-structure.md",
+      "path": "origin/main",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-uni-supporting-structure.md",
+      "path": "recall/templates/recall_state.json",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/recall/templates/recall_state.json"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-uni-supporting-structure.md",
+      "path": "03_Agents/plugins/uni-teach-0.5.2.zip",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/plugins/uni-teach-0.5.2.zip"
+      ]
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-uni-supporting-structure.md",
+      "path": "codex/uni-supporting-structure",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "lessons/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "curriculum_history/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "03_Agents/runtime/recall/project_map.json",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/recall/project_map.json"
+      ]
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "03_Agents/recall/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/recall"
+      ]
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "lessons/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "03_Agents/recall/scripts/schedule.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/recall/scripts/schedule.py"
+      ]
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "Europe/Prague",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "hasMore/nextCursor",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "03_Agents/runtime/recall/project_map.json",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/recall/project_map.json"
+      ]
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "03_Agents/runtime/recall/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/recall"
+      ]
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "Europe/Prague",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "Europe/Prague",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "03_Agents/recall/templates/recall_state.json",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/recall/templates/recall_state.json"
+      ]
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "path": "03_Agents/runtime/recall/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/recall"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "lessons/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "curriculum_history/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "03_Agents/VAULT_MAP.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/VAULT_MAP.md"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "03_Agents/teach/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/teach"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "03_Agents/teach/templates/learning_log.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/teach/templates/learning_log.md"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "03_Agents/runtime/ingest/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/ingest"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "Europe/Prague",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "Europe/Prague",
+      "classification": "non_filesystem_identifier",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "03_Agents/teach/templates/learning_log.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/teach/templates/learning_log.md"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "lessons/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "curriculum_history/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "templates/learning_log.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/teach/templates/learning_log.md"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "03_Agents/scripts/records.py",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/scripts/records.py"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "path": "03_Agents/runtime/recall/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/runtime/recall"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/references/RECORDS.md",
+      "path": "03_Agents/history/2026-10-03-audit/original_agents/teach/references/RECORDS.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/history/2026-10-03-audit/original_agents/teach/references/RECORDS.md"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/references/RECORDS.md",
+      "path": "lessons/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/teach/references/RECORDS.md",
+      "path": "curriculum_history/",
+      "classification": "course_relative_directory_contract",
+      "matches": []
+    },
+    {
+      "file": "03_Agents/teach/references/RECORDS.md",
+      "path": "templates/learning_log.md",
+      "classification": "skill_relative_path",
+      "matches": [
+        "03_Agents/teach/templates/learning_log.md"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/references/RECORDS.md",
+      "path": "03_Agents/references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/templates/source_manifest.md",
+      "path": "03_Agents/history/2026-10-03-audit/original_agents/teach/templates/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/history/2026-10-03-audit/original_agents/teach/templates"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/templates/learning_plan.md",
+      "path": "03_Agents/history/2026-10-03-audit/original_agents/teach/templates/",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/history/2026-10-03-audit/original_agents/teach/templates"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/templates/learning_log.md",
+      "path": "references/RECORDS.md",
+      "classification": "skill_relative_path",
+      "matches": [
+        "03_Agents/teach/references/RECORDS.md"
+      ]
+    },
+    {
+      "file": "03_Agents/teach/templates/learning_log.md",
+      "path": "03_Agents/references/LESSON_CONTENT.md",
+      "classification": "existing_local_path",
+      "matches": [
+        "03_Agents/references/LESSON_CONTENT.md"
+      ]
+    }
+  ]
+}

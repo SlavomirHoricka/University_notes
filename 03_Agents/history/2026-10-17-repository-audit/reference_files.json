@@ -1,0 +1,1753 @@
+{
+  "scope": "Live local Markdown and wikilinks, excluding fenced examples, historical snapshot bodies and generated distributions. Includes maintained archive indexes.",
+  "checked_links": 5621,
+  "reference_bearing_files": 433,
+  "files": [
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Budget_Constraint.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Consumer_Surplus_and_Welfare_Measures.md",
+      "wikilink": 14
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Duality.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Endowment_Economy_and_Buying_Selling.md",
+      "wikilink": 16
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Expenditure_Minimization_and_Hicksian_Demand.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Income_and_Substitution_Effects.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Indirect_Utility_Function_and_Roys_Identity.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Intertemporal_Choice.md",
+      "wikilink": 12
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_Microeconomics_I_main.md",
+      "wikilink": 42
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Labor_Supply.md",
+      "wikilink": 12
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Marshallian_Demand.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Preferences_and_Indifference_Curves.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Revealed_Preferences.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Risk_and_Insurance.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Slutsky_Equation.md",
+      "wikilink": 13
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Uncertainty_and_Expected_Utility.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Utility_Function.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/Utility_Maximization_and_Optimal_Choice.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Binomial_Coefficient.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Conditional_Probability.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Counting_Techniques.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Data_Types_and_Variables.md",
+      "wikilink": 7,
+      "missing_target": 1
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Frequency_Distribution_and_Visualization.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Independence_of_Events.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/JEB142_Introductory_Statistics_main.md",
+      "wikilink": 39
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Kolmogorov_Axioms.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Association.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Central_Tendency.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Measures_of_Dispersion.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Probability_Definitions.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Sample_Space_and_Events.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Sampling_Techniques.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Scales_of_Measurement.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Set_Operations_on_Events.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Sigma_Algebra.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/Total_Probability_and_Bayes_Theorem.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/JEB010_Makroekonomie_II_main.md",
+      "wikilink": 31
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Barro_Ricardanska_Ekvivalence.md",
+      "wikilink": 4
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Hospodarska_Politika_a_Debata_Pravidel.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Inflace_a_Hyperinflace.md",
+      "wikilink": 4
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Intertemporalni_a_Intratemporalni_Substituce.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Model_DAD_DAS.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Modely_Agregatni_Nabidky_AS.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Nezamestnanost.md",
+      "wikilink": 4
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Nova_Keynesianska_Ekonomie.md",
+      "wikilink": 4
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Ocekavani_v_Makroekonomii.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Solow_Model_Ekonomickeho_Rustu.md",
+      "wikilink": 4
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Teorie_Investic.md",
+      "wikilink": 4
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Teorie_Realnych_Hospodarskych_Cyklu.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/Lectures/Teorie_Spotreby.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/JEB050_International_Finance_main.md",
+      "wikilink": 30
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/BOP_and_IIP.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/Balassa_Samuelson_Effect.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/DD_AA_Model.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/Exchange_Rate_Types_and_Triangular_Arbitrage.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/Fixed_Exchange_Rates_and_Impossible_Trinity.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/International_Fisher_Effect_and_REER.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/International_Payments_and_SWIFT.md",
+      "wikilink": 3
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/Marshall_Lerner_Condition_and_Swan_Diagram.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/National_Income_Accounting_Open_Economy.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/PPP_and_Big_Mac_Index.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/Policy_in_DD_AA.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/Lectures/UIP_and_CIP.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/JEB109_Econometrics_I_main.md",
+      "wikilink": 37
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Dummy_Variable_Interactions_and_Chow_Test.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Dummy_Variables.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/F_Test_and_Multiple_Restrictions.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Functional_Forms_and_Model_Comparison.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Gauss_Markov_Theorem.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Heteroskedasticity.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Hypothesis_Testing_OLS.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Introduction_to_Econometrics.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Linear_Probability_Model.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/MLR_Assumptions_and_OLS_Unbiasedness.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/OLS_Consistency_and_Asymptotics.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/OLS_Estimator_Simple_Regression.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Omitted_Variable_Bias.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Probability_Theory_Review.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Simple_Linear_Regression.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/Lectures/Variance_of_OLS_Estimator.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/JEB160_Auctions_and_Game_Theory_main.md",
+      "wikilink": 22
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/JEB009_Makroekonomie_I_main.md",
+      "wikilink": 44
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/AD_AS_Model.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/AS_Modely_Agregátní_Nabídky.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/IS_LM_Model.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Keynesianska_Ekonomie_a_Model_Duveru_Vydaje.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Makroekonomicke_Indexy.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Mereni_HDP.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Nabidka_Penez_a_Monetarni_Politika.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Neoklasicky_Model.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Poptavka_po_Penezich.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Solow_Model.md",
+      "wikilink": 4
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Teorie_Investic.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/Lectures/Vymezeni_a_Metody_Makroekonomie.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/JEB027_Finanční_Ekonomie_main.md",
+      "wikilink": 59
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Akcie_a_Oceneni.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Bancni_Regulace_a_Basel.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Blockchain_a_Smart_Kontrakty.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Centralni_Bankovnictvi.md",
+      "wikilink": 15
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Ceska_Narodni_Banka.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Decentralizovane_Finance.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Dluhopisy_a_Oceneni.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/ESG_Finance.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Financni_Instrumenty.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Financni_Trhy.md",
+      "wikilink": 12
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Financni_Vykazy_Banky.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Hospodarska_Politika.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Hypoteza_Efektivnich_Trhu.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Kapitalovy_Trh_a_DEFI.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Komercni_Bankovnictvi.md",
+      "wikilink": 12
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Kryptoaktiva.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Mezinarodni_Finance_JEB027.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Operacni_Riziko.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Penize_a_jejich_Funkce.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Pojistovnictvi.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/ROA_ROE_Analyza.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Urokova_Mira_a_Casova_Hodnota_Penez.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Uvod_do_Financni_Ekonomie.md",
+      "wikilink": 14
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/Lectures/Verejne_Finance.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/JEB044_Financial_Accounting_main.md",
+      "wikilink": 32
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Accounting_Conservatism_and_Contingencies.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Accounting_Framework_and_Financial_Statements.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Accounts_Receivable_and_Credit_Sales.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Accruals_and_Deferrals.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Allowance_for_Uncollectible_Accounts.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Balance_Sheet_Elements.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Double_Entry_Bookkeeping.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Expense_Recognition_and_Matching_Principle.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/FIFO_vs_LIFO_Analysis.md",
+      "wikilink": 3
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Goodwill_and_Mergers_Acquisitions.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Income_Statement_Structure.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Inventory_Cost_Flow_Assumptions.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Minority_Interest.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Revenue_Recognition.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Sales_Returns_and_Allowances.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/Lectures/Statement_of_Cash_Flows.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/JEB105_Statistics_main.md",
+      "wikilink": 106
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Bias_and_MSE.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Binomial_Distribution.md",
+      "wikilink": 9,
+      "missing_target": 1
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Central_Limit_Theorem.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Chi_Squared_Distribution.md",
+      "wikilink": 12
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Conditional_Distribution.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Conditional_Expectation.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Confidence_Intervals.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Convergence_of_Random_Variables.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Covariance_and_Correlation.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Cumulative_Distribution_Function.md",
+      "wikilink": 9,
+      "missing_target": 1
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Expected_Value.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Exponential_Distribution.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/F_Distribution.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Fisher_Information.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Gamma_Distribution.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Generalized_Likelihood_Ratio_Test.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Hypothesis_Testing_Framework.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Independence_of_Random_Variables.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Joint_Distribution.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Law_of_Large_Numbers.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Least_Squares_Estimation.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Marginal_Distribution.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Maximum_Likelihood_Estimation.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Method_of_Moments.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Moment_Generating_Function.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Neyman_Pearson_Lemma.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Normal_Distribution.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Order_Statistics.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Point_Estimation.md",
+      "wikilink": 19
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Poisson_Distribution.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Power_Function.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Probability_Density_Function.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Probability_Mass_Function.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Random_Sample_and_Statistics.md",
+      "wikilink": 14
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Random_Variable.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Rao_Cramer_Lower_Bound.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Sample_Mean_and_Sample_Variance.md",
+      "wikilink": 12
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Standard_Tests_Catalog.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Type_I_and_Type_II_Errors.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/Variance.md",
+      "wikilink": 10,
+      "missing_target": 1
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/p_Value.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/Lectures/t_Distribution.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/JEB108_Microeconomics_II_main.md",
+      "wikilink": 41
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Cost_Curves.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Cost_Minimization.md",
+      "wikilink": 8
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Firm_Supply_Curve.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Industry_Equilibrium.md",
+      "wikilink": 11
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Monopoly.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Oligopoly_Models.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Price_Discrimination.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Production_Technology.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Profit_Maximization_Firm.md",
+      "wikilink": 9
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Lectures/Returns_to_Scale.md",
+      "wikilink": 10
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_12_Collusion.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_13_Bertrand_Differentiated.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_1_2_Technology_Profit_Cost.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_3_Cost_Curves.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_4_Firm_Supply.md",
+      "wikilink": 5
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_5_6_Industry_Equilibrium.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_7_Monopoly.md",
+      "wikilink": 7
+    },
+    {
+      "file": "01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/Seminars/Seminar_8_9_Price_Discrimination_Oligopoly.md",
+      "wikilink": 6
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Behavioral_Economics_main.md",
+      "wikilink": 13
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Behavioral_and_Experimental_Economics.md",
+      "wikilink": 19
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md",
+      "wikilink": 22
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md",
+      "wikilink": 29
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md",
+      "wikilink": 36
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md",
+      "wikilink": 20
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md",
+      "wikilink": 24
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "wikilink": 46
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Comparing_Economic_Systems.md",
+      "wikilink": 41,
+      "markdown": 9
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Course_Organization_and_Week_1_Scope.md",
+      "wikilink": 12
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md",
+      "wikilink": 90
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Econometrics_II_main.md",
+      "wikilink": 41
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Course_Organization_and_Source_Discrepancies.md",
+      "wikilink": 27
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md",
+      "wikilink": 16
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md",
+      "wikilink": 41
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Unbiasedness_Consistency_and_Efficiency.md",
+      "wikilink": 22
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md",
+      "wikilink": 34
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Time_Series_OLS_and_Strict_Exogeneity.md",
+      "wikilink": 32
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Trends_Detrending_and_Seasonality.md",
+      "wikilink": 39
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md",
+      "wikilink": 41
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope.md",
+      "wikilink": 28
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md",
+      "wikilink": 29
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md",
+      "wikilink": 62
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+      "wikilink": 33
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Optimal_Environmental_Taxation.md",
+      "wikilink": 20
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Political_Economy_of_Cost_Benefit_Analysis.md",
+      "wikilink": 30
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Road_Transport_External_Costs.md",
+      "wikilink": 35
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/US_Environmental_Policy_and_Economic_Principles.md",
+      "wikilink": 31
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Financial_Markets_Instruments_I_main.md",
+      "wikilink": 54
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Basis_Convergence_and_Futures_Hedging.md",
+      "wikilink": 30
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Introduction_to_Futures_Seminar_Exercises.md",
+      "wikilink": 32
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Margins_and_Marking_to_Market.md",
+      "wikilink": 34
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Spot_Forward_and_Futures_Contracts.md",
+      "wikilink": 47
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Bond_Futures_Conversion_Factors_and_Delivery.md",
+      "wikilink": 36
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Implied_Repo_Rate_and_Cheapest_to_Deliver.md",
+      "wikilink": 26
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Short_Term_Interest_Rate_Futures.md",
+      "wikilink": 20
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md",
+      "wikilink": 28
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/JEM231_Mergers_and_Acquisitions_main.md",
+      "wikilink": 102
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/Merger.md",
+      "wikilink": 1
+    },
+    {
+      "file": "01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/Takeover.md",
+      "wikilink": 1
+    },
+    {
+      "file": "03_Agents/2025_2026/Summer_Semester/JEB109_Econometrics_I/learning_log.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/2025_2026/Summer_Semester/JEB109_Econometrics_I/learning_plan.md",
+      "markdown": 2
+    },
+    {
+      "file": "03_Agents/2025_2026/Summer_Semester/JEB109_Econometrics_I/source_manifest.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/learning_plan.md",
+      "wikilink": 30
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O001.md",
+      "wikilink": 10
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O002.md",
+      "wikilink": 11
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O003.md",
+      "wikilink": 15
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O004.md",
+      "wikilink": 10
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O005.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O006.md",
+      "wikilink": 10
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O007.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O008.md",
+      "wikilink": 10
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/source_manifest.md",
+      "wikilink": 18
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Comparative_Economics/learning_plan.md",
+      "wikilink": 30
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O001.md",
+      "wikilink": 9
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O002.md",
+      "wikilink": 8
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O003.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O004.md",
+      "wikilink": 7
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O005.md",
+      "wikilink": 7
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O006.md",
+      "wikilink": 7
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md",
+      "wikilink": 11
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O008.md",
+      "wikilink": 11
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Comparative_Economics/source_manifest.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P001/learning_plan.md",
+      "wikilink": 52
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P001/lessons/O001.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P001/lessons/O002.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P001/lessons/O003.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P001/lessons/O004.md",
+      "wikilink": 13
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P001/lessons/O005.md",
+      "wikilink": 13
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P001/lessons/O006.md",
+      "wikilink": 15
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P001/lessons/O007.md",
+      "wikilink": 15
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P001/lessons/O008.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P001/source_manifest.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/learning_plan.md",
+      "wikilink": 62
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/lessons/O001.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/lessons/O002.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/lessons/O003.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/lessons/O004.md",
+      "wikilink": 13
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/lessons/O005.md",
+      "wikilink": 13
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/lessons/O006.md",
+      "wikilink": 15
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/lessons/O007.md",
+      "wikilink": 15
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/lessons/O008.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/source_manifest.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/learning_plan.md",
+      "wikilink": 25
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O001.md",
+      "wikilink": 13
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O003.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O004.md",
+      "wikilink": 13
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md",
+      "wikilink": 13
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md",
+      "wikilink": 15
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O007.md",
+      "wikilink": 15
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O009.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O010.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O011.md",
+      "wikilink": 7
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O012.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O013.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Econometrics_II/source_manifest.md",
+      "wikilink": 18
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P001/learning_plan.md",
+      "wikilink": 15
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P001/lessons/O001.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P001/lessons/O002.md",
+      "wikilink": 13
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P001/lessons/O003.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P001/lessons/O004.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P001/source_manifest.md",
+      "wikilink": 2
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P002/learning_plan.md",
+      "wikilink": 21
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P002/lessons/O001.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P002/lessons/O002.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P002/lessons/O003.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P002/lessons/O004.md",
+      "wikilink": 17
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P002/source_manifest.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/learning_plan.md",
+      "wikilink": 26
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O001.md",
+      "wikilink": 12
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O002.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O003.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O004.md",
+      "wikilink": 17
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O005.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O006.md",
+      "wikilink": 5
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O007.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O008.md",
+      "wikilink": 5
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O009.md",
+      "wikilink": 8
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O010.md",
+      "wikilink": 8
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O011.md",
+      "wikilink": 7
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O012.md",
+      "wikilink": 10
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O013.md",
+      "wikilink": 8
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/source_manifest.md",
+      "wikilink": 33
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P001/learning_plan.md",
+      "wikilink": 36
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P001/lessons/O001.md",
+      "wikilink": 7
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P001/lessons/O002.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P001/lessons/O003.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P001/lessons/O004.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P001/lessons/O005.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P001/lessons/O006.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P001/lessons/O007.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P001/lessons/O008.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P001/source_manifest.md",
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P002/learning_plan.md",
+      "wikilink": 46
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P002/lessons/O001.md",
+      "wikilink": 7
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P002/lessons/O002.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P002/lessons/O003.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P002/lessons/O004.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P002/lessons/O005.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P002/lessons/O006.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P002/lessons/O007.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P002/lessons/O008.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/curriculum_history/P002/source_manifest.md",
+      "wikilink": 16
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/learning_plan.md",
+      "wikilink": 26
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O001.md",
+      "wikilink": 7
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O002.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O003.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O004.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O005.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O006.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O007.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O008.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O009.md",
+      "wikilink": 5
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O010.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O011.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O012.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O013.md",
+      "wikilink": 6
+    },
+    {
+      "file": "03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/source_manifest.md",
+      "wikilink": 27
+    },
+    {
+      "file": "03_Agents/LEARNING_ARCHITECTURE.md",
+      "markdown": 40,
+      "wikilink": 14
+    },
+    {
+      "file": "03_Agents/README.md",
+      "wikilink": 4,
+      "markdown": 13
+    },
+    {
+      "file": "03_Agents/VAULT_MAP.md",
+      "markdown": 51
+    },
+    {
+      "file": "03_Agents/history/README.md",
+      "markdown": 10
+    },
+    {
+      "file": "03_Agents/history/plugin-releases/README.md",
+      "markdown": 11
+    },
+    {
+      "file": "03_Agents/ingest/SKILL.md",
+      "markdown": 62
+    },
+    {
+      "file": "03_Agents/plan/SKILL.md",
+      "markdown": 62
+    },
+    {
+      "file": "03_Agents/plan/templates/learning_plan.md",
+      "markdown": 18
+    },
+    {
+      "file": "03_Agents/plan/templates/objective_lesson.md",
+      "markdown": 48
+    },
+    {
+      "file": "03_Agents/plan/templates/source_manifest.md",
+      "markdown": 12
+    },
+    {
+      "file": "03_Agents/recall/SKILL.md",
+      "markdown": 54
+    },
+    {
+      "file": "03_Agents/recall/references/TODOIST_HARNESS.md",
+      "markdown": 28
+    },
+    {
+      "file": "03_Agents/references/LEARNING_METHODS.md",
+      "markdown": 18
+    },
+    {
+      "file": "03_Agents/references/LESSON_CONTENT.md",
+      "markdown": 22
+    },
+    {
+      "file": "03_Agents/references/MODEL_ROUTING.md",
+      "markdown": 24
+    },
+    {
+      "file": "03_Agents/references/PLUGIN_README.md",
+      "markdown": 14
+    },
+    {
+      "file": "03_Agents/runtime/README.md",
+      "markdown": 6
+    },
+    {
+      "file": "03_Agents/runtime/ingest/ingestion_log.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261003T142217+0200_behavioral_week1.md",
+      "wikilink": 1
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
+      "wikilink": 84
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
+      "wikilink": 28
+    },
+    {
+      "file": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+      "wikilink": 70
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-ingest-concept-priorities.md",
+      "wikilink": 2,
+      "markdown": 2
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-09-uni-workflow-swimlanes.md",
+      "wikilink": 1
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-10-uni-model-routing.md",
+      "wikilink": 2
+    },
+    {
+      "file": "03_Agents/runtime/sessions/2026-10-17-repository-navigation-audit.md",
+      "wikilink": 4
+    },
+    {
+      "file": "03_Agents/scripts/README.md",
+      "markdown": 8
+    },
+    {
+      "file": "03_Agents/teach/SKILL.md",
+      "markdown": 70
+    },
+    {
+      "file": "03_Agents/teach/references/RECORDS.md",
+      "markdown": 26
+    },
+    {
+      "file": "03_Agents/teach/references/WALKTHROUGH.md",
+      "wikilink": 2
+    },
+    {
+      "file": "03_Agents/teach/templates/learning_log.md",
+      "markdown": 20
+    },
+    {
+      "file": "03_Agents/teach/templates/learning_plan.md",
+      "markdown": 2
+    },
+    {
+      "file": "03_Agents/teach/templates/source_manifest.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/README.md",
+      "wikilink": 1,
+      "markdown": 6
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/REHEARSAL.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P001/REHEARSAL.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P001/learning_plan.md",
+      "wikilink": 4,
+      "markdown": 5
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P001/lessons/O001.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P001/lessons/O002.md",
+      "wikilink": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P001/source_manifest.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P002/REHEARSAL.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P002/curriculum_history/P001/learning_plan.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P002/curriculum_history/P001/source_manifest.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P002/learning_plan.md",
+      "wikilink": 4,
+      "markdown": 6
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P002/lessons/O001.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P002/lessons/O002.md",
+      "wikilink": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P002/source_manifest.md",
+      "markdown": 2
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P003/REHEARSAL.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P003/curriculum_history/P001/learning_plan.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P003/curriculum_history/P001/source_manifest.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P003/curriculum_history/P002/learning_plan.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P003/curriculum_history/P002/source_manifest.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P003/learning_plan.md",
+      "wikilink": 4,
+      "markdown": 7
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P003/lessons/O001.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P003/lessons/O002.md",
+      "wikilink": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P003/source_manifest.md",
+      "markdown": 3
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P004/REHEARSAL.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P004/curriculum_history/P001/learning_plan.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P004/curriculum_history/P001/source_manifest.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P004/curriculum_history/P002/learning_plan.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P004/curriculum_history/P002/source_manifest.md",
+      "markdown": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P004/learning_plan.md",
+      "wikilink": 4,
+      "markdown": 7
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P004/lessons/O001.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P004/lessons/O002.md",
+      "wikilink": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/P004/source_manifest.md",
+      "markdown": 3
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/curriculum_history/README.md",
+      "markdown": 2
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/learning_plan.md",
+      "wikilink": 4,
+      "markdown": 7
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/lessons/O001.md",
+      "wikilink": 3
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/lessons/O002.md",
+      "wikilink": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/runtime/ingest/logs/20261003T142217+0200_behavioral_week1.md",
+      "wikilink": 1
+    },
+    {
+      "file": "03_Agents/validation/comparative-institutions/source_manifest.md",
+      "markdown": 3
+    },
+    {
+      "file": "Excalidraw/Learning Workflow Architecture.md",
+      "wikilink": 2
+    },
+    {
+      "file": "Excalidraw/University_Assistant_Workflow_Swimlanes.excalidraw.md",
+      "wikilink": 2
+    },
+    {
+      "file": "README.md",
+      "markdown": 19
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+    "ingestion_revision": 2,
+    "plan_version": "P001",
+    "plan_status": "partial",
+    "ready_indexed_lessons_verified": 8,
+    "locked": false,
+    "pending_transactions": []
+  },
+  {
+    "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+    "ingestion_revision": 1,
+    "plan_version": "P001",
+    "plan_status": "partial",
+    "ready_indexed_lessons_verified": 8,
+    "locked": false,
+    "pending_transactions": []
+  },
+  {
+    "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+    "ingestion_revision": 2,
+    "plan_version": "P003",
+    "plan_status": "partial",
+    "ready_indexed_lessons_verified": 13,
+    "locked": false,
+    "pending_transactions": []
+  },
+  {
+    "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+    "ingestion_revision": 2,
+    "plan_version": "P003",
+    "plan_status": "partial",
+    "ready_indexed_lessons_verified": 13,
+    "locked": false,
+    "pending_transactions": []
+  },
+  {
+    "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+    "ingestion_revision": 2,
+    "plan_version": "P003",
+    "plan_status": "ready",
+    "ready_indexed_lessons_verified": 13,
+    "locked": false,
+    "pending_transactions": []
+  }
+]

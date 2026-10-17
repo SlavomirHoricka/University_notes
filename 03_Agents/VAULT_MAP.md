@@ -1,60 +1,45 @@
 # Vault map
 
-Filesystem verified 2026-10-03. Navigation only; note counts and existing files do not prove coverage or learning.
+Filesystem inventory checked 2026-10-17. Paths and Markdown file counts are navigation data; they do not establish source coverage, academic accuracy or learner progress. Counts include course hubs. Missing empty folders in fresh Git checkouts are not fabricated here.
 
-- `00_Materials/<year>/<semester>/<course>/`: user-owned raw sources.
-- `01_Notes/<year>/<semester>/<course>/`: course notes, hubs and assets.
-- `02_Resources/`: shared resources.
-- `03_Agents/<year>/<semester>/<course>/`: mirrored course runtime records; exclusive owners in [[03_Agents/LEARNING_ARCHITECTURE]].
-- `03_Agents/{ingest,plan,teach,recall}/`: canonical maintained skills.
-- `03_Agents/runtime/ingest/`: ingestion index and pass records.
-- `03_Agents/history/`: historical reviews, migration/audit results and releases.
-- `03_Agents/validation/`: sample curriculum and contract rehearsals, never learner outcomes.
+- [Original materials](../00_Materials/): user-owned sources.
+- [Study notes](../01_Notes/): explanations, course hubs and assets.
+- [Shared resources](../02_Resources/) and [drawings](../Excalidraw/).
+- [Agent workspace](README.md): skills, course records, utilities and history.
+- [Ingestion index](runtime/ingest/ingestion_log.md): exact recorded source scopes and pass outcomes.
 
-## Verified course inventory
+## Course inventory
 
-| Course identity under notes and agent mirror | Markdown notes | Hub | Existing course records |
-|---|---:|---|---|
-| `2024_2025/Summer_Semester/JEB004_Ekonomie_II` | 0 | — | — |
-| `2024_2025/Summer_Semester/JEB006_Matematika_II` | 0 | — | — |
-| `2024_2025/Summer_Semester/JEB024_Základy_Soukromého_Práva` | 0 | — | — |
-| `2024_2025/Summer_Semester/JEB046_Účetnictví_I` | 0 | — | — |
-| `2024_2025/Summer_Semester/JEB059_Seminář_Matematické_Analýzy_a_Algebry_II` | 0 | — | — |
-| `2024_2025/Summer_Semester/JEB104_Microeconomics_I` | 18 | `JEB104_Microeconomics_I_main.md` | — |
-| `2024_2025/Summer_Semester/JEB142_Introductory_Statistics` | 18 | `JEB142_Introductory_Statistics_main.md` | — |
-| `2024_2025/Summer_Semester/JLB004_Angličtina_pro_Ekonomy_II` | 0 | — | — |
-| `2024_2025/Summer_Semester/JPB198_Úvod_do_Politologie` | 0 | — | — |
-| `2024_2025/Winter_Semester/JEB005_Matematika_I` | 0 | — | — |
-| `2024_2025/Winter_Semester/JEB023_Úvod_do_Studia_Práva` | 0 | — | — |
-| `2024_2025/Winter_Semester/JEB055_Seminář_k_Aktualitám_I` | 0 | — | — |
-| `2024_2025/Winter_Semester/JEB058_Seminář_Matematické_Analýzy_I` | 0 | — | — |
-| `2024_2025/Winter_Semester/JEB101_Principles_of_Economics_I` | 0 | — | — |
-| `2024_2025/Winter_Semester/JEB111_Advanced_Data_Analysis_in_MS_Excel` | 0 | — | — |
-| `2024_2025/Winter_Semester/JLB003_Angličtina_pro_Ekonomy_I` | 0 | — | — |
-| `2025_2026/Summer_Semester/JEB010_Makroekonomie_II` | 14 | `JEB010_Makroekonomie_II_main.md` | — |
-| `2025_2026/Summer_Semester/JEB029_Matematika_IV` | 0 | — | — |
-| `2025_2026/Summer_Semester/JEB050_International_Finance` | 13 | `JEB050_International_Finance_main.md` | — |
-| `2025_2026/Summer_Semester/JEB109_Econometrics_I` | 17 | `JEB109_Econometrics_I_main.md` | learning_log.md, learning_plan.md, source_manifest.md |
-| `2025_2026/Summer_Semester/JEB154_Bachelors_Thesis_Seminar_I` | 0 | — | — |
-| `2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory` | 1 | `JEB160_Auctions_and_Game_Theory_main.md` | — |
-| `2025_2026/Winter_Semester/JEB009_Makroekonomie_I` | 13 | `JEB009_Makroekonomie_I_main.md` | — |
-| `2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie` | 25 | `JEB027_Finanční_Ekonomie_main.md` | — |
-| `2025_2026/Winter_Semester/JEB033_Matematika_III` | 0 | — | — |
-| `2025_2026/Winter_Semester/JEB044_Financial_Accounting` | 17 | `JEB044_Financial_Accounting_main.md` | — |
-| `2025_2026/Winter_Semester/JEB105_Statistics` | 43 | `JEB105_Statistics_main.md` | — |
-| `2025_2026/Winter_Semester/JEB108_Microeconomics_II` | 19 | `JEB108_Microeconomics_II_main.md` | — |
-| `2025_2026/Winter_Semester/JEB157_Data_Analysis_in_R` | 0 | — | — |
-| `2026_2027/Winter_Semester/Behavioral_Economics` | 0 | — | — |
-| `2026_2027/Winter_Semester/Comparative_Economics` | 4 | `Comparative_Economics_main.md` | — |
-| `2026_2027/Winter_Semester/Econometrics_II` | 0 | — | — |
-| `2026_2027/Winter_Semester/Economics_of_Green_Deal` | 0 | — | — |
-| `2026_2027/Winter_Semester/Financial_Markets_Instruments_I` | 0 | — | — |
-| `2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions` | 4 | `JEM231_Mergers_and_Acquisitions_main.md` | — |
+Full identities preserve academic year, semester, code and Unicode course spelling. The records column quotes current declarations only. Before teaching, verify the applicable ingestion/plan/lesson versions and committed transactions through the owning skill.
 
-## Scope and freshness facts
+| Course identity | Materials | Markdown files / navigation | Existing workflow records |
+| --- | --- | --- | --- |
+| `2024_2025/Summer_Semester/JEB006_Matematika_II` | [sources](../00_Materials/2024_2025/Summer_Semester/JEB006_Matematika_II/) | 0; — | — |
+| `2024_2025/Summer_Semester/JEB104_Microeconomics_I` | [sources](../00_Materials/2024_2025/Summer_Semester/JEB104_Microeconomics_I/) | 18; [hub](../01_Notes/2024_2025/Summer_Semester/JEB104_Microeconomics_I/JEB104_Microeconomics_I_main.md) | — |
+| `2024_2025/Summer_Semester/JEB142_Introductory_Statistics` | [sources](../00_Materials/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/) | 18; [hub](../01_Notes/2024_2025/Summer_Semester/JEB142_Introductory_Statistics/JEB142_Introductory_Statistics_main.md) | — |
+| `2024_2025/Winter_Semester/JEB005_Matematika_I` | [sources](../00_Materials/2024_2025/Winter_Semester/JEB005_Matematika_I/) | 0; — | — |
+| `2025_2026/Summer_Semester/JEB010_Makroekonomie_II` | [sources](../00_Materials/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/) | 14; [hub](../01_Notes/2025_2026/Summer_Semester/JEB010_Makroekonomie_II/JEB010_Makroekonomie_II_main.md) | — |
+| `2025_2026/Summer_Semester/JEB029_Matematika_IV` | [sources](../00_Materials/2025_2026/Summer_Semester/JEB029_Matematika_IV/) | 0; — | — |
+| `2025_2026/Summer_Semester/JEB050_International_Finance` | [sources](../00_Materials/2025_2026/Summer_Semester/JEB050_International_Finance/) | 13; [hub](../01_Notes/2025_2026/Summer_Semester/JEB050_International_Finance/JEB050_International_Finance_main.md) | — |
+| `2025_2026/Summer_Semester/JEB109_Econometrics_I` | [sources](../00_Materials/2025_2026/Summer_Semester/JEB109_Econometrics_I/) | 17; [hub](../01_Notes/2025_2026/Summer_Semester/JEB109_Econometrics_I/JEB109_Econometrics_I_main.md) | [records](2025_2026/Summer_Semester/JEB109_Econometrics_I/); P001 provisional |
+| `2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory` | [sources](../00_Materials/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/) | 1; [hub](../01_Notes/2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory/JEB160_Auctions_and_Game_Theory_main.md) | — |
+| `2025_2026/Winter_Semester/JEB009_Makroekonomie_I` | [sources](../00_Materials/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/) | 13; [hub](../01_Notes/2025_2026/Winter_Semester/JEB009_Makroekonomie_I/JEB009_Makroekonomie_I_main.md) | — |
+| `2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie` | [sources](../00_Materials/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/) | 25; [hub](../01_Notes/2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie/JEB027_Finanční_Ekonomie_main.md) | — |
+| `2025_2026/Winter_Semester/JEB033_Matematika_III` | [sources](../00_Materials/2025_2026/Winter_Semester/JEB033_Matematika_III/) | 0; — | — |
+| `2025_2026/Winter_Semester/JEB044_Financial_Accounting` | [sources](../00_Materials/2025_2026/Winter_Semester/JEB044_Financial_Accounting/) | 17; [hub](../01_Notes/2025_2026/Winter_Semester/JEB044_Financial_Accounting/JEB044_Financial_Accounting_main.md) | — |
+| `2025_2026/Winter_Semester/JEB105_Statistics` | [sources](../00_Materials/2025_2026/Winter_Semester/JEB105_Statistics/) | 43; [hub](../01_Notes/2025_2026/Winter_Semester/JEB105_Statistics/JEB105_Statistics_main.md) | — |
+| `2025_2026/Winter_Semester/JEB108_Microeconomics_II` | [sources](../00_Materials/2025_2026/Winter_Semester/JEB108_Microeconomics_II/) | 19; [hub](../01_Notes/2025_2026/Winter_Semester/JEB108_Microeconomics_II/JEB108_Microeconomics_II_main.md) | — |
+| `2026_2027/Winter_Semester/Behavioral_Economics` | [sources](../00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/) | 6; [hub](../01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Behavioral_Economics_main.md) | [records](2026_2027/Winter_Semester/Behavioral_Economics/); ingest r2 complete; P001 partial |
+| `2026_2027/Winter_Semester/Comparative_Economics` | [sources](../00_Materials/2026_2027/Winter_Semester/Comparative_Economics/) | 5; [hub](../01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md) | [records](2026_2027/Winter_Semester/Comparative_Economics/); ingest r1 complete; P001 partial |
+| `2026_2027/Winter_Semester/Econometrics_II` | [sources](../00_Materials/2026_2027/Winter_Semester/Econometrics_II/) | 8; [hub](../01_Notes/2026_2027/Winter_Semester/Econometrics_II/Econometrics_II_main.md) | [records](2026_2027/Winter_Semester/Econometrics_II/); ingest r2 complete; P003 partial |
+| `2026_2027/Winter_Semester/Economics_of_Green_Deal` | [sources](../00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/) | 9; [hub](../01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md) | [records](2026_2027/Winter_Semester/Economics_of_Green_Deal/); ingest r2 complete; P003 partial |
+| `2026_2027/Winter_Semester/Financial_Markets_Instruments_I` | [sources](../00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/) | 9; [hub](../01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Financial_Markets_Instruments_I_main.md) | [records](2026_2027/Winter_Semester/Financial_Markets_Instruments_I/); ingest r2 complete; P003 ready |
+| `2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions` | — | 4; [hub](../01_Notes/2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions/JEM231_Mergers_and_Acquisitions_main.md) | — |
 
-Comparative Economics Week 1 is covered by the completed ingestion pass linked from [[03_Agents/runtime/ingest/ingestion_log]]. Its historical run ID includes behavioral because the user-supplied folder was originally elsewhere; the actual course identity and authorized relocation are preserved in that pass. Behavioral Economics has no finished notes. Legacy Econometrics I contains a real prior BLUE lesson, plan and source manifest; they are preserved exactly, with partial acquisition and unknown current readiness. No course ingestion-state or recall-state files were invented by this audit.
+## Coverage and history
 
-The old map's assertion that no teaching sessions existed and that teach established source manifests was stale. Plan now owns manifests; ingest owns academic completion. A course without explicit ingestion completion needs adoption/verification, not presumed readiness. User edits outside workflow require explicit plan freshness check.
+Five 2026–2027 courses have complete ingestion state for their recorded bounded scopes: Behavioral Economics, Comparative Economics, Econometrics II, Economics of Green Deal, and Financial Markets and Instruments I. Their existing declarations and exclusions remain in the actual course records; complete bounded ingestion does not mean whole-semester coverage. The [ingestion index](runtime/ingest/ingestion_log.md) links the authoritative pass details.
 
-Four pre-existing missing conceptual targets remain; the expanded checker also identifies two pre-existing note heading links. Academic content repairs belong to ingest with source verification. Run `python3 03_Agents/check_vault.py`; generated packages/history are excluded from live target disambiguation. Unicode NFC/NFD forms compare equivalently; write links with actual filesystem spelling.
+Legacy Econometrics I retains its original plan, manifest and real learning log. Preserve its evidence without promoting it to current schema readiness. Course folders without workflow records are not presumed ready or learned.
+
+The [2026-10-17 audit](history/2026-10-17-repository-audit/REPORT.md) records four existing missing conceptual links and two heading links in protected notes, plus eleven absent empty course mirrors. No academic content or learner record was changed to silence these findings. Historical snapshots and generated distributions stay outside live basename lookup; maintained archive indexes are checked. Unicode NFC/NFD forms compare equivalently.

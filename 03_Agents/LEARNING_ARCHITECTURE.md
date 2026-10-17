@@ -24,12 +24,10 @@
 | Methods and scheduling | [Jump](#methods-and-scheduling) | [Jump](#Methods%20and%20scheduling) |
 | **8. Packaging** | [Jump](#8-packaging) | [Jump](#8.%20Packaging) |
 | Source and generated packaging | [Jump](#source-and-generated-packaging) | [Jump](#Source%20and%20generated%20packaging) |
-| **9. Future proposals** | [Jump](#9-future-proposals) | [Jump](#9.%20Future%20proposals) |
-| Future personal learning hub — proposed, not yet implemented | [Jump](#future-personal-learning-hub--proposed-not-yet-implemented) | [Jump](#Future%20personal%20learning%20hub%20%E2%80%94%20proposed%2C%20not%20yet%20implemented) |
 
 ## 1. Authority and overview
 
-Canonical master overview, inspected 2026-10-10. This existing document owns cross-skill boundaries and storage; the maintained skill bodies own execution details. The current workflow contract below is retained. The future learning hub sections are architectural goals only, **proposed, not yet implemented**; they do not change skill behavior or authorize implementation. Historical reviews describe earlier designs, never current instructions.
+Canonical master overview, inspected 2026-10-17. This document owns cross-skill boundaries and storage; the maintained skill bodies own execution details. Historical reviews describe earlier designs, never current instructions.
 
 Primary vault: `/Users/slavomirhoricka/Desktop/University_notes`. For an isolated task, its actual selected checkout is the vault root, as required by root `AGENTS.md`. All four maintained skill bodies now resolve workflow paths against that selected checkout. Older historical records may retain `/Users/slavomirhoricka/Desktop/Obsidian/Uni` as provenance; it is not a current write destination. The scoped path and Week2 recovery is recorded in [[03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery]].
 
@@ -37,7 +35,7 @@ Private release and host activation are distinguished in [[03_Agents/plugins/uni
 
 ### Authority and current component map
 
-University Assistant is the private plugin with identity `uni-teach`. Inspection of the maintained folders, packaging utility and generated plugin manifest establishes **exactly four current skills**: [[03_Agents/ingest/SKILL|ingest]], [[03_Agents/plan/SKILL|plan]], [[03_Agents/teach/SKILL|teach]] and [[03_Agents/recall/SKILL|recall]]. There is no learning-site skill. Templates, references, scripts, legacy template redirects and validation examples are supporting components, not additional skills.
+University Assistant is the private plugin with identity `uni-teach`. Inspection of the maintained folders, packaging utility and generated plugin manifest establishes **exactly four current skills**: [[03_Agents/ingest/SKILL|ingest]], [[03_Agents/plan/SKILL|plan]], [[03_Agents/teach/SKILL|teach]] and [[03_Agents/recall/SKILL|recall]]. Templates, references, scripts, legacy template redirects and validation examples are supporting components, not additional skills.
 
 This file is the appropriate master location because it already defines shared ownership, handoffs, freshness and storage and is linked by [[03_Agents/README]] and the vault README. Keep this single canonical overview; generated copies do not become maintenance authority.
 
@@ -55,7 +53,7 @@ This file is the appropriate master location because it already defines shared o
 | `03_Agents/runtime/sessions/`, `history/`, `validation/` | Engineering handoffs, preserved history and fictional rehearsals; never learner progress or course readiness. |
 | Todoist connector | External task service used only by recall; not a learning authority. No background watcher is configured by the skills. |
 
-The following map describes the existing workflow. The proposed hub has a separate map below.
+The following map describes the existing workflow.
 
 ```mermaid
 flowchart LR
@@ -271,7 +269,7 @@ Invoke recipient within authorized workflow when available; otherwise return exa
 
 ### Current checks and review points
 
-These are existing repository and skill gates, not new hub integrations:
+These are the repository and skill validation gates:
 
 #### 1. Source → notes
 
@@ -303,7 +301,7 @@ scoped diff, before/after vault audit, applicable owner-transaction verification
 
 ### Inspected runtime state and limits
 
-Snapshot refreshed 2026-10-10 during the scoped recovery from repository base `80204bf`; navigation only, never an ongoing readiness certificate. [[03_Agents/VAULT_MAP]] is dated 2026-10-03 and predates subsequent notes/plans. Current course records and linked pass details remain authoritative. The [[03_Agents/runtime/ingest/ingestion_log|ingestion index]] and [[03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses|existing Week2 detail]] now agree: all three supplied scopes are complete at ingestion revision2.
+Snapshot checked 2026-10-17 during repository maintenance; navigation only, never an ongoing readiness certificate. [[03_Agents/VAULT_MAP]] provides the current filesystem inventory. Course records and linked pass details remain authoritative. The [[03_Agents/runtime/ingest/ingestion_log|ingestion index]] and [[03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses|existing Week2 detail]] now agree: all three supplied scopes are complete at ingestion revision2.
 
 Independently reviewed P003/V002 curricula reconcile their earlier revision1 plans while preserving exact P002 bundles and older history. See [[03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery]] for review identities, repairs and transaction checks.
 
@@ -317,7 +315,7 @@ Independently reviewed P003/V002 curricula reconcile their earlier revision1 pla
 
 The five courses' current ingestion records and all 55 indexed ready lesson bundle transactions verify against their owner journals, with no locks or pending transactions at inspection. The three reconciled curricula passed separate independent reviews of their supported scope. Journal integrity and these bounded reviews do not establish whole-semester/exam coverage or learner mastery.
 
-These courses have no learning logs or recall states in this snapshot. Legacy `2025_2026/Summer_Semester/JEB109_Econometrics_I` retains a provisional P001 plan and actual earlier learner log; preserve them without promoting legacy claims to schema-3 readiness. Validation curricula remain fictional rehearsals. No learner record should be invented to fill a hub dashboard.
+These courses have no learning logs or recall states in this snapshot. Legacy `2025_2026/Summer_Semester/JEB109_Econometrics_I` retains a provisional P001 plan and actual earlier learner log; preserve them without promoting legacy claims to schema-3 readiness. Validation curricula remain fictional rehearsals. No learner record should be invented to fill an empty course directory.
 
 ## 7. Methods and scheduling
 
@@ -341,83 +339,4 @@ Canonical skills remain `03_Agents/{ingest,plan,teach,recall}/SKILL.md`, with th
 
 `plugins/uni-teach/` is generated packaging. Run `python3 03_Agents/scripts/sync_plugin.py`, then `--check` before release. It copies skills, shared references/scripts and architecture, excludes runtime/history/validation/bytecode, verifies manifests/default prompts, and writes `package_inventory.json`. Never edit installed versioned caches. `plugins/uni-teach-release.json` separates confirmed account release and inspected host cache status; publishing does not prove the current chat reloaded it.
 
-One owner per template: plan `templates/learning_plan.md`, `source_manifest.md`, `objective_lesson.md`; teach `templates/learning_log.md`; recall `templates/recall_state.json`. Old teaching planning-template paths are compatibility redirects only. Course records remain `03_Agents/<course_id>/`; no speculative records in empty mirror folders.
-
-## 9. Future proposals
-
-### Future personal learning hub — proposed, not yet implemented
-
-The product goal is **one interactive learning hub for all courses**, presenting checked vault curriculum through a PC browser at `localhost`. Course content, learner evidence, recall scheduling and the presentation layer should remain independently owned and updateable.
-
-The current plugin is a file-based workflow, not a web application; this section defines desired boundaries without choosing a framework, database, server, site generator, deployment setup or API transport.
-
-#### Scope and exclusions
-
-The first version is for one learner on their PC, accessed on that same machine through `localhost`. Localhost access is the intended boundary; access from other machines on a home network is not part of this version. It should show available courses, supported coverage, prepared learning routes and honest readiness/progress states.
-
-“All courses” means a common catalogue and navigation experience, not presumed checked plans for every vault folder. Missing, partial, stale and blocked curriculum must stay visible as such.
-
-Phone access, remote hosting, public access, accounts, cross-device syncing and ChatGPT embedding are explicitly out of scope. Existing recall may still use its separate Todoist connector; the future local hub does not acquire that integration or create a new remote service. Whether a hub view shows already-derived recall context remains an interface decision.
-
-**Flashcards are excluded from this architecture task and the proposed first-version scope.** No flashcard fields, generators, plan/workflow changes or plan revisions are introduced. Existing prepared retrieval and delayed checks remain the current lesson contract. Flashcards could be reconsidered only as a separate future decision.
-
-#### Proposed learning-site skill and component boundaries
-
-**learning-site is proposed, not yet implemented.** Its future purpose would be to maintain the hub's presentation and produce replaceable course views from completed, checked plan bundles. It would consume plan outputs, not create curriculum. No skill file, hub files, prototype, integration or application code is created by this document.
-
-| Proposed component / responsibility | Inputs and permitted future effects | Boundary / owner handoff |
-|---|---|---|
-| **learning-site skill / presentation maintenance** | Read completed plan/manifest/indexed lesson bundles, permitted referenced note/asset content and readiness metadata. Own only future hub presentation and replaceable generated course-view artifacts, whose locations/format are undecided. Report the consumed version and generation/check status. | Cannot edit notes, ingestion records, plans, lessons, history, learner logs, recall state or Todoist. Missing source content → ingest; incomplete lesson contract/version reconciliation → plan. No authority to certify a blocked plan. |
-| **Course-content publication interface** | Expose an internally consistent checked bundle with full course identity, objective/revision/criterion identifiers, plan/source/ingestion versions, transaction provenance, locators, scope/exclusions, dependencies and readiness. Treat these as conceptual interface requirements, not a new record schema. | Plan remains sole curriculum owner. The eventual consumer must obtain a coherent committed snapshot and detect a changed revision; the mechanism and representation remain open. No raw-source re-ingestion or silent semantic rewrite during publication. |
-| **Hub learner-facing interaction** | Navigate course views and prepared routes; display progress returned by its owner; potentially collect an explicit learner action/response for a separately defined teaching interface. | Presentation alone neither teaches/assesses nor commits outcomes. Lesson execution/assessment stays with teach. Any future response submission, feedback/key disclosure and resumable-session bridge needs its own contract before implementation. A UI click is not acquisition. |
-| **Learner-progress persistence boundary** | Retain durable observed evidence/session history independently of regenerated content; supply a read model for the hub. Current authoritative records are teach-owned `learning_log.md`, with journals and old definition tuples. | learning-site does not own progress storage or write the log. Any future storage adapter must preserve teach's logical ownership, append-only evidence and safe writes. Physical storage, adapter ownership and migration strategy are unresolved; no second authoritative progress store is established here. |
-| **Recall view / routing boundary** | If later included, display recall-owned due/reassessment context and route a requested review to teach with its identity and gates. | Recall alone derives dates and owns scheduling/sync decisions and Todoist mutations. The hub must not invent a scheduler or infer results from task state. An invocation mechanism is undecided. |
-
-```mermaid
-flowchart LR
-  P[Plan-owned checked curriculum] --> B[Proposed content publication interface]
-  B --> H[Proposed localhost hub views]
-  E[Teach-owned committed learner evidence] --> V[Proposed progress read interface]
-  V --> H
-  R[Recall-owned review context] -. optional future view .-> H
-  H -. future explicit lesson request or response interface .-> T[Teach execution and assessment]
-  T --> E
-  E --> R
-```
-
-Solid arrows express existing ownership or proposed read flows; dotted arrows are undecided future interfaces. This map is conceptual, not a configured system. The hub and learning-site skill have no write arrow to curriculum, evidence storage or schedules.
-
-#### Content and progress remain separate
-
-| Data class | Authority now | Future hub treatment / update guarantee |
-|---|---|---|
-| Course explanations, objectives, task forms, answer keys, criteria and compatibility/history | Ingest for notes; plan for executable curriculum and immutable earlier definitions | Read-only inputs to publication. Derived course views are replaceable and record exact consumed versions. Learner-facing views must preserve the prepared prompt-before-feedback separation; keys are available only through the eventual teaching presentation contract. |
-| Actual responses, assistance/exposure, assessed outcomes, acquisition/gate evidence and resume state | Teach's committed `learning_log.md`; immutable events plus derived summaries | Durable progress independent of generated course views. Read/display via a separate interface; regeneration must never initialize, overwrite, reset or delete evidence. Absence is unknown/not yet recorded, not failure or mastery. |
-| Due dates, explicit deferrals, policy/version gates, task/sync history | Recall's committed state and verified project mappings | Separate derived scheduling/integration state, displayed with freshness/synchronization status if exposed. A date or completed task is not a learning result. |
-| Presentation preferences or navigation bookmarks, if later needed | Not decided | Keep separate from assessed evidence. A bookmark must not update a plan or create a learner outcome. |
-
-Two invariants guide future design: **updating generated course content must preserve learner progress**, and **recording progress must not edit plans**. Version-qualified stable course/objective identities join the content and progress views without combining their ownership. Preserve historical definitions so old results remain interpretable; plan compatibility mappings or teach's new reassessment resolve changed content, never a site rebuild or automatic regrading.
-
-For example, publishing P002 after P001 would replace the generated course view while retaining P001 attempt events and their definition references. The progress view would show compatibility/reassessment according to the plan and committed new evidence. Conversely, a new response recorded by teach would update the progress view while leaving the published plan bundle unchanged.
-
-If publication fails or a version becomes stale, retain the evidence, mark the affected view unavailable/stale and route the issue to its owner; never reset progress as a repair.
-
-Independent updates need explicit interface versions, compatible identities and failure states. Course publication, progress persistence and recall synchronization have separate commit/recovery boundaries. The future hub should distinguish last displayed state from verified current state and avoid consuming mixed bundles during concurrent writes. The exact snapshot, invalidation and refresh mechanisms are open decisions; no watcher is assumed.
-
-#### Open decisions and next documentation step
-
-No relevant hub technology decision was found in the maintained architecture, skill instructions, references or current session records. Existing Markdown/JSON files and `records.py` are current workflow infrastructure, not a selection of a future web stack.
-
-| Open question | Decision needed before implementation |
-|---|---|
-| First-version interaction depth | Does the initial hub navigate/read prepared material and hand off to teach, or support an explicit lesson session bridge? Define response, feedback and key visibility without embedding ChatGPT or taking over assessment. |
-| Checked content interface | Consume canonical files directly or a generated export? Define completed bounded scope, verified snapshot/readiness, schema/contract version, asset/anchor resolution, stale/blocked states and refresh timing. A partial course may expose only its completed checked scope. |
-| Progress persistence and access | Keep vault learner logs as the sole physical authority or add an adapter later? Define logical owner, submission/read interfaces, idempotency, timestamps, lock/conflict handling and preservation of all existing evidence. Avoid two writable authorities. |
-| Revision reconciliation in the hub | Define how views join stable IDs and exact version tuples, display archived/retired objectives and reassessment requirements, and preserve unfinished sessions across publication. Plan still decides compatibility. |
-| Local runtime and packaging | Choose framework, server, storage technology, site/export tooling, port/start-stop behavior and distribution only after interface requirements. Preserve PC-only localhost access and separate regenerable content from durable progress. |
-| Recall exposure | Decide whether due queues are shown locally and how a learner explicitly requests teach/recall; retain the current distinction between intended schedule, synchronized task and assessed review. |
-| Maintenance and verification | Define ownership of future UI/accessibility checks, interface compatibility checks, publication/recovery validation and progress-preservation checks. Source and curriculum checks remain with their current reviewers. |
-
-**Next step:** a separate documentation task should settle first-version interaction depth and write the content-read, progress-read/submit and optional recall-view interface contracts, including version/failure cases and progress-preservation acceptance criteria. Then record any technology choice in a decision document linked here. Neither that next task nor implementation is authorized by this overview.
-
-Skill creation, integration and product development require a later explicit request.
+One owner per template: plan `plan/templates/learning_plan.md`, `plan/templates/source_manifest.md`, `plan/templates/objective_lesson.md`; teach `teach/templates/learning_log.md`; recall `recall/templates/recall_state.json`. Old teaching planning-template paths are compatibility redirects only. Course records remain `03_Agents/<course_id>/`; no speculative records in empty mirror folders.
