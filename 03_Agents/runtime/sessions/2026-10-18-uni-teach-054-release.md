@@ -1,6 +1,6 @@
 # Uni-teach 0.5.4 publication and installation
 
-- Status: in_progress
+- Status: ready_for_merge
 - User request: publish/install the audited 0.5.4 plugin so installed skills match repository sources; commit, merge and clean the release work.
 - Branch: codex/uni-teach-054-release
 - Worktree: /Users/slavomirhoricka/.codex/worktrees/uni-teach-054-release/University_notes
@@ -24,3 +24,9 @@
 - Next: validate receipt/docs links and exact package preservation; commit owned receipt/history/navigation/session paths, push/open/attach PR, record ready_for_merge with URL, verify gates/merge, fast-forward clean primary and clean only this release branch/worktree.
 
 - Final scoped validation: no source/package/role/academic/evidence/settings changes; exact previous receipt preserved. Full package parity and before/after reference issue identities pass (only nine known absent empty mirrors); whitespace and owned-path diff review pass. Existing 70 regression results apply to unchanged package bytes.
+
+## Integration handoff
+
+- PR: https://github.com/SlavomirHoricka/University_notes/pull/19, targeting main. Inspected implementation head f4925fafa698e0eda9dcc6e3cb0f866e2d009e89 matches validated receipt/docs and unchanged audited package. Remote gates are MERGEABLE/CLEAN with no reported status checks or required review decision. Primary is clean/on main.
+- Status: ready_for_merge. Publication and installed-cache/host skill readback succeeded. Scoped documentation/reference checks pass; no source/package mutation followed the successful 70 regressions. No requested release work remains blocked.
+- This final handoff changes only this engineering session. Push and verify final PR head/gates; merge normally and verify actual merged state/remote main. Fast-forward the clean primary and retained chat checkout, run primary navigation/package checks, then delete only this release branch and archive its clean worktree. Existing conversation snapshot remains separately qualified; no merge or cleanup success is predicted.
