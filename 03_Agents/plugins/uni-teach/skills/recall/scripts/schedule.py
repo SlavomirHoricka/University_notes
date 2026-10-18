@@ -183,6 +183,16 @@ def derive_schedule(events: list[dict], current: dict, previous: dict | None = N
         result.update(status="version_gate", kind="reassessment", due_date=prior["due_date"],
                       interval_days=prior.get("interval_days"), supersedes_review_id=prior.get("review_id"))
     resolved = effective_events(events)
+    positions = {}
+    for i, event in enumerate(events):
+        positions.setdefault(event["event_id"], i)
+    replay_boundary = prior.get("replay_after_correction_id")
+    if replay_boundary:
+        # Recovery starts a fresh support chain. Replaying the invalidated old
+        # chain on later runs would ignore the new acquisition as repetition.
+        cutoff = positions.get(replay_boundary, len(events))
+        resolved = [event for event in resolved if positions[event["event_id"]] > cutoff]
+        result["replay_after_correction_id"] = replay_boundary
     facts = {e["event_id"]: e for e in resolved}
     # Appended scoring corrections can refer to an older response instant.
     # Replay observed time, retaining append order for identical instants.
@@ -264,15 +274,49 @@ def derive_schedule(events: list[dict], current: dict, previous: dict | None = N
                       review_id=review_id({**current, **{v: event[v] for v in VERSIONS}}, event["event_id"], "delayed" if success else "reassessment"),
                       last_observed_response_at=stamp)
         result["processed_event_ids"].append(event["event_id"])
+    # A correction is a change to recorded facts, not a newly observed lapse.
+    # If it breaks an outstanding review's support chain, retain that date until
+    # fresh acquisition evidence appended after the correction resolves the gate.
+    anchor = prior.get("evidence_gate_supporting_event_ids", prior.get("supporting_event_ids", []))
+    correction_ids = list(prior.get("evidence_gate_correction_ids", []))
+    affected = set(anchor)
+    for event in events:
+        if (event.get("committed") is True and event.get("event_type") == "correction"
+                and event.get("supersedes_event_id") in affected):
+            affected.add(event["event_id"])
+            if event["event_id"] not in anchor and event["event_id"] not in correction_ids:
+                correction_ids.append(event["event_id"])
+    invalidated = prior.get("status") == "evidence_gate" and bool(correction_ids)
+    if prior.get("status") in {"scheduled", "reassessment_required"} and correction_ids:
+        # Compare the corrected historical chain itself. A genuinely new delayed
+        # lapse after a harmless transcription correction still follows +1 day.
+        end = max((positions[eid] for eid in anchor if eid in positions), default=-1)
+        historical = derive_schedule([event for event in resolved if positions[event["event_id"]] <= end], current)
+        invalidated = any(historical[key] != prior.get(key) for key in ("status", "review_id", "due_date"))
+    if prior.get("due_date") and compatible_tuple(prior, current) and invalidated:
+        cutoff = max((positions[cid] for cid in correction_ids if cid in positions), default=len(events))
+        fresh = [event for event in resolved if positions[event["event_id"]] > cutoff]
+        recovered = derive_schedule(fresh, current) if fresh else None
+        if recovered and recovered["due_date"]:
+            recovered["replay_after_correction_id"] = max(correction_ids, key=lambda cid: positions.get(cid, -1))
+            return recovered
+        result.update(status="evidence_gate", kind="reassessment", due_date=prior["due_date"],
+                      interval_days=prior.get("interval_days"), review_id=prior.get("review_id"),
+                      supporting_event_ids=[], delayed_successes=0,
+                      evidence_gate_supporting_event_ids=anchor,
+                      evidence_gate_correction_ids=correction_ids)
     if prior.get("due_date") and result["due_date"] is None:
         # Corrections/missing history never silently dismiss an outstanding task.
         result.update(status="evidence_gate", kind="reassessment", due_date=prior["due_date"],
-                      interval_days=prior.get("interval_days"), supersedes_review_id=prior.get("review_id"))
+                      interval_days=prior.get("interval_days"), supersedes_review_id=prior.get("review_id"),
+                      review_id=prior.get("review_id"),
+                      evidence_gate_supporting_event_ids=anchor,
+                      evidence_gate_correction_ids=correction_ids)
     return result
 
 
 def task_fields(schedule: dict, course_title: str, objective_title: str, plan_path: str,
-                project_id: str, vault_name: str = "Uni") -> dict:
+                project_id: str, vault_name: str = "University_notes") -> dict:
     """No prompts/keys: references lead to teach's assessed-session workflow."""
     from urllib.parse import quote
     action = "Begin delayed review with teach" if schedule["kind"] == "delayed" else "Begin corrective reassessment with teach"

@@ -124,6 +124,12 @@ class SchedulingTests(unittest.TestCase):
         self.assertEqual((gated["status"], gated["due_date"]), ("version_gate", "2026-10-04"))
         self.assertEqual(prior["source_version"], "V001")
 
+    def test_restored_missing_history_can_resolve_noncorrection_gate(self):
+        prior=s.derive_schedule(self.events,CURRENT)
+        gated=s.derive_schedule([],CURRENT,prior)
+        self.assertEqual(gated['status'],'evidence_gate')
+        self.assertEqual(s.derive_schedule(self.events,CURRENT,gated),prior)
+
     def test_correction_invalidates_unsupported_acquisition(self):
         prior = s.derive_schedule(self.events, CURRENT)
         corrected = {"event_id": "C1", "event_type": "correction", "committed": True,
@@ -132,6 +138,77 @@ class SchedulingTests(unittest.TestCase):
         gated = s.derive_schedule(self.events + [corrected], CURRENT, prior)
         self.assertEqual(gated["status"], "evidence_gate")
         self.assertEqual(gated["due_date"], "2026-10-04")
+
+    def test_correction_to_earlier_delayed_support_keeps_outstanding_date_on_retry(self):
+        events=self.events+[delayed(self.events)]
+        events.append(delayed(events,'D2','2026-10-10T13:00:00+02:00'))
+        prior=s.derive_schedule(events,CURRENT)
+        correction={'event_id':'C1','event_type':'correction','committed':True,'writer':'teach',
+                    'transaction_id':'T-C1','supersedes_event_id':'D1','corrected_fields':{'outcome':'partial'}}
+        events.append(correction)
+        gated=s.derive_schedule(events,CURRENT,prior)
+        self.assertEqual((gated['status'],gated['due_date'],gated['review_id']),('evidence_gate',prior['due_date'],prior['review_id']))
+        self.assertEqual(s.derive_schedule(events,CURRENT,gated),gated)
+        events += [result('A2','2026-10-12T12:00:00+02:00'),acquisition('G2','2026-10-12T12:00:00+02:00',['A2'])]
+        recovered=s.derive_schedule(events,CURRENT,gated)
+        self.assertEqual((recovered['status'],recovered['due_date']),('scheduled','2026-10-13'))
+        self.assertEqual(s.derive_schedule(events,CURRENT,recovered),recovered)
+
+    def test_corrected_delay_eligibility_recovery_keeps_boundary_on_retry(self):
+        for target in ('D1','D2'):
+            with self.subTest(target=target):
+                events=self.events+[delayed(self.events)]
+                events.append(delayed(events,'D2','2026-10-10T13:00:00+02:00'))
+                prior=s.derive_schedule(events,CURRENT)
+                at=next(e['occurred_at'] for e in events if e['event_id']==target)
+                correction={'event_id':'C1','event_type':'correction','committed':True,'writer':'teach',
+                            'transaction_id':'T-C1','supersedes_event_id':target,
+                            'corrected_fields':{'last_relevant_exposure_at':at}}
+                events.append(correction)
+                gated=s.derive_schedule(events,CURRENT,prior)
+                self.assertEqual((gated['status'],gated['due_date']),('evidence_gate',prior['due_date']))
+                events += [result('A2','2026-10-12T12:00:00+02:00'),acquisition('G2','2026-10-12T12:00:00+02:00',['A2'])]
+                recovered=s.derive_schedule(events,CURRENT,gated)
+                self.assertEqual((recovered['due_date'],recovered['replay_after_correction_id']),('2026-10-13','C1'))
+                self.assertEqual(s.derive_schedule(events,CURRENT,recovered),recovered)
+                follow=result('D3','2026-10-13T13:00:00+02:00',review_kind='delayed',review_id=recovered['review_id'],
+                              last_relevant_exposure_at=recovered['last_observed_response_at'],intervening_exposure='none')
+                next_schedule=s.derive_schedule(events+[follow],CURRENT,recovered)
+                self.assertEqual(next_schedule['due_date'],'2026-10-19')
+                self.assertEqual(s.derive_schedule(events+[follow],CURRENT,next_schedule),next_schedule)
+                # A subsequent correction to the recovered chain opens a new gate.
+                later={**correction,'event_id':'C2','supersedes_event_id':'D3','corrected_fields':{'outcome':'partial'}}
+                again=s.derive_schedule(events+[follow,later],CURRENT,next_schedule)
+                self.assertEqual((again['status'],again['due_date']),('evidence_gate',next_schedule['due_date']))
+
+    def test_correction_invalidating_corrective_review_preserves_its_date(self):
+        events=self.events+[delayed(self.events,outcome='partial')]
+        prior=s.derive_schedule(events,CURRENT)
+        correction={'event_id':'C1','event_type':'correction','committed':True,'writer':'teach',
+                    'transaction_id':'T-C1','supersedes_event_id':'D1','corrected_fields':{'outcome':'unscorable'}}
+        gated=s.derive_schedule(events+[correction],CURRENT,prior)
+        self.assertEqual((gated['status'],gated['due_date']),('evidence_gate',prior['due_date']))
+        self.assertEqual(s.derive_schedule(events+[correction],CURRENT,gated),gated)
+
+    def test_harmless_correction_does_not_mask_new_observed_lapse(self):
+        events=self.events+[delayed(self.events)]
+        prior=s.derive_schedule(events,CURRENT)
+        correction={'event_id':'C1','event_type':'correction','committed':True,'writer':'teach',
+                    'transaction_id':'T-C1','supersedes_event_id':'D1','corrected_fields':{'response_evidence':'Faithful transcription'}}
+        new_lapse=delayed(events,'D2','2026-10-12T13:00:00+02:00',outcome='partial')
+        scheduled=s.derive_schedule(events+[correction,new_lapse],CURRENT,prior)
+        self.assertEqual((scheduled['status'],scheduled['due_date']),('reassessment_required','2026-10-13'))
+
+    def test_correction_to_latest_delayed_support_is_not_a_new_lapse(self):
+        events=self.events+[delayed(self.events)]
+        prior=s.derive_schedule(events,CURRENT)
+        correction={'event_id':'C1','event_type':'correction','committed':True,'writer':'teach',
+                    'transaction_id':'T-C1','supersedes_event_id':'D1','corrected_fields':{'outcome':'partial'}}
+        gated=s.derive_schedule(events+[correction],CURRENT,prior)
+        self.assertEqual((gated['status'],gated['due_date']),('evidence_gate',prior['due_date']))
+        correction['corrected_fields']={'response_evidence':'Corrected transcription, same passing response'}
+        positive=s.derive_schedule(events+[correction],CURRENT,prior)
+        self.assertEqual((positive['status'],positive['due_date']),('scheduled',prior['due_date']))
 
     def test_explicit_plan_approved_path_change_preserves_evidence_and_review_id(self):
         prior = s.derive_schedule(self.events, CURRENT)
@@ -213,6 +290,12 @@ class SynchronizationTests(unittest.TestCase):
     def decide(self, sync=None, active=None, completed=None, complete=True, desired=None):
         return s.sync_decision(self.sync if sync is None else sync, desired or self.desired, self.marker,
                                [self.task] if active is None else active, completed or [], inventories_complete=complete)
+
+    def test_plan_link_uses_current_vault_and_supports_explicit_name(self):
+        self.assertIn('vault=University_notes&',self.desired['description'])
+        fields=s.task_fields(self.schedule,'Test Course','Topic','03_Agents/Žluťoučký/plan.md','P1',vault_name='Study Vault')
+        self.assertIn('vault=Study%20Vault&',fields['description'])
+        self.assertIn('%C5%BDlu%C5%A5ou%C4%8Dk%C3%BD',fields['description'])
 
     def test_fresh_create_confirm_then_rerun_is_noop(self):
         self.assertEqual(self.decide(sync={}, active=[])["action"], "create")

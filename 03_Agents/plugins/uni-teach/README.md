@@ -26,7 +26,7 @@ Project copies are generated at `.codex/agents/` by the canonical synchronizer. 
 
 ## 3. Invocation and integration limits
 
-Ask to ingest an exact folder; plan a full course identity and bounded scope; teach/resume with a study budget; or synchronize committed reviews with Todoist. Missing/ambiguous project mappings require a unique existing project ID. No guessed course project, solution disclosure, task-completion mastery, or speculative learner records.
+Ask to ingest an exact folder or repair explicitly named existing-note passages; plan a full course identity and bounded scope; teach/resume with a study budget; or synchronize committed reviews with Todoist. Missing/ambiguous project mappings require a unique existing project ID. No guessed course project, solution disclosure, task-completion mastery, or speculative learner records.
 
 ## 4. Storage and ownership
 
@@ -34,7 +34,7 @@ Storage/ownership and handoffs are in `LEARNING_ARCHITECTURE.md`; methodology ev
 
 ## 5. Packaging and publication
 
-Canonical maintained skill folders remain in `03_Agents/ingest`, `plan`, `teach`, `recall`. Package copies are generated and verified by `03_Agents/scripts/sync_plugin.py`; account releases update the existing private plugin ID through Plugin Creator with a guarded release ID. Never edit versioned installation caches as durable source. Installation grants no vault access and starts no background execution.
+Canonical maintained skill folders remain in `03_Agents/ingest`, `plan`, `teach`, `recall`. Package copies and the current versioned ZIP are generated and verified by `03_Agents/scripts/sync_plugin.py`. Changed snapshots require an unused version; explicit `--source-only` operations exclude ZIP generation/checking and preserve snapshots; account releases update the existing private plugin ID through Plugin Creator with a guarded release ID. Never edit versioned installation caches as durable source. Installation grants no vault access and starts no background execution.
 
 Recall runs on explicit request or after a committed teach handoff when available. No additional push-notification system is required.
 

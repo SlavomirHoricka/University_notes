@@ -169,7 +169,7 @@ Record requested outcome, scope, deadline/retention horizon (`null` if unknown),
 
 #### 2. Confirm completion before designing
 
-Read course ingestion state and relevant completion/pass records. The state's integer `ingestion_revision` is the `ingestion_revision` captured in the plan; require its selected-note coverage to be complete. Legacy completed notes without a state token require ingest to establish one from the documented pass, not a tutor or planner fabrication.
+Read course ingestion state and relevant completion/pass records. The state's integer `ingestion_revision` is the `ingestion_revision` captured in the plan; require the actual selected note sections and necessary dependencies to fall within checked coverage. A complete bounded correction/adoption pass certifies its recorded passages only; inspect its coverage limits and earlier checked passes. A matching whole-file hash does not establish verification of every section. Legacy completed notes without a state token require ingest to establish one from the documented pass, not a tutor or planner fabrication.
 
 A genuinely finished bounded topic can be demonstrated in a clearly labelled validation artifact before a token migration, with readiness explicitly qualified.
 
@@ -534,7 +534,7 @@ Run `... status COURSE_DIR`. Readers stop while locked or journal unfinished. Fo
 
 Recall also runs `... verify-record COURSE_DIR teach learning_log.md` to require a committed teach journal exactly matching the active log; legacy unjournaled history is never silently promoted. Owner runs `... recover COURSE_DIR OWNER TRANSACTION_ID` after interruption. Old/staged bytes permit idempotent roll-forward; unexpected edits preserve journal and fail. Never discard unfinished updates or claim mismatched plans ready.
 
-Global recall project mappings use the same utility at `03_Agents/runtime/recall/` (recall owns only `project_map.json` there). Utility validates owned paths and immutable events/history, not academic correctness or connector side effects. Ingest commits blocked state via utility, then separately locks/rereads it for note/assets edits, releasing before the utility completion commit. It never nests utility acquisition inside a manually held lock.
+Global recall project mappings use the same utility at `03_Agents/runtime/recall/` (recall owns only `project_map.json` there). Utility enforces owned paths, immutable teach events and curriculum snapshots, and append-only recall `schedule_history`, `task_history`, `scheduling_decisions` and `sync_journal` arrays. Derived summaries/state may change. Academic correctness, coverage/readiness semantics and connector side effects remain the owning workflow’s responsibility. Ingest commits blocked state via utility, then separately locks/rereads it for note/assets edits, releasing before the utility completion commit. It never nests utility acquisition inside a manually held lock.
 
 Index/pass writes use ingest-owned runtime lock and atomic replacement; completed detail repairs index. Do not hold locks across handoffs. A crash before journaling leaves staged orphan data but no changed authoritative bytes; inspect/preserve orphan rather than treating it as a commit.
 

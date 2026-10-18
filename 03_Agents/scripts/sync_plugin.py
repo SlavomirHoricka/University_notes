@@ -1,10 +1,14 @@
-"""Generate/check package copies; never edit installation caches or publish.
-Run: python3 03_Agents/scripts/sync_plugin.py [--check]
+"""Generate/check local package copies and immutable versioned snapshots.
+
+Run: python3 03_Agents/scripts/sync_plugin.py [--check] [--source-only]
+Source-only mode explicitly excludes the ZIP; it never creates/replaces snapshots.
 """
+import argparse
 from pathlib import Path
 import hashlib
 import json
-import sys
+import os
+import tempfile
 import zipfile
 
 AGENTS = Path(__file__).resolve().parents[1]
@@ -20,7 +24,6 @@ def expected_files():
     for p in (AGENTS/'references').rglob('*'):
         if p.is_file() and p.name!='PLUGIN_README.md':files['references/'+p.relative_to(AGENTS/'references').as_posix()]=p
     for p in (AGENTS/'scripts').glob('*.py'):
-        # Vault-link tests depend on the vault-local checker, not a plugin runtime.
         if p.name not in {'sync_plugin.py','test_vault.py','test_model_routing.py'}: files['scripts/'+p.name]=p
     for p in (AGENTS/'agents').glob('uni_*.toml'):
         files['agents/'+p.name]=p
@@ -36,12 +39,21 @@ def compatibility(manifest):
             'interface':manifest['extensions']['com.openai']['interface']}
 
 
-def run(check=False):
+def archive_matches(archive, payload):
+    try:
+        with zipfile.ZipFile(archive) as z:
+            names=z.namelist()
+            return len(names)==len(set(names)) and set(names)==set(payload) and all(z.read(name)==data for name,data in payload.items())
+    except (OSError, zipfile.BadZipFile, RuntimeError, EOFError):
+        return False
+
+
+def run(check=False, source_only=False):
     sources=expected_files(); errors=[]
     project_agents=AGENTS.parent/'.codex/agents'
     old_inventory_path=PACKAGE/'package_inventory.json'
     old_inventory=json.loads(old_inventory_path.read_text()) if old_inventory_path.exists() else {}
-    # Refuse collisions/user edits before mutating either project or package copies.
+    # Refuse collisions/user edits before mutating project or package copies.
     for name,p in sources.items():
         if not name.startswith('agents/'):continue
         target=project_agents/p.name
@@ -51,42 +63,55 @@ def run(check=False):
             prior_hash=old_inventory.get('files',{}).get(name,{}).get('sha256')
             if hashlib.sha256(target.read_bytes()).hexdigest()!=prior_hash:
                 raise ValueError('project agent collision or external edit: '+str(target))
+    # Validate all managed names before writes, including unexpected stale files.
+    for folder in ('skills','scripts','references','agents'):
+        for p in (PACKAGE/folder).rglob('*'):
+            if p.is_file() and not any(x in {'__pycache__','.DS_Store'} for x in p.relative_to(PACKAGE).parts) and p.relative_to(PACKAGE).as_posix() not in sources:
+                errors.append('unexpected generated file: '+p.relative_to(PACKAGE).as_posix())
     manifest=json.loads((PACKAGE/'plugin.json').read_text())
     if manifest['name']!='uni-teach':raise ValueError('identity changed')
     compat=json.dumps(compatibility(manifest),ensure_ascii=False,indent=2)+'\n'
-    if check:
-        if (PACKAGE/'.codex-plugin/plugin.json').read_text()!=compat:errors.append('compatibility manifest mismatch')
-    else:
-        (PACKAGE/'.codex-plugin').mkdir(exist_ok=True)
-        (PACKAGE/'.codex-plugin/plugin.json').write_text(compat)
-    for name,p in sources.items():
-        dest=PACKAGE/name
-        if check:
-            if not dest.is_file() or dest.read_bytes()!=p.read_bytes():errors.append(name)
-        else:
-            dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(p.read_bytes())
-            if name.startswith('agents/'):
-                project_agents.mkdir(parents=True,exist_ok=True)
-                (project_agents/p.name).write_bytes(p.read_bytes())
-    # No unexpected instruction copies are allowed; obsolete remote paths must be stubs in source.
-    for folder in ('skills','scripts','references','agents'):
-        for p in (PACKAGE/folder).rglob('*'):
-            if p.is_file() and not any(x=='__pycache__' or x=='.DS_Store' for x in p.relative_to(PACKAGE).parts) and p.relative_to(PACKAGE).as_posix() not in sources:
-                errors.append('unexpected generated file: '+p.relative_to(PACKAGE).as_posix())
     inventory={'schema_version':1,'package_version':manifest['version'],'source_root':'03_Agents',
       'files':{name:{'source':str(p.relative_to(AGENTS)), 'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for name,p in sorted(sources.items())}}
-    inventory_text=json.dumps(inventory,ensure_ascii=False,indent=2)+'\n'
+    generated={name:p.read_bytes() for name,p in sources.items()}
+    generated['.codex-plugin/plugin.json']=compat.encode()
+    generated['package_inventory.json']=(json.dumps(inventory,ensure_ascii=False,indent=2)+'\n').encode()
+    payload={p.relative_to(PACKAGE).as_posix():p.read_bytes() for p in PACKAGE.rglob('*')
+             if p.is_file() and not any(x in {'__pycache__','.DS_Store'} for x in p.relative_to(PACKAGE).parts)}
+    payload.update(generated)
+    archive=AGENTS/'plugins'/f"uni-teach-{manifest['version']}.zip"
     if check:
-        if not (PACKAGE/'package_inventory.json').exists() or (PACKAGE/'package_inventory.json').read_text()!=inventory_text:errors.append('package inventory mismatch')
-    else:(PACKAGE/'package_inventory.json').write_text(inventory_text)
+        for name,data in generated.items():
+            if not (PACKAGE/name).is_file() or (PACKAGE/name).read_bytes()!=data:errors.append('generated mismatch: '+name)
+        if not source_only and not archive_matches(archive,payload):errors.append('missing, corrupt, or mismatched snapshot: '+str(archive))
+    elif not source_only and archive.exists() and not archive_matches(archive,payload):
+        errors.append('existing snapshot differs; choose a new package version or use --source-only: '+str(archive))
     if errors:raise ValueError('\n'.join(errors))
     if not check:
-        archive=AGENTS/'plugins'/f"uni-teach-{manifest['version']}.zip"
-        with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
-            for p in sorted(PACKAGE.rglob('*')):
-                if p.is_file() and not any(x=='__pycache__' or x=='.DS_Store' for x in p.relative_to(PACKAGE).parts):z.write(p,p.relative_to(PACKAGE))
-        print('Packaged',archive)
-    print('Verified',len(sources),'generated files; version',manifest['version'])
+        # Create a complete temporary ZIP, then install exclusively; no overwrite.
+        if not source_only and not archive.exists():
+            fd,temporary=tempfile.mkstemp(prefix='.uni-teach-',suffix='.zip',dir=archive.parent)
+            os.close(fd)
+            try:
+                with zipfile.ZipFile(temporary,'w',zipfile.ZIP_DEFLATED) as z:
+                    for name,data in sorted(payload.items()):z.writestr(name,data)
+                os.link(temporary,archive)
+            finally:
+                Path(temporary).unlink(missing_ok=True)
+            print('Packaged',archive)
+        for name,data in generated.items():
+            dest=PACKAGE/name;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(data)
+        for name,p in sources.items():
+            if name.startswith('agents/'):
+                project_agents.mkdir(parents=True,exist_ok=True)
+                (project_agents/p.name).write_bytes(generated[name])
+    print('Verified',len(sources),'generated files; version',manifest['version'],
+          '(source-only; snapshot not checked)' if source_only else '(including snapshot)')
 
 
-if __name__=='__main__':run('--check' in sys.argv)
+if __name__=='__main__':
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--check',action='store_true')
+    parser.add_argument('--source-only',action='store_true')
+    args=parser.parse_args()
+    run(check=args.check,source_only=args.source_only)

@@ -24,7 +24,7 @@ This folder contains the four maintained learning skills, course records, shared
 | [teach](teach/SKILL.md) | Deliver prepared lessons, assess actual answers and commit observed evidence/session state. | Course `learning_log.md`. |
 | [recall](recall/SKILL.md) | Derive due reviews from committed evidence; synchronize positively owned Todoist tasks. | Course `recall_state.json`; verified shared project map. |
 
-Use `$ingest` with an exact source folder; `$uni-teach:plan` with a full course identity and bounded scope; `$teach` or `$uni-teach:teach` with a topic and study budget; and `$uni-teach:recall` for committed course reviews. Ingestion normally hands off to planning; teach/recall require the matching committed readiness/version gates. Completing a reminder never creates learner evidence.
+Use `$ingest` with an exact source folder or explicitly named existing-note repair passages; `$uni-teach:plan` with a full course identity and bounded scope; `$teach` or `$uni-teach:teach` with a topic and study budget; and `$uni-teach:recall` for committed course reviews. Ingestion normally hands off to planning; teach/recall require the matching committed readiness/version gates. Completing a reminder never creates learner evidence.
 
 ## Files and authority
 
@@ -53,3 +53,5 @@ Run the [maintenance commands](scripts/README.md) before and after scoped change
 The [repository audit](history/2026-10-17-repository-audit/REPORT.md) preserves the cleanup baseline. All six note-reference findings were subsequently [repaired and independently source checked](history/2026-10-17-repository-audit/NOTE_REFERENCE_REPAIRS.md). The two Statistics correction states certify only their listed passages, not whole-note/course adoption. Fresh worktrees may still lack empty course mirrors. See actual ingestion passes and course bundles for coverage; neither a successful structural check nor a sample validation curriculum certifies readiness or learning.
 
 Recall runs on request or after a qualifying committed teach handoff when available. It uses the separate Todoist connector and verified existing projects; this repository installs no watcher or periodic notification service.
+
+The [workflow consistency audit](history/2026-10-18-workflow-consistency-audit/REPORT.md) records the current evidence-gate, append-only record, bounded-coverage and package-snapshot contracts.

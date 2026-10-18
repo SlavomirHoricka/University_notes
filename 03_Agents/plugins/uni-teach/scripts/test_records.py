@@ -35,10 +35,26 @@ class RecordsTests(unittest.TestCase):
         self.assertEqual((self.root/'source_manifest.md').read_text(),'manifest');self.assertTrue(r.status(self.root)['ready'])
     def test_recovery_conflict_preserves_journal(self):
         with patch.object(r,'apply',side_effect=OSError('crash')):
-            with self.assertRaises(OSError):r.commit(self.root,'recall',{'recall_state.json':'planned'},{'recall_state.json':None},'T-conflict')
+            with self.assertRaises(OSError):r.commit(self.root,'recall',{'recall_state.json':'{}'},{'recall_state.json':None},'T-conflict')
         (self.root/'recall_state.json').write_text('human edit')
         with self.assertRaises(ValueError):r.recover(self.root,'recall','T-conflict')
         self.assertEqual((self.root/'recall_state.json').read_text(),'human edit');self.assertFalse(r.status(self.root)['ready'])
+    def test_recall_histories_append_and_derived_fields_change(self):
+        p=self.root/'recall_state.json'
+        old={k:[{'id':'first','value':1}] for k in ('schedule_history','task_history','scheduling_decisions','sync_journal')}
+        r.commit(self.root,'recall',{'recall_state.json':json.dumps(old)},{'recall_state.json':None})
+        new={k:v+[{'id':'second'}] for k,v in old.items()};new['objectives']={'O1':{'due_date':'2026-10-20'}}
+        tx=r.commit(self.root,'recall',{'recall_state.json':json.dumps(new)},{'recall_state.json':r.digest(p)})
+        self.assertTrue(r.verify(self.root,'recall',tx,['recall_state.json']))
+        for field in old:
+            for value in ([],[{'id':'first','value':True}],list(reversed(new[field])),None):
+                with self.subTest(field=field,value=value):
+                    before=p.read_bytes(); journals=list((self.root/'.transactions').iterdir())
+                    bad={**new,field:value}
+                    with self.assertRaises(ValueError):r.commit(self.root,'recall',{'recall_state.json':json.dumps(bad)},{'recall_state.json':r.digest(p)})
+                    self.assertEqual(p.read_bytes(),before)
+                    self.assertEqual(list((self.root/'.transactions').iterdir()),journals)
+
     def test_history_immutable(self):
         r.commit(self.root,'plan',{'curriculum_history/P1/plan.md':'old'},{'curriculum_history/P1/plan.md':None})
         with self.assertRaises(ValueError):r.commit(self.root,'plan',{'curriculum_history/P1/plan.md':'changed'},{'curriculum_history/P1/plan.md':r.digest(self.root/'curriculum_history/P1/plan.md')})
@@ -65,7 +81,7 @@ class RecordsTests(unittest.TestCase):
         with self.assertRaises(ValueError):r.commit(self.root,'recall',{'recall_state.json':'{}'},{'recall_state.json':None})
         (self.root/'.transactions').unlink()
         with patch.object(r,'apply',side_effect=OSError('crash')):
-            with self.assertRaises(OSError):r.commit(self.root,'recall',{'recall_state.json':'planned'},{'recall_state.json':None},'T-corrupt')
+            with self.assertRaises(OSError):r.commit(self.root,'recall',{'recall_state.json':'{}'},{'recall_state.json':None},'T-corrupt')
         with self.assertRaises(ValueError):r.recover(self.root,'teach','T-corrupt')
         (self.root/'.transactions/T-corrupt/0.stage').write_text('corrupt')
         with self.assertRaises(ValueError):r.recover(self.root,'recall','T-corrupt')
