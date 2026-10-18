@@ -6,7 +6,8 @@
 | [uni-teach-release.json](uni-teach-release.json) | Receipt for the last confirmed private publication and separately observed host activation. |
 | [uni-teach-0.5.2.zip](uni-teach-0.5.2.zip) | Preserved 0.5.2 archive; its previous receipt is retained in history. |
 | [uni-teach-0.5.3.zip](uni-teach-0.5.3.zip) | Preserved repository-cleanup snapshot; later loose-copy role formatting is absent from this ZIP. |
-| [uni-teach-0.5.4.zip](uni-teach-0.5.4.zip) | Published private 0.5.4 release; installed cache and all four host skill reads verified against the audited package. |
+| [uni-teach-0.5.4.zip](uni-teach-0.5.4.zip) | Preserved previous release; exact publication/installation receipt is retained in history. |
+| [uni-teach-0.6.0.zip](uni-teach-0.6.0.zip) | Published private release with the separate html-course skill; all five host skill reads and 56 installed files verified. |
 | [Earlier releases](../history/plugin-releases/README.md) | Superseded archives, preserved in history. |
 
 From the repository root:

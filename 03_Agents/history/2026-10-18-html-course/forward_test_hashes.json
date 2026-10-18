@@ -1,0 +1,17 @@
+{
+  "SKILL.md": "3c7e6dd647f4b71f5d800865c5c8ad24f7fbc4487a747ce87cd26bdb0e76f373",
+  "agents/openai.yaml": "b4de7ac173e01310d57020ae74dbba79e5df1a863f49a68669fec2031263b607",
+  "assets/fonts.css": "02f2225637f3c8f07c48e4ebac6977b0d02c6a35229e624abf59ecbfd6c082ca",
+  "assets/math.css": "7b62e8aebc172bcbc191331eb21d3ce0df9c2352dc72511bb97008d7e4afe7b1",
+  "assets/runtime.js": "b672bfac26fbf6ec91717aab209d4ee134b7319bd4e4ef7fedc7d870a926effd",
+  "assets/theme.css": "114a8a5b134e8b5e129c20d36b2fe3b3925a1e11cc13f14e561a9145ff9e00b2",
+  "assets/third-party.json": "5d6d8d8661c1bb762dbd3f999226783d92073b60af71ebc1f7500314fb5fce39",
+  "assets/vendor/KATEX_LICENSE.txt": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3",
+  "assets/vendor/SOURCE_SERIF_LICENSE.txt": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+  "assets/vendor/auto-render.min.js": "e5372d199bcdae8b4de71d0f7ceba72a4ba12774a27c60a6f1f77d03b3228ee4",
+  "assets/vendor/katex.min.js": "103a53763cc033bba8d175bf3f0ba597c3505c9b6747dd3f2c7bc2a6bfcc8ae7",
+  "scripts/README.md": "c8ff9f8d4d6a96e70afc70b2a947daf2f567ddde1503fa5e3503e81a1749dcaf",
+  "scripts/course.py": "ecc0e2bc70b2128314e8d5ab4dbfaa87ee1e903178bdaace5d24d4ff566363b8",
+  "scripts/test_course.py": "d5c68a923e6f3c79bf6db9a656a68925ae7254d76524f7834b601fca2ed65887",
+  "templates/course.json": "8f2196117d541eaf8008b4256649a195637a55796130356adc6974f92092eefa"
+}

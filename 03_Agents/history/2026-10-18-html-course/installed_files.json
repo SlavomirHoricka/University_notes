@@ -1,0 +1,282 @@
+[
+  {
+    "path": "package_inventory.json",
+    "sha256": "2fb3c2fb5c76c9ef110c55038335ec59cbabc1c1844f26366fa7d7c91586fa04",
+    "exact": true
+  },
+  {
+    "path": "LEARNING_ARCHITECTURE.md",
+    "sha256": "b8d9cdc14ff4ec3025e976e71609c85b4f6aba16f07480acdd2f94bc31054c9c",
+    "exact": true
+  },
+  {
+    "path": "plugin.json",
+    "sha256": "7f05317eff57941f464e2769e1f1bdd14b631a209d3e1f39199d9bc8f4fc8fa6",
+    "exact": true
+  },
+  {
+    "path": "README.md",
+    "sha256": "9e2ae6bb19679e14100161705244aeda18169bbc50e0d92d71f605f62b67d40d",
+    "exact": true
+  },
+  {
+    "path": "references/LEARNING_METHODS.md",
+    "sha256": "70629e4b4360ffedc7c0368df82396c1f2f94199ceced4e994c40d2d1c1058ef",
+    "exact": true
+  },
+  {
+    "path": "references/LESSON_CONTENT.md",
+    "sha256": "1e0109f323abaa0edf970f82feee208b1cc5a25b3ba434673a48025569a97530",
+    "exact": true
+  },
+  {
+    "path": "references/MODEL_ROUTING.md",
+    "sha256": "7e696df52777dee12fdb256c6e3a0447c4d083ee6da48dbfab65e4ced82ee650",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_teach_owner.toml",
+    "sha256": "d2692a9ce20c900632cfe8fd29735ba0ec51daa0861c810f7722aab7a704bbd8",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_ingest_owner.toml",
+    "sha256": "af4a43f817fc1c09d569540916c2d94f025be33304d3fd73276da93a446b7371",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_recall_owner_medium.toml",
+    "sha256": "87c23cacb85b4fd7e4f3fc778ef1605826e3932401d7fe25510585d2f8c5bdff",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_plan_owner.toml",
+    "sha256": "4f05577f150a4717ad73f63f7899712dfb44a2eb0d1dc627e333ca11a1fba7d3",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_recall_owner.toml",
+    "sha256": "75ceefb269a881b9e90adeec51d33378e356770d1549c49cef825df0fb2e4340",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_ingest_draft.toml",
+    "sha256": "ca5b5740ca004ffe8c833c5fd1eb750fd4966842279c5e4b5df8070f937fc20f",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_source_checker.toml",
+    "sha256": "1d4254438022f95a4e541d75332a484f644b2f02122f59b0cb06c25487ef0044",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_teach_assessor.toml",
+    "sha256": "920c5d16704194e0a2a6ea1f804ebf7b7aa072a2db256c9c400de7a7d97ee60d",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_source_checker_xhigh.toml",
+    "sha256": "e8cd0d119c631b70ebef91820b19ad299578d2b5de4a1a93765a037ef51137b6",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_ingest_draft_high.toml",
+    "sha256": "171e5f15c00291252832fcc2796a0588755a95d2ae69fdb25c8db58376af7fbb",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_curriculum_checker_xhigh.toml",
+    "sha256": "73ee798e24aa08211f9ce5b02e22083accd903c5210aeabc4dde10621ded2725",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_ingest_reasoning_astra.toml",
+    "sha256": "79c22c987ddeeb4a616c85e9703a6dd0ff47c9f4502a15bc6c5a11d7c3aa4084",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_plan_owner_astra.toml",
+    "sha256": "e146d5976f1659123946dc744bfb0e48deaf76650901b5c848a38947480e3c4b",
+    "exact": true
+  },
+  {
+    "path": "agents/uni_curriculum_checker.toml",
+    "sha256": "999b1d74a0bcda338bd0c215f1fbba4546d7e659e076843030fba20a637f0839",
+    "exact": true
+  },
+  {
+    "path": "scripts/records.py",
+    "sha256": "bebec31974b7b8c005732657dfbd4f5ef2874fd433c42db1621997b4fff2e798",
+    "exact": true
+  },
+  {
+    "path": "scripts/test_records.py",
+    "sha256": "f726f65637e37d4559fc016d8025fec04221595509bb141711d2ba9cf082ac9a",
+    "exact": true
+  },
+  {
+    "path": "skills/plan/SKILL.md",
+    "sha256": "07c876d2fbb7ae456728e58b751db2bf4e90176bae6de3d44ccb2077cf06bbbc",
+    "exact": true
+  },
+  {
+    "path": "skills/plan/templates/source_manifest.md",
+    "sha256": "b3f42aefb053259833fc89bbf73f0731722d0db5243a65de6462ee317524e84a",
+    "exact": true
+  },
+  {
+    "path": "skills/plan/templates/learning_plan.md",
+    "sha256": "befdd48533a5d24dae6b3e0ae2f286d6fe11fea0d3fd07404153e83a07f53cbb",
+    "exact": true
+  },
+  {
+    "path": "skills/plan/templates/objective_lesson.md",
+    "sha256": "400befa39214fb410a49e6a9b25b766bc2515ef274630d84dc6eff4b341d5ad1",
+    "exact": true
+  },
+  {
+    "path": "skills/ingest/SKILL.md",
+    "sha256": "2d784e74d090a4c3f93c49cd552c29b548377a569583281decf0457f08fe83de",
+    "exact": true
+  },
+  {
+    "path": "skills/recall/SKILL.md",
+    "sha256": "0d4f2c0dc6ee40691be8011c63adbc46ddc39fe9ee08117cd435c512218a4746",
+    "exact": true
+  },
+  {
+    "path": "skills/recall/references/TODOIST_HARNESS.md",
+    "sha256": "d545b86f189d91490f775c6d952ebd869dd622768c9fee3b369935be94b3ff15",
+    "exact": true
+  },
+  {
+    "path": "skills/recall/tests/test_schedule.py",
+    "sha256": "22a77982197b135bc09c8bfbd097e3d4c09d243339c45548af44060d2116bb82",
+    "exact": true
+  },
+  {
+    "path": "skills/recall/scripts/schedule.py",
+    "sha256": "28fcd0a2e90a5faa0b808babdfef886e3d875205328c6d8427b987008d60ce11",
+    "exact": true
+  },
+  {
+    "path": "skills/recall/templates/recall_state.json",
+    "sha256": "96b1aef74ddf15c93ceb1404d972ec624495f59769f0dd244a2d648433840975",
+    "exact": true
+  },
+  {
+    "path": "skills/teach/SKILL.md",
+    "sha256": "af555642c546a011ee02ae58e2e7877dba6b4606fb7acd3e103538bae5775b13",
+    "exact": true
+  },
+  {
+    "path": "skills/teach/references/WALKTHROUGH.md",
+    "sha256": "02fa11676d03fbfdabc2f1b814f43872b2fd4eb7e22607767a90404b1d01fc3a",
+    "exact": true
+  },
+  {
+    "path": "skills/teach/references/RECORDS.md",
+    "sha256": "7a00885b7ec22ea4cc8ba0780d0cca8a8a4daf383e8fe84e0af35b72ab53733b",
+    "exact": true
+  },
+  {
+    "path": "skills/teach/templates/source_manifest.md",
+    "sha256": "a63c75258777eb02a668157e8aa8ec529fe4c9ca80999b0d296e488b4e01e263",
+    "exact": true
+  },
+  {
+    "path": "skills/teach/templates/learning_plan.md",
+    "sha256": "677bd0ffe089b4c34f2720f5f18457b5b405af11f3b2cba51a141530da6f4d38",
+    "exact": true
+  },
+  {
+    "path": "skills/teach/templates/learning_log.md",
+    "sha256": "567d2c102ab2b691828390951e4de0c71e8d16fb489acc4b0675f01b28032423",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/SKILL.md",
+    "sha256": "3c7e6dd647f4b71f5d800865c5c8ad24f7fbc4487a747ce87cd26bdb0e76f373",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/agents/openai.yaml",
+    "sha256": "b4de7ac173e01310d57020ae74dbba79e5df1a863f49a68669fec2031263b607",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/scripts/course.py",
+    "sha256": "ecc0e2bc70b2128314e8d5ab4dbfaa87ee1e903178bdaace5d24d4ff566363b8",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/scripts/README.md",
+    "sha256": "c8ff9f8d4d6a96e70afc70b2a947daf2f567ddde1503fa5e3503e81a1749dcaf",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/scripts/test_course.py",
+    "sha256": "d5c68a923e6f3c79bf6db9a656a68925ae7254d76524f7834b601fca2ed65887",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/templates/course.json",
+    "sha256": "8f2196117d541eaf8008b4256649a195637a55796130356adc6974f92092eefa",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/assets/theme.css",
+    "sha256": "114a8a5b134e8b5e129c20d36b2fe3b3925a1e11cc13f14e561a9145ff9e00b2",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/assets/runtime.js",
+    "sha256": "b672bfac26fbf6ec91717aab209d4ee134b7319bd4e4ef7fedc7d870a926effd",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/assets/third-party.json",
+    "sha256": "5d6d8d8661c1bb762dbd3f999226783d92073b60af71ebc1f7500314fb5fce39",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/assets/math.css",
+    "sha256": "7b62e8aebc172bcbc191331eb21d3ce0df9c2352dc72511bb97008d7e4afe7b1",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/assets/fonts.css",
+    "sha256": "02f2225637f3c8f07c48e4ebac6977b0d02c6a35229e624abf59ecbfd6c082ca",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/assets/vendor/KATEX_LICENSE.txt",
+    "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/assets/vendor/auto-render.min.js",
+    "sha256": "e5372d199bcdae8b4de71d0f7ceba72a4ba12774a27c60a6f1f77d03b3228ee4",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/assets/vendor/SOURCE_SERIF_LICENSE.txt",
+    "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+    "exact": true
+  },
+  {
+    "path": "skills/html-course/assets/vendor/katex.min.js",
+    "sha256": "103a53763cc033bba8d175bf3f0ba597c3505c9b6747dd3f2c7bc2a6bfcc8ae7",
+    "exact": true
+  },
+  {
+    "path": "assets/book.svg",
+    "sha256": "1e7c78c39aef964a4aff99ed7c277c763bd330567e0d93c20592dd02af17d999",
+    "exact": true
+  },
+  {
+    "path": ".codex-plugin/plugin.json",
+    "sha256": "f50ef38cb78e6ff57a8cae771e66a08c29a09d66b17f6142985f005a6aba15f2",
+    "exact": false
+  }
+]

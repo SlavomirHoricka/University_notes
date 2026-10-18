@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "package_version": "0.5.4",
+  "package_version": "0.6.0",
   "source_root": "03_Agents",
   "files": {
     "LEARNING_ARCHITECTURE.md": {
       "source": "LEARNING_ARCHITECTURE.md",
-      "sha256": "fdbc4d23934378d3e24a173d116ee82105c5749a8b45529d8b46e3722810c52b"
+      "sha256": "b8d9cdc14ff4ec3025e976e71609c85b4f6aba16f07480acdd2f94bc31054c9c"
     },
     "README.md": {
       "source": "references/PLUGIN_README.md",
-      "sha256": "502494eb40e764d2b8d3593131140055bbe981b5f9e2f224cafb4f812fa5caa5"
+      "sha256": "9e2ae6bb19679e14100161705244aeda18169bbc50e0d92d71f605f62b67d40d"
     },
     "agents/uni_curriculum_checker.toml": {
       "source": "agents/uni_curriculum_checker.toml",
@@ -77,7 +77,7 @@
     },
     "references/MODEL_ROUTING.md": {
       "source": "references/MODEL_ROUTING.md",
-      "sha256": "d4843341494b7791a6866b7d0b62406c8b1045f389ed189985752a33caa4ef73"
+      "sha256": "7e696df52777dee12fdb256c6e3a0447c4d083ee6da48dbfab65e4ced82ee650"
     },
     "scripts/records.py": {
       "source": "scripts/records.py",
@@ -86,6 +86,66 @@
     "scripts/test_records.py": {
       "source": "scripts/test_records.py",
       "sha256": "f726f65637e37d4559fc016d8025fec04221595509bb141711d2ba9cf082ac9a"
+    },
+    "skills/html-course/SKILL.md": {
+      "source": "html-course/SKILL.md",
+      "sha256": "3c7e6dd647f4b71f5d800865c5c8ad24f7fbc4487a747ce87cd26bdb0e76f373"
+    },
+    "skills/html-course/agents/openai.yaml": {
+      "source": "html-course/agents/openai.yaml",
+      "sha256": "b4de7ac173e01310d57020ae74dbba79e5df1a863f49a68669fec2031263b607"
+    },
+    "skills/html-course/assets/fonts.css": {
+      "source": "html-course/assets/fonts.css",
+      "sha256": "02f2225637f3c8f07c48e4ebac6977b0d02c6a35229e624abf59ecbfd6c082ca"
+    },
+    "skills/html-course/assets/math.css": {
+      "source": "html-course/assets/math.css",
+      "sha256": "7b62e8aebc172bcbc191331eb21d3ce0df9c2352dc72511bb97008d7e4afe7b1"
+    },
+    "skills/html-course/assets/runtime.js": {
+      "source": "html-course/assets/runtime.js",
+      "sha256": "b672bfac26fbf6ec91717aab209d4ee134b7319bd4e4ef7fedc7d870a926effd"
+    },
+    "skills/html-course/assets/theme.css": {
+      "source": "html-course/assets/theme.css",
+      "sha256": "114a8a5b134e8b5e129c20d36b2fe3b3925a1e11cc13f14e561a9145ff9e00b2"
+    },
+    "skills/html-course/assets/third-party.json": {
+      "source": "html-course/assets/third-party.json",
+      "sha256": "5d6d8d8661c1bb762dbd3f999226783d92073b60af71ebc1f7500314fb5fce39"
+    },
+    "skills/html-course/assets/vendor/KATEX_LICENSE.txt": {
+      "source": "html-course/assets/vendor/KATEX_LICENSE.txt",
+      "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3"
+    },
+    "skills/html-course/assets/vendor/SOURCE_SERIF_LICENSE.txt": {
+      "source": "html-course/assets/vendor/SOURCE_SERIF_LICENSE.txt",
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    "skills/html-course/assets/vendor/auto-render.min.js": {
+      "source": "html-course/assets/vendor/auto-render.min.js",
+      "sha256": "e5372d199bcdae8b4de71d0f7ceba72a4ba12774a27c60a6f1f77d03b3228ee4"
+    },
+    "skills/html-course/assets/vendor/katex.min.js": {
+      "source": "html-course/assets/vendor/katex.min.js",
+      "sha256": "103a53763cc033bba8d175bf3f0ba597c3505c9b6747dd3f2c7bc2a6bfcc8ae7"
+    },
+    "skills/html-course/scripts/README.md": {
+      "source": "html-course/scripts/README.md",
+      "sha256": "c8ff9f8d4d6a96e70afc70b2a947daf2f567ddde1503fa5e3503e81a1749dcaf"
+    },
+    "skills/html-course/scripts/course.py": {
+      "source": "html-course/scripts/course.py",
+      "sha256": "ecc0e2bc70b2128314e8d5ab4dbfaa87ee1e903178bdaace5d24d4ff566363b8"
+    },
+    "skills/html-course/scripts/test_course.py": {
+      "source": "html-course/scripts/test_course.py",
+      "sha256": "d5c68a923e6f3c79bf6db9a656a68925ae7254d76524f7834b601fca2ed65887"
+    },
+    "skills/html-course/templates/course.json": {
+      "source": "html-course/templates/course.json",
+      "sha256": "8f2196117d541eaf8008b4256649a195637a55796130356adc6974f92092eefa"
     },
     "skills/ingest/SKILL.md": {
       "source": "ingest/SKILL.md",

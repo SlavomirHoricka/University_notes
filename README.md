@@ -31,6 +31,7 @@ University_notes/
 │   ├── plan/              Canonical curriculum-preparation skill
 │   ├── teach/             Canonical teaching/evidence skill
 │   ├── recall/            Canonical review-scheduling skill
+│   ├── html-course/       Optional offline HTML-course skill
 │   ├── agents/            Maintained model-role profiles
 │   ├── references/        Shared lesson, methodology and routing contracts
 │   ├── scripts/           Record, packaging and maintenance utilities
@@ -58,6 +59,7 @@ flowchart LR
     I --> N[Checked notes]
     N --> P[plan]
     P --> L[Prepared lessons]
+    L -. explicit HTML request .-> H[Offline HTML course]
     L --> T[teach]
     T --> E[Observed learner evidence]
     E --> R[recall]
@@ -71,6 +73,7 @@ flowchart LR
 | [plan](03_Agents/plan/SKILL.md) | Turns checked finished notes into versioned lessons with explanations, exercises, keys and assessment criteria; obtains independent curriculum review. | `learning_plan.md`, `source_manifest.md`, `lessons/`, `curriculum_history/`. |
 | [teach](03_Agents/teach/SKILL.md) | Runs prepared lessons, assesses actual responses and saves resumable progress. | `learning_log.md`. |
 | [recall](03_Agents/recall/SKILL.md) | Derives review dates from committed evidence and synchronizes owned tasks to verified existing Todoist projects. | `recall_state.json` and the shared project map. |
+| [html-course](03_Agents/html-course/SKILL.md) | Optionally renders ready lessons as English offline HTML with LaTeX, week navigation and purposeful interaction. | Versioned exports under `02_Resources/HTML_Courses/<course_id>/`; no academic or learner-record writes. |
 
 Ingestion normally hands off to planning for the affected scope. Teaching needs a matching ready lesson bundle; missing notes or curriculum return to the responsible stage. Recall uses actual recorded evidence. A folder, completed task or elapsed time does not establish coverage or learning.
 
@@ -80,6 +83,7 @@ Typical requests in a host with the skills registered:
 - `$uni-teach:plan Prepare <full course identity>, <bounded scope>` — prepare lessons from checked notes.
 - `$teach Teach/resume/review <full course identity>, <topic>; I have <budget>` — use prepared lessons. `$uni-teach:teach` is the plugin equivalent.
 - `$uni-teach:recall Synchronize my committed course reviews with Todoist` — synchronize evidence-based reviews with existing course projects.
+- `$uni-teach:html-course Build <full course identity>, Week 1` — create or refresh an offline course from ready material. “Ingest and build the HTML course” explicitly requests this optional step; ordinary ingestion stays unchanged.
 
 The [architecture](03_Agents/LEARNING_ARCHITECTURE.md) defines ownership, freshness, versions and handoffs. [Lesson content](03_Agents/references/LESSON_CONTENT.md) defines self-contained preparation and bounded teaching additions. Actual course records and pass details establish current scope; the course map is navigation only.
 

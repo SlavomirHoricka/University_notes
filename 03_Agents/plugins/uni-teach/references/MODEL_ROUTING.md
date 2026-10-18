@@ -19,7 +19,7 @@
 
 ## 1. Policy and overrides
 
-Policy `uni-model-routing-v1`, requested 2026-10-10. Four public skills remain: ingest, plan, teach and recall. Roles below are internal agents, not additional skills. Explicit user model/effort choices take precedence. These defaults are operational starting settings, not a benchmarked optimum.
+Policy `uni-model-routing-v1`, requested 2026-10-10. Four core workflow skills retain their routing: ingest, plan, teach and recall. The optional html-course skill uses the active capable agent and an independent read-only conversion reviewer; it adds no role profile and changes none of the defaults below. Roles below are internal agents, not additional skills. Explicit user model/effort choices take precedence. These defaults are operational starting settings, not a benchmarked optimum.
 
 ## 2. Role defaults and escalation
 
