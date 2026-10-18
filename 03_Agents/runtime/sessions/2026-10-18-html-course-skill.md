@@ -1,6 +1,6 @@
 # Additional HTML course skill
 
-- Status: in_progress
+- Status: ready_for_merge
 - Objective: add a separate optional `html-course` skill to the University Assistant plugin, preserving the four existing skill bodies/behavior. Convert checked notes and ready prepared lessons into self-contained English offline HTML, with the approved Paper & Ink visual identity, smaller navigation, week-grouped contents, LaTeX and purposeful interaction.
 - Branch: codex/html-course-skill
 - Worktree: /Users/slavomirhoricka/.codex/worktrees/2237/University_notes (this chat's original clean worktree, retained from planning and registered with the host).
@@ -16,4 +16,5 @@
 - Baseline comparison: only the same nine absent empty mirrors; no introduced link/anchor/source issues. Four core SKILL bodies, 42 role TOMLs, both defaultPrompt arrays and 15 old ZIPs retain base bytes. Previous 0.5.4 publication receipt preserved byte-for-byte in history.
 - Release: reviewed ZIP SHA-256 667ba61640c4549676bb5aa2daf5cdd83c5ce2fc564050bea9dcdf1027ca8d33. Guarded existing USER/PRIVATE plugin update succeeded to 0.6.0 release pluginrel_6ad4f21d322c819186e7654ac155f691. All 56 published archive paths and installed files verify; 55 text paths read back separately. Codex reports installed/enabled and all five exact skill bodies. Current-chat hot reload is not claimed.
 - Primary synchronization: deferred. Primary is on main but has unrelated uncommitted materials/Week_2/Week_3 inputs and a .DS_Store change; preserve them.
-- Next: commit explicit task paths, push/open PR, record known PR and ready_for_merge, wait required gates, merge and verify remote evidence, then clean this task branch/worktree. Browser artifacts outside the worktree remain available.
+- PR: https://github.com/SlavomirHoricka/University_notes/pull/20 (main), implementation commit cbf01ef. Reviews/validation apply to its final package bytes; this follow-up only records integration readiness.
+- Next: confirm the validated PR head and required remote gates, merge using the repository-supported method, verify actual merged state/remote commit, then remove this task branch and archive its clean worktree. Primary checkout synchronization remains deferred; external browser artifacts and the installed plugin remain available.
