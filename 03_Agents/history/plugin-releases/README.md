@@ -12,3 +12,5 @@ These ZIPs preserve earlier packages; they are not maintained sources or evidenc
 - [uni-teach-0.5.1.zip](uni-teach-0.5.1.zip)
 
 The repository audit [move ledger](../2026-10-17-repository-audit/file_changes.json) records original paths and SHA-256 hashes for archives relocated on 2026-10-17. Older session records retain their original artifact paths as dated provenance.
+
+The [0.5.2 release receipt](uni-teach-0.5.2-release.json) preserves the exact publication/activation observations before the verified 0.5.4 update. Its matching ZIP remains under [plugins](../../plugins/README.md).
