@@ -1,0 +1,216 @@
+# O004 — Distinguish reciprocity, payoff concerns and efficiency
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+  "transaction_id": "T-behavioral-P001-996094373cfe4e4e981b4b2d031dd053",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 2,
+  "objective_id": "O004",
+  "objective_revision": 1,
+  "criterion_version": "O004-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "procedural",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O003"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md#Reciprocity responds to prior treatment",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md#Efficiency-seeking and the welfare connection",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md#Reciprocity needs an expectation about the other player"
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "required_item_ids": [
+      "O004-I1",
+      "O004-I2"
+    ],
+    "substitutions": []
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true,
+    "available_item_ids": [
+      "O004-D1",
+      "O004-D2"
+    ],
+    "interval_anchor": "later of qualifying acquisition and most recent relevant teaching, feedback or known solution exposure"
+  },
+  "review_topic": "Behavioral Economics — Distinguish reciprocity, payoff concerns and efficiency",
+  "review_instruction": "Begin a closed-note review with teach for O004; request an unused prepared delayed item before recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Calculate the displayed reciprocity illustration, discriminate it from fixed payoff weights and inequality, and state what efficiency and simultaneous-game claims remain unspecified.
+
+- **R1**: Explain q=1 kindness/q=-1 misbehavior, theta>0, derive effective weights and 2theta change, and compute treatment-dependent utilities.
+- **R2**: State negative response weight iff theta>rho; distinguish treatment from unconditional altruism and payoff inequality; fixed allocation utility need not increase after kindness.
+- **R3**: Use rho=sigma=1/2 only as the labelled existing-model illustration of total-payoff maximization, compare totals and preserve the absent separate efficiency model/identification limit.
+- **R4**: Distinguish observed prior treatment in sequential trust from beliefs in simultaneous cooperation; do not invent a quantitative simultaneous reciprocity mechanism.
+
+Finished-note locations:
+
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md#Reciprocity responds to prior treatment]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md#Efficiency-seeking and the welfare connection]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md#Reciprocity needs an expectation about the other player]]
+
+Use P001/V001/ingest 2 and O004-C1, objective revision 1. Supported instruction can use this block and linked notes. Independent acquisition and delayed attempts are closed note, with blank paper and pen only; no calculator, device, AI, hint or key exposure. Present only the question before the learner responds; keys remain teacher-side. Unknown help/access is unscorable for independence. Hypothetical inputs instantiate supported mechanisms and are not empirical findings.
+
+## Prerequisites and checks
+
+- O003: The fixed payoff-weight function is needed to distinguish treatment-dependent weights and the half-total illustration. Repair route: [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O003.md#Explanation steps]]
+
+O004-P1 v1: “With fixed weight w=1/4 at payoff(36,12), compute wx2+(1-w)x1 and explain whether w changes because another action was kind.” Key30; a fixed weight itself does not change with treatment. Pass calculation and distinction; partial arithmetic slip; fail unexplained changing weight. Repair O003 Explanation steps1 and4 then O004 support; prior committed O003 current-tuple acquisition waives this focused check. It is not a full O003 assessment and cannot substitute for O003 I1/I2.
+
+Entry checks have item version v1, and pass/partial/fail plus repair routes above. Their exact limited outcomes do not certify the upstream objective. A waiver requires actual committed compatible evidence, never familiarity or assumed mastery. If a diagnostic fails, use its named prepared explanation and support before continuing; do not cycle through full upstream independent items just to diagnose.
+
+## Teaching order and rationale
+
+1. Retrieve [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O004.md#Motivation, intuition, and definitions]] and ask why the comparison matters. Introduce notation and boundaries before calculation.
+2. Use [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O004.md#Explanation steps]] in numbered order; each step supplies a dependency for the next.
+3. Show [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O004.md#Worked example]] once, exposing reasoning and checks.
+4. Ask O004-S1 in [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O004.md#Practice with fading assistance]]; let the learner fill missing steps, then reduce assistance only after an actual adequate response.
+5. Ask unused O004-I1 then O004-I2 separately. Score before feedback; any help makes that attempt supported.
+6. If the response shows a gap, use [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O004.md#Misconceptions and correction]] and fresh C1 as repair. Return to an unused full acquisition item only if available; otherwise escalate.
+7. After qualifying acquisition, recall may schedule a real interval; teach starts an unused D1 or D2 before any recap and checks elapsed time/exposure.
+
+Known prerequisite evidence skips only its diagnostic/support. Full current-objective checks remain required. Two parallel numeric cases demonstrate this bounded outcome, not generalized mastery of untaught models.
+
+## Motivation, intuition, and definitions
+
+Reciprocity conditions concern for another person on what that person did. Positive payoff concern can also be unconditional; inequality concern instead depends on who is ahead. Efficiency concerns the monetary sum. Similar observed transfers need not identify which motivation is operating.
+
+Visual support:
+
+No visual asset is necessary for this objective; use the explicit equations, labels and reasoning prepared here.
+
+## Explanation steps
+
+1. In the displayed reciprocity equation define $w(q)=\rho+\theta q$: utility is $w(q)x_2+[1-w(q)]x_1$. Kindness gives $w_+=\rho+\theta$, misbehavior $w_-=\rho-\theta$, so $w_+-w_-=2\theta>0$.
+2. Negative total weight after misbehavior requires $\rho-\theta<0$, equivalently $\theta>\rho$. A positive theta alone cannot establish hostility; baseline rho can be larger. At theta=rho the negative-treatment weight is zero.
+3. Identical allocations can have different utilities because q changes; this differs from unconditional altruism and inequality-only weighting. Do not say kindness raises utility for every fixed allocation: $U_+-U_-=2\theta(x_2-x_1)$, so the sign depends on relative monetary payoffs. This is direct unpacking of the supplied equation, not an estimated treatment effect.
+4. As the notes’ labelled illustration, set both earlier payoff weights to 1/2: $U=(x_1+x_2)/2$. Ranking this particular utility is equivalent to ranking the total. This supplies an illustration of efficiency concern within the existing function, not a complete separately estimated efficiency-seeking model or evidence that all efficiency preferences use these weights.
+5. Sequential trust lets a trustee observe the prior transfer; simultaneous cooperation requires a belief about current kindness before either action is seen. The lecture names positive reciprocity plus belief in cooperation but gives no separate quantitative simultaneous mechanism, measured intention rule, study rate or belief threshold. A single transfer cannot isolate the motivation.
+
+## Worked example
+
+### O004-W1 — Treatment shifts weight
+
+Item version: v1. Role: worked instruction.
+
+**Setup:** Hypothetical rho=1/5,theta=3/10, allocation(40,20); compare q states and efficiency illustration(24,24) versus(30,26).
+
+**Worked reasoning and result:** Kind weight.5,unkind-.1,change.6; U_kind=.5(20)+.5(40)=30, U_unkind=-.1(20)+1.1(40)=42. Negative after misbehavior since theta>rho; kindness raises other-weight but lowers this fixed allocation’s utility because own>other. Fixed altruism/inequality do not respond to q. Efficiency illustration utilities24 and28, prefers larger total56. It is not a separate efficiency model or motive identification; simultaneous reciprocity requires expectations whereas trustee sees transfer, no quantitative mechanism supplied.
+
+**Checks and interpretation:** Verify labels, active conditions, dimensions/signs where applicable and every source limitation before inferring a choice. This example is exposed instruction and cannot establish independence.
+
+## Practice with fading assistance
+
+### O004-S1 — Complete response weights
+
+Item version: v1. Role: supported completion. Required components: R1, R2, R3, R4.
+
+**Question:** Hypothetical rho=2/5,theta=1/10, allocation(30,10). Complete two weights, change and utilities, negativity condition; compare efficiency pairs(16,16),(20,18), and distinguish motives plus simultaneous/observed treatment. Hint: substitute q before multiplying payoffs. Define q and theta in the displayed reciprocity illustration.
+
+**Key:** Kind.5,unkind.3,change.2; utilities20 and24. theta=.1<rho=.4,so unkind weight remains positive. Utility difference-.2(20)=-4; kindness does not raise every fixed pair. Reciprocity treatment-dependence differs from unconditional positive weights and payoff inequality. Efficiency existing-model half-total gives16 versus19,prefers total38; no full separate model or one-transfer identification. Sequential trustee observes prior transfer; simultaneous player relies on belief; no quantitative reciprocity formula/rate for that game supplied. Here q=1 labels kind treatment, q=−1 misbehavior, and theta>0 is the sensitivity to treatment.
+
+**Support and rubric:** Begin by letting the learner complete the specified steps using blank paper. Linked notes and up to two prepared hints are allowed here. Pass requires the essential component list with correct reasoning; partial means an incomplete component or isolated arithmetic slip, prompting the named repair; fail means a critical conceptual error. A correct supported answer permits fading help, never a claim of independent acquisition. After two ineffective hints show the needed step or pause.
+
+### O004-I1 — independent acquisition
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Hypothetical rho=3/10,theta=1/5 at (60,20). Define q and theta, derive both effective weights and their difference, compute utilities and the condition for a negative misbehavior weight. Explain utility-change sign, distinguish reciprocity/altruism/inequality, compare efficiency illustration pairs(20,20),(32,18), and contrast observed trust treatment with simultaneous expectations and source-model limits.
+
+**Key:** q1 kind,q-1 misbehavior,theta positive sensitivity. Weights.5,.1,difference.4; utilities40 and56. Negativity iff theta>rho,here false. U_kind-U_unkind=.4(20-60)=-16,so increased other-weight need not raise fixed-pair utility. Reciprocity changes with treatment; unconditional altruism keeps positive weights and inequality changes by relative payoff, not q. rho=sigma=.5 illustration ranks half totals20 versus25,prefers(32,18). This is no full separate efficiency model and single choice does not identify motives. Trustee observes transfer; simultaneous reciprocity uses belief before current action; no quantified reciprocity game mechanism/rate supplied.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+### O004-I2 — independent acquisition
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Hypothetical rho=1/10,theta=2/5 at (50,30). Explain q/theta and derive weights/difference/utilities and negative-weight condition. Interpret why kindness changes this fixed allocation’s utility as it does; compare with fixed altruism/inequality. Rank(30,30),(42,22) under the labelled efficiency illustration and state its limits plus the sequential/simultaneous reciprocity distinction.
+
+**Key:** q1 kind,-1 misbehavior,theta>0; weights.5,-.3,difference.8. Utilities40 and56. theta>.1 ensures negative unkind weight; theta positive alone would not. Difference.8(30-50)=-16. Reciprocity treatment-dependent; altruism unconditional positive and inequality regime depends on monetary payoffs. Half-total illustration gives30 and32,prefers total64. Not a full separate estimated efficiency model or unique motive identification. Trust trustee sees transfer; simultaneous kindness requires expectations; no quantitative mechanism/threshold/rate supplied.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Rubric and independence
+
+- **R1**: Explain q=1 kindness/q=-1 misbehavior, theta>0, derive effective weights and 2theta change, and compute treatment-dependent utilities.
+- **R2**: State negative response weight iff theta>rho; distinguish treatment from unconditional altruism and payoff inequality; fixed allocation utility need not increase after kindness.
+- **R3**: Use rho=sigma=1/2 only as the labelled existing-model illustration of total-payoff maximization, compare totals and preserve the absent separate efficiency model/identification limit.
+- **R4**: Distinguish observed prior treatment in sequential trust from beliefs in simultaneous cooperation; do not invent a quantitative simultaneous reciprocity mechanism.
+
+Every I1, I2, D1, D2 and C1 question/key explicitly addresses all required components above. The sole acquisition route is two separate, distinct, fresh unassisted passes on I1 **and** I2 under the current criterion and compatible tuple. Worked/support/diagnostic/correction items and delayed items are not acquisition substitutes. No shorter question silently fills a missing component. The fixed practice inputs differ across W1/S1/I1/I2/D1/D2/C1; learning constants from the notes remain common where retrieval of those exact facts is the outcome.
+
+Pass: all essential components, necessary reasoning, assumptions and interpretation limits are present, with accurate outputs. Accept equivalent wording, correct alternative algebra and exact fractions or consistent rounding that preserves inequalities/ties. Partial: a missing component or isolated arithmetic/transcription slip with valid conceptual setup; score before explaining the repair and do not count this attempt as a pass. Fail: wrong regime/role/sign, invalid incentive logic, replacing utility with monetary sum, treating hypothetical or descriptive data as identified results, or dropping a stated condition that changes the conclusion. For the orientation objective, replacing a printed restriction with an invented rule is a critical error. Unscorable: ambiguous prompt interpretation outside the key, unknown assistance/access/exposure, or unavailable source tuple. No numeric point scale or mastery result is fabricated.
+
+An independent check is fresh only if neither its question nor key has already been exposed, including during earlier diagnostics or feedback. Teach records actual help/access conditions. Correct repetition of an exposed task cannot establish fresh independence. I1 and I2 are reserved for acquisition; D1/D2 are reserved for delayed retrieval.
+
+## Misconceptions and correction
+
+Signs: theta>0 automatically produces a negative weight; kindness always increases utility; half-total illustration called the complete efficiency model. Correction: calculate rho-theta and distinguish weight change from utility change; retain the illustration label and model limits. Hint1: subtract theta from baseline rho. Hint2: multiply the weight change by x2-x1. C1 is repair only.
+
+A sign is a tentative hypothesis about the error until the learner’s reasoning supports it. Score the initial response before giving the corrective explanation or either hint. At most two ineffective hints, then show the specific prepared step or pause. After two unsuccessful full independent attempts, stop quizzing and use support/prerequisite repair; request new full variants from plan if needed.
+
+### O004-C1 — fresh correction only
+
+Item version: v1. Role: correction_repair. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Repair hypothetical rho=3/10,theta=1/10 at(40,10). Explain treatment symbols and derive weights/change/utilities/negativity condition, interpret fixed-pair change and distinguish motives. Rank efficiency illustration(12,12),(18,10), then explain source limits and observed versus expected cooperation.
+
+**Key:** q1 kind,-1 misbehavior,theta positive. Weights.4,.2,difference.2;utilities28,34. No negative unkind weight since theta<rho;negative iff theta>rho. Difference.2(10-40)=-6. Treatment-conditioned reciprocity differs from unconditional altruism and monetary inequality. Half totals12,14,prefer(18,10). Illustration only,no full separate efficiency model/no one-choice identification. Trustee sees prior action; simultaneous player expects cooperation,no quantitative reciprocity mechanism/rate supplied.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Immediate and delayed checks
+
+I1 and I2 are prepared above for immediate acquisition. Present each question without its key. Delayed checks below must occur at least 24 actual hours after both qualifying acquisition and the most recent relevant teaching/feedback/known solution exposure: measure from the later of those anchors. They occur before recap and without help. A next calendar day alone does not establish 24 hours. Record known intervening exposure; unknown timing/exposure does not certify delayed retention. This interval is a practical validity guard, not a personalized optimum. A delayed pass requires all current essential components. D1 and D2 are alternatives for separate fresh delayed attempts; use the first unused one, never both merely to fill acquisition. Passing a number-changed parallel variant supports bounded retrieval and application, not broad transfer or every semester topic.
+
+### O004-D1 — delayed independent retrieval
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Hypothetical rho=1/4,theta=1/4 at(40,24). Explain q and theta; derive both weights/change/utilities and exact negative-weight condition. Interpret treatment utility change and discriminate altruism/inequality; compare half-total illustration(18,18),(28,12), preserving efficiency identification and simultaneous reciprocity limits. Compare the trustee observing prior treatment in sequential trust with relying on a belief about current cooperation in a simultaneous game.
+
+**Key:** q1 kind,-1 misbehavior;theta>0. Weights.5,0,difference.5; utilities32,40. theta=rho gives zero unkind weight,negative only theta>rho. Difference.5(24-40)=-8; kindness does not always raise fixed-allocation utility. Treatment differs from unconditional altruism/payoff inequality. Half totals18,20,prefer(28,12). Existing-function illustration only,no complete separate model/no single-choice identification. Trustee observes prior transfer; simultaneous game needs belief in cooperation,no quantitative reciprocity model/rate supplied.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+### O004-D2 — delayed independent retrieval
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Hypothetical rho=1/5,theta=2/5 at(20,40). Define treatment states and sensitivity, derive weights/change/utilities and negative response condition; distinguish fixed allocation utility from the weight change and compare fixed altruism/inequality. Rank efficiency pairs(25,25),(36,18), then state model/identification and sequential/simultaneous boundaries.
+
+**Key:** Weights.6,-.2,difference.8; q1 kind,-1 unkind,theta positive. Utilities32,16;negative unkind because theta>rho. Difference.8(40-20)=16,here kindness raises utility; the general sign depends on payoff difference. Reciprocity treatment-based,altruism unconditional positive,inequality payoff-relative. Half totals25,27,prefer(36,18). Illustration not separate complete efficiency model or motive identification. Sequential trustee sees prior transfer; simultaneous reciprocity requires expectation,no quantified game mechanism/rate.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Advance, revisit, pause, and escalate
+
+Advance this objective only after committed qualifying passes on both I1 and I2; do not imply durable retention until an eligible delayed check is recorded. If a required diagnostic is deficient, follow its named prerequisite explanation/support. End a session with the actual unfinished route when acquisition is unmet. If relevant notes/state change or the matched journal is incomplete, block this version pending plan reconciliation. A source contradiction, missing academic explanation or absent provenance goes to ingest at the exact note/heading. Unsupported answer alternatives, ambiguous rubrics, missing prepared components or exhausted fresh I/D/C variants go to plan as `plan_issue`, with course ID, P001/V001/ingest 2, objective/criterion, item ID/version, exposed item IDs and the actual gap; do not invent or recycle a new assessment. Finite-bank exhaustion is a curriculum gap, not learner failure. No scheduler dates or learner status are written here.
+
+## Answer-free recall handoff
+
+**Review topic:** Behavioral Economics — Distinguish reciprocity, payoff concerns and efficiency
+
+**Start instruction:** Begin a closed-note review with teach for O004; request an unused prepared delayed item before recap. Open [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O004.md#Immediate and delayed checks]]. Teach supplies actual committed acquisition/evidence identifiers; recall alone selects dates and synchronizes reviews. There is no personal deadline constraint (null) and no observed learning result in this plan.

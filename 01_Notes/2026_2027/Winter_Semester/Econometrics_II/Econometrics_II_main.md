@@ -10,7 +10,7 @@ sources:
   - 00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_1/Předměty.pdf
 ---
 
-[[#Week 1|Week 1]] · [[#Week 2|Week 2]]
+[[#Week 1|Week 1]] · [[#Week 2|Week 2]] · [[#Week 3|Week 3]]
 
 # Econometrics II
 
@@ -102,3 +102,17 @@ Two series can appear closely related because they share a time pattern. [[01_No
 ### Reading identity and scope
 
 The lecture assigns Chapter 10 for today and Chapter 11 for next week. The uploaded textbook is the **Fifth Edition**, whose Chapter 10 is printed pp. 344–379 / physical PDF pp. 372–407, and Chapter 11 is printed pp. 380–411 / PDF pp. 408–439. Its pagination therefore differs from the slides' pp. 311–342 and 347–370; the chapter titles establish the match. Chapter 10 explanations are integrated into these same topic notes. Chapter 11 is used only where it clarifies the present assumption/trend boundary; its broader next-week methods are not developed here. The slides' unprovided board examples, linked video, EET data, and unlabeled units/provenance for the GDP figures remain outside verified supplied coverage. [[00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_2/2026_Lecture2_print.pdf#page=2|Lecture 2, PDF pp. 2, 28–31]]; [[00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf#page=372|Wooldridge, Chapter 10 opening, PDF p. 372 (printed p. 344)]]; [[00_Materials/2026_2027/Winter_Semester/Econometrics_II/Dump/textbook.pdf#page=408|Chapter 11 opening, PDF p. 408 (printed p. 380)]]
+
+## Week 3
+
+Concept index and reading path:
+
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_3/Stationarity_Weak_Dependence_and_MA1.md|Stationarity Weak Dependence and MA1]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_3/AR1_Random_Walks_and_Integration.md|AR1 Random Walks and Integration]]
+- [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_3/Time_Series_OLS_Consistency_and_Inference.md|Time Series OLS Consistency and Inference]]
+
+Begin with stationarity and weak dependence: stable distributions and fading dependence let sample averages carry information despite temporal correlation. These are core foundations for the lecture's LLN/CLT route, while the MA(1) shared-innovation example makes their meaning concrete. Then compare stable AR(1), random walks and drift; their shock persistence explains why deterministic detrending differs from first differencing. Finally, follow TS1a–TS3a to consistency and add TS4a–TS5a for usual asymptotic inference. Matching the assumption to the conclusion matters more than treating all desirable OLS properties as one package. [[00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_3/2026_Lecture3_print.pdf#page=3|2026_Lecture3_print.pdf, physical PDF p. 3–30]]
+
+### Week 3 priorities and limits
+
+The core path above is supported by the lecture's stated aim (p.3), process derivations (pp.8–18,26–29) and OLS theorems (pp.20–24). Conditional expectations, covariance algebra, linear-model notation and sample-average probability limits are prerequisites because they supply each transition; the notes develop them locally. Histograms and the restaurant plot are supporting diagnostics, not unit-root tests. The appended plot and all32 pages have been inspected. Source overstatements about controls, stationarity/weak dependence, AR initialization and random initial-value variance are explicitly qualified. Formal Dickey–Fuller/ADF procedure and next-week Chapter12 methods remain reading pointers, not completed teaching content. Bounded Chapter11 textbook and online reference checks are identified in the notes. No earlier note prose or learner evidence is replaced.

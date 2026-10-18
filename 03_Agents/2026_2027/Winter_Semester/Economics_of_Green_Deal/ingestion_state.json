@@ -2,16 +2,16 @@
   "schema_version": 1,
   "owner": "ingest",
   "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
-  "ingestion_revision": 2,
-  "transaction_id": "INGEST-20261009-GREEN-R2-COMPLETE",
+  "ingestion_revision": 3,
+  "transaction_id": "INGEST-20261018-GREEN-R3-COMPLETE",
   "status": "complete",
-  "run_id": "20261007T122546+0200_week2_courses",
-  "completion_log": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
-  "updated_at": "2026-10-09T22:01:45.220272+02:00",
+  "run_id": "20261018T195113+0200_weeks1-3_five_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261018T195113+0200_weeks1-3_five_courses.md",
+  "updated_at": "2026-10-18T20:40:49.076887+02:00",
   "finished_notes": [
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md",
-      "sha256": "c3247f018ae62c6f8429cc472dbc958938bfe621fc8f3f87fa7feb110259ecee",
+      "sha256": "e919408206cc4b9ec64bcac078f303ba0d6b2c38bca8239edf2d47f5edbec60e",
       "headings": [
         "Economics of Green Deal",
         "Week 1",
@@ -24,7 +24,9 @@
         "Incentives accounting and institutions",
         "Assess policies beyond one private cost",
         "Coverage and source qualifications",
-        "Sources"
+        "Sources",
+        "Week 3",
+        "Week 3 source scope and qualifications"
       ]
     },
     {
@@ -165,6 +167,56 @@
         "Conclusions recommendations and limits",
         "Sources and page convention"
       ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Carbon_Units_Stocks_Flows_and_Emissions_Charts.md",
+      "sha256": "53486825eda1979d271237a20403c33c1e0ba9e54a5c9ef0191ae8468ecb2b9d",
+      "headings": [
+        "Carbon units, stocks, flows and emissions charts",
+        "Carbon mass and the inverse price conversion",
+        "GWP and CO2-equivalent emissions",
+        "Trace-gas concentration and AGGI",
+        "Why a stable flow can increase an atmospheric stock",
+        "Sector quantities: gas and denominator first",
+        "Per person, population and totals"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Climate_Scenarios_Policy_and_Adaptation.md",
+      "sha256": "dc3f2be26999e63b812767c1b200564516dc4fb9a19243829ec7abf3f0ff1c90",
+      "headings": [
+        "Climate scenarios, policy and adaptation",
+        "SSP assumptions and RCP forcing pathways",
+        "The AR5 temperature table needs its reference period",
+        "Climate policy: source claims and verified chronology",
+        "Mitigation and adaptation solve different parts of the problem"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Greenhouse_Effect_CO2_and_Earth_Energy.md",
+      "sha256": "0e546eb44a26562a6831079998cde23dd5004f51769540e9057950e69279b643",
+      "headings": [
+        "Greenhouse effect, CO2 and Earth's energy",
+        "The radiative mechanism and its limits as an analogy",
+        "Concentration is not a global daily average by default",
+        "Reading the temperature evidence",
+        "Energy imbalance and the heat inventory",
+        "CO2 also changes ocean chemistry"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Impact_Pathways_Health_Valuation_and_Standing.md",
+      "sha256": "df3400bedc26d3001c8239c118b327ba73e7fd2889154e49a8fb01fc0337016f",
+      "headings": [
+        "Impact pathways, health valuation and standing",
+        "Top-down allocation versus bottom-up pathways",
+        "From concentration to a receptor-specific impact",
+        "Endpoints and the source response-value table",
+        "Monetizing the change in health and welfare",
+        "What the electricity comparisons show",
+        "Denmark and local versus imported pollution",
+        "Economic standing: whose loss counts?"
+      ]
     }
   ],
   "affected_note_paths": [
@@ -176,166 +228,181 @@
     "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/US_Environmental_Policy_and_Economic_Principles.md",
     "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Political_Economy_of_Cost_Benefit_Analysis.md"
   ],
-  "prior_completed_revision": 1,
-  "unresolved": [
-    "Academic source gap: the climate-foundation lecture is an external Prezi link/title, not supplied lecture content. Physical mechanisms, mitigation/adaptation/geoengineering explanations and Kyoto-to-Paris historical teaching are only advertised, not ingested. An accessible authorized copy is needed to cover those strands.",
-    "Network lower-case r is undefined; K lacks an explicit source definition. The notes preserve the diagram and distinguish conventional interpretation from a supplied definition, without inventing equations or equality-case predictions.",
-    "SIS header says 2026/2027, but listed dates/weekday and September 2025 edits reflect older calendar context. No current-year timetable is inferred.",
-    "Assessment allocations add to 110 points. Participation-bonus/cap and fractional-score handling are unspecified; original bands retained.",
-    "Week2 qualifications, not unfinished supplied coverage: Sandmo N/u_ND/u_D and tax normalization are undeclared; final-slide separability proof absent. No numerical model or missing 2040 target invented. Historical ICAP count units conflict; dated estimates/policy context do not establish present rules. The Verhoef next-chapter risk text is only an opening fragment."
+  "prior_completed_revision": 2,
+  "unresolved": [],
+  "selected_scope": [
+    "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1",
+    "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2",
+    "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3"
   ],
-  "selected_scope": "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2",
-  "coverage_status": "Complete for all five supplied Week2 PDFs (124 physical pages) after independent final review; bounded source qualifications retained.",
+  "coverage_status": "Week1/2 prior checked scope unchanged; all58 physical Week3 PDF pages and six annotations independently checked complete, optional47–58 included with optional status retained",
   "finished_assets": [
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_03_Economic_Core.png",
       "bytes": 52497,
-      "sha256": "51957fa7d0b66f5d62a5c834c504c2e93b52eb83d57c6bbf11648f68f805f2f4",
-      "change": "reused_checked"
+      "sha256": "51957fa7d0b66f5d62a5c834c504c2e93b52eb83d57c6bbf11648f68f805f2f4"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_04_Environment_Economy_Network.png",
       "bytes": 148841,
-      "sha256": "bcbc52a1565bbe786fc17cbc65c7cd897fbdc08d6e30728e1a7e8ac87a330a8d",
-      "change": "reused_checked"
+      "sha256": "bcbc52a1565bbe786fc17cbc65c7cd897fbdc08d6e30728e1a7e8ac87a330a8d"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_05_Economic_Questions.png",
       "bytes": 169551,
-      "sha256": "469cd0b9bcc6f0a231dfc5ff49b7956fcf4508c36ab7feec8412fd0aa9c7a26c",
-      "change": "reused_checked"
+      "sha256": "469cd0b9bcc6f0a231dfc5ff49b7956fcf4508c36ab7feec8412fd0aa9c7a26c"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_1.png",
       "bytes": 86680,
-      "sha256": "77a2423ac3744b917f3957fd06f9494fcc59a9017a1c4938a4e68eaba0a97c62",
-      "change": "reused_checked"
+      "sha256": "77a2423ac3744b917f3957fd06f9494fcc59a9017a1c4938a4e68eaba0a97c62"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_2.png",
       "bytes": 55142,
-      "sha256": "fb7d41a67b6ab487bd6ce3713aefd42d88fefcad332a492ecaf262174b486e05",
-      "change": "reused_checked"
+      "sha256": "fb7d41a67b6ab487bd6ce3713aefd42d88fefcad332a492ecaf262174b486e05"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_3.png",
       "bytes": 25656,
-      "sha256": "b19eaf944f1a2123312a61d3245e33915cbf7b6a0fba9d5567e60e32a9fa400c",
-      "change": "reused_checked"
+      "sha256": "b19eaf944f1a2123312a61d3245e33915cbf7b6a0fba9d5567e60e32a9fa400c"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Dimensions_Slide39.png",
       "bytes": 315031,
-      "sha256": "e38584c45e75066bb1f2610378fcac06fc5179ec97d8ef58b4992c47f57da1af",
-      "change": "reused_checked"
+      "sha256": "e38584c45e75066bb1f2610378fcac06fc5179ec97d8ef58b4992c47f57da1af"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Revenue_Slide40.png",
       "bytes": 194680,
-      "sha256": "1e2e85ac5c1131cd04ca6f65ecf4dc30dfa0ef445dab3186bb17463a7ee46657",
-      "change": "reused_checked"
+      "sha256": "1e2e85ac5c1131cd04ca6f65ecf4dc30dfa0ef445dab3186bb17463a7ee46657"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_World_Map_Slide38.png",
       "bytes": 459778,
-      "sha256": "835df9a7c7e6a536be2ab3801c41d9dae18ce771b8ab7f5599decf1bd1e8ce61",
-      "change": "reused_checked"
+      "sha256": "835df9a7c7e6a536be2ab3801c41d9dae18ce771b8ab7f5599decf1bd1e8ce61"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Externality_Optimum_Slide15.png",
       "bytes": 423361,
-      "sha256": "7ab8973f1753d6022374d5ddbc5d054014d1e984b1723e334eaed93fecca5925",
-      "change": "reused_checked"
+      "sha256": "7ab8973f1753d6022374d5ddbc5d054014d1e984b1723e334eaed93fecca5925"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Innovation_MAC_Slide45.png",
       "bytes": 182718,
-      "sha256": "37ddac8c9eb604b55e158b99e87bf81174c9762f6718e2b68029ef5c552417b8",
-      "change": "reused_checked"
+      "sha256": "37ddac8c9eb604b55e158b99e87bf81174c9762f6718e2b68029ef5c552417b8"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Instrument_Families_Slide31.png",
       "bytes": 219341,
-      "sha256": "c3063ffbc08df9bf639b5b21c2788ea5eb30ff8f2bb1e54a5efe76d1a27aafee",
-      "change": "reused_checked"
+      "sha256": "c3063ffbc08df9bf639b5b21c2788ea5eb30ff8f2bb1e54a5efe76d1a27aafee"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Positive_Externality_Slide17.png",
       "bytes": 106988,
-      "sha256": "d4257fc80b874be5dbad9bd20a521666f9dd011ac1e2c516d2e50c273f349631",
-      "change": "reused_checked"
+      "sha256": "d4257fc80b874be5dbad9bd20a521666f9dd011ac1e2c516d2e50c273f349631"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Sandmo_Tax_Slide51.png",
       "bytes": 108151,
-      "sha256": "e57af5ba4f5b233e40c7b10d532cba8f20390a78befd2f9e5784539c789b806f",
-      "change": "reused_checked"
+      "sha256": "e57af5ba4f5b233e40c7b10d532cba8f20390a78befd2f9e5784539c789b806f"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Tax_and_Permits_Slide46.png",
       "bytes": 169723,
-      "sha256": "6f0d2b8cba614090239057ffa74dcd37a08f353c5bb7e628ee99e34ffc4a98bd",
-      "change": "reused_checked"
+      "sha256": "6f0d2b8cba614090239057ffa74dcd37a08f353c5bb7e628ee99e34ffc4a98bd"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table1_Noise.png",
       "bytes": 83684,
-      "sha256": "fc16dfde37a4fd01fbf2b79406c25e44872f215f4fa0615c403bb3384975d3a5",
-      "change": "reused_checked"
+      "sha256": "fc16dfde37a4fd01fbf2b79406c25e44872f215f4fa0615c403bb3384975d3a5"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table2_Air_Pollution.png",
       "bytes": 74868,
-      "sha256": "dc61344059da2c8a61a34e5552f55aca9440d481087b706b520f4d963b383d2c",
-      "change": "reused_checked"
+      "sha256": "dc61344059da2c8a61a34e5552f55aca9440d481087b706b520f4d963b383d2c"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table3_Accidents.png",
       "bytes": 69283,
-      "sha256": "4011488e19cca55295d93e3c5df868cb0e56c36e9d0ee547558c6027d5522180",
-      "change": "reused_checked"
+      "sha256": "4011488e19cca55295d93e3c5df868cb0e56c36e9d0ee547558c6027d5522180"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Transport_Typology.png",
       "bytes": 60205,
-      "sha256": "ce7f3effc8cf777f252439907295f073fdaf8820ed23476097671a5aa6009f3a",
-      "change": "reused_checked"
+      "sha256": "ce7f3effc8cf777f252439907295f073fdaf8820ed23476097671a5aa6009f3a"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Figure13_1.png",
       "bytes": 134645,
-      "sha256": "04bf1e44c89133e00e503d707b48549855f42dff741631e6c5842777145ae07b",
-      "change": "reused_checked"
+      "sha256": "04bf1e44c89133e00e503d707b48549855f42dff741631e6c5842777145ae07b"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Figure13_2.png",
       "bytes": 20788,
-      "sha256": "5697824df2433b2a45e53e5d4c31af41aebc54ecb783317de5115f09e5cccf44",
-      "change": "new"
+      "sha256": "5697824df2433b2a45e53e5d4c31af41aebc54ecb783317de5115f09e5cccf44"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_1.png",
       "bytes": 125909,
-      "sha256": "89ae116e73505f9c4993ba90742e8fb1c4db6741a681e842b5e4a053a01138b8",
-      "change": "reused_checked"
+      "sha256": "89ae116e73505f9c4993ba90742e8fb1c4db6741a681e842b5e4a053a01138b8"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_2.png",
       "bytes": 84856,
-      "sha256": "fca676bdc538f633c9cdfc994dda786044b71f0c4c99c577571203b0fd63424a",
-      "change": "reused_checked"
+      "sha256": "fca676bdc538f633c9cdfc994dda786044b71f0c4c99c577571203b0fd63424a"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Weak_Double_Dividend_Slide54.png",
       "bytes": 140265,
-      "sha256": "c453006a1112aed746f7fd9afbb6c2de0d548f9986ca01b1662bf051567838ea",
-      "change": "reused_checked"
+      "sha256": "c453006a1112aed746f7fd9afbb6c2de0d548f9986ca01b1662bf051567838ea"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week_3_Concentration_Response_Table.png",
+      "bytes": 177832,
+      "sha256": "e087296f3f176eb76cb664582755f6cbc5a38ab7c1a3695120388458a8ed28bf"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week_3_Earth_Heat_Inventory.png",
+      "bytes": 563062,
+      "sha256": "d04b0ef7a84d381c336eb561a341a9ea4a771555153d4bf49f5a1733b592ac08"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week_3_Economic_Standing.png",
+      "bytes": 213927,
+      "sha256": "5b897eabb5182cc092db2f2c0bad3d10123df840c8553da3bce9e41e1dccb98b"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week_3_Electricity_External_Costs.png",
+      "bytes": 91166,
+      "sha256": "303d56ab517a7d3e8ed262d627c3a6ddb51300aca55706a786e6e66f232bffce"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week_3_Emissions_By_Sector.png",
+      "bytes": 270764,
+      "sha256": "6d0f3722d30e472c9062653fa598db4a8e83a67f0bfa867692b8934293cbd222"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week_3_Emissions_Concentration_Scenarios.png",
+      "bytes": 243477,
+      "sha256": "c3255773c2b867f8f1e414de91ec3fb7542e90567abf789cb1a6db004b00f2c7"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week_3_Greenhouse_Budget.png",
+      "bytes": 222810,
+      "sha256": "a4f43f5cd1ff6e2d3ae713560aa1d1d20cf9666a478ba1cf9ecb73be3c2b77f5"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week_3_Impact_Pathway.png",
+      "bytes": 586100,
+      "sha256": "0984cb0806379821072123228baf3e268a809787809817bde4b19e8c536b66d9"
     }
   ],
-  "prior_passes": [],
+  "prior_passes": [
+    "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md"
+  ],
   "prior_plan_paths": [],
   "independent_checkers": [
-    "/root/factcheck_introductions",
-    "/root/review_green_sources"
+    "/root/ingest_owner/green_source_check"
   ]
 }

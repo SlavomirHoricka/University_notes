@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "owner": "ingest",
+  "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+  "ingestion_revision": 3,
+  "transaction_id": "INGEST-20261018T195113_0200-Economics_of_Green_Deal-R3-GATE",
+  "status": "blocked",
+  "run_id": "20261018T195113+0200_weeks1-3_five_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md",
+  "updated_at": "2026-10-18T20:11:33.279722+02:00",
+  "finished_notes": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md",
+      "sha256": "c3247f018ae62c6f8429cc472dbc958938bfe621fc8f3f87fa7feb110259ecee",
+      "headings": [
+        "Economics of Green Deal",
+        "Week 1",
+        "Economy within the environmental system",
+        "Questions for economic assessment",
+        "Advertised lecture and uploaded coverage",
+        "Week 2",
+        "Learning priorities and necessary foundations",
+        "From physical effects to a welfare problem",
+        "Incentives accounting and institutions",
+        "Assess policies beyond one private cost",
+        "Coverage and source qualifications",
+        "Sources"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope.md",
+      "sha256": "f0b080e8ef565e2c6f73bb37f1ab81239a904c63186fad7659685b96a87ba3a2",
+      "headings": [
+        "Course Orientation and Week 1 Scope",
+        "Údaje o předmětu v dodaném SIS exportu",
+        "The course's central question",
+        "Week 1 content supplied and content only advertised",
+        "Assessment and grading in the supplied materials",
+        "Contacts and materials recorded in the deck",
+        "Sources and page conventions"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md",
+      "sha256": "efb3d63bd3709f51261b845db081603746a89796298bbe89a4849ca6e0e84b23",
+      "headings": [
+        "Environment–Economy Nexus",
+        "Four environmental functions",
+        "Resources",
+        "Sinks and assimilative capacity",
+        "Demand services",
+        "Global biospheric life-supporting services",
+        "The economic core: firms and households",
+        "Reading the physical and utility network",
+        "Resource use and replenishment",
+        "Waste and capacity",
+        "Several paths to wellbeing",
+        "The economic questions placed on the network",
+        "What the introductory framework establishes",
+        "Sources"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md",
+      "sha256": "529d959710600922cf0919bc4bb77ccd698aa1e4c411e91dcc19de2023f47e39",
+      "headings": [
+        "Externalities and Welfare Optimum",
+        "Topic map of the Verhoef chapter",
+        "What welfare criteria can establish",
+        "Identify the externality before proposing a remedy",
+        "Types and boundaries",
+        "Derive the private and social activity levels",
+        "Why a cost reduction is not a new external benefit",
+        "Four different policy concepts",
+        "Coasean bargaining and its limitations",
+        "Efficiency and equity lead to different comparisons",
+        "The next-chapter fragment included in the file",
+        "What to retain",
+        "Sources and page convention"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+      "sha256": "9e2f739fb2dec5a81d11a4afc2b62308b70ad5ab27a0310d07f641df4eb7d87a",
+      "headings": [
+        "Market Based Environmental Instruments",
+        "Four instrument families",
+        "Tradable rights and flexibility",
+        "Flexibility across time",
+        "Flexibility across space",
+        "Why common marginal costs minimize total abatement costs",
+        "Innovation and environmental effectiveness",
+        "Historical policy examples and chart interpretation",
+        "Different ETS metrics answer different questions",
+        "Climate agreements and EU targets as recorded in the lecture",
+        "What to retain"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Optimal_Environmental_Taxation.md",
+      "sha256": "8da1915b95877f0ba4297c03056ee3110e77fd0d03c58aa602d424cb8c391b1b",
+      "headings": [
+        "Optimal Environmental Taxation",
+        "Three goals of an environmental tax",
+        "Sandmo decomposition and the cost of public funds",
+        "Revenue recycling and the double dividend",
+        "The final slide's qualifications",
+        "What can be applied and what needs further source material"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Political_Economy_of_Cost_Benefit_Analysis.md",
+      "sha256": "600a646384717bf380b444c4b215804797e786f1224c8bb209fc00d582b00dfe",
+      "headings": [
+        "Political Economy of Cost-Benefit Analysis",
+        "Topic map",
+        "The normative benchmark and its limits",
+        "Distinguish use, quality and influence",
+        "Four motives for using appraisal",
+        "Forecast errors and strategic incentives",
+        "Improving the appraisal process",
+        "How to interpret a decision that departs from CBA",
+        "Sources and page conventions"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Road_Transport_External_Costs.md",
+      "sha256": "cc396e42c7c4541affc1793168ef6857bb6cf76f1e847ce27f397ae86f77b0fd",
+      "headings": [
+        "Road Transport External Costs",
+        "Topic map of the paper",
+        "Transport benefits and external benefits are different",
+        "Classify the harm and its incidence",
+        "Activity abatement and defence are jointly chosen",
+        "Assumptions and derivative notation",
+        "Derive and interpret the efficient conditions",
+        "Efficiency and the unpaid bill require different measures",
+        "Why noise and air-pollution estimates can undercount",
+        "Shortcuts and choice of a standard",
+        "What valuation techniques measure",
+        "Read the historical tables",
+        "Accidents: risk valuation and aggregation",
+        "What the review establishes",
+        "Sources and page convention"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/US_Environmental_Policy_and_Economic_Principles.md",
+      "sha256": "3c4036f9459c54b98f4cfaf95fea16fcbc5d5fa115c535ea7dd3215b915e2056",
+      "headings": [
+        "US Environmental Policy and Economic Principles",
+        "Topic map and argument",
+        "Seven principles for evaluating environmental policy",
+        "Climate change: cooperation damage and uncertainty",
+        "Energy production: price is incomplete without external costs",
+        "Check the units in the numerical example",
+        "Water: evaluate benefits and preserve uncertainty",
+        "Lead service lines",
+        "PFAS and cumulative exposure",
+        "Wetlands and the WOTUS boundary",
+        "Environmental federalism: match jurisdiction to the spillover",
+        "Regulatory appraisal and discounting",
+        "Deregulation counts are not a welfare measure",
+        "Distribution research data and future capacity",
+        "Conclusions recommendations and limits",
+        "Sources and page convention"
+      ]
+    }
+  ],
+  "affected_note_paths": [
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Road_Transport_External_Costs.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Optimal_Environmental_Taxation.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/US_Environmental_Policy_and_Economic_Principles.md",
+    "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Political_Economy_of_Cost_Benefit_Analysis.md"
+  ],
+  "prior_completed_revision": 2,
+  "unresolved": [
+    "Selected Weeks1–3 new material pending full source coverage and independent review."
+  ],
+  "selected_scope": "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2",
+  "coverage_status": "Complete for all five supplied Week2 PDFs (124 physical pages) after independent final review; bounded source qualifications retained.",
+  "finished_assets": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_03_Economic_Core.png",
+      "bytes": 52497,
+      "sha256": "51957fa7d0b66f5d62a5c834c504c2e93b52eb83d57c6bbf11648f68f805f2f4",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_04_Environment_Economy_Network.png",
+      "bytes": 148841,
+      "sha256": "bcbc52a1565bbe786fc17cbc65c7cd897fbdc08d6e30728e1a7e8ac87a330a8d",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Intro_Slide_05_Economic_Questions.png",
+      "bytes": 169551,
+      "sha256": "469cd0b9bcc6f0a231dfc5ff49b7956fcf4508c36ab7feec8412fd0aa9c7a26c",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_1.png",
+      "bytes": 86680,
+      "sha256": "77a2423ac3744b917f3957fd06f9494fcc59a9017a1c4938a4e68eaba0a97c62",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_2.png",
+      "bytes": 55142,
+      "sha256": "fb7d41a67b6ab487bd6ce3713aefd42d88fefcad332a492ecaf262174b486e05",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_CBA_Table_17_3.png",
+      "bytes": 25656,
+      "sha256": "b19eaf944f1a2123312a61d3245e33915cbf7b6a0fba9d5567e60e32a9fa400c",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Dimensions_Slide39.png",
+      "bytes": 315031,
+      "sha256": "e38584c45e75066bb1f2610378fcac06fc5179ec97d8ef58b4992c47f57da1af",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_Revenue_Slide40.png",
+      "bytes": 194680,
+      "sha256": "1e2e85ac5c1131cd04ca6f65ecf4dc30dfa0ef445dab3186bb17463a7ee46657",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_ETS_World_Map_Slide38.png",
+      "bytes": 459778,
+      "sha256": "835df9a7c7e6a536be2ab3801c41d9dae18ce771b8ab7f5599decf1bd1e8ce61",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Externality_Optimum_Slide15.png",
+      "bytes": 423361,
+      "sha256": "7ab8973f1753d6022374d5ddbc5d054014d1e984b1723e334eaed93fecca5925",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Innovation_MAC_Slide45.png",
+      "bytes": 182718,
+      "sha256": "37ddac8c9eb604b55e158b99e87bf81174c9762f6718e2b68029ef5c552417b8",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Instrument_Families_Slide31.png",
+      "bytes": 219341,
+      "sha256": "c3063ffbc08df9bf639b5b21c2788ea5eb30ff8f2bb1e54a5efe76d1a27aafee",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Positive_Externality_Slide17.png",
+      "bytes": 106988,
+      "sha256": "d4257fc80b874be5dbad9bd20a521666f9dd011ac1e2c516d2e50c273f349631",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Sandmo_Tax_Slide51.png",
+      "bytes": 108151,
+      "sha256": "e57af5ba4f5b233e40c7b10d532cba8f20390a78befd2f9e5784539c789b806f",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Tax_and_Permits_Slide46.png",
+      "bytes": 169723,
+      "sha256": "6f0d2b8cba614090239057ffa74dcd37a08f353c5bb7e628ee99e34ffc4a98bd",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table1_Noise.png",
+      "bytes": 83684,
+      "sha256": "fc16dfde37a4fd01fbf2b79406c25e44872f215f4fa0615c403bb3384975d3a5",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table2_Air_Pollution.png",
+      "bytes": 74868,
+      "sha256": "dc61344059da2c8a61a34e5552f55aca9440d481087b706b520f4d963b383d2c",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Table3_Accidents.png",
+      "bytes": 69283,
+      "sha256": "4011488e19cca55295d93e3c5df868cb0e56c36e9d0ee547558c6027d5522180",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef1994_Transport_Typology.png",
+      "bytes": 60205,
+      "sha256": "ce7f3effc8cf777f252439907295f073fdaf8820ed23476097671a5aa6009f3a",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Figure13_1.png",
+      "bytes": 134645,
+      "sha256": "04bf1e44c89133e00e503d707b48549855f42dff741631e6c5842777145ae07b",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Figure13_2.png",
+      "bytes": 20788,
+      "sha256": "5697824df2433b2a45e53e5d4c31af41aebc54ecb783317de5115f09e5cccf44",
+      "change": "new"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_1.png",
+      "bytes": 125909,
+      "sha256": "89ae116e73505f9c4993ba90742e8fb1c4db6741a681e842b5e4a053a01138b8",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Verhoef2002_Table13_2.png",
+      "bytes": 84856,
+      "sha256": "fca676bdc538f633c9cdfc994dda786044b71f0c4c99c577571203b0fd63424a",
+      "change": "reused_checked"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/assets/Week2_Weak_Double_Dividend_Slide54.png",
+      "bytes": 140265,
+      "sha256": "c453006a1112aed746f7fd9afbb6c2de0d548f9986ca01b1662bf051567838ea",
+      "change": "reused_checked"
+    }
+  ],
+  "prior_passes": [],
+  "prior_plan_paths": [],
+  "independent_checkers": [
+    "/root/factcheck_introductions",
+    "/root/review_green_sources"
+  ]
+}

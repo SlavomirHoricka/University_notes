@@ -23,9 +23,15 @@ def excluded(path, root):
     if rel in {('03_Agents', 'history', 'README.md'),
                ('03_Agents', 'history', 'plugin-releases', 'README.md')}:
         return False
-    return (any(p.startswith('.') or p == '__pycache__' for p in rel)
+    # Version bundles are immutable history; the surrounding course/index stays live.
+    curriculum_snapshot = (len(rel) >= 7 and rel[0] == '03_Agents'
+                           and re.fullmatch(r'\d{4}_\d{4}', rel[1]) is not None
+                           and rel[2] in {'Winter_Semester', 'Summer_Semester'}
+                           and rel[4] == 'curriculum_history'
+                           and re.fullmatch(r'P\d{3}', rel[5]) is not None)
+    return (curriculum_snapshot
+            or any(p.startswith('.') or p == '__pycache__' for p in rel)
             or (rel[0] == '03_Agents' and len(rel) > 1 and rel[1] in {'history', 'plugins'}))
-
 
 def headings(text):
     clean = re.sub(r'```.*?```', '', text, flags=re.S)

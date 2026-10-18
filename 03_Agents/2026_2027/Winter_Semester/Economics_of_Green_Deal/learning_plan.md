@@ -1,5 +1,7 @@
 # Economics of Green Deal — learning plan
 
+## Record metadata
+
 ```json
 {
   "schema_version": 3,
@@ -7,26 +9,27 @@
   "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
   "course_code": "JEB159",
   "course_name": "Economics of Green Deal",
-  "record_revision": 3,
-  "transaction_id": "PLAN-20261009-GREEN-P003",
-  "plan_version": "P003",
-  "source_version": "V002",
-  "ingestion_revision": 2,
-  "updated_at": "2026-10-10T16:20:14.232567+02:00",
+  "record_revision": 5,
+  "transaction_id": "PLAN-20261018-GREEN-P005-FORMAT",
+  "plan_version": "P005",
+  "source_version": "V003",
+  "ingestion_revision": 3,
+  "updated_at": "2026-10-18T21:13:45.093131+02:00",
   "timezone": "Europe/Prague",
-  "plan_status": "partial",
-  "requested_scope": "All supported finished Week1 and supplied Week2 material; source ambiguities and unsupported extensions explicitly bounded",
-  "requested_outcome": "Prepare an executable route to understand and apply the supported course material",
+  "plan_status": "ready",
+  "requested_scope": "All checked supplied Weeks1–3 material for this course only; later weeks excluded and source qualifications retained.",
+  "requested_outcome": "Deliver all supported Weeks1–3 through complete self-contained lessons with checked explanations, figures, worked examples, prepared exercises, complete keys/rubrics and preserved evidence standards.",
   "deadline_or_retention_horizon": null,
   "source_manifest": "source_manifest.md",
+  "course_preparation_order": "Before Behavioral Economics; user requested Behavioral Economics last",
+  "bounded_scope_status": "ready",
+  "lesson_content_contract": "self-contained-lessons-v1",
   "objectives": [
     {
       "objective_id": "O001",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O001-C1",
-      "lesson_path": "lessons/O001.md",
       "status": "ready",
-      "title": "Classify the four environmental functions",
       "knowledge_components": [
         "identify_four_functions",
         "apply_source_resource_taxonomy",
@@ -55,17 +58,37 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 1,
+          "criterion_version": "O001-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O001-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O001.md",
+      "title": "Classify the four environmental functions",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O002",
-      "objective_revision": 2,
+      "objective_revision": 3,
       "criterion_version": "O002-C1",
-      "lesson_path": "lessons/O002.md",
       "status": "ready",
-      "title": "Trace material, waste and utility paths",
       "knowledge_components": [
         "trace_economic_physical_paths",
         "distinguish_utility_paths",
@@ -96,17 +119,37 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O002-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 3,
+          "criterion_version": "O002-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O002.md",
+      "title": "Trace material, waste and utility paths",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O003",
-      "objective_revision": 2,
+      "objective_revision": 3,
       "criterion_version": "O003-C1",
-      "lesson_path": "lessons/O003.md",
       "status": "ready",
-      "title": "Interpret harvest and waste capacity comparisons",
       "knowledge_components": [
         "compare_like_measurements",
         "interpret_harvest_branches",
@@ -139,17 +182,37 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O003-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 3,
+          "criterion_version": "O003-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O003.md",
+      "title": "Interpret harvest and waste capacity comparisons",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O004",
-      "objective_revision": 2,
+      "objective_revision": 3,
       "criterion_version": "O004-C1",
-      "lesson_path": "lessons/O004.md",
       "status": "ready",
-      "title": "Frame economic assessment questions within source limits",
       "knowledge_components": [
         "map_overlay_topics",
         "frame_multidimensional_assessment",
@@ -182,13 +245,35 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O004-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 3,
+          "criterion_version": "O004-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O004.md",
+      "title": "Frame economic assessment questions within source limits",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O005",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O005-C1",
       "status": "ready",
       "knowledge_components": [
@@ -201,14 +286,35 @@
       ],
       "review_topic": "Identify economic externalities and apply conditional welfare criteria",
       "review_instruction": "Begin a closed-note review with teach for O005; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O005-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O005-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O005.md",
       "title": "Identify economic externalities and apply conditional welfare criteria",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O006",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O006-C1",
       "status": "ready",
       "knowledge_components": [
@@ -221,14 +327,35 @@
       ],
       "review_topic": "Derive private and social activity optima and marginal corrective signals",
       "review_instruction": "Begin a closed-note review with teach for O006; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O006-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O006-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O006.md",
       "title": "Derive private and social activity optima and marginal corrective signals",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O007",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O007-C1",
       "status": "ready",
       "knowledge_components": [
@@ -241,14 +368,35 @@
       ],
       "review_topic": "Compare bargaining and policy transfers without confusing efficiency and equity",
       "review_instruction": "Begin a closed-note review with teach for O007; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O007-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O007-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O007.md",
       "title": "Compare bargaining and policy transfers without confusing efficiency and equity",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O008",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O008-C1",
       "status": "ready",
       "knowledge_components": [
@@ -261,14 +409,35 @@
       ],
       "review_topic": "Derive joint activity, abatement and defence conditions in the transport model",
       "review_instruction": "Begin a closed-note review with teach for O008; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O008-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O008-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O008.md",
       "title": "Derive joint activity, abatement and defence conditions in the transport model",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O009",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O009-C1",
       "status": "ready",
       "knowledge_components": [
@@ -281,14 +450,35 @@
       ],
       "review_topic": "Audit transport cost estimates by welfare component, valuation and aggregation",
       "review_instruction": "Begin a closed-note review with teach for O009; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O009-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O009-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O009.md",
       "title": "Audit transport cost estimates by welfare component, valuation and aggregation",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O010",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O010-C1",
       "status": "ready",
       "knowledge_components": [
@@ -301,14 +491,35 @@
       ],
       "review_topic": "Allocate a fixed abatement target and compare instrument boundaries",
       "review_instruction": "Begin a closed-note review with teach for O010; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O010-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O010-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O010.md",
       "title": "Allocate a fixed abatement target and compare instrument boundaries",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O011",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O011-C1",
       "status": "ready",
       "knowledge_components": [
@@ -321,14 +532,35 @@
       ],
       "review_topic": "Separate corrective taxation, revenue use and double-dividend claims",
       "review_instruction": "Begin a closed-note review with teach for O011; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O011-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O011-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O011.md",
       "title": "Separate corrective taxation, revenue use and double-dividend claims",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O012",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O012-C1",
       "status": "ready",
       "knowledge_components": [
@@ -342,14 +574,35 @@
       ],
       "review_topic": "Apply complete social accounting and governance principles to bounded policy cases",
       "review_instruction": "Begin a closed-note review with teach for O012; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O012-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O012-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O012.md",
       "title": "Apply complete social accounting and governance principles to bounded policy cases",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O013",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O013-C1",
       "status": "ready",
       "knowledge_components": [
@@ -362,70 +615,285 @@
       ],
       "review_topic": "Diagnose appraisal use, influence and incentives without replacing the welfare benchmark",
       "review_instruction": "Begin a closed-note review with teach for O013; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O013-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O013-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O013.md",
       "title": "Diagnose appraisal use, influence and incentives without replacing the welfare benchmark",
       "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O014",
+      "objective_revision": 1,
+      "criterion_version": "O014-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "pathway_and_top_down_contrast",
+        "relative_risk_baseline_population_and_endpoint_units",
+        "calibration_boundary_and_uncertainty"
+      ],
+      "prerequisite_ids": [
+        "O005",
+        "O009"
+      ],
+      "review_topic": "Trace impact pathways and convert matched relative risks into cases",
+      "review_instruction": "Begin a closed-note review with teach for O014; request an unused prepared delayed item before recap.",
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O014-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
+      "lesson_path": "lessons/O014.md",
+      "title": "Trace impact pathways and convert matched relative risks into cases",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O015",
+      "objective_revision": 1,
+      "criterion_version": "O015-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "unit_consistent_welfare_sum_and_overlap",
+        "four_receptor_value_rules",
+        "historical_application_and_scenario_boundaries"
+      ],
+      "prerequisite_ids": [
+        "O014",
+        "O007",
+        "O012"
+      ],
+      "review_topic": "Value matched health endpoints under explicit economic standing",
+      "review_instruction": "Begin a closed-note review with teach for O015; request an unused prepared delayed item before recap.",
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O015-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
+      "lesson_path": "lessons/O015.md",
+      "title": "Value matched health endpoints under explicit economic standing",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O016",
+      "objective_revision": 1,
+      "criterion_version": "O016-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "radiative_mechanism_and_external_balance",
+        "heat_inventory_periods_layers_and_conditioning",
+        "aerosol_and_acidification_distinctions"
+      ],
+      "prerequisite_ids": [
+        "O001",
+        "O002"
+      ],
+      "review_topic": "Explain radiative balance, heat storage and ocean chemistry",
+      "review_instruction": "Begin a closed-note review with teach for O016; request an unused prepared delayed item before recap.",
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O016-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
+      "lesson_path": "lessons/O016.md",
+      "title": "Explain radiative balance, heat storage and ocean chemistry",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O017",
+      "objective_revision": 1,
+      "criterion_version": "O017-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "common_series_arithmetic_and_averaging",
+        "anomaly_weather_and_time_scale_limits",
+        "source_vintage_conflicts_and_uncertainty"
+      ],
+      "prerequisite_ids": [
+        "O016"
+      ],
+      "review_topic": "Interpret concentration and temperature records with dates and baselines",
+      "review_instruction": "Begin a closed-note review with teach for O017; request an unused prepared delayed item before recap.",
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O017-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
+      "lesson_path": "lessons/O017.md",
+      "title": "Interpret concentration and temperature records with dates and baselines",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O018",
+      "objective_revision": 1,
+      "criterion_version": "O018-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "mass_price_and_gwp_unit_conversions",
+        "stock_flow_forcing_and_concentration_distinctions",
+        "population_total_and_chart_boundary_audit"
+      ],
+      "prerequisite_ids": [
+        "O003",
+        "O017"
+      ],
+      "review_topic": "Convert carbon quantities and audit stocks, flows and emissions charts",
+      "review_instruction": "Begin a closed-note review with teach for O018; request an unused prepared delayed item before recap.",
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O018-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
+      "lesson_path": "lessons/O018.md",
+      "title": "Convert carbon quantities and audit stocks, flows and emissions charts",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O019",
+      "objective_revision": 1,
+      "criterion_version": "O019-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "scenario_type_forcing_and_concentration",
+        "baseline_mean_comparison_and_uncertainty",
+        "mitigation_adaptation_and_historical_policy_limits"
+      ],
+      "prerequisite_ids": [
+        "O016",
+        "O017",
+        "O018"
+      ],
+      "review_topic": "Interpret conditional climate scenarios, policy chronology and adaptation",
+      "review_instruction": "Begin a closed-note review with teach for O019; request an unused prepared delayed item before recap.",
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O019-C1",
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3,
+          "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+          "change_class": "formatting_only",
+          "requires_reassessment": false
+        }
+      ],
+      "lesson_path": "lessons/O019.md",
+      "title": "Interpret conditional climate scenarios, policy chronology and adaptation",
+      "reassessment_requirement": null
     }
-  ],
-  "course_preparation_order": "Before Behavioral Economics; user requested Behavioral Economics last"
+  ]
 }
 ```
 
 ## Scope and coverage
 
-P003 reconciles completed ingestion revision2 with the preserved Week1 curriculum and executable Week2 contracts. Requested retention horizon remains null. Ready means the bounded supported capabilities below; it is not a claim that the semester syllabus or every advertised source is complete. Overall semester coverage remains partial because the linked Week1 climate-foundation lecture is absent and Week2 expanded Sandmo notation/tax base and final-slide proof are missing. Supported externality, welfare, bargaining, transport, instrument, conditional tax, policy-accounting and appraisal mechanisms are ready. Source diagrams use separate area conventions; historical amounts/dates, clipped accident-table text, ICAP count discrepancy and blank2040 heading remain transparent qualifications. The risk text is a supplied opening fragment only. No numerical expanded tax model or present legal/policy claim is fabricated.
+All checked supplied Weeks1–3 are prepared. O001–O013 retain the existing environment–economy, externality/welfare, transport, instruments/taxation and appraisal criteria with complete explanations/figures. O014–O019 add receptor/health pathways, standing/valuation, radiation/heat/ocean chemistry, observation/baseline interpretation, carbon/CO2e units and conditional scenarios/policy/adaptation. Pages 47–58remain voluntary supporting reading within supplied scope.
 
-Completion provenance: [[03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md]], [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/ingestion_state.json]]. Prior successful Week1 pass remains linked in the manifest. Planning consumed finished notes and required assets only; it did not inspect raw materials, alter notes, grade answers or schedule reviews.
+The [ingestion state](ingestion_state.json) complete revision3 is committed under `INGEST-20261018-GREEN-R3-COMPLETE`. The [current pass](../../../runtime/ingest/logs/20261018T195113+0200_weeks1-3_five_courses.md) explicitly certifies this course independently, even if its other-course sections remain in progress. Linked earlier checked passes establish preserved prior coverage; current source/note identities match their recorded bounds. [Manifest](source_manifest.md) maps exact checked headings/fingerprints to all lessons.
 
-| Finished input | Objective mapping | Selected coverage |
-|---|---|---|
-| [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Economics_of_Green_Deal_main.md]] | O005, O006, O007, O008, O009, O010, O011, O012, O013 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Course_Orientation_and_Week_1_Scope.md]] | O004 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Environment_Economy_Nexus.md]] | O001, O002, O003, O004 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Externalities_and_Welfare_Optimum.md]] | O005, O006, O007 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md]] | O010 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Optimal_Environmental_Taxation.md]] | O011 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Political_Economy_of_Cost_Benefit_Analysis.md]] | O013 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Road_Transport_External_Costs.md]] | O008, O009 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/US_Environmental_Policy_and_Economic_Principles.md]] | O012 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-
-All current Markdown course candidates are inventoried above. Summary/source headings are synthesis/provenance, not separate capabilities. The hub supplies context and source boundaries; changed historical dates, scores or policy amounts are not memorisation targets.
+The absent advertised Week 1 Prezi is still absent; Week 3 provides its own checked bounded climate/impact foundation and does not certify that missing presentation. Full calibrated plant health-model reconstruction, unsupported baseline/time units, a universal QALY value, current legal/policy/contract conditions, present-day concentration/ranking claims and later semester methods are excluded. Historical price years, AR4/AR5/AR6 label distinctions, source daily-data verification limits and chart ambiguities remain explicit. The retention horizon is null unless the preserved metadata explicitly says otherwise. No whole-syllabus/exam completeness, learner result, mastery or review date is inferred.
 
 ## Teaching sequence
 
-| Order | Objective and lesson | Prerequisites | Status |
+| Order | Objective / exact lesson | Necessary prerequisites | Status |
 |---|---|---|---|
-| 1 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O001.md#Outcome and conditions|O001 Classify the four environmental functions]] | none; exact diagnostic and reason in lesson | ready |
-| 2 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O002.md#Outcome and conditions|O002 Trace material, waste and utility paths]] | O001; exact diagnostic and reason in lesson | ready |
-| 3 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O003.md#Outcome and conditions|O003 Interpret harvest and waste capacity comparisons]] | O001, O002; exact diagnostic and reason in lesson | ready |
-| 4 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O004.md#Outcome and conditions|O004 Frame economic assessment questions within source limits]] | O001, O002, O003; exact diagnostic and reason in lesson | ready |
-| 5 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O005.md#Outcome and conditions|O005 Identify economic externalities and apply conditional welfare criteria]] | O002; exact diagnostic and reason in lesson | ready |
-| 6 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O006.md#Outcome and conditions|O006 Derive private and social activity optima and marginal corrective signals]] | O005; exact diagnostic and reason in lesson | ready |
-| 7 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O007.md#Outcome and conditions|O007 Compare bargaining and policy transfers without confusing efficiency and equity]] | O006; exact diagnostic and reason in lesson | ready |
-| 8 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O008.md#Outcome and conditions|O008 Derive joint activity, abatement and defence conditions in the transport model]] | O006; exact diagnostic and reason in lesson | ready |
-| 9 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O009.md#Outcome and conditions|O009 Audit transport cost estimates by welfare component, valuation and aggregation]] | O008; exact diagnostic and reason in lesson | ready |
-| 10 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O010.md#Outcome and conditions|O010 Allocate a fixed abatement target and compare instrument boundaries]] | O006; exact diagnostic and reason in lesson | ready |
-| 11 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O011.md#Outcome and conditions|O011 Separate corrective taxation, revenue use and double-dividend claims]] | O006; exact diagnostic and reason in lesson | ready |
-| 12 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O012.md#Outcome and conditions|O012 Apply complete social accounting and governance principles to bounded policy cases]] | O005, O010; exact diagnostic and reason in lesson | ready |
-| 13 | [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O013.md#Outcome and conditions|O013 Diagnose appraisal use, influence and incentives without replacing the welfare benchmark]] | O005; exact diagnostic and reason in lesson | ready |
+| 1 | [O001 — Classify the four environmental functions](lessons/O001.md#outcome-and-conditions) | Prepared entry diagnostic | ready |
+| 2 | [O002 — Trace material, waste and utility paths](lessons/O002.md#outcome-and-conditions) | O001 | ready |
+| 3 | [O003 — Interpret harvest and waste capacity comparisons](lessons/O003.md#outcome-and-conditions) | O001, O002 | ready |
+| 4 | [O004 — Frame economic assessment questions within source limits](lessons/O004.md#outcome-and-conditions) | O001, O002, O003 | ready |
+| 5 | [O005 — Identify economic externalities and apply conditional welfare criteria](lessons/O005.md#outcome-and-conditions) | O002 | ready |
+| 6 | [O006 — Derive private and social activity optima and marginal corrective signals](lessons/O006.md#outcome-and-conditions) | O005 | ready |
+| 7 | [O007 — Compare bargaining and policy transfers without confusing efficiency and equity](lessons/O007.md#outcome-and-conditions) | O006 | ready |
+| 8 | [O008 — Derive joint activity, abatement and defence conditions in the transport model](lessons/O008.md#outcome-and-conditions) | O006 | ready |
+| 9 | [O009 — Audit transport cost estimates by welfare component, valuation and aggregation](lessons/O009.md#outcome-and-conditions) | O008 | ready |
+| 10 | [O010 — Allocate a fixed abatement target and compare instrument boundaries](lessons/O010.md#outcome-and-conditions) | O006 | ready |
+| 11 | [O011 — Separate corrective taxation, revenue use and double-dividend claims](lessons/O011.md#outcome-and-conditions) | O006 | ready |
+| 12 | [O012 — Apply complete social accounting and governance principles to bounded policy cases](lessons/O012.md#outcome-and-conditions) | O005, O010 | ready |
+| 13 | [O013 — Diagnose appraisal use, influence and incentives without replacing the welfare benchmark](lessons/O013.md#outcome-and-conditions) | O005 | ready |
+| 14 | [O014 — Trace impact pathways and convert matched relative risks into cases](lessons/O014.md#outcome-and-conditions) | O005, O009 | ready |
+| 15 | [O015 — Value matched health endpoints under explicit economic standing](lessons/O015.md#outcome-and-conditions) | O014, O007, O012 | ready |
+| 16 | [O016 — Explain radiative balance, heat storage and ocean chemistry](lessons/O016.md#outcome-and-conditions) | O001, O002 | ready |
+| 17 | [O017 — Interpret concentration and temperature records with dates and baselines](lessons/O017.md#outcome-and-conditions) | O016 | ready |
+| 18 | [O018 — Convert carbon quantities and audit stocks, flows and emissions charts](lessons/O018.md#outcome-and-conditions) | O003, O017 | ready |
+| 19 | [O019 — Interpret conditional climate scenarios, policy chronology and adaptation](lessons/O019.md#outcome-and-conditions) | O016, O017, O018 | ready |
 
-Week1 dependencies and full contracts remain intact. New Week2 dependencies are local reasons defined with keyed diagnostics in each lesson. The graph is acyclic and dependencies precede their dependants. Normal route: explanation → W1 → S1 → I1/I2. Known adequate prerequisites may skip diagnostics/support; they never waive independent acquisition checks.
+Environmental functions and the physical/utility network precede private/social wedges, welfare and policy comparisons. Complete accounting and valuation foundations precede health impact/standing applications. Energy mechanisms and dated observation definitions precede carbon accounting and scenario interpretation. The six new objectives have full component maps and all six explicit acquisition pairs. Every dependency precedes its dependent, with no cycles or unsupported prerequisite. Independent branches may be reordered; skipping support requires actual current or explicitly compatible evidence. Each ready block includes the full needed explanation, examples/assets, diagnostic and repair, fading practice, two immediate and two delayed full forms, complete keys/components and stopping rules.
 
 ## Execution and assessment contract
 
-Every ready lesson supplies explanations, steps, worked/support tasks, two distinct immediate and two delayed full checks with keys, rubrics, condition limits and fresh narrow corrections. Each full check covers the entire capability; every allowed acquisition route therefore assesses all components. Delayed retrieval requires a fresh item and at least 24 actual elapsed hours under its explicit exposure rule. Teach records evidence; recall alone chooses due dates. Neither confidence nor plan readiness establishes learner mastery.
+This substantive revision adopts `self-contained-lessons-v1`, [[03_Agents/references/LESSON_CONTENT.md]]. Teach delivers complete embedded explanations and figures without requiring original-note retrieval. Earlier named item IDs/versions, all permitted acquisition pairs, criteria, tools/assistance and delayed conditions are preserved. Complete-note reuse and formula typesetting do not reduce or silently expand scoring criteria. New objectives use fully keyed W1/S1/I1/I2/D1/D2 forms. Every full form covers every listed component and every permitted pair therefore covers them twice. Diagnostics, worked/support and narrow corrections are never substitutes. Only the explicitly named prepared full forms can count as evidence; extra verified explanation/practice may support the same method.
+
+Delayed retrieval follows each lesson’s explicit preserved timing/exposure contract. Do not impose a new latest-exposure clock on an earlier acquisition-only contract; record intervening study and apply its named conditions. New objectives require at least24 actual hours after acquisition and most recent relevant teaching/solution exposure, before recap, fresh and unassisted. A midnight date change alone never qualifies. Unknown conditions are unscorable for independence. Teach alone records actual outcomes; recall alone schedules from committed evidence.
 
 ## Revisions and evidence compatibility
 
-P003/V002/ingestion2 adds the Week2 objectives and note/asset fingerprints. O001–O004 retain their actual revisions and criterion definitions. Week1 academic note bytes are unchanged; the hub adds Week2 relationships only. Each unchanged objective carries explicit exact compatible old tuples from P001 plus its actual P002 tuple, with justification. New objectives have no compatible old evidence. No IDs were retired, split or recycled; no existing answer was regraded and no new learner outcome or reassessment completion was fabricated.
+P005/V003 is a formatting-only successor to P004/V003 at the same ingestion3. Six O015 independent-observer expressions now use parenthesized LaTeX grouping and explicit multiplication so they cannot be parsed as Markdown links to numeric filenames. Numeric factors, results, criterion/item versions, objective revisions, independence tools/clocks, gates and acquisition routes are unchanged. The exact complete P004 bundle is preserved in [P004 history](curriculum_history/P004/learning_plan.md), and every exact P004 evidence tuple is explicitly compatible without reassessment. The earlier substantive reconciliation described below remains the academic baseline.
 
-The complete replaced P002 plan, manifest and lessons are stored byte-for-byte in [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P002/learning_plan.md]] and [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/curriculum_history/P002/source_manifest.md]], with every former lesson in the same archive. Older P001 history and all owner transaction journals remain immutable.
+The complete exact prior P003 bundle is preserved under [curriculum_history/P003/](curriculum_history/P003/learning_plan.md); all earlier history remains untouched. Earlier stable IDs are retained, with objective revision incremented for full-content teaching preparation. Criterion/item contracts, essential components, accepted reasoning and conditions remain unchanged after semantic inspection. The index and lessons list all previously approved exact compatible tuples plus the exact immediately preceding active tuple. No wildcard compatibility, automatic regrading or fictional acquisition is introduced. New IDs have revision1/C1, no old compatible tuple and require their own actual acquisition evidence. No objective is retired/split/merged/recycled. Existing named requirements remain binding and must match the index and lesson; unchanged criteria alone do not erase a historical gate. No new gate or learner result is inferred merely from metadata/teaching updates; genuinely new capabilities cannot borrow old results. All old named requirement fields were checked and are null; no historical gate is erased. Final revision3sources independently reviewed by /root/ingest_owner/green_source_check cover all 58 pages/six annotations, the risk-to-cases bridge and four standing rules. New exercises use explicitly hypothetical supplied inputs and checked identities; original sulfate-calibration gaps remain qualified. Prior Weeks 1–2 academic bytes remain unchanged, and every selected source asset/caption is reused.
+
+O004-C1 retains the original Week1 introduction/SIS/missing-Prezi case as its assessment boundary. Its earlier evidence and item contracts remain applicable; active downstream O005–O019 coverage is explicitly separate and does not retroactively supply the missing Prezi or expand that criterion.
 
 ## Validation and readiness
 
-The active metadata tuple is PLAN-20261009-GREEN-P003 / P003 / V002 / ingestion2. Academic provenance comes from the linked independently checked ingestion. Curriculum review must verify final prompts/keys, all routes, dependencies, boundaries and history before integration; its actual result is recorded in the recovery session. After records.py atomic commit, verify this journal against active plan, manifest and every ready indexed lesson; state must remain complete at revision2 with no pending transaction or lock. A draft or header alone does not confirm a commit.
+Owner checks current complete ingest journal, note/asset hashes, checked headings and manifest mappings, complete passage fidelity/figures, every assessment route/key/component, full dependency graph, prior snapshot bytes, and matching bundle metadata. New hypothetical solutions are recomputed from the embedded identities. A separate independent curriculum checker must inspect final content and resolve findings before atomic publication; see final review appendix. After publication run records.py verify for plan/manifest and each ready indexed lesson, and verify ingest state separately. Vault baseline has nine pre-existing absent empty course mirrors only.
 
-## Handoffs and remaining boundaries
+## Independent curriculum review and final repair gate
 
-Teach may execute the requested ready objective using its indexed lesson after freshness/journal checks. Academic contradictions return to ingest; missing prepared alternatives/keys return to plan. Recall consumes actual committed learner evidence and exact compatibility mappings, with answer-free labels only. Overall semester coverage remains partial because the linked Week1 climate-foundation lecture is absent and Week2 expanded Sandmo notation/tax base and final-slide proof are missing. Supported externality, welfare, bargaining, transport, instrument, conditional tax, policy-accounting and appraisal mechanisms are ready. Source diagrams use separate area conventions; historical amounts/dates, clipped accident-table text, ICAP count discrepancy and blank2040 heading remain transparent qualifications. The risk text is a supplied opening fragment only. No numerical expanded tax model or present legal/policy claim is fabricated.
+Fresh separate reviewer `/root/green_curriculum_check`, requested `uni_curriculum_checker` profile `gpt-6-astra/high` (actual runtime identity/settings not independently attested here), initially inspected all19 complete lessons, every prepared route/key/rubric,94 permitted acquisition routes,12 selected notes,32 assets,52 full reused passages,44 fingerprints and15 exact P003 archive files. It found exactly one material issue: O004’s retained historical source-scope wording conflicted with active downstream readiness. Owner clarified every affected item/key and added an explicit original Week1 case boundary while preserving O004-C1, item identities, criteria, clocks/routes, compatibility and source passages. All other inspected academic/support/history content passed the initial review. Publication remains conditional on the same checker’s final confirmation of this exact repaired intent; the actual final review receipt belongs in the [task session](../../../runtime/sessions/2026-10-18-week3-ingest-html.md). This record makes no claim that a pending review or plan transaction has already succeeded.
+
+## Formatting repair and independent recheck gate
+
+The post-publication vault check exposed six Markdown-link parses of O015’s LaTeX square-bracket grouping immediately followed by a numeric factor in parentheses. This repair replaces only those group/multiply spellings, preserving all values and interpretation. The complete P004 journal and exact21-file snapshot remain immutable, with earlier P003 history untouched. Same-reviewer final confirmation of this exact P005 repair intent/context is required before atomic publication; the actual receipt is recorded in the [task session](../../../runtime/sessions/2026-10-18-week3-ingest-html.md). No pending review or publication is claimed successful by this draft.

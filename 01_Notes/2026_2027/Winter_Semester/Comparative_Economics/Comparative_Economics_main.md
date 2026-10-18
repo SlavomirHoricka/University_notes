@@ -1,6 +1,8 @@
 # Comparative Economics
 
 - [[#Week 1|Week 1 — systems, institutions, and historical divergence]]
+- [[#Week 2|Week 2 — evidence, synthetic controls, political power and liberty]]
+- [[#Week 3|Week 3 — embedded economies, market capitalism and religious institutions]]
 
 ## Week 1
 
@@ -33,3 +35,26 @@ The Week 1 lesson is a sequence of questions: identify how an economy coordinate
 ### Course information added from the SIS export
 
 The new course export identifies the introductory session on October 2 and records the assessment weights: four seminar summaries contribute 20%, the midterm 20%, and the final test 60%. The [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Course_Organization_and_Week_1_Scope.md|course-information note]] explains the timetable and the relationship between the dated outline and the already assigned Week 1 readings. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Předměty.pdf#page=2|SIS course export, PDF pp. 2–3]]
+
+
+## Week 2
+
+Begin with comparability and data reliability, then the missing counterfactual and synthetic-control design before the Russia application. Institutions/power and the liberty corridor provide complementary political mechanisms; neither a statistical fit nor a strong state alone establishes a good institution.
+
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Comparability_Data_and_Reading_Questions.md|Comparability, data reliability and reading questions]]
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Institutions_Power_and_Democratization.md|Institutions, power and democratization]]
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Liberty_Leviathans_and_Norms.md|Liberty, Leviathans and the cage of norms]]
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Russia_Without_Revolution_Counterfactuals.md|Russia without the Revolution: predictive counterfactuals]]
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Synthetic_Control_Design_and_Inference.md|Synthetic control: design, fit and inference]]
+
+
+## Week 3
+
+Embeddedness distinguishes exchange from a whole economy governed by markets. Market capitalism supplies a conditional efficiency benchmark and its failures; religious economics explores competing normative programs and observed institutions. Olson and Bernstein are supplied additional context, not independently inferred examination requirements.
+
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Collective_Action_and_Development.md|Collective action, institutions and development]]
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Embedded_Economies_and_Kula.md|Embedded economies, reciprocity and the Kula ring]]
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Islamic_Finance_and_Institutional_Diversity.md|Islamic finance and institutional diversity]]
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Market_Capitalism_Theory_and_Practice.md|Market capitalism: efficiency, failures and institutions]]
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Religion_and_Economic_Organization.md|Religion and economic organization]]
+- [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Trade_Protection_and_Historical_Islam.md|Trade, protection and historical Islam]]

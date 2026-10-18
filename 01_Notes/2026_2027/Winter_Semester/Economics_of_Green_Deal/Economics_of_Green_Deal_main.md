@@ -2,6 +2,7 @@
 
 - [[#Week 1|Week 1]]
 - [[#Week 2|Week 2]]
+- [[#Week 3|Week 3]]
 
 The course asks how environmental problems and climate change can be assessed through economics: how to define regulation and quantify policies' economic, social and environmental impacts, with attention to decarbonisation pathways, technology and social innovation. The uploaded introductory material gives the environment–economy framework for those questions. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_1/Předměty.pdf#page=1|Předměty.pdf, physical PDF p. 1, course aim]]
 
@@ -77,3 +78,20 @@ All five Week 2 PDFs are now covered: 124 physical pages, including the image-ba
 - [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_01b_Verhoef_1994.pdf]], all 15 physical PDF pages inspected.
 - [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_02_Kling_2025.pdf]], all 27 physical PDF pages inspected.
 - [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/ARTICLE_04_Ch17_CBA.pdf]], all 18 physical PDF pages inspected.
+
+## Week 3
+
+Concept index and core reading path:
+
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Impact_Pathways_Health_Valuation_and_Standing.md|Impact Pathways Health Valuation and Standing]]
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Greenhouse_Effect_CO2_and_Earth_Energy.md|Greenhouse Effect CO2 and Earth Energy]]
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Climate_Scenarios_Policy_and_Adaptation.md|Climate Scenarios Policy and Adaptation]]
+- [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Carbon_Units_Stocks_Flows_and_Emissions_Charts.md|Carbon Units Stocks Flows and Emissions Charts]]
+
+Impact-pathway analysis links a specified source to transport/chemistry, receptor exposure, physical effects and money values. This is core because emissions alone do not determine welfare losses; location, response calibration and economic standing explain different damage estimates. Concentration-response functions, endpoint units and WTP are its necessary foundations. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/02_AQImp-ClimateChange.pdf#page=2|02_AQImp-ClimateChange.pdf, physical PDF p. 2–19]]
+
+The climate block then links greenhouse radiation, atmospheric concentration and Earth's heat inventory. Concentration-versus-emission units and dates/baselines are core foundations because they prevent misreading the supplied figures. Scenarios trace socioeconomic assumptions and policy through emissions/forcing into conditional climate outcomes; mitigation and adaptation address different parts of that chain. Carbon-mass/CO2/GWP conversions, stocks/flows and total/per-person denominators make the emissions comparisons usable. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/02_AQImp-ClimateChange.pdf#page=20|02_AQImp-ClimateChange.pdf, physical PDF p. 20–58]]
+
+### Week 3 source scope and qualifications
+
+All 58 physical PDF pages and all 6 text-comment annotations were inspected, including graph-only/voluntary-reading pages 47–58. Source figures retain historical dates, units, baselines and uncertainties. The notes distinguish source claims from bounded authoritative verification and explicitly qualify missing response calibration, inconsistent local-share/context labels, greenhouse/aerosol classification, historical CO2 summaries, SSP/RCP mapping, Kyoto/Paris/COP27 chronology and the uncalibrated stock-flow sketch. These qualifications preserve the supplied material's learnable scope without treating its defective labels as verified rules. The later Green Deal source supports these Week 3 climate foundations; it does not establish that the absent advertised Week 1 Prezi was ingested. No learner evidence or prior note prose was replaced.

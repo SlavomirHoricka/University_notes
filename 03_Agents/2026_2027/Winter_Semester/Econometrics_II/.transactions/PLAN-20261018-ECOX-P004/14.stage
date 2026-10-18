@@ -1,0 +1,168 @@
+# Specify seasonal controls and preserve comparison and inference bookkeeping
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+  "transaction_id": "PLAN-20261009-ECOX-P003",
+  "plan_version": "P003",
+  "source_version": "V002",
+  "ingestion_revision": 2,
+  "objective_id": "O013",
+  "objective_revision": 1,
+  "criterion_version": "O013-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "calendar_basis_and_prediction",
+    "shared_residualisation_and_df",
+    "stable_pattern_and_scope_limits"
+  ],
+  "prerequisite_ids": [
+    "O012"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Trends_Detrending_and_Seasonality.md",
+      "heading": "Seasonality is a repeating calendar pattern"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Trends_Detrending_and_Seasonality.md",
+      "heading": "What the adjustments establish"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O013-I1",
+        "O013-I2"
+      ],
+      [
+        "O013-I1",
+        "O013-D1"
+      ],
+      [
+        "O013-I1",
+        "O013-D2"
+      ],
+      [
+        "O013-I2",
+        "O013-D1"
+      ],
+      [
+        "O013-I2",
+        "O013-D2"
+      ],
+      [
+        "O013-D1",
+        "O013-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Specify seasonal controls and preserve comparison and inference bookkeeping",
+  "review_instruction": "Begin a closed-note review with teach for O013; request an unused prepared delayed item before recap."
+}
+```
+
+## Outcome and conditions
+
+Build an additive seasonal comparison and explain equivalent shared-controls residualisation and its limits. Required components: calendar_basis_and_prediction, shared_residualisation_and_df, stable_pattern_and_scope_limits. Supported work may use the cited notes; independent checks use no notes, internet, solution or hints. A basic calculator and blank paper are allowed; reasoning, formula selection and assumptions must be supplied by the learner. Numerical examples below are agent-created hypothetical instantiations unless explicitly labelled as a finished-note example. They do not assert current market or policy facts.
+
+[[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Trends_Detrending_and_Seasonality.md#Seasonality is a repeating calendar pattern|Seasonality is a repeating calendar pattern]]
+[[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Trends_Detrending_and_Seasonality.md#What the adjustments establish|What the adjustments establish]]
+
+## Prerequisites and checks
+
+O013-P1 / item_version 1: O012 is needed because consistent partialling out and full-model coefficient counts extend to seasonal controls. Prompt: Must every substantive variable be residualised on the same control columns and sample? Key: Yes; otherwise the resulting slope need not equal the same full-controls OLS comparison. Pass requires the keyed mechanism and qualification; partial means an omitted step; fail means a conflicting mechanism. Adequate committed evidence under a compatible criterion permits skipping this diagnostic. Otherwise repair through [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O012.md#Outcome and conditions]] before continuing.
+
+## Teaching order and rationale
+
+1. Read **Motivation and explanation** for the decision, definitions and conditions before performing calculations.
+2. Follow **Worked example** with all steps visible to connect the model to its interpretation.
+3. Attempt **Supported completion** with the named help, then remove notes and solutions.
+4. Use **Immediate and delayed checks** I1 and I2, answering before feedback. These each assess the entire outcome.
+5. Use **Misconceptions and correction** after scoring an error; then use an unused full item.
+6. Later use an unused D item before recap under the actual elapsed-time rule. The order avoids treating helped performance as independent learning.
+
+## Motivation and explanation
+
+Seasonality repeats by calendar position, while trend describes movement across dates. For m positions an intercept plusm−1 indicators uses one omitted reference; each coefficient is an additive difference from that reference at held-fixed substantive regressors. Keeping allm indicators and intercept causes exact collinearity because their sum equals1. With onex, coefficient count ism+1, plus an extra coefficient if a linear trend is included. Stable seasonal intercept differences are an assumption, not a discovery from adding dummy columns. Partialling out extends the same normal-equation identity: residualise y and every substantivex on a joint, identical intercept/calendar/trend basis and same rows, then regress residuals. Full-modeldf and inferential assumptions survive this computation; naive second-stage outputs need bookkeeping. Regression-based seasonal adjustment is not proof that the data are already adjusted or equivalent to every agency algorithm. Appropriate controls do not themselves establish causal exogeneity or remove serial correlation.
+
+## Worked example
+
+O013-W1 / item_version 1, worked_example. **Prompt:** Hypothetical quarterly additive seasonal model with 4 calendar positions and intercept, referenceQ1, one substantive x, no trend. Intercept10, x slope2, x=3; the target nonreference calendar position's effect is5, timeindex=8, usableT=24. Specify independent dummy count/coding and interpretation versus reference, calculate target and reference predictions at the samex/time, and full residualdf under conventional assumptions. Explain why all4 dummies plus intercept fail, how equivalent residualisation must treaty and all substantive regressors (including a trend when specified), and the stable-seasonal/identification/agency-adjustment limits.
+
+**Steps and interpretation:** Use intercept and3 calendar indicators, one omitted referenceQ1; each target indicator is1 only for its position. Target effect5 is an intercept difference from reference at held-fixedx/time. Target prediction=10+2×3+5+0×8=21; reference=16. All4 dummies sum to intercept1, exact collinearity; dropping a reference restores this seasonal basis but full design still needs rank. Coefficient count=4 seasonal/intercept+1 substantive slope, df=19. For equal slopes, residualise outcome and every substantive regressor against the same intercept/seasonal controls and same rows; if a trend is included, use that same joint control basis for all. Then regress residuals; preserve full-modeldf/inference assumptions. Stable additive seasonal differences are a maintained model, not established merely by dummy inclusion. Trend is movement over time, seasonality repeats with calendar position. Regression adjustment is not every agency's procedure and does not prove preadjusted data, strict exogeneity, no serial correlation or causality.
+
+## Supported completion
+
+O013-S1 / item_version 1, supported_completion. **Prompt:** Hypothetical monthly additive seasonal model with 12 calendar positions and intercept, referenceJanuary, one substantive x, no trend. Intercept20, x slope1, x=4; the target nonreference calendar position's effect is3, timeindex=10, usableT=36. Specify independent dummy count/coding and interpretation versus reference, calculate target and reference predictions at the samex/time, and full residualdf under conventional assumptions. Explain why all12 dummies plus intercept fail, how equivalent residualisation must treaty and all substantive regressors (including a trend when specified), and the stable-seasonal/identification/agency-adjustment limits.
+
+**Key:** Use intercept and11 calendar indicators, one omitted referenceJanuary; each target indicator is1 only for its position. Target effect3 is an intercept difference from reference at held-fixedx/time. Target prediction=20+1×4+3+0×10=27; reference=24. All12 dummies sum to intercept1, exact collinearity; dropping a reference restores this seasonal basis but full design still needs rank. Coefficient count=12 seasonal/intercept+1 substantive slope, df=23. For equal slopes, residualise outcome and every substantive regressor against the same intercept/seasonal controls and same rows; if a trend is included, use that same joint control basis for all. Then regress residuals; preserve full-modeldf/inference assumptions. Stable additive seasonal differences are a maintained model, not established merely by dummy inclusion. Trend is movement over time, seasonality repeats with calendar position. Regression adjustment is not every agency's procedure and does not prove preadjusted data, strict exogeneity, no serial correlation or causality.
+
+Allowed support: show the named definition or equation in Motivation and explanation, then ask for the missing substitution and interpretation. At most two hints: first identify the relevant distinction; second point to the first keyed step. Reveal the worked solution if those fail. Supported success does not establish acquisition. Fade assistance only once the learner explains the keyed steps; then hide the solution and use an unused full check.
+
+## Rubric and independence
+
+Pass requires every listed component, all requested outputs and essential keyed reasoning without a critical conceptual error. Algebraically equivalent formulas, explicitly defined opposite cash-flow signs and equivalent plain-language reasoning are accepted. Partial means a missing component or a correct method with an unresolved isolated arithmetic slip; fail means the central mechanism or condition is wrong. Unscorable means the response or help/exposure conditions cannot be established. Unknown conditions never certify independence. Arithmetic slips require independent correction before a pass. No numerical grade is invented.
+
+Critical errors: All indicators plus intercept considered fullrank; seasonal effect is absolute mean rather than reference difference; different control bases/rows; seasonal controls assumed to prove causality.
+
+Acquisition requires two distinct unassisted passes from I1/I2/D1/D2 using the exact six routes in metadata. Each full prompt and key covers every component; any pair therefore covers the whole outcome twice. A fresh D item used for acquisition cannot later certify delayed retention. Worked/support/prerequisite items and the narrow C1 correction cannot substitute for a full check. The finite bank must not be reused after exposure; request a plan_issue when fewer than two fresh full items remain.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| calendar_basis_and_prediction | required | required | required | required |
+| shared_residualisation_and_df | required | required | required | required |
+| stable_pattern_and_scope_limits | required | required | required | required |
+
+## Misconceptions and correction
+
+An omitted reference is a comparison convention. Predict both target and reference with the samex/time to interpret their difference; show that all indicators sum to1. Observe the learner's reasoning before diagnosing: a sign or omitted word alone is tentative. Score before help. O013-C1 / item_version 1, narrow_correction. **Fresh prompt:** Fresh narrow check: include intercept and allfour quarterdummies; why singular even with normal errors? **Key and rubric:** Q1+Q2+Q3+Q4=1 at every date, so one regressor is an exact linear combination; error distribution cannot alter that rank. Pass only if the keyed repaired component is supplied; partial for an omission or arithmetic slip; fail for the same conflicting mechanism. C1 is not a full independent check. After two ineffective hints show the relevant worked step; after another failed correction pause and return to the named prerequisite or explanation.
+
+## Immediate and delayed checks
+
+All items are item_version 1 and full_capability_check. I1/I2 are immediate forms; D1/D2 are distinct delayed forms. Delayed success requires an unused unassisted item before recap, at least 24 actual elapsed hours after acquisition and the most recent relevant teaching/solution exposure, with intervening exposure recorded. A date change alone does not qualify. Early D attempts may be acquisition checks only. Each item is a bounded parallel or near-context variant, not proof of broad transfer. Each key states the full required response; do not improvise extra variants.
+
+### O013-I1
+
+**Prompt:** Hypothetical quarterly additive seasonal model with 4 calendar positions and intercept, referenceQ1, one substantive x, one linear trend with coefficient0.5. Intercept12, x slope3, x=2; the target nonreference calendar position's effect is-2, timeindex=6, usableT=20. Specify independent dummy count/coding and interpretation versus reference, calculate target and reference predictions at the samex/time, and full residualdf under conventional assumptions. Explain why all4 dummies plus intercept fail, how equivalent residualisation must treaty and all substantive regressors (including a trend when specified), and the stable-seasonal/identification/agency-adjustment limits.
+
+**Key and essential rubric:** Use intercept and3 calendar indicators, one omitted referenceQ1; each target indicator is1 only for its position. Target effect-2 is an intercept difference from reference at held-fixedx/time. Target prediction=12+3×2+-2+0.5×6=19.0; reference=21.0. All4 dummies sum to intercept1, exact collinearity; dropping a reference restores this seasonal basis but full design still needs rank. Coefficient count=4 seasonal/intercept+1 substantive slope+1 trend, df=14. For equal slopes, residualise outcome and every substantive regressor against the same intercept/seasonal controls and same rows; if a trend is included, use that same joint control basis for all. Then regress residuals; preserve full-modeldf/inference assumptions. Stable additive seasonal differences are a maintained model, not established merely by dummy inclusion. Trend is movement over time, seasonality repeats with calendar position. Regression adjustment is not every agency's procedure and does not prove preadjusted data, strict exogeneity, no serial correlation or causality. All components are required.
+
+### O013-I2
+
+**Prompt:** Hypothetical monthly additive seasonal model with 12 calendar positions and intercept, referenceJanuary, one substantive x, no trend. Intercept30, x slope2, x=5; the target nonreference calendar position's effect is4, timeindex=12, usableT=48. Specify independent dummy count/coding and interpretation versus reference, calculate target and reference predictions at the samex/time, and full residualdf under conventional assumptions. Explain why all12 dummies plus intercept fail, how equivalent residualisation must treaty and all substantive regressors (including a trend when specified), and the stable-seasonal/identification/agency-adjustment limits.
+
+**Key and essential rubric:** Use intercept and11 calendar indicators, one omitted referenceJanuary; each target indicator is1 only for its position. Target effect4 is an intercept difference from reference at held-fixedx/time. Target prediction=30+2×5+4+0×12=44; reference=40. All12 dummies sum to intercept1, exact collinearity; dropping a reference restores this seasonal basis but full design still needs rank. Coefficient count=12 seasonal/intercept+1 substantive slope, df=35. For equal slopes, residualise outcome and every substantive regressor against the same intercept/seasonal controls and same rows; if a trend is included, use that same joint control basis for all. Then regress residuals; preserve full-modeldf/inference assumptions. Stable additive seasonal differences are a maintained model, not established merely by dummy inclusion. Trend is movement over time, seasonality repeats with calendar position. Regression adjustment is not every agency's procedure and does not prove preadjusted data, strict exogeneity, no serial correlation or causality. All components are required.
+
+### O013-D1
+
+**Prompt:** Hypothetical quarterly additive seasonal model with 4 calendar positions and intercept, referenceQ1, one substantive x, one linear trend with coefficient1. Intercept8, x slope2, x=4; the target nonreference calendar position's effect is3, timeindex=7, usableT=28. Specify independent dummy count/coding and interpretation versus reference, calculate target and reference predictions at the samex/time, and full residualdf under conventional assumptions. Explain why all4 dummies plus intercept fail, how equivalent residualisation must treaty and all substantive regressors (including a trend when specified), and the stable-seasonal/identification/agency-adjustment limits.
+
+**Key and essential rubric:** Use intercept and3 calendar indicators, one omitted referenceQ1; each target indicator is1 only for its position. Target effect3 is an intercept difference from reference at held-fixedx/time. Target prediction=8+2×4+3+1×7=26; reference=23. All4 dummies sum to intercept1, exact collinearity; dropping a reference restores this seasonal basis but full design still needs rank. Coefficient count=4 seasonal/intercept+1 substantive slope+1 trend, df=22. For equal slopes, residualise outcome and every substantive regressor against the same intercept/seasonal controls and same rows; if a trend is included, use that same joint control basis for all. Then regress residuals; preserve full-modeldf/inference assumptions. Stable additive seasonal differences are a maintained model, not established merely by dummy inclusion. Trend is movement over time, seasonality repeats with calendar position. Regression adjustment is not every agency's procedure and does not prove preadjusted data, strict exogeneity, no serial correlation or causality. All components are required.
+
+### O013-D2
+
+**Prompt:** Hypothetical monthly additive seasonal model with 12 calendar positions and intercept, referenceJanuary, one substantive x, one linear trend with coefficient0.25. Intercept16, x slope1, x=6; the target nonreference calendar position's effect is-3, timeindex=8, usableT=60. Specify independent dummy count/coding and interpretation versus reference, calculate target and reference predictions at the samex/time, and full residualdf under conventional assumptions. Explain why all12 dummies plus intercept fail, how equivalent residualisation must treaty and all substantive regressors (including a trend when specified), and the stable-seasonal/identification/agency-adjustment limits.
+
+**Key and essential rubric:** Use intercept and11 calendar indicators, one omitted referenceJanuary; each target indicator is1 only for its position. Target effect-3 is an intercept difference from reference at held-fixedx/time. Target prediction=16+1×6+-3+0.25×8=21.0; reference=24.0. All12 dummies sum to intercept1, exact collinearity; dropping a reference restores this seasonal basis but full design still needs rank. Coefficient count=12 seasonal/intercept+1 substantive slope+1 trend, df=46. For equal slopes, residualise outcome and every substantive regressor against the same intercept/seasonal controls and same rows; if a trend is included, use that same joint control basis for all. Then regress residuals; preserve full-modeldf/inference assumptions. Stable additive seasonal differences are a maintained model, not established merely by dummy inclusion. Trend is movement over time, seasonality repeats with calendar position. Regression adjustment is not every agency's procedure and does not prove preadjusted data, strict exogeneity, no serial correlation or causality. All components are required.
+
+## Advance, revisit, pause, and escalate
+
+Advance after teach commits two distinct qualifying full passes; initial acquisition and delayed retention remain separate observations. After one failure, score, explain the named repair and use another unused item. After two unsuccessful independent attempts, pause repeated quizzing and revisit the explanation or diagnostic dependency. Source conflict stops the affected lesson and goes to ingest with the exact note heading. Missing or ambiguous keys, unsupported alternatives and an exhausted bank go to plan as plan_issue with 2026_2027/Winter_Semester/Econometrics_II, O013, revision1/O013-C1, P003/V002/ingestion2 and the exact item ID. Closing a partial session does not fabricate acquisition.
+
+## Answer-free recall handoff
+
+Topic: Specify seasonal controls and preserve comparison and inference bookkeeping. Instruction: Begin a closed-note review with teach for O013; request an unused prepared delayed item before recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O013.md#Immediate and delayed checks]]. Teach supplies committed evidence and timestamps; recall alone assigns due dates or Todoist tasks. Deadline/retention horizon is null; this plan defines no learner result.

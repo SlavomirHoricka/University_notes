@@ -1,0 +1,254 @@
+# Calculate and interpret index-futures settlement and margin returns
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "transaction_id": "PLAN-20261018-FMI-P004",
+  "plan_version": "P004",
+  "source_version": "V003",
+  "ingestion_revision": 3,
+  "objective_id": "O009",
+  "objective_revision": 2,
+  "criterion_version": "O009-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "contract_units_and_benchmark",
+    "alternative_signed_cashflows",
+    "margin_return_and_annualisation_limits"
+  ],
+  "prerequisite_ids": [
+    "O002"
+  ],
+  "compatible_versions": [
+    {
+      "objective_revision": 1,
+      "criterion_version": "O009-C1",
+      "plan_version": "P003",
+      "source_version": "V002",
+      "ingestion_revision": 2,
+      "reason": "Selected Week1–2 academic note bytes and all assessment prompts, keys, required components, conditions and six permitted routes remain unchanged. P004 adds complete reused teaching passages and explicit mathematical typesetting; new Week3 methods have separate IDs. No learner response is regraded.",
+      "change_class": "unchanged",
+      "requires_reassessment": false
+    }
+  ],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md",
+      "heading": "Read the contract before calculating"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md",
+      "heading": "SIFT 500: index points become euros"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md",
+      "heading": "Closing after five days"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md",
+      "heading": "Holding until cash settlement"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O009-I1",
+        "O009-I2"
+      ],
+      [
+        "O009-I1",
+        "O009-D1"
+      ],
+      [
+        "O009-I1",
+        "O009-D2"
+      ],
+      [
+        "O009-I2",
+        "O009-D1"
+      ],
+      [
+        "O009-I2",
+        "O009-D2"
+      ],
+      [
+        "O009-D1",
+        "O009-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Calculate and interpret index-futures settlement and margin returns",
+  "review_instruction": "Begin a closed-note review with teach for O009; request an unused prepared delayed item before recap.",
+  "lesson_content_contract": "self-contained-lessons-v1"
+}
+```
+
+## Outcome and conditions
+
+Calculate a specified index-futures trade and distinguish close-out from held cash settlement and leveraged margin return. Required components: contract_units_and_benchmark, alternative_signed_cashflows, margin_return_and_annualisation_limits. Supported work may use the cited notes; independent checks use no notes, internet, solution or hints. A basic calculator and blank paper are allowed; reasoning, formula selection and assumptions must be supplied by the learner. Numerical examples below are agent-created hypothetical instantiations unless explicitly labelled as a finished-note example. They do not assert current market or policy facts.
+
+[[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md#SIFT 500: index points become euros|SIFT 500: index points become euros]]
+[[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md#Closing after five days|Closing after five days]]
+[[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md#Holding until cash settlement|Holding until cash settlement]]
+
+## Prerequisites and checks
+
+O009-P1 / item_version 1: O002 is needed because contract multiplier, direction and price units must precede this benchmark example. Prompt: One long contract has multiplier10 and rises3 quote points: P/L and what is not implied? Key: +30 currency units; margin/account balance needs separate funding data. Pass requires the keyed mechanism and qualification; partial means an omitted step; fail means a conflicting mechanism. Adequate committed evidence under a compatible criterion permits skipping this diagnostic. Otherwise repair through [[03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O002.md#Outcome and conditions]] before continuing.
+
+## Teaching order and rationale
+
+1. Read **Motivation and explanation** for the decision, definitions and conditions before performing calculations.
+2. Follow **Worked example** with all steps visible to connect the model to its interpretation.
+3. Attempt **Supported completion** with the named help, then remove notes and solutions.
+4. Use **Immediate and delayed checks** I1 and I2, answering before feedback. These each assess the entire outcome.
+5. Use **Misconceptions and correction** after scoring an error; then use an unused full item.
+6. Later use an unused D item before recap under the actual elapsed-time rule. The order avoids treating helped performance as independent learning.
+
+## Motivation and explanation
+
+An index quote has no money scale until multiplied by the contract multiplier. A minimum tick is a permitted quote increment; tick value is multiplier times that increment. For fixed long N, G=N×multiplier×(F_end−F_start); reverse the sign for a short. Closing ends the position; holding instead substitutes EDSP as the final endpoint. Do not add the whole held payoff to a closed payoff. Margin return divides trading G by the stated initial collateral, whereas contract exposure follows the multiplier and index level. Simple annualisation multiplies that fraction by 365/elapsed days; it magnifies short-horizon leverage and is not a prediction. EDSP is fixed by the contract's observation/trim rule: in the finished note's hypothetical example a sample of observations is taken and extremes removed. The specified benchmark is distinct from an arbitrary quote. Real contract terms require verification outside this prepared illustration.
+
+## Complete checked-note explanation
+
+Deliver these complete reused passages before the worked example; the earlier concise teaching prompts are checkpoints, not substitutes. Necessary prerequisite lessons remain the routes specified above. Course-organization details in O001 are supporting context, not additional scoring components.
+
+Origin: reused complete checked passage [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md#Read the contract before calculating]]; fingerprint `9934681819e12121ce3bdcd2bf33e74747d3ecc2cf2232b8981de7f2236997ac`. Heading depth alone is adapted.
+
+### Read the contract before calculating
+
+A quotation alone has no monetary meaning until the unit of trading and minimum price increment are known. Let $N$ be the number of contracts, $\delta$ the tick size in quotation units and $v$ the money value of one tick. The change from opening quotation $F_0$ to closing quotation $F_t$ is $(F_t-F_0)/\delta$ ticks. Thus, before fees and financing effects,
+
+$$
+\Pi_{\mathrm{long}}=N\frac{F_t-F_0}{\delta}v,
+\qquad
+\Pi_{\mathrm{short}}=-\Pi_{\mathrm{long}}.
+$$
+
+This is a unit conversion: quotation change divided by quotation units per tick, multiplied by currency per tick. The long benefits when the quotation rises. The short benefits when it falls. The lecture's index and currency calculations use the same rule, even though their quoted units and settlement currencies differ. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 4]] [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 6]]
+
+[[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_1/Margins_and_Marking_to_Market.md|Margins and marking to market]] explains why daily transfers telescope to the opening-to-closing difference. Initial margin is a deposit supporting the position, rather than the value of the underlying asset. The tutorial return convention is
+
+$$
+R_{\mathrm{period}}=\frac{\Pi}{N M_0},\qquad
+R_{\mathrm{annual,simple}}=R_{\mathrm{period}}\frac{365}{d},
+$$
+
+where $M_0$ is initial margin per contract and $d$ is the holding period in days. This convention explains the large quoted returns: the denominator is margin, not the contract's full exposure. The annual figure linearly rescales the particular trade; it does not establish a repeatable annual investment outcome. In calculations using this convention, subsequent margin calls, withdrawals, fees and financing are outside the displayed denominator. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 4]] [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 6]]
+
+
+Origin: reused complete checked passage [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/Stock_Index_and_Currency_Futures.md#SIFT 500: index points become euros]]; fingerprint `9934681819e12121ce3bdcd2bf33e74747d3ecc2cf2232b8981de7f2236997ac`. Heading depth alone is adapted.
+
+### SIFT 500: index points become euros
+
+The tutorial **Stock Index Futures Tutorial 500 (SIFT 500)** uses an index composed of share prices of the 500 largest companies by market capitalization. Its multiplier is EUR 10 per index point. A quote of 5,433 therefore represents EUR 54,330 of contract value. One tick is half an index point, worth $0.5\times10=\text{EUR }5$; two ticks are one point. Initial margin is EUR 1,000, about 1.8% of EUR 54,330 in the source's example. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 3]]
+
+![[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Index_Specification.png]]
+
+*Tutorial specifications and footnotes, including the multiplier and final settlement averaging rule. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 3]]*
+
+Delivery months are March, June, September and December. The last trading day is the last business day of that month, at 10:30 a.m.; delivery is the next business day. The **exchange delivery settlement price (EDSP)** averages underlying-index observations every 15 seconds from 10:10 through 10:30 a.m., discarding the 12 highest and 12 lowest values. This procedure aims to smooth excessive fluctuations shortly before maturity. It defines a final settlement benchmark rather than simply using the final observed index value. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 3]]
+
+#### Closing after five days
+
+The long buys 20 contracts at $F_0=5825.0$ and sells 20 matching contracts five days later at $F_5=5812.5$. The quotation falls by 12.5 index points, equal to $-12.5/0.5=-25$ ticks. Therefore,
+
+$$
+\Pi=20(-25)(5)=-\text{EUR }2{,}500.
+$$
+
+The return on opening margin is $-2500/(20\times1000)=-12.5\%$. Simple annual scaling gives $-0.125\times365/5=-9.125$, approximately the source's displayed $-912\%$. A scaled return below $-100\%$ reflects the short holding period and the chosen margin denominator; the observed five-day loss itself remains EUR 2,500. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 4]]
+
+#### Holding until cash settlement
+
+Delivering every constituent share in the index's weights would create extremely high transaction costs, so the tutorial index contract settles in cash. If the position remains open, the final marking-to-market transfer compares EDSP with the previous day's closing futures quotation. The source gives EDSP $5810.0$ and an additional loss of $20(-5)(5)=-\text{EUR }500$. Its arithmetic treats $5812.5$ as that preceding settlement quotation. This is an alternative to the five-day closing trade, not an additional payment owed after that trade has already closed the position. With the same opening quotation, the total hold-to-settlement loss is $20(5810-5825)10=-\text{EUR }3{,}000$ (derived from the source's quotations). [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 4]]
+
+![[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/assets/Week_2_L11_Index_Closing_and_Settlement.png]]
+
+*The source timeline displays the closing quotation and final EDSP. Use the closing-out path and the maturity path as alternatives. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 4]]*
+
+
+## Worked example
+
+O009-W1 / item_version 1, worked_example. **Prompt:** Hypothetical SIFT-style index contract: multiplier €10 per index point, minimum tick 0.5 point, initial margin €1000 per contract. A long 20-contract position opens at 5825; it could close at 5812.5 after 5 days, or instead remain open to cash EDSP 5810. Compute tick value, closing signed P/L and percentage return on initial margin, simple annualised closing return using 365 days, and the separate held-to-settlement total. Explain why these are alternative paths, what EDSP does, and whether the return is an index investment yield or repeatable annual forecast. Interpret the multiplier/margin and explain the meaning of a trimmed-sample EDSP, without asserting current exchange terms.
+
+**Steps and interpretation:** One tick = €10/point ×0.5 point = €5 per contract. Closing G=20×10×(5812.5−5825)=€-2500; initial deposited margin €20000, so return -12.5%, annualised -912.5% by simple scaling. Held G=20×10×(5810−5825)=€-3000; this alternative includes the whole opening-to-EDSP move, not the already-closed trade plus settlement. A cash-settled contract pays a difference using EDSP, not delivery of index stocks. EDSP is a rule-defined sample benchmark (the finished-note example trims extreme samples), not any chosen last quote. Multiplier scales exposure; margin is collateral, not index notional. Margin leverage/simple annualisation does not establish an underlying yield or a repeatable forecast. These given specification values are pedagogical, not current market terms.
+
+## Supported completion
+
+O009-S1 / item_version 1, supported_completion. **Prompt:** Hypothetical SIFT-style index contract: multiplier €10 per index point, minimum tick 0.5 point, initial margin €1000 per contract. A long 3-contract position opens at 2000; it could close at 2004 after 8 days, or instead remain open to cash EDSP 2001. Compute tick value, closing signed P/L and percentage return on initial margin, simple annualised closing return using 365 days, and the separate held-to-settlement total. Explain why these are alternative paths, what EDSP does, and whether the return is an index investment yield or repeatable annual forecast. Interpret the multiplier/margin and explain the meaning of a trimmed-sample EDSP, without asserting current exchange terms.
+
+**Key:** One tick = €10/point ×0.5 point = €5 per contract. Closing G=3×10×(2004−2000)=€120; initial deposited margin €3000, so return 4%, annualised 182.5% by simple scaling. Held G=3×10×(2001−2000)=€30; this alternative includes the whole opening-to-EDSP move, not the already-closed trade plus settlement. A cash-settled contract pays a difference using EDSP, not delivery of index stocks. EDSP is a rule-defined sample benchmark (the finished-note example trims extreme samples), not any chosen last quote. Multiplier scales exposure; margin is collateral, not index notional. Margin leverage/simple annualisation does not establish an underlying yield or a repeatable forecast. These given specification values are pedagogical, not current market terms.
+
+Allowed support: show the named definition or equation in Motivation and explanation, then ask for the missing substitution and interpretation. At most two hints: first identify the relevant distinction; second point to the first keyed step. Reveal the worked solution if those fail. Supported success does not establish acquisition. Fade assistance only once the learner explains the keyed steps; then hide the solution and use an unused full check.
+
+## Rubric and independence
+
+Pass requires every listed component, all requested outputs and essential keyed reasoning without a critical conceptual error. Algebraically equivalent formulas, explicitly defined opposite cash-flow signs and equivalent plain-language reasoning are accepted. Partial means a missing component or a correct method with an unresolved isolated arithmetic slip; fail means the central mechanism or condition is wrong. Unscorable means the response or help/exposure conditions cannot be established. Unknown conditions never certify independence. Arithmetic slips require independent correction before a pass. No numerical grade is invented.
+
+Critical errors: Tick points treated as euros; long/short sign reversal; adding both mutually exclusive exits; interpreting margin return as index yield or a forecast.
+
+Acquisition requires two distinct unassisted passes from I1/I2/D1/D2 using the exact six routes in metadata. Each full prompt and key covers every component; any pair therefore covers the whole outcome twice. A fresh D item used for acquisition cannot later certify delayed retention. Worked/support/prerequisite items and the narrow C1 correction cannot substitute for a full check. The finite bank must not be reused after exposure; request a plan_issue when fewer than two fresh full items remain.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| contract_units_and_benchmark | required | required | required | required |
+| alternative_signed_cashflows | required | required | required | required |
+| margin_return_and_annualisation_limits | required | required | required | required |
+
+## Misconceptions and correction
+
+An answer adding two terminal payoffs suggests endpoint confusion. Draw a fork at opening: one branch closes, the other holds. A very large annualised figure can be arithmetically correct but its base is collateral and its repeated-return assumption unjustified. Observe the learner's reasoning before diagnosing: a sign or omitted word alone is tentative. Score before help. O009-C1 / item_version 1, narrow_correction. **Fresh prompt:** Fresh narrow check: long2, multiplier10, opening100, early close101 or instead EDSP99. Is total gain 0? Explain. **Key and rubric:** No. Closed branch +20; separately held branch −20. They are alternatives, not additive outcomes. Pass only if the keyed repaired component is supplied; partial for an omission or arithmetic slip; fail for the same conflicting mechanism. C1 is not a full independent check. After two ineffective hints show the relevant worked step; after another failed correction pause and return to the named prerequisite or explanation.
+
+## Immediate and delayed checks
+
+All items are item_version 1 and full_capability_check. I1/I2 are immediate forms; D1/D2 are distinct delayed forms. Delayed success requires an unused unassisted item before recap, at least 24 actual elapsed hours after acquisition and the most recent relevant teaching/solution exposure, with intervening exposure recorded. A date change alone does not qualify. Early D attempts may be acquisition checks only. Each item is a bounded parallel or near-context variant, not proof of broad transfer. Each key states the full required response; do not improvise extra variants.
+
+### O009-I1
+
+**Prompt:** Hypothetical SIFT-style index contract: multiplier €10 per index point, minimum tick 0.5 point, initial margin €1000 per contract. A long 7-contract position opens at 4200; it could close at 4193 after 10 days, or instead remain open to cash EDSP 4196. Compute tick value, closing signed P/L and percentage return on initial margin, simple annualised closing return using 365 days, and the separate held-to-settlement total. Explain why these are alternative paths, what EDSP does, and whether the return is an index investment yield or repeatable annual forecast. Interpret the multiplier/margin and explain the meaning of a trimmed-sample EDSP, without asserting current exchange terms.
+
+**Key and essential rubric:** One tick = €10/point ×0.5 point = €5 per contract. Closing G=7×10×(4193−4200)=€-490; initial deposited margin €7000, so return -7%, annualised -255.5% by simple scaling. Held G=7×10×(4196−4200)=€-280; this alternative includes the whole opening-to-EDSP move, not the already-closed trade plus settlement. A cash-settled contract pays a difference using EDSP, not delivery of index stocks. EDSP is a rule-defined sample benchmark (the finished-note example trims extreme samples), not any chosen last quote. Multiplier scales exposure; margin is collateral, not index notional. Margin leverage/simple annualisation does not establish an underlying yield or a repeatable forecast. These given specification values are pedagogical, not current market terms. All components are required.
+
+### O009-I2
+
+**Prompt:** Hypothetical SIFT-style index contract: multiplier €10 per index point, minimum tick 0.5 point, initial margin €1000 per contract. A long 4-contract position opens at 3500; it could close at 3512 after 12 days, or instead remain open to cash EDSP 3508. Compute tick value, closing signed P/L and percentage return on initial margin, simple annualised closing return using 365 days, and the separate held-to-settlement total. Explain why these are alternative paths, what EDSP does, and whether the return is an index investment yield or repeatable annual forecast. Interpret the multiplier/margin and explain the meaning of a trimmed-sample EDSP, without asserting current exchange terms.
+
+**Key and essential rubric:** One tick = €10/point ×0.5 point = €5 per contract. Closing G=4×10×(3512−3500)=€480; initial deposited margin €4000, so return 12%, annualised 365% by simple scaling. Held G=4×10×(3508−3500)=€320; this alternative includes the whole opening-to-EDSP move, not the already-closed trade plus settlement. A cash-settled contract pays a difference using EDSP, not delivery of index stocks. EDSP is a rule-defined sample benchmark (the finished-note example trims extreme samples), not any chosen last quote. Multiplier scales exposure; margin is collateral, not index notional. Margin leverage/simple annualisation does not establish an underlying yield or a repeatable forecast. These given specification values are pedagogical, not current market terms. All components are required.
+
+### O009-D1
+
+**Prompt:** Hypothetical SIFT-style index contract: multiplier €10 per index point, minimum tick 0.5 point, initial margin €1000 per contract. A long 6-contract position opens at 2600; it could close at 2605 after 15 days, or instead remain open to cash EDSP 2609. Compute tick value, closing signed P/L and percentage return on initial margin, simple annualised closing return using 365 days, and the separate held-to-settlement total. Explain why these are alternative paths, what EDSP does, and whether the return is an index investment yield or repeatable annual forecast. Interpret the multiplier/margin and explain the meaning of a trimmed-sample EDSP, without asserting current exchange terms.
+
+**Key and essential rubric:** One tick = €10/point ×0.5 point = €5 per contract. Closing G=6×10×(2605−2600)=€300; initial deposited margin €6000, so return 5%, annualised 121.667% by simple scaling. Held G=6×10×(2609−2600)=€540; this alternative includes the whole opening-to-EDSP move, not the already-closed trade plus settlement. A cash-settled contract pays a difference using EDSP, not delivery of index stocks. EDSP is a rule-defined sample benchmark (the finished-note example trims extreme samples), not any chosen last quote. Multiplier scales exposure; margin is collateral, not index notional. Margin leverage/simple annualisation does not establish an underlying yield or a repeatable forecast. These given specification values are pedagogical, not current market terms. All components are required.
+
+### O009-D2
+
+**Prompt:** Hypothetical SIFT-style index contract: multiplier €10 per index point, minimum tick 0.5 point, initial margin €1000 per contract. A long 9-contract position opens at 5100; it could close at 5098 after 9 days, or instead remain open to cash EDSP 5095. Compute tick value, closing signed P/L and percentage return on initial margin, simple annualised closing return using 365 days, and the separate held-to-settlement total. Explain why these are alternative paths, what EDSP does, and whether the return is an index investment yield or repeatable annual forecast. Interpret the multiplier/margin and explain the meaning of a trimmed-sample EDSP, without asserting current exchange terms.
+
+**Key and essential rubric:** One tick = €10/point ×0.5 point = €5 per contract. Closing G=9×10×(5098−5100)=€-180; initial deposited margin €9000, so return -2%, annualised -81.1111% by simple scaling. Held G=9×10×(5095−5100)=€-450; this alternative includes the whole opening-to-EDSP move, not the already-closed trade plus settlement. A cash-settled contract pays a difference using EDSP, not delivery of index stocks. EDSP is a rule-defined sample benchmark (the finished-note example trims extreme samples), not any chosen last quote. Multiplier scales exposure; margin is collateral, not index notional. Margin leverage/simple annualisation does not establish an underlying yield or a repeatable forecast. These given specification values are pedagogical, not current market terms. All components are required.
+
+## Advance, revisit, pause, and escalate
+
+Advance after teach commits two distinct qualifying full passes; initial acquisition and delayed retention remain separate observations. After one failure, score, explain the named repair and use another unused item. After two unsuccessful independent attempts, pause repeated quizzing and revisit the explanation or diagnostic dependency. Source conflict stops the affected lesson and goes to ingest with the exact note heading. Missing or ambiguous keys, unsupported alternatives and an exhausted bank go to plan as plan_issue with 2026_2027/Winter_Semester/Financial_Markets_Instruments_I, O009, revision2/O009-C1, P004/V003/ingestion3 and the exact item ID. Closing a partial session does not fabricate acquisition.
+
+## Answer-free recall handoff
+
+Topic: Calculate and interpret index-futures settlement and margin returns. Instruction: Begin a closed-note review with teach for O009; request an unused prepared delayed item before recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/lessons/O009.md#Immediate and delayed checks]]. Teach supplies committed evidence and timestamps; recall alone assigns due dates or Todoist tasks. Deadline/retention horizon is null; this plan defines no learner result.
+
+## Content provenance and generation boundaries
+
+The complete checked-note passages above are reused with only heading-depth adaptation; exact origins and fingerprints are in source_manifest.md. Existing plan-created hypothetical exercises and their full keys are retained from P003; their algebra instantiates the included checked definitions. No new external academic claims are introduced. All figures retain checked vault-relative asset paths, captions and source qualifications. Main examples and assessment routes are fully prepared here.
+
+Preserved assessment contract: only the named prepared full-capability items and six routes may establish acquisition or delayed evidence. Additional verified examples or practice may support explanation but cannot replace a named full check or reassessment gate. Teach may accept an independently verified equivalent method meeting the same pre-answer components and conditions. Ambiguous criteria or an exhausted fresh bank return to plan. The current objective revision is 2; unchanged item/criterion versions remain those explicitly stated above.

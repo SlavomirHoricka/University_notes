@@ -1,0 +1,213 @@
+# Interpret concentration and temperature records with dates and baselines
+
+## Record metadata
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+  "transaction_id": "PLAN-20261018-GREEN-P005-FORMAT",
+  "plan_version": "P005",
+  "source_version": "V003",
+  "ingestion_revision": 3,
+  "objective_id": "O017",
+  "objective_revision": 1,
+  "criterion_version": "O017-C1",
+  "status": "ready",
+  "lesson_content_contract": "self-contained-lessons-v1",
+  "knowledge_components": [
+    "common_series_arithmetic_and_averaging",
+    "anomaly_weather_and_time_scale_limits",
+    "source_vintage_conflicts_and_uncertainty"
+  ],
+  "prerequisite_ids": [
+    "O016"
+  ],
+  "compatible_versions": [
+    {
+      "objective_revision": 1,
+      "criterion_version": "O017-C1",
+      "plan_version": "P004",
+      "source_version": "V003",
+      "ingestion_revision": 3,
+      "reason": "P005 changes only six independent-observer formula grouping delimiters in O015 to avoid Markdown interpreting a LaTeX multiplication as a local file link. All academic quantities, assumptions, item/criterion definitions, routes, tools and timing conditions are unchanged; no reassessment or learner result is inferred.",
+      "change_class": "formatting_only",
+      "requires_reassessment": false
+    }
+  ],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Greenhouse_Effect_CO2_and_Earth_Energy.md",
+      "heading": "Concentration is not a global daily average by default"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Greenhouse_Effect_CO2_and_Earth_Energy.md",
+      "heading": "Reading the temperature evidence"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O017-I1",
+        "O017-I2"
+      ],
+      [
+        "O017-I1",
+        "O017-D1"
+      ],
+      [
+        "O017-I1",
+        "O017-D2"
+      ],
+      [
+        "O017-I2",
+        "O017-D1"
+      ],
+      [
+        "O017-I2",
+        "O017-D2"
+      ],
+      [
+        "O017-D1",
+        "O017-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Interpret concentration and temperature records with dates and baselines",
+  "review_instruction": "Begin a closed-note review with teach for O017; request an unused prepared delayed item before recap."
+}
+```
+
+## Outcome and conditions
+
+Compare supplied concentration/temperature records using actual series, averaging, reference periods and uncertainty, without relabeling historical observations as current data. All essential components listed in metadata are required. Hypothetical assessment values instantiate the checked equations; they are not historical observations or observed outcomes. Independent checks are closed-note and without hints, solution access, external retrieval or other assistance; a basic arithmetic calculator is allowed. Teach establishes and records actual help/exposure conditions before claiming independence.
+
+## Prerequisites and checks
+
+- [O016 outcome and repair route](../lessons/O016.md#outcome-and-conditions): energy and climate mechanisms must be distinguished from any one sampled weather/temperature record.
+
+O017-P1, item_version 1, prerequisite_diagnostic. **Prompt:** What does positive net energy flux imply for stored heat, and is a local one-day field the same object as a whole-system long-period heat inventory?
+
+**Complete key and rubric:** Positive net flux accumulates heat; a location/day field and a multicomponent long-period inventory have different spatial/time/variable definitions. Require both; repair O016 external balance and heat inventory. Pass requires every requested reason and result; partial for an omitted reason or unresolved isolated arithmetic slip; fail for the conflicting mechanism. This diagnostic never counts as acquisition. Current or explicitly compatible committed independent prerequisite evidence may permit skipping its check; familiarity alone cannot. Use the cited complete prerequisite lesson or the named included foundation, then the worked example, after a partial/failing entry check.
+
+## Teaching order and rationale
+
+1. Use the diagnostic once to establish the necessary conceptual or algebraic foundation.
+2. Present the complete checked-note explanation below, preserving variables, dates, assumptions and source qualifications. Follow one reasoning chain at a time so every intermediate step is visible.
+3. Work W1 fully, asking the learner to explain why each step follows.
+4. Use S1 as completion practice: show the setup and first identity, hide the final algebra/numbers and interpretation. After an explanation of the missing steps, withdraw support.
+5. Present unused I1/I2 full checks with hidden solutions; use correction/repair after scoring the original answer. An unused D form can replace an exposed I only through a listed route.
+6. On a later eligible occasion, begin an unused D item before recap. A numeric variant establishes bounded same-method performance, not general transfer.
+
+## Motivation, intuition, and definitions
+
+Compare supplied concentration/temperature records using actual series, averaging, reference periods and uncertainty, without relabeling historical observations as current data. Establish the definitions, assumptions and relevant comparisons before simplifying an equation. The complete reused passages establish every academic claim, notation choice and qualification assessed here; necessary prerequisites use the complete lessons above.
+
+## Explanation steps
+
+Origin: reused complete checked passage [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Greenhouse_Effect_CO2_and_Earth_Energy.md#Concentration is not a global daily average by default]]; fingerprint `0e546eb44a26562a6831079998cde23dd5004f51769540e9057950e69279b643`. Heading depth alone is adapted.
+
+### Concentration is not a global daily average by default
+
+A concentration in **ppm** measures a fraction of atmospheric molecules; Mauna Loa is a particular station, a daily/monthly average is not an annual average, and a global marine-surface estimate is not a station reading. The seasonal cycle on the Mauna Loa graphs reflects Northern Hemisphere vegetation uptake/decay over the year, superimposed on a long-term human-driven rise. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/02_AQImp-ClimateChange.pdf#page=27|02_AQImp-ClimateChange.pdf, physical PDF p. 27–29]]
+
+The source reports global 419.3 ppm in 2023, global 422.7 ppm in 2024, and a Mauna Loa daily 425.68 ppm on 1 November 2025; the last is a source-reported dated station value, not independently reconstructed daily data. Its 2024 “increase over 2023” 3.75 ppm is not the arithmetic difference of the displayed annual means (422.7−419.3=3.4). These statements mix vintages and annual-average versus within-year growth conventions. **Reference check:** NOAA's archived 21 May 2025 article reports global 2024 annual 422.8 ppm, within-2024 increase 3.75 ppm and Mauna Loa annual 424.61 ppm. This explains why year/series/averaging definition must accompany a number; the source 422.7 differs from that reference and from its own p. 30 figure 422.8. [NOAA, “Carbon dioxide levels in 2024”](https://content-drupal.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide). These are documented historical comparisons, not live 2026 concentrations. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/02_AQImp-ClimateChange.pdf#page=28|02_AQImp-ClimateChange.pdf, physical PDF p. 28–30]]
+
+Physical p. 30 compares an 800,000-year ice-core record (below about 300 ppm in that displayed record) with a modern dot. Its graphic labels **2024 average 422.8 ppm**, while the caption still says 2022. The observed lesson is the large, rapid recent rise relative to those glacial/interglacial variations; the inconsistent caption year is retained explicitly rather than relabeling the figure silently. The source attributes the underlying reconstruction to Lüthi et al. 2008/NOAA NCEI. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/02_AQImp-ClimateChange.pdf#page=30|02_AQImp-ClimateChange.pdf, physical PDF p. 30]]
+
+
+Origin: reused complete checked passage [[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/Greenhouse_Effect_CO2_and_Earth_Energy.md#Reading the temperature evidence]]; fingerprint `0e546eb44a26562a6831079998cde23dd5004f51769540e9057950e69279b643`. Heading depth alone is adapted.
+
+### Reading the temperature evidence
+
+Physical p. 32 is a deep-time reconstructed-temperature composite with **nonuniform time scales**: millions, then thousands of years, with geological periods and human-evolution labels. It illustrates long-run climate variation; straight visual slopes across scale changes do not measure comparable rates. Physical p. 33's heading mentions a “hockey stick dispute,” but its actual graph compares several historical temperature series over roughly 1840–2000. It is not, by itself, a millennium reconstruction or a resolution of every attribution dispute. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/02_AQImp-ClimateChange.pdf#page=32|02_AQImp-ClimateChange.pdf, physical PDF p. 32–33]]
+
+Physical p. 34 is explicitly a **one-day average 2 m temperature field for 25 February 2018** from GFS/ClimateReanalyzer. It shows spatial weather variation, not a global multi-decade trend or an anomaly with a stated climatology. Physical p. 35 instead gives a global land/sea temperature **anomaly relative to 1961–1990**, with an 1850–2023 plotted record and grey 95% confidence bounds. An anomaly is a difference from that reference mean, not the absolute surface temperature. It cannot be directly equated with a warming target relative to a different preindustrial baseline. [[00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/02_AQImp-ClimateChange.pdf#page=34|02_AQImp-ClimateChange.pdf, physical PDF p. 34–35]]
+
+
+## Worked example
+
+O017-W1, item_version 1, worked_example. **Prompt:** A synthetic dataset labels A as global annual CO2 $410\ \mathrm{ppm}$ in year1, B as global annual CO2 $414\ \mathrm{ppm}$ in year2, and C as one station’s one-day CO2 $418\ \mathrm{ppm}$ in year2. Compute the annual-mean difference and explain why C−B is not automatically global annual growth. A temperature record reports anomaly $1.2^\circ\mathrm{C}$ relative to 1961–1990, while another figure is a one-day absolute2m temperature map. Explain what each can show and why no direct comparison to a different-reference climate target follows. Diagnose the source’s 2024 annual means / within-year increase and 2022 caption / 2024 dot differences, the source-reported November 2025 daily value, nonuniform deep-time axes and scope of its historical-series “hockey-stick” heading.
+
+**Complete solution and essential rubric:** The synthetic common-series annual-mean change is $414-410=4.000000\ \mathrm{ppm}$. A particular station/day has another location/averaging definition, so its gap from the global annual mean is not that growth measure. Seasonal cycles can coexist with a long-term rise. The $1.2^\circ\mathrm{C}$ anomaly is a difference from the stated 1961–1990 reference mean, not absolute temperature; a one-day 2 m map is weather/spatial variation, not multi-decade climate change. A different-baseline target needs a justified baseline comparison, not an unqualified equality. Source annual means give $422.7-419.3=3.4$ ppm; the cited 3.75 ppm is within-2024 growth, while archived NOAA annual values differ slightly (global 422.8, Mauna Loa 424.61). Preserve the source’s 2024 graphic dot versus 2022 caption conflict and label 425.68 ppm on 1 November 2025 as source-reported station/day data not independently reconstructed. These are historical statements, not current 2026 observations. Deep-time panels have nonuniform time scales, so visual slopes across them are not comparable rates. The source heading’s actual plotted historical series are about 1840–2000, not by themselves a millennium reconstruction or a resolution of all attribution questions. Sample graphics / 95% bounds must retain record, baseline, coverage and uncertainty. All requested calculations, derivations and qualifications are essential; the component map above applies to every full form.
+
+## Practice with fading assistance
+
+O017-S1, item_version 1, supported_completion. **Prompt:** A synthetic dataset labels A as global annual CO2 $415\ \mathrm{ppm}$ in year1, B as global annual CO2 $418\ \mathrm{ppm}$ in year2, and C as one station’s one-day CO2 $422\ \mathrm{ppm}$ in year2. Compute the annual-mean difference and explain why C−B is not automatically global annual growth. A temperature record reports anomaly $0.9^\circ\mathrm{C}$ relative to 1981–2010, while another figure is a one-day absolute2m temperature map. Explain what each can show and why no direct comparison to a different-reference climate target follows. Diagnose the source’s 2024 annual means / within-year increase and 2022 caption / 2024 dot differences, the source-reported November 2025 daily value, nonuniform deep-time axes and scope of its historical-series “hockey-stick” heading.
+
+**Complete solution and essential rubric:** The synthetic common-series annual-mean change is $418-415=3.000000\ \mathrm{ppm}$. A particular station/day has another location/averaging definition, so its gap from the global annual mean is not that growth measure. Seasonal cycles can coexist with a long-term rise. The $0.9^\circ\mathrm{C}$ anomaly is a difference from the stated 1981–2010 reference mean, not absolute temperature; a one-day 2 m map is weather/spatial variation, not multi-decade climate change. A different-baseline target needs a justified baseline comparison, not an unqualified equality. Source annual means give $422.7-419.3=3.4$ ppm; the cited 3.75 ppm is within-2024 growth, while archived NOAA annual values differ slightly (global 422.8, Mauna Loa 424.61). Preserve the source’s 2024 graphic dot versus 2022 caption conflict and label 425.68 ppm on 1 November 2025 as source-reported station/day data not independently reconstructed. These are historical statements, not current 2026 observations. Deep-time panels have nonuniform time scales, so visual slopes across them are not comparable rates. The source heading’s actual plotted historical series are about 1840–2000, not by themselves a millennium reconstruction or a resolution of all attribution questions. Sample graphics / 95% bounds must retain record, baseline, coverage and uncertainty. All requested calculations, derivations and qualifications are essential; the component map above applies to every full form.
+
+Allowed support is the first stated identity only; hide the remaining key while the learner completes it. Supported performance is practice, not an independent result.
+
+## Rubric and independence
+
+Required components: common_series_arithmetic_and_averaging, anomaly_weather_and_time_scale_limits, source_vintage_conflicts_and_uncertainty. Each full prompt/key below elicits every component; all are necessary for a pass on every permitted pair. Accept algebraically equivalent expressions and clearly defined opposite cash-flow signs with correct interpretation. A pass requires all requested outputs/reasons, correct units/assumptions and no critical conceptual error. Partial means a missing component or an unresolved isolated arithmetic slip with an otherwise valid method; independent correction is required for a pass. Fail means a critical mechanism/condition is wrong. Unscorable means a response or its help/exposure conditions cannot be established. Unknown help conditions are never independent evidence.
+
+Critical errors: Station/day substituted for global annual mean; within-year and annual-mean growth equated; anomaly baseline ignored; weather or visual deep-time slope claimed as comparable climate rate.
+
+Acquisition requires two distinct unused unassisted full checks selected from the six exact metadata routes. Every I/D form covers all components; W1, S1, the prerequisite and C1 are forbidden substitutes. A D form used for acquisition cannot later be counted again as delayed success. No teach-generated item may replace a named full check; additional verified explanation/practice is allowed under the unchanged method and may not fabricate evidence. If fewer than two fresh forms remain for acquisition, return a plan_issue for an additional prepared bank.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| common_series_arithmetic_and_averaging | required | required | required | required |
+| anomaly_weather_and_time_scale_limits | required | required | required | required |
+| source_vintage_conflicts_and_uncertainty | required | required | required | required |
+
+## Misconceptions and correction
+
+An observed omitted term/sign is tentative until the learner explains it; compare the reasoning with the critical errors above. Score the original response before providing help. Route a conceptual failure to the relevant included derivation and prerequisite, then use an unused full form.
+
+O017-C1, item_version 1, narrow_correction. **Prompt:** A 2024 annual global mean and a 2025 daily station reading differ. Is their subtraction automatically an annual global increase? **Key/rubric:** No. Location, year and averaging period differ; a valid growth comparison needs the same defined series/aggregation. Label the source’s station/day report and its verification limit. Pass requires all keyed reasoning; partial for a missing part; fail for the conflicting mechanism. This repairs a common inference only; it cannot substitute for a full numerical/capability check.
+
+Give at most two hints (first identify the date/unit, second point to the included identity); after ineffective hints show the relevant worked step. After two unsuccessful independent attempts stop repeated quizzing, revisit the explanation/prerequisite and preserve the unresolved status.
+
+## Immediate and delayed checks
+
+### O017-I1
+
+O017-I1, item_version 1, full_capability_check. **Prompt:** A synthetic dataset labels A as global annual CO2 $400\ \mathrm{ppm}$ in year1, B as global annual CO2 $403\ \mathrm{ppm}$ in year2, and C as one station’s one-day CO2 $407\ \mathrm{ppm}$ in year2. Compute the annual-mean difference and explain why C−B is not automatically global annual growth. A temperature record reports anomaly $1.1^\circ\mathrm{C}$ relative to 1961–1990, while another figure is a one-day absolute2m temperature map. Explain what each can show and why no direct comparison to a different-reference climate target follows. Diagnose the source’s 2024 annual means / within-year increase and 2022 caption / 2024 dot differences, the source-reported November 2025 daily value, nonuniform deep-time axes and scope of its historical-series “hockey-stick” heading.
+
+**Complete solution and essential rubric:** The synthetic common-series annual-mean change is $403-400=3.000000\ \mathrm{ppm}$. A particular station/day has another location/averaging definition, so its gap from the global annual mean is not that growth measure. Seasonal cycles can coexist with a long-term rise. The $1.1^\circ\mathrm{C}$ anomaly is a difference from the stated 1961–1990 reference mean, not absolute temperature; a one-day 2 m map is weather/spatial variation, not multi-decade climate change. A different-baseline target needs a justified baseline comparison, not an unqualified equality. Source annual means give $422.7-419.3=3.4$ ppm; the cited 3.75 ppm is within-2024 growth, while archived NOAA annual values differ slightly (global 422.8, Mauna Loa 424.61). Preserve the source’s 2024 graphic dot versus 2022 caption conflict and label 425.68 ppm on 1 November 2025 as source-reported station/day data not independently reconstructed. These are historical statements, not current 2026 observations. Deep-time panels have nonuniform time scales, so visual slopes across them are not comparable rates. The source heading’s actual plotted historical series are about 1840–2000, not by themselves a millennium reconstruction or a resolution of all attribution questions. Sample graphics / 95% bounds must retain record, baseline, coverage and uncertainty. All requested calculations, derivations and qualifications are essential; the component map above applies to every full form.
+
+I1/I2 are immediate checks; D1/D2 are distinct parallel variants reserved where possible for delayed checks. A delayed success requires an unused form before recap, no help/solution access, and at least 24 actual elapsed hours after acquisition and the most recent relevant teaching/solution exposure. Record intervening exposure. A calendar-date change alone is insufficient; an early D attempt is immediate evidence only.
+
+### O017-I2
+
+O017-I2, item_version 1, full_capability_check. **Prompt:** A synthetic dataset labels A as global annual CO2 $420\ \mathrm{ppm}$ in year1, B as global annual CO2 $424\ \mathrm{ppm}$ in year2, and C as one station’s one-day CO2 $429\ \mathrm{ppm}$ in year2. Compute the annual-mean difference and explain why C−B is not automatically global annual growth. A temperature record reports anomaly $1.4^\circ\mathrm{C}$ relative to 1981–2010, while another figure is a one-day absolute2m temperature map. Explain what each can show and why no direct comparison to a different-reference climate target follows. Diagnose the source’s 2024 annual means / within-year increase and 2022 caption / 2024 dot differences, the source-reported November 2025 daily value, nonuniform deep-time axes and scope of its historical-series “hockey-stick” heading.
+
+**Complete solution and essential rubric:** The synthetic common-series annual-mean change is $424-420=4.000000\ \mathrm{ppm}$. A particular station/day has another location/averaging definition, so its gap from the global annual mean is not that growth measure. Seasonal cycles can coexist with a long-term rise. The $1.4^\circ\mathrm{C}$ anomaly is a difference from the stated 1981–2010 reference mean, not absolute temperature; a one-day 2 m map is weather/spatial variation, not multi-decade climate change. A different-baseline target needs a justified baseline comparison, not an unqualified equality. Source annual means give $422.7-419.3=3.4$ ppm; the cited 3.75 ppm is within-2024 growth, while archived NOAA annual values differ slightly (global 422.8, Mauna Loa 424.61). Preserve the source’s 2024 graphic dot versus 2022 caption conflict and label 425.68 ppm on 1 November 2025 as source-reported station/day data not independently reconstructed. These are historical statements, not current 2026 observations. Deep-time panels have nonuniform time scales, so visual slopes across them are not comparable rates. The source heading’s actual plotted historical series are about 1840–2000, not by themselves a millennium reconstruction or a resolution of all attribution questions. Sample graphics / 95% bounds must retain record, baseline, coverage and uncertainty. All requested calculations, derivations and qualifications are essential; the component map above applies to every full form.
+
+### O017-D1
+
+O017-D1, item_version 1, full_capability_check. **Prompt:** A synthetic dataset labels A as global annual CO2 $405\ \mathrm{ppm}$ in year1, B as global annual CO2 $407.5\ \mathrm{ppm}$ in year2, and C as one station’s one-day CO2 $412\ \mathrm{ppm}$ in year2. Compute the annual-mean difference and explain why C−B is not automatically global annual growth. A temperature record reports anomaly $0.8^\circ\mathrm{C}$ relative to 1961–1990, while another figure is a one-day absolute2m temperature map. Explain what each can show and why no direct comparison to a different-reference climate target follows. Diagnose the source’s 2024 annual means / within-year increase and 2022 caption / 2024 dot differences, the source-reported November 2025 daily value, nonuniform deep-time axes and scope of its historical-series “hockey-stick” heading.
+
+**Complete solution and essential rubric:** The synthetic common-series annual-mean change is $407.5-405=2.500000\ \mathrm{ppm}$. A particular station/day has another location/averaging definition, so its gap from the global annual mean is not that growth measure. Seasonal cycles can coexist with a long-term rise. The $0.8^\circ\mathrm{C}$ anomaly is a difference from the stated 1961–1990 reference mean, not absolute temperature; a one-day 2 m map is weather/spatial variation, not multi-decade climate change. A different-baseline target needs a justified baseline comparison, not an unqualified equality. Source annual means give $422.7-419.3=3.4$ ppm; the cited 3.75 ppm is within-2024 growth, while archived NOAA annual values differ slightly (global 422.8, Mauna Loa 424.61). Preserve the source’s 2024 graphic dot versus 2022 caption conflict and label 425.68 ppm on 1 November 2025 as source-reported station/day data not independently reconstructed. These are historical statements, not current 2026 observations. Deep-time panels have nonuniform time scales, so visual slopes across them are not comparable rates. The source heading’s actual plotted historical series are about 1840–2000, not by themselves a millennium reconstruction or a resolution of all attribution questions. Sample graphics / 95% bounds must retain record, baseline, coverage and uncertainty. All requested calculations, derivations and qualifications are essential; the component map above applies to every full form.
+
+### O017-D2
+
+O017-D2, item_version 1, full_capability_check. **Prompt:** A synthetic dataset labels A as global annual CO2 $412\ \mathrm{ppm}$ in year1, B as global annual CO2 $415.5\ \mathrm{ppm}$ in year2, and C as one station’s one-day CO2 $419\ \mathrm{ppm}$ in year2. Compute the annual-mean difference and explain why C−B is not automatically global annual growth. A temperature record reports anomaly $1.3^\circ\mathrm{C}$ relative to 1981–2010, while another figure is a one-day absolute2m temperature map. Explain what each can show and why no direct comparison to a different-reference climate target follows. Diagnose the source’s 2024 annual means / within-year increase and 2022 caption / 2024 dot differences, the source-reported November 2025 daily value, nonuniform deep-time axes and scope of its historical-series “hockey-stick” heading.
+
+**Complete solution and essential rubric:** The synthetic common-series annual-mean change is $415.5-412=3.500000\ \mathrm{ppm}$. A particular station/day has another location/averaging definition, so its gap from the global annual mean is not that growth measure. Seasonal cycles can coexist with a long-term rise. The $1.3^\circ\mathrm{C}$ anomaly is a difference from the stated 1981–2010 reference mean, not absolute temperature; a one-day 2 m map is weather/spatial variation, not multi-decade climate change. A different-baseline target needs a justified baseline comparison, not an unqualified equality. Source annual means give $422.7-419.3=3.4$ ppm; the cited 3.75 ppm is within-2024 growth, while archived NOAA annual values differ slightly (global 422.8, Mauna Loa 424.61). Preserve the source’s 2024 graphic dot versus 2022 caption conflict and label 425.68 ppm on 1 November 2025 as source-reported station/day data not independently reconstructed. These are historical statements, not current 2026 observations. Deep-time panels have nonuniform time scales, so visual slopes across them are not comparable rates. The source heading’s actual plotted historical series are about 1840–2000, not by themselves a millennium reconstruction or a resolution of all attribution questions. Sample graphics / 95% bounds must retain record, baseline, coverage and uncertainty. All requested calculations, derivations and qualifications are essential; the component map above applies to every full form.
+
+## Advance, revisit, pause, and escalate
+
+Advance only after teach commits two qualifying independent full passes under a listed route. Keep acquisition and each later delayed observation separate. A source conflict blocks the affected claim and returns to ingest with the exact note heading. Missing criteria, a new method, unsupported alternative or exhausted fresh bank returns to plan with 2026_2027/Winter_Semester/Economics_of_Green_Deal, O017, revision1/O017-C1, P005/V003/ingestion3 and item ID. Equivalent valid methods meeting the frozen criterion may receive credit after verification; no criterion is changed to fit an answer. Closing a session preserves the actual stopping point without claiming completion.
+
+## Content provenance and generation boundaries
+
+Explanations, figures and qualifications above reuse complete checked-note sections with exact origin/fingerprint; heading depth alone is adapted. Main exercises and worked arithmetic are plan-created hypothetical instantiations of those displayed identities. No additional academic claims or external course scope are introduced. Preserve the note conventions and explicit qualifications; checked references reused from notes are not an independent raw-source audit by plan. New numerical practice can use the same method only after its complete solution and unchanged components are checked before display; it cannot replace this lesson’s named evidence forms. Prerequisites route to the complete prepared lessons above.
+
+## Answer-free recall handoff
+
+Topic: Interpret concentration and temperature records with dates and baselines. Begin a closed-note review with teach for O017; request an unused prepared delayed item before recap. Exact lesson: [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O017.md#Immediate and delayed checks]]. Teach supplies actual committed evidence and timestamps; recall alone dates reviews. No learner outcome or due date is created by this curriculum.

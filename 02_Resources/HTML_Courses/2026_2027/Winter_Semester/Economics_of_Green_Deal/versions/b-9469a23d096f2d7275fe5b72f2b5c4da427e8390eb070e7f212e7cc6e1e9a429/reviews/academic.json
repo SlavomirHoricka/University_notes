@@ -1,0 +1,95 @@
+{
+  "candidate": "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/candidate-p005-final3",
+  "candidate_digest": "9469a23d096f2d7275fe5b72f2b5c4da427e8390eb070e7f212e7cc6e1e9a429",
+  "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+  "evidence": [
+    {
+      "check": "Full academic review scope carried forward with final-byte verification",
+      "initial_report": "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/green-html-review.json",
+      "intermediate_report": "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/academic-final1.json",
+      "result": "Initial complete review covered all 19 objectives, 95 local self-study prompts/full keys, checked-note explanations, assumptions, rubrics, and all figures. Reviewed unchanged passages and all 132 initial whole-paragraph repairs, all 29 residual paragraphs, plus two canonical-note uncertainty scopes. Final3 differs from reviewed final2 in exactly one section: the complete uncertainty expression in O016 full-note parent reading. All other draft fields/content are byte-equivalent at structured field level."
+    },
+    {
+      "check": "All repairs present in actual final renderings",
+      "report": "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/green-review-evidence/final3-recheck.json",
+      "result": "163 source-unit/paragraph scopes match current source hashes/text and the actual coverage targets. 162 normalized matches plus manual verification of scope 62 ordered-list structure. The twelve canonical scopes formerly skipped by direct application are present through complete embedded lessons. Both displayed copies of the conditional -57±8 ppm paragraph are now LaTeX; the canonical leaf routes to the repaired explanation."
+    },
+    {
+      "check": "Remaining defects resolved",
+      "result": "Week 1 network arrows/node alternatives and separate h=y, W=A thresholds now preserve meaning in LaTeX; six O008 complete A,D/derivative/value declarations retain original inputs; six O009 stock-to-annual-flow fractions retain years and annualisation limits; O016 uncertainty/conditional concentration/pH changes retain historical interpretation; six O018 keys clearly normalize AGGI to 1 in 1990. Full stops sit outside PC numeric formulas. No original value, sign, assumption, assessed task, key or acceptable alternative changed."
+    },
+    {
+      "check": "Math integrity and whole-output scan",
+      "math_report": "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/green-review-evidence/final3-math-parse.json",
+      "result": "All 2,239 actual inline/display expressions parse with strict KaTeX and zero errors. Full plaintext-operator scan has no unresolved formula fragments or ambiguous split equations. Remaining operator characters express explicitly rejected prose equivalences or a conceptual process sequence. Numerical changes in the earlier repairs were limited to explicit equivalent exponent notation and properly written 0-to-4 integration bounds supported by the declared inputs; source dated GWP/scenario/standing/relative-risk bounds retained.",
+      "scan_report": "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/green-review-evidence/final3-residual-scan.json"
+    },
+    {
+      "check": "Fresh sources, manifest and exact digest",
+      "result": "All snapshot source_files hashes match the selected checkout. Canonical course.checked_tree passes on final3, verifying the computed manifest digest, 73 file hashes, file set, HTML links and IDs. Snapshot remains P005/V003/ingest3 with fingerprint 8646858e461c66b20cf3fe74fcfe4c408903673717cd54aefeb3bb29475fec65."
+    },
+    {
+      "check": "Coverage, sequencing and link semantics",
+      "result": "All 366 source units retain coverage (303 included, 63 operational), all 19 objectives/95 self-study interactions retain identities, prerequisites and Week 1/2/3 assignments. Full-note and extensionless note links use relevant checked explanation destinations; course hub links use contents/week anchors. Every local link target and fragment resolves. All existing criteria, 94 permitted curriculum acquisition routes, declared conditions, correction boundaries and historical evidence compatibility carry forward from the approved P005 review."
+    },
+    {
+      "check": "Figures, English delivery and local practice",
+      "result": "All assets are unchanged from the full academic figure review: 32 checked source figure bytes and 8 concept maps, plus CSS/JS. Source diagrams and translated English prose preserve qualifications and source references. All 95 local self-study prompts expose full keys without recording learner evidence. No new unsupported academic content or source claims were introduced."
+    }
+  ],
+  "findings": [],
+  "helper_role": "html_course_review",
+  "kind": "academic",
+  "limitations": [
+    "Read-only academic conversion review. Original course materials and learner logs were not opened; checked ingestion/notes and prepared lessons were the academic inputs.",
+    "Browser desktop/compact/offline/interaction QA is a separate owner check and is not asserted by this academic report."
+  ],
+  "next_step": "Owner completes browser QA on this exact digest, then may publish through the HTML-course workflow. No unresolved material academic/conversion findings.",
+  "objective_ids": [
+    "O001",
+    "O002",
+    "O003",
+    "O004",
+    "O005",
+    "O006",
+    "O007",
+    "O008",
+    "O009",
+    "O010",
+    "O011",
+    "O012",
+    "O013",
+    "O014",
+    "O015",
+    "O016",
+    "O017",
+    "O018",
+    "O019"
+  ],
+  "requested_profile": "uni_curriculum_checker; gpt-6-astra, high (requested role configuration; runtime identity not independently verified)",
+  "reviewer": "/root/green_curriculum_check",
+  "scope": {
+    "concept_maps": 8,
+    "figures": 40,
+    "included_units": 303,
+    "lessons": 19,
+    "operational_units": 63,
+    "reviewed_scoped_replacements": 163,
+    "self_study_items_and_full_keys": 95,
+    "source_figures": 32,
+    "source_units": 366,
+    "weeks": [
+      1,
+      2,
+      3
+    ]
+  },
+  "source_fingerprint": "8646858e461c66b20cf3fe74fcfe4c408903673717cd54aefeb3bb29475fec65",
+  "status": "passed",
+  "tuple": {
+    "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+    "ingestion_revision": 3,
+    "plan_version": "P005",
+    "source_version": "V003"
+  }
+}

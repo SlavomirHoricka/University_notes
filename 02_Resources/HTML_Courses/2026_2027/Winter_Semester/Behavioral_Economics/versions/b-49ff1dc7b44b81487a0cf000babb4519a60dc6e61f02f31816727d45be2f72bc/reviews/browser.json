@@ -1,0 +1,32 @@
+{
+  "candidate_digest": "49ff1dc7b44b81487a0cf000babb4519a60dc6e61f02f31816727d45be2f72bc",
+  "checks": {
+    "compact": true,
+    "desktop": true,
+    "interactions": true,
+    "links": true,
+    "math": true,
+    "offline_dependencies": true
+  },
+  "evidence": {
+    "external_requests": [],
+    "image_instances": 33,
+    "inspection": "/private/tmp/week3-ingest-html/Behavioral_Economics/qa-final1/inspection.json",
+    "inspection_sha256": "1d8d237ca3ea854588d1ff3957786345a02642f27178f07e0b8d993b21a1d640",
+    "javascript_resource_math_errors": [],
+    "method": "Direct file://, isolated temporary Chrome profile; every contents/lesson page checked at 1440 and 390px; local dependency paths independently checked by course.py. Written entry and solution reveal checked; numeric empty/wrong/correct cases and slope/reset/SSE checked wherever present. Saved screenshots visually inspected by owner before this report.",
+    "pages": 16,
+    "rendered_math_instances": 2258,
+    "screenshots": [
+      "/private/tmp/week3-ingest-html/Behavioral_Economics/qa-final1/compact-math.png",
+      "/private/tmp/week3-ingest-html/Behavioral_Economics/qa-final1/compact.png",
+      "/private/tmp/week3-ingest-html/Behavioral_Economics/qa-final1/desktop.png",
+      "/private/tmp/week3-ingest-html/Behavioral_Economics/qa-final1/figure.png",
+      "/private/tmp/week3-ingest-html/Behavioral_Economics/qa-final1/math.png"
+    ]
+  },
+  "findings": [],
+  "kind": "browser",
+  "reviewer": "/root; isolated Chrome via Playwright, with direct visual inspection of saved desktop/compact/math/figure screenshots",
+  "status": "passed"
+}

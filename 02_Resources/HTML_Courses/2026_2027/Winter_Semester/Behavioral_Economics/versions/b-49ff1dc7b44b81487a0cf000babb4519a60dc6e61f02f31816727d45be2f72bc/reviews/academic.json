@@ -1,0 +1,81 @@
+{
+  "candidate_digest": "49ff1dc7b44b81487a0cf000babb4519a60dc6e61f02f31816727d45be2f72bc",
+  "candidate_path": "/private/tmp/week3-ingest-html/Behavioral_Economics/candidate-p002-final1",
+  "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+  "evidence": [
+    "Independent academic conversion review of all14 objectives O001–O014 and all70 interactive prepared items/full keys, using the previously independently approved curriculum and the complete final snapshot. No raw course materials or learner logs read; no notes/curriculum/candidate writes.",
+    "Final snapshot fingerprint852dd68b9b5a89c36671dc1d9ec5573d0d9918b58f64fcc1ca79adf8ed82248f and P002/V002/ingestion3 tuple verified. Candidate snapshot bytes equal final-snapshot.json; all source_files hashes, including the now-stable shared ingestion pass, match the current selected checkout.",
+    "All258 source units are byte-identical to the initially reviewed source units. Coverage is unchanged:210 included units and48 permitted operational omissions. Academic content, assumptions, criteria, examples and solutions remain available; omissions are tutor delivery/escalation/recall/metadata.",
+    "Independently read all90 whole-paragraph mathematical rewrites and their semantic changes. Exact proposed and owner-approved source/rewritten strings match. All90 rewritten passages are found in actual final draft fields; the application receipt records90 distinct scoped hits.",
+    "Verified compact notation expansions against the checked models: w0/w1 denote w=0/w=1; q1/q-1 denote q=1/q=-1; selfish00 denotes rho=sigma=0; altruism++ and spite-- give the corresponding two positive/two negative weights; the taught inequality-aversion conditions remain0<rho<1 and sigma<-rho. No criterion or parameter inference changes.",
+    "Rechecked the full changed mathematics: piecewise utility values/slopes/sign cases; reciprocity weights and fixed-allocation utility differences; trust-game payoffs/surplus/break-even denominators; prisoner-dilemma matrices/totals/backward-induction assumptions; all warm-glow threshold orderings, belief values and ties; gift-cost7/36 denominator and hourly units; all childhood allocation classifications and selfish ties. No arithmetic or interpretation error found.",
+    "Week2 and Week3 remaining content is preserved, including social-effort derivative assumptions, labour-gift designs, relative-pay percentage-versus-point units, charity denominators, childhood sample/causal limits, and mentoring mean-component-z index arithmetic with ITT/measurement/significance/mechanism qualifications.",
+    "Compared substantive included paragraphs with scoped notation normalization:1017 matched comparisons. Five remaining comparison exceptions are previously inspected figure filename-to-readable-label conversions, with the figures and adjacent explanations retained. No missing academic paragraph found.",
+    "All289 section/prompt/solution payloads occur unchanged in the14 final HTML pages. All14 lesson IDs, objective IDs, weeks, additional-week mappings and prerequisite routes match the initial reviewed mapping: O001–O008 Week1, O009–O012 Week2, O013–O014 Week3.",
+    "All29 figure file hashes are unchanged from the reviewed candidate:24 exact source image assets plus5 semantically checked Mermaid-derived SVG diagrams. English explanations and source qualifications remain intact; bibliographic titles are preserved as source labels.",
+    "All manifest file hashes independently verified. course.py check succeeds on exact candidate digest49ff1dc7b44b81487a0cf000babb4519a60dc6e61f02f31816727d45be2f72bc. Candidate-wide residual-math inspection found no unresolved material conversion finding."
+  ],
+  "findings": [],
+  "helper_role": "html_course_review",
+  "kind": "academic",
+  "limitations": [
+    "This report approves academic conversion of the exact named final candidate. Browser layout, interactions, keyboard access and offline/font rendering require the separate owner browser report.",
+    "This is bounded Weeks1–3 coverage, not certification of the complete semester syllabus."
+  ],
+  "next_step": "Owner may pair this exact-digest academic approval with the separate passing browser report and publish through the HTML-course helper after its final freshness checks.",
+  "objective_ids": [
+    "O001",
+    "O002",
+    "O003",
+    "O004",
+    "O005",
+    "O006",
+    "O007",
+    "O008",
+    "O009",
+    "O010",
+    "O011",
+    "O012",
+    "O013",
+    "O014"
+  ],
+  "resolved_findings": [
+    {
+      "id": "BE-HTML-01",
+      "result": "All90 exact source-paragraph repairs inspected independently and matched in actual final HTML fields. Complete mathematical expressions, signs, units, payoff tuples, symbolic roles, conditions and keys are retained. Remaining slash separators are enumerations/alternative choices, not unconverted arithmetic. No material plaintext-math defect remains in inspected scope."
+    },
+    {
+      "id": "BE-HTML-02",
+      "result": "O003 worked example now contains the complete signed expression -(1/4)/(3/4)=-1/3 in one LaTeX span. The value and sign are correct."
+    },
+    {
+      "id": "BE-HTML-03",
+      "result": "O009 fuller payoff-weight distinctions now links to o003.html#s-complete-checked-note-explanation, confirmed in the final page."
+    }
+  ],
+  "reviewer": "/root/be_curriculum_check",
+  "schema_version": 1,
+  "scope": {
+    "generated_note_diagrams": 5,
+    "included_source_units": 210,
+    "interactive_prepared_items": 70,
+    "lessons": 14,
+    "operational_omissions": 48,
+    "snapshot_source_units": 258,
+    "source_figures": 24,
+    "weeks": [
+      1,
+      2,
+      3
+    ],
+    "whole_source_paragraph_repairs": 90
+  },
+  "source_fingerprint": "852dd68b9b5a89c36671dc1d9ec5573d0d9918b58f64fcc1ca79adf8ed82248f",
+  "status": "passed",
+  "tuple": {
+    "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+    "ingestion_revision": 3,
+    "plan_version": "P002",
+    "source_version": "V002"
+  }
+}

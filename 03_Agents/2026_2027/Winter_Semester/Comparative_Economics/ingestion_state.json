@@ -2,21 +2,23 @@
   "schema_version": 1,
   "owner": "ingest",
   "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
-  "ingestion_revision": 1,
-  "transaction_id": "T-56ae30eecc21446b949eaf2fd90a299b",
+  "ingestion_revision": 2,
+  "transaction_id": "INGEST-20261018-CE-R2-COMPLETE",
   "status": "complete",
-  "run_id": "20261004T155737+0200_week1_courses",
-  "completion_log": "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
-  "updated_at": "2026-10-04T19:46:47.689389+02:00",
+  "run_id": "20261018T195113+0200_weeks1-3_five_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261018T195113+0200_weeks1-3_five_courses.md",
+  "updated_at": "2026-10-18T22:42:10.355528+02:00",
   "finished_notes": [
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md",
-      "sha256": "748e1c9039e32d1c6eaf7a29a23f6d9f467d96f30de14697a4fa54e9069e7119",
+      "sha256": "879554bfe3030f01859a0fcaa3ac76ad1661e9095fea37393bfa593a08e76fc3",
       "headings": [
         "Comparative Economics",
         "Week 1",
         "Reading questions to be ready to discuss",
-        "Course information added from the SIS export"
+        "Course information added from the SIS export",
+        "Week 2",
+        "Week 3"
       ]
     },
     {
@@ -88,103 +90,404 @@
         "Answers to the Week 1 Roland reading questions",
         "Synthesis and scope"
       ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Comparability_Data_and_Reading_Questions.md",
+      "sha256": "edb8887ee683dab0eac786b8cbb319555883374c9c39b4b7b770e66a110e7055",
+      "headings": [
+        "Comparability, data reliability and reading questions",
+        "Measurement can change what a comparison means",
+        "Source chronology and the first summary",
+        "Acemoglu–Robinson reading questions and answer routes",
+        "Earlier lecture questions and the boundary of supplied readings",
+        "What the source leads add to the map"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Institutions_Power_and_Democratization.md",
+      "sha256": "bf0560feeb58d62c7ccfa01f533301f1666e3c7a968faa595c85d53afe507f1e",
+      "headings": [
+        "Institutions, power and democratization",
+        "Rules, incentives and selective protection",
+        "Reconstructing the dynamic framework",
+        "Democratization and its reversal",
+        "Comparative statics and limits",
+        "Britain as an application",
+        "Lecture applications and interpretation"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Liberty_Leviathans_and_Norms.md",
+      "sha256": "d8467cfbbfbf327692a52af4dc0f820dd58507e3cfb3e430d35147ed2b8a3ce3",
+      "headings": [
+        "Liberty, Leviathans and the cage of norms",
+        "Liberty means freedom from domination",
+        "Hobbes's Warre and the economic mechanism",
+        "Capacity can be used for repression",
+        "Norms can create order and a cage",
+        "The Shackled Leviathan",
+        "What the chapter's final outline does—and does not—supply"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Russia_Without_Revolution_Counterfactuals.md",
+      "sha256": "fdca1e98732bf62614e87748ccaae494b4e87b9e06154c38b9eac5e257e63f40",
+      "headings": [
+        "Russia without the Revolution: predictive counterfactuals",
+        "Historical setting and policy sequence",
+        "Data and the prediction target",
+        "Competing estimators and regularization",
+        "Main scenarios and donor weights",
+        "War, population and comparability",
+        "Diagnostics and forecast uncertainty",
+        "Why close fit can forecast badly",
+        "Structural simulations and the stability assumption",
+        "Logs, levels, growth and welfare limits"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Synthetic_Control_Design_and_Inference.md",
+      "sha256": "f68abe39a544b3e0073189cf0d3543276edd30d9d1b78718c7ff6a94a34dee87",
+      "headings": [
+        "Synthetic control: design, fit and inference",
+        "The missing counterfactual and convex weights",
+        "Selecting predictors and weights",
+        "Why fit can help and when it misleads",
+        "Context, data and feasibility",
+        "Placebos, inference and robustness",
+        "How the surveyed extensions change the estimator",
+        "Distinct inferential reference distributions"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Collective_Action_and_Development.md",
+      "sha256": "13cec2d999e2712200b5a6c9435838cc3774c8459c9de181c5616751780ca28d",
+      "headings": [
+        "Collective action, institutions and development",
+        "Individual optimization does not guarantee social efficiency",
+        "Knowledge and natural resources do not explain most of the gap",
+        "Capital allocation is inconsistent with frontier production",
+        "Separate private skills from civic human capital",
+        "Institutions, growth, and collective action"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Embedded_Economies_and_Kula.md",
+      "sha256": "400fa27117a34f59293450de25852717ea932ca25ca96a5066d709d769df66fe",
+      "headings": [
+        "Embedded economies, reciprocity and the Kula ring",
+        "Social motives and economic organization",
+        "Reciprocity and symmetry",
+        "Redistribution and centricity",
+        "Householding and production for use",
+        "The 1920 Trobriand report"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Islamic_Finance_and_Institutional_Diversity.md",
+      "sha256": "01147e8ee729e8caeb0839c93797a7233d349875f87f720597d5609822c4c504",
+      "headings": [
+        "Islamic finance and institutional diversity",
+        "Historical setting and diversity of Islamic interpretation",
+        "Chronology, succession and interpretation",
+        "Foundational principles and obligations",
+        "Gharar, qirad, and the problem of risk",
+        "Riba, competing economic arguments, and banking practice",
+        "Property, capitalism, socialism, and unresolved outcomes",
+        "Contract mechanisms, securities and the lecture’s corrections",
+        "Risk, liquidity and dated industry evidence"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Market_Capitalism_Theory_and_Practice.md",
+      "sha256": "dc387f3c6d6c03ee9dd03f145669646e436b9982423201093efa570170e80569",
+      "headings": [
+        "Market capitalism: efficiency, failures and institutions",
+        "Why capitalist markets attract emulation—and why no economy is a pure case",
+        "Competitive equilibrium, Pareto efficiency, and the PPF",
+        "Market failures and policy trade-offs",
+        "Source discussion questions: answer outlines"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Religion_and_Economic_Organization.md",
+      "sha256": "d251fd4c2dea68517f51f376ccccfd7a1ad3f7b9306eb7b70e46c6ebca9a25f2",
+      "headings": [
+        "Religion and economic organization",
+        "Embedded economies and the proposed “New Traditional Economy”",
+        "Religious traditions and economic conduct",
+        "The six lecture reading questions",
+        "Diversity within the source’s Protestant comparison"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Trade_Protection_and_Historical_Islam.md",
+      "sha256": "032f26f0359d18357f1a3a165f3d83f86d6e698b9c2e75d6f4a468ed05f10d70",
+      "headings": [
+        "Trade, protection and historical Islam",
+        "Trade infrastructure before Islam",
+        "The political problem of exchange",
+        "Muhammad, early Islam, and commercial norms",
+        "Political consolidation and commercial networks",
+        "Commercial instruments in the lecture"
+      ]
     }
   ],
   "affected_note_paths": [
     "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md",
     "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Course_Organization_and_Week_1_Scope.md"
   ],
-  "prior_completed_revision": null,
-  "unresolved": [
-    "SIS integer grade bands do not supply a fractional-score rounding rule (PDF pp. 2–3). No unresolved uploaded Week 1 academic discrepancy; the separately linked syllabus and Moodle content were not supplied or consulted."
+  "prior_completed_revision": 1,
+  "unresolved": [],
+  "selected_scope": [
+    "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1",
+    "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_2",
+    "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_3"
   ],
-  "selected_scope": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1",
-  "coverage_status": "Complete for selected supplied files; external advertised source gaps remain in unresolved.",
+  "coverage_status": "Prior Week1 checked scope unchanged; all339 Week2/3 physical PDF pages plus assignment image, 11newnotes/34assets independently checked complete",
   "finished_assets": [
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Acemoglu_p12_mita_map.png",
       "bytes": 455485,
-      "sha256": "d41e48f2eb699aa4a874a136609baf43bcff972e0bf5d4dbcaf0a60e5ee9d613",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "d41e48f2eb699aa4a874a136609baf43bcff972e0bf5d4dbcaf0a60e5ee9d613"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Acemoglu_p20_population_map.png",
       "bytes": 412716,
-      "sha256": "039353366f9dbabf9806e66d40000c588c29641589eec8dbe4ceab661a5b9f22",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "039353366f9dbabf9806e66d40000c588c29641589eec8dbe4ceab661a5b9f22"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Roland_p16_prisoners_dilemma.png",
       "bytes": 789617,
-      "sha256": "6c04c30c9a7a2c42827938bb073b208c67c75f788050fae389f80ef2b880e3a1",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "6c04c30c9a7a2c42827938bb073b208c67c75f788050fae389f80ef2b880e3a1"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Roland_p23_stag_hunt.png",
       "bytes": 474870,
-      "sha256": "3ee5fa9f85fc6c4ce4f13000273ddfa9009b6b363a64c1bc53f8bdc87626bc1a",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "3ee5fa9f85fc6c4ce4f13000273ddfa9009b6b363a64c1bc53f8bdc87626bc1a"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Rosser_p16_table_1_1.png",
       "bytes": 409971,
-      "sha256": "7955eb1b84aba09b92ea7ea0ad518c3968272d0ae58ee32b24a1e6f4f84dde70",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "7955eb1b84aba09b92ea7ea0ad518c3968272d0ae58ee32b24a1e6f4f84dde70"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Rosser_p17_table_1_2.png",
       "bytes": 303880,
-      "sha256": "d8b076e61b2cd11ecc4bde013b3554e998e10d58675be580383d8fdb2194528d",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "d8b076e61b2cd11ecc4bde013b3554e998e10d58675be580383d8fdb2194528d"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Rosser_p18_Lorenz_curves.png",
       "bytes": 293578,
-      "sha256": "72aad1ee971fab555a34d57ad9eaec0c3209933a980538bc7075ee962a4b701e",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "72aad1ee971fab555a34d57ad9eaec0c3209933a980538bc7075ee962a4b701e"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p27_ownership_allocation.png",
       "bytes": 457492,
-      "sha256": "d8bda424bd3ddc5ce6156ec4c628bca82b0688aeaba74eed4d19f84e227f8c96",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "d8bda424bd3ddc5ce6156ec4c628bca82b0688aeaba74eed4d19f84e227f8c96"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p34_narrow_corridor.png",
       "bytes": 532613,
-      "sha256": "3d10efcdd0733682568f77228804fccfec91e4bde061604cedf312a487ae2f19",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "3d10efcdd0733682568f77228804fccfec91e4bde061604cedf312a487ae2f19"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p40_austria_czechoslovakia_gdp.png",
       "bytes": 480336,
-      "sha256": "6580e8b47e832660d7bf9b9fc556b43124a9d62a9d2e2e16e1feb1222c77532c",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "6580e8b47e832660d7bf9b9fc556b43124a9d62a9d2e2e16e1feb1222c77532c"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p41_gdr_growth_comparison.png",
       "bytes": 340637,
-      "sha256": "a61e8df151a65d0c5f99e13a34d02679750d93c54b299c80325aaf85f4acb447",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "a61e8df151a65d0c5f99e13a34d02679750d93c54b299c80325aaf85f4acb447"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p44_institutional_feedback.png",
       "bytes": 488913,
-      "sha256": "86e024baf86955fbfed3c433009ca998bda1773156192fbac52702f870112694",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "86e024baf86955fbfed3c433009ca998bda1773156192fbac52702f870112694"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_lecture_p52_collective_punishment_article.png",
       "bytes": 1000119,
-      "sha256": "ea4585394bd976b2664b327b734dda8d419832556bcaddda2a9a9e49aaeaa410",
-      "change": "reused; unchanged prior coverage"
+      "sha256": "ea4585394bd976b2664b327b734dda8d419832556bcaddda2a9a9e49aaeaa410"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Abadie_Backdating.png",
+      "bytes": 290814,
+      "sha256": "26c8bd61856f5d6b55a450a8b38281ccebe1377e14046a531a9d29b047e6f5a9"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Abadie_Balance_Weights.png",
+      "bytes": 260262,
+      "sha256": "fe5f65889fa94f1ce2f04ae8480a0b2e12fa720aaa7170646ac013a86d730992"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Abadie_Convex_Hull.png",
+      "bytes": 269789,
+      "sha256": "52fcf6a5bf74e6a3027077d5fdfdaed084b9e66ce627f7e65a9d3cc82bb3dbb1"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Abadie_German_Fit.png",
+      "bytes": 337529,
+      "sha256": "f2857c99aac601d91aa2a782d9cc27de5ee09b9340f3cc75d8d42521a65e3f6e"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Abadie_Leave_One_Out.png",
+      "bytes": 292643,
+      "sha256": "0a284cc6b729003f855f30266a246ca8a51f34890ba96092c06fc73f371d9c56"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Data_Availability.png",
+      "bytes": 308635,
+      "sha256": "e0ddf67b07ea40e55737516e9f5755dc59a7a89c42bb644f64cbb42bb34868c9"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Power_Feedback.png",
+      "bytes": 415889,
+      "sha256": "d3b730d3b62d82245e96ce4994c818981042bbdbdbd2144e42fa3e7cb1a45e1c"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Provincial_GDP.png",
+      "bytes": 621336,
+      "sha256": "20341108efd8fddce66d494ed946c5930173cb33e784ee06a852c9aeeabcfa4c"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Russia_Appendix_Fit.png",
+      "bytes": 139556,
+      "sha256": "03a0872a08e5d09eeebecaf9e675e6b7089697481144a541c6460432234d2ca4"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Russia_Donor_Weights.png",
+      "bytes": 245211,
+      "sha256": "4b3fadbb463dd309f226c19000306cf8e6435c03539659718b107f252a3b5c23"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Russia_HCW_Weights.png",
+      "bytes": 205700,
+      "sha256": "6a2f01ac673877eb329aceee7643747bade7bd5eff96d13820b852d183421240"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Russia_Main_Scenarios.png",
+      "bytes": 239708,
+      "sha256": "7d996b83e0b6f5e01293f8effb6c289d8da5794f94f263e2ea0a20fd95bb38c6"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Russia_Method_Comparison.png",
+      "bytes": 243832,
+      "sha256": "05e14ba90a33009185f2b74d1b60336732aa12376a92606890935125457731e6"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Russia_Placebos_War_Balance.png",
+      "bytes": 326962,
+      "sha256": "390be2ec3ec22f7c1383115beffc643227ac3f9545300f682e7b480dacc067b3"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Russia_Scenario_Range.png",
+      "bytes": 257153,
+      "sha256": "1dc9e0f368d120f5c3600f704db3b424fcb29ae2b9797df0887ae60c5f9fd0a9"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_2_Youth_Unemployment.png",
+      "bytes": 471970,
+      "sha256": "b6e64b02d435f73b9b1c310f1f103f1cae233039c30860d1e2c5bbf88e78159e"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Aggregate_Supply.png",
+      "bytes": 187893,
+      "sha256": "0970a384ae36856503baf7fc59a9e8793a89c5d32d31af680f441ecd19faf733"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Competitive_Equilibrium.png",
+      "bytes": 162729,
+      "sha256": "e928ca5edd4afb52ea2d976b4a8628c0e70b0b9b0a2830666ea57ba7d3bfe003"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Concentration_Table.png",
+      "bytes": 281950,
+      "sha256": "1103d6d5b81c34ad574f4f41509091c00b870d47a985787072223c095ace8312"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Cycle_Declines.png",
+      "bytes": 254792,
+      "sha256": "6fa1a9b8fa851221b5d8abe12359af708f50acd53b314aa82a3c9f880b216a1c"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Empirical_Corridor.png",
+      "bytes": 555590,
+      "sha256": "ef041a609fd22b36bd9703b45f95dd38a87834774537711316aa3b00d567c974"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_External_Cost.png",
+      "bytes": 179263,
+      "sha256": "9ea18a19d883e8986dce82cf3a350b6d0609c64f448ca28ce43ba4afbb3543b7"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Incense_Routes.png",
+      "bytes": 214238,
+      "sha256": "f18329bd5668728f60178fbfad1beaf7214ec4d03d788403da0b72fa984a6afa"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Medieval_Trade.png",
+      "bytes": 949539,
+      "sha256": "c93f7e39735ece83ae11054ee79e65bb9d93a8965158a798f4815f5ab16f536d"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Monopoly.png",
+      "bytes": 201981,
+      "sha256": "e0af2252dea4dde456ebf2e84559e1bb5bb7f10cf91f2e83e6a03f09e036f1e4"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Narrow_Corridor.png",
+      "bytes": 389615,
+      "sha256": "26f542e7e353ee046b47cf4fde416f46b8c42b292704ccf2924d312acc52d54b"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Offset_Trading.png",
+      "bytes": 352953,
+      "sha256": "25613743600275b359c3dfe04346940319060304d41273999fc80652f0af316f"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Olson_Migration_Model.png",
+      "bytes": 242829,
+      "sha256": "cd4c1280949b896124c6972eeef91befcbdf20d04e5365490bce3eb13b52c832"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_PPF.png",
+      "bytes": 227882,
+      "sha256": "95f41c3924265c00052914279e0611f967fee07868fec8f65d3260500856f78c"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Pollution_Table.png",
+      "bytes": 246865,
+      "sha256": "bfb4276c2ae1750eaf8cd8a90f33c4b3372ecd071147b7cc9a6d87431b8fab1c"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Strike_Days.png",
+      "bytes": 236221,
+      "sha256": "ff60dc4ac2d650d23c53d09eaaee5ede4ed39e73a5cdccf835b42cc5b983a328"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Trobriand_Map.png",
+      "bytes": 544203,
+      "sha256": "9ad0e2ea08857fc55fee0acb74da90f74ff2f185ec2bcc1f4a6fe72ff391424d"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Unemployment_Table.png",
+      "bytes": 289506,
+      "sha256": "76f4796fe192c446132e2f37962e26839c84deb25890c002617d0b74e078a9f6"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_3_Union_Membership.png",
+      "bytes": 276671,
+      "sha256": "2be802736205d76aa4465eae08770a9e168a60101daf0a99c6d250a7284e8f85"
     }
   ],
   "prior_passes": [
+    "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md",
     "03_Agents/runtime/ingest/logs/20261003T142217+0200_behavioral_week1.md"
   ],
   "prior_plan_paths": [],
   "independent_checkers": [
-    "/root/factcheck_introductions"
+    "/root/ingest_owner/ce_source_check"
   ]
 }

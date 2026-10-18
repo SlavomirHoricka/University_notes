@@ -1,0 +1,209 @@
+# Discriminate cooperation and coordination through best responses
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+  "transaction_id": "PLAN-20261004-Comparative-P001",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O005",
+  "objective_revision": 1,
+  "criterion_version": "O005-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "procedural",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O003"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md",
+      "heading": "4. Cooperation: individual incentives defeat a shared gain"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md",
+      "heading": "5. Coordination: which shared pattern will people choose?"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_scope_independent"
+    ],
+    "required_components": [
+      "C1 best responses and equilibrium",
+      "C2 cooperation versus coordination",
+      "C3 governance and qualified application"
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true,
+    "required_components": [
+      "C1 best responses and equilibrium",
+      "C2 cooperation versus coordination",
+      "C3 governance and qualified application"
+    ]
+  },
+  "review_topic": "Discriminate cooperation and coordination through best responses",
+  "review_instruction": "Begin a closed-note review with teach for O005; request a fresh prepared delayed item before recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Given two fully stated two-player payoff tables, use the correct preference direction to identify best responses, dominant strategies and pure Nash equilibria; distinguish cooperation from coordination and explain a supported collective remedy with a distributional or credibility limit.
+
+Essential criterion components are **C1 best responses and equilibrium, C2 cooperation versus coordination, C3 governance and qualified application**. Primary finished-note locations: [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#4. Cooperation: individual incentives defeat a shared gain]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Institutions_and_Economic_Development.md#5. Coordination: which shared pattern will people choose?]].
+
+Instruction and supported practice may use the selected notes. Independent checks are closed-note: show the stated prompt and its supplied data only, with no explanation, model answer, hints, web search, other people, AI help, or solution-bearing figure access before the response. A simple calculator is allowed for arithmetic after the learner states the reasoning; no symbolic or generative tools. If notes, item keys, or matching solutions were accessed, record the exposure and do not call that attempt independent. No timing or confidence threshold replaces a complete answer. Only pure-action equilibria are in assessed scope. No unsupported mixed-strategy probability or risk-dominance derivation is required. Hypothetical payoffs are explicit instantiations, not estimates of real climate or protest incentives.
+
+## Prerequisites and checks
+
+O003 explains norms/enforcement as potential institutional mechanisms. O005-P1 / 1: “A local rule is written but no violation can be detected and no reputation information circulates. Is enforcement automatic?” Key no; formal/informal constraints need credible monitoring/sanctions, not text alone. Pass requires mechanism; partial lacks reason; fail says law suffices. Repair O003 remedies/W1. Payoff diagnostic O005-P2 / 1: “For years in prison, is 0 or 2 preferred? For output utility units, is 3 or4 preferred?” Key0 years,4 utility. Pass both with preference direction; partial one; fail reversed. Repair this lesson’s definitions and worked row. No prior game-theory course is required.
+
+For every P diagnostic, ask before exposing its key. Pass requires all explicitly requested distinctions and their reasons; partial means a correct part with an omission or local arithmetic slip; fail means the essential prerequisite mechanism is contradicted. Unknown help or no answer is unscorable. Diagnostics are brief route selection only and never acquisition evidence. Apply the named repair once, then instruction rather than repeat-testing.
+
+## Teaching order and rationale
+
+1. Use [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O005.md#Motivation, intuition, and definitions]] to pose the concrete problem and define the terms.
+2. Follow [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O005.md#Explanation steps]] in order: establish the decision or claim, compare alternatives, then interpret its limits. Each next step relies on the preceding distinction.
+3. Present [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O005.md#Worked example]] with its decision points before requesting a new full answer.
+4. Use [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O005.md#Practice with fading assistance]] for the completion task; give at most the two prepared hints. A complete response with stated reasons permits withdrawing support.
+5. Ask I1, score the original response, provide the prepared feedback if needed, then ask I2 fresh and closed-note. Use only the permitted substitutions below after correction.
+6. After acquisition, close without claiming durable retention. At a qualifying later review, ask D1 or D2 before recap; retain the second as an alternate.
+
+A learner with adequate committed current-criterion prerequisite evidence may skip the prerequisite diagnostic. A successful entry diagnostic may skip the worked/support route, but acquisition still requires two fresh full-scope independent checks. A failed diagnostic returns to its named prepared repair and instruction; it never triggers repeated pretests.
+
+## Motivation, intuition, and definitions
+
+A best response is the action with the preferred personal payoff given the other action. A dominant action is best regardless of the other’s action. Nash equilibrium means no player gains by switching alone. Smaller prison terms are better; larger output/utility numbers are better, and cells are A,B. In cooperation/PD, each can free ride even when mutual cooperation benefits both. Coordination means the best action depends on expectations about others; multiple consistent patterns can be equilibria and welfare can differ. Driving-side conventions exemplify coordination, not a PD. Pure-action comparisons suffice; mixed equilibria, probabilities and risk-dominance calculations are not taught in the notes and are excluded.
+
+## Explanation steps
+
+1. Hold B’s choice fixed, compare A’s payoffs in that column, then hold A fixed and compare B’s row payoffs. Never compare sums to infer an individual best response.
+2. In the note PD: if B silent A prefers0 years to.5; if B confesses A prefers2 to10. Symmetry gives both confession dominant and (confess,confess) Nash, although both prefer.5 years each. Mutual silence is not stable against a lone defection.
+3. In the note stag hunt, against stag A prefers4 to3; against hare A prefers3 to0, similarly B. Both stag and both hare are equilibria; stag4 each exceeds hare3, but a lone stag hunter gets0. There is no dominant stag or hare action; uncertainty can favor safe hare without making it uniquely inevitable.
+4. Map only supported assumptions to applications: public goods/commons can create contribution/use externalities, but a large country can benefit enough from its own emission cuts that inaction is not always dominant. A threshold protest can make joining worthwhile when an individual is pivotal and benefit exceeds participation cost. Free riding is a difficulty, not a proof of zero turnout.
+5. Organizations, participation/elections, local user rules/monitoring/conflict resolution/sanctions can sustain cooperation. Enclosure can protect resources while harming previous users. Local Ostrom-style governance needs trust/participation and is not universally successful. Standards, conventions/focal points or joint infrastructure/private-investment efforts can coordinate expectations, but switching costs/cultural variation/credibility remain. Do not infer welfare from equilibrium alone.
+
+## Worked example
+
+### O005-W1
+
+**Item/version:** `O005-W1` / 1. **Role:** worked example. **Components:** C1 best responses and equilibrium, C2 cooperation versus coordination, C3 governance and qualified application.
+
+**Prompt:** Use the note’s PD: silence/silence .5,.5 years; silence/confess10,0; confess/silence0,10; confess/confess2,2. Stag table: stag/stag4,4; stag/hare0,3; hare/stag3,0; hare/hare3,3. Find best responses/equilibria, distinguish mechanisms and map one remedy plus qualified protest or climate application.
+
+**Prepared key and essential reasoning:** Minimize prison time: confession dominates for both and mutual confession is sole pure Nash, despite mutual silence being better for both. Maximize stag payoffs: best response to stag is stag, to hare hare; both mutual stag and mutual hare are Nash, no dominant action, higher welfare at stag. Cooperation involves defection incentives; coordination involves conditional responses/common expectations. Credible local monitoring/sanctions can support a commons, with trust/distributional limits; conventions/standards can select coordination, with switch/cultural limits. Pivotal protest participant may join when benefit exceeds cost, and large emitters may benefit from own cuts: no universal inaction claim.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Practice with fading assistance
+
+### O005-S1
+
+**Item/version:** `O005-S1` / 1. **Role:** supported completion. **Components:** C1 best responses and equilibrium, C2 cooperation versus coordination, C3 governance and qualified application.
+
+**Prompt:** Completion, hypothetical utility games (higher better): game P, C/C3,3; C/D0,4; D/C4,0; D/D1,1. Game S, J/J5,5; J/L0,3; L/J3,0; L/L3,3. Fill both players’ best responses, pure equilibria, dominant strategies and welfare comparison; choose remedy+limit and explain pivotal turnout.
+
+**Prepared key and essential reasoning:** P: against C chooseD4>3, againstD chooseD1>0, symmetrically; D dominant, D/D sole pure Nash, C/C jointly better. S: againstJ chooseJ5>3, againstL chooseL3>0, symmetrically; J/J andL/L Nash, neither dominant, J/J Pareto-better. Credible collective rules/monitoring for P with enforcement/trust or distributional limit; shared standard/expectations for S with switching/cultural limit. Turnout can be rational if a known pivotal person’s benefit exceeds cost, so staying home not always dominant.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. Notes allowed. Hint 1: Fix one opponent action and compare your own two entries. Hint 2: Repeat for the other player; distinguish no-lone-deviation from best joint outcome. Then show the worked step if still stuck; this response cannot establish independence.
+
+### O005-I1
+
+**Item/version:** `O005-I1` / 1. **Role:** full_scope_independent (immediate). **Components:** C1 best responses and equilibrium, C2 cooperation versus coordination, C3 governance and qualified application.
+
+**Prompt:** Hypothetical utility games, higher better: P C/C4,4; C/D0,6; D/C6,0; D/D2,2. S J/J6,6; J/L0,4; L/J4,0; L/L4,4. Show each player’s conditional best responses, dominance and all pure Nash; compare joint outcomes and cooperation/coordination. Propose one supported remedy for each with a limit; qualify “staying home is always dominant” in a threshold protest.
+
+**Prepared key and essential reasoning:** P: A and B chooseD againstC(6>4) andD(2>0); D dominant, D/D unique pure Nash, C/C4 each preferable to2. S: chooseJ againstJ6>4, L againstL4>0; J/J andL/L pure Nash, no dominant action, J/J better for both. PD cooperation/defection versus coordination/conditional expectations. P credible organization/local monitoring/sanctions with trust/enforcement or exclusion cost; S shared standard/convention/focal point or joint investment with switching/cultural/credibility limit. Pivotal participant whose benefit exceeds cost can prefer joining, so not universal abstention.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+### O005-I2
+
+**Item/version:** `O005-I2` / 1. **Role:** full_scope_independent (immediate). **Components:** C1 best responses and equilibrium, C2 cooperation versus coordination, C3 governance and qualified application.
+
+**Prompt:** Hypothetical prison-term game, smaller better: quiet/quiet1,1; quiet/report8,0; report/quiet0,8; report/report3,3 years. Output game, larger better: invest/invest8,8; invest/wait0,5; wait/invest5,0; wait/wait5,5. Derive both players’ best responses, dominant actions/pure equilibria and welfare comparisons; distinguish problems and offer remedy+limit for each. Qualify inaction in climate or pivotal protest.
+
+**Prepared key and essential reasoning:** Prison: report dominates(0<1;3<8), report/report sole pure Nash, quiet/quiet jointly better(1<3). Output: invest against invest(8>5), wait against wait(5>0), same for both; invest/invest andwait/wait Nash, no dominance, invest/invest better. Cooperation versus coordination. Credible organization/enforcement with trust/distribution limits; coordinated infrastructure/private investment or standard with credibility/switching limits. Large emitter’s own benefit can make cutting preferable; alternatively known pivotal protest benefit>cost supports joining. No universal inactivity prediction.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Rubric and independence
+
+The prepared keys operationalize each component; all are essential. Pass requires an explicit mechanism and justified application plus every specified limit. Partial applies to an incomplete argument or isolated arithmetic transcription error with otherwise correct setup; teach gives feedback and obtains a fresh check. An arithmetic slip is not itself proof of conceptual failure, but a numerically wrong result does not count as a complete pass. Fail applies to any critical conceptual error identified below. Unscorable applies to missing response or ambiguous/unknown help conditions; do not infer acquisition.
+
+**Full role coverage:** I1, I2, D1, and D2 each test all components C1 best responses and equilibrium, C2 cooperation versus coordination, C3 governance and qualified application. Normal acquisition is two distinct passes on I1 and I2, same revision/criterion and known unassisted conditions. Permitted repair/entry substitution: use a previously unseen D1 or D2 as a `full_scope_independent` check; record that immediate use explicitly and do not count it as delayed retention. Only combinations of two different unexposed I/D items are permitted. Supported, worked, diagnostic, and C items do not fill this role. Correction items are deliberately narrower and cannot substitute for acquisition or delayed checks. If both delayed variants are consumed during repair, request new prepared delayed items from plan before claiming delayed readiness.
+
+Each delayed pass independently requires the same entire criterion after at least 24 elapsed hours from the last instruction/solution exposure for this objective, with current tuple, fresh item and known intervening exposure. The 24-hour guard is an operational minimum; recall owns dates. A previously seen question can be used for practice only.
+
+## Misconceptions and correction
+
+**Observable sign:** Learner selects jointly best cell as unique equilibrium without checking unilateral deviations. A single response supports a tentative diagnosis; it becomes established only with corroborating reasoning, never from hesitation alone. **Corrective explanation:** Equilibrium tests individual changes holding the other fixed; collective welfare is a separate comparison. **Hint 1:** Name the distinction being tested. **Hint 2:** Compare the alternatives using the supplied definitions; after two ineffective hints show the relevant worked step.
+
+### O005-C1
+
+**Item/version:** `O005-C1` / 1. **Role:** fresh correction; practice only. **Components:** C1 best responses and equilibrium, C2 cooperation versus coordination.
+
+**Prompt:** Fresh correction: higher better table X/X5,5; X/Y0,3; Y/X3,0; Y/Y3,3. Is Y/Y equilibrium despite lower joint payoff?
+
+**Prepared key and essential reasoning:** Yes: unilateralX againstY yields0<3. X/X also equilibrium5>3; no dominant action.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+**Observable sign:** Learner claims zero protest turnout must follow or local governance is universally effective. A single response supports a tentative diagnosis; it becomes established only with corroborating reasoning, never from hesitation alone. **Corrective explanation:** A pivotal actor’s own choice can change success; governance requires monitoring, credible sanctions and trust, and can affect distribution. **Hint 1:** Name the distinction being tested. **Hint 2:** Compare the alternatives using the supplied definitions; after two ineffective hints show the relevant worked step.
+
+### O005-C2
+
+**Item/version:** `O005-C2` / 1. **Role:** fresh correction; practice only. **Components:** C3 governance and qualified application.
+
+**Prompt:** Fresh correction: exactly one more protester is needed; that person values success10 and attendance costs2. Is abstaining necessarily best, and does an association guarantee success?
+
+**Prepared key and essential reasoning:** Joining yields net8 relative to failed protest baseline0 in the specified illustration, so abstention not necessarily best. Organization can help but needs credible participation/enforcement and cannot guarantee success.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Immediate and delayed checks
+
+I1/I2 above are separate immediate forms. Ask delayed forms before showing any recap, explanation or solution. The D forms are parallel or near-transfer applications of the stated mechanism; different contexts/numbers do not prove broad transfer or whole-course mastery. Record item version, help, elapsed time, and intervening exposure.
+
+### O005-D1
+
+**Item/version:** `O005-D1` / 1. **Role:** full_scope_independent (delayed variant). **Components:** C1 best responses and equilibrium, C2 cooperation versus coordination, C3 governance and qualified application.
+
+**Prompt:** Hypothetical contribution utility table (higher better): contribute/contribute5,5; contribute/free ride0,7; free ride/contribute7,0; free ride/free ride2,2. Standard-adoption table: new/new7,7; new/old0,4; old/new4,0; old/old4,4. Give both best-response comparisons, dominance/all pure equilibria, joint welfare and mechanism difference; remedies with limits and the pivotal-participation caveat.
+
+**Prepared key and essential reasoning:** Contribution: free ride against contribute7>5 and against free ride2>0 for both; dominant free ride, mutual free ride unique pure Nash, mutual contribution better. Standard: new against new7>4, old against old4>0; new/new andold/old equilibria, no dominant action, new/new better. Cooperation versus coordination; credible local sanctions/organization conditional on trust/enforcement and possible access losses, versus shared standards/expectations conditional on switching/credibility. If pivotal and benefit>cost, participation can be individually best; abstention is not always dominant.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+### O005-D2
+
+**Item/version:** `O005-D2` / 1. **Role:** full_scope_independent (delayed variant). **Components:** C1 best responses and equilibrium, C2 cooperation versus coordination, C3 governance and qualified application.
+
+**Prompt:** Hypothetical cost table (smaller better): restraint/restraint2,2; restraint/overuse9,1; overuse/restraint1,9; overuse/overuse4,4. Shared-platform utility (higher better): join/join9,9; join/stay0,6; stay/join6,0; stay/stay6,6. Derive both conditional responses, dominance/all pure Nash and welfare differences. Name problems, supported remedies+limits, and why simple climate free-riding does not always predict inaction.
+
+**Prepared key and essential reasoning:** Cost: overuse1<2 against restraint and4<9 against overuse for both; dominant overuse, overuse/overuse sole pure Nash, restraint/restraint lower costs. Platform: join9>6 against join; stay6>0 against stay; both join andboth stay pure Nash, no dominant action, join/join higher welfare. Commons cooperation and platform coordination; rules/local monitoring with enforcement/trust/access distribution limit, common standard/convention with switch/expectation limits. Large emitter can receive sufficient own-cut benefits, so inaction need not be dominant; model payoffs must justify application.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Advance, revisit, pause, and escalate
+
+Advance only after two distinct qualifying full-scope independent passes at O005 revision 1 / O005-C1. Delayed success is separate and cannot be inferred from acquisition. If a prerequisite fails, execute its one prepared repair route and return to instruction. If the supported answer remains incomplete after two hints, show the missing step and stop treating it as a check. After two unsuccessful fresh independent attempts in one session, pause assessment, revisit the worked explanation, and arrange a fresh prepared attempt; do not drill exposed questions until they appear fluent. Close an interrupted session without acquisition claims.
+
+If the notes conflict, ingestion state becomes blocked/stale, or a cited source claim cannot support a key, stop the affected block and route a `note_issue` to ingest with course 2026_2027/Winter_Semester/Comparative_Economics, note/heading, ingestion revision 1 and exact conflicting claim. If a learner offers a plausible answer outside prepared criteria, a key is ambiguous, or fresh variants are exhausted, route `plan_issue` to plan with O005, revision 1, O005-C1, P001/V001, item ID/version and exact missing decision. Continue unaffected objectives only if their prerequisites are satisfied. Teach owns actual evidence; this file supplies no learner outcome.
+
+## Answer-free recall handoff
+
+**Topic:** Discriminate cooperation and coordination through best responses. **Start:** Begin a closed-note review with teach for O005 using [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O005.md#Immediate and delayed checks]]; request a fresh prepared delayed item before recap. Teach sends only actual committed evidence IDs and exposure context. Recall determines the date and task synchronization; no due date is defined here.
