@@ -4,7 +4,7 @@ from tempfile import TemporaryDirectory
 import importlib.util
 import unittest
 
-spec=importlib.util.spec_from_file_location('check_vault',Path(__file__).resolve().parents[1]/'check_vault.py')
+spec=importlib.util.spec_from_file_location('check_vault',Path(__file__).resolve().parent/'check_vault.py')
 m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 
 class VaultTests(unittest.TestCase):

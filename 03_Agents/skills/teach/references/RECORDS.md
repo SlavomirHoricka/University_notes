@@ -76,7 +76,7 @@ Correction of mistaken scoring appends `correction` with `supersedes_event_id`, 
 
 #### Pre-prompt contract and field requirements
 
-Follow `03_Agents/references/LESSON_CONTENT.md`. New teach-generated items use existing schema-3 `attempt_started`/`attempt_result` events, not curriculum files.
+Follow `03_Agents/docs/LESSON_CONTENT.md`. New teach-generated items use existing schema-3 `attempt_started`/`attempt_result` events, not curriculum files.
 
 | Field group | Existing requirement |
 |---|---|

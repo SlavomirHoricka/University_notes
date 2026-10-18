@@ -19,7 +19,7 @@ AGENTS = Path(__file__).resolve().parents[1]
 class RoutingContractTests(unittest.TestCase):
     @unittest.skipIf(tomllib is None, 'TOML validation requires Python 3.11+; use the bundled Python runtime')
     def test_role_contracts_and_escalation_are_discoverable(self):
-        policy=(AGENTS/'references/MODEL_ROUTING.md').read_text()
+        policy=(AGENTS/'docs/MODEL_ROUTING.md').read_text()
         expected={
           'uni_ingest_owner':('gpt-6.1-sol','high',False),
           'uni_ingest_draft':('gpt-6-luna','medium',True),
@@ -48,7 +48,7 @@ class RoutingContractTests(unittest.TestCase):
                 self.assertEqual(source.read_bytes(),(AGENTS.parent/'.codex/agents'/source.name).read_bytes())
                 self.assertEqual(source.read_bytes(),(AGENTS/'plugins/uni-teach/agents'/source.name).read_bytes())
         for skill in ('ingest','plan','teach','recall'):
-            text=(AGENTS/skill/'SKILL.md').read_text()
+            text=(AGENTS/'skills'/skill/'SKILL.md').read_text()
             # Self-contained skills embed routing; they must preserve owner/helper dispatch guards.
             self.assertIn('delegated_owner: <profile>',text)
             self.assertIn('helper_role',text)
@@ -60,9 +60,10 @@ class RoutingContractTests(unittest.TestCase):
         package.mkdir(parents=True)
         (package/'plugin.json').write_text(json.dumps({'name':'uni-teach','version':'0.4.0','description':'test','author':{},'extensions':{'com.openai':{'interface':{}}}}))
         for name in ('ingest','plan','teach','recall'):
-            (agents/name).mkdir(); (agents/name/'SKILL.md').write_text('fixture '+name)
-        (agents/'references').mkdir(); (agents/'references/PLUGIN_README.md').write_text('fixture')
-        (agents/'LEARNING_ARCHITECTURE.md').write_text('fixture')
+            (agents/'skills'/name).mkdir(parents=True); (agents/'skills'/name/'SKILL.md').write_text('fixture '+name)
+        (agents/'docs').mkdir()
+        for name in ('PLUGIN_README.md','LEARNING_ARCHITECTURE.md','LEARNING_METHODS.md','LESSON_CONTENT.md','MODEL_ROUTING.md'):
+            (agents/'docs'/name).write_text('fixture')
         (agents/'scripts').mkdir(); (agents/'agents').mkdir()
         (agents/'agents/uni_fixture.toml').write_text('name = "uni_fixture"')
         shutil.copy(AGENTS/'scripts/sync_plugin.py',agents/'scripts/sync_plugin.py')
@@ -91,7 +92,7 @@ class RoutingContractTests(unittest.TestCase):
             with contextlib.redirect_stdout(io.StringIO()):mod.run()
             old={name:(mod.PACKAGE/'skills'/name/'SKILL.md').read_bytes()
                  for name in ('ingest','plan','teach','recall')}
-            skill=mod.AGENTS/'html-course';(skill/'assets').mkdir(parents=True)
+            skill=mod.AGENTS/'skills/html-course';(skill/'assets').mkdir(parents=True)
             (skill/'SKILL.md').write_text('new optional skill')
             (skill/'assets/runtime.js').write_text('offline renderer')
             manifest=mod.PACKAGE/'plugin.json';value=json.loads(manifest.read_text());value['version']='0.5.0'
@@ -143,7 +144,7 @@ class RoutingContractTests(unittest.TestCase):
             archive=mod.AGENTS/'plugins/uni-teach-0.4.0.zip';old=archive.read_bytes()
             with contextlib.redirect_stdout(io.StringIO()):mod.run()
             self.assertEqual(archive.read_bytes(),old)
-            source=mod.AGENTS/'ingest/SKILL.md';source.write_text('changed source')
+            source=mod.AGENTS/'skills/ingest/SKILL.md';source.write_text('changed source')
             dest=mod.PACKAGE/'skills/ingest/SKILL.md';before=dest.read_bytes()
             with self.assertRaisesRegex(ValueError,'new package version'):mod.run()
             self.assertEqual(archive.read_bytes(),old);self.assertEqual(dest.read_bytes(),before)
@@ -158,7 +159,7 @@ class RoutingContractTests(unittest.TestCase):
             mod=self.fixture(Path(tmp))
             with contextlib.redirect_stdout(io.StringIO()):mod.run()
             dest=mod.PACKAGE/'skills/ingest/SKILL.md';before=dest.read_bytes()
-            (mod.AGENTS/'ingest/SKILL.md').write_text('changed')
+            (mod.AGENTS/'skills/ingest/SKILL.md').write_text('changed')
             (mod.PACKAGE/'skills/ingest/stale.md').write_text('stale')
             with self.assertRaisesRegex(ValueError,'unexpected generated file'):mod.run(source_only=True)
             self.assertEqual(dest.read_bytes(),before)

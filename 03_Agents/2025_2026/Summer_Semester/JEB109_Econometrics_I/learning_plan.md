@@ -1,6 +1,6 @@
 # Learning plan — JEB109 Econometrics I
 
-[Teach skill](../../../teach/SKILL.md) · [Record protocol](../../../teach/references/RECORDS.md)
+[Teach skill](../../../skills/teach/SKILL.md) · [Record protocol](../../../skills/teach/references/RECORDS.md)
 
 ```json
 {

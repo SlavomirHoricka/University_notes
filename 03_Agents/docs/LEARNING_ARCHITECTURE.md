@@ -27,7 +27,7 @@
 
 ## 1. Authority and overview
 
-Canonical master overview, inspected 2026-10-17. This document owns cross-skill boundaries and storage; the maintained skill bodies own execution details. Historical reviews describe earlier designs, never current instructions.
+Canonical master overview, navigation and five-skill component map updated 2026-10-18. This document owns cross-skill boundaries and storage; the maintained skill bodies own execution details. Historical reviews describe earlier designs, never current instructions.
 
 Primary vault: `/Users/slavomirhoricka/Desktop/University_notes`. For an isolated task, its actual selected checkout is the vault root, as required by root `AGENTS.md`. All maintained skill bodies resolve workflow paths against that selected checkout. Older historical records may retain `/Users/slavomirhoricka/Desktop/Obsidian/Uni` as provenance; it is not a current write destination. The scoped path and Week2 recovery is recorded in [[03_Agents/runtime/sessions/2026-10-09-uni-paths-week2-recovery]].
 
@@ -35,7 +35,7 @@ Private release and host activation are distinguished in [[03_Agents/plugins/uni
 
 ### Authority and current component map
 
-University Assistant is the private plugin with identity `uni-teach`. Inspection of the maintained folders, packaging utility and generated plugin manifest establishes **four core workflow skills**: [[03_Agents/ingest/SKILL|ingest]], [[03_Agents/plan/SKILL|plan]], [[03_Agents/teach/SKILL|teach]] and [[03_Agents/recall/SKILL|recall]]. The fifth public skill, [[03_Agents/html-course/SKILL|html-course]], is an optional read-only curriculum consumer and offline export owner. Templates, references, scripts, legacy template redirects and validation examples are supporting components, not additional skills.
+University Assistant is the private plugin with identity `uni-teach`. Inspection of the maintained folders, packaging utility and generated plugin manifest establishes **four core workflow skills**: [[03_Agents/skills/ingest/SKILL|ingest]], [[03_Agents/skills/plan/SKILL|plan]], [[03_Agents/skills/teach/SKILL|teach]] and [[03_Agents/skills/recall/SKILL|recall]]. The fifth user-facing skill, [[03_Agents/skills/html-course/SKILL|html-course]], is an optional read-only curriculum consumer and offline export owner. Templates, references, scripts, legacy template redirects and validation examples are supporting components, not additional skills.
 
 This file is the appropriate master location because it already defines shared ownership, handoffs, freshness and storage and is linked by [[03_Agents/README]] and the vault README. Keep this single canonical overview; generated copies do not become maintenance authority.
 
@@ -43,12 +43,13 @@ This file is the appropriate master location because it already defines shared o
 |---|---|
 | `00_Materials/<course_id>/` | User-owned original sources; ingest reads the authorized scope. |
 | `01_Notes/<course_id>/` | Ingest-owned finished explanations, hubs and source assets; the academic input to plan. |
-| `03_Agents/{ingest,plan,teach,recall,html-course}/` | Sole maintained skill instructions, owned templates, references and utilities. |
+| `03_Agents/skills/{ingest,plan,teach,recall,html-course}/` | Sole maintained skill instructions, owned templates, references and utilities. |
 | `03_Agents/<course_id>/` | Separate ingestion, curriculum, evidence and scheduling records, with one owner per artifact. |
 | `03_Agents/runtime/ingest/` | Ingest-owned vault index and per-pass coverage/check records. |
 | `03_Agents/runtime/recall/` | Recall-owned verified Todoist project mappings and their transactions. |
 | `03_Agents/scripts/records.py` | Shared owner-enforcing locks, expected-byte checks, atomic replacements and recoverable journals. It does not grade or verify academic claims. |
-| `03_Agents/references/LEARNING_METHODS.md` | Methodology evidence and limitations; not course content or learner evidence. |
+| `03_Agents/docs/` | Shared architecture, naming, lesson-content, model-routing and methodology contracts; source of the plugin README. |
+| `03_Agents/docs/LEARNING_METHODS.md` | Methodology evidence and limitations; not course content or learner evidence. |
 | `03_Agents/scripts/sync_plugin.py`, `plugins/uni-teach/` | Packaging utility and generated distribution, including a copy of this architecture. Account release receipt and installed caches are separate deployment evidence. |
 | `03_Agents/runtime/sessions/`, `history/`, `validation/` | Engineering handoffs, preserved history and fictional rehearsals; never learner progress or course readiness. |
 | Todoist connector | External task service used only by recall; not a learning authority. No background watcher is configured by the skills. |
@@ -62,6 +63,7 @@ flowchart LR
   N --> P[plan: curriculum reasoning]
   P --> C[Versioned executable lesson blocks]
   C --> T[teach: execute and assess actual answers]
+  C -. explicit HTML request .-> H[html-course: offline export]
   T --> E[Committed learner evidence]
   E --> R[recall: schedule and synchronize]
   R --> D[Todoist review task]
@@ -74,7 +76,7 @@ flowchart LR
 
 ### Self-contained lessons and reuse
 
-The maintained `03_Agents/references/LESSON_CONTENT.md` contract defines the 2026-10-17 boundaries. Ingest keeps producing complete checked notes. Plan reuses their full relevant explanations, derivations, figures and examples inside self-contained lessons, orders them and designs the main exercises/solutions/criteria. It may add verified teaching explanations without editing notes.
+The maintained `03_Agents/docs/LESSON_CONTENT.md` contract defines the 2026-10-17 boundaries. Ingest keeps producing complete checked notes. Plan reuses their full relevant explanations, derivations, figures and examples inside self-contained lessons, orders them and designs the main exercises/solutions/criteria. It may add verified teaching explanations without editing notes.
 
 Teach delivers those lessons with adaptive pacing, questions/tangents, bounded prechecked generated items and valid alternative-method assessment under unchanged standards. New item contracts persist before prompts in the teach log; old definitions/evidence remain immutable. Completed ingestion triggers sequential plan reconciliation unless explicitly limited; existing curricula adopt the contract at their next substantive revision.
 
@@ -82,7 +84,7 @@ Independent curriculum review includes lesson additions and their cited authorit
 
 ### Model roles and execution
 
-[[03_Agents/references/MODEL_ROUTING|Model routing policy]] defines the seven role defaults, escalation, capability fallback, one-writer authority and interactive learner relay. Canonical custom-agent TOML files live in `03_Agents/agents/`; the synchronizer generates project `.codex/agents/` and packaged `agents/` copies. These internal roles keep the four core skills' existing routing; html-course adds no role profile. Host dispatch selects subagent models; a skill cannot change the running chat model or automatically install global configuration.
+[[03_Agents/docs/MODEL_ROUTING|Model routing policy]] defines the seven role defaults, escalation, capability fallback, one-writer authority and interactive learner relay. Canonical custom-agent TOML files live in `03_Agents/agents/`; the synchronizer generates project `.codex/agents/` and packaged `agents/` copies. These internal roles keep the four core skills' existing routing; html-course adds no role profile. Host dispatch selects subagent models; a skill cannot change the running chat model or automatically install global configuration.
 
 Ingest uses deterministic extraction, Sol scope/structure, bounded Luna drafts and Sol/Astra difficult reasoning, then owner integration and independent Astra review of full originals. Repairs receive renewed checking before publication. Plan prepares from finished notes and obtains an independent Astra curriculum review before readiness.
 
@@ -329,7 +331,7 @@ These courses have no learning logs or recall states in this snapshot. Legacy `2
 
 ### Methods and scheduling
 
-Plan embeds retrieval, feedback/correction, worked-example fading, prerequisites, discrimination/transfer and separate delayed checks in small blocks with keys/rubric reasons. Teach implements one question at a time and records assistance. Normally two distinct unaided immediate checks establish acquisition: operational default, not personalized mastery. Delayed performance is separate. See [[03_Agents/references/LEARNING_METHODS]] for evidence/limits; methodology does not authorize external curriculum.
+Plan embeds retrieval, feedback/correction, worked-example fading, prerequisites, discrimination/transfer and separate delayed checks in small blocks with keys/rubric reasons. Teach implements one question at a time and records assistance. Normally two distinct unaided immediate checks establish acquisition: operational default, not personalized mastery. Delayed performance is separate. See [[03_Agents/docs/LEARNING_METHODS]] for evidence/limits; methodology does not authorize external curriculum.
 
 Recall uses `uni-fixed-v1`: 1 day after qualifying acquisition, 6 after first delayed pass, then half-up-rounded previous interval ×2.5 with at least one-day growth. Failed/partial/assisted delayed assessment schedules a 1-day reassessment gate plus corrective teaching/reacquisition. Source/criterion changes follow plan gates. A committed scoring correction that invalidates support retains the outstanding due date under an evidence gate; it is not a newly observed lapse. Fresh qualifying evidence or an explicit recall-owned scheduling decision resolves that gate. No response preserves overdue date. Use actual response date converted to Europe/Prague and calendar-day arithmetic.
 
@@ -343,8 +345,8 @@ Recall runs explicitly or as same-session workflow after teach commits. Invoke r
 
 ### Source and generated packaging
 
-Canonical skills remain `03_Agents/{ingest,plan,teach,recall,html-course}/SKILL.md`, with their owned templates/references/utilities. Existing `~/.agents/skills/ingest` and `~/.agents/skills/teach` symlinks remain unchanged. Plan/recall/html-course are discovered through the plugin; additional registrations are unnecessary. See [[03_Agents/README]].
+Canonical skills remain `03_Agents/skills/{ingest,plan,teach,recall,html-course}/SKILL.md`, with their owned templates/references/utilities. Standalone registration names `~/.agents/skills/ingest` and `~/.agents/skills/teach` stay unchanged; after primary synchronization their targets must use `03_Agents/skills/<name>/`. See [[03_Agents/docs/README#Standalone registration migration|registration migration]]. Plan/recall/html-course are discovered through the plugin; additional registrations are unnecessary. See [[03_Agents/README]].
 
 `plugins/uni-teach/` is generated packaging. Assign an unused version for changed snapshot content, run `python3 03_Agents/scripts/sync_plugin.py`, then `--check` before release. Full checks require the versioned ZIP to exist and match every package entry; existing differing snapshots are never overwritten. For unreleased loose-copy work, explicitly use `--source-only` for generation and checking; this excludes the ZIP and does not establish release parity. It copies skills, shared references/scripts and architecture, excludes runtime/history/validation/bytecode, verifies manifests/default prompts, and writes `package_inventory.json`. Never edit installed versioned caches. `plugins/uni-teach-release.json` separates confirmed account release and inspected host cache status; publishing does not prove the current chat reloaded it.
 
-One owner per template: plan `plan/templates/learning_plan.md`, `plan/templates/source_manifest.md`, `plan/templates/objective_lesson.md`; teach `teach/templates/learning_log.md`; recall `recall/templates/recall_state.json`. Old teaching planning-template paths are compatibility redirects only. Course records remain `03_Agents/<course_id>/`; no speculative records in empty mirror folders.
+One owner per template: plan `skills/plan/templates/learning_plan.md`, `skills/plan/templates/source_manifest.md`, `skills/plan/templates/objective_lesson.md`; teach `skills/teach/templates/learning_log.md`; recall `skills/recall/templates/recall_state.json`. Old teaching planning-template paths are compatibility redirects only. Course records remain `03_Agents/<course_id>/`; no speculative records in empty mirror folders.

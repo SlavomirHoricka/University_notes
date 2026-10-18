@@ -36,7 +36,7 @@ Storage/ownership and handoffs are in `LEARNING_ARCHITECTURE.md`; methodology ev
 
 ## 5. Packaging and publication
 
-Canonical maintained skill folders remain in `03_Agents/ingest`, `plan`, `teach`, `recall`, `html-course`. Package copies and the current versioned ZIP are generated and verified by `03_Agents/scripts/sync_plugin.py`. Changed snapshots require an unused version; explicit `--source-only` operations exclude ZIP generation/checking and preserve snapshots; account releases update the existing private plugin ID through Plugin Creator with a guarded release ID. Never edit versioned installation caches as durable source. Installation grants no vault access and starts no background execution.
+All five canonical skill folders live under `03_Agents/skills/{ingest,plan,teach,recall,html-course}/`. Shared source documentation lives in `03_Agents/docs/`; packaged shared references remain under `references/`, and the architecture remains at the package root. Package copies and the current versioned ZIP are generated and verified by `03_Agents/scripts/sync_plugin.py`. Changed snapshots require an unused version; explicit `--source-only` operations exclude ZIP generation/checking and preserve snapshots; account releases update the existing private plugin ID through Plugin Creator with a guarded release ID. Never edit versioned installation caches as durable source. Installation grants no vault access and starts no background execution.
 
 Recall runs on explicit request or after a committed teach handoff when available. No additional push-notification system is required.
 

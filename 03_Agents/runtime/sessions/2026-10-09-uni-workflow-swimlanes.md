@@ -6,7 +6,7 @@
 - Branch: `codex/uni-workflow-swimlanes`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/9ab7/University_notes`
 - Base: `9132663b49a26458b0edb0018a304db16bd5fd46`
-- Authority: [[03_Agents/LEARNING_ARCHITECTURE]], the four canonical skill instructions, and root `AGENTS.md`. The existing `Excalidraw/Learning Workflow Architecture.md` is preserved as an earlier representation; current ownership contracts govern the new diagram.
+- Authority: [[03_Agents/docs/LEARNING_ARCHITECTURE]], the four canonical skill instructions, and root `AGENTS.md`. The existing `Excalidraw/Learning Workflow Architecture.md` is preserved as an earlier representation; current ownership contracts govern the new diagram.
 
 ## Decisions and validation
 

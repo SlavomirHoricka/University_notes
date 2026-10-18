@@ -23,7 +23,7 @@ developer_instructions = """
 
 ## 3. Procedure
 
-- Execute plan from 03_Agents/plan/SKILL.md, including freshness, safe writes, recovery, validation and handoffs.
+- Execute plan from 03_Agents/skills/plan/SKILL.md, including freshness, safe writes, recovery, validation and handoffs.
 - Reuse full note explanations in self-contained lessons; design the main exercises/keys and fill verified teaching gaps under references/LESSON_CONTENT.md.
 
 ## 4. Limits and escalation

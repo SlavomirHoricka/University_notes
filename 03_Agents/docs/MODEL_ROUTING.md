@@ -73,7 +73,7 @@ Use concrete task features and observed discrepancies for escalation, not a work
 
 #### 1. Resolve scope and role locations
 
-Resolve the actual checkout and skill scope under repository instructions before any workflow write. Read this policy from `03_Agents/references/MODEL_ROUTING.md` in that checkout; an installed plugin supplies an equivalent `references/MODEL_ROUTING.md`. Canonical role files are `03_Agents/agents/*.toml`; generated project copies are `.codex/agents/*.toml`, and packaged copies are `agents/*.toml`.
+Resolve the actual checkout and skill scope under repository instructions before any workflow write. Read this policy from `03_Agents/docs/MODEL_ROUTING.md` in that checkout; an installed plugin supplies an equivalent `references/MODEL_ROUTING.md`. Canonical role files are `03_Agents/agents/*.toml`; generated project copies are `.codex/agents/*.toml`, and packaged copies are `agents/*.toml`.
 
 #### 2. Dispatch once with the designated role
 

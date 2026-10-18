@@ -5,7 +5,7 @@ tags: [excalidraw, uni-assistant, workflow]
 
 Open this file in Obsidian's Excalidraw view to edit every lane, shape, label and connector.
 
-Baseline: [[03_Agents/LEARNING_ARCHITECTURE]], canonical ingest / plan / teach / recall skills, and [[AGENTS]]. This drawing describes the current contract; it does not change skill behavior or certify any course's readiness. Original drawings remain preserved.
+Baseline: [[03_Agents/docs/LEARNING_ARCHITECTURE]], canonical ingest / plan / teach / recall skills, and [[AGENTS]]. This drawing describes the current contract; it does not change skill behavior or certify any course's readiness. Original drawings remain preserved.
 
 # Excalidraw Data
 

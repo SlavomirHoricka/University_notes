@@ -23,7 +23,7 @@ developer_instructions = """
 
 ## 3. Procedure
 
-- Execute ingest from 03_Agents/ingest/SKILL.md, including freshness, safe writes, recovery, validation and handoffs.
+- Execute ingest from 03_Agents/skills/ingest/SKILL.md, including freshness, safe writes, recovery, validation and handoffs.
 
 ## 4. Limits and escalation
 
