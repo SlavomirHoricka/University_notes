@@ -1,7 +1,7 @@
 {
   "name": "uni-teach",
-  "version": "0.5.4",
-  "description": "Course-note ingestion, planning, tutoring, and spaced recall for the Uni Obsidian vault.",
+  "version": "0.6.0",
+  "description": "Course-note ingestion, planning, tutoring, spaced recall and optional offline HTML courses for the Uni Obsidian vault.",
   "author": {
     "name": "Slavomir Horicka"
   },
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "University Assistant",
     "shortDescription": "Plan, study, and recall",
-    "longDescription": "Four skills for the local Uni vault: ingest finished course notes, prepare a learning plan with a capable model, teach from that plan with a lighter model, and schedule evidence-based spaced reviews. Learner results remain in the course log.",
+    "longDescription": "Four core skills for the local Uni vault: ingest finished course notes, prepare a learning plan with a capable model, teach from that plan with a lighter model, and schedule evidence-based spaced reviews. Learner results remain in the course log. The separate optional html-course skill builds English offline interactive lessons from checked notes and ready plans.",
     "developerName": "Slavomir Horicka",
     "category": "Productivity",
     "capabilities": [

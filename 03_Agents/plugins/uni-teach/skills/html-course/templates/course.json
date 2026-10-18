@@ -1,0 +1,39 @@
+{
+  "course_id": "2026_2027/Winter_Semester/Example_Course",
+  "title": "Example course",
+  "language": "en",
+  "source_fingerprint": "COPY_THE_ACTUAL_SNAPSHOT_FINGERPRINT",
+  "scope": "The selected ready topic, organized by its established source week.",
+  "limitations": "State actual source or prepared-scope limits here without making an exam-completeness claim.",
+  "week_titles": {"1": "Foundations"},
+  "lessons": [{
+    "id": "sample-mean",
+    "title": "Understanding the sample mean",
+    "subtitle": "One quantity, one clear interpretation",
+    "description": "An illustrative format example; replace with the complete supported lesson.",
+    "week": 1,
+    "additional_weeks": [],
+    "objective_ids": ["O001"],
+    "prerequisite_lessons": [],
+    "sections": [{
+      "id": "the-idea",
+      "title": "The idea",
+      "html": "<p>The sample mean is the sum of the observations divided by their number:</p><div class=\"equation\">\\[\\bar x=\\frac{1}{n}\\sum_{i=1}^{n}x_i.\\]</div><p>This short block illustrates the draft format, not complete academic coverage.</p>",
+      "interactions": [{
+        "id": "mean-practice",
+        "kind": "numeric",
+        "prompt_html": "<p>For the illustrative observations \\(1,2,3\\), calculate the sample mean.</p>",
+        "answer": 2,
+        "tolerance": 0.000001,
+        "solution_html": "<p>Add the three values and divide by three: \\((1+2+3)/3=2\\).</p>"
+      }]
+    }]
+  }],
+  "coverage": [{
+    "source": "THE_EXACT_SOURCE_UNIT_KEY_FROM_THE_SNAPSHOT",
+    "disposition": "included",
+    "targets": ["sample-mean#the-idea"]
+  }],
+  "assets": [],
+  "custom_scripts": []
+}

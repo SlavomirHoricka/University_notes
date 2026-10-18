@@ -4,7 +4,7 @@
 
 | Section | GitHub | Obsidian |
 |---|---|---|
-| **1. Overview and four skills** | [Jump](#1-overview-and-four-skills) | [Jump](#1.%20Overview%20and%20four%20skills) |
+| **1. Overview and skills** | [Jump](#1-overview-and-skills) | [Jump](#1.%20Overview%20and%20skills) |
 | **2. Model routing** | [Jump](#2-model-routing) | [Jump](#2.%20Model%20routing) |
 | **3. Invocation and integration limits** | [Jump](#3-invocation-and-integration-limits) | [Jump](#3.%20Invocation%20and%20integration%20limits) |
 | **4. Storage and ownership** | [Jump](#4-storage-and-ownership) | [Jump](#4.%20Storage%20and%20ownership) |
@@ -12,11 +12,13 @@
 | **6. Readiness and legacy records** | [Jump](#6-readiness-and-legacy-records) | [Jump](#6.%20Readiness%20and%20legacy%20records) |
 | **7. Self-contained lesson preparation** | [Jump](#7-self-contained-lesson-preparation) | [Jump](#7.%20Self-contained%20lesson%20preparation) |
 
-## 1. Overview and four skills
+## 1. Overview and skills
 
 Private `uni-teach` plugin for the selected University Notes checkout. The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`; isolated tasks use their actual worktree root for all workflow paths. Never redirect writes to the legacy vault or another checkout.
 
-Four skills: ingest verifies raw materials and creates finished notes; plan prepares versioned executable curriculum; teach conducts sessions and records actual learner evidence; recall derives dates and synchronizes review tasks through the separately installed **Todoist: To Do List & Calendar** harness.
+Four core skills: ingest verifies raw materials and creates finished notes; plan prepares versioned executable curriculum; teach conducts sessions and records actual learner evidence; recall derives dates and synchronizes review tasks through the separately installed **Todoist: To Do List & Calendar** harness.
+
+The separate optional **html-course** skill turns checked notes and ready prepared lessons into English offline HTML with LaTeX, week-grouped contents and purposeful interaction. It runs only for an explicit HTML request and owns versioned exports in `02_Resources/HTML_Courses/<course_id>/`. It does not alter the four-stage workflow or write learner evidence.
 
 ## 2. Model routing
 
@@ -34,7 +36,7 @@ Storage/ownership and handoffs are in `LEARNING_ARCHITECTURE.md`; methodology ev
 
 ## 5. Packaging and publication
 
-Canonical maintained skill folders remain in `03_Agents/ingest`, `plan`, `teach`, `recall`. Package copies and the current versioned ZIP are generated and verified by `03_Agents/scripts/sync_plugin.py`. Changed snapshots require an unused version; explicit `--source-only` operations exclude ZIP generation/checking and preserve snapshots; account releases update the existing private plugin ID through Plugin Creator with a guarded release ID. Never edit versioned installation caches as durable source. Installation grants no vault access and starts no background execution.
+Canonical maintained skill folders remain in `03_Agents/ingest`, `plan`, `teach`, `recall`, `html-course`. Package copies and the current versioned ZIP are generated and verified by `03_Agents/scripts/sync_plugin.py`. Changed snapshots require an unused version; explicit `--source-only` operations exclude ZIP generation/checking and preserve snapshots; account releases update the existing private plugin ID through Plugin Creator with a guarded release ID. Never edit versioned installation caches as durable source. Installation grants no vault access and starts no background execution.
 
 Recall runs on explicit request or after a committed teach handoff when available. No additional push-notification system is required.
 

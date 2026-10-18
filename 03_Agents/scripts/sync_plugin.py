@@ -17,7 +17,7 @@ PACKAGE = AGENTS/'plugins/uni-teach'
 
 def expected_files():
     files = {}
-    for name in ('ingest','plan','teach','recall'):
+    for name in ('ingest','plan','teach','recall','html-course'):
         for p in (AGENTS/name).rglob('*'):
             if p.is_file() and not any(x.startswith('.') or x=='__pycache__' for x in p.relative_to(AGENTS/name).parts):
                 files['skills/'+name+'/'+p.relative_to(AGENTS/name).as_posix()] = p

@@ -85,6 +85,22 @@ class RoutingContractTests(unittest.TestCase):
             inventory=json.loads((second/'03_Agents/plugins/uni-teach/package_inventory.json').read_text())
             self.assertEqual(inventory['source_root'],'03_Agents')
 
+    def test_optional_html_skill_is_packaged_without_changing_existing_skills(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);mod=self.fixture(root)
+            with contextlib.redirect_stdout(io.StringIO()):mod.run()
+            old={name:(mod.PACKAGE/'skills'/name/'SKILL.md').read_bytes()
+                 for name in ('ingest','plan','teach','recall')}
+            skill=mod.AGENTS/'html-course';(skill/'assets').mkdir(parents=True)
+            (skill/'SKILL.md').write_text('new optional skill')
+            (skill/'assets/runtime.js').write_text('offline renderer')
+            manifest=mod.PACKAGE/'plugin.json';value=json.loads(manifest.read_text());value['version']='0.5.0'
+            manifest.write_text(json.dumps(value))
+            with contextlib.redirect_stdout(io.StringIO()):mod.run();mod.run(check=True)
+            self.assertEqual((mod.PACKAGE/'skills/html-course/SKILL.md').read_text(),'new optional skill')
+            self.assertEqual((mod.PACKAGE/'skills/html-course/assets/runtime.js').read_text(),'offline renderer')
+            for name,data in old.items():self.assertEqual((mod.PACKAGE/'skills'/name/'SKILL.md').read_bytes(),data)
+
     def test_external_project_agent_edit_is_not_overwritten(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);mod=self.fixture(root)

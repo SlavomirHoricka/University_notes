@@ -11,7 +11,7 @@ This is an Obsidian university vault. Preserve its course identities, Unicode fi
 ## Navigation and maintenance scope
 
 - `README.md` explains purpose, structure and the study workflow; `03_Agents/README.md` is the detailed workspace entry point.
-- `03_Agents/LEARNING_ARCHITECTURE.md` owns shared learning-workflow contracts; the four canonical skills own execution details.
+- `03_Agents/LEARNING_ARCHITECTURE.md` owns shared learning-workflow contracts; the four core skills and optional HTML-course skill own execution details.
 - `03_Agents/VAULT_MAP.md` is a dated filesystem inventory, never a readiness certificate. `03_Agents/NAMING_CONVENTIONS.md` defines new filenames and identities.
 - `03_Agents/scripts/README.md`, `03_Agents/runtime/README.md`, `03_Agents/plugins/README.md` and `03_Agents/history/README.md` provide utility, runtime, distribution and archive navigation.
 - For repository audits, inspect references in the entry points and their supporting files before rewriting the main documentation. Check local files, directories, headings and embedded assets. Preserve historical snapshots as dated evidence; remove obsolete live guidance and unused redirects only after tracing incoming references.
@@ -41,7 +41,7 @@ Use a unique `codex/<task-slug>` branch. Prefer host-managed worktree tools and 
 
 ## Run ingestion and planning together
 
-- Use the Uni assistant plugin's ingestion and planning workflows. Maintained instructions/templates live in `03_Agents/{ingest,plan,teach,recall}/`; packaged copies in `03_Agents/plugins/uni-teach/` and installed caches are generated artifacts. Edit canonical sources only when skill changes are requested.
+- Use the Uni assistant plugin's ingestion and planning workflows. Maintained instructions/templates live in `03_Agents/{ingest,plan,teach,recall,html-course}/`; packaged copies in `03_Agents/plugins/uni-teach/` and installed caches are generated artifacts. Edit canonical sources only when skill changes are requested.
 - **The selected checkout is the vault root for this task.** Resolve all workflow paths, scripts, state, locks, logs, notes, and assets against it. The repository owner explicitly overrides legacy vault paths in skills: use `/Users/slavomirhoricka/Desktop/University_notes` in the primary checkout and the actual checkout root in a worktree. Give helper agents the same absolute root. Inspect tools for fixed paths before using them; if they cannot target this checkout, stop affected writes and report the incompatibility. Never redirect the primary vault with a symlink or copy results back blindly.
 - Verify that the exact user-supplied source folder, or named note-repair passages and cited verification sources, exist in the selected worktree. Uncommitted source files are not copied by Git worktree creation. If needed, copy only explicitly requested source inputs from the primary checkout, verify their hashes, preserve originals, and account for them in the task record. Never ingest a different folder silently.
 - A request for ingestion also authorizes updating the affected learning plan after successful ingestion unless the user explicitly limits the task. Use ingest for sources, notes/assets, hubs, coverage logs, and ingestion state; use plan for the curriculum, manifest, prepared lessons, and version history. Hand off between skills rather than mixing file ownership.

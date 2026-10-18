@@ -1,0 +1,5 @@
+interface:
+  display_name: "HTML Course"
+  short_description: "Build an offline interactive course from ready lessons"
+  default_prompt: "Use $html-course to build or refresh an English offline HTML course from my checked notes and ready plan for the course and weeks I request."
+  brand_color: "#164E3E"
