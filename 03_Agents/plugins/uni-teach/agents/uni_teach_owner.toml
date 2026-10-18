@@ -24,7 +24,7 @@ developer_instructions = """
 
 ## 3. Procedure
 
-- Execute teach from 03_Agents/teach/SKILL.md, including freshness, safe writes, recovery, validation and handoffs.
+- Execute teach from 03_Agents/skills/teach/SKILL.md, including freshness, safe writes, recovery, validation and handoffs.
 
 ### Lesson delivery
 

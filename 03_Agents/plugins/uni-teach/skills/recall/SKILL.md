@@ -70,7 +70,7 @@ Never teach, choose a correct answer, grade, infer acquisition from partial evid
 
 Vault root: the actual selected repository checkout for this task. The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`; an isolated worktree uses its own absolute checkout root. Resolve all note, record, state, lock, log, template and utility paths against that root, invoking scripts by their absolute selected-checkout paths when cwd differs. Never write into another checkout or the legacy vault location.
 
-Maintained instructions/utilities are `03_Agents/recall/`; generated plugin copies come from package synchronization. Apply the exclusive ownership and shared-write rules included in this skill. The method rationale is included below; ordinary operations require no browsing.
+Maintained instructions/utilities are `03_Agents/skills/recall/`; generated plugin copies come from package synchronization. Apply the exclusive ownership and shared-write rules included in this skill. The method rationale is included below; ordinary operations require no browsing.
 
 ### 3.2. Identity, freshness and committed evidence
 
@@ -201,13 +201,13 @@ Use policy `uni-fixed-v1`, a transparent **fixed-factor heuristic**, not complet
 
 Cepeda et al. (2008) (`https://doi.org/10.1111/j.1467-9280.2008.02209.x`) show spacing depends on the intended retention horizon; Rawson & Dunlosky (2013) (`https://pubmed.ncbi.nlm.nih.gov/23088488/`) support repeated successful retrieval across sessions in their studied materials. The 1/6/2.5 ladder and 24-hour default are pragmatic starting settings, not fitted forgetting parameters. Original SM-2 (`https://super-memory.org/archive/english/ol/sm2.htm`) is documented separately from this heuristic.
 
-Operate per stable course-qualified objective ID and explicit versions. `03_Agents/recall/scripts/schedule.py` supplies pure date arithmetic, event replay, project normalization, task intent, conservative sync decisions and confirmation checks; it performs no network calls or writes. Use it instead of mental date arithmetic. For example:
+Operate per stable course-qualified objective ID and explicit versions. `03_Agents/skills/recall/scripts/schedule.py` supplies pure date arithmetic, event replay, project normalization, task intent, conservative sync decisions and confirmation checks; it performs no network calls or writes. Use it instead of mental date arithmetic. For example:
 
 For `derive INPUT.json`, prepare `{events,current,previous}` from verified records: `events` is the bounded course's committed fenced-JSON observations, `current` contains course/objective IDs plus exact objective_revision/criterion_version/plan_version/source_version/ingestion_revision, `minimum_delay_hours` from the lesson's `delayed_rule.minimum_elapsed_hours`, and the objective index's `compatible_versions` and `reassessment_requirement`; `previous` is `recall_state.objectives[ID].schedule` or null. Store its result under that same `.schedule` key; pass `.sync` to `sync_decision`. Temporary input is a calculation artifact, never a learner record.
 
 Validate preparation/record journals before invoking the pure helper.
 
-`python3 03_Agents/recall/scripts/schedule.py calculate success --previous-interval 6 --occurred-at 2026-10-03T23:30:00+02:00`
+`python3 03_Agents/skills/recall/scripts/schedule.py calculate success --previous-interval 6 --occurred-at 2026-10-03T23:30:00+02:00`
 
 | Observation / condition | Required action |
 |---|---|
@@ -478,7 +478,7 @@ They were screened from publisher/PMC primary-study abstracts; no effect-size sy
 
 ### 6.1. Completion and validation
 
-Completion for a run means every requested existing objective is either unchanged, scheduled and connector-confirmed, or explicitly held with intended date, exact cause and safe next step retained. Validation: check current identities, committed support IDs, minimum separation, Prague date, policy interval, one active identity, task confirmation, append-only schedule history, no unauthorized owner writes, and recoverable pending operations. Focused contract tests: `python3 03_Agents/recall/scripts/schedule.py --self-test`.
+Completion for a run means every requested existing objective is either unchanged, scheduled and connector-confirmed, or explicitly held with intended date, exact cause and safe next step retained. Validation: check current identities, committed support IDs, minimum separation, Prague date, policy interval, one active identity, task confirmation, append-only schedule history, no unauthorized owner writes, and recoverable pending operations. Focused contract tests: `python3 03_Agents/skills/recall/scripts/schedule.py --self-test`.
 
 They use fictional in-memory data only, never real Todoist tasks or learner evidence.
 
@@ -490,7 +490,7 @@ Use existing schema-3 events and owner-scoped transactions. Optional `item_origi
 
 ### 7.1. Recall state, outbox and recovery
 
-Use template `03_Agents/recall/templates/recall_state.json` only when a real course has an intended schedule or meaningful retry/scheduling decision; do not populate empty courses for a map alone. `objectives[objective_id]` contains `schedule` (the `derive_schedule` result) and `sync`. Sync fields are `status`, `task_id`, `confirmed_review_id`, `confirmed_supporting_event_ids`, `last_confirmed_fields` (content/description/projectId/dueDate), `created_at`, `last_checked_at`, `suppressed`, and `pending_operation` or null.
+Use template `03_Agents/skills/recall/templates/recall_state.json` only when a real course has an intended schedule or meaningful retry/scheduling decision; do not populate empty courses for a map alone. `objectives[objective_id]` contains `schedule` (the `derive_schedule` result) and `sync`. Sync fields are `status`, `task_id`, `confirmed_review_id`, `confirmed_supporting_event_ids`, `last_confirmed_fields` (content/description/projectId/dueDate), `created_at`, `last_checked_at`, `suppressed`, and `pending_operation` or null.
 
 Pending fields: stable `operation_id`, `owner_session`, `action`, `phase:prepared|submitted|uncertain|confirmed|rejected`, `review_id`, `intended_fields` (content/description/projectId/dueString), `prior_confirmed_fields`, actual prepare/submit/confirmation times, returned task IDs/error and resolution. State has `record_revision`, course identity, cached project-map reference, append-only `schedule_history`, `task_history`, `scheduling_decisions` and `sync_journal`. Learner evidence remains in teach's log. Old objective/criterion/source/ingestion versions and all supporting IDs remain in history.
 

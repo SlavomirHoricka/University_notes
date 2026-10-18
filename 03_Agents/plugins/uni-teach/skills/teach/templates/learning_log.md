@@ -142,7 +142,7 @@ Other teach-owned types: `session_started`, `session_route`, `attempt_started`, 
 
 ## Optional generated-item snapshot
 
-For a teach-generated item, persist `item_origin: teach_generated` and the full `item_contract` in `attempt_started` before displaying its prompt. See `references/RECORDS.md` for required snapshot fields and `03_Agents/references/LESSON_CONTENT.md` for permitted scope and evidence use. The result references the same attempt/item/version and definition tuple. `assessment_basis` may document a valid alternative method under unchanged criteria.
+For a teach-generated item, persist `item_origin: teach_generated` and the full `item_contract` in `attempt_started` before displaying its prompt. See `references/RECORDS.md` for required snapshot fields and `03_Agents/docs/LESSON_CONTENT.md` for permitted scope and evidence use. The result references the same attempt/item/version and definition tuple. `assessment_basis` may document a valid alternative method under unchanged criteria.
 
 These optional fields do not migrate old events or grant permission to replace exact named reassessment items.
 

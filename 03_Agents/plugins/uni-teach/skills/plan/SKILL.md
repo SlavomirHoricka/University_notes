@@ -66,7 +66,7 @@ Shared reading does not transfer write ownership. The detailed boundaries below 
 
 ### 2.2. Authoritative files and boundaries
 
-Use `03_Agents/VAULT_MAP.md` as course-navigation data; verify the actual selected course paths. Apply the ownership, naming and shared-write rules included in this skill. Canonical instruction/template source is `03_Agents/plan/`. Packaged copies are generated; never edit an installed cache as source.
+Use `03_Agents/VAULT_MAP.md` as course-navigation data; verify the actual selected course paths. Apply the ownership, naming and shared-write rules included in this skill. Canonical instruction/template source is `03_Agents/skills/plan/`. Packaged copies are generated; never edit an installed cache as source.
 
 For course identity `<year>/<semester>/<course>`:
 
@@ -76,7 +76,7 @@ For course identity `<year>/<semester>/<course>`:
 | Existing plan, source manifest, lessons and history; relevant **committed** events in `learning_log.md`; recall state only for requested timing constraints | `03_Agents/<course_id>/source_manifest.md` (finished-note fingerprints, semantic change classification, source/objective mapping) |
 | Learner's explicit goal, topic, deadline, allowed tools; syllabus/exam scope only if already in finished notes | `03_Agents/<course_id>/lessons/<objective_id>.md`; immutable `curriculum_history/<plan_version>/` containing replaced plan, manifest, and lesson definitions |
 
-Use `03_Agents/plan/templates/learning_plan.md`, `source_manifest.md`, and `objective_lesson.md`. Do not initialize a learning log or recall state. Empty courses remain empty until supported notes and an authorized scope exist. Legacy learner-status fields inside a plan are historical data; preserve the original snapshot, omit them from new definitions, and do not turn them into observed progress.
+Use `03_Agents/skills/plan/templates/learning_plan.md`, `source_manifest.md`, and `objective_lesson.md`. Do not initialize a learning log or recall state. Empty courses remain empty until supported notes and an authorized scope exist. Legacy learner-status fields inside a plan are historical data; preserve the original snapshot, omit them from new definitions, and do not turn them into observed progress.
 
 Finished checked notes establish the course-content baseline; verified plan additions support teaching within that scope. Ingest owns their academic verification and freshness token. Read the linked successful ingestion pass and its actual course mapping: a run name or original folder can differ from the final course.
 
@@ -105,7 +105,7 @@ Established 2026-10-02. Apply these conventions to new files and folder changes.
 - Source metadata and `Source: [[...]]` links use vault-relative paths with file extensions. Update both when files move.
 - Course records use `ingestion_state.json` (ingest), `learning_plan.md`, `source_manifest.md`, `lessons/<objective_id>.md`, `curriculum_history/<plan_version>/` (plan), `learning_log.md` (teach), and `recall_state.json` (recall). Skill-owned runtime ingestion records live under `03_Agents/runtime/ingest/`; maintained skill folders contain no runtime logs. Shared maintenance documents may use uppercase names such as `README.md` and `VAULT_MAP.md`; utility scripts use lowercase snake_case.
 
-Run `python3 03_Agents/check_vault.py` from the vault root to check note link targets, source metadata, hub names, and the notes/agent course-folder mirror. The checker reports unresolved content references and exits nonzero until they are resolved; it validates live Markdown/Obsidian file, heading and block targets, but not course content or PDF page bounds. Historical snapshots and generated packages do not participate in live link disambiguation.
+Run `python3 03_Agents/scripts/check_vault.py` from the vault root to check note link targets, source metadata, hub names, and the notes/agent course-folder mirror. The checker reports unresolved content references and exits nonzero until they are resolved; it validates live Markdown/Obsidian file, heading and block targets, but not course content or PDF page bounds. Historical snapshots and generated packages do not participate in live link disambiguation.
 
 ## 4. Roles and model routing
 

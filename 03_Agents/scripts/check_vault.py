@@ -1,6 +1,6 @@
 """Read-only live vault path/heading/block audit, including root docs and drawings.
 
-Run from any cwd: python3 /absolute/vault/03_Agents/check_vault.py.
+Run from any cwd: python3 /absolute/vault/03_Agents/scripts/check_vault.py.
 Does not certify academic content or PDF page bounds. Template placeholders skipped.
 """
 from pathlib import Path
@@ -10,7 +10,7 @@ import re
 import unicodedata
 from urllib.parse import unquote
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def canonical(value):

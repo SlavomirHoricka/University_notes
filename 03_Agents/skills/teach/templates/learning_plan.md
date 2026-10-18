@@ -6,7 +6,7 @@ Teach never creates or edits curricula.
 
 ## Current template
 
-The single maintained template is [03_Agents/plan/templates/learning_plan.md](../../plan/templates/learning_plan.md), with per-objective blocks from [objective_lesson.md](../../plan/templates/objective_lesson.md).
+The single maintained template is [03_Agents/skills/plan/templates/learning_plan.md](../../plan/templates/learning_plan.md), with per-objective blocks from [objective_lesson.md](../../plan/templates/objective_lesson.md).
 
 This compatibility redirect is not a second template.
 

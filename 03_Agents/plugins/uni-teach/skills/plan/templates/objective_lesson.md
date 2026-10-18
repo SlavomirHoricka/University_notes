@@ -1,6 +1,6 @@
 # <Objective title> — lesson template
 
-Plan-owned, self-contained teacher-executable block following `03_Agents/references/LESSON_CONTENT.md`. This template is not a lesson or observed learner evidence. Replace all placeholders before marking ready. Explain omitted categories as not applicable; do not leave key/rubric reasoning to the teaching model.
+Plan-owned, self-contained teacher-executable block following `03_Agents/docs/LESSON_CONTENT.md`. This template is not a lesson or observed learner evidence. Replace all placeholders before marking ready. Explain omitted categories as not applicable; do not leave key/rubric reasoning to the teaching model.
 
 ## Record metadata
 

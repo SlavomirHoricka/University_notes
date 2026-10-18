@@ -1,0 +1,223 @@
+{
+  "refs": [
+    {
+      "ref": "refs/heads/codex/hub-app-package",
+      "sha": "43b523d249ccff33078b0270e1a3c249b34efa7c",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-assessment",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-contracts-plan",
+      "sha": "be168bba57c54314f5393f9379c99c02c75a25bb",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-foundation",
+      "sha": "da9ec0d98863d8acffb069cd05b14289458da680",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-frontend",
+      "sha": "659be374b8d2ba371faabd21f2378872f4c980f0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-integration",
+      "sha": "0be10333b0139633ebdd443fe54ea667d109457c",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-operations",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-plan-review",
+      "sha": "fb1c515a91046ddd99da72bb312dbd8755ce7df9",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-provider",
+      "sha": "682fd3f3969a842182331ea0dabf0857abdac630",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-qa",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-review",
+      "sha": "66f3e9384f213c8097d228d6cba59650559d6454",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-technical-plan",
+      "sha": "8a1707b4477cf3d84ee9122b679bb221d277e96c",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-visuals",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-workflows",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/heads/codex/hub-workflows-plan",
+      "sha": "26e885fe0ef108c0adb422e5a069e3b8e19e9e63",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-assessment",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-contracts-plan",
+      "sha": "be168bba57c54314f5393f9379c99c02c75a25bb",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-foundation",
+      "sha": "70465e81d366a076c816613dd159bf5028b14a98",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-frontend",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-integration",
+      "sha": "cc2972e839d9b03fa9ce5ffbe9375c03c4b3882b",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-operations",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-plan-review",
+      "sha": "fb1c515a91046ddd99da72bb312dbd8755ce7df9",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-provider",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-qa",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-review",
+      "sha": "1a5dae267c9919dd8ac7e35a622a6fe3ce55df95",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-technical-plan",
+      "sha": "8a1707b4477cf3d84ee9122b679bb221d277e96c",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-visuals",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-workflows",
+      "sha": "2d7a8215aa7e08bfc5155f4ad9fa133c2e6e97c0",
+      "merged_into_main": true,
+      "unique_commits": 0
+    },
+    {
+      "ref": "refs/remotes/origin/codex/hub-workflows-plan",
+      "sha": "26e885fe0ef108c0adb422e5a069e3b8e19e9e63",
+      "merged_into_main": true,
+      "unique_commits": 0
+    }
+  ],
+  "worktrees": [
+    {
+      "path": "/Users/slavomirhoricka/.codex/worktrees/hub-frontend/University_notes",
+      "branch": "refs/heads/codex/hub-frontend",
+      "sha": "659be374b8d2ba371faabd21f2378872f4c980f0",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status_entries": 0
+    },
+    {
+      "path": "/Users/slavomirhoricka/.codex/worktrees/hub-integration/University_notes",
+      "branch": "refs/heads/codex/hub-integration",
+      "sha": "0be10333b0139633ebdd443fe54ea667d109457c",
+      "status_sha256": "12283f425be85949e8f848214dae996468006934a28d6a3507905429d89897ff",
+      "diff_sha256": "ee799254ae18fe70b2dd17ce7bbae2d7b6e4dd093249f05c11edc8ee041db092",
+      "status_entries": 3
+    },
+    {
+      "path": "/Users/slavomirhoricka/.codex/worktrees/hub-provider/University_notes",
+      "branch": "refs/heads/codex/hub-provider",
+      "sha": "682fd3f3969a842182331ea0dabf0857abdac630",
+      "status_sha256": "46473a4aa5cd47466b87837af19376809d95f61c5895ba97c0b9560f5a746b43",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status_entries": 14
+    },
+    {
+      "path": "/Users/slavomirhoricka/.codex/worktrees/hub-repo-separation/University_notes",
+      "branch": "refs/heads/codex/hub-app-package",
+      "sha": "43b523d249ccff33078b0270e1a3c249b34efa7c",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status_entries": 0
+    },
+    {
+      "path": "/Users/slavomirhoricka/.codex/worktrees/hub-review/University_notes",
+      "branch": "refs/heads/codex/hub-review",
+      "sha": "66f3e9384f213c8097d228d6cba59650559d6454",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status_entries": 0
+    }
+  ],
+  "status": "preflight; deletion pending verified audit integration",
+  "scope": "University_notes codex/hub-* only",
+  "recovery": "Every recorded tip is an ancestor of origin/main at 48989c9df64a461d58f7cae465b82973834aeebd. Existing worktrees will be detached at these same commits and retained."
+}

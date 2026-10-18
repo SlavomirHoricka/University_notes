@@ -1,6 +1,6 @@
 # Source manifest — JEB109 Econometrics I
 
-[Protocol](../../../teach/references/RECORDS.md)
+[Protocol](../../../skills/teach/references/RECORDS.md)
 
 ```json
 {

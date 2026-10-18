@@ -5,7 +5,8 @@ Filesystem inventory checked 2026-10-17. Paths and Markdown file counts are navi
 - [Original materials](../00_Materials/): user-owned sources.
 - [Study notes](../01_Notes/): explanations, course hubs and assets.
 - [Shared resources](../02_Resources/) and [drawings](../Excalidraw/).
-- [Agent workspace](README.md): skills, course records, utilities and history.
+- [Agent workspace](README.md): [five maintained skills](skills/README.md), [documentation](docs/README.md), course records, utilities and history.
+- Workspace organization updated 2026-10-18; the course inventory below retains its stated inspection date.
 - [Ingestion index](runtime/ingest/ingestion_log.md): exact recorded source scopes and pass outcomes.
 
 ## Course inventory

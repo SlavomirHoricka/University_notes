@@ -18,17 +18,17 @@ PACKAGE = AGENTS/'plugins/uni-teach'
 def expected_files():
     files = {}
     for name in ('ingest','plan','teach','recall','html-course'):
-        for p in (AGENTS/name).rglob('*'):
-            if p.is_file() and not any(x.startswith('.') or x=='__pycache__' for x in p.relative_to(AGENTS/name).parts):
-                files['skills/'+name+'/'+p.relative_to(AGENTS/name).as_posix()] = p
-    for p in (AGENTS/'references').rglob('*'):
-        if p.is_file() and p.name!='PLUGIN_README.md':files['references/'+p.relative_to(AGENTS/'references').as_posix()]=p
+        for p in (AGENTS/'skills'/name).rglob('*'):
+            if p.is_file() and not any(x.startswith('.') or x=='__pycache__' for x in p.relative_to(AGENTS/'skills'/name).parts):
+                files['skills/'+name+'/'+p.relative_to(AGENTS/'skills'/name).as_posix()] = p
+    for name in ('LEARNING_METHODS.md', 'LESSON_CONTENT.md', 'MODEL_ROUTING.md'):
+        files['references/'+name] = AGENTS/'docs'/name
     for p in (AGENTS/'scripts').glob('*.py'):
-        if p.name not in {'sync_plugin.py','test_vault.py','test_model_routing.py'}: files['scripts/'+p.name]=p
+        if p.name not in {'sync_plugin.py','test_vault.py','test_model_routing.py','check_vault.py'}: files['scripts/'+p.name]=p
     for p in (AGENTS/'agents').glob('uni_*.toml'):
         files['agents/'+p.name]=p
-    files['LEARNING_ARCHITECTURE.md']=AGENTS/'LEARNING_ARCHITECTURE.md'
-    files['README.md']=AGENTS/'references/PLUGIN_README.md'
+    files['LEARNING_ARCHITECTURE.md']=AGENTS/'docs/LEARNING_ARCHITECTURE.md'
+    files['README.md']=AGENTS/'docs/PLUGIN_README.md'
     return files
 
 

@@ -120,7 +120,7 @@ Established 2026-10-02. Apply these conventions to new files and folder changes.
 - Source metadata and `Source: [[...]]` links use vault-relative paths with file extensions. Update both when files move.
 - Course records use `ingestion_state.json` (ingest), `learning_plan.md`, `source_manifest.md`, `lessons/<objective_id>.md`, `curriculum_history/<plan_version>/` (plan), `learning_log.md` (teach), and `recall_state.json` (recall). Skill-owned runtime ingestion records live under `03_Agents/runtime/ingest/`; maintained skill folders contain no runtime logs. Shared maintenance documents may use uppercase names such as `README.md` and `VAULT_MAP.md`; utility scripts use lowercase snake_case.
 
-Run `python3 03_Agents/check_vault.py` from the vault root to check note link targets, source metadata, hub names, and the notes/agent course-folder mirror. The checker reports unresolved content references and exits nonzero until they are resolved; it validates live Markdown/Obsidian file, heading and block targets, but not course content or PDF page bounds. Historical snapshots and generated packages do not participate in live link disambiguation.
+Run `python3 03_Agents/scripts/check_vault.py` from the vault root to check note link targets, source metadata, hub names, and the notes/agent course-folder mirror. The checker reports unresolved content references and exits nonzero until they are resolved; it validates live Markdown/Obsidian file, heading and block targets, but not course content or PDF page bounds. Historical snapshots and generated packages do not participate in live link disambiguation.
 
 ## 4. Roles and model routing
 
@@ -280,7 +280,7 @@ inspect existing notes, source links, and the original material. Reuse verified 
 
 #### Capture the structural baseline
 
-Run `python3 03_Agents/check_vault.py` before edits and retain its findings for comparison. Do not create note snapshots or backups. Existing text is user-owned: hashes and log summaries cannot reconstruct its exact history.
+Run `python3 03_Agents/scripts/check_vault.py` before edits and retain its findings for comparison. Do not create note snapshots or backups. Existing text is user-owned: hashes and log summaries cannot reconstruct its exact history.
 
 ### 5.2. Read and account for the sources
 
@@ -452,7 +452,7 @@ If a finding cannot be resolved, approval for an existing-text replacement is pe
 
 ### 6.2. Final content and structural checks
 
-Account for all selected pages/slides using the coverage ledger. Verify every new or changed Obsidian link and image embed, including target headings/block IDs and the hub outline. Check Mermaid syntax/rendering with available tools and source fidelity; disclose any unverified rendering. Rerun `python3 03_Agents/check_vault.py`. Compare findings by issue, file, and target rather than raw line numbers alone. Repair introduced issues; report pre-existing issues separately without expanding scope.
+Account for all selected pages/slides using the coverage ledger. Verify every new or changed Obsidian link and image embed, including target headings/block IDs and the hub outline. Check Mermaid syntax/rendering with available tools and source fidelity; disclose any unverified rendering. Rerun `python3 03_Agents/scripts/check_vault.py`. Compare findings by issue, file, and target rather than raw line numbers alone. Repair introduced issues; report pre-existing issues separately without expanding scope.
 
 The vault checker validates file/Markdown heading/block targets, but not academic content or PDF page bounds.
 

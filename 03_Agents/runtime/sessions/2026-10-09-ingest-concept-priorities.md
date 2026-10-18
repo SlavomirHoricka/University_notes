@@ -6,7 +6,7 @@
 - Branch: `codex/ingest-concept-priorities`
 - Worktree: `/Users/slavomirhoricka/.codex/worktrees/ingest-concept-priorities/University_notes`
 - Base: `cedae1399ee146242d01778bfafd6f3a903c3280`, freshly fetched `origin/main`.
-- Prior context: [[03_Agents/LEARNING_ARCHITECTURE]], [[03_Agents/runtime/sessions/2026-10-09-repository-instructions]], and the existing ingestion index/pass records. The incomplete Week 2 ingestion remains separate and untouched.
+- Prior context: [[03_Agents/docs/LEARNING_ARCHITECTURE]], [[03_Agents/runtime/sessions/2026-10-09-repository-instructions]], and the existing ingestion index/pass records. The incomplete Week 2 ingestion remains separate and untouched.
 
 ## Decisions
 

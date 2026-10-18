@@ -6,7 +6,7 @@ Teach never fingerprints or reconciles notes.
 
 ## Current template
 
-The single maintained template is [03_Agents/plan/templates/source_manifest.md](../../plan/templates/source_manifest.md).
+The single maintained template is [03_Agents/skills/plan/templates/source_manifest.md](../../plan/templates/source_manifest.md).
 
 This compatibility redirect is not a second template.
 
