@@ -1,32 +1,34 @@
 # Econometrics II — learning plan
 
+## Record metadata
+
 ```json
 {
   "schema_version": 3,
   "owner": "plan",
   "course_id": "2026_2027/Winter_Semester/Econometrics_II",
-  "transaction_id": "PLAN-20261009-ECOX-P003",
-  "plan_version": "P003",
-  "source_version": "V002",
-  "ingestion_revision": 2,
+  "transaction_id": "PLAN-20261018-ECOX-P004",
+  "plan_version": "P004",
+  "source_version": "V003",
+  "ingestion_revision": 3,
   "course_code": "JEB110",
   "course_name": "Econometrics II",
-  "record_revision": 3,
-  "updated_at": "2026-10-10T16:14:02.779842+02:00",
+  "record_revision": 4,
+  "updated_at": "2026-10-18T20:25:04.685132+02:00",
   "timezone": "Europe/Prague",
-  "plan_status": "partial",
-  "requested_scope": "All supported finished Week1 and supplied Week2 material; source ambiguities and unsupported extensions explicitly bounded",
-  "requested_outcome": "Prepare to explain, calculate and critically report the available Econometrics II material; extend only after later finished-note ingestion.",
+  "plan_status": "ready",
+  "requested_scope": "All checked supplied Weeks1–3 material for this course only; later weeks excluded and source qualifications retained.",
+  "requested_outcome": "Deliver all supported Weeks1–3 through complete self-contained lessons with checked explanations, figures, worked examples, prepared exercises, complete keys/rubrics and preserved evidence standards.",
   "deadline_or_retention_horizon": null,
   "source_manifest": "source_manifest.md",
+  "bounded_scope_status": "ready",
+  "lesson_content_contract": "self-contained-lessons-v1",
   "objectives": [
     {
       "objective_id": "O001",
-      "objective_revision": 2,
+      "objective_revision": 3,
       "criterion_version": "O001-C2",
-      "lesson_path": "lessons/O001.md",
       "status": "ready",
-      "title": "Use course requirements while preserving unresolved source details",
       "knowledge_components": [
         "conceptual",
         "interpretation"
@@ -34,7 +36,20 @@
       "prerequisite_ids": [],
       "review_topic": "Use course requirements while preserving unresolved source details",
       "review_instruction": "Begin a closed-note review with teach for O001; request a fresh prepared delayed item before any recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 2,
+          "criterion_version": "O001-C2",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        }
+      ],
+      "lesson_path": "lessons/O001.md",
+      "title": "Use course requirements while preserving unresolved source details",
       "reassessment_requirement": {
         "requirement_id": "ECOX-O001-C2-P003-SCOPE",
         "reason": "Current supported scope now includes checked Week2; former Week1-only answer keys cannot represent current coverage.",
@@ -55,11 +70,11 @@
           }
         ],
         "new_version": {
-          "objective_revision": 2,
+          "objective_revision": 3,
           "criterion_version": "O001-C2",
-          "plan_version": "P003",
-          "source_version": "V002",
-          "ingestion_revision": 2
+          "plan_version": "P004",
+          "source_version": "V003",
+          "ingestion_revision": 3
         },
         "prepared_check_ids": [
           "O001-I1",
@@ -67,16 +82,34 @@
           "O001-D1",
           "O001-D2"
         ],
-        "evidence_conditions": "Teach must commit two distinct fresh unassisted full passes at current O001-C2 under a permitted acquisition route and reference this requirement_id in reassessment_met. Delayed success remains subject to the actual24-hour/exposure rule. No old answer is regraded or assumed compatible."
+        "evidence_conditions": "The inherited O001-C1 exclusion remains binding. Teach must commit two distinct fresh unassisted full O001-C2 passes using the named prepared bank under a permitted acquisition route at the current new_version and reference ECOX-O001-C2-P003-SCOPE in reassessment_met. A genuinely committed satisfaction at the exact explicitly listed compatible historical P003 O001-C2 tuple remains valid for this unchanged criterion; verify its actual evidence and matching requirement event rather than requiring duplicate reassessment or fabricating satisfaction. Delayed evidence follows the explicit preserved per-lesson timing/exposure contract. No O001-C1 answer is regraded or assumed compatible.",
+        "historical_new_versions": [
+          {
+            "objective_revision": 2,
+            "criterion_version": "O001-C2",
+            "plan_version": "P003",
+            "source_version": "V002",
+            "ingestion_revision": 2
+          }
+        ],
+        "compatible_satisfaction_versions": [
+          {
+            "objective_revision": 2,
+            "criterion_version": "O001-C2",
+            "plan_version": "P003",
+            "source_version": "V002",
+            "ingestion_revision": 2,
+            "requirement_id": "ECOX-O001-C2-P003-SCOPE",
+            "conditions": "Only an actual committed reassessment_met for this same stable requirement_id, supported by two distinct fresh unassisted full O001-C2 passes at this exact compatible historical tuple under its permitted route, can establish historical satisfaction. No event/result is inferred."
+          }
+        ]
       }
     },
     {
       "objective_id": "O002",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O002-C1",
-      "lesson_path": "lessons/O002.md",
       "status": "ready",
-      "title": "Derive and interpret scalar and matrix OLS",
       "knowledge_components": [
         "conceptual",
         "procedural",
@@ -105,17 +138,27 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 1,
+          "criterion_version": "O002-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O002.md",
+      "title": "Derive and interpret scalar and matrix OLS",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O003",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O003-C1",
-      "lesson_path": "lessons/O003.md",
       "status": "ready",
-      "title": "Derive conditional and unconditional OLS unbiasedness",
       "knowledge_components": [
         "conceptual",
         "procedural",
@@ -146,17 +189,27 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 1,
+          "criterion_version": "O003-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O003.md",
+      "title": "Derive conditional and unconditional OLS unbiasedness",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O004",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O004-C1",
-      "lesson_path": "lessons/O004.md",
       "status": "ready",
-      "title": "Derive consistency and distinguish it from unbiasedness",
       "knowledge_components": [
         "conceptual",
         "procedural",
@@ -187,17 +240,27 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 1,
+          "criterion_version": "O004-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O004.md",
+      "title": "Derive consistency and distinguish it from unbiasedness",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O005",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O005-C1",
-      "lesson_path": "lessons/O005.md",
       "status": "ready",
-      "title": "Apply BLUE and classical inference with their stated conditions",
       "knowledge_components": [
         "conceptual",
         "procedural",
@@ -229,17 +292,27 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 1,
+          "criterion_version": "O005-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O005.md",
+      "title": "Apply BLUE and classical inference with their stated conditions",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O006",
-      "objective_revision": 2,
+      "objective_revision": 3,
       "criterion_version": "O006-C1",
-      "lesson_path": "lessons/O006.md",
       "status": "ready",
-      "title": "Complete and critique the ten-city regression calculation",
       "knowledge_components": [
         "conceptual",
         "procedural",
@@ -271,17 +344,27 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 2,
+          "criterion_version": "O006-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O006.md",
+      "title": "Complete and critique the ten-city regression calculation",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O008",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O008-C1",
-      "lesson_path": "lessons/O008.md",
       "status": "ready",
-      "title": "Calculate residual diagnostics and bound their conclusions",
       "knowledge_components": [
         "conceptual",
         "procedural",
@@ -313,17 +396,27 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 1,
+          "criterion_version": "O008-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O008.md",
+      "title": "Calculate residual diagnostics and bound their conclusions",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O007",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O007-C1",
-      "lesson_path": "lessons/O007.md",
       "status": "ready",
-      "title": "Compare conditional models and write a bounded empirical report",
       "knowledge_components": [
         "conceptual",
         "procedural",
@@ -356,13 +449,25 @@
           "reason": "Selected Week1 academic note bytes and capability, criteria, prompts/keys and conditions unchanged. Additive Week2 hub context and new downstream objectives do not change this capability.",
           "change_class": "unchanged",
           "requires_reassessment": false
+        },
+        {
+          "objective_revision": 1,
+          "criterion_version": "O007-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
         }
       ],
+      "lesson_path": "lessons/O007.md",
+      "title": "Compare conditional models and write a bounded empirical report",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O009",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O009-C1",
       "status": "ready",
       "knowledge_components": [
@@ -375,14 +480,25 @@
       ],
       "review_topic": "Derive time-series OLS unbiasedness and diagnose feedback against strict exogeneity",
       "review_instruction": "Begin a closed-note review with teach for O009; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O009-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O009.md",
       "title": "Derive time-series OLS unbiasedness and diagnose feedback against strict exogeneity",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O010",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O010-C1",
       "status": "ready",
       "knowledge_components": [
@@ -395,14 +511,25 @@
       ],
       "review_topic": "Apply the time-series variance and exact-inference assumption ladder",
       "review_instruction": "Begin a closed-note review with teach for O010; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O010-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O010.md",
       "title": "Apply the time-series variance and exact-inference assumption ladder",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O011",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O011-C1",
       "status": "ready",
       "knowledge_components": [
@@ -415,14 +542,25 @@
       ],
       "review_topic": "Derive finite distributed lag responses and interpret long-run precision",
       "review_instruction": "Begin a closed-note review with teach for O011; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O011-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O011.md",
       "title": "Derive finite distributed lag responses and interpret long-run precision",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O012",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O012-C1",
       "status": "ready",
       "knowledge_components": [
@@ -435,14 +573,25 @@
       ],
       "review_topic": "Residualise common trends consistently and distinguish fitted comparisons",
       "review_instruction": "Begin a closed-note review with teach for O012; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O012-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O012.md",
       "title": "Residualise common trends consistently and distinguish fitted comparisons",
       "reassessment_requirement": null
     },
     {
       "objective_id": "O013",
-      "objective_revision": 1,
+      "objective_revision": 2,
       "criterion_version": "O013-C1",
       "status": "ready",
       "knowledge_components": [
@@ -455,9 +604,146 @@
       ],
       "review_topic": "Specify seasonal controls and preserve comparison and inference bookkeeping",
       "review_instruction": "Begin a closed-note review with teach for O013; request an unused prepared delayed item before recap.",
-      "compatible_versions": [],
+      "compatible_versions": [
+        {
+          "objective_revision": 1,
+          "criterion_version": "O013-C1",
+          "plan_version": "P003",
+          "source_version": "V002",
+          "ingestion_revision": 2,
+          "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+          "change_class": "unchanged",
+          "requires_reassessment": false
+        }
+      ],
       "lesson_path": "lessons/O013.md",
       "title": "Specify seasonal controls and preserve comparison and inference bookkeeping",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O014",
+      "objective_revision": 1,
+      "criterion_version": "O014-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "process_and_stationarity_definitions",
+        "contrasting_moment_and_dependence_cases",
+        "lln_clt_and_observed_plot_limits"
+      ],
+      "prerequisite_ids": [
+        "O009"
+      ],
+      "review_topic": "Distinguish stationarity from weak dependence and limit-theorem roles",
+      "review_instruction": "Begin a closed-note review with teach for O014; request an unused prepared delayed item before recap.",
+      "compatible_versions": [],
+      "lesson_path": "lessons/O014.md",
+      "title": "Distinguish stationarity from weak dependence and limit-theorem roles",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O015",
+      "objective_revision": 1,
+      "criterion_version": "O015-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "moment_derivation",
+        "shared_vs_disjoint_innovation_blocks",
+        "stationarity_weak_dependence_and_no_invertibility_claim"
+      ],
+      "prerequisite_ids": [
+        "O014"
+      ],
+      "review_topic": "Derive MA(1) moments and finite-reach dependence",
+      "review_instruction": "Begin a closed-note review with teach for O015; request an unused prepared delayed item before recap.",
+      "compatible_versions": [],
+      "lesson_path": "lessons/O015.md",
+      "title": "Derive MA(1) moments and finite-reach dependence",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O016",
+      "objective_revision": 1,
+      "criterion_version": "O016-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "stationary_ar_moments",
+        "lag_correlation_and_forecast",
+        "fixed_initialization_and_stability_limits"
+      ],
+      "prerequisite_ids": [
+        "O014",
+        "O015"
+      ],
+      "review_topic": "Derive stable AR(1) moments, forecasts and initialization limits",
+      "review_instruction": "Begin a closed-note review with teach for O016; request an unused prepared delayed item before recap.",
+      "compatible_versions": [],
+      "lesson_path": "lessons/O016.md",
+      "title": "Derive stable AR(1) moments, forecasts and initialization limits",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O017",
+      "objective_revision": 1,
+      "criterion_version": "O017-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "random_walk_moments_forecast_and_initial_value",
+        "difference_and_integration_interpretation",
+        "detrend_vs_difference_and_diagnostic_limits"
+      ],
+      "prerequisite_ids": [
+        "O016",
+        "O012"
+      ],
+      "review_topic": "Distinguish random walks, integration and deterministic trend removal",
+      "review_instruction": "Begin a closed-note review with teach for O017; request an unused prepared delayed item before recap.",
+      "compatible_versions": [],
+      "lesson_path": "lessons/O017.md",
+      "title": "Distinguish random walks, integration and deterministic trend removal",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O018",
+      "objective_revision": 1,
+      "criterion_version": "O018-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "normalized_ols_limit_and_iterated_expectations",
+        "joint_regularity_rank_and_exogeneity",
+        "feedback_unbiasedness_and_nonzero_score_contrast"
+      ],
+      "prerequisite_ids": [
+        "O002",
+        "O009",
+        "O014"
+      ],
+      "review_topic": "Derive time-series OLS consistency under contemporaneous exogeneity",
+      "review_instruction": "Begin a closed-note review with teach for O018; request an unused prepared delayed item before recap.",
+      "compatible_versions": [],
+      "lesson_path": "lessons/O018.md",
+      "title": "Derive time-series OLS consistency under contemporaneous exogeneity",
+      "reassessment_requirement": null
+    },
+    {
+      "objective_id": "O019",
+      "objective_revision": 1,
+      "criterion_version": "O019-C1",
+      "status": "ready",
+      "knowledge_components": [
+        "scaled_score_clt_and_variance_calculation",
+        "additional_error_restrictions_and_failure_consequences",
+        "exact_vs_asymptotic_normality_trend_and_scope_limits"
+      ],
+      "prerequisite_ids": [
+        "O018",
+        "O010",
+        "O017"
+      ],
+      "review_topic": "Separate consistency from usual asymptotic inference",
+      "review_instruction": "Begin a closed-note review with teach for O019; request an unused prepared delayed item before recap.",
+      "compatible_versions": [],
+      "lesson_path": "lessons/O019.md",
+      "title": "Separate consistency from usual asymptotic inference",
       "reassessment_requirement": null
     }
   ]
@@ -466,57 +752,52 @@
 
 ## Scope and coverage
 
-P003 reconciles completed ingestion revision2 with the preserved Week1 curriculum and executable Week2 contracts. Requested retention horizon remains null. Ready means the bounded supported capabilities below; it is not a claim that the semester syllabus or every advertised source is complete. Overall semester coverage remains partial: a complete Chapter11/asymptotic curriculum, missing board work/video, EET data/coding/causal design and current legal dates are outside the checked scope. Week1 course organizational ambiguities remain context. Supported finite-sample assumptions, FDL responses/precision and deterministic trend/seasonal comparisons are executable; their conditions do not automatically hold in data. No unsupported policy estimate or universal detrending guarantee is introduced.
+All supported checked Week1 OLS theory/empirical seminar, Week2 time-series/FDL/trend/seasonal material and Week3 process/asymptotic material are prepared completely. O001–O013 retain their earlier assessment contracts and now embed full relevant explanations; O014–O019 add stationarity/weak dependence, MA(1), stable AR(1), random walks/integration, consistency and usual inference.
 
-Completion provenance: [[03_Agents/runtime/ingest/logs/20261007T122546+0200_week2_courses.md]], [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/ingestion_state.json]]. Prior successful Week1 pass remains linked in the manifest. Planning consumed finished notes and required assets only; it did not inspect raw materials, alter notes, grade answers or schedule reviews.
+The [ingestion state](ingestion_state.json) complete revision3 is committed under `INGEST-20261018-ECOX-R3-COMPLETE`. The [current pass](../../../runtime/ingest/logs/20261018T195113+0200_weeks1-3_five_courses.md) explicitly certifies this course independently, even if its other-course sections remain in progress. Linked earlier checked passes establish preserved prior coverage; current source/note identities match their recorded bounds. [Manifest](source_manifest.md) maps exact checked headings/fingerprints to all lessons.
 
-| Finished input | Objective mapping | Selected coverage |
-|---|---|---|
-| [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Econometrics_II_main.md]] | O001, O002, O003, O004, O005, O006, O007, O008, O009, O010, O011, O012, O013 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Course_Organization_and_Source_Discrepancies.md]] | O001 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/OLS_Estimator_and_Assumptions.md]] | O002, O003, O004, O005, O006, O007, O008 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Transport_Demand_Regression_Seminar.md]] | O006, O007, O008 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_1/Unbiasedness_Consistency_and_Efficiency.md]] | O003, O004, O005 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Static_and_Finite_Distributed_Lag_Models.md]] | O011 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Time_Series_OLS_and_Strict_Exogeneity.md]] | O009, O010 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-| [[01_Notes/2026_2027/Winter_Semester/Econometrics_II/Week_2/Trends_Detrending_and_Seasonality.md]] | O012, O013 | All actual headings indexed in manifest; organization/source lists are context, not factual recall targets |
-
-All current Markdown course candidates are inventoried above. Summary/source headings are synthesis/provenance, not separate capabilities. The hub supplies context and source boundaries; changed historical dates, scores or policy amounts are not memorisation targets.
+Formal DF/ADF regressions/critical values, Chapter12 robust procedures, the full textbook, optional1994 proof chapter, external videos and later semester methods remain excluded. Plots/histograms are illustrative, not formal tests; administrative deadline/grade discrepancies and source assumption numbering remain explicit. The retention horizon is null unless the preserved metadata explicitly says otherwise. No whole-syllabus/exam completeness, learner result, mastery or review date is inferred.
 
 ## Teaching sequence
 
-| Order | Objective and lesson | Prerequisites | Status |
+| Order | Objective / exact lesson | Necessary prerequisites | Status |
 |---|---|---|---|
-| 1 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O001.md#Outcome and conditions|O001 Use course requirements while preserving unresolved source details]] | none; exact diagnostic and reason in lesson | ready |
-| 2 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O002.md#Outcome and conditions|O002 Derive and interpret scalar and matrix OLS]] | none; exact diagnostic and reason in lesson | ready |
-| 3 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O003.md#Outcome and conditions|O003 Derive conditional and unconditional OLS unbiasedness]] | O002; exact diagnostic and reason in lesson | ready |
-| 4 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O004.md#Outcome and conditions|O004 Derive consistency and distinguish it from unbiasedness]] | O002; exact diagnostic and reason in lesson | ready |
-| 5 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O005.md#Outcome and conditions|O005 Apply BLUE and classical inference with their stated conditions]] | O003, O004; exact diagnostic and reason in lesson | ready |
-| 6 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O006.md#Outcome and conditions|O006 Complete and critique the ten-city regression calculation]] | O002, O005; exact diagnostic and reason in lesson | ready |
-| 7 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O008.md#Outcome and conditions|O008 Calculate residual diagnostics and bound their conclusions]] | O002, O005; exact diagnostic and reason in lesson | ready |
-| 8 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O007.md#Outcome and conditions|O007 Compare conditional models and write a bounded empirical report]] | O002, O006, O008; exact diagnostic and reason in lesson | ready |
-| 9 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O009.md#Outcome and conditions|O009 Derive time-series OLS unbiasedness and diagnose feedback against strict exogeneity]] | O002; exact diagnostic and reason in lesson | ready |
-| 10 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O010.md#Outcome and conditions|O010 Apply the time-series variance and exact-inference assumption ladder]] | O009; exact diagnostic and reason in lesson | ready |
-| 11 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O011.md#Outcome and conditions|O011 Derive finite distributed lag responses and interpret long-run precision]] | O009; exact diagnostic and reason in lesson | ready |
-| 12 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O012.md#Outcome and conditions|O012 Residualise common trends consistently and distinguish fitted comparisons]] | O002; exact diagnostic and reason in lesson | ready |
-| 13 | [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/lessons/O013.md#Outcome and conditions|O013 Specify seasonal controls and preserve comparison and inference bookkeeping]] | O012; exact diagnostic and reason in lesson | ready |
+| 1 | [O001 — Use course requirements while preserving unresolved source details](lessons/O001.md#outcome-and-conditions) | Prepared entry diagnostic | ready |
+| 2 | [O002 — Derive and interpret scalar and matrix OLS](lessons/O002.md#outcome-and-conditions) | Prepared entry diagnostic | ready |
+| 3 | [O003 — Derive conditional and unconditional OLS unbiasedness](lessons/O003.md#outcome-and-conditions) | O002 | ready |
+| 4 | [O004 — Derive consistency and distinguish it from unbiasedness](lessons/O004.md#outcome-and-conditions) | O002 | ready |
+| 5 | [O005 — Apply BLUE and classical inference with their stated conditions](lessons/O005.md#outcome-and-conditions) | O003, O004 | ready |
+| 6 | [O006 — Complete and critique the ten-city regression calculation](lessons/O006.md#outcome-and-conditions) | O002, O005 | ready |
+| 7 | [O008 — Calculate residual diagnostics and bound their conclusions](lessons/O008.md#outcome-and-conditions) | O002, O005 | ready |
+| 8 | [O007 — Compare conditional models and write a bounded empirical report](lessons/O007.md#outcome-and-conditions) | O002, O006, O008 | ready |
+| 9 | [O009 — Derive time-series OLS unbiasedness and diagnose feedback against strict exogeneity](lessons/O009.md#outcome-and-conditions) | O002 | ready |
+| 10 | [O010 — Apply the time-series variance and exact-inference assumption ladder](lessons/O010.md#outcome-and-conditions) | O009 | ready |
+| 11 | [O011 — Derive finite distributed lag responses and interpret long-run precision](lessons/O011.md#outcome-and-conditions) | O009 | ready |
+| 12 | [O012 — Residualise common trends consistently and distinguish fitted comparisons](lessons/O012.md#outcome-and-conditions) | O002 | ready |
+| 13 | [O013 — Specify seasonal controls and preserve comparison and inference bookkeeping](lessons/O013.md#outcome-and-conditions) | O012 | ready |
+| 14 | [O014 — Distinguish stationarity from weak dependence and limit-theorem roles](lessons/O014.md#outcome-and-conditions) | O009 | ready |
+| 15 | [O015 — Derive MA(1) moments and finite-reach dependence](lessons/O015.md#outcome-and-conditions) | O014 | ready |
+| 16 | [O016 — Derive stable AR(1) moments, forecasts and initialization limits](lessons/O016.md#outcome-and-conditions) | O014, O015 | ready |
+| 17 | [O017 — Distinguish random walks, integration and deterministic trend removal](lessons/O017.md#outcome-and-conditions) | O016, O012 | ready |
+| 18 | [O018 — Derive time-series OLS consistency under contemporaneous exogeneity](lessons/O018.md#outcome-and-conditions) | O002, O009, O014 | ready |
+| 19 | [O019 — Separate consistency from usual asymptotic inference](lessons/O019.md#outcome-and-conditions) | O018, O010, O017 | ready |
 
-Week1 dependencies and full contracts remain intact. New Week2 dependencies are local reasons defined with keyed diagnostics in each lesson. The graph is acyclic and dependencies precede their dependants. Normal route: explanation → W1 → S1 → I1/I2. Known adequate prerequisites may skip diagnostics/support; they never waive independent acquisition checks.
+OLS algebra precedes estimator properties and empirical reporting. Time ordering/exogeneity and covariance arguments precede FDL/trend methods. Week3 then builds process regularity, moving-average and autoregressive examples, persistence/transformations, normalized OLS consistency and the additional inference ladder. Every dependency precedes its dependent, with no cycles or unsupported prerequisite. Independent branches may be reordered; skipping support requires actual current or explicitly compatible evidence. Each ready block includes the full needed explanation, examples/assets, diagnostic and repair, fading practice, two immediate and two delayed full forms, complete keys/components and stopping rules.
 
 ## Execution and assessment contract
 
-Every ready lesson supplies explanations, steps, worked/support tasks, two distinct immediate and two delayed full checks with keys, rubrics, condition limits and fresh narrow corrections. Each full check covers the entire capability; every allowed acquisition route therefore assesses all components. Delayed retrieval requires a fresh item and at least 24 actual elapsed hours under its explicit exposure rule. Teach records evidence; recall alone chooses due dates. Neither confidence nor plan readiness establishes learner mastery.
+This substantive revision adopts `self-contained-lessons-v1`, [[03_Agents/references/LESSON_CONTENT.md]]. Teach delivers complete embedded explanations and figures without requiring original-note retrieval. Earlier named item IDs/versions, all permitted acquisition pairs, criteria, tools/assistance and delayed conditions are preserved. Complete-note reuse and formula typesetting do not reduce or silently expand scoring criteria. New objectives use fully keyed W1/S1/I1/I2/D1/D2 forms. Every full form covers every listed component and every permitted pair therefore covers them twice. Diagnostics, worked/support and narrow corrections are never substitutes. Only the explicitly named prepared full forms can count as evidence; extra verified explanation/practice may support the same method.
+
+Delayed retrieval follows each explicit preserved lesson contract: O001–O008 require at least24 actual elapsed hours since qualifying acquisition, fresh/unassisted performance before recap and recorded intervening study; this revision does not add a new latest-exposure clock to those unchanged criteria. O009–O013 retain their stricter acquisition-and-most-recent-relevant-exposure condition. New O014–O019 use that explicitly stated stricter condition. A midnight date change alone never qualifies. Unknown conditions are unscorable for independence. Teach alone records actual outcomes; recall alone schedules from committed evidence.
 
 ## Revisions and evidence compatibility
 
-P003/V002/ingestion2 adds the Week2 objectives and note/asset fingerprints. O002–O008 retain their actual revisions and criterion definitions. O001 is revision2/O001-C2 because its current coverage distinction now includes Week2; exact old evidence requires the explicit current prepared reassessment defined in its metadata. Week1 academic note bytes are unchanged; the hub adds Week2 relationships only. Each unchanged O002–O008 objective carries explicit exact compatible old tuples from P001 plus its actual P002 tuple, with justification. New objectives have no compatible old evidence. No IDs were retired, split or recycled; no existing answer was regraded and no new learner outcome or reassessment completion was fabricated. O001’s stable requirement defines needed evidence rather than asserting it exists.
-
-The complete replaced P002 plan, manifest and lessons are stored byte-for-byte in [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/learning_plan.md]] and [[03_Agents/2026_2027/Winter_Semester/Econometrics_II/curriculum_history/P002/source_manifest.md]], with every former lesson in the same archive. Older P001 history and all owner transaction journals remain immutable.
+The complete exact prior P003 bundle is preserved under [curriculum_history/P003/](curriculum_history/P003/learning_plan.md); all earlier history remains untouched. Earlier stable IDs are retained, with objective revision incremented for full-content teaching preparation. Criterion/item contracts, essential components, accepted reasoning and conditions remain unchanged after semantic inspection. The index and lessons list all previously approved exact compatible tuples plus the exact immediately preceding active tuple. No wildcard compatibility, automatic regrading or fictional acquisition is introduced. New IDs have revision1/C1, no old compatible tuple and require their own actual acquisition evidence. No objective is retired/split/merged/recycled. Existing named gates remain binding. In particular, O001 retains ECOX-O001-C2-P003-SCOPE: old O001-C1 evidence is excluded; the active gate and exact historical target/satisfaction compatibility are identical in this index and lesson metadata. Two fresh full C2 passes plus a matching committed reassessment_met event are required unless genuine satisfaction at the exact compatible historical C2 tuple is already verified. No new extra gate or learner result is inferred from the unchanged criterion; genuinely new capabilities cannot borrow old results. New note support is the checked bounded Wooldridge5th-edition §11.1–11.3 passages and author FPP3 §9.1 citations already recorded by ingest. Stable AR moments require stationary initialization; random initial values retain their own variance; zero correlation alone is not a general CLT/independence assumption. Earlier note academic bytes remain unchanged.
 
 ## Validation and readiness
 
-The active metadata tuple is PLAN-20261009-ECOX-P003 / P003 / V002 / ingestion2. Academic provenance comes from the linked independently checked ingestion. Curriculum review must verify final prompts/keys, all routes, dependencies, boundaries and history before integration; its actual result is recorded in the recovery session. After records.py atomic commit, verify this journal against active plan, manifest and every ready indexed lesson; state must remain complete at revision2 with no pending transaction or lock. A draft or header alone does not confirm a commit.
+Owner checks current complete ingest journal, note/asset hashes, checked headings and manifest mappings, complete passage fidelity/figures, every assessment route/key/component, full dependency graph, prior snapshot bytes, and matching bundle metadata. New hypothetical solutions are recomputed from the embedded identities. A separate independent curriculum checker must inspect final content and resolve findings before atomic publication; see final review appendix. After publication run records.py verify for plan/manifest and each ready indexed lesson, and verify ingest state separately. Vault baseline has nine pre-existing absent empty course mirrors only.
 
-## Handoffs and remaining boundaries
+## Final independent curriculum review
 
-Teach may execute the requested ready objective using its indexed lesson after freshness/journal checks. Academic contradictions return to ingest; missing prepared alternatives/keys return to plan. Recall consumes actual committed learner evidence and exact compatibility mappings, with answer-free labels only. Overall semester coverage remains partial: a complete Chapter11/asymptotic curriculum, missing board work/video, EET data/coding/causal design and current legal dates are outside the checked scope. Week1 course organizational ambiguities remain context. Supported finite-sample assumptions, FDL responses/precision and deterministic trend/seasonal comparisons are executable; their conditions do not automatically hold in data. No unsupported policy estimate or universal detrending guarantee is introduced.
+Fresh independent reviewer `/root/ecox_curriculum_check`, requested `uni_curriculum_checker` profile `gpt-6-astra/high` (runtime identity/settings not independently attested here), returned **no unresolved material findings** on the final repaired intent `9879675d6d5f8bc116082af705f8fc97c7516a2a0125a06c78e6cb18db1dd764`. It reviewed all19 lesson bodies, every prepared key/rubric and114 permitted acquisition pairs, complete-note reuse/support and compatibility; no mathematical/key/support findings remained. Three reported issues were repaired and rechecked: the inherited O001-C2 reassessment gate now matches the current tuple and exact historical-satisfaction rules in index and lesson; the plan timing summary preserves differing old contracts; O001’s retained C2 bank explicitly uses historical P003 scope while P004 Week3 teaching is separate context. All15 archived P003 files remain byte-identical and all23 fingerprints remain unchanged. This factual appendix changes no reviewed academic content, assessment rule or evidence. Atomic publication and per-indexed-lesson transaction verification remain owner tasks.

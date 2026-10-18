@@ -1,0 +1,67 @@
+{
+  "candidate_digest": "0d7a8ac37eea34a8367a6358cf2aaa646f4c77c2e3147dfcad2b888c55a76c9b",
+  "candidate_path": "/private/tmp/week3-ingest-html/Financial_Markets_Instruments_I/candidate-p005-final2",
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "evidence": [
+    {
+      "checked": "Compared snapshot source sections, checked finished notes, prepared lessons/keys, coverage map, draft and every final lesson page. No raw course sources, learner logs or unrelated course academic content were audited.",
+      "scope": "Full bounded Weeks 1–3, O001–O019, P005/V003/ingestion3"
+    },
+    {
+      "coverage": "All 341 snapshot source units accounted for: 278 included; 63 operational omissions comprise teaching order/rationale, advance/revisit routing, answer-free recall handoff and record metadata. Complete relevant academic explanations, conditions, derivations, worked examples, misconceptions and criteria remain available."
+    },
+    {
+      "transformation_review": "Independently checked the 371 scoped math maps, retained compact-span rewrites, eight complete-token context maps and all 134 newly applied whole-paragraph repairs against exact current source passages. No material change in quantities, signs, mathematical meaning, assumptions, currency scale or economic interpretation. Fixed N and q, E/R alternative buyer/seller flows, pre-funding A^- assignments and full USD/EUR division are correct. P005 B_T=0 notation remains consistent with the checked convergence explanation."
+    },
+    {
+      "math": "All 3190 delimited inline/display math expressions in the final draft parse using its bundled KaTeX with throwOnError enabled; zero parse errors. Checked mathematical semantic fidelity across all objectives, including simple versus compound rates, time fractions, coupon reinvestment, funding, unit multipliers and source-error disclosures. Prior malformed currency/table and split-superscript findings are resolved. Literal money amounts, grade ranges, dates, item IDs and source day-count labels may remain ordinary prose."
+    },
+    {
+      "practice": "95 prepared reflection widgets preserve named source items and complete solutions/rubrics. The additional illustrative carry question correctly gives 103 = 100(1+0.06×0.5), under its explicit reversible two-sided no-income/no-storage model assumptions; tolerance is 1e-6. Practice/exposure limitations remain explicit; no assessed learner evidence is claimed."
+    },
+    {
+      "figures_and_assets": "All 21 checked PNG figures and five rendered SVG concept diagrams are included and used. Figure bytes and SVG relationships remain unchanged from the independently inspected academic candidate; captions and explanatory qualifications are retained. Reviewed custom reading script: sidebar visibility only, with no academic computation or learner-evidence claims."
+    },
+    {
+      "mapping_and_links": "All 19 objective/week/dependency mappings agree with the snapshot. Independently matched 121 rendered checked-note references: no heading target differs from its coverage mapping. Full-note references route to the relevant complete lesson context, including margin mechanics in O003, basis/hedging in O007, bond delivery in O012 and repo in O013. Rewritten local prerequisite links remain within exported lessons."
+    },
+    {
+      "integrity": "Manifest file hashes and current snapshot input hashes match. Every draft section, question prompt and solution occurs in its final HTML page. course.py check passes for this exact digest. Academic source fingerprint is dcc1953c1dee88982508354f757fd24beaec358ac83af6405f8855037a4e2bc3."
+    },
+    {
+      "boundary": "This is academic conversion approval for the exact named candidate digest. Separate final-byte desktop/compact/browser/offline interaction QA remains the owner’s publication gate. Bounded readiness does not certify a complete syllabus or learner mastery."
+    }
+  ],
+  "findings": [],
+  "kind": "academic",
+  "objective_ids": [
+    "O001",
+    "O002",
+    "O003",
+    "O004",
+    "O005",
+    "O006",
+    "O007",
+    "O008",
+    "O009",
+    "O010",
+    "O011",
+    "O012",
+    "O013",
+    "O014",
+    "O015",
+    "O016",
+    "O017",
+    "O018",
+    "O019"
+  ],
+  "reviewer": "/root/fmi_html_review",
+  "source_fingerprint": "dcc1953c1dee88982508354f757fd24beaec358ac83af6405f8855037a4e2bc3",
+  "status": "passed",
+  "tuple": {
+    "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+    "ingestion_revision": 3,
+    "plan_version": "P005",
+    "source_version": "V003"
+  }
+}

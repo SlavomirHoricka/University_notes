@@ -1,0 +1,32 @@
+{
+  "candidate_digest": "9469a23d096f2d7275fe5b72f2b5c4da427e8390eb070e7f212e7cc6e1e9a429",
+  "checks": {
+    "compact": true,
+    "desktop": true,
+    "interactions": true,
+    "links": true,
+    "math": true,
+    "offline_dependencies": true
+  },
+  "evidence": {
+    "external_requests": [],
+    "image_instances": 52,
+    "inspection": "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/qa-final3/inspection.json",
+    "inspection_sha256": "43016934d4c151270b33f1103ac1ded04616c2bfdaff9a923e0882d49846feb4",
+    "javascript_resource_math_errors": [],
+    "method": "Direct file://, isolated temporary Chrome profile; every contents/lesson page checked at 1440 and 390px; local dependency paths independently checked by course.py. Written entry and solution reveal checked; numeric empty/wrong/correct cases and slope/reset/SSE checked wherever present. Saved screenshots visually inspected by owner before this report.",
+    "pages": 21,
+    "rendered_math_instances": 2239,
+    "screenshots": [
+      "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/qa-final3/compact-math.png",
+      "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/qa-final3/compact.png",
+      "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/qa-final3/desktop.png",
+      "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/qa-final3/figure.png",
+      "/private/tmp/week3-ingest-html/Economics_of_Green_Deal/qa-final3/math.png"
+    ]
+  },
+  "findings": [],
+  "kind": "browser",
+  "reviewer": "/root; isolated Chrome via Playwright, with direct visual inspection of saved desktop/compact/math/figure screenshots",
+  "status": "passed"
+}

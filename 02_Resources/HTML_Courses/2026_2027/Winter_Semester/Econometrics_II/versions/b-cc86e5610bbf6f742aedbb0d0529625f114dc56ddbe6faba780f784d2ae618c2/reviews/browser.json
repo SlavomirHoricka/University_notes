@@ -1,0 +1,48 @@
+{
+  "candidate_digest": "cc86e5610bbf6f742aedbb0d0529625f114dc56ddbe6faba780f784d2ae618c2",
+  "checks": {
+    "compact": true,
+    "desktop": true,
+    "interactions": true,
+    "links": true,
+    "math": true,
+    "offline_dependencies": true
+  },
+  "evidence": {
+    "external_requests": [],
+    "image_instances": 20,
+    "inspection": "/private/tmp/week3-ingest-html/Econometrics_II/qa-final2/inspection.json",
+    "inspection_sha256": "acddcf3798bc28af9072eea9d2674274c7b71756377d54837e468a112e8c93a8",
+    "javascript_resource_math_errors": [],
+    "method": "Direct file://, isolated temporary Chrome profile; every contents/lesson page checked at 1440 and 390px; local dependency paths independently checked by course.py. Written entry and solution reveal checked; numeric empty/wrong/correct cases and slope/reset/SSE checked wherever present. Saved screenshots visually inspected by owner before this report.",
+    "pages": 21,
+    "rendered_math_instances": 3601,
+    "screenshots": [
+      "/private/tmp/week3-ingest-html/Econometrics_II/qa-final2/compact-math.png",
+      "/private/tmp/week3-ingest-html/Econometrics_II/qa-final2/compact.png",
+      "/private/tmp/week3-ingest-html/Econometrics_II/qa-final2/desktop.png",
+      "/private/tmp/week3-ingest-html/Econometrics_II/qa-final2/explorer-compact.png",
+      "/private/tmp/week3-ingest-html/Econometrics_II/qa-final2/explorer.png",
+      "/private/tmp/week3-ingest-html/Econometrics_II/qa-final2/figure.png",
+      "/private/tmp/week3-ingest-html/Econometrics_II/qa-final2/math.png",
+      "/private/tmp/week3-ingest-html/Econometrics_II/qa-final2/numeric-feedback.png"
+    ],
+    "visual_pixel_carryforward": {
+      "method": "All eight final2 PNG byte hashes exactly match the final1 screenshots already visually inspected by owner, including desktop, compact, math, compact-math, figure, explorer, compact explorer and numeric feedback. Final2 all-page browser checks independently rerun.",
+      "png_sha256": {
+        "compact-math.png": "ae607107f2b2a4094879a2fd9c2fa25203eb638733aca88d199b6dc9650a89d0",
+        "compact.png": "a0d280efa54688dedf60335a9264e99af17a0571a6fdc27838dd60692baea46d",
+        "desktop.png": "951877a51a16aad54389188a9d1824e5200df7b47d73b83a5f546e19c3e38d19",
+        "explorer-compact.png": "3f4ee42fadde71a8896a17e880c0089b52ad57d081f85fa348243b5ef95b4116",
+        "explorer.png": "6cd4a81927e46f5892068a3765e0ed9122c8a0c86ab80ba868bd5b6d7ce7f549",
+        "figure.png": "2b9654271c94e1f998a3860f134e56303c4c346e9eab1f330d25ab55876cd5c1",
+        "math.png": "decb18e7bcbf3acd51bb4efc2734586012f2443cf37310dab66f357e54bb0a69",
+        "numeric-feedback.png": "6cd4a81927e46f5892068a3765e0ed9122c8a0c86ab80ba868bd5b6d7ce7f549"
+      }
+    }
+  },
+  "findings": [],
+  "kind": "browser",
+  "reviewer": "/root; isolated Chrome via Playwright, with direct visual inspection of saved desktop/compact/math/figure screenshots",
+  "status": "passed"
+}

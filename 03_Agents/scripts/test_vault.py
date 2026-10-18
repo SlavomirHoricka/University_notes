@@ -50,4 +50,32 @@ class VaultTests(unittest.TestCase):
         self.assertEqual(a['agent_missing_links'],[])
         self.assertEqual(a['markdown_link_issues'],[{'file':'03_Agents/history/README.md','line':2,'target':'missing.md'}])
 
+    def test_curriculum_versions_preserve_navigation_without_live_snapshot_checks(self):
+        base='03_Agents/2026_2027/Winter_Semester/Course'
+        self.put(base+'/curriculum_history/P004/lessons/O015.md',
+                 '[Old equation](1000)\n[[Historical_missing_target]]\n')
+        self.put(base+'/curriculum_history/README.md',
+                 '[Snapshot](P004/lessons/O015.md)\n[Missing](missing.md)\n')
+        self.put(base+'/lessons/O015.md','# Current\n[Active failure](missing.md)\n')
+        self.put('03_Agents/README.md','[[O015]]\n[Archived lesson]('
+                 '2026_2027/Winter_Semester/Course/curriculum_history/P004/lessons/O015.md)\n')
+        a=m.audit(self.root)
+        self.assertEqual(a['agent_missing_links'],[])
+        self.assertEqual(a['ambiguous_links'],[])
+        self.assertEqual(a['markdown_link_issues'],[
+            {'file':base+'/curriculum_history/README.md','line':2,'target':'missing.md'},
+            {'file':base+'/lessons/O015.md','line':2,'target':'missing.md'}])
+
+    def test_nonversion_and_noncourse_paths_stay_live(self):
+        paths=[
+            '03_Agents/2026_2027/Winter_Semester/Course/curriculum_history/draft/Note.md',
+            '03_Agents/runtime/sessions/Case/curriculum_history/P004/Note.md',
+            '03_Agents/2026_2027/runtime/Case/curriculum_history/P004/Note.md',
+            '03_Agents/2026_2027/Not_A_Semester/Course/curriculum_history/P004/Note.md']
+        for p in paths:
+            self.put(p,'[Live failure](missing.md)\n')
+        a=m.audit(self.root)
+        self.assertEqual(a['markdown_link_issues'],[
+            {'file':p,'line':1,'target':'missing.md'} for p in sorted(paths)])
+
 if __name__=='__main__':unittest.main()

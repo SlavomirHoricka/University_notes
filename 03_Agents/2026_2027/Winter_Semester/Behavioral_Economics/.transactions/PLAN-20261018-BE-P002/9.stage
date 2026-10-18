@@ -1,0 +1,215 @@
+# O008 — Use course requirements and recognize exam-scope boundaries
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+  "transaction_id": "T-behavioral-P001-996094373cfe4e4e981b4b2d031dd053",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 2,
+  "objective_id": "O008",
+  "objective_revision": 1,
+  "criterion_version": "O008-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "interpretation"
+  ],
+  "prerequisite_ids": [],
+  "compatible_versions": [],
+  "note_locations": [
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md#Teaching and preparation",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md#Assessment format and dates",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md#Boundary of the Week 1 notes",
+    "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md#Added social-preferences presentation and current Week 1 scope"
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "required_item_ids": [
+      "O008-I1",
+      "O008-I2"
+    ],
+    "substitutions": []
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true,
+    "available_item_ids": [
+      "O008-D1",
+      "O008-D2"
+    ],
+    "interval_anchor": "later of qualifying acquisition and most recent relevant teaching, feedback or known solution exposure"
+  },
+  "review_topic": "Behavioral Economics — Use course requirements and recognize exam-scope boundaries",
+  "review_instruction": "Begin a closed-note review with teach for O008; request an unused prepared delayed item before recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Use the supplied requirements to assess a hypothetical preparation choice and retrieve the administrative facts, while preserving documentary uncertainty and the plan’s content boundary.
+
+- **R1**: Reconstruct supplied course identity, teaching/preparation/prerequisite and appointment information with its documentary scope.
+- **R2**: Apply exam format, scoring, tool restrictions and integrity declaration accurately.
+- **R3**: Distinguish four offered slots from three attempts; retrieve dates/times/room, booking limits, printed grade bands and absent rounding rule.
+- **R4**: Separate completed expanded Week 1 learning from later syllabus/sample exam orientation, absent answer keys/polls and conditional misperceptions; avoid claiming a personal deadline or full exam readiness.
+
+Finished-note locations:
+
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md#Teaching and preparation]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md#Assessment format and dates]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md#Boundary of the Week 1 notes]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Course_Organization_and_Exam.md#Added social-preferences presentation and current Week 1 scope]]
+
+Use P001/V001/ingest 2 and O008-C1, objective revision 1. Supported instruction can use this block and linked notes. Independent acquisition and delayed attempts are closed note, with blank paper and pen only; no calculator, device, AI, hint or key exposure. Present only the question before the learner responds; keys remain teacher-side. Unknown help/access is unscorable for independence. Hypothetical inputs instantiate supported mechanisms and are not empirical findings.
+
+## Prerequisites and checks
+
+No prior course objective is required; the focused foundational diagnostic below establishes only entry conditions.
+
+No upstream curriculum objective required. O008-P1 v1 source-reading check: “A document lists an exam date, but a learner has not chosen an attempt. Does the list itself establish that learner’s personal deadline?” Key: no; an offered slot differs from a chosen deadline. Pass requires the distinction; partial if no without explanation; fail if the deadline is assumed. Repair Explanation steps 1 and 4. This check never grants acquisition.
+
+Entry checks have item version v1, and pass/partial/fail plus repair routes above. Their exact limited outcomes do not certify the upstream objective. A waiver requires actual committed compatible evidence, never familiarity or assumed mastery. If a diagnostic fails, use its named prepared explanation and support before continuing; do not cycle through full upstream independent items just to diagnose.
+
+## Teaching order and rationale
+
+1. Retrieve [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O008.md#Motivation, intuition, and definitions]] and ask why the comparison matters. Introduce notation and boundaries before calculation.
+2. Use [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O008.md#Explanation steps]] in numbered order; each step supplies a dependency for the next.
+3. Show [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O008.md#Worked example]] once, exposing reasoning and checks.
+4. Ask O008-S1 in [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O008.md#Practice with fading assistance]]; let the learner fill missing steps, then reduce assistance only after an actual adequate response.
+5. Ask unused O008-I1 then O008-I2 separately. Score before feedback; any help makes that attempt supported.
+6. If the response shows a gap, use [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O008.md#Misconceptions and correction]] and fresh C1 as repair. Return to an unused full acquisition item only if available; otherwise escalate.
+7. After qualifying acquisition, recall may schedule a real interval; teach starts an unused D1 or D2 before any recap and checks elapsed time/exposure.
+
+Known prerequisite evidence skips only its diagnostic/support. Full current-objective checks remain required. Two parallel numeric cases demonstrate this bounded outcome, not generalized mastery of untaught models.
+
+## Motivation, intuition, and definitions
+
+Course information describes the uploaded documents. Its purpose is to prevent preparation under incompatible exam conditions and to keep the boundary of available content visible. A listed date is an option rather than the learner’s chosen deadline; document facts do not prove current availability or full exam coverage.
+
+Visual support:
+
+No visual asset is necessary for this objective; use the explicit equations, labels and reasoning prepared here.
+
+## Explanation steps
+
+1. Identify the course and its conventional prerequisite, then reproduce the theory–evidence–application study sequence and supplied appointment information. The documents describe schedules, without a live availability check.
+2. Distinguish assessment format from preparation tools. Supported practice can use notes, but independent checks mirror the supplied closed-book restriction with only blank paper and pens. Exactly one correct multiple-choice option differs from multiple-response selection; open text requires reasoning. No negative points does not invent a partial-credit policy. Refusing the integrity declaration prevents evaluation and is F.
+3. Read the dates as offered slots. The exam lasts 80 minutes, maximum 100 points, at most three attempts despite four slots; registration and deregistration have separate 48/24-hour limits. Printed grade ranges leave finer fractions and rounding unspecified. Do not fill those gaps or schedule an attempt.
+4. Separate the original introduction from the expanded social-preferences collection. Later syllabus/sample topics identify future scope; they do not supply an answer key, formal later models or discrimination/intergroup-contact readings. Current social-preference concepts are supported without making every sample question ready. Misperceptions has a SIS condition absent from the syllabus. No exported poll responses exist.
+5. This first plan has an unknown personal deadline (null) and partial whole-semester coverage. Any chosen exam/timing constraint needs explicit user evidence; later academic material goes to ingest before curriculum expansion.
+
+## Worked example
+
+### O008-W1 — Reading an orientation record
+
+Item version: v1. Role: worked instruction.
+
+**Setup:** A hypothetical learner reads four exam slots and proposes four attempts, a calculator and treating the example exam as a complete keyed syllabus. Reconstruct the full administrative facts and content boundary.
+
+**Worked reasoning and result:** The supplied documents identify Behavioral Economics JEB147, taught in person by Michal Bauer and Julie Chytilová, with Microeconomics I JEB104 as prerequisite. Preparation combines theory/intuition, experimental evidence and applications; slides are posted in SIS and papers are strongly encouraged. Bauer’s syllabus office is 402 with Friday 11:00–11:45; Chytilová’s is 410 with Friday 10:30–11:45. Email first; the introduction also says Bauer appointments can be arranged by email. These are supplied descriptions, not live availability. The grade is based on the written final: maximum 100 points, 80 minutes, one-correct-answer multiple choice and open-ended text, no negative points for incorrect answers. It is closed book: supporting materials, devices, calculators and AI tools prohibited; blank paper and pens allowed. Integrity-declaration agreement is required for evaluation; refusal is F. Listed exam slots are Dec 16, 2026 08:00–09:20; Jan 15, 2027 09:30–10:50; Jan 29, 2027 09:30–10:50; Feb 5, 2027 09:30–10:50, all room 109. Four slots do not allow four attempts: maximum three. Register at least 48 hours before, deregister at least 24 hours before. Printed bands: A 90.1–100, B 80.1–90, C 70.1–80, D 60.1–70, E 50.1–60, F 0–50; rounding and finer fractional gaps are unspecified. No personal deadline, chosen attempt or live SIS confirmation is established. Expanded Week 1 includes the introduction and completed social-preferences material; later syllabus topics/bibliographies are orientation. Misperceptions is conditional “if time allows” in SIS but unqualified in syllabus. Sample exam questions include inequality aversion, trust, ultimatum, statistical discrimination, discrimination-model comparisons and intergroup contact referring to Corno et al. (2022); the sample has no supplied answer key. Some social-preference concepts now have teaching notes, but discrimination/intergroup-contact readings and later-topic formal models/evidence remain outside this plan. Empty classroom polls are not results; this plan does not establish full-syllabus/exam readiness. The proposal conflicts with three-attempt and calculator restrictions and invents a supplied complete keyed syllabus.
+
+**Checks and interpretation:** Verify labels, active conditions, dimensions/signs where applicable and every source limitation before inferring a choice. This example is exposed instruction and cannot establish independence.
+
+## Practice with fading assistance
+
+### O008-S1 — Complete a preparation checklist
+
+Item version: v1. Role: supported completion. Required components: R1, R2, R3, R4.
+
+**Question:** A hypothetical learner plans to bring blank paper, register 47 hours before, and use printed grade bands to assign a score between two printed ranges. From memory, reconstruct course identity, instructors, prerequisite, teaching/preparation and supplied appointment descriptions; exam scoring/format/tools/integrity rules; all offered dates/times/room, attempt and registration/deregistration limits; printed grade bands and rounding uncertainty. Distinguish the expanded Week 1 scope from syllabus orientation and unanswered sample exam topics, including conditional misperceptions and absent poll results. Do not select a personal exam date or claim live verification. Hint 1: separate permissions from timing. Hint 2: preserve an unspecified rule as unknown.
+
+**Key:** The supplied documents identify Behavioral Economics JEB147, taught in person by Michal Bauer and Julie Chytilová, with Microeconomics I JEB104 as prerequisite. Preparation combines theory/intuition, experimental evidence and applications; slides are posted in SIS and papers are strongly encouraged. Bauer’s syllabus office is 402 with Friday 11:00–11:45; Chytilová’s is 410 with Friday 10:30–11:45. Email first; the introduction also says Bauer appointments can be arranged by email. These are supplied descriptions, not live availability. The grade is based on the written final: maximum 100 points, 80 minutes, one-correct-answer multiple choice and open-ended text, no negative points for incorrect answers. It is closed book: supporting materials, devices, calculators and AI tools prohibited; blank paper and pens allowed. Integrity-declaration agreement is required for evaluation; refusal is F. Listed exam slots are Dec 16, 2026 08:00–09:20; Jan 15, 2027 09:30–10:50; Jan 29, 2027 09:30–10:50; Feb 5, 2027 09:30–10:50, all room 109. Four slots do not allow four attempts: maximum three. Register at least 48 hours before, deregister at least 24 hours before. Printed bands: A 90.1–100, B 80.1–90, C 70.1–80, D 60.1–70, E 50.1–60, F 0–50; rounding and finer fractional gaps are unspecified. No personal deadline, chosen attempt or live SIS confirmation is established. Expanded Week 1 includes the introduction and completed social-preferences material; later syllabus topics/bibliographies are orientation. Misperceptions is conditional “if time allows” in SIS but unqualified in syllabus. Sample exam questions include inequality aversion, trust, ultimatum, statistical discrimination, discrimination-model comparisons and intergroup contact referring to Corno et al. (2022); the sample has no supplied answer key. Some social-preference concepts now have teaching notes, but discrimination/intergroup-contact readings and later-topic formal models/evidence remain outside this plan. Empty classroom polls are not results; this plan does not establish full-syllabus/exam readiness. Blank paper is permitted; 47 hours fails the at-least-48-hour registration condition; the fractional-gap grade cannot be assigned from an absent rule.
+
+**Support and rubric:** Begin by letting the learner complete the specified steps using blank paper. Linked notes and up to two prepared hints are allowed here. Pass requires the essential component list with correct reasoning; partial means an incomplete component or isolated arithmetic slip, prompting the named repair; fail means a critical conceptual error. A correct supported answer permits fading help, never a claim of independent acquisition. After two ineffective hints show the needed step or pause.
+
+### O008-I1 — independent acquisition
+
+Item version: v1. Role: full_capability_check. Relation: `near_transfer`. Required components: R1, R2, R3, R4.
+
+**Question:** A hypothetical learner claims each wrong answer costs one point, the test lasts 100 minutes, and the January 15 slot starts at 08:00. Evaluate each claim. Then, from memory, reconstruct course identity, instructors, prerequisite, teaching/preparation and supplied appointment descriptions; exam scoring/format/tools/integrity rules; all offered dates/times/room, attempt and registration/deregistration limits; printed grade bands and rounding uncertainty. Distinguish the expanded Week 1 scope from syllabus orientation and unanswered sample exam topics, including conditional misperceptions and absent poll results. Do not select a personal exam date or claim live verification.
+
+**Key:** The supplied documents identify Behavioral Economics JEB147, taught in person by Michal Bauer and Julie Chytilová, with Microeconomics I JEB104 as prerequisite. Preparation combines theory/intuition, experimental evidence and applications; slides are posted in SIS and papers are strongly encouraged. Bauer’s syllabus office is 402 with Friday 11:00–11:45; Chytilová’s is 410 with Friday 10:30–11:45. Email first; the introduction also says Bauer appointments can be arranged by email. These are supplied descriptions, not live availability. The grade is based on the written final: maximum 100 points, 80 minutes, one-correct-answer multiple choice and open-ended text, no negative points for incorrect answers. It is closed book: supporting materials, devices, calculators and AI tools prohibited; blank paper and pens allowed. Integrity-declaration agreement is required for evaluation; refusal is F. Listed exam slots are Dec 16, 2026 08:00–09:20; Jan 15, 2027 09:30–10:50; Jan 29, 2027 09:30–10:50; Feb 5, 2027 09:30–10:50, all room 109. Four slots do not allow four attempts: maximum three. Register at least 48 hours before, deregister at least 24 hours before. Printed bands: A 90.1–100, B 80.1–90, C 70.1–80, D 60.1–70, E 50.1–60, F 0–50; rounding and finer fractional gaps are unspecified. No personal deadline, chosen attempt or live SIS confirmation is established. Expanded Week 1 includes the introduction and completed social-preferences material; later syllabus topics/bibliographies are orientation. Misperceptions is conditional “if time allows” in SIS but unqualified in syllabus. Sample exam questions include inequality aversion, trust, ultimatum, statistical discrimination, discrimination-model comparisons and intergroup contact referring to Corno et al. (2022); the sample has no supplied answer key. Some social-preference concepts now have teaching notes, but discrimination/intergroup-contact readings and later-topic formal models/evidence remain outside this plan. Empty classroom polls are not results; this plan does not establish full-syllabus/exam readiness. Incorrect answers have no negative points; the test lasts 80 minutes rather than 100; the January 15 slot starts at 09:30 rather than 08:00.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+### O008-I2 — independent acquisition
+
+Item version: v1. Role: full_capability_check. Relation: `near_transfer`. Required components: R1, R2, R3, R4.
+
+**Question:** A hypothetical learner plans to refuse the integrity declaration, bring an AI tool, register 46 hours before, and equate SIS office-hour listings with confirmed availability. Evaluate each proposal; then, from memory, reconstruct course identity, instructors, prerequisite, teaching/preparation and supplied appointment descriptions; exam scoring/format/tools/integrity rules; all offered dates/times/room, attempt and registration/deregistration limits; printed grade bands and rounding uncertainty. Distinguish the expanded Week 1 scope from syllabus orientation and unanswered sample exam topics, including conditional misperceptions and absent poll results. Do not select a personal exam date or claim live verification.
+
+**Key:** The supplied documents identify Behavioral Economics JEB147, taught in person by Michal Bauer and Julie Chytilová, with Microeconomics I JEB104 as prerequisite. Preparation combines theory/intuition, experimental evidence and applications; slides are posted in SIS and papers are strongly encouraged. Bauer’s syllabus office is 402 with Friday 11:00–11:45; Chytilová’s is 410 with Friday 10:30–11:45. Email first; the introduction also says Bauer appointments can be arranged by email. These are supplied descriptions, not live availability. The grade is based on the written final: maximum 100 points, 80 minutes, one-correct-answer multiple choice and open-ended text, no negative points for incorrect answers. It is closed book: supporting materials, devices, calculators and AI tools prohibited; blank paper and pens allowed. Integrity-declaration agreement is required for evaluation; refusal is F. Listed exam slots are Dec 16, 2026 08:00–09:20; Jan 15, 2027 09:30–10:50; Jan 29, 2027 09:30–10:50; Feb 5, 2027 09:30–10:50, all room 109. Four slots do not allow four attempts: maximum three. Register at least 48 hours before, deregister at least 24 hours before. Printed bands: A 90.1–100, B 80.1–90, C 70.1–80, D 60.1–70, E 50.1–60, F 0–50; rounding and finer fractional gaps are unspecified. No personal deadline, chosen attempt or live SIS confirmation is established. Expanded Week 1 includes the introduction and completed social-preferences material; later syllabus topics/bibliographies are orientation. Misperceptions is conditional “if time allows” in SIS but unqualified in syllabus. Sample exam questions include inequality aversion, trust, ultimatum, statistical discrimination, discrimination-model comparisons and intergroup contact referring to Corno et al. (2022); the sample has no supplied answer key. Some social-preference concepts now have teaching notes, but discrimination/intergroup-contact readings and later-topic formal models/evidence remain outside this plan. Empty classroom polls are not results; this plan does not establish full-syllabus/exam readiness. Refusal yields F; AI tools are prohibited; 46 hours fails registration timing; listed office hours do not confirm live availability.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Rubric and independence
+
+- **R1**: Reconstruct supplied course identity, teaching/preparation/prerequisite and appointment information with its documentary scope.
+- **R2**: Apply exam format, scoring, tool restrictions and integrity declaration accurately.
+- **R3**: Distinguish four offered slots from three attempts; retrieve dates/times/room, booking limits, printed grade bands and absent rounding rule.
+- **R4**: Separate completed expanded Week 1 learning from later syllabus/sample exam orientation, absent answer keys/polls and conditional misperceptions; avoid claiming a personal deadline or full exam readiness.
+
+Every I1, I2, D1, D2 and C1 question/key explicitly addresses all required components above. The sole acquisition route is two separate, distinct, fresh unassisted passes on I1 **and** I2 under the current criterion and compatible tuple. Worked/support/diagnostic/correction items and delayed items are not acquisition substitutes. No shorter question silently fills a missing component. The fixed practice inputs differ across W1/S1/I1/I2/D1/D2/C1; learning constants from the notes remain common where retrieval of those exact facts is the outcome.
+
+Pass: all essential components, necessary reasoning, assumptions and interpretation limits are present, with accurate outputs. Accept equivalent wording, correct alternative algebra and exact fractions or consistent rounding that preserves inequalities/ties. Partial: a missing component or isolated arithmetic/transcription slip with valid conceptual setup; score before explaining the repair and do not count this attempt as a pass. Fail: wrong regime/role/sign, invalid incentive logic, replacing utility with monetary sum, treating hypothetical or descriptive data as identified results, or dropping a stated condition that changes the conclusion. For the orientation objective, replacing a printed restriction with an invented rule is a critical error. Unscorable: ambiguous prompt interpretation outside the key, unknown assistance/access/exposure, or unavailable source tuple. No numeric point scale or mastery result is fabricated.
+
+An independent check is fresh only if neither its question nor key has already been exposed, including during earlier diagnostics or feedback. Teach records actual help/access conditions. Correct repetition of an exposed task cannot establish fresh independence. I1 and I2 are reserved for acquisition; D1/D2 are reserved for delayed retrieval.
+
+## Misconceptions and correction
+
+Signs: four dates converted into four attempts, study-tool permission carried into exam conditions, dates treated as personal deadlines, missing grade rule invented, or syllabus orientation called covered teaching. Correction: identify each document’s actual rule and distinguish offered slots, chosen timing and finished academic content. Hint 1: which field is actually supplied? Hint 2: which topic has a finished teaching note? C1 is repair only.
+
+A sign is a tentative hypothesis about the error until the learner’s reasoning supports it. Score the initial response before giving the corrective explanation or either hint. At most two ineffective hints, then show the specific prepared step or pause. After two unsuccessful full independent attempts, stop quizzing and use support/prerequisite repair; request new full variants from plan if needed.
+
+### O008-C1 — fresh correction only
+
+Item version: v1. Role: correction_repair. Relation: `near_transfer`. Required components: R1, R2, R3, R4.
+
+**Question:** Fresh repair: a hypothetical learner proposes supporting notes in the exam, same-day registration and full statistical-discrimination answers from the completed social-preferences deck. Evaluate these; then, from memory, reconstruct course identity, instructors, prerequisite, teaching/preparation and supplied appointment descriptions; exam scoring/format/tools/integrity rules; all offered dates/times/room, attempt and registration/deregistration limits; printed grade bands and rounding uncertainty. Distinguish the expanded Week 1 scope from syllabus orientation and unanswered sample exam topics, including conditional misperceptions and absent poll results. Do not select a personal exam date or claim live verification.
+
+**Key:** The supplied documents identify Behavioral Economics JEB147, taught in person by Michal Bauer and Julie Chytilová, with Microeconomics I JEB104 as prerequisite. Preparation combines theory/intuition, experimental evidence and applications; slides are posted in SIS and papers are strongly encouraged. Bauer’s syllabus office is 402 with Friday 11:00–11:45; Chytilová’s is 410 with Friday 10:30–11:45. Email first; the introduction also says Bauer appointments can be arranged by email. These are supplied descriptions, not live availability. The grade is based on the written final: maximum 100 points, 80 minutes, one-correct-answer multiple choice and open-ended text, no negative points for incorrect answers. It is closed book: supporting materials, devices, calculators and AI tools prohibited; blank paper and pens allowed. Integrity-declaration agreement is required for evaluation; refusal is F. Listed exam slots are Dec 16, 2026 08:00–09:20; Jan 15, 2027 09:30–10:50; Jan 29, 2027 09:30–10:50; Feb 5, 2027 09:30–10:50, all room 109. Four slots do not allow four attempts: maximum three. Register at least 48 hours before, deregister at least 24 hours before. Printed bands: A 90.1–100, B 80.1–90, C 70.1–80, D 60.1–70, E 50.1–60, F 0–50; rounding and finer fractional gaps are unspecified. No personal deadline, chosen attempt or live SIS confirmation is established. Expanded Week 1 includes the introduction and completed social-preferences material; later syllabus topics/bibliographies are orientation. Misperceptions is conditional “if time allows” in SIS but unqualified in syllabus. Sample exam questions include inequality aversion, trust, ultimatum, statistical discrimination, discrimination-model comparisons and intergroup contact referring to Corno et al. (2022); the sample has no supplied answer key. Some social-preference concepts now have teaching notes, but discrimination/intergroup-contact readings and later-topic formal models/evidence remain outside this plan. Empty classroom polls are not results; this plan does not establish full-syllabus/exam readiness. Supporting notes are prohibited, same-day registration misses the 48-hour rule, and the required discrimination readings are absent.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Immediate and delayed checks
+
+I1 and I2 are prepared above for immediate acquisition. Present each question without its key. Delayed checks below must occur at least 24 actual hours after both qualifying acquisition and the most recent relevant teaching/feedback/known solution exposure: measure from the later of those anchors. They occur before recap and without help. A next calendar day alone does not establish 24 hours. Record known intervening exposure; unknown timing/exposure does not certify delayed retention. This interval is a practical validity guard, not a personalized optimum. A delayed pass requires all current essential components. D1 and D2 are alternatives for separate fresh delayed attempts; use the first unused one, never both merely to fill acquisition. Passing a number-changed parallel variant supports bounded retrieval and application, not broad transfer or every semester topic.
+
+### O008-D1 — delayed independent retrieval
+
+Item version: v1. Role: full_capability_check. Relation: `near_transfer`. Required components: R1, R2, R3, R4.
+
+**Question:** A hypothetical learner wants to deregister 20 hours before, select several answers on a one-correct-answer MC item, and infer class choices from an empty poll slide. Evaluate each choice; then, from memory, reconstruct course identity, instructors, prerequisite, teaching/preparation and supplied appointment descriptions; exam scoring/format/tools/integrity rules; all offered dates/times/room, attempt and registration/deregistration limits; printed grade bands and rounding uncertainty. Distinguish the expanded Week 1 scope from syllabus orientation and unanswered sample exam topics, including conditional misperceptions and absent poll results. Do not select a personal exam date or claim live verification.
+
+**Key:** The supplied documents identify Behavioral Economics JEB147, taught in person by Michal Bauer and Julie Chytilová, with Microeconomics I JEB104 as prerequisite. Preparation combines theory/intuition, experimental evidence and applications; slides are posted in SIS and papers are strongly encouraged. Bauer’s syllabus office is 402 with Friday 11:00–11:45; Chytilová’s is 410 with Friday 10:30–11:45. Email first; the introduction also says Bauer appointments can be arranged by email. These are supplied descriptions, not live availability. The grade is based on the written final: maximum 100 points, 80 minutes, one-correct-answer multiple choice and open-ended text, no negative points for incorrect answers. It is closed book: supporting materials, devices, calculators and AI tools prohibited; blank paper and pens allowed. Integrity-declaration agreement is required for evaluation; refusal is F. Listed exam slots are Dec 16, 2026 08:00–09:20; Jan 15, 2027 09:30–10:50; Jan 29, 2027 09:30–10:50; Feb 5, 2027 09:30–10:50, all room 109. Four slots do not allow four attempts: maximum three. Register at least 48 hours before, deregister at least 24 hours before. Printed bands: A 90.1–100, B 80.1–90, C 70.1–80, D 60.1–70, E 50.1–60, F 0–50; rounding and finer fractional gaps are unspecified. No personal deadline, chosen attempt or live SIS confirmation is established. Expanded Week 1 includes the introduction and completed social-preferences material; later syllabus topics/bibliographies are orientation. Misperceptions is conditional “if time allows” in SIS but unqualified in syllabus. Sample exam questions include inequality aversion, trust, ultimatum, statistical discrimination, discrimination-model comparisons and intergroup contact referring to Corno et al. (2022); the sample has no supplied answer key. Some social-preference concepts now have teaching notes, but discrimination/intergroup-contact readings and later-topic formal models/evidence remain outside this plan. Empty classroom polls are not results; this plan does not establish full-syllabus/exam readiness. Twenty hours fails the 24-hour deregistration limit, the MC format has exactly one correct answer, and an empty poll supplies no responses/results.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+### O008-D2 — delayed independent retrieval
+
+Item version: v1. Role: full_capability_check. Relation: `near_transfer`. Required components: R1, R2, R3, R4.
+
+**Question:** A hypothetical learner equates four offered slots with four attempts, treats the Feb 5 slot as their automatically chosen deadline, and assigns a grade to a fractional-gap score using an invented rounding rule. Evaluate these inferences; then, from memory, reconstruct course identity, instructors, prerequisite, teaching/preparation and supplied appointment descriptions; exam scoring/format/tools/integrity rules; all offered dates/times/room, attempt and registration/deregistration limits; printed grade bands and rounding uncertainty. Distinguish the expanded Week 1 scope from syllabus orientation and unanswered sample exam topics, including conditional misperceptions and absent poll results. Do not select a personal exam date or claim live verification.
+
+**Key:** The supplied documents identify Behavioral Economics JEB147, taught in person by Michal Bauer and Julie Chytilová, with Microeconomics I JEB104 as prerequisite. Preparation combines theory/intuition, experimental evidence and applications; slides are posted in SIS and papers are strongly encouraged. Bauer’s syllabus office is 402 with Friday 11:00–11:45; Chytilová’s is 410 with Friday 10:30–11:45. Email first; the introduction also says Bauer appointments can be arranged by email. These are supplied descriptions, not live availability. The grade is based on the written final: maximum 100 points, 80 minutes, one-correct-answer multiple choice and open-ended text, no negative points for incorrect answers. It is closed book: supporting materials, devices, calculators and AI tools prohibited; blank paper and pens allowed. Integrity-declaration agreement is required for evaluation; refusal is F. Listed exam slots are Dec 16, 2026 08:00–09:20; Jan 15, 2027 09:30–10:50; Jan 29, 2027 09:30–10:50; Feb 5, 2027 09:30–10:50, all room 109. Four slots do not allow four attempts: maximum three. Register at least 48 hours before, deregister at least 24 hours before. Printed bands: A 90.1–100, B 80.1–90, C 70.1–80, D 60.1–70, E 50.1–60, F 0–50; rounding and finer fractional gaps are unspecified. No personal deadline, chosen attempt or live SIS confirmation is established. Expanded Week 1 includes the introduction and completed social-preferences material; later syllabus topics/bibliographies are orientation. Misperceptions is conditional “if time allows” in SIS but unqualified in syllabus. Sample exam questions include inequality aversion, trust, ultimatum, statistical discrimination, discrimination-model comparisons and intergroup contact referring to Corno et al. (2022); the sample has no supplied answer key. Some social-preference concepts now have teaching notes, but discrimination/intergroup-contact readings and later-topic formal models/evidence remain outside this plan. Empty classroom polls are not results; this plan does not establish full-syllabus/exam readiness. Offered slots do not increase the three-attempt maximum or choose a personal deadline; the absent fractional/rounding rule must remain unspecified.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Advance, revisit, pause, and escalate
+
+Advance this objective only after committed qualifying passes on both I1 and I2; do not imply durable retention until an eligible delayed check is recorded. If a required diagnostic is deficient, follow its named prerequisite explanation/support. End a session with the actual unfinished route when acquisition is unmet. If relevant notes/state change or the matched journal is incomplete, block this version pending plan reconciliation. A source contradiction, missing academic explanation or absent provenance goes to ingest at the exact note/heading. Unsupported answer alternatives, ambiguous rubrics, missing prepared components or exhausted fresh I/D/C variants go to plan as `plan_issue`, with course ID, P001/V001/ingest 2, objective/criterion, item ID/version, exposed item IDs and the actual gap; do not invent or recycle a new assessment. Finite-bank exhaustion is a curriculum gap, not learner failure. No scheduler dates or learner status are written here.
+
+## Answer-free recall handoff
+
+**Review topic:** Behavioral Economics — Use course requirements and recognize exam-scope boundaries
+
+**Start instruction:** Begin a closed-note review with teach for O008; request an unused prepared delayed item before recap. Open [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O008.md#Immediate and delayed checks]]. Teach supplies actual committed acquisition/evidence identifiers; recall alone selects dates and synchronizes reviews. There is no personal deadline constraint (null) and no observed learning result in this plan.

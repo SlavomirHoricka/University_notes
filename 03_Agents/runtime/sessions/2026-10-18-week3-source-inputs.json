@@ -1,0 +1,91 @@
+{
+  "primary": "/Users/slavomirhoricka/Desktop/University_notes",
+  "vault": "/Users/slavomirhoricka/.codex/worktrees/week3-ingest-html/University_notes",
+  "files": [
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_2/L3 BE_SP_field IES 2026.pdf",
+      "sha256": "8253632c83a7a0f42e8aabd4f18e1b7268915c90f861625cc39b11295a27a497",
+      "bytes": 1489208
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_3/L4 BE_formation IES 2026.pdf",
+      "sha256": "486140fcd4117fd07ad3462708102eda1825a81cb031809b7e94693918d45264",
+      "bytes": 395410
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Abadie 2021 jel.20191450.pdf",
+      "sha256": "5864e08fd2204ddb329e90daa3b2dee591f7f442ea8e61300f9698f830254393",
+      "bytes": 790971
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Acemoglu Robinson - The Narrow Corridor - chapter 1.pdf",
+      "sha256": "c4cb69b1adaaf553031ab830a4e9f222a58b25237a2f08f11cdcd5b643098cfe",
+      "bytes": 216666
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Acemoglu Robinson 2006 v2.pdf",
+      "sha256": "1750e00c4a17bdf0afe55fc9a59fd803f745a28cc59dfdc1c7f6bbf2a9de5b62",
+      "bytes": 6315661
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_2/How Russia might have evolved without the revolution annaeconstat2009.144.0075.pdf",
+      "sha256": "8c5befb2a019833c3f0e9c83d2d44a363d3b272050f8dc56d802ba86bd7a9ac1",
+      "bytes": 1311660
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Pasted 18-10-2026 at 17.56.32.png",
+      "sha256": "fdce1f210b9a2793332f7e47cb04c4473ffd13a067525177214bc3081bda5376",
+      "bytes": 1279106
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_2/Week II - lecture - large slides.pdf",
+      "sha256": "6048ac7c23559435e580a1c059b60e63b62bf61c38d6e30fc0bc56540168a524",
+      "bytes": 1529775
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_3/35_Chapter 2 - Theory and practice of market capitalismComparative Economics RosserRosser.pdf",
+      "sha256": "3205dd0969996453cd5cedb06f50a9f3e858e8cfaa95e3414de367a078c6d773",
+      "bytes": 136294
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_3/ADDITIONAL - Bernstein - chapter 3.pdf",
+      "sha256": "39eeff62bd93ca7bb9f63545fa7c331667c386aecff2ec3d95e2d5b63174a0b1",
+      "bytes": 4278575
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_3/ADDITIONAL - Economic Pursuits of the Trobriand Islanders.pdf",
+      "sha256": "4076a69f1bdf526bbf95b6d1ccbe6f5fc394796a245656535d1f9ee1b4e3f9c0",
+      "bytes": 723514
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_3/ADDITIONAL - Olson - Big Bills Left on the Sidewalk. Why Some Nations are Rich, and Others Poor.pdf",
+      "sha256": "7ced63c2e44595fd08aea31b2ed331236025ece4f58f3eada49a6cca1b6dbf8b",
+      "bytes": 707883
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Comparative Economics - Islamic Economics and the Economics of Other Religions.pdf",
+      "sha256": "4b8f5e7651fcbbf00131960644922c9d032e97f051ffc357ad0e2b2991b0f58a",
+      "bytes": 120174
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Polanyi 1944 Great-Transformation_chapter 4.pdf",
+      "sha256": "6c508677181eff13013f9475f861a6d742149b91c3389ffea70054f61c77fb45",
+      "bytes": 350037
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_3/Week III - lecture - large slides.pdf",
+      "sha256": "64f39fe6e93245dde60eae87bbcdc4aa2a1055575121a73eb0002a7aedf14c57",
+      "bytes": 1381786
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Econometrics_II/Week_3/2026_Lecture3_print.pdf",
+      "sha256": "8f1df6db5b2190af97e96c0c4229f4c60097cdddfdec2962767072ca5bfc1157",
+      "bytes": 591163
+    },
+    {
+      "path": "00_Materials/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_3/02_AQImp-ClimateChange.pdf",
+      "sha256": "13d47b8d206ea0ad07ebfa1caf440a8cdebd008b1db84251c2ef315769d59711",
+      "bytes": 8691139
+    }
+  ]
+}

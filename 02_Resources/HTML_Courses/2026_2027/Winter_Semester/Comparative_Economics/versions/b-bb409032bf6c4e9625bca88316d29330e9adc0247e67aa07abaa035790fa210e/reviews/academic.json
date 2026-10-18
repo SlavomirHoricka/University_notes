@@ -1,0 +1,73 @@
+{
+  "candidate_digest": "bb409032bf6c4e9625bca88316d29330e9adc0247e67aa07abaa035790fa210e",
+  "candidate_path": "/private/tmp/week3-ingest-html/Comparative_Economics/candidate-p003-final2",
+  "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+  "evidence": [
+    {
+      "included_units": 355,
+      "operational_only_units": 80,
+      "scope": "Full actual final2 conversion, Weeks 1–3, O001–O022; compared checked finished-note sections, all 22 ready prepared lessons and complete keys, snapshot, coverage, actual draft and actual final HTML. No raw-course-source audit or learner-log access.",
+      "source_units": 435
+    },
+    "Every source unit is accounted for exactly once. Omitted sections are teaching order/rationale (22), tutor advance/revisit/pause/escalation (22), answer-free recall delivery (22), and record metadata (14). Academic explanation, conditions, misconceptions, examples, prompts, full keys and rubrics remain in the HTML.",
+    "All 355 included units underwent source-to-rendered-content comparison after exact scoped paragraph replacements and markup normalization; no substantive source omission or replacement was found. All final section HTML, 110 reflection prompts and 110 complete solutions are present verbatim in their actual lesson pages. Prepared IDs and self-study/exposure limitations are retained.",
+    {
+      "actual_final_math_spans_strict_katex_parse": 1034,
+      "english_and_notation": "Inspected all 150 distinct transformed whole paragraphs across 188 exact source-unit scopes, plus the final k/k+1 passage. English changes preserve academic meaning, values, citation labels and stated conditions. Source explicit equations preserve their bodies apart from delimiter/outer-whitespace conversion. Literal currency and dates remain distinct from formulas. No material split math or untypeset formula remains.",
+      "parse_errors": 0
+    },
+    "Inspected quantitative and conceptual transformations: Gini area/scale and ranking limits; car pooling revenue/profit distinction; full-default principal equation with conditional 112% rate; hold-up sunk versus operating/project outcomes; prison-time and utility payoff comparisons; colonial map scales/no-data/density units and historical voting-stock proportions; SCM simplex, V, factor assumptions, convex hull/sparsity, donor contamination, placebo/RMSPE/rank inference and all-period null-adjusted permutation distinction; Russia log-scale conditional forecasts; dated political feedback; embedded/Kula and religious diversity conditions; Islamic contract profit/loss and sale/lease examples; conditional market surplus/externalities, pollutant units, historical strike tables, and Olson movement versus shift/toy predation examples. All worked/practice numerical answers and assumptions are consistent with the checked lesson content.",
+    {
+      "figures": "All 47 checked PNG assets have exact source hashes and are used in the candidate. All 14 static SVG maps preserve the relevant source Mermaid labels and directed/bidirectional relations. Captions, dates, units, interpretation limits and week attribution are retained. No screenshot substitutes for formula rendering.",
+      "total_figures": 61
+    },
+    {
+      "checked_link_occurrences": 172,
+      "navigation": "All 172 included checked-note/prepared-lesson wiki-link occurrences have active meaningful local targets. Heading links resolve to sections containing the referenced full content; full-note routes select the appropriate containing lesson; O007 italic Why Nations Fail heading resolves correctly. Nine apparent coverage-target differences are intentional course-hub links to index/week sections, checked as correct. All 22 week and prerequisite arrays match the stable snapshot; no missing prerequisite or out-of-scope week expansion."
+    },
+    "Reviewed custom reading.js and reading.css plus bundled runtime behavior: custom script only reveals active sidebar item on wide screens; no academic calculations or network operations. Written exercises expose complete model solutions for self-assessment and optional version-qualified local drafts, without grading learner evidence or claiming mastery.",
+    {
+      "candidate_file_hashes_checked": 97,
+      "current_snapshot_input_hashes_checked": 91,
+      "final_byte_binding": "Final1-to-final2 exact manifest/draft/page comparison shows only draft.json and o010/o011 HTML changed, plus manifest; snapshot and all other assets/pages are identical. Both changed lesson sections differ only by explicit delimiters around k, k, k+1 in the same geometry paragraph; all assumptions, citations and mathematical operators are unchanged. Full content/link comparisons and strict math parsing were rerun on final2.",
+      "mismatches": 0
+    },
+    "Canonical course.py check passed for this exact final2 candidate. This report is academic conversion approval only; the owner must complete separate browser/interaction/viewport QA and publication freshness gates before export publication."
+  ],
+  "findings": [],
+  "helper_role": "html_course_review",
+  "kind": "academic",
+  "objective_ids": [
+    "O001",
+    "O002",
+    "O003",
+    "O004",
+    "O005",
+    "O006",
+    "O007",
+    "O008",
+    "O009",
+    "O010",
+    "O011",
+    "O012",
+    "O013",
+    "O014",
+    "O015",
+    "O016",
+    "O017",
+    "O018",
+    "O019",
+    "O020",
+    "O021",
+    "O022"
+  ],
+  "reviewer": "/root/fmi_html_review",
+  "source_fingerprint": "4a0fe71fe9c6feeff01d6adb168a013da4e6adb7e8baad86507c8c562136494a",
+  "status": "passed",
+  "tuple": {
+    "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+    "ingestion_revision": 2,
+    "plan_version": "P003",
+    "source_version": "V002"
+  }
+}

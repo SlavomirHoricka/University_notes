@@ -1,6 +1,8 @@
 # Behavioral Economics
 
 - [[#Week 1|Week 1 — behavioral models and experimental evidence]]
+- [[#Week 2|Week 2 — social preferences in field settings]]
+- [[#Week 3|Week 3 — formation of social preferences]]
 
 ## Week 1
 
@@ -26,3 +28,26 @@ The additional Social Preferences presentation makes the introduction concrete. 
 Trust and the prisoner's dilemma extend the question from distributing a fixed pie to creating surplus. In the trust game, sending money increases the joint monetary payoff but leaves the investor dependent on the trustee's return. In the prisoner's dilemma, mutual cooperation pays both players more than mutual defection even though each selfish player has a private incentive to defect. The new notes derive the selfish benchmarks, distinguish empirical transfers from a uniquely identified motive, and state when warm-glow or reciprocity can alter choices. They preserve limitations in the country table and reported return percentage rather than infer missing study details. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=24|Social Preferences, physical PDF pp. 24–37]]
 
 This expanded Week 1 section includes the complete added presentation; the earlier introductory paragraphs refer specifically to the original introduction. The syllabus's numbering remains course context, while the supplied Week_1 collection now contains this social-preferences material. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=1|Social Preferences, physical PDF pp. 1, 12, 37]]
+
+## Week 2
+
+**Concept index**
+
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_2/Effort_Contracts_and_Social_Motivations.md|Effort Contracts and Social Motivations]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_2/Gift_Exchange_in_Labour_Markets.md|Gift Exchange in Labour Markets]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_2/Relative_Pay_and_Charitable_Gift_Exchange.md|Relative Pay and Charitable Gift Exchange]]
+
+The effort model distinguishes fixed pay from marginal incentives, then adds a marginal social motive. Real-effort studies ask how unexpected wages, gifts, relative pay and donor gifts change outcomes. Core reasoning is to derive the benchmark and reconstruct each treatment comparison, its time profile, denominator and limits; exact empirical percentages remain context-specific. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_2/L3 BE_SP_field IES 2026.pdf#page=5|Field lecture, physical pp. 5–35]]
+
+All 35 physical pages were inspected, including equations, graphs, reproduced tables and prompts. Gift timing, working-paper versions, pay-gap model limits, relative percentages, conditional donations and gross versus net returns are qualified explicitly. No class poll results are supplied. Prior Week 1 notes remain unchanged.
+
+## Week 3
+
+**Concept index**
+
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_3/Social_Preferences_in_Childhood.md|Social Preferences in Childhood]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_3/Social_Environment_and_Mentoring.md|Social Environment and Mentoring]]
+
+The allocation games distinguish equality, generosity, spite and selfish indifference. Age-group patterns are descriptive; the mentoring application separates SES/maternal associations from an offer-based randomized comparison. These are core because they connect preference models to measured choices and causal interpretation. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_3/L4 BE_formation IES 2026.pdf#page=6|Formation lecture, physical pp. 6–23]]
+
+All 23 physical pages were inspected, including the full eight-row type table and all chart captions. The notes qualify the approximate sample count, ingroup-only age plot, cross-sectional age inference, nonsignificant component and gap comparisons, offer versus participation and proposed role-model mechanism. Bounded primary sources verify the specified passages; later unassigned material is not ingested.

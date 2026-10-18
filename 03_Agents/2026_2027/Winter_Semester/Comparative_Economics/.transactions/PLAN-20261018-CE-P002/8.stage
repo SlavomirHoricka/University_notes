@@ -1,0 +1,228 @@
+# Explain colonial divergence with precise historical comparisons
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+  "transaction_id": "PLAN-20261004-Comparative-P001",
+  "plan_version": "P001",
+  "source_version": "V001",
+  "ingestion_revision": 1,
+  "objective_id": "O007",
+  "objective_revision": 1,
+  "criterion_version": "O007-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O002",
+    "O004"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Nogales: the question that motivates the chapter"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Spanish colonization: creating rules for extraction"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Why the first Buenos Aires failed while Asunción prospered for conquerors"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Capturing leaders and appropriating existing organization"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "The Potosí mita and its local legacy"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Jamestown: why attempts at coercion changed course"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_scope_independent"
+    ],
+    "required_components": [
+      "C1 Nogales hypothesis and limit",
+      "C2 extraction institutions and local legacy",
+      "C3 Jamestown incentives and outside options",
+      "C4 comparative qualifications and map limits"
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true,
+    "required_components": [
+      "C1 Nogales hypothesis and limit",
+      "C2 extraction institutions and local legacy",
+      "C3 Jamestown incentives and outside options",
+      "C4 comparative qualifications and map limits"
+    ]
+  },
+  "review_topic": "Explain colonial divergence with precise historical comparisons",
+  "review_instruction": "Begin a closed-note review with teach for O007; request a fresh prepared delayed item before recap.",
+  "reassessment_requirement": null
+}
+```
+
+## Outcome and conditions
+
+Explain the chapter’s Nogales puzzle and compare Spanish extraction with the unsuccessful coercive strategy in Virginia. Define encomienda/mita precisely, connect outside options to land/voice incentives, and distinguish a historical mechanism from an isolated causal effect while interpreting the two maps’ boundaries/units.
+
+Essential criterion components are **C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits**. Primary finished-note locations: [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Nogales: the question that motivates the chapter]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Spanish colonization: creating rules for extraction]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Why the first Buenos Aires failed while Asunción prospered for conquerors]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Capturing leaders and appropriating existing organization]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#The Potosí mita and its local legacy]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Jamestown: why attempts at coercion changed course]].
+
+Instruction and supported practice may use the selected notes. Independent checks are closed-note: show the stated prompt and its supplied data only, with no explanation, model answer, hints, web search, other people, AI help, or solution-bearing figure access before the response. A simple calculator is allowed for arithmetic after the learner states the reasoning; no symbolic or generative tools. If notes, item keys, or matching solutions were accessed, record the exposure and do not call that attempt independent. No timing or confidence threshold replaces a complete answer. Exact population-unit conversion, colonial-history claims beyond this chapter and present Nogales figures are outside scope. Numerical historical details are source descriptions rather than live facts or controlled estimates.
+
+## Prerequisites and checks
+
+O002 is required for historical evidence versus causal proof; O004 supplies outside-option and ex ante incentive reasoning. O007-P1 / 1: “Do similar geography and an outcome gap alone rule out every other cause?” Key no, comparison motivates a hypothesis but is not a controlled estimate; repair O002 causal-limit explanation. O007-P2 / 1: “If workers can leave a harsh employer for a viable alternative, what happens to the employer’s ability to impose terms?” Key exit option limits coercive bargaining; its value/availability must be credible. Pass requires direction and reason; partial lacks reason; fail says exit strengthens employer. Repair O004 definition/explanation. Skip with current committed prerequisite acquisition.
+
+For every P diagnostic, ask before exposing its key. Pass requires all explicitly requested distinctions and their reasons; partial means a correct part with an omission or local arithmetic slip; fail means the essential prerequisite mechanism is contradicted. Unknown help or no answer is unscorable. Diagnostics are brief route selection only and never acquisition evidence. Apply the named repair once, then instruction rather than repeat-testing.
+
+## Teaching order and rationale
+
+1. Use [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md#Motivation, intuition, and definitions]] to pose the concrete problem and define the terms.
+2. Follow [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md#Explanation steps]] in order: establish the decision or claim, compare alternatives, then interpret its limits. Each next step relies on the preceding distinction.
+3. Present [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md#Worked example]] with its decision points before requesting a new full answer.
+4. Use [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md#Practice with fading assistance]] for the completion task; give at most the two prepared hints. A complete response with stated reasons permits withdrawing support.
+5. Ask I1, score the original response, provide the prepared feedback if needed, then ask I2 fresh and closed-note. Use only the permitted substitutions below after correction.
+6. After acquisition, close without claiming durable retention. At a qualifying later review, ask D1 or D2 before recap; retain the second as an alternate.
+
+A learner with adequate committed current-criterion prerequisite evidence may skip the prerequisite diagnostic. A successful entry diagnostic may skip the worked/support route, but acquisition still requires two fresh full-scope independent checks. A failed diagnostic returns to its named prepared repair and instruction; it never triggers repeated pretests.
+
+## Motivation, intuition, and definitions
+
+Nogales Arizona/Sonora share nearby geography and broadly similar ancestry/culture, yet the authors report different income, services, security and political accountability in the book’s period. Institutional incentives are their proposed explanation; Sonora benefits from US-linked manufacturing and is relatively prosperous within Mexico. An encomienda is a grant of Indigenous people’s tribute/labor obligations to an encomendero with formal conversion duty, not just land title or ordinary paid work. Colonial mita adapted an earlier Inca compulsory-labor turn to mining extraction after population concentration into reducciones. Political hierarchy/dense settlements/resources can make coercive appropriation feasible. An outside option is the next best feasible alternative to accepting an arrangement.
+
+## Explanation steps
+
+1. State the Nogales outcome differences before explanation: historical income about30,000 versus a third, plus schooling/services/security/accountability. Similar local geography challenges simple one-factor explanations, not all geography/culture effects.
+2. Spanish conquerors sought labor/tribute; Buenos Aires lacked a readily controllable centralized labor base/gold and faced resistance. Asunción allowed appropriation of farming Guaraní organization. Capturing rulers such as Moctezuma/Atahualpa could place conquerors over tribute systems; this was coercion, not consent.
+3. Define encomienda obligations and mita mining catchment. Colonial mita drew one-seventh of male inhabitants across roughly200,000 square miles until1825; taxes payable in silver, forced purchases and carrying labor reinforced extraction. The earlier Inca arrangement had different purposes/reciprocal provisions.
+4. The mita map identifies a historical catchment, not an estimated economic effect; Calca/Acomayo contrast is the authors’ persistence illustration (roads/markets/consumption), not formal identification ruling out all other differences.
+5. Virginia Company first sought to coerce Indigenous people but could not commandeer a comparably centralized rich tribute base. It then imposed harsh company labor on English settlers: similar extraction goal, different legal form and targets from encomienda. Settlers could exit to Indigenous communities/frontier, limiting coercion.
+6. Headrights/land incentives in1618 and assembly1619 increased returns and voice; they were relative inclusion, not universal democracy. Later Maryland/Carolina hierarchy attempts also faced exit. Women, enslaved and propertyless people lacked votes; Indigenous dispossession persisted. Population map legend uses people/km², nearby prose people/mi²; keep units distinct and no-data separate from low density. Mechanisms are conditional, not an inevitable national destiny.
+
+## Worked example
+
+### O007-W1
+
+**Item/version:** `O007-W1` / 1. **Role:** worked example. **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** Prepare an answer to: “Why did similar extraction ambitions yield different institutions in Spanish America and Virginia, and why is Nogales not definitive causal proof?” Include the institutions and map cautions.
+
+**Prepared key and essential reasoning:** Spanish rulers could appropriate organized dense tribute/labor hierarchies; encomienda assigned Indigenous obligations, mita coerced mining labor. Buenos Aires resistance/no easy hierarchy differed from Asunción. Virginia’s Indigenous extraction and later settler coercion faced weaker appropriable hierarchy and settler exit, so company moved to land incentives/headrights and assembly. This was no Spanish encomienda or universal inclusion; enslaved/women/propertyless and Indigenous groups faced severe exclusion. Nogales’ historical income/services/accountability contrast motivates institutional incentives but is not a controlled experiment, and Sonora benefits from cross-border industry. Mita map marks catchment not causal effect; population legend km² differs from prose mi², no-data not empty land.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Practice with fading assistance
+
+### O007-S1
+
+**Item/version:** `O007-S1` / 1. **Role:** supported completion. **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** Completion: fill “encomienda is ___, not simply ___; Jamestown’s later company regime targeted ___; exit encouraged ___; Nogales supports a ___, not ___.” Then supply Buenos Aires/Asunción and mita mechanisms plus inclusion and map caveats.
+
+**Prepared key and essential reasoning:** Encomienda grants people’s tribute/labor obligations, not merely land. Jamestown targeted English settlers after failed Indigenous appropriation; exit pushed headright land and assembly incentives. Nogales supports institutional hypothesis, not isolated causal proof; historical differences/services and Sonora manufacturing qualify it. Buenos Aires resisted extraction/no ready tributary base, Asunción offered appropriable farming organization; colonial mining mita/related taxes forced labor/surplus transfer. Relative rights excluded women/enslaved/propertyless and dispossessed Indigenous people. Maps show catchment/density not effects; km²/mi² distinct.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. Notes allowed. Hint 1: Separate legal form, coercive purpose and target group. Hint 2: Compare feasible exit/tribute organization, then state what the comparison cannot prove. Then show the worked step if still stuck; this response cannot establish independence.
+
+### O007-I1
+
+**Item/version:** `O007-I1` / 1. **Role:** full_scope_independent (immediate). **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** Critique these claims in one connected argument: “Nogales proves climate never matters; encomienda was only land; Jamestown used the same encomienda; headrights created universal democracy.” Explain the chapter’s positive causal mechanism, Buenos Aires/Asunción and mita legacy, and both map cautions.
+
+**Prepared key and essential reasoning:** Nogales historical income/services/security/accountability disparity amid proximity supports institutional hypothesis, not controlled proof climate irrelevant; Sonora has US-linked manufacturing. Encomienda assigns Indigenous tribute/labor with formal conversion duty, extraction not ordinary employment/just land. Buenos Aires resistance/no controllable centralized labor base versus Asunción appropriable farming organization; colonial mining mita and taxes/forced trade/carrying labor extract surplus; Calca/Acomayo legacy illustration does not rule out alternatives. Virginia first Indigenous then English-settler coercion was similar aim, different form/target, with exit limiting control; headrights1618/assembly1619 increased incentives/voice, but women/enslaved/propertyless excluded and Indigenous dispossession. Mita map historical catchment not estimated effect; density map km² versus prose mi² and no-data distinct.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+### O007-I2
+
+**Item/version:** `O007-I2` / 1. **Role:** full_scope_independent (immediate). **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** Build a comparison around “who could be compelled, who could exit, and which rules changed incentives.” Include encomienda versus colonial mita, Buenos Aires/Asunción, Virginia company labor/headrights/assembly, and Nogales outcomes. Explicitly state inclusion, causal and two-map limits.
+
+**Prepared key and essential reasoning:** Spanish capture of organized rulers/tribute systems facilitated Indigenous labor/tribute appropriation. Encomienda people’s obligations/formal conversion, mita mining labor adapted from Inca turn with different purposes; tax/forced purchase/carrying extraction. Buenos Aires resistance/weak ready tributary base versus Asunción farming organization. Virginia could not reproduce hierarchy capture and later coerced settlers, not encomienda; exit/frontier alternatives pushed land1618/voice1619. Nogales book-period income/services/security/accountability differs, institutional incentives proposed, Sonora industry benefits from US proximity. Inclusion relative with voting exclusion/slavery/dispossession; histories not controlled effects or geography/culture null proof. Mita map catchment not effect; population density km² not adjacent prose mi², no-data not low density.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Rubric and independence
+
+The prepared keys operationalize each component; all are essential. Pass requires an explicit mechanism and justified application plus every specified limit. Partial applies to an incomplete argument or isolated arithmetic transcription error with otherwise correct setup; teach gives feedback and obtains a fresh check. An arithmetic slip is not itself proof of conceptual failure, but a numerically wrong result does not count as a complete pass. Fail applies to any critical conceptual error identified below. Unscorable applies to missing response or ambiguous/unknown help conditions; do not infer acquisition.
+
+**Full role coverage:** I1, I2, D1, and D2 each test all components C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits. Normal acquisition is two distinct passes on I1 and I2, same revision/criterion and known unassisted conditions. Permitted repair/entry substitution: use a previously unseen D1 or D2 as a `full_scope_independent` check; record that immediate use explicitly and do not count it as delayed retention. Only combinations of two different unexposed I/D items are permitted. Supported, worked, diagnostic, and C items do not fill this role. Correction items are deliberately narrower and cannot substitute for acquisition or delayed checks. If both delayed variants are consumed during repair, request new prepared delayed items from plan before claiming delayed readiness.
+
+Each delayed pass independently requires the same entire criterion after at least 24 elapsed hours from the last instruction/solution exposure for this objective, with current tuple, fresh item and known intervening exposure. The 24-hour guard is an operational minimum; recall owns dates. A previously seen question can be used for practice only.
+
+## Misconceptions and correction
+
+**Observable sign:** Learner treats any coercive labor as the same legal encomienda or as just land ownership. A single response supports a tentative diagnosis; it becomes established only with corroborating reasoning, never from hesitation alone. **Corrective explanation:** Separate who is assigned, obligations, holder and legal form; similarity of coercive goal is not identity. **Hint 1:** Name the distinction being tested. **Hint 2:** Compare the alternatives using the supplied definitions; after two ineffective hints show the relevant worked step.
+
+### O007-C1
+
+**Item/version:** `O007-C1` / 1. **Role:** fresh correction; practice only. **Components:** C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options.
+
+**Prompt:** Fresh correction: a company owns land and forces its English employees to work. Is that sufficient to call it encomienda?
+
+**Prepared key and essential reasoning:** No; encomienda assigns Indigenous tribute/labor obligations to an encomendero with formal conversion duty. Company coercion can resemble the goal but differs in form/target.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+**Observable sign:** Learner treats map boundary or Nogales proximity as measured proof or modern universal statistics. A single response supports a tentative diagnosis; it becomes established only with corroborating reasoning, never from hesitation alone. **Corrective explanation:** A map organizes location and a historical contrast motivates explanation; neither alone estimates causation or removes exclusions. **Hint 1:** Name the distinction being tested. **Hint 2:** Compare the alternatives using the supplied definitions; after two ineffective hints show the relevant worked step.
+
+### O007-C2
+
+**Item/version:** `O007-C2` / 1. **Role:** fresh correction; practice only. **Components:** C1 Nogales hypothesis and limit, C4 comparative qualifications and map limits.
+
+**Prompt:** Fresh correction: a historical map marks a mining catchment and a town outside it is richer. What can be said without inventing an effect size?
+
+**Prepared key and essential reasoning:** The contrast supports the authors’ institutional-persistence question/mechanism but does not isolate a causal effect or rule out other town differences.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Immediate and delayed checks
+
+I1/I2 above are separate immediate forms. Ask delayed forms before showing any recap, explanation or solution. The D forms are parallel or near-transfer applications of the stated mechanism; different contexts/numbers do not prove broad transfer or whole-course mastery. Record item version, help, elapsed time, and intervening exposure.
+
+### O007-D1
+
+**Item/version:** `O007-D1` / 1. **Role:** full_scope_independent (delayed variant). **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** An essay draft says conquerors always preferred the best place for everyone’s growth, that encomienda was a wage contract, and that Jamestown simply began democratic. Correct it using Buenos Aires/Asunción, mita, Virginia exit/incentives and Nogales. Finish with inclusion/causal and both map-reading qualifications.
+
+**Prepared key and essential reasoning:** Conqueror attractiveness depended on extractable resources/organized labor, not broad prosperity; Buenos Aires resistance/no accessible tributary base versus Asunción appropriation. Encomienda coerced Indigenous tribute/labor with formal conversion duty; mining mita adapts compulsory turn and related taxes/forced transactions transfer surplus; local legacy comparison illustration. Virginia sought Indigenous and later settler coercion; no encomienda legal grant, exit limited control; headrights/assembly changed returns and voice. Nogales historical income/services/accountability divergence motivates institutional incentives, but not controlled identification, Sonora US-linked manufacturing persists. Exclusions/slavery/dispossession qualify relative breadth; map catchment not causal estimate, density km²/prose mi² and no-data must remain distinct.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+### O007-D2
+
+**Item/version:** `O007-D2` / 1. **Role:** full_scope_independent (delayed variant). **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** Use Nogales as the opening of a short historical explanation, then trace why Spanish and Virginia extraction strategies diverged. Include exact encomienda/mita distinction, Buenos Aires/Asunción, settler outside options and institutional change, plus relative-inclusion, causal and two-map boundaries.
+
+**Prepared key and essential reasoning:** Nogales book-period income/public services/security/accountability differs despite nearby geography/shared background; institutions proposed, not proven exclusive cause, Sonora gains cross-border manufacturing. Spanish organized dense tribute/labor allowed appropriation, Buenos Aires resisted and lacked ready base while Asunción offered farming organization. Encomienda assigns Indigenous obligations/formal conversion, mita compulsory mining turn adapted from distinct Inca use; taxes/forced purchases/labor extract surplus. Virginia unable to command same Indigenous hierarchy; company coerced English settlers differently, exit drove headright land1618/assembly1619. Relative inclusion excludes women/enslaved/propertyless and Indigenous dispossession. No controlled historic effect/inevitable path; mita map catchment not effect, density km² versus prose mi²/no-data distinctions.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Advance, revisit, pause, and escalate
+
+Advance only after two distinct qualifying full-scope independent passes at O007 revision 1 / O007-C1. Delayed success is separate and cannot be inferred from acquisition. If a prerequisite fails, execute its one prepared repair route and return to instruction. If the supported answer remains incomplete after two hints, show the missing step and stop treating it as a check. After two unsuccessful fresh independent attempts in one session, pause assessment, revisit the worked explanation, and arrange a fresh prepared attempt; do not drill exposed questions until they appear fluent. Close an interrupted session without acquisition claims.
+
+If the notes conflict, ingestion state becomes blocked/stale, or a cited source claim cannot support a key, stop the affected block and route a `note_issue` to ingest with course 2026_2027/Winter_Semester/Comparative_Economics, note/heading, ingestion revision 1 and exact conflicting claim. If a learner offers a plausible answer outside prepared criteria, a key is ambiguous, or fresh variants are exhausted, route `plan_issue` to plan with O007, revision 1, O007-C1, P001/V001, item ID/version and exact missing decision. Continue unaffected objectives only if their prerequisites are satisfied. Teach owns actual evidence; this file supplies no learner outcome.
+
+## Answer-free recall handoff
+
+**Topic:** Explain colonial divergence with precise historical comparisons. **Start:** Begin a closed-note review with teach for O007 using [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md#Immediate and delayed checks]]; request a fresh prepared delayed item before recap. Teach sends only actual committed evidence IDs and exposure context. Recall determines the date and task synchronization; no due date is defined here.

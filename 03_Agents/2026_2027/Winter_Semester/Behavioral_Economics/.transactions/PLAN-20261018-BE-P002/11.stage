@@ -1,0 +1,319 @@
+# O002 — Solve and interpret ultimatum and dictator allocations
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+  "transaction_id": "PLAN-20261018-BE-P002",
+  "plan_version": "P002",
+  "source_version": "V002",
+  "ingestion_revision": 3,
+  "objective_id": "O002",
+  "objective_revision": 2,
+  "criterion_version": "O002-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "procedural",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O001"
+  ],
+  "compatible_versions": [
+    {
+      "objective_revision": 1,
+      "criterion_version": "O002-C1",
+      "plan_version": "P001",
+      "source_version": "V001",
+      "ingestion_revision": 2,
+      "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+      "change_class": "unchanged",
+      "requires_reassessment": false
+    }
+  ],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md",
+      "heading": "Ultimatum and dictator games"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md",
+      "heading": "The ultimatum game's sequence and payoffs"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md",
+      "heading": "Deriving the self-regarding benchmark"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md",
+      "heading": "Typical ultimatum results and what they challenge"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md",
+      "heading": "The dictator game removes the receiver's veto"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md",
+      "heading": "Reading the two games together"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "required_item_ids": [
+      "O002-I1",
+      "O002-I2"
+    ],
+    "substitutions": []
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true,
+    "available_item_ids": [
+      "O002-D1",
+      "O002-D2"
+    ],
+    "interval_anchor": "later of qualifying acquisition and most recent relevant teaching, feedback or known solution exposure"
+  },
+  "review_topic": "Behavioral Economics — Solve and interpret ultimatum and dictator allocations",
+  "review_instruction": "Begin a closed-note review with teach for O002; request an unused prepared delayed item before recap.",
+  "reassessment_requirement": null,
+  "lesson_content_contract": "self-contained-lessons-v1"
+}
+```
+
+## Outcome and conditions
+
+Derive monetary benchmarks for both games and explain what their reported patterns challenge, without uniquely identifying a motive.
+
+- **R1**: State one-shot anonymous incentivized UG/DG rules, accepted and rejected payoffs, and the receiver-veto distinction.
+- **R2**: Derive selfish UG backward reasoning including zero-offer indifference, offer-unit/tie dependence; derive DG zero transfer.
+- **R3**: Recall the lecture’s approximate UG and DG patterns; distinguish modal share, fraction giving and mean share; preserve earned/received endowment sensitivity and absent poll results.
+- **R4**: Explain why UG giving may anticipate rejection and neither giving nor rejection identifies a unique social preference or universal rate.
+
+Finished-note locations:
+
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md#The ultimatum game's sequence and payoffs]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md#Deriving the self-regarding benchmark]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md#Typical ultimatum results and what they challenge]]
+- [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md#The dictator game removes the receiver's veto]]
+
+Use P002/V002/ingest 3 and O002-C1, objective revision 2. Supported instruction can use this block and linked notes. Independent acquisition and delayed attempts are closed note, with blank paper and pen only; no calculator, device, AI, hint or key exposure. Present only the question before the learner responds; keys remain teacher-side. Unknown help/access is unscorable for independence. Hypothetical inputs instantiate supported mechanisms and are not empirical findings.
+
+## Prerequisites and checks
+
+- O001: Distinguishing observed patterns from a unique explanation prevents motive overclaims. Repair route: [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O001.md#Explanation steps]]
+
+O001-P prerequisite check v1: “A supplied laboratory summary reports positive giving. Does the observation itself specify the mechanism, or must an explanation be tested separately?” Key: observation is evidence; mechanisms still need comparison/testing. Pass if distinction and nonidentification stated; partial if one omitted; fail if motive automatically identified. Repair to O001 Explanation steps, then O002 support. Prior committed current-tuple O001 acquisition may waive this check; it never waives O002 I1/I2.
+
+Entry checks have item version v1, and pass/partial/fail plus repair routes above. Their exact limited outcomes do not certify the upstream objective. A waiver requires actual committed compatible evidence, never familiarity or assumed mastery. If a diagnostic fails, use its named prepared explanation and support before continuing; do not cycle through full upstream independent items just to diagnose.
+
+## Teaching order and rationale
+
+1. Retrieve [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O002.md#Motivation, intuition, and definitions]] and ask why the comparison matters. Introduce notation and boundaries before calculation.
+2. Use [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O002.md#Explanation steps]] in numbered order; each step supplies a dependency for the next.
+3. Show [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O002.md#Worked example]] once, exposing reasoning and checks.
+4. Ask O002-S1 in [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O002.md#Practice with fading assistance]]; let the learner fill missing steps, then reduce assistance only after an actual adequate response.
+5. Ask unused O002-I1 then O002-I2 separately. Score before feedback; any help makes that attempt supported.
+6. If the response shows a gap, use [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O002.md#Misconceptions and correction]] and fresh C1 as repair. Return to an unused full acquisition item only if available; otherwise escalate.
+7. After qualifying acquisition, recall may schedule a real interval; teach starts an unused D1 or D2 before any recap and checks elapsed time/exposure.
+
+Known prerequisite evidence skips only its diagnostic/support. Full current-objective checks remain required. Two parallel numeric cases demonstrate this bounded outcome, not generalized mastery of untaught models.
+
+## Motivation, intuition, and definitions
+
+In UG an offer is contingent on the receiver’s choice; DG implements it directly. Thus a proposer who wants only money can give strategically in UG, whereas a veto cannot explain DG giving. Anonymous one-time paid choices limit the stated benchmark; results describe the lecture’s settings.
+
+Visual support:
+
+No visual asset is necessary for this objective; use the explicit equations, labels and reasoning prepared here.
+
+## Explanation steps
+
+1. Write acceptance as $(M-r,r)$ and rejection as $(0,0)$. Compare the receiver’s own money last: $r>0$ beats zero; at $r=0$ both choices tie.
+2. The proposer anticipates this response and retains as much as feasible. “Next to nothing accepted” is the lecture benchmark. An exact zero or smallest positive offer requires the offer grid and a zero-offer tie rule. Whole units and rejection of zero imply offer 1; accepting zero permits offer 0. Do not invent a unique zero result without those assumptions.
+3. Remove the veto. DG now implements $(M-r,r)$ for any offer. A monetary maximizer chooses zero because $M-r$ falls with $r$; there is no receiver acceptance stage to anticipate.
+4. Lecture summaries: UG modal offer 40–50%; very few below 20%; offers below 20% often rejected more than 50%. DG more than 60% give positively and mean share is roughly 20%; received endowment versus earned changes giving, with earned giving diminishing but no supplied effect size. A modal amount, fraction of givers and mean share are different summaries. Empty polls give no additional results.
+5. Positive UG giving can insure against anticipated rejection; positive rejection sacrifices money and challenges the pure-money receiver benchmark. DG giving removes the veto explanation but does not isolate a unique preference. The lecture’s rates are approximate descriptive summaries, not universal individual choices or full causal estimates.
+
+## Complete checked-note explanation
+
+Deliver these complete reused passages before the worked example; earlier concise prompts are checkpoints, not substitutes. Necessary prerequisites use the complete prepared lessons specified above.
+
+Origin: reused complete checked passage [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Ultimatum_and_Dictator_Games.md#Ultimatum and dictator games]]; fingerprint `7fcbcf59c96d3145f48d169f3d0d67803d35906f7eb964956bb862de70dd5693`. Heading depth alone is adapted.
+
+### Ultimatum and dictator games
+
+Do people maximize only their own monetary payoff when choosing how to divide money? The ultimatum game and dictator game isolate different parts of this question. In the ultimatum game, the recipient can reject an allocation; in the dictator game, the recipient has no such power. Comparing them helps distinguish the effect of threatened rejection from willingness to give when rejection is impossible. Both are introduced as anonymous, incentivized laboratory decisions, rather than hypothetical evidence about what every person always does. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=2|Social Preferences, physical PDF pp. 2–3, 8–11]]
+
+Return to [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Behavioral_Economics_main.md#Week 1|Behavioral Economics — Week 1]]. The experimental-method distinction is developed in [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Behavioral_and_Experimental_Economics.md|Behavioral and experimental economics]].
+
+#### The ultimatum game's sequence and payoffs
+
+The **ultimatum game (UG)** has two players, a proposer and a receiver. The proposer is given a fixed monetary pie and chooses a split. The receiver then accepts or rejects. Acceptance implements the split; rejection leaves both players with nothing. The source specifies a one-time, anonymous interaction: the receiver does not know, and will not learn, the proposer's identity. Participants are paid according to their choices. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=2|Social Preferences, physical PDF pp. 2–3]]
+
+**Notation and payoff accounting unpacked from the setup:** let $M>0$ be the pie and $r\in[0,M]$ the amount offered to the receiver. Acceptance gives monetary payoffs
+
+$$
+(x_P,x_R)=(M-r,r),
+$$
+
+where $P$ labels the proposer and $R$ the receiver. Rejection gives $(0,0)$. Thus an offer is not a completed transfer: the receiver has a veto. Rejecting a positive offer is costly to the receiver as well as the proposer. This opportunity to impose a cost is the central difference from the dictator game. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=3|Social Preferences, physical PDF p. 3]]
+
+The lecture's example uses $M=\text{CZK }500$ and asks whether the receiver would accept offers of CZK 0, 1, 20, 100, 150, 200 or 250. The corresponding proposer shares are 500, 499, 480, 400, 350, 300 and 250. These are choice prompts, not observed decisions. The slides also ask for the receiver's minimum acceptable offer and the selfish-model prediction; the exported poll slides contain no responses or results. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=3|Social Preferences, physical PDF pp. 3–7]]
+
+#### Deriving the self-regarding benchmark
+
+**Self-regarding preferences** make a player's utility depend only on that player's own monetary payoff. The benchmark also assumes the proposer expects the receiver to be self-regarding. To solve the sequential game, reason from the receiver's decision backward to the proposer's offer. This is the lecture's comparison with a **subgame-perfect equilibrium**: a strategy prediction that remains optimal at the later decision stage, including after an offer has actually been made. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=5|Social Preferences, physical PDF pp. 5, 8]]
+
+For any $r>0$, a purely monetary receiver gets $r$ from accepting and zero from rejecting, so acceptance is strictly better. A proposer who anticipates this wants to retain as much as possible and offer next to nothing. The lecture summarizes the prediction as an almost-zero offer that is accepted. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=8|Social Preferences, physical PDF p. 8]]
+
+**Qualification derived from the payoff comparison:** at exactly $r=0$, acceptance and rejection both give the receiver zero. Pure self-interest alone therefore leaves the receiver indifferent at zero. An exact minimum offer depends on the allowed monetary unit and how that tie is resolved. If whole CZK offers are allowed and zero would be rejected, the smallest strictly profitable accepted offer is CZK 1. If zero is accepted, offering zero can be optimal. The source supplies neither a tie rule nor a complete offer grid, so its “next to nothing” prediction should not be turned into an unconditional unique zero-offer result. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=3|Social Preferences, physical PDF pp. 3, 7–8]]
+
+#### Typical ultimatum results and what they challenge
+
+The lecture reports that the modal offer—the most common offer—is 40–50% of the pie, with very few offers below 20%. Offers below 20% are rejected very often, more than 50% of the time in the stated summary. It says these patterns have been replicated many times and differ substantially from the self-regarding subgame-perfect prediction. These percentages are the lecture's reported typical laboratory patterns, not a class-poll result or a universal rate for every design and population. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=8|Social Preferences, physical PDF p. 8]]
+
+The rejection of a positive amount is particularly informative: the receiver gives up money to prevent the unfavorable split from being implemented. [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md|Social-preference models]] explain how concern about relative payoffs or treatment can make such an action attractive even though it reduces monetary income. The observed action challenges the purely monetary benchmark under the stated setup; it does not by itself identify one unique preference model. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=8|Social Preferences, physical PDF pp. 8, 20–22]]
+
+A positive proposer offer is also not sufficient evidence of altruism. **Reasoning from the game's veto:** even a self-interested proposer can offer more when expecting a low offer to be rejected. The offer may reflect concern for the receiver, anticipation of costly rejection, or both. This is why the dictator game's removal of the veto is useful. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=3|Social Preferences, physical PDF pp. 3, 8–9]]
+
+#### The dictator game removes the receiver's veto
+
+The **dictator game (DG)** also has a proposer and receiver and a fixed pie, but the proposer’s chosen split is simply implemented. The receiver is completely passive. There is no acceptance or rejection stage. With the same notation, the implemented monetary payoffs are $(M-r,r)$. A strictly self-regarding proposer therefore chooses $r=0$, because every positive transfer directly reduces their own payoff and cannot avoid a receiver veto. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=9|Social Preferences, physical PDF p. 9]]
+
+The lecture describes a typical laboratory implementation with a \$10 pie supplied by the experimenter, participants randomly assigned to proposer and receiver roles, and anonymity about individual decisions or pairings. The endowment is received rather than earned. These procedural features matter when interpreting what the comparison does and does not hold constant. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=9|Social Preferences, physical PDF p. 9]]
+
+The stated typical results are that more than 60% of participants transfer a positive amount, with a mean transfer of roughly 20% of the endowment. The fraction of people giving something and the average fraction of the pie given are different quantities: a 20% mean does not mean that 20% of participants give or that every giver transfers exactly 20%. For the stated \$10 endowment, 20% is about \$2 as an arithmetic illustration, not a separately observed result. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=11|Social Preferences, physical PDF p. 11]]
+
+The lecture stresses sensitivity to procedural details: when the endowment is earned rather than received from the experimenter, giving diminishes. It does not provide a numerical size for that reduction. Positive giving therefore supplies evidence against complete monetary selfishness for many participants in the described setting, while its level depends on the experimental procedure. It does not establish that all participants are unselfish or that these laboratory averages directly predict giving in every other setting. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=9|Social Preferences, physical PDF pp. 9, 11]]
+
+#### Reading the two games together
+
+| Feature | Ultimatum game | Dictator game |
+|---|---|---|
+| Who chooses the split? | Proposer | Proposer |
+| Can the receiver reject? | Yes; rejection gives both zero | No; the split is implemented |
+| Self-regarding proposer benchmark | Offer next to nothing that will be accepted | Give zero |
+| What positive giving can reflect | Social concern and/or anticipated rejection | Giving without a receiver veto |
+| What the source reports | Substantial offers and frequent rejection of very low offers | Many positive transfers; giving sensitive to the endowment procedure |
+
+The comparison isolates the receiver's strategic power, while the lecture's reported results show that many choices need a broader account of motivation. The next step is to define what “broader” means: [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md|Models of social preferences]] separates altruism, spite, inequality aversion and reciprocity. [[01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md|Trust and cooperation games]] then examines settings where behavior can change the total monetary surplus, instead of only dividing a fixed pie. [[00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf#page=3|Social Preferences, physical PDF pp. 3, 8–13, 23–24]]
+
+
+## Worked example
+
+### O002-W1 — Veto comparison
+
+Item version: v1. Role: worked instruction.
+
+**Setup:** Hypothetical: pie 80 units, receiver offered 8. Contrast UG and DG; assume whole units and UG receiver rejects zero but accepts every positive offer.
+
+**Worked reasoning and result:** UG acceptance gives (72,8); rejection (0,0). A selfish receiver strictly accepts 8; zero ties monetarily, so the extra tie rule matters. Given whole units and reject-zero, selfish proposer offers 1, receiving 79. DG receiver has no veto and proposer gives 0, receiving 80. Strategic UG giving can reflect fear of rejection; DG positive giving cannot avoid a nonexistent veto. The lecture’s UG modal 40–50% corresponds to a range of shares, not every person; DG >60% positive givers and ~20% mean are separate quantities, and earned giving diminishes without a stated amount.
+
+**Checks and interpretation:** Verify labels, active conditions, dimensions/signs where applicable and every source limitation before inferring a choice. This example is exposed instruction and cannot establish independence.
+
+## Practice with fading assistance
+
+### O002-S1 — Complete payoff and inference
+
+Item version: v1. Role: supported completion. Required components: R1, R2, R3, R4.
+
+**Question:** Hypothetical pie 120, offer 24. Fill UG accepted pair, rejected pair and receiver monetary comparison. With whole units and zero accepted, derive the proposer optimum; derive DG optimum. Then recite the lecture’s UG/DG summaries and distinguish motive identification and earned-endowment limits. Hint: start with the receiver’s final action. State the one-shot, anonymous, incentivized setting and distinguish the sequential veto from direct implementation.
+
+**Key:** Accepted (96,24), rejected (0,0); accept positive 24 since 24>0. At zero receiver ties, stipulated acceptance permits UG offer 0; DG offer 0 because own 120-r falls. UG mode 40–50%, few below 20%, low offers often rejected >50%; DG >60% give and mean ~20%, distinct statistics. UG giving can anticipate veto, so not uniquely altruism; DG giving also does not identify one mechanism. Earned endowment reduces giving with no numerical effect supplied; empty polls give no evidence; rates are not universal. Both are anonymous, one-time incentivized choices; UG is sequential with the receiver veto, whereas DG implements the split directly.
+
+**Support and rubric:** Begin by letting the learner complete the specified steps using blank paper. Linked notes and up to two prepared hints are allowed here. Pass requires the essential component list with correct reasoning; partial means an incomplete component or isolated arithmetic slip, prompting the named repair; fail means a critical conceptual error. A correct supported answer permits fading help, never a claim of independent acquisition. After two ineffective hints show the needed step or pause.
+
+### O002-I1 — independent acquisition
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Hypothetical one-shot anonymous paid pie 150, offer 15. State UG and DG sequences and payoff pairs; derive UG behavior for positive offer and zero, then selfish proposer offer with whole-unit offers if zero is rejected and if zero is accepted; derive DG optimum. Recite the lecture’s UG mode/low-offer/rejection and DG giver-fraction/mean-share patterns, distinguish their meanings, and explain earned-endowment sensitivity, missing polls, strategic giving and nonunique motives.
+
+**Key:** UG proposer offers then receiver accepts (135,15) or rejects (0,0); DG implements (135,15) without a veto. Monetary receiver accepts 15>0 and is indifferent at zero. Whole-unit reject-zero gives proposer offer 1; accept-zero gives offer 0. DG selfish proposer chooses 0. UG mode 40–50%, very few below 20%, offers below 20% often rejected >50%; DG >60% give positively, mean ~20% of pie. Fraction giving differs from mean and mode; none describes every individual. Earned rather than received endowment lowers giving, magnitude unspecified. Poll responses absent. UG giving can anticipate costly rejection, rejection sacrifices own positive payoff, DG giving removes veto but neither identifies a unique motive or universal rate.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+### O002-I2 — independent acquisition
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Hypothetical anonymous incentivized one-time pie 240, offer 60. Compare UG accepted/rejected payoffs with DG implementation; solve the monetary receiver including zero, and solve selfish UG proposer with increments of 2 units under both zero tie rules, plus DG proposer. Explain all lecture UG and DG summary statistics and the procedural/identification limits, including absent classroom responses.
+
+**Key:** UG accepted (180,60), rejected (0,0); DG (180,60) directly. Positive60 accepted under pure money; zero indifferent. With 2-unit grid rejecting zero, smallest accepted offer2; accepting zero permits0. DG offer 0. Lecture: UG mode 40–50%, few<20%, <20% rejected often >50%; DG >60% positive givers, mean ~20% pie. Mode, giver fraction and mean are different; earned giving diminishes without supplied effect size. Empty polls no results; summaries not universal rates. UG giving can anticipate rejection and is not unique altruism; costly rejection challenges money-only benchmark, DG veto removal strengthens comparison but cannot identify a unique social preference.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Rubric and independence
+
+- **R1**: State one-shot anonymous incentivized UG/DG rules, accepted and rejected payoffs, and the receiver-veto distinction.
+- **R2**: Derive selfish UG backward reasoning including zero-offer indifference, offer-unit/tie dependence; derive DG zero transfer.
+- **R3**: Recall the lecture’s approximate UG and DG patterns; distinguish modal share, fraction giving and mean share; preserve earned/received endowment sensitivity and absent poll results.
+- **R4**: Explain why UG giving may anticipate rejection and neither giving nor rejection identifies a unique social preference or universal rate.
+
+Every I1, I2, D1, D2 and C1 question/key explicitly addresses all required components above. The sole acquisition route is two separate, distinct, fresh unassisted passes on I1 **and** I2 under the current criterion and compatible tuple. Worked/support/diagnostic/correction items and delayed items are not acquisition substitutes. No shorter question silently fills a missing component. The fixed practice inputs differ across W1/S1/I1/I2/D1/D2/C1; learning constants from the notes remain common where retrieval of those exact facts is the outcome.
+
+Pass: all essential components, necessary reasoning, assumptions and interpretation limits are present, with accurate outputs. Accept equivalent wording, correct alternative algebra and exact fractions or consistent rounding that preserves inequalities/ties. Partial: a missing component or isolated arithmetic/transcription slip with valid conceptual setup; score before explaining the repair and do not count this attempt as a pass. Fail: wrong regime/role/sign, invalid incentive logic, replacing utility with monetary sum, treating hypothetical or descriptive data as identified results, or dropping a stated condition that changes the conclusion. For the orientation objective, replacing a printed restriction with an invented rule is a critical error. Unscorable: ambiguous prompt interpretation outside the key, unknown assistance/access/exposure, or unavailable source tuple. No numeric point scale or mastery result is fabricated.
+
+An independent check is fresh only if neither its question nor key has already been exposed, including during earlier diagnostics or feedback. Teach records actual help/access conditions. Correct repetition of an exposed task cannot establish fresh independence. I1 and I2 are reserved for acquisition; D1/D2 are reserved for delayed retrieval.
+
+## Misconceptions and correction
+
+Sign: unique zero UG offer without tie assumptions, or “20% of dictators give.” Correction: compare final payoffs; zero is a tie; distinguish participants counted from money averaged. Hint 1: receiver money after accept versus reject. Hint 2: identify the denominator of each statistic. C1 after feedback is repair, not independent acquisition.
+
+A sign is a tentative hypothesis about the error until the learner’s reasoning supports it. Score the initial response before giving the corrective explanation or either hint. At most two ineffective hints, then show the specific prepared step or pause. After two unsuccessful full independent attempts, stop quizzing and use support/prerequisite repair; request new full variants from plan if needed.
+
+### O002-C1 — fresh correction only
+
+Item version: v1. Role: correction_repair. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Repair case: anonymous one-shot paid pie 200, offer 10, increments of 10. Explain UG/DG sequence and payoff contrast; derive monetary receiver and both zero tie cases, UG proposer and DG proposer; retrieve and interpret all lecture patterns and procedural/motive limits.
+
+**Key:** UG acceptance(190,10), rejection(0,0); DG implements(190,10) with passive receiver. Receiver accepts10, ties0. Reject-zero→smallest10; accept-zero→0; DG0. UG mode 40–50%, few<20%, low offers often rejected>50%; DG >60% give, mean ~20%. Distinct modal amount, giver fraction and mean; earned endowment diminishes giving with no reported size. Poll data absent; strategic rejection threat can cause UG giving; rejection costs receiver, DG removes veto; no unique preference or universal rate identified.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Immediate and delayed checks
+
+I1 and I2 are prepared above for immediate acquisition. Present each question without its key. Delayed checks below must occur at least 24 actual hours after both qualifying acquisition and the most recent relevant teaching/feedback/known solution exposure: measure from the later of those anchors. They occur before recap and without help. A next calendar day alone does not establish 24 hours. Record known intervening exposure; unknown timing/exposure does not certify delayed retention. This interval is a practical validity guard, not a personalized optimum. A delayed pass requires all current essential components. D1 and D2 are alternatives for separate fresh delayed attempts; use the first unused one, never both merely to fill acquisition. Passing a number-changed parallel variant supports bounded retrieval and application, not broad transfer or every semester topic.
+
+### O002-D1 — delayed independent retrieval
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Fresh anonymous one-shot paid allocation: pie 180, offer 18, whole-unit offers. Explain UG/DG rules and payoffs, receiver positive/zero decisions, proposer choices under both zero tie rules and DG choice. Retrieve the UG and DG lecture patterns with statistical meanings, then explain veto-based motives, costly rejection, endowment-procedure sensitivity and limits of the missing polls.
+
+**Key:** UG acceptance (162,18), rejection (0,0), DG implementation (162,18), no receiver choice. Receiver accepts18>0, indifferent0. UG whole-unit reject0→offer 1; accept0→offer 0; DG→offer 0. UG mode 40–50%, few<20%, low offers rejected >50% in typical summary; DG >60% givers and mean ~20%, not the same statistic. UG offer can avoid expected rejection; positive rejection is costly and challenges monetary benchmark. No unique motive follows from either game. Earned endowment giving diminishes, magnitude unspecified; polls have no responses; rates are approximate contextual summaries.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+### O002-D2 — delayed independent retrieval
+
+Item version: v1. Role: full_capability_check. Relation: `parallel_variant`. Required components: R1, R2, R3, R4.
+
+**Question:** Fresh anonymous one-time incentivized pie 300, offer 90, increments of 5. Give UG/DG rules and monetary payoffs, derive receiver behavior including zero and proposer solutions under both zero tie rules. Retrieve and interpret the reported UG/DG statistics and all stated procedural and motive-identification limits.
+
+**Key:** UG accepted (210,90), rejected(0,0); DG implements(210,90). Receiver accepts90, indifferent0. Reject-zero and 5-unit grid→UG offer5; accept-zero→0; DG0. Lecture UG mode 40–50%, very few<20%, low offers often rejected >50%; DG >60% positive givers and mean ~20% pie. Mode/fraction/mean distinct; earned giving diminishes with no effect size; no class-poll data. Strategic veto anticipation can explain UG giving; costly rejection contradicts pure-money receiver, DG lacks veto, but neither uniquely identifies preferences or supports universal rates.
+
+**Item rubric:** All listed required components must be supplied, with correct reasoning and limits; apply the component decision rules in Rubric and independence. Conceptually equivalent explanations and exact fractions/consistent decimals are acceptable. No assistance, notes, calculator, device, AI or key access for an independent/delayed attempt; blank paper and pen only. C1 is a supported repair after scoring the original response and does not count toward acquisition or delayed retention.
+
+## Advance, revisit, pause, and escalate
+
+Advance this objective only after committed qualifying passes on both I1 and I2; do not imply durable retention until an eligible delayed check is recorded. If a required diagnostic is deficient, follow its named prerequisite explanation/support. End a session with the actual unfinished route when acquisition is unmet. If relevant notes/state change or the matched journal is incomplete, block this version pending plan reconciliation. A note error, source contradiction or absent provenance goes to ingest at the exact note/heading for checked repair. A missing lesson explanation or teaching bridge goes to plan as `plan_issue` under the self-contained lesson-content contract; plan may supply and verify that explanation without editing notes. Unsupported answer alternatives, ambiguous rubrics, missing prepared components or exhausted fresh I/D/C variants go to plan as `plan_issue`, with course ID, P002/V002/ingest 3, objective/criterion, item ID/version, exposed item IDs and the actual gap; do not invent or recycle a new assessment. Finite-bank exhaustion is a curriculum gap, not learner failure. No scheduler dates or learner status are written here.
+
+## Answer-free recall handoff
+
+**Review topic:** Behavioral Economics — Solve and interpret ultimatum and dictator allocations
+
+**Start instruction:** Begin a closed-note review with teach for O002; request an unused prepared delayed item before recap. Open [[03_Agents/2026_2027/Winter_Semester/Behavioral_Economics/lessons/O002.md#Immediate and delayed checks]]. Teach supplies actual committed acquisition/evidence identifiers; recall alone selects dates and synchronizes reviews. There is no personal deadline constraint (null) and no observed learning result in this plan.
+
+## Content provenance and generation boundaries
+
+Complete checked-note passages above are reused with only heading-depth and explicit mathematical typography adaptation; exact origin/fingerprint and asset dependencies are in source_manifest.md. All earlier plan-created exercises/full keys and named evidence routes remain intact. Hypothetical arithmetic instantiates the included definitions and does not introduce empirical results or new academic claims. Only named prepared full-capability forms and their existing permitted pairs can certify acquisition/delayed evidence. Extra checked explanation/practice cannot replace a named full form or reassessment gate. Equivalent verified methods may meet the unchanged pre-answer criterion; ambiguous criteria or an exhausted fresh bank return to plan. The current objective revision is 2; item/criterion versions remain as explicitly stated above.

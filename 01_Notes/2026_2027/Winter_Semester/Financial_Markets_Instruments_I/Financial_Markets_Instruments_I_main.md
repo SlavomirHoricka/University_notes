@@ -2,6 +2,7 @@
 
 - [[#Week 1|Week 1 — futures trading essentials]]
 - [[#Week 2|Week 2 — examples of financial futures]]
+- [[#Week 3|Week 3 — cost of carry and parity]]
 - [[#Course organization|Course organization and assessment]]
 
 ## Week 1
@@ -50,6 +51,24 @@ The implied repo rate compares the full purchase outflow with delivery proceeds 
 This scope covers all **16 physical slides** of **L11(ExamplesOfFinancialFutures).pptx**, including all tables, equations, timelines, diagrams and actual speaker-note parts. No hidden slide is present. Slide 1 notes contain production remarks and slide 16 notes only its physical slide number; no additional academic content comes from the notes. The closing physical slide 16 displays footer number 13, so references use physical slide positions. The Week 1 handout's later chapters remain outside this Week 2 folder ingestion; no additional chapter or outside exchange source was silently added. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 1]] [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 2]] [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_2/L11(ExamplesOfFinancialFutures).pptx|L11(ExamplesOfFinancialFutures).pptx, slide 16]]
 
 Native OOXML math and its image fallbacks were compared with a temporary LibreOfficeDev PDF render. Source images preserve key specifications, calculations, flow diagrams and timelines in the course assets folder. The EDSP rate-versus-quotation label difference, inconsistent numerical day counts and simplified carry timing are explained beside their claims. These limitations do not prevent learning the checked quotation, payoff, conversion-factor definition or IRR derivation, but they prevent treating the defective numerical examples as exact answer keys.
+
+## Week 3
+
+Concept index and reading path:
+
+- [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_3/Cost_of_Carry_and_Calendar_Spreads.md|Cost of Carry and Calendar Spreads]]
+- [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_3/Currency_Parity_and_Carry_Trade.md|Currency Parity and Carry Trade]]
+- [[01_Notes/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_3/Bond_Forward_Rates_and_Stock_Index_Parity.md|Bond Forward Rates and Stock Index Parity]]
+
+Begin with cash-flow replication: a financed spot purchase and a matching delivery commitment must have equal net cost under reversible, frictionless trading. This is the core mechanism because it explains both the basis and all three financial applications. Long/short direction, price units, rate conventions and matched dates are foundations: they determine which flows cancel and which remain. The calendar spread uses carry only between delivery dates. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_3/L12(CostOfCarryModel).pptx|L12(CostOfCarryModel).pptx, physical slide 2–5]]
+
+Then distinguish covered currency conversion from uncovered exchange risk. Covered parity locks the future conversion; uncovered parity is an expectations condition, while carry trade can lose from funding-currency appreciation. The historical peg example is supporting application and explicitly conditional: a peg expectation does not guarantee a riskless realized payoff. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_3/L12(CostOfCarryModel).pptx|L12(CostOfCarryModel).pptx, physical slide 6–8]]
+
+Finally, zero-coupon replication relates compounded spot and forward growth factors, while index replication cancels the uncertain spot portfolio value against the short-futures gain. These applications test the same core cash-flow reasoning with different conventions; ETF implementation and practical frictions qualify exact replication. [[00_Materials/2026_2027/Winter_Semester/Financial_Markets_Instruments_I/Week_3/L12(CostOfCarryModel).pptx|L12(CostOfCarryModel).pptx, physical slide 9–10]]
+
+### Week 3 scope and source qualifications
+
+All 11 physical slides of L12, including native OOXML, rendered equations/tables and two actual speaker-note parts, were inspected. There are no hidden slides. Title slide1 and closing physical slide11 (footer13) carry no separate academic content. Production remarks and page-number notes add none. Temporary LibreOffice rendering is used only to read the original PPTX; citations use physical slide positions. The source's peg-dependent “risk-free” description and incorrect terminal-futures-payoff term are retained and explained in the notes; they are not used as unconditional results. Supplementary checks are identified beside the relevant explanations. The full Week1 handout's later chapters and all Week4+ folders remain outside scope.
 
 ## Course organization
 

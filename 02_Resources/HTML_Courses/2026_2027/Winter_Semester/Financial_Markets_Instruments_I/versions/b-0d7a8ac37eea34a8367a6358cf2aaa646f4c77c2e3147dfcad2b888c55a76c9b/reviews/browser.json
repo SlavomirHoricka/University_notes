@@ -1,0 +1,33 @@
+{
+  "candidate_digest": "0d7a8ac37eea34a8367a6358cf2aaa646f4c77c2e3147dfcad2b888c55a76c9b",
+  "checks": {
+    "compact": true,
+    "desktop": true,
+    "interactions": true,
+    "links": true,
+    "math": true,
+    "offline_dependencies": true
+  },
+  "evidence": {
+    "external_requests": [],
+    "image_instances": 33,
+    "inspection": "/private/tmp/week3-ingest-html/Financial_Markets_Instruments_I/qa-final2/inspection.json",
+    "inspection_sha256": "ccfda72943c9be390b90c841f253f44ffa329fe1e97ef70487fcf97e0786ab49",
+    "javascript_resource_math_errors": [],
+    "method": "Direct file://, isolated temporary Chrome profile; every contents/lesson page checked at 1440 and 390px; local dependency paths independently checked by course.py. Written entry and solution reveal checked; numeric empty/wrong/correct cases and slope/reset/SSE checked wherever present. Saved screenshots visually inspected by owner before this report.",
+    "pages": 21,
+    "rendered_math_instances": 3190,
+    "screenshots": [
+      "/private/tmp/week3-ingest-html/Financial_Markets_Instruments_I/qa-final2/compact-math.png",
+      "/private/tmp/week3-ingest-html/Financial_Markets_Instruments_I/qa-final2/compact.png",
+      "/private/tmp/week3-ingest-html/Financial_Markets_Instruments_I/qa-final2/desktop.png",
+      "/private/tmp/week3-ingest-html/Financial_Markets_Instruments_I/qa-final2/figure.png",
+      "/private/tmp/week3-ingest-html/Financial_Markets_Instruments_I/qa-final2/math.png",
+      "/private/tmp/week3-ingest-html/Financial_Markets_Instruments_I/qa-final2/numeric-feedback.png"
+    ]
+  },
+  "findings": [],
+  "kind": "browser",
+  "reviewer": "/root; isolated Chrome via Playwright, with direct visual inspection of saved desktop/compact/math/figure screenshots",
+  "status": "passed"
+}

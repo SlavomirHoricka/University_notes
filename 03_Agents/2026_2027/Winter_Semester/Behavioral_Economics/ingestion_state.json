@@ -2,20 +2,22 @@
   "schema_version": 1,
   "owner": "ingest",
   "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
-  "ingestion_revision": 2,
-  "transaction_id": "T-83ad8c8302404afb87502640520efbfd",
+  "ingestion_revision": 3,
+  "transaction_id": "INGEST-20261018-BE-R3-COMPLETE",
   "status": "complete",
-  "run_id": "20261004T200313+0200_behavioral_social_preferences_week1",
-  "completion_log": "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
-  "updated_at": "2026-10-04T20:25:17.968715+02:00",
+  "run_id": "20261018T195113+0200_weeks1-3_five_courses",
+  "completion_log": "03_Agents/runtime/ingest/logs/20261018T195113+0200_weeks1-3_five_courses.md",
+  "updated_at": "2026-10-18T21:00:14.624857+02:00",
   "finished_notes": [
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Behavioral_Economics_main.md",
-      "sha256": "9e0efd963aa7985d9f7db080caf616beec5a66ca58226b79ff08a7aa53ce6d81",
+      "sha256": "f0418ac6c576d046e95298af2ee1adaddf83a6c3b92c94d4274fc1b1ad41f0f9",
       "headings": [
         "Behavioral Economics",
         "Week 1",
-        "Social preferences in the expanded Week 1 collection"
+        "Social preferences in the expanded Week 1 collection",
+        "Week 2",
+        "Week 3"
       ]
     },
     {
@@ -88,6 +90,59 @@
         "The dictator game removes the receiver's veto",
         "Reading the two games together"
       ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_2/Effort_Contracts_and_Social_Motivations.md",
+      "sha256": "9b7365693d9f801e0a0ff180c3fd9801b7ad8976661455d7d8299756e0090ede",
+      "headings": [
+        "Effort, contracts and social motivations",
+        "The self-regarding principal-agent benchmark",
+        "Adding a marginal social motive",
+        "Wage rigidity and the gift-exchange hypothesis"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_2/Gift_Exchange_in_Labour_Markets.md",
+      "sha256": "9302e6c35313a9e16a1e62736c03c3e078afc09b76cc2ea12d7ff16331d489dd",
+      "headings": [
+        "Gift exchange in labour-market field experiments",
+        "Gneezy and List: the response can fade",
+        "Kube, Maréchal and Puppe: positive and negative responses differ",
+        "The currency of reciprocity: money and a thermos bottle",
+        "What the comparisons establish"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_2/Relative_Pay_and_Charitable_Gift_Exchange.md",
+      "sha256": "f25609e10a80282755875d6639b5d4cc8b32423bdac3240e176c3a7e277e95ef",
+      "headings": [
+        "Relative pay and charitable gift exchange",
+        "Relative wages with own wage held fixed",
+        "Falk: a gift before the donation decision",
+        "Timing and the revenue denominator"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_3/Social_Environment_and_Mentoring.md",
+      "sha256": "ae2f09f4c9e0e3456e9ab1d7fa9303e2c945ea69c2509f71dfb0ef966c7c4d9b",
+      "headings": [
+        "Social environment and mentoring",
+        "The intervention and comparison groups",
+        "What “prosociality” measures",
+        "Background correlations",
+        "The offer changes measured outcomes",
+        "Mechanism and policy limits"
+      ]
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_3/Social_Preferences_in_Childhood.md",
+      "sha256": "e0a3559c498c69bafe1c4a6d41bffa0c3f527a21fdd89a26affaabf6a221d04b",
+      "headings": [
+        "Social preferences in childhood",
+        "Three games distinguish different motives",
+        "Read the whole choice pattern",
+        "The age comparison is conditional on the partner group"
+      ]
     }
   ],
   "affected_note_paths": [
@@ -98,87 +153,142 @@
     "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Models_of_Social_Preferences.md",
     "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/Trust_and_Cooperation_Games.md"
   ],
-  "prior_completed_revision": 1,
-  "unresolved": [
-    "Printed grade bands do not supply a fractional-score rounding rule. The SIS lists misperceptions conditionally, whereas the syllabus lists the later topic without that condition; the difference is retained only as course orientation.",
-    "Social-preferences poll pages 4, 6–7, 10, 26 and 30 export prompts without classroom responses or results. Empirical UG/DG/TG/cooperation patterns are lecture summaries without underlying observations or full methods.",
-    "PDF p.27 does not define the reported approximately 33% trust-game return denominator or aggregation; usual-denominator arithmetic is explicitly conditional.",
-    "PDF p.28 country table has no visible author/year, pooling or experimental-design controls, uncertainty intervals or precise return denominator; missing Vietnam return is n/a, and causal country rankings or statistical significance are not inferred.",
-    "PDF p.35 broadly asserts cooperation for best-response altruists; the notes preserve that assertion and qualify it using both payoff-threshold orderings, beliefs and the selfish second player. This is a source qualification rather than an unresolved mathematical error.",
-    "Efficiency-seeking is named without a complete separate utility model; p.36 provides no complete study methods/rates or quantitative reciprocity mechanism. The symmetric-weight efficiency illustration and algebraic unpacking are labeled agent derivations."
+  "prior_completed_revision": 2,
+  "unresolved": [],
+  "selected_scope": [
+    "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1",
+    "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_2",
+    "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_3"
   ],
-  "selected_scope": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1",
-  "coverage_status": "Complete for all 37 pages of the added presentation; four unchanged sources retain prior checked coverage. Source limitations are explicitly recorded.",
+  "coverage_status": "Prior Week1 checked scope unchanged; all35 Week2 and23 Week3 physical pages, all5newnotes/16assets independently checked complete",
   "finished_assets": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Introduction_slide_06_correlation.png",
+      "bytes": 193529,
+      "sha256": "c536e5a0fb1686caa8a5f172706176385f99a451fd0098ae22e42fc3a98ae81f"
+    },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p15_Selfish_Indifference.png",
       "bytes": 64161,
-      "sha256": "ebd41f509d35d76ab9b4cea3d4ee7b57bfcfff0b5f56c5aa60cffd1e75ca2059",
-      "change": "new",
-      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
-      "source_pdf_page": 15
+      "sha256": "ebd41f509d35d76ab9b4cea3d4ee7b57bfcfff0b5f56c5aa60cffd1e75ca2059"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p17_Altruism_Indifference.png",
       "bytes": 87224,
-      "sha256": "350e086ad09126e87dd743b5a0994b3ebcdc649eb18807aba0463a50de3bd69f",
-      "change": "new",
-      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
-      "source_pdf_page": 17
+      "sha256": "350e086ad09126e87dd743b5a0994b3ebcdc649eb18807aba0463a50de3bd69f"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p19_Spite_Indifference.png",
       "bytes": 52001,
-      "sha256": "94306c1b4ef903977322ac5e79f876c359666d55ffcd0fb6bf58b8acc655eced",
-      "change": "new",
-      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
-      "source_pdf_page": 19
+      "sha256": "94306c1b4ef903977322ac5e79f876c359666d55ffcd0fb6bf58b8acc655eced"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p21_Inequality_Indifference.png",
       "bytes": 85935,
-      "sha256": "dc4162ea16419fb53c481d8aeb5c1a5591b0ac9658beda5f4958d53cf1636a74",
-      "change": "new",
-      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
-      "source_pdf_page": 21
+      "sha256": "dc4162ea16419fb53c481d8aeb5c1a5591b0ac9658beda5f4958d53cf1636a74"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p28_Trust_Country_Table.png",
       "bytes": 352029,
-      "sha256": "b76da2ae4e1e7594c541ae549e49848910e4238341c04641afcc0398ca36a0a5",
-      "change": "new",
-      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
-      "source_pdf_page": 28
+      "sha256": "b76da2ae4e1e7594c541ae549e49848910e4238341c04641afcc0398ca36a0a5"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p32_Prisoners_Dilemma.png",
       "bytes": 90670,
-      "sha256": "8559e47666239961fe1d67ee49c0a74174384f08545f321e2e30ce3b82751664",
-      "change": "new",
-      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
-      "source_pdf_page": 32
+      "sha256": "8559e47666239961fe1d67ee49c0a74174384f08545f321e2e30ce3b82751664"
     },
     {
       "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Social_Preferences_p35_Warm_Glow_Payoffs.png",
       "bytes": 159456,
-      "sha256": "161c35b9d9fc3bee7c4c0473615315ff4a2383cf55b8750e3246ae7836668d25",
-      "change": "new",
-      "source_path": "00_Materials/2026_2027/Winter_Semester/Behavioral_Economics/Week_1/L2 BE_SocPrefs IES 2026.pdf",
-      "source_pdf_page": 35
+      "sha256": "161c35b9d9fc3bee7c4c0473615315ff4a2383cf55b8750e3246ae7836668d25"
     },
     {
-      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Introduction_slide_06_correlation.png",
-      "bytes": 193529,
-      "sha256": "c536e5a0fb1686caa8a5f172706176385f99a451fd0098ae22e42fc3a98ae81f",
-      "change": "unchanged; reused from prior completed pass"
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_2_Conditional_Donations.png",
+      "bytes": 138950,
+      "sha256": "c5574c22de31e199f715b39ea99c217ff21a9c584f07e08bae524a4789ef5ba6"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_2_Donation_Followup.png",
+      "bytes": 305050,
+      "sha256": "6147b6b563cf5c69fc99495ab5ded505047d8b3baa7b7f074151a8a2b8f5be98"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_2_Donation_Frequency.png",
+      "bytes": 153509,
+      "sha256": "31e9822322828277e364053d3387b949ef061e3faafd7ca273b36b8095eb66e3"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_2_Fundraising_Gift.png",
+      "bytes": 143406,
+      "sha256": "954a731c982475677f0b4251cefb29a3f695016f516774e3a24604ad2118b10f"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_2_Gift_Choice.png",
+      "bytes": 160106,
+      "sha256": "26d7a161f21b368ad7a1706e0798b5c22cf19db5f2842067004035180eb9fe2b"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_2_Gift_Form.png",
+      "bytes": 163449,
+      "sha256": "43007e9cd937f91f42df15205693c857f963cf1aeb2c68ad8eb00abacf43a516"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_2_Library_Gift.png",
+      "bytes": 132975,
+      "sha256": "ca4976480f274082f4635eb37079356d8c2c64eedee84bc040b6fa01e4bc91c3"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_2_Origami_Gift.png",
+      "bytes": 369612,
+      "sha256": "5797e8966b82c05eb14cadc790e2d8d365e6cbf0ccefec06710b39e5d366d863"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_2_Wage_Cuts.png",
+      "bytes": 147474,
+      "sha256": "d35a2ffe9fdc1f48f5fd3f623dd02a4dfd1b530db5b6e97876a9697298186a45"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_2_Wage_Unemployment.png",
+      "bytes": 48859,
+      "sha256": "ca21edac023d92ec78e211e34214c4b6923b84aee91a8d0670311caef274d0e8"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_3_Age_Choices.png",
+      "bytes": 215298,
+      "sha256": "76490db9b28d2151757dd646b6642b952067c77376970c3ffe477d3c6a6c74b7"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_3_Allocation_Setup.png",
+      "bytes": 512839,
+      "sha256": "226eccf26b4728e4e6bf69197660a34e37df3d11bffdbd8505d064f3f3661e99"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_3_Background_Associations.png",
+      "bytes": 264067,
+      "sha256": "07573bbd59859dabe878d09d2d2fcd100710dda5b7cf1326dff2ff00b3818cf0"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_3_Mentoring_Measures.png",
+      "bytes": 282232,
+      "sha256": "75c5b756a24288acaf7a73b948065de89df4e520eec8de64c84a6210c02df45d"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_3_Mentoring_Treatment.png",
+      "bytes": 219878,
+      "sha256": "8feff447ee1ac818a8de7ed614eef1380188bf3f78e7846cd9f90fc78de6f3c6"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Behavioral_Economics/assets/Week_3_Preference_Types.png",
+      "bytes": 174042,
+      "sha256": "e5f9fdd7d02e7a6038fe0796be946be5e0024af93d5d28ab988580eb079c061d"
     }
   ],
   "prior_passes": [
+    "03_Agents/runtime/ingest/logs/20261004T200313+0200_behavioral_social_preferences_week1.md",
     "03_Agents/runtime/ingest/logs/20261004T155737+0200_week1_courses.md"
   ],
   "prior_plan_paths": [],
   "independent_checkers": [
-    "/root/factcheck_introductions",
-    "/root/social_preferences_check"
+    "/root/ingest_owner/be_source_check"
   ]
 }

@@ -1,0 +1,188 @@
+# Allocate a fixed abatement target and compare instrument boundaries
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+  "transaction_id": "PLAN-20261009-GREEN-P003",
+  "plan_version": "P003",
+  "source_version": "V002",
+  "ingestion_revision": 2,
+  "objective_id": "O010",
+  "objective_revision": 1,
+  "criterion_version": "O010-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "least_cost_allocation_and_price",
+    "instrument_families_and_flexibility",
+    "effectiveness_innovation_and_metric_limits"
+  ],
+  "prerequisite_ids": [
+    "O006"
+  ],
+  "compatible_versions": [],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+      "heading": "Four instrument families"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+      "heading": "Tradable rights and flexibility"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+      "heading": "Why common marginal costs minimize total abatement costs"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+      "heading": "Innovation and environmental effectiveness"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+      "heading": "Different ETS metrics answer different questions"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md",
+      "heading": "Climate agreements and EU targets as recorded in the lecture"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_capability_check",
+      "full_capability_check"
+    ],
+    "allowed_routes": [
+      [
+        "O010-I1",
+        "O010-I2"
+      ],
+      [
+        "O010-I1",
+        "O010-D1"
+      ],
+      [
+        "O010-I1",
+        "O010-D2"
+      ],
+      [
+        "O010-I2",
+        "O010-D1"
+      ],
+      [
+        "O010-I2",
+        "O010-D2"
+      ],
+      [
+        "O010-D1",
+        "O010-D2"
+      ]
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true
+  },
+  "review_topic": "Allocate a fixed abatement target and compare instrument boundaries",
+  "review_instruction": "Begin a closed-note review with teach for O010; request an unused prepared delayed item before recap."
+}
+```
+
+## Outcome and conditions
+
+Derive least-cost abatement and compare what price/quantity instruments establish under explicit coverage and enforcement conditions. Required components: least_cost_allocation_and_price, instrument_families_and_flexibility, effectiveness_innovation_and_metric_limits. Supported work may use the cited notes; independent checks use no notes, internet, solution or hints. A basic calculator and blank paper are allowed; reasoning, formula selection and assumptions must be supplied by the learner. Numerical examples below are agent-created hypothetical instantiations unless explicitly labelled as a finished-note example. They do not assert current market or policy facts.
+
+[[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md#Four instrument families|Four instrument families]]
+[[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md#Tradable rights and flexibility|Tradable rights and flexibility]]
+[[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md#Why common marginal costs minimize total abatement costs|Why common marginal costs minimize total abatement costs]]
+[[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md#Innovation and environmental effectiveness|Innovation and environmental effectiveness]]
+[[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md#Different ETS metrics answer different questions|Different ETS metrics answer different questions]]
+[[01_Notes/2026_2027/Winter_Semester/Economics_of_Green_Deal/Week_2/Market_Based_Environmental_Instruments.md#Climate agreements and EU targets as recorded in the lecture|Climate agreements and EU targets as recorded in the lecture]]
+
+## Prerequisites and checks
+
+O010-P1 / item_version 1: O006 is needed because a socially chosen target differs from least-cost implementation. Prompt: Does equal MAC alone prove the emissions target optimal? Key: No; it minimises comparable compliance cost for a given feasible target; social benefit/damage selects the target. Pass requires the keyed mechanism and qualification; partial means an omitted step; fail means a conflicting mechanism. Adequate committed evidence under a compatible criterion permits skipping this diagnostic. Otherwise repair through [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O006.md#Outcome and conditions]] before continuing.
+
+## Teaching order and rationale
+
+1. Read **Motivation and explanation** for the decision, definitions and conditions before performing calculations.
+2. Follow **Worked example** with all steps visible to connect the model to its interpretation.
+3. Attempt **Supported completion** with the named help, then remove notes and solutions.
+4. Use **Immediate and delayed checks** I1 and I2, answering before feedback. These each assess the entire outcome.
+5. Use **Misconceptions and correction** after scoring an error; then use an unused full item.
+6. Later use an unused D item before recap under the actual elapsed-time rule. The order avoids treating helped performance as independent learning.
+
+## Motivation and explanation
+
+For these numerical examples C1(0)=C2(0)=0; a marginal-cost curve alone would leave each additive cost constant unspecified. For a fixed total abatement, minimise the sum of each firm’s cost with sum a_i=target. At a smooth interior choice, every MAC_i equals the constraint’s marginal cost λ. Otherwise shifting a small amount from the higher marginal cost to the lower one reduces cost at unchanged total. A tax creates savings of t per emission avoided; a tradable right creates opportunity valuep, even if received free. Thus interiorMAC=t orp. This is cost effectiveness; welfare efficiency also requires the target’s social tradeoff. Quantity and price instruments fix different variables, with coverage/enforcement defining their reach. Flexibility across time and space needs defined rights and can change receptor exposure; emissions are not automatically interchangeable. Innovation can change costs unevenly. Historical graphics compare dimensions with different units, dates and missing values; they do not establish current legal rules or causal welfare performance.
+
+## Worked example
+
+O010-W1 / item_version 1, worked_example. **Prompt:** Hypothetical comparable emissions with smooth interior feasible abatement: MAC1=2a1, MAC2=4a2, total target18; neither capacity binds, and C1(0)=C2(0)=0 so there are no unspecified fixed-cost constants. Derive the least-cost allocation/common price, calculate total cost against equal abatement, and explain why a small shift from high-MAC to low-MAC saves cost. Compare tax/cap quantity-price decisions, free allowance opportunity cost, and whether least-cost compliance chooses the socially optimal target. Classify direct, market, cooperative and informational families with examples; distinguish banking/borrowing, emission/deposition bubbles, offsets/netting and cap-and-trade/baseline-credit rights. At the old fixed tax, firm1’s new MAC=1a1: interpret its new abatement without claiming every innovation shifts every curve down. A historical graph combines coverage and price. Interpret historical ETS coverage percentages, USD/ton prices, auction/offset shares and revenue units, unavailable data/count discrepancy and enforcement/location limits, without a current-policy or causal welfare claim.
+
+**Steps and interpretation:** Constrainta1+a2=18 and first-order equality2a1=4a2 give a1=12.000000, a2=6.000000, common MAC/price=24.000000 money/unit. With the declared zero-cost origins, integrating each linear MAC gives total .5×2a1²+.5×4a2²=216.000000; equal split costs243.000000. Reassigning a small unit toward lower MAC keeps total fixed and reduces cost; smoothness/interior/comparable units and constraints matter. Tax fixes price, quantity responds; covered cap fixes quantity, price responds. Free allowances still have sale/avoid-purchase opportunity cost. Least cost for a target does not prove the target matches social benefit/damage. Direct standards/bans; market taxes/permits; cooperative voluntary agreements; information labelling/education. Banking carries current rights forward, borrowing uses future early. Emission bubble limits emitted total, deposition bubble concerns receptor area; weighted offsets move ceilings, netting within facility. Cap-and-trade fixes covered quota; baseline-credit issues reductions against a defined baseline. New firm1 abatement at unchanged tax=24.0/1=24.000000 under declared interior conditions, but actual new curves can cross, so no universal downward MAC assertion. Historical coverage percent, price USD/tCO2e, auction share of cap, offset share of obligation and revenue millionUSD have different denominators; revenue is not emissions reduction or automatic welfare gain. NA is unavailable, not zero; source map12 jurisdictions versus legend8 consideration count is unresolved. Monitor/enforce covered rights and consider location-specific harm/constraints; a cap does not establish economy-wide outcome. Source EU target percentages have distinct baselines and2040 heading has no value; no number/current legal ranking is invented.
+
+## Supported completion
+
+O010-S1 / item_version 1, supported_completion. **Prompt:** Hypothetical comparable emissions with smooth interior feasible abatement: MAC1=3a1, MAC2=6a2, total target12; neither capacity binds, and C1(0)=C2(0)=0 so there are no unspecified fixed-cost constants. Derive the least-cost allocation/common price, calculate total cost against equal abatement, and explain why a small shift from high-MAC to low-MAC saves cost. Compare tax/cap quantity-price decisions, free allowance opportunity cost, and whether least-cost compliance chooses the socially optimal target. Classify direct, market, cooperative and informational families with examples; distinguish banking/borrowing, emission/deposition bubbles, offsets/netting and cap-and-trade/baseline-credit rights. At the old fixed tax, firm1’s new MAC=1.5a1: interpret its new abatement without claiming every innovation shifts every curve down. A regulator considers free allocation under a covered cap. Interpret historical ETS coverage percentages, USD/ton prices, auction/offset shares and revenue units, unavailable data/count discrepancy and enforcement/location limits, without a current-policy or causal welfare claim.
+
+**Key:** Constrainta1+a2=12 and first-order equality3a1=6a2 give a1=8.000000, a2=4.000000, common MAC/price=24.000000 money/unit. With the declared zero-cost origins, integrating each linear MAC gives total .5×3a1²+.5×6a2²=144.000000; equal split costs162.000000. Reassigning a small unit toward lower MAC keeps total fixed and reduces cost; smoothness/interior/comparable units and constraints matter. Tax fixes price, quantity responds; covered cap fixes quantity, price responds. Free allowances still have sale/avoid-purchase opportunity cost. Least cost for a target does not prove the target matches social benefit/damage. Direct standards/bans; market taxes/permits; cooperative voluntary agreements; information labelling/education. Banking carries current rights forward, borrowing uses future early. Emission bubble limits emitted total, deposition bubble concerns receptor area; weighted offsets move ceilings, netting within facility. Cap-and-trade fixes covered quota; baseline-credit issues reductions against a defined baseline. New firm1 abatement at unchanged tax=24.0/1.5=16.000000 under declared interior conditions, but actual new curves can cross, so no universal downward MAC assertion. Historical coverage percent, price USD/tCO2e, auction share of cap, offset share of obligation and revenue millionUSD have different denominators; revenue is not emissions reduction or automatic welfare gain. NA is unavailable, not zero; source map12 jurisdictions versus legend8 consideration count is unresolved. Monitor/enforce covered rights and consider location-specific harm/constraints; a cap does not establish economy-wide outcome. Source EU target percentages have distinct baselines and2040 heading has no value; no number/current legal ranking is invented.
+
+Allowed support: show the named definition or equation in Motivation and explanation, then ask for the missing substitution and interpretation. At most two hints: first identify the relevant distinction; second point to the first keyed step. Reveal the worked solution if those fail. Supported success does not establish acquisition. Fade assistance only once the learner explains the keyed steps; then hide the solution and use an unused full check.
+
+## Rubric and independence
+
+Pass requires every listed component, all requested outputs and essential keyed reasoning without a critical conceptual error. Algebraically equivalent formulas, explicitly defined opposite cash-flow signs and equivalent plain-language reasoning are accepted. Partial means a missing component or a correct method with an unresolved isolated arithmetic slip; fail means the central mechanism or condition is wrong. Unscorable means the response or help/exposure conditions cannot be established. Unknown conditions never certify independence. Arithmetic slips require independent correction before a pass. No numerical grade is invented.
+
+Critical errors: Equal target split always cheapest; free allowance has no incentive; equal MAC proves optimal social target; revenue/coverage proves welfare; cap automatically controls all emissions; missing count/target invented.
+
+Acquisition requires two distinct unassisted passes from I1/I2/D1/D2 using the exact six routes in metadata. Each full prompt and key covers every component; any pair therefore covers the whole outcome twice. A fresh D item used for acquisition cannot later certify delayed retention. Worked/support/prerequisite items and the narrow C1 correction cannot substitute for a full check. The finite bank must not be reused after exposure; request a plan_issue when fewer than two fresh full items remain.
+
+| Component | I1 | I2 | D1 | D2 |
+|---|---|---|---|---|
+| least_cost_allocation_and_price | required | required | required | required |
+| instrument_families_and_flexibility | required | required | required | required |
+| effectiveness_innovation_and_metric_limits | required | required | required | required |
+
+## Misconceptions and correction
+
+If equal abatement is called efficient, compare the two marginal costs before comparing totals. If free allocation is treated as costless, ask what sale is forgone by using the allowance. Observe the learner's reasoning before diagnosing: a sign or omitted word alone is tentative. Score before help. O010-C1 / item_version 1, narrow_correction. **Fresh prompt:** Fresh narrow check: a free permit can be sold for30, abating the next unit costs20. Incentive? **Key and rubric:** Abating costs20 and permits a30 sale or avoids using that valuable right; net10 benefit under the supplied conditions. Free receipt does not remove opportunity cost. Pass only if the keyed repaired component is supplied; partial for an omission or arithmetic slip; fail for the same conflicting mechanism. C1 is not a full independent check. After two ineffective hints show the relevant worked step; after another failed correction pause and return to the named prerequisite or explanation.
+
+## Immediate and delayed checks
+
+All items are item_version 1 and full_capability_check. I1/I2 are immediate forms; D1/D2 are distinct delayed forms. Delayed success requires an unused unassisted item before recap, at least 24 actual elapsed hours after acquisition and the most recent relevant teaching/solution exposure, with intervening exposure recorded. A date change alone does not qualify. Early D attempts may be acquisition checks only. Each item is a bounded parallel or near-context variant, not proof of broad transfer. Each key states the full required response; do not improvise extra variants.
+
+### O010-I1
+
+**Prompt:** Hypothetical comparable emissions with smooth interior feasible abatement: MAC1=4a1, MAC2=8a2, total target15; neither capacity binds, and C1(0)=C2(0)=0 so there are no unspecified fixed-cost constants. Derive the least-cost allocation/common price, calculate total cost against equal abatement, and explain why a small shift from high-MAC to low-MAC saves cost. Compare tax/cap quantity-price decisions, free allowance opportunity cost, and whether least-cost compliance chooses the socially optimal target. Classify direct, market, cooperative and informational families with examples; distinguish banking/borrowing, emission/deposition bubbles, offsets/netting and cap-and-trade/baseline-credit rights. At the old fixed tax, firm1’s new MAC=2a1: interpret its new abatement without claiming every innovation shifts every curve down. Two firms seek time flexibility under monitored rights. Interpret historical ETS coverage percentages, USD/ton prices, auction/offset shares and revenue units, unavailable data/count discrepancy and enforcement/location limits, without a current-policy or causal welfare claim.
+
+**Key and essential rubric:** Constrainta1+a2=15 and first-order equality4a1=8a2 give a1=10.000000, a2=5.000000, common MAC/price=40.000000 money/unit. With the declared zero-cost origins, integrating each linear MAC gives total .5×4a1²+.5×8a2²=300.000000; equal split costs337.500000. Reassigning a small unit toward lower MAC keeps total fixed and reduces cost; smoothness/interior/comparable units and constraints matter. Tax fixes price, quantity responds; covered cap fixes quantity, price responds. Free allowances still have sale/avoid-purchase opportunity cost. Least cost for a target does not prove the target matches social benefit/damage. Direct standards/bans; market taxes/permits; cooperative voluntary agreements; information labelling/education. Banking carries current rights forward, borrowing uses future early. Emission bubble limits emitted total, deposition bubble concerns receptor area; weighted offsets move ceilings, netting within facility. Cap-and-trade fixes covered quota; baseline-credit issues reductions against a defined baseline. New firm1 abatement at unchanged tax=40.0/2=20.000000 under declared interior conditions, but actual new curves can cross, so no universal downward MAC assertion. Historical coverage percent, price USD/tCO2e, auction share of cap, offset share of obligation and revenue millionUSD have different denominators; revenue is not emissions reduction or automatic welfare gain. NA is unavailable, not zero; source map12 jurisdictions versus legend8 consideration count is unresolved. Monitor/enforce covered rights and consider location-specific harm/constraints; a cap does not establish economy-wide outcome. Source EU target percentages have distinct baselines and2040 heading has no value; no number/current legal ranking is invented. All components are required.
+
+### O010-I2
+
+**Prompt:** Hypothetical comparable emissions with smooth interior feasible abatement: MAC1=2a1, MAC2=6a2, total target16; neither capacity binds, and C1(0)=C2(0)=0 so there are no unspecified fixed-cost constants. Derive the least-cost allocation/common price, calculate total cost against equal abatement, and explain why a small shift from high-MAC to low-MAC saves cost. Compare tax/cap quantity-price decisions, free allowance opportunity cost, and whether least-cost compliance chooses the socially optimal target. Classify direct, market, cooperative and informational families with examples; distinguish banking/borrowing, emission/deposition bubbles, offsets/netting and cap-and-trade/baseline-credit rights. At the old fixed tax, firm1’s new MAC=1a1: interpret its new abatement without claiming every innovation shifts every curve down. A local pollutant has different receptor exposure by location. Interpret historical ETS coverage percentages, USD/ton prices, auction/offset shares and revenue units, unavailable data/count discrepancy and enforcement/location limits, without a current-policy or causal welfare claim.
+
+**Key and essential rubric:** Constrainta1+a2=16 and first-order equality2a1=6a2 give a1=12.000000, a2=4.000000, common MAC/price=24.000000 money/unit. With the declared zero-cost origins, integrating each linear MAC gives total .5×2a1²+.5×6a2²=192.000000; equal split costs256.000000. Reassigning a small unit toward lower MAC keeps total fixed and reduces cost; smoothness/interior/comparable units and constraints matter. Tax fixes price, quantity responds; covered cap fixes quantity, price responds. Free allowances still have sale/avoid-purchase opportunity cost. Least cost for a target does not prove the target matches social benefit/damage. Direct standards/bans; market taxes/permits; cooperative voluntary agreements; information labelling/education. Banking carries current rights forward, borrowing uses future early. Emission bubble limits emitted total, deposition bubble concerns receptor area; weighted offsets move ceilings, netting within facility. Cap-and-trade fixes covered quota; baseline-credit issues reductions against a defined baseline. New firm1 abatement at unchanged tax=24.0/1=24.000000 under declared interior conditions, but actual new curves can cross, so no universal downward MAC assertion. Historical coverage percent, price USD/tCO2e, auction share of cap, offset share of obligation and revenue millionUSD have different denominators; revenue is not emissions reduction or automatic welfare gain. NA is unavailable, not zero; source map12 jurisdictions versus legend8 consideration count is unresolved. Monitor/enforce covered rights and consider location-specific harm/constraints; a cap does not establish economy-wide outcome. Source EU target percentages have distinct baselines and2040 heading has no value; no number/current legal ranking is invented. All components are required.
+
+### O010-D1
+
+**Prompt:** Hypothetical comparable emissions with smooth interior feasible abatement: MAC1=5a1, MAC2=10a2, total target18; neither capacity binds, and C1(0)=C2(0)=0 so there are no unspecified fixed-cost constants. Derive the least-cost allocation/common price, calculate total cost against equal abatement, and explain why a small shift from high-MAC to low-MAC saves cost. Compare tax/cap quantity-price decisions, free allowance opportunity cost, and whether least-cost compliance chooses the socially optimal target. Classify direct, market, cooperative and informational families with examples; distinguish banking/borrowing, emission/deposition bubbles, offsets/netting and cap-and-trade/baseline-credit rights. At the old fixed tax, firm1’s new MAC=2.5a1: interpret its new abatement without claiming every innovation shifts every curve down. Historical revenue rises after additional systems join. Interpret historical ETS coverage percentages, USD/ton prices, auction/offset shares and revenue units, unavailable data/count discrepancy and enforcement/location limits, without a current-policy or causal welfare claim.
+
+**Key and essential rubric:** Constrainta1+a2=18 and first-order equality5a1=10a2 give a1=12.000000, a2=6.000000, common MAC/price=60.000000 money/unit. With the declared zero-cost origins, integrating each linear MAC gives total .5×5a1²+.5×10a2²=540.000000; equal split costs607.500000. Reassigning a small unit toward lower MAC keeps total fixed and reduces cost; smoothness/interior/comparable units and constraints matter. Tax fixes price, quantity responds; covered cap fixes quantity, price responds. Free allowances still have sale/avoid-purchase opportunity cost. Least cost for a target does not prove the target matches social benefit/damage. Direct standards/bans; market taxes/permits; cooperative voluntary agreements; information labelling/education. Banking carries current rights forward, borrowing uses future early. Emission bubble limits emitted total, deposition bubble concerns receptor area; weighted offsets move ceilings, netting within facility. Cap-and-trade fixes covered quota; baseline-credit issues reductions against a defined baseline. New firm1 abatement at unchanged tax=60.0/2.5=24.000000 under declared interior conditions, but actual new curves can cross, so no universal downward MAC assertion. Historical coverage percent, price USD/tCO2e, auction share of cap, offset share of obligation and revenue millionUSD have different denominators; revenue is not emissions reduction or automatic welfare gain. NA is unavailable, not zero; source map12 jurisdictions versus legend8 consideration count is unresolved. Monitor/enforce covered rights and consider location-specific harm/constraints; a cap does not establish economy-wide outcome. Source EU target percentages have distinct baselines and2040 heading has no value; no number/current legal ranking is invented. All components are required.
+
+### O010-D2
+
+**Prompt:** Hypothetical comparable emissions with smooth interior feasible abatement: MAC1=3a1, MAC2=9a2, total target20; neither capacity binds, and C1(0)=C2(0)=0 so there are no unspecified fixed-cost constants. Derive the least-cost allocation/common price, calculate total cost against equal abatement, and explain why a small shift from high-MAC to low-MAC saves cost. Compare tax/cap quantity-price decisions, free allowance opportunity cost, and whether least-cost compliance chooses the socially optimal target. Classify direct, market, cooperative and informational families with examples; distinguish banking/borrowing, emission/deposition bubbles, offsets/netting and cap-and-trade/baseline-credit rights. At the old fixed tax, firm1’s new MAC=1.5a1: interpret its new abatement without claiming every innovation shifts every curve down. An ETS table reports NA for a metric. Interpret historical ETS coverage percentages, USD/ton prices, auction/offset shares and revenue units, unavailable data/count discrepancy and enforcement/location limits, without a current-policy or causal welfare claim.
+
+**Key and essential rubric:** Constrainta1+a2=20 and first-order equality3a1=9a2 give a1=15.000000, a2=5.000000, common MAC/price=45.000000 money/unit. With the declared zero-cost origins, integrating each linear MAC gives total .5×3a1²+.5×9a2²=450.000000; equal split costs600.000000. Reassigning a small unit toward lower MAC keeps total fixed and reduces cost; smoothness/interior/comparable units and constraints matter. Tax fixes price, quantity responds; covered cap fixes quantity, price responds. Free allowances still have sale/avoid-purchase opportunity cost. Least cost for a target does not prove the target matches social benefit/damage. Direct standards/bans; market taxes/permits; cooperative voluntary agreements; information labelling/education. Banking carries current rights forward, borrowing uses future early. Emission bubble limits emitted total, deposition bubble concerns receptor area; weighted offsets move ceilings, netting within facility. Cap-and-trade fixes covered quota; baseline-credit issues reductions against a defined baseline. New firm1 abatement at unchanged tax=45.0/1.5=30.000000 under declared interior conditions, but actual new curves can cross, so no universal downward MAC assertion. Historical coverage percent, price USD/tCO2e, auction share of cap, offset share of obligation and revenue millionUSD have different denominators; revenue is not emissions reduction or automatic welfare gain. NA is unavailable, not zero; source map12 jurisdictions versus legend8 consideration count is unresolved. Monitor/enforce covered rights and consider location-specific harm/constraints; a cap does not establish economy-wide outcome. Source EU target percentages have distinct baselines and2040 heading has no value; no number/current legal ranking is invented. All components are required.
+
+## Advance, revisit, pause, and escalate
+
+Advance after teach commits two distinct qualifying full passes; initial acquisition and delayed retention remain separate observations. After one failure, score, explain the named repair and use another unused item. After two unsuccessful independent attempts, pause repeated quizzing and revisit the explanation or diagnostic dependency. Source conflict stops the affected lesson and goes to ingest with the exact note heading. Missing or ambiguous keys, unsupported alternatives and an exhausted bank go to plan as plan_issue with 2026_2027/Winter_Semester/Economics_of_Green_Deal, O010, revision1/O010-C1, P003/V002/ingestion2 and the exact item ID. Closing a partial session does not fabricate acquisition.
+
+## Answer-free recall handoff
+
+Topic: Allocate a fixed abatement target and compare instrument boundaries. Instruction: Begin a closed-note review with teach for O010; request an unused prepared delayed item before recap. Lesson: [[03_Agents/2026_2027/Winter_Semester/Economics_of_Green_Deal/lessons/O010.md#Immediate and delayed checks]]. Teach supplies committed evidence and timestamps; recall alone assigns due dates or Todoist tasks. Deadline/retention horizon is null; this plan defines no learner result.

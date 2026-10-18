@@ -1,0 +1,20 @@
+{
+  "katex": {
+    "version": "0.19.0",
+    "source": "https://registry.npmjs.org/katex/-/katex-0.19.0.tgz",
+    "license": "vendor/KATEX_LICENSE.txt"
+  },
+  "source_serif_4": {
+    "version": "5.3.1",
+    "source": "https://registry.npmjs.org/@fontsource/source-serif-4/-/source-serif-4-5.3.1.tgz",
+    "license": "vendor/SOURCE_SERIF_LICENSE.txt"
+  },
+  "files": {
+    "math.css": "7b62e8aebc172bcbc191331eb21d3ce0df9c2352dc72511bb97008d7e4afe7b1",
+    "fonts.css": "02f2225637f3c8f07c48e4ebac6977b0d02c6a35229e624abf59ecbfd6c082ca",
+    "vendor/KATEX_LICENSE.txt": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3",
+    "vendor/auto-render.min.js": "e5372d199bcdae8b4de71d0f7ceba72a4ba12774a27c60a6f1f77d03b3228ee4",
+    "vendor/SOURCE_SERIF_LICENSE.txt": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+    "vendor/katex.min.js": "103a53763cc033bba8d175bf3f0ba597c3505c9b6747dd3f2c7bc2a6bfcc8ae7"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "candidate_digest": "bb409032bf6c4e9625bca88316d29330e9adc0247e67aa07abaa035790fa210e",
+  "checks": {
+    "compact": true,
+    "desktop": true,
+    "interactions": true,
+    "links": true,
+    "math": true,
+    "offline_dependencies": true
+  },
+  "evidence": {
+    "external_requests": [],
+    "image_instances": 140,
+    "inspection": "/private/tmp/week3-ingest-html/Comparative_Economics/qa-final2/inspection.json",
+    "inspection_sha256": "77c52c320522d66439bc983d90048cccdcf1beea6fd73cae3a28fd1838565be4",
+    "javascript_resource_math_errors": [],
+    "method": "Direct file://, isolated temporary Chrome profile; every contents/lesson page checked at 1440 and 390px; local dependency paths independently checked by course.py. Written entry and solution reveal checked; numeric empty/wrong/correct cases and slope/reset/SSE checked wherever present. Saved screenshots visually inspected by owner before this report.",
+    "pages": 24,
+    "rendered_math_instances": 1034,
+    "screenshots": [
+      "/private/tmp/week3-ingest-html/Comparative_Economics/qa-final2/compact-math.png",
+      "/private/tmp/week3-ingest-html/Comparative_Economics/qa-final2/compact.png",
+      "/private/tmp/week3-ingest-html/Comparative_Economics/qa-final2/complex-math-1440.png",
+      "/private/tmp/week3-ingest-html/Comparative_Economics/qa-final2/complex-math-390.png",
+      "/private/tmp/week3-ingest-html/Comparative_Economics/qa-final2/desktop.png",
+      "/private/tmp/week3-ingest-html/Comparative_Economics/qa-final2/figure.png",
+      "/private/tmp/week3-ingest-html/Comparative_Economics/qa-final2/math.png"
+    ]
+  },
+  "findings": [],
+  "kind": "browser",
+  "reviewer": "/root; isolated Chrome via Playwright, with direct visual inspection of saved desktop/compact/math/figure screenshots",
+  "status": "passed"
+}

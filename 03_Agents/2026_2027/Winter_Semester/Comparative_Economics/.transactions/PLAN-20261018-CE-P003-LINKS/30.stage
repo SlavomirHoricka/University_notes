@@ -1,0 +1,437 @@
+# Explain colonial divergence with precise historical comparisons
+
+```json
+{
+  "schema_version": 3,
+  "owner": "plan",
+  "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+  "transaction_id": "PLAN-20261018-CE-P003-LINKS",
+  "plan_version": "P003",
+  "source_version": "V002",
+  "ingestion_revision": 2,
+  "objective_id": "O007",
+  "objective_revision": 2,
+  "criterion_version": "O007-C1",
+  "status": "ready",
+  "knowledge_components": [
+    "conceptual",
+    "interpretation"
+  ],
+  "prerequisite_ids": [
+    "O002",
+    "O004"
+  ],
+  "compatible_versions": [
+    {
+      "objective_revision": 1,
+      "criterion_version": "O007-C1",
+      "plan_version": "P001",
+      "source_version": "V001",
+      "ingestion_revision": 1,
+      "reason": "Selected earlier academic note passages retain identical meaning and criteria after inspection. Full-content teaching reuse, exact locator normalization and formula typesetting do not change the preserved assessment prompts/keys, essential components or evidence conditions. New methods receive new IDs; no learner response is regraded.",
+      "change_class": "unchanged",
+      "requires_reassessment": false
+    },
+    {
+      "objective_revision": 2,
+      "criterion_version": "O007-C1",
+      "plan_version": "P002",
+      "source_version": "V002",
+      "ingestion_revision": 2,
+      "reason": "P003 changes only two visible Wiki provenance anchor spellings by removing inline italic markup from the rendered heading target. Exact checked structured headings, complete academic content, questions/keys, quantities, criteria, routes, tools and clocks are unchanged. Current P002 evidence remains compatible; no reassessment or learner result is inferred.",
+      "change_class": "formatting_only",
+      "requires_reassessment": false
+    }
+  ],
+  "note_locations": [
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Colonial institutions and divergence: *Why Nations Fail*, chapter 1"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Topic map"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Nogales: the question that motivates the chapter"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Spanish colonization: creating rules for extraction"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Why the first Buenos Aires failed while Asunción prospered for conquerors"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Capturing leaders and appropriating existing organization"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "The Potosí mita and its local legacy"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Jamestown: why attempts at coercion changed course"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Different paths after independence"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "From political rules to invention, firms, and finance"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Carlos Slim, Bill Gates, and the limits of business power"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "What the authors mean by institutions"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Answers to the six assigned reading questions"
+    },
+    {
+      "path": "01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md",
+      "heading": "Synthesis"
+    }
+  ],
+  "acquisition_rule": {
+    "distinct_independent_passes": 2,
+    "required_item_roles": [
+      "full_scope_independent"
+    ],
+    "required_components": [
+      "C1 Nogales hypothesis and limit",
+      "C2 extraction institutions and local legacy",
+      "C3 Jamestown incentives and outside options",
+      "C4 comparative qualifications and map limits"
+    ]
+  },
+  "delayed_rule": {
+    "minimum_elapsed_hours": 24,
+    "fresh_item": true,
+    "independent_required": true,
+    "required_components": [
+      "C1 Nogales hypothesis and limit",
+      "C2 extraction institutions and local legacy",
+      "C3 Jamestown incentives and outside options",
+      "C4 comparative qualifications and map limits"
+    ]
+  },
+  "review_topic": "Explain colonial divergence with precise historical comparisons",
+  "review_instruction": "Begin a closed-note review with teach for O007; request a fresh prepared delayed item before recap.",
+  "reassessment_requirement": null,
+  "lesson_content_contract": "self-contained-lessons-v1"
+}
+```
+
+## Outcome and conditions
+
+Explain the chapter’s Nogales puzzle and compare Spanish extraction with the unsuccessful coercive strategy in Virginia. Define encomienda/mita precisely, connect outside options to land/voice incentives, and distinguish a historical mechanism from an isolated causal effect while interpreting the two maps’ boundaries/units.
+
+Essential criterion components are **C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits**. Primary finished-note locations: [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Nogales: the question that motivates the chapter]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Spanish colonization: creating rules for extraction]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Why the first Buenos Aires failed while Asunción prospered for conquerors]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Capturing leaders and appropriating existing organization]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#The Potosí mita and its local legacy]]; [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Jamestown: why attempts at coercion changed course]].
+
+Instruction and supported practice may use the selected notes. Independent checks are closed-note: show the stated prompt and its supplied data only, with no explanation, model answer, hints, web search, other people, AI help, or solution-bearing figure access before the response. A simple calculator is allowed for arithmetic after the learner states the reasoning; no symbolic or generative tools. If notes, item keys, or matching solutions were accessed, record the exposure and do not call that attempt independent. No timing or confidence threshold replaces a complete answer. Exact population-unit conversion, colonial-history claims beyond this chapter and present Nogales figures are outside scope. Numerical historical details are source descriptions rather than live facts or controlled estimates.
+
+## Prerequisites and checks
+
+O002 is required for historical evidence versus causal proof; O004 supplies outside-option and ex ante incentive reasoning. O007-P1 / 1: “Do similar geography and an outcome gap alone rule out every other cause?” Key no, comparison motivates a hypothesis but is not a controlled estimate; repair O002 causal-limit explanation. O007-P2 / 1: “If workers can leave a harsh employer for a viable alternative, what happens to the employer’s ability to impose terms?” Key exit option limits coercive bargaining; its value/availability must be credible. Pass requires direction and reason; partial lacks reason; fail says exit strengthens employer. Repair O004 definition/explanation. Skip with current committed prerequisite acquisition.
+
+For every P diagnostic, ask before exposing its key. Pass requires all explicitly requested distinctions and their reasons; partial means a correct part with an omission or local arithmetic slip; fail means the essential prerequisite mechanism is contradicted. Unknown help or no answer is unscorable. Diagnostics are brief route selection only and never acquisition evidence. Apply the named repair once, then instruction rather than repeat-testing.
+
+## Teaching order and rationale
+
+1. Use [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md#Motivation, intuition, and definitions]] to pose the concrete problem and define the terms.
+2. Follow [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md#Explanation steps]] in order: establish the decision or claim, compare alternatives, then interpret its limits. Each next step relies on the preceding distinction.
+3. Present [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md#Worked example]] with its decision points before requesting a new full answer.
+4. Use [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md#Practice with fading assistance]] for the completion task; give at most the two prepared hints. A complete response with stated reasons permits withdrawing support.
+5. Ask I1, score the original response, provide the prepared feedback if needed, then ask I2 fresh and closed-note. Use only the permitted substitutions below after correction.
+6. After acquisition, close without claiming durable retention. At a qualifying later review, ask D1 or D2 before recap; retain the second as an alternate.
+
+A learner with adequate committed current-criterion prerequisite evidence may skip the prerequisite diagnostic. A successful entry diagnostic may skip the worked/support route, but acquisition still requires two fresh full-scope independent checks. A failed diagnostic returns to its named prepared repair and instruction; it never triggers repeated pretests.
+
+## Motivation, intuition, and definitions
+
+Nogales Arizona/Sonora share nearby geography and broadly similar ancestry/culture, yet the authors report different income, services, security and political accountability in the book’s period. Institutional incentives are their proposed explanation; Sonora benefits from US-linked manufacturing and is relatively prosperous within Mexico. An encomienda is a grant of Indigenous people’s tribute/labor obligations to an encomendero with formal conversion duty, not just land title or ordinary paid work. Colonial mita adapted an earlier Inca compulsory-labor turn to mining extraction after population concentration into reducciones. Political hierarchy/dense settlements/resources can make coercive appropriation feasible. An outside option is the next best feasible alternative to accepting an arrangement.
+
+## Explanation steps
+
+1. State the Nogales outcome differences before explanation: historical income about30,000 versus a third, plus schooling/services/security/accountability. Similar local geography challenges simple one-factor explanations, not all geography/culture effects.
+2. Spanish conquerors sought labor/tribute; Buenos Aires lacked a readily controllable centralized labor base/gold and faced resistance. Asunción allowed appropriation of farming Guaraní organization. Capturing rulers such as Moctezuma/Atahualpa could place conquerors over tribute systems; this was coercion, not consent.
+3. Define encomienda obligations and mita mining catchment. Colonial mita drew one-seventh of male inhabitants across roughly200,000 square miles until1825; taxes payable in silver, forced purchases and carrying labor reinforced extraction. The earlier Inca arrangement had different purposes/reciprocal provisions.
+4. The mita map identifies a historical catchment, not an estimated economic effect; Calca/Acomayo contrast is the authors’ persistence illustration (roads/markets/consumption), not formal identification ruling out all other differences.
+5. Virginia Company first sought to coerce Indigenous people but could not commandeer a comparably centralized rich tribute base. It then imposed harsh company labor on English settlers: similar extraction goal, different legal form and targets from encomienda. Settlers could exit to Indigenous communities/frontier, limiting coercion.
+6. Headrights/land incentives in1618 and assembly1619 increased returns and voice; they were relative inclusion, not universal democracy. Later Maryland/Carolina hierarchy attempts also faced exit. Women, enslaved and propertyless people lacked votes; Indigenous dispossession persisted. Population map legend uses people/km², nearby prose people/mi²; keep units distinct and no-data separate from low density. Mechanisms are conditional, not an inevitable national destiny.
+
+## Complete checked-note explanation
+
+Deliver these complete reused passages before the worked example; earlier concise prompts are checkpoints, not substitutes. Necessary prerequisites use the complete prepared lessons specified above.
+
+Origin: reused complete checked passage [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Colonial_Institutions_and_Divergence.md#Colonial institutions and divergence: Why Nations Fail, chapter 1]]; fingerprint `d4bf9c4cdad229430e95558fa87fd4edcf657d0b2820a100f9160c229a5b3f3a`. Heading depth and required relative figure-path relocation alone are adapted.
+
+### Colonial institutions and divergence: *Why Nations Fail*, chapter 1
+
+**Question:** Why can places with similar geography and people have very different living standards? Acemoglu and Robinson argue that political and economic institutions create different incentives to work, invest, innovate, provide public goods, and exercise power. This chapter introduces an institutional explanation of comparative economic performance through the history of the Americas. It belongs with the introductory discussion in the [[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/Comparative_Economics_main.md#Week 1|Comparative Economics course hub]]: to compare economic systems, we need to ask who sets the rules, whose actions those rules reward, and how the rules persist. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=38|Acemoglu & Robinson, PDF pp. 38–41]]
+
+All page references below are **physical PDF pages**; this extracted chapter does not show printed book page numbers. The examples and historical interpretations are the authors' arguments, not independent causal estimates supplied by this chapter. The source is [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf|Acemoglu & Robinson, “So Close and Yet So Different”]].
+
+#### Topic map
+
+```mermaid
+flowchart TD
+    Q["Question: why do neighboring places and nations differ in prosperity?"] --> T["Institutions shape incentives"]
+    Q --> C
+    C["Colonial conditions: political organization, population density, resources, and outside options"] --> S["Spanish conquerors capture rulers and appropriate tribute and labor"]
+    C --> V["Virginia: attempts to coerce Indigenous people and settlers fail"]
+    S --> X["Encomienda, mita, taxes, forced sales, and carrying labor"]
+    V --> H["Land incentives and a colonial assembly"]
+    X --> P["Concentrated power and privileges"]
+    H --> B["Broader, though restricted, political participation"]
+    P --> R["Monopolies, insecure rights, restricted entry and credit"]
+    B --> E["More electoral checks and wider access to markets and finance"]
+    T --> R
+    T --> E
+    R --> Y["Weaker incentives for broad investment and innovation"]
+    E --> Z["Stronger incentives for broad investment and innovation"]
+    P --> D["Incumbents benefit and resist reform"]
+    D --> P
+    N["Nogales comparison"] -.-> Q
+    A["Potosí mita and Calca–Acomayo comparison"] -.-> X
+    F["Patent, banking, Gates–Slim examples"] -.-> R
+    F -.-> E
+    W["Qualifications: US slavery and exclusion; Indigenous dispossession; Mexican export growth"] -.-> B
+    W -.-> H
+```
+
+The solid arrows map the **authors' proposed mechanism**, not a mechanical law that every country must follow. The dotted connections identify illustrations and limits. Colonial conditions shaped what conquerors could extract; political institutions then influenced economic rules, while those who benefited from the rules had reasons to defend them. The two Nogaleses pose the question, the colonial histories suggest how different paths began, and later finance and business cases show how the paths might still matter. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=3|Acemoglu & Robinson, PDF pp. 3–23, 27–41]]
+
+#### Nogales: the question that motivates the chapter
+
+Nogales is divided by the United States–Mexico border. The authors describe an average annual household income of about **$30,000** on the Arizona side and about **one-third of that** on the Sonora side. They also contrast education, health, roads, public utilities, security, and the practical ability to start a business. The figures describe the period of the book; they should not be read as current statistics. For the authors, political accountability matters as well as income: residents in Arizona could replace elected officials, whereas residents of Sonora lived under the long rule of Mexico's PRI until the political reforms of 2000. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=1|Acemoglu & Robinson, PDF pp. 1–2]]
+
+The neighboring cities share climate and a similar disease environment, and the authors describe their residents as having broadly similar ancestry and culture. They therefore argue that the border's political and economic rules are more convincing explanations for the disparity than local climate or a simple cultural difference. On their account, rules and public services in the United States make schooling, occupational choice, investment, and adoption of technology more rewarding; political institutions also give citizens leverage over officials. The comparison makes their hypothesis vivid, but this chapter does not turn it into a controlled statistical experiment or establish that no other factor matters. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=2|Acemoglu & Robinson, PDF pp. 2–3]]
+
+There is an important qualification within the authors' own account. Nogales, Sonora, is more prosperous than much of Mexico because it benefits from proximity to the United States and from maquiladora factories using US capital and know-how. Thus the story is about different **institutional incentives and opportunities**, not an assertion that no productive activity can occur on the Mexican side or that the border cuts off all economic influence. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=37|Acemoglu & Robinson, PDF pp. 37–38]]
+
+#### Spanish colonization: creating rules for extraction
+
+##### Why the first Buenos Aires failed while Asunción prospered for conquerors
+
+The first Spanish settlement at Buenos Aires had a favorable climate, but the Charrúa and Querandí resisted attempts to obtain their food and labor. The region offered neither easily accessible gold nor a large, centralized population that the colonists could control through its leaders. The Spaniards had planned to extract resources and compel others to work, so a place where they would have to produce food themselves was unattractive to them. An expedition instead encountered the sedentary, farming Guaraní. After overcoming resistance, Spanish settlers placed themselves above existing systems of tribute and forced labor in Asunción; Buenos Aires was abandoned and not resettled until 1580. This contrast illustrates **conquerors' incentives**: a colony could be attractive to its rulers because people and resources were easy to appropriate, regardless of its long-run potential for broad prosperity. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=4|Acemoglu & Robinson, PDF pp. 4–5]]
+
+##### Capturing leaders and appropriating existing organization
+
+The authors describe a recurring conquest strategy in Mexico and Peru. Conquerors captured a ruler, demanded wealth and provisions, then installed themselves as the new elite over existing systems of taxation, tribute, and compelled labor. Cortés's seizure of Moctezuma and Pizarro's capture of Atahualpa at Cajamarca illustrate the method. The account of Atahualpa includes a ransom of one room of gold and two rooms of silver; he was executed despite its delivery. Capturing a ruler was useful precisely because an existing political hierarchy could transmit orders and organize resources. These are historical cases of violent appropriation, not evidence that the affected populations consented to the new rules. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=5|Acemoglu & Robinson, PDF pp. 5–10]]
+
+The **encomienda** was a colonial grant assigning Indigenous people to a Spanish holder, the *encomendero*. Those assigned owed tribute and labor; the holder was formally charged with converting them to Christianity. In practice, the authors' examples from Bartolomé de las Casas describe severe coercion, seizure of land and food, and work for the settler's benefit. The legal description and the observed power relationship need to be kept separate: an encomienda was neither ordinary wage employment nor simply a grant of land. It gave the holder control over people's obligations and the surplus from their work. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=7|Acemoglu & Robinson, PDF pp. 7–9]]
+
+##### The Potosí mita and its local legacy
+
+The discovery of Potosí silver made access to mine labor especially valuable. Viceroy Francisco de Toledo first concentrated much of the Indigenous population into *reducciones*, settlements that made labor easier to organize and control. He then adapted the earlier Inca **mita**, a turn of compulsory labor. The authors distinguish the earlier Inca use of labor for plantations supplying temples, elites, and armies, with famine relief and security in return, from Toledo's colonial mining mita. The latter drew workers from a catchment of about **200,000 square miles** in present-day Peru and Bolivia and required **one-seventh of its male inhabitants** to work in Potosí's mines. It lasted until 1825. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=10|Acemoglu & Robinson, PDF pp. 10–11]]
+
+The chapter's **Map 1** shows the Inca realm, road network, colonial cities, modern borders, and the mining-mita catchment. Its value is to make clear that the compulsory-labor zone covered a large part of the Inca heartland rather than an isolated mine. The map marks a historical boundary; by itself it does not quantify the later economic effect of being inside it. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=12|Acemoglu & Robinson, Map 1, PDF p. 12]]
+
+![[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Acemoglu_p12_mita_map.png]]
+
+*Map 1. Shading identifies the Inca Empire, while separate lines mark the Inca road network and the Potosí mita catchment; dots mark colonial cities. The catchment overlaps the former imperial heartland, including the region around Cusco.* [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=12|Acemoglu & Robinson, Map 1, PDF p. 12]]
+
+The authors compare nearby Quechua-speaking provinces: Acomayo, inside the former mita zone, and Calca, outside it. They say inhabitants of Acomayo consume about one-third less, its road is worse, and farmers there produce more for subsistence, while Calca farmers more often sell to markets. The example gives an intuition for **institutional persistence**: past coercion may leave less infrastructure and fewer market opportunities. The chapter presents this as a historical interpretation, not a formal identification strategy that rules out every other difference between the provinces. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=12|Acemoglu & Robinson, PDF pp. 12–13]]
+
+Toledo's system extended beyond the mine. A fixed head tax payable in silver pushed households toward paid labor so they could obtain cash; the *repartimiento de mercancías* forced locals to buy goods at prices set by Spaniards; and the *trajín* compelled people to carry loads for elite businesses. Together with the encomienda and mita, these rules transferred land, labor, and income to colonial rulers and constrained Indigenous people's ability to choose work and accumulate resources. The authors argue that this enriched the Crown and colonial elites while reducing the scope for broad economic development. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=13|Acemoglu & Robinson, PDF pp. 13–14]]
+
+#### Jamestown: why attempts at coercion changed course
+
+England entered American colonization later than Spain. The authors say the regions with dense populations and precious metals had already been claimed, and the English arrived in a northern territory where the Spanish model was harder to operate. Roanoke failed; Jamestown was founded in 1607. The Virginia Company nevertheless initially sought provisions, treasure, and labor from Indigenous people. The Powhatan Confederacy had political organization, but its ruler Wahunsunacock did not command the same centralized, resource-rich empire as the rulers in Mexico and Peru. Colonists could not seize a leader and thereby obtain a ready-made tributary workforce. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=14|Acemoglu & Robinson, PDF pp. 14–17]]
+
+Food shortages made this failure costly. John Smith arranged trade for supplies and argued that settlers would need practical skills and would have to work themselves. The colonists' search for gold continued; their attempt to make Wahunsunacock subordinate to the English king failed, and he imposed a trade embargo. Smith's departure preceded the winter of 1609–10, during which only about **60 of 500** colonists survived. The chapter treats this sequence as evidence that the Spanish extraction strategy was not viable in Virginia. Its Pocahontas rescue story is expressly qualified as appearing only “according to some accounts”; it is not needed for the economic explanation. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=16|Acemoglu & Robinson, PDF pp. 16–19]]
+
+The company then tried to compel its **own settlers** to work. Gates and Dale imposed severe rules, including death penalties for escape and some theft. Land belonged to the company; workers received assigned rations and worked in supervised gangs. This resembled the encomienda in its aim of extracting labor through coercion, but it **was not an encomienda**: no Spanish grant of Indigenous people to an encomendero operated in Jamestown. The immediate targets of this later system were English settlers under company authority. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=19|Acemoglu & Robinson, PDF pp. 19–21]]
+
+The company's power was limited because settlers had **outside options**: they could leave for Indigenous communities or try to live on the frontier. An outside option is the next best available action if one rejects an imposed arrangement. It makes harsh terms harder to enforce because the person can exit. The authors also contrast relatively sparse population in much of North America with dense areas of central Mexico and Andean Peru. **Map 2** visualizes estimated population density around 1500; its legend is in people per **square kilometer**, while the neighboring prose offers examples per **square mile**. Those numbers must not be equated without converting units. The map supports a broad contrast in settlement patterns, not a claim that all of North America had the same population density. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=20|Acemoglu & Robinson, Map 2 and discussion, PDF pp. 20–21]]
+
+![[01_Notes/2026_2027/Winter_Semester/Comparative_Economics/assets/Week_1_Acemoglu_p20_population_map.png]]
+
+*Map 2. Estimated population density around 1500. The legend separates no data from four density bands—0–0.75, 0.75–2.5, 2.5–10, and 10–400 people per square kilometer. The darker areas in central Mexico and the Andes help explain why taking over existing tribute and labor systems was more feasible there than in Virginia.* [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=20|Acemoglu & Robinson, Map 2, PDF p. 20]]
+
+Unable to compel either Indigenous people or settlers on the desired terms, the company shifted to **incentives**. In 1618 it began the headright system: a male settler received 50 acres, plus 50 acres for each family member and servant brought to Virginia. Settlers were released from contracts and received houses; in 1619 the General Assembly gave settlers a political say. Land and voice raised the return to cultivating and investing in the colony. This was a change in economic rights accompanied by a change in political rights, not an immediate arrival at modern universal democracy. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=21|Acemoglu & Robinson, PDF p. 21]]
+
+English elites later tried to create landed hierarchies in Maryland and Carolina. Lord Baltimore's Maryland scheme assigned large manors to lords; Carolina's proposed constitution placed hereditary *leet-men* below an aristocracy of landgraves and caziques. Settlers' ability to seek land and other options made these schemes difficult to impose. By the 1720s the thirteen colonies had governors and elected assemblies, generally based on male property ownership. These assemblies helped establish a tradition of political participation and limits on rulers, but **women, enslaved people, and the propertyless did not vote**. The authors' comparison is one of relative breadth of rights, not a claim that colonial America was egalitarian. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=22|Acemoglu & Robinson, PDF pp. 22–23]]
+
+#### Different paths after independence
+
+The authors trace the US constitutional order of 1787 back to the colonial assemblies that began at Jamestown in 1619. In their account, broader political participation constrained arbitrary power and made more broadly usable economic rights possible. This was still profoundly limited: the US Constitution accepted slavery, counted an enslaved person as three-fifths for allocating House seats, and left voting rules to states; women and enslaved people were excluded. Later conflict over slavery culminated in the Civil War. The point is not that US institutions were fully free, but that political power and economic opportunity were distributed more broadly **for a substantial part of the population** than in the authors' Mexican comparison. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=23|Acemoglu & Robinson, PDF pp. 23–26]]
+
+Mexico's independence had a different political starting point in the authors' narrative. Napoleon's invasion of Spain created a constitutional crisis, and the 1812 Cádiz Constitution proposed popular sovereignty, limits on privilege, and equality before the law. Mexican elites, shaped by colonial hierarchies and alarmed by Hidalgo's revolt, feared that wider political participation would threaten their position. When Spanish constitutional reform returned in 1820 with proposals to end coerced labor and special privileges, these elites supported independence under Iturbide's 1821 Plan de Iguala, which removed the provisions they found threatening. Iturbide then concentrated power and dismissed the constitutionally authorized congress. Independence therefore did not necessarily end colonial economic privileges. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=24|Acemoglu & Robinson, PDF pp. 24–26]]
+
+Political turnover and coercion continued: the authors report that Antonio López de Santa Ana occupied the presidency eleven times and that Mexico had 52 presidents between 1824 and 1867. Their mechanism is that insecure government and property rights, weak tax and service capacity, and retained monopolies made investment and initiative risky for many people. Later Porfirio Díaz restored a measure of order and opened trade, but also used expropriation and political favors to benefit allies. Political stability alone is therefore not sufficient in this account; one must ask **who can use state power, who receives property and market access, and who can challenge privilege**. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=26|Acemoglu & Robinson, PDF pp. 26–27, 30–33]]
+
+The authors call this **path-dependent change**. New opportunities such as late nineteenth-century export trade and valuable frontier land did not erase earlier power relations. US land laws gave many settlers access to frontier holdings, while in much of Latin America connected elites received land. The US story also involved the dispossession of Indigenous people; “broader access” did not include them. Díaz's export-oriented modernization brought some growth, yet the authors describe continued exclusion and the deportation of possibly 30,000 Yaqui people between 1900 and 1910. Institutions can change in form while preserving who captures the gains. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=32|Acemoglu & Robinson, PDF pp. 32–33]]
+
+Persistence is not permanence. The chapter recounts revolutions, civil wars, reforms, and eventual movement toward democracy in Latin America, showing that rules can change, albeit often through conflict. Its discussion of repression draws on different reports and estimates, which should not be merged into a single precise count: for example, it reports 2,279 political killings in Chile in a truth commission report, 42,275 named Guatemalan victims in a clarification commission report with higher estimates elsewhere, and 9,000 Argentine deaths in an official commission count with higher human-rights estimates. These events underline the human cost of struggles over power; they do not by themselves prove every economic link in the authors' theory. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=33|Acemoglu & Robinson, PDF pp. 33–34]]
+
+#### From political rules to invention, firms, and finance
+
+The Industrial Revolution increased productivity through mechanization and new inventions. An inventor who expects to benefit from an idea has a reason to develop and commercialize it; a patent protects some rights to that idea. But a patent alone does not finance a factory or a new firm. Entrepreneurs also need entry into markets, a workforce, and credit. The authors use this sequence to show why the **same individual talent** can yield different outcomes under different rules. Their examples include Thomas Edison, who had limited formal schooling, sold an early patent to raise capital, and later founded businesses. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=28|Acemoglu & Robinson, PDF pp. 28–29, 39]]
+
+The chapter reports that among US patentees in 1820–45, only **19%** came from professional or major landowning families and **40%** had primary schooling or less. It also reports growth from **338 US banks with $160 million in assets in 1818** to **27,864 banks with $27.3 billion in assets in 1914**. The authors argue that competitive finance helped people with inventions obtain capital at lower rates. As a contrast, they report **42 banks in Mexico in 1910**, with two controlling **60%** of banking assets; concentrated lending favored wealthy insiders and higher rates. These figures refer to different dates and national contexts, so they illustrate the institutional argument rather than serving as a matched quantitative causal test. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=28|Acemoglu & Robinson, PDF pp. 28–30]]
+
+The authors do **not** claim that US bankers were naturally less interested in profits. They argue that the same profit motive was channeled differently by political rules. US politicians also attempted to create bank monopolies for allies, but voters could remove officeholders who used regulation in ways harmful to a wider electorate. Where rulers and their allies could sustain monopoly privileges, banking remained concentrated and potential competitors struggled to borrow. The proposed causal chain is: distribution of political power → rules and enforcement for banking → access to finance → who can start and grow a firm. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=30|Acemoglu & Robinson, PDF pp. 30–32]]
+
+#### Carlos Slim, Bill Gates, and the limits of business power
+
+The chapter contrasts two wealthy entrepreneurs to make the effect of rules concrete. In the United States, Bill Gates could build Microsoft using a skilled workforce, finance, markets, and enforceable property rights. His wealth did not exempt Microsoft from public antitrust action: US authorities investigated the company and the Department of Justice filed a case in 1998 over its alleged abuse of monopoly power, with a settlement in 2001. The authors do not portray the US market as free of monopoly attempts; they emphasize constraints that can operate even against a powerful firm. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=34|Acemoglu & Robinson, PDF pp. 34–35, 39]]
+
+Carlos Slim had succeeded in investments and turning around firms, but the chapter identifies his acquisition of **Telmex** as the decisive opportunity. During privatization in 1990, a Slim-led consortium won control of **51% of the voting stock, equivalent to 20.4% of total stock**, although it had not submitted the highest bid. The authors say payment could be delayed and financed using Telmex dividends. A former public telecommunications monopoly became a highly profitable private monopoly. The broader environment included licenses, red tape, political connections, and scarce finance that could keep competitors out. This is an account of how **access to a protected market** can generate wealth; it should not be reduced to a claim that Slim lacked ability. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=35|Acemoglu & Robinson, PDF p. 35]]
+
+The Mexican Competition Commission found substantial Telmex monopoly power in several telephone markets, but the authors say regulatory efforts failed. They highlight the *recurso de amparo*, originally a constitutional protection of individual rights, as a legal instrument Telmex could use to resist regulation. In a separate CompUSA/COC dispute litigated in Dallas, Slim's side lost and was fined **$454 million**. The authors interpret this as evidence that a business strategy successful under one set of legal and political rules can fail under another. These cases are illustrations of institutional constraints and advantages, not a complete assessment of either entrepreneur's career or of every antitrust system. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=35|Acemoglu & Robinson, PDF pp. 35–36]]
+
+#### What the authors mean by institutions
+
+**Economic institutions** are the rules and their enforcement that affect economic choices: property and contract security, freedom to enter occupations and markets, access to land and credit, competition, schooling, and incentives to save, invest, and adopt technology. **Political institutions** determine who can make and change those economic rules, how rulers are constrained, how state power is exercised, and whether citizens or groups can act collectively to hold officials accountable. The category includes constitutions and elections, but also the state's capacity to govern and the real distribution of political power. A written constitutional promise alone is insufficient when rulers can ignore it. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=38|Acemoglu & Robinson, PDF pp. 38–39]]
+
+The authors' explanation has two linked parts. **Economics:** institutions alter the expected return and risk of schooling, work, innovation, investment, and entrepreneurship, so they affect prosperity. **Politics:** power determines which institutions are adopted and whether they survive. An arrangement that lowers total welfare can still be valuable to an incumbent who collects monopoly profit or controls land and labor. That person has a reason to resist reforms even if a broader population would gain. This feedback explains why unequal rules can persist and why knowledge of a better policy is not enough to implement it. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=39|Acemoglu & Robinson, PDF pp. 39–41]]
+
+The chapter states a broad theory rather than presenting a complete statistical identification of it. Nogales, Acomayo–Calca, banking, and the two entrepreneurs give historically specific reasons to take the theory seriously, but their contrasts are not by themselves proof that institutions are the only cause of prosperity. Equally, institutional paths are not fixed forever: the chapter itself describes reforms, conflict, and change. The careful reading is that incentives, enforcement, political power, and feedback must be examined together for each comparison. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=3|Acemoglu & Robinson, PDF pp. 3, 13, 31–34, 38–41]]
+
+#### Answers to the six assigned reading questions
+
+These questions are transcribed from the [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Pasted 03-10-2026 at 14.19.39.png|Week 1 course screenshot]]. The answers use this chapter alone.
+
+1. **What seem to be the main differences between the two Nogaleses?** The authors report much higher income, schooling, health, public-service quality, security, and political accountability in Nogales, Arizona. Nogales, Sonora, has lower average income and weaker services, and starting a firm is exposed to crime, bureaucracy, and corruption. The cities' proximity makes the institutional difference across the border their proposed explanation. The Sonora side is nevertheless relatively prosperous within Mexico because of US-linked manufacturing. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=1|Acemoglu & Robinson, PDF pp. 1–3, 37–38]]
+
+2. **What was the encomienda and how did it work?** It was a grant assigning Indigenous people to an *encomendero*. They owed tribute and labor; the holder was formally responsible for Christian conversion. The authors' examples show the arrangement functioning as a means of coerced labor and extraction, including seizure of land, food, and output. It was a rule over people's obligations rather than simply a land title or a normal employment contract. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=7|Acemoglu & Robinson, PDF pp. 7–9]]
+
+3. **Was the encomienda or a similar system used in Jamestown?** There was **no encomienda as such** in Jamestown. The Virginia Company first tried to exploit the Powhatan population but could not reproduce the Spanish conquest strategy. It later imposed a harsh company-run labor regime on English settlers, with company land, rations, supervised work, and severe penalties. That was similar in its coercive goal, but differed in its legal form and target. Settlers' outside options helped force a shift toward headright land grants and an assembly. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=15|Acemoglu & Robinson, PDF pp. 15–23]]
+
+4. **What important historical differences between Mexico and the USA are explained?** In the authors' account, densely populated and organized parts of Spanish America enabled colonizers to take over systems of tribute and forced labor; efforts to impose comparable coercion in Virginia failed, leading to land incentives and colonial assemblies. At independence, US constitutional constraints grew out of that assembly tradition, while Mexican elites sought to preserve privileges threatened by Cádiz reforms. Later instability, land and bank monopolies, and politically allocated favors restricted economic entry in Mexico; broader rights and competitive finance supported invention and firms in the United States. The US path also included slavery, exclusion from voting, and Indigenous dispossession, so it is a **relative** contrast. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=5|Acemoglu & Robinson, PDF pp. 5–33]]
+
+5. **How did Carlos Slim become rich?** The authors say Slim made gains in securities and firm acquisitions, then greatly increased his wealth by winning the privatized Telmex monopoly through a Slim-led consortium. Political access, barriers to entry, limited competition, favorable payment terms, and the ability to challenge regulation helped protect its profits. The answer is about how institutions shaped an opportunity available to a skilled and ambitious entrepreneur, not a claim that a single law or transaction explains his entire fortune. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=35|Acemoglu & Robinson, PDF pp. 35–36]]
+
+6. **How do the authors understand institutions?** They are the economic and political rules made and enforced collectively through the state and society. Economic rules shape incentives to acquire skills, invest, innovate, enter markets, and use credit. Political rules and the actual distribution of power determine who chooses economic rules, how officials are constrained, and whether favored groups can preserve benefits at others' expense. Institutions include enforcement and state capacity, not only written laws. Their interaction can make a prosperous or unequal path persistent. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=38|Acemoglu & Robinson, PDF pp. 38–41]]
+
+#### Synthesis
+
+The chapter's central claim is a chain of incentives and power: colonial circumstances influenced which rules conquerors could impose; the resulting distribution of political power shaped economic rights, entry, and finance; and beneficiaries of those rules often defended them. This helps explain why the authors see lasting differences between the two Nogaleses and between the United States and Mexico. The claim is strongest as a framework for asking **who has power, which economic choices are rewarded, and why reform is hard**. Its historical contrasts are informative illustrations, while the exclusions and violence within both national histories prevent a simple story of one uniformly “good” society and one uniformly “bad” one. [[00_Materials/2026_2027/Winter_Semester/Comparative_Economics/Week_1/Acemoglu Robinson - Why-Nations-Fail - chapter 1.pdf#page=37|Acemoglu & Robinson, PDF pp. 37–41]]
+
+
+## Worked example
+
+### O007-W1
+
+**Item/version:** `O007-W1` / 1. **Role:** worked example. **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** Prepare an answer to: “Why did similar extraction ambitions yield different institutions in Spanish America and Virginia, and why is Nogales not definitive causal proof?” Include the institutions and map cautions.
+
+**Prepared key and essential reasoning:** Spanish rulers could appropriate organized dense tribute/labor hierarchies; encomienda assigned Indigenous obligations, mita coerced mining labor. Buenos Aires resistance/no easy hierarchy differed from Asunción. Virginia’s Indigenous extraction and later settler coercion faced weaker appropriable hierarchy and settler exit, so company moved to land incentives/headrights and assembly. This was no Spanish encomienda or universal inclusion; enslaved/women/propertyless and Indigenous groups faced severe exclusion. Nogales’ historical income/services/accountability contrast motivates institutional incentives but is not a controlled experiment, and Sonora benefits from cross-border industry. Mita map marks catchment not causal effect; population legend km² differs from prose mi², no-data not empty land.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Practice with fading assistance
+
+### O007-S1
+
+**Item/version:** `O007-S1` / 1. **Role:** supported completion. **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** Completion: fill “encomienda is ___, not simply ___; Jamestown’s later company regime targeted ___; exit encouraged ___; Nogales supports a ___, not ___.” Then supply Buenos Aires/Asunción and mita mechanisms plus inclusion and map caveats.
+
+**Prepared key and essential reasoning:** Encomienda grants people’s tribute/labor obligations, not merely land. Jamestown targeted English settlers after failed Indigenous appropriation; exit pushed headright land and assembly incentives. Nogales supports institutional hypothesis, not isolated causal proof; historical differences/services and Sonora manufacturing qualify it. Buenos Aires resisted extraction/no ready tributary base, Asunción offered appropriable farming organization; colonial mining mita/related taxes forced labor/surplus transfer. Relative rights excluded women/enslaved/propertyless and dispossessed Indigenous people. Maps show catchment/density not effects; km²/mi² distinct.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. Notes allowed. Hint 1: Separate legal form, coercive purpose and target group. Hint 2: Compare feasible exit/tribute organization, then state what the comparison cannot prove. Then show the worked step if still stuck; this response cannot establish independence.
+
+### O007-I1
+
+**Item/version:** `O007-I1` / 1. **Role:** full_scope_independent (immediate). **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** Critique these claims in one connected argument: “Nogales proves climate never matters; encomienda was only land; Jamestown used the same encomienda; headrights created universal democracy.” Explain the chapter’s positive causal mechanism, Buenos Aires/Asunción and mita legacy, and both map cautions.
+
+**Prepared key and essential reasoning:** Nogales historical income/services/security/accountability disparity amid proximity supports institutional hypothesis, not controlled proof climate irrelevant; Sonora has US-linked manufacturing. Encomienda assigns Indigenous tribute/labor with formal conversion duty, extraction not ordinary employment/just land. Buenos Aires resistance/no controllable centralized labor base versus Asunción appropriable farming organization; colonial mining mita and taxes/forced trade/carrying labor extract surplus; Calca/Acomayo legacy illustration does not rule out alternatives. Virginia first Indigenous then English-settler coercion was similar aim, different form/target, with exit limiting control; headrights1618/assembly1619 increased incentives/voice, but women/enslaved/propertyless excluded and Indigenous dispossession. Mita map historical catchment not estimated effect; density map km² versus prose mi² and no-data distinct.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+### O007-I2
+
+**Item/version:** `O007-I2` / 1. **Role:** full_scope_independent (immediate). **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** Build a comparison around “who could be compelled, who could exit, and which rules changed incentives.” Include encomienda versus colonial mita, Buenos Aires/Asunción, Virginia company labor/headrights/assembly, and Nogales outcomes. Explicitly state inclusion, causal and two-map limits.
+
+**Prepared key and essential reasoning:** Spanish capture of organized rulers/tribute systems facilitated Indigenous labor/tribute appropriation. Encomienda people’s obligations/formal conversion, mita mining labor adapted from Inca turn with different purposes; tax/forced purchase/carrying extraction. Buenos Aires resistance/weak ready tributary base versus Asunción farming organization. Virginia could not reproduce hierarchy capture and later coerced settlers, not encomienda; exit/frontier alternatives pushed land1618/voice1619. Nogales book-period income/services/security/accountability differs, institutional incentives proposed, Sonora industry benefits from US proximity. Inclusion relative with voting exclusion/slavery/dispossession; histories not controlled effects or geography/culture null proof. Mita map catchment not effect; population density km² not adjacent prose mi², no-data not low density.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Rubric and independence
+
+The prepared keys operationalize each component; all are essential. Pass requires an explicit mechanism and justified application plus every specified limit. Partial applies to an incomplete argument or isolated arithmetic transcription error with otherwise correct setup; teach gives feedback and obtains a fresh check. An arithmetic slip is not itself proof of conceptual failure, but a numerically wrong result does not count as a complete pass. Fail applies to any critical conceptual error identified below. Unscorable applies to missing response or ambiguous/unknown help conditions; do not infer acquisition.
+
+**Full role coverage:** I1, I2, D1, and D2 each test all components C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits. Normal acquisition is two distinct passes on I1 and I2, same revision/criterion and known unassisted conditions. Permitted repair/entry substitution: use a previously unseen D1 or D2 as a `full_scope_independent` check; record that immediate use explicitly and do not count it as delayed retention. Only combinations of two different unexposed I/D items are permitted. Supported, worked, diagnostic, and C items do not fill this role. Correction items are deliberately narrower and cannot substitute for acquisition or delayed checks. If both delayed variants are consumed during repair, request new prepared delayed items from plan before claiming delayed readiness.
+
+Each delayed pass independently requires the same entire criterion after at least 24 elapsed hours from the last instruction/solution exposure for this objective, with current tuple, fresh item and known intervening exposure. The 24-hour guard is an operational minimum; recall owns dates. A previously seen question can be used for practice only.
+
+## Misconceptions and correction
+
+**Observable sign:** Learner treats any coercive labor as the same legal encomienda or as just land ownership. A single response supports a tentative diagnosis; it becomes established only with corroborating reasoning, never from hesitation alone. **Corrective explanation:** Separate who is assigned, obligations, holder and legal form; similarity of coercive goal is not identity. **Hint 1:** Name the distinction being tested. **Hint 2:** Compare the alternatives using the supplied definitions; after two ineffective hints show the relevant worked step.
+
+### O007-C1
+
+**Item/version:** `O007-C1` / 1. **Role:** fresh correction; practice only. **Components:** C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options.
+
+**Prompt:** Fresh correction: a company owns land and forces its English employees to work. Is that sufficient to call it encomienda?
+
+**Prepared key and essential reasoning:** No; encomienda assigns Indigenous tribute/labor obligations to an encomendero with formal conversion duty. Company coercion can resemble the goal but differs in form/target.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+**Observable sign:** Learner treats map boundary or Nogales proximity as measured proof or modern universal statistics. A single response supports a tentative diagnosis; it becomes established only with corroborating reasoning, never from hesitation alone. **Corrective explanation:** A map organizes location and a historical contrast motivates explanation; neither alone estimates causation or removes exclusions. **Hint 1:** Name the distinction being tested. **Hint 2:** Compare the alternatives using the supplied definitions; after two ineffective hints show the relevant worked step.
+
+### O007-C2
+
+**Item/version:** `O007-C2` / 1. **Role:** fresh correction; practice only. **Components:** C1 Nogales hypothesis and limit, C4 comparative qualifications and map limits.
+
+**Prompt:** Fresh correction: a historical map marks a mining catchment and a town outside it is richer. What can be said without inventing an effect size?
+
+**Prepared key and essential reasoning:** The contrast supports the authors’ institutional-persistence question/mechanism but does not isolate a causal effect or rule out other town differences.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Immediate and delayed checks
+
+I1/I2 above are separate immediate forms. Ask delayed forms before showing any recap, explanation or solution. The D forms are parallel or near-transfer applications of the stated mechanism; different contexts/numbers do not prove broad transfer or whole-course mastery. Record item version, help, elapsed time, and intervening exposure.
+
+### O007-D1
+
+**Item/version:** `O007-D1` / 1. **Role:** full_scope_independent (delayed variant). **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** An essay draft says conquerors always preferred the best place for everyone’s growth, that encomienda was a wage contract, and that Jamestown simply began democratic. Correct it using Buenos Aires/Asunción, mita, Virginia exit/incentives and Nogales. Finish with inclusion/causal and both map-reading qualifications.
+
+**Prepared key and essential reasoning:** Conqueror attractiveness depended on extractable resources/organized labor, not broad prosperity; Buenos Aires resistance/no accessible tributary base versus Asunción appropriation. Encomienda coerced Indigenous tribute/labor with formal conversion duty; mining mita adapts compulsory turn and related taxes/forced transactions transfer surplus; local legacy comparison illustration. Virginia sought Indigenous and later settler coercion; no encomienda legal grant, exit limited control; headrights/assembly changed returns and voice. Nogales historical income/services/accountability divergence motivates institutional incentives, but not controlled identification, Sonora US-linked manufacturing persists. Exclusions/slavery/dispossession qualify relative breadth; map catchment not causal estimate, density km²/prose mi² and no-data must remain distinct.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+### O007-D2
+
+**Item/version:** `O007-D2` / 1. **Role:** full_scope_independent (delayed variant). **Components:** C1 Nogales hypothesis and limit, C2 extraction institutions and local legacy, C3 Jamestown incentives and outside options, C4 comparative qualifications and map limits.
+
+**Prompt:** Use Nogales as the opening of a short historical explanation, then trace why Spanish and Virginia extraction strategies diverged. Include exact encomienda/mita distinction, Buenos Aires/Asunción, settler outside options and institutional change, plus relative-inclusion, causal and two-map boundaries.
+
+**Prepared key and essential reasoning:** Nogales book-period income/public services/security/accountability differs despite nearby geography/shared background; institutions proposed, not proven exclusive cause, Sonora gains cross-border manufacturing. Spanish organized dense tribute/labor allowed appropriation, Buenos Aires resisted and lacked ready base while Asunción offered farming organization. Encomienda assigns Indigenous obligations/formal conversion, mita compulsory mining turn adapted from distinct Inca use; taxes/forced purchases/labor extract surplus. Virginia unable to command same Indigenous hierarchy; company coerced English settlers differently, exit drove headright land1618/assembly1619. Relative inclusion excludes women/enslaved/propertyless and Indigenous dispossession. No controlled historic effect/inevitable path; mita map catchment not effect, density km² versus prose mi²/no-data distinctions.
+
+**Item decision:** Pass requires every listed component in the key with no critical error. Partial means some valid reasoning but a missing essential component or a local slip; fail means the defining mechanism is wrong. Accept paraphrase and different examples only where explicitly allowed by the key. 
+
+## Advance, revisit, pause, and escalate
+
+Advance only after two distinct qualifying full-scope independent passes at O007 revision 2 / O007-C1. Delayed success is separate and cannot be inferred from acquisition. If a prerequisite fails, execute its one prepared repair route and return to instruction. If the supported answer remains incomplete after two hints, show the missing step and stop treating it as a check. After two unsuccessful fresh independent attempts in one session, pause assessment, revisit the worked explanation, and arrange a fresh prepared attempt; do not drill exposed questions until they appear fluent. Close an interrupted session without acquisition claims.
+
+If the notes conflict, ingestion state becomes blocked/stale, or a cited source claim cannot support a key, stop the affected block and route a `note_issue` to ingest with course 2026_2027/Winter_Semester/Comparative_Economics, note/heading, ingestion revision 2 and exact conflicting claim. If a learner offers a plausible answer outside prepared criteria, a key is ambiguous, a lesson explanation/teaching bridge is missing, or fresh variants are exhausted, route `plan_issue` to plan with O007, revision 2, O007-C1, P003/V002, item ID/version and exact missing decision. Continue unaffected objectives only if their prerequisites are satisfied. Teach owns actual evidence; this file supplies no learner outcome.
+
+## Answer-free recall handoff
+
+**Topic:** Explain colonial divergence with precise historical comparisons. **Start:** Begin a closed-note review with teach for O007 using [[03_Agents/2026_2027/Winter_Semester/Comparative_Economics/lessons/O007.md#Immediate and delayed checks]]; request a fresh prepared delayed item before recap. Teach sends only actual committed evidence IDs and exposure context. Recall determines the date and task synchronization; no due date is defined here.
+
+## Content provenance and generation boundaries
+
+Complete checked-note passages above are reused with only heading-depth, required relative figure-path relocation and explicit mathematical typography adaptation; exact origin/fingerprint and asset dependencies are in source_manifest.md. All earlier plan-created exercises/full keys and named evidence routes remain intact. Hypothetical arithmetic instantiates the included definitions and does not introduce empirical results or new academic claims. Only named prepared full-capability forms and their existing permitted pairs can certify acquisition/delayed evidence. Extra checked explanation/practice cannot replace a named full form or reassessment gate. Equivalent verified methods may meet the unchanged pre-answer criterion; ambiguous criteria or an exhausted fresh bank return to plan. The current objective revision is 2; item/criterion versions remain as explicitly stated above.
