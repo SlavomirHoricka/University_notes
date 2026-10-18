@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "package_version": "0.5.3",
+  "package_version": "0.5.4",
   "source_root": "03_Agents",
   "files": {
     "LEARNING_ARCHITECTURE.md": {
       "source": "LEARNING_ARCHITECTURE.md",
-      "sha256": "6f7fa3b56d0bdedc8f2206ac647f0639ced93990b1615e847f209ead325d0433"
+      "sha256": "fdbc4d23934378d3e24a173d116ee82105c5749a8b45529d8b46e3722810c52b"
     },
     "README.md": {
       "source": "references/PLUGIN_README.md",
-      "sha256": "0be61a56780d3b45e44491d0c826fbeda1002a3bb235405d697b941db510e18d"
+      "sha256": "502494eb40e764d2b8d3593131140055bbe981b5f9e2f224cafb4f812fa5caa5"
     },
     "agents/uni_curriculum_checker.toml": {
       "source": "agents/uni_curriculum_checker.toml",
@@ -77,23 +77,23 @@
     },
     "references/MODEL_ROUTING.md": {
       "source": "references/MODEL_ROUTING.md",
-      "sha256": "3c64e1ce909b4541cf76c36aa22ca293d5b439362472e5f5c9bea83bab64c0e1"
+      "sha256": "d4843341494b7791a6866b7d0b62406c8b1045f389ed189985752a33caa4ef73"
     },
     "scripts/records.py": {
       "source": "scripts/records.py",
-      "sha256": "70b75d64227518cbfe2c8d97beb3db86a1fab4044eb0883599c70ea101fee127"
+      "sha256": "bebec31974b7b8c005732657dfbd4f5ef2874fd433c42db1621997b4fff2e798"
     },
     "scripts/test_records.py": {
       "source": "scripts/test_records.py",
-      "sha256": "b15ebaf1ead5b7c1efa1330fc47098224e1dfa31a9eea8afffb97a90691d3b64"
+      "sha256": "f726f65637e37d4559fc016d8025fec04221595509bb141711d2ba9cf082ac9a"
     },
     "skills/ingest/SKILL.md": {
       "source": "ingest/SKILL.md",
-      "sha256": "d1b13309c14483976aca1a998ba4646914702d3d286c082b9566568155afb119"
+      "sha256": "2d784e74d090a4c3f93c49cd552c29b548377a569583281decf0457f08fe83de"
     },
     "skills/plan/SKILL.md": {
       "source": "plan/SKILL.md",
-      "sha256": "018992c8c7d78743f3ed029771521c1b5626e36eb2ac509ce3a17a10fd120c6d"
+      "sha256": "07c876d2fbb7ae456728e58b751db2bf4e90176bae6de3d44ccb2077cf06bbbc"
     },
     "skills/plan/templates/learning_plan.md": {
       "source": "plan/templates/learning_plan.md",
@@ -105,11 +105,11 @@
     },
     "skills/plan/templates/source_manifest.md": {
       "source": "plan/templates/source_manifest.md",
-      "sha256": "f6ef3912eae23a8746829617df8d905bc95f402bdb5230f05a8ab15440eff521"
+      "sha256": "b3f42aefb053259833fc89bbf73f0731722d0db5243a65de6462ee317524e84a"
     },
     "skills/recall/SKILL.md": {
       "source": "recall/SKILL.md",
-      "sha256": "4fd2a0ad3e4aa4ad3cda2bb08cb3b0b69e04010d5ebe56ceed8e7703a7f0291c"
+      "sha256": "0d4f2c0dc6ee40691be8011c63adbc46ddc39fe9ee08117cd435c512218a4746"
     },
     "skills/recall/references/TODOIST_HARNESS.md": {
       "source": "recall/references/TODOIST_HARNESS.md",
@@ -117,7 +117,7 @@
     },
     "skills/recall/scripts/schedule.py": {
       "source": "recall/scripts/schedule.py",
-      "sha256": "3e35b2f89a89a1692e145eddecf8526c9975c738f282752c15f892967cd577b0"
+      "sha256": "28fcd0a2e90a5faa0b808babdfef886e3d875205328c6d8427b987008d60ce11"
     },
     "skills/recall/templates/recall_state.json": {
       "source": "recall/templates/recall_state.json",
@@ -125,11 +125,11 @@
     },
     "skills/recall/tests/test_schedule.py": {
       "source": "recall/tests/test_schedule.py",
-      "sha256": "d3eb3eac9771048ddcc9b7f75c941e2b27352414c40387c48c14bc745ddc5bda"
+      "sha256": "22a77982197b135bc09c8bfbd097e3d4c09d243339c45548af44060d2116bb82"
     },
     "skills/teach/SKILL.md": {
       "source": "teach/SKILL.md",
-      "sha256": "4a0c5f6e125e9edc4ca21e9533c326d533f6d875c5203362638d4e11d503018c"
+      "sha256": "af555642c546a011ee02ae58e2e7877dba6b4606fb7acd3e103538bae5775b13"
     },
     "skills/teach/references/RECORDS.md": {
       "source": "teach/references/RECORDS.md",

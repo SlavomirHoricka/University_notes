@@ -1,6 +1,6 @@
 ---
 name: ingest
-description: Use for /ingest or requests to ingest new or changed university materials from a user-specified folder, including nested folders, into the Uni Obsidian vault. Create source-grounded teaching notes and visual assets, track coverage through a vault-wide log index and per-pass records, and independently fact-check the results. Use for material ingestion or note updates across weeks, topics, or other groupings, not interactive tutoring.
+description: Use for /ingest or requests to ingest new or changed university materials from a user-specified folder, including nested folders, into the Uni Obsidian vault. Create source-grounded teaching notes and visual assets, track coverage through a vault-wide log index and per-pass records, and independently fact-check the results. Use for material ingestion or explicitly named existing-note repairs/adoption across weeks, topics, or other groupings, not interactive tutoring.
 ---
 
 # Ingest university materials
@@ -49,16 +49,18 @@ This is the only Uni learning skill that creates or corrects course notes. A com
 
 Keep producing complete explanations, derivations, visuals and source exercises; do not duplicate plan’s bespoke lesson/exercise design.
 
-**Invocation:** Use `/ingest <folder>` or `$ingest <folder>` with the exact source folder to process, including nested folders. If invoked without a folder, ask for it before creating logs or changing notes.
+**Invocation:** For new or changed material ingestion, use `/ingest <folder>` or `$ingest <folder>` with the exact source folder, including nested folders. Without a folder or an explicit existing-note repair scope, ask for the missing scope before creating logs or changing notes.
+
+For an explicitly requested repair or provenance adoption of named existing notes/passages, resolve their cited originals and existing pass records as bounded verification context. Ask only when note/source identity or the requested correction is ambiguous. Record exact checked passages, source locators and coverage limits; do not treat their parent source folder as a request for full ingestion. All source review, freshness, locking and plan-reconciliation gates still apply.
 
 **Example input:** `00_Materials/<academic_year>/<semester>/<course>/Week_<1-13>/`
 
 The folder will often contain one week's material from a single course, but may cover multiple weeks or any other grouping. It need not follow the example path.
 
-- **Scope:** Work only on the supplied folder's materials and the notes needed to integrate them. Read material outside it when needed for verification or continuity; do not expand ingestion beyond the supplied folder.
+- **Scope:** Work only on the supplied source folder and its integration notes, or the explicitly named note-repair passages. Read bounded context when needed for verification or continuity; do not expand the requested ingestion/repair scope.
 - **Folder selection:** Never infer the target folder from upload dates, lecture numbering, or file timestamps. If the supplied folder is absent or ambiguous, ask for the exact folder.
 - **Organization:** Preserve the existing folder structure, including Week_1–Week_13 where present, without imposing a weekly structure on other folders.
-- **Scope records:** Use the supplied folder's actual organization for inventory, integration, and logging. Record its exact path and applicable course or grouping.
+- **Scope records:** Use the supplied folder's actual organization, or the named notes and checked passages, for inventory and logging. Record exact paths, course/grouping and exclusions. Whole-file hashes identify bytes; a complete bounded correction pass certifies only its checked coverage. Preserve prior completed coverage and provenance without claiming unchecked sections were reverified.
 
 ## 2. Scope and ownership
 
@@ -265,7 +267,7 @@ place exact source references beside substantive claims, equations, examples, an
 
 #### Identify new, changed, and unfinished material
 
-Inventory files in the supplied folder, including nested folders. Record exact vault-relative paths, byte sizes, and SHA-256 content hashes; filenames and modification times alone cannot detect replacements. Compare with the latest successfully checked record for each file and inspect later incomplete runs.
+For material ingestion, inventory files in the supplied folder, including nested folders. For a named-note repair, inventory its cited originals and checked passages without claiming full-folder coverage. Record exact vault-relative paths, byte sizes, and SHA-256 content hashes; filenames and modification times alone cannot detect replacements. Compare with the latest successfully checked record for each file and inspect later incomplete runs.
 
 - **New or changed content:** process its full relevant scope. A changed hash does not identify which pages changed.
 - **Unchanged, successfully covered content:** skip with a reason and prior-run reference.
@@ -483,13 +485,13 @@ Keep the ingestion logging system in `03_Agents/runtime/ingest/`, alongside this
 
 These pass logs support the single index; they are not competing logs. Keep them separate from teaching records, `learning_log.md`, and source manifests.
 
-At the start of every ingestion, before deciding what to ingest or editing notes, read the main log and follow its hyperlinks to the relevant pass logs. Match records by the exact supplied-folder path, applicable course or grouping, and source identity, including hashes; inspect the latest successfully checked coverage for each source and all later incomplete passes. Follow prior-pass references as needed.
+At the start of every ingestion, before deciding what to ingest or editing notes, read the main log and follow its hyperlinks to the relevant pass logs. Match records by the exact supplied-folder path or named-note repair scope, applicable course or grouping, and source identity, including hashes; inspect the latest successfully checked coverage for each source and all later incomplete passes. Follow prior-pass references as needed.
 
 Work from the detailed evidence, not the index summary alone. Resume unresolved coverage and checks even when source hashes are unchanged. Missing or unreadable linked records do not prove successful ingestion; disclose the gap and verify coverage against the sources and current notes.
 
 Create the logging structure only during an authorized ingestion. If an older ingestion log exists, preserve it and link it from the main log as legacy history; consult its relevant entries during lookup. Do not maintain a second active index, erase historical records, or treat legacy summaries as evidence of checks they do not document.
 
-The main log must begin with a short explanation of the folder layout, status meanings, lookup/resumption procedure, and legacy-history links where applicable. Append one index entry per pass, including incomplete and no-change passes, with its unique run ID, actual start/end timestamps, applicable course or grouping, exact supplied-folder path, status, concise change or unresolved-work summary, and a working vault-relative hyperlink to its detailed pass log.
+The main log must begin with a short explanation of the folder layout, status meanings, lookup/resumption procedure, and legacy-history links where applicable. Append one index entry per pass, including incomplete and no-change passes, with its unique run ID, actual start/end timestamps, applicable course or grouping, exact supplied-folder path or named-note repair scope, status, concise change or unresolved-work summary, and a working vault-relative hyperlink to its detailed pass log.
 
 Each pass log must link back to the main log and to any prior passes it resumes or relies on.
 
@@ -499,7 +501,7 @@ At the start of an authorized pass, obtain the actual system time, choose a coll
 
 Record in each detailed pass log:
 
-- **Run identity and status:** Run ID and actual start/end timestamps from the system clock in `Europe/Prague`, including UTC offsets; applicable course or grouping and exact supplied-folder path; status `complete`, `incomplete`, or `no-change`.
+- **Run identity and status:** Run ID and actual start/end timestamps from the system clock in `Europe/Prague`, including UTC offsets; applicable course or grouping and exact supplied-folder path or named-note repair scope; status `complete`, `incomplete`, or `no-change`.
 - **Source identity and decisions:** Raw filenames and vault-relative paths, byte sizes, SHA-256 hashes, ingested/resumed/skipped decisions and reasons, and hyperlinks to prior successful-pass records where applicable.
 - **Coverage and emphasis:** Source page/slide coverage ledger, exclusions with reasons, unresolved regions, and note destinations; topic roles and priority rationales, prerequisite relationships/reasons, and links to their finished explanations.
 - **External references:** Bibliographic identities, editions, exact passages actually consulted and online URLs, their contributions, inaccessible references/research restrictions, external additions, and unresolved conflicts. Keep supplementary reference scope distinct from supplied-source coverage.
@@ -549,7 +551,7 @@ Run `... status COURSE_DIR`. Readers stop while locked or journal unfinished. Fo
 
 Recall also runs `... verify-record COURSE_DIR teach learning_log.md` to require a committed teach journal exactly matching the active log; legacy unjournaled history is never silently promoted. Owner runs `... recover COURSE_DIR OWNER TRANSACTION_ID` after interruption. Old/staged bytes permit idempotent roll-forward; unexpected edits preserve journal and fail. Never discard unfinished updates or claim mismatched plans ready.
 
-Global recall project mappings use the same utility at `03_Agents/runtime/recall/` (recall owns only `project_map.json` there). Utility validates owned paths and immutable events/history, not academic correctness or connector side effects. Ingest commits blocked state via utility, then separately locks/rereads it for note/assets edits, releasing before the utility completion commit. It never nests utility acquisition inside a manually held lock.
+Global recall project mappings use the same utility at `03_Agents/runtime/recall/` (recall owns only `project_map.json` there). Utility enforces owned paths, immutable teach events and curriculum snapshots, and append-only recall `schedule_history`, `task_history`, `scheduling_decisions` and `sync_journal` arrays. Derived summaries/state may change. Academic correctness, coverage/readiness semantics and connector side effects remain the owning workflow’s responsibility. Ingest commits blocked state via utility, then separately locks/rereads it for note/assets edits, releasing before the utility completion commit. It never nests utility acquisition inside a manually held lock.
 
 Index/pass writes use ingest-owned runtime lock and atomic replacement; completed detail repairs index. Do not hold locks across handoffs. A crash before journaling leaves staged orphan data but no changed authoritative bytes; inspect/preserve orphan rather than treating it as a commit.
 

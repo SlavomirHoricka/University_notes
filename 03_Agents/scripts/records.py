@@ -209,6 +209,21 @@ def status(course):
             'ready': not pending and not (course / '.learning-write.lock').exists()}
 
 
+def check_recall_history(path, new):
+    """Derived fields may change; committed recall journals remain exact prefixes."""
+    following = json.loads(new)
+    prior = json.loads(path.read_text()) if path.exists() else {}
+    if not isinstance(following, dict) or not isinstance(prior, dict):
+        raise ValueError('recall state must be a JSON object')
+    for field in ('schedule_history', 'task_history', 'scheduling_decisions', 'sync_journal'):
+        old = prior.get(field, [])
+        current = following.get(field, [])
+        if not isinstance(old, list) or not isinstance(current, list):
+            raise ValueError('recall history must be an array: ' + field)
+        if len(current) < len(old) or json.dumps(current[:len(old)], sort_keys=True) != json.dumps(old, sort_keys=True):
+            raise ValueError('recall history is append-only: ' + field)
+
+
 def verify(course, owner, transaction_id, names):
     if not re.fullmatch(r'[A-Za-z0-9_-]+', transaction_id):
         raise ValueError('invalid transaction id')
@@ -271,6 +286,8 @@ def commit(course, owner, changes, expected, transaction_id=None):
                     raise ValueError('curriculum history is immutable')
             if owner == 'teach':
                 check_history(p, content)
+            if owner == 'recall' and name == 'recall_state.json':
+                check_recall_history(p, content)
         folder = course / '.transactions' / tx
         folder.mkdir(parents=True)
         j = {'owner': owner, 'status': 'prepared', 'files': {}}

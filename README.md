@@ -67,7 +67,7 @@ flowchart LR
 
 | Stage | What it does | Records it owns |
 | --- | --- | --- |
-| [ingest](03_Agents/ingest/SKILL.md) | Reads an exact source scope, writes complete teaching notes, checks coverage and obtains independent source review. | Notes/assets/hubs, ingestion passes and `ingestion_state.json`. |
+| [ingest](03_Agents/ingest/SKILL.md) | Reads an exact source scope or repairs named note passages, records checked coverage and obtains independent source review. | Notes/assets/hubs, ingestion passes and `ingestion_state.json`. |
 | [plan](03_Agents/plan/SKILL.md) | Turns checked finished notes into versioned lessons with explanations, exercises, keys and assessment criteria; obtains independent curriculum review. | `learning_plan.md`, `source_manifest.md`, `lessons/`, `curriculum_history/`. |
 | [teach](03_Agents/teach/SKILL.md) | Runs prepared lessons, assesses actual responses and saves resumable progress. | `learning_log.md`. |
 | [recall](03_Agents/recall/SKILL.md) | Derives review dates from committed evidence and synchronizes owned tasks to verified existing Todoist projects. | `recall_state.json` and the shared project map. |
@@ -94,7 +94,7 @@ python3 03_Agents/check_vault.py
 # Run maintenance regressions; Python 3.11+ includes TOML validation.
 python3 -m unittest discover -s 03_Agents/scripts -p 'test_*.py'
 
-# Check generated plugin and role copies against maintained sources.
+# Check generated plugin/role copies and the current versioned ZIP against sources.
 python3 03_Agents/scripts/sync_plugin.py --check
 ```
 
@@ -103,3 +103,5 @@ See the [utility guide](03_Agents/scripts/README.md) for record verification and
 The [repository audit](03_Agents/history/2026-10-17-repository-audit/REPORT.md) records the structural cleanup. Its six note-reference findings were subsequently repaired with source checks; see the [repair summary](03_Agents/history/2026-10-17-repository-audit/NOTE_REFERENCE_REPAIRS.md). Fresh Git worktrees can still report absent empty course mirrors. The checker reports structural problems; it does not certify academic correctness or PDF page bounds.
 
 The primary vault is `/Users/slavomirhoricka/Desktop/University_notes`. An isolated task uses its own checkout root for all workflow paths. Historical records may retain older paths as dated provenance. Keep original materials, learner evidence, curriculum history and transaction journals intact. Todoist requires its separate connector; no background watcher is installed by this repository.
+
+The [workflow consistency audit](03_Agents/history/2026-10-18-workflow-consistency-audit/REPORT.md) records the reconciliation of skills, templates, scripts and these main docs, including retry and release-preservation checks.

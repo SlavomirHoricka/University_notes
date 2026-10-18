@@ -101,10 +101,51 @@ class RoutingContractTests(unittest.TestCase):
             root=Path(tmp);mod=self.fixture(root)
             with contextlib.redirect_stdout(io.StringIO()):mod.run()
             source=root/'03_Agents/agents/uni_fixture.toml';source.write_text('updated maintained version')
-            with contextlib.redirect_stdout(io.StringIO()):mod.run();mod.run(check=True)
+            with contextlib.redirect_stdout(io.StringIO()):mod.run(source_only=True);mod.run(check=True,source_only=True)
             target=root/'.codex/agents/uni_fixture.toml';self.assertEqual(target.read_bytes(),source.read_bytes())
             target.unlink()
             with self.assertRaisesRegex(ValueError,'project agent mismatch'):mod.run(check=True)
+
+    def test_snapshot_is_required_readable_and_exact(self):
+        for damage in ('missing','corrupt','mismatch'):
+            with self.subTest(damage=damage),tempfile.TemporaryDirectory() as tmp:
+                mod=self.fixture(Path(tmp))
+                with contextlib.redirect_stdout(io.StringIO()):mod.run()
+                archive=mod.AGENTS/'plugins/uni-teach-0.4.0.zip'
+                if damage=='missing':archive.unlink()
+                elif damage=='corrupt':archive.write_text('not a zip')
+                else:
+                    import zipfile
+                    with zipfile.ZipFile(archive,'a') as z:z.writestr('unexpected','extra')
+                with self.assertRaisesRegex(ValueError,'snapshot'):mod.run(check=True)
+                with contextlib.redirect_stdout(io.StringIO()):mod.run(check=True,source_only=True)
+
+    def test_existing_snapshot_is_preserved_and_new_version_is_required(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            mod=self.fixture(Path(tmp))
+            with contextlib.redirect_stdout(io.StringIO()):mod.run()
+            archive=mod.AGENTS/'plugins/uni-teach-0.4.0.zip';old=archive.read_bytes()
+            with contextlib.redirect_stdout(io.StringIO()):mod.run()
+            self.assertEqual(archive.read_bytes(),old)
+            source=mod.AGENTS/'ingest/SKILL.md';source.write_text('changed source')
+            dest=mod.PACKAGE/'skills/ingest/SKILL.md';before=dest.read_bytes()
+            with self.assertRaisesRegex(ValueError,'new package version'):mod.run()
+            self.assertEqual(archive.read_bytes(),old);self.assertEqual(dest.read_bytes(),before)
+            with contextlib.redirect_stdout(io.StringIO()):mod.run(source_only=True)
+            self.assertEqual(dest.read_bytes(),source.read_bytes());self.assertEqual(archive.read_bytes(),old)
+            manifest=mod.PACKAGE/'plugin.json';value=json.loads(manifest.read_text());value['version']='0.4.1';manifest.write_text(json.dumps(value))
+            with contextlib.redirect_stdout(io.StringIO()):mod.run();mod.run(check=True)
+            self.assertTrue((archive.parent/'uni-teach-0.4.1.zip').is_file());self.assertEqual(archive.read_bytes(),old)
+
+    def test_unexpected_generated_file_is_rejected_before_mutation(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            mod=self.fixture(Path(tmp))
+            with contextlib.redirect_stdout(io.StringIO()):mod.run()
+            dest=mod.PACKAGE/'skills/ingest/SKILL.md';before=dest.read_bytes()
+            (mod.AGENTS/'ingest/SKILL.md').write_text('changed')
+            (mod.PACKAGE/'skills/ingest/stale.md').write_text('stale')
+            with self.assertRaisesRegex(ValueError,'unexpected generated file'):mod.run(source_only=True)
+            self.assertEqual(dest.read_bytes(),before)
 
 if __name__ == '__main__':
     unittest.main()

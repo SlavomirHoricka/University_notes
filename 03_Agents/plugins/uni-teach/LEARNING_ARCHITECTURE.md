@@ -98,7 +98,7 @@ Read permissions are scoped to the resolved course and requested work. Each row 
 
 **Inputs and permitted reads**
 
-Exact user-supplied folder including nested files; originals and bounded verification context; existing notes/assets/hubs; ingestion index, linked passes and state; navigation guidance. May consult bounded academic references for verification/foundations and records their actual contribution.
+Exact user-supplied folder including nested files, or explicitly named existing-note repair passages and their cited originals; bounded verification context; existing notes/assets/hubs; ingestion index, linked passes and state; navigation guidance. May consult bounded academic references for verification/foundations and records their actual contribution.
 
 **Owned data and permitted changes**
 
@@ -244,7 +244,7 @@ Run `... status COURSE_DIR`. Readers stop while locked or journal unfinished. Al
 
 Recall also runs `... verify-record COURSE_DIR teach learning_log.md` to require a committed teach journal exactly matching the active log; legacy unjournaled history is never silently promoted. Owner runs `... recover COURSE_DIR OWNER TRANSACTION_ID` after interruption. Old/staged bytes permit idempotent roll-forward; unexpected edits preserve journal and fail. Never discard unfinished updates or claim mismatched plans ready.
 
-Global recall project mappings use the same utility at `03_Agents/runtime/recall/` (recall owns only `project_map.json` there). Utility validates owned paths and immutable events/history, not academic correctness or connector side effects. Ingest commits blocked state via utility, then separately locks/rereads it for note/assets edits, releasing before the utility completion commit. It never nests utility acquisition inside a manually held lock.
+Global recall project mappings use the same utility at `03_Agents/runtime/recall/` (recall owns only `project_map.json` there). Utility enforces owned paths, immutable teach events and curriculum snapshots, and append-only recall `schedule_history`, `task_history`, `scheduling_decisions` and `sync_journal` arrays. Derived summaries/state may change. Academic correctness, coverage/readiness semantics and connector side effects remain the owning workflow’s responsibility. Ingest commits blocked state via utility, then separately locks/rereads it for note/assets edits, releasing before the utility completion commit. It never nests utility acquisition inside a manually held lock.
 
 Index/pass writes use ingest-owned runtime lock and atomic replacement; completed detail repairs index. Do not hold locks across handoffs. A crash before journaling leaves staged orphan data but no changed authoritative bytes; inspect/preserve orphan rather than treating it as a commit.
 
@@ -323,7 +323,7 @@ These courses have no learning logs or recall states in this snapshot. Legacy `2
 
 Plan embeds retrieval, feedback/correction, worked-example fading, prerequisites, discrimination/transfer and separate delayed checks in small blocks with keys/rubric reasons. Teach implements one question at a time and records assistance. Normally two distinct unaided immediate checks establish acquisition: operational default, not personalized mastery. Delayed performance is separate. See [[03_Agents/references/LEARNING_METHODS]] for evidence/limits; methodology does not authorize external curriculum.
 
-Recall uses `uni-fixed-v1`: 1 day after qualifying acquisition, 6 after first delayed pass, then half-up-rounded previous interval ×2.5 with at least one-day growth. Failed/partial/assisted delayed assessment schedules a 1-day reassessment gate plus corrective teaching/reacquisition. Source/criterion changes follow plan gates. No response preserves overdue date. Use actual response date converted to Europe/Prague and calendar-day arithmetic.
+Recall uses `uni-fixed-v1`: 1 day after qualifying acquisition, 6 after first delayed pass, then half-up-rounded previous interval ×2.5 with at least one-day growth. Failed/partial/assisted delayed assessment schedules a 1-day reassessment gate plus corrective teaching/reacquisition. Source/criterion changes follow plan gates. A committed scoring correction that invalidates support retains the outstanding due date under an evidence gate; it is not a newly observed lapse. Fresh qualifying evidence or an explicit recall-owned scheduling decision resolves that gate. No response preserves overdue date. Use actual response date converted to Europe/Prague and calendar-day arithmetic.
 
 These are defaults, not full SM-2, personal optima, or proof of retention. Calendar +1 day can be less than 24 hours: the plan's minimum elapsed delayed-check separation still governs qualifying evidence.
 
@@ -337,6 +337,6 @@ Recall runs explicitly or as same-session workflow after teach commits. Invoke r
 
 Canonical skills remain `03_Agents/{ingest,plan,teach,recall}/SKILL.md`, with their owned templates/references/utilities. Existing `~/.agents/skills/ingest` and `~/.agents/skills/teach` symlinks remain unchanged. Plan/recall are discovered through the plugin; additional registrations are unnecessary. See [[03_Agents/README]].
 
-`plugins/uni-teach/` is generated packaging. Run `python3 03_Agents/scripts/sync_plugin.py`, then `--check` before release. It copies skills, shared references/scripts and architecture, excludes runtime/history/validation/bytecode, verifies manifests/default prompts, and writes `package_inventory.json`. Never edit installed versioned caches. `plugins/uni-teach-release.json` separates confirmed account release and inspected host cache status; publishing does not prove the current chat reloaded it.
+`plugins/uni-teach/` is generated packaging. Assign an unused version for changed snapshot content, run `python3 03_Agents/scripts/sync_plugin.py`, then `--check` before release. Full checks require the versioned ZIP to exist and match every package entry; existing differing snapshots are never overwritten. For unreleased loose-copy work, explicitly use `--source-only` for generation and checking; this excludes the ZIP and does not establish release parity. It copies skills, shared references/scripts and architecture, excludes runtime/history/validation/bytecode, verifies manifests/default prompts, and writes `package_inventory.json`. Never edit installed versioned caches. `plugins/uni-teach-release.json` separates confirmed account release and inspected host cache status; publishing does not prove the current chat reloaded it.
 
 One owner per template: plan `plan/templates/learning_plan.md`, `plan/templates/source_manifest.md`, `plan/templates/objective_lesson.md`; teach `teach/templates/learning_log.md`; recall `recall/templates/recall_state.json`. Old teaching planning-template paths are compatibility redirects only. Course records remain `03_Agents/<course_id>/`; no speculative records in empty mirror folders.

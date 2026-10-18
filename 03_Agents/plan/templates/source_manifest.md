@@ -55,7 +55,7 @@ Include only selected finished notes and explicitly necessary dependencies/asset
 
 ## Completion provenance and scope
 
-Link `03_Agents/<course_id>/ingestion_state.json` and relevant complete/no-change passes in `03_Agents/runtime/ingest/logs/`. State selected coverage and excluded topics. Missing provenance/state blocks production readiness; a validation artifact must say so explicitly.
+Link `03_Agents/<course_id>/ingestion_state.json` and relevant complete/no-change passes in `03_Agents/runtime/ingest/logs/`. State selected coverage and excluded topics. Map each selected `note_sections` entry and necessary dependency to actual checked pass coverage. A bounded repair/adoption pass supports only its recorded passages; a whole-file fingerprint does not certify unchecked sections. Preserve earlier checked provenance where applicable. Missing provenance/state blocks production readiness; a validation artifact must say so explicitly.
 
 ## Snapshot and semantic changes
 

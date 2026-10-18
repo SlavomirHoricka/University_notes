@@ -1,6 +1,6 @@
 {
   "name": "uni-teach",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Course-note ingestion, planning, tutoring, and spaced recall for the Uni Obsidian vault.",
   "author": {
     "name": "Slavomir Horicka"
