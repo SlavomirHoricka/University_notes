@@ -30,3 +30,5 @@ Actual incoming links were traced before moves. Three legacy Econometrics I head
 The primary checkout has unrelated material changes and is not fast-forwarded. Its standalone ingest/teach registrations still point to its existing folders. Update both symlink targets together with primary synchronization; see the live migration procedure in `03_Agents/docs/README.md`. Installed plugin caches remain the published 0.6.0 snapshot.
 
 The authoritative engineering handoff, integration and additional authorized hub-branch cleanup scope are in `03_Agents/runtime/sessions/2026-10-18-agents-folder-audit.md`.
+
+The human additionally authorized removing leftover learning-hub branches after integration. [Hub branch recovery inventory](HUB_BRANCHES.json) records 15 local and 14 remote refs, all already merged, plus the existing worktrees to preserve. Deletion outcomes must be verified separately from this preflight.

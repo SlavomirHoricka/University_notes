@@ -1,6 +1,6 @@
 # Agent workspace organization audit
 
-- Status: in_progress
+- Status: ready_for_merge
 - Objective: group all five canonical skills in one folder, consolidate shared documentation, leave only README and VAULT_MAP as top-level files in 03_Agents, and document the new html-course skill consistently.
 - Branch: codex/agents-folder-audit
 - Worktree: /Users/slavomirhoricka/.codex/worktrees/8d92/University_notes (clean task checkout, attached through host).
@@ -14,3 +14,10 @@
 - Primary synchronization: deferred; primary main has unrelated .DS_Store modification and untracked Week_2/Week_3 materials. Preserve them. Existing standalone ingest/teach symlinks continue targeting its current layout; migrate their targets to primary 03_Agents/skills/<name> only together with primary synchronization. See docs/README.md.
 - Additional authorized scope: after audit integration, identify and delete leftover codex branches from learning hub app development. Inspect local/remote refs, worktrees and unmerged commits first; preserve recovery evidence and unrelated work.
 - Next: review staged diff, commit/push and open PR; record actual PR URL and ready_for_merge before normal merge. Verify remote integration, clean up only this task's branch/worktree, then perform authorized hub-branch cleanup with recovery preservation.
+
+## Integration and branch-cleanup handoff
+
+- PR: https://github.com/SlavomirHoricka/University_notes/pull/21, targeting main. Validated implementation d01b503f726cb3677f455f855fdd340b272d04b2; this handoff adds only review/recovery evidence. Remote gates on that head are MERGEABLE/CLEAN, with no reported required checks or review decision. Internal maintenance review is not a GitHub approval.
+- Hub cleanup preflight: 15 local codex/hub-* branches and 14 corresponding origin branches; all 29 tips are ancestors of fetched origin/main, with zero unique unmerged commits. No open hub PR remains. Exact names/SHAs and worktree status fingerprints are preserved in the audit’s HUB_BRANCHES.json. codex/agent-tutor-only and unrelated Uni branches are outside this development-branch scope.
+- Five old hub worktrees still have branches checked out. Detach each at its exact existing HEAD before branch deletion; verify unchanged tracked diffs and status, preserving modified integration files, untracked provider files and all ignored artifacts. Do not remove or archive these other tasks’ worktrees. Main’s ancestry retains every branch tip for recovery; no new backup branch is needed.
+- Next: push this handoff, confirm the exact final PR head and gates, merge normally and verify GitHub’s actual merged state and remote main. Then delete the authorized hub refs after rechecking exact tips and ancestry, preserve the five detached worktrees, remove only this task’s branch/worktree, and report actual outcomes. Primary synchronization/standalone registration migration remain deferred because of unrelated source inputs.
