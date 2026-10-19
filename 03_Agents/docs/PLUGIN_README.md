@@ -47,3 +47,7 @@ Legacy schema-1 history remains intact. New schema-3 readiness requires ingest c
 ## 7. Self-contained lesson preparation
 
 Self-contained lesson preparation follows `references/LESSON_CONTENT.md`. Ingest supplies complete notes; plan reuses full explanations, orders instruction and designs the main exercises/solutions. Teach may answer questions, follow relevant tangents and add checked exercises within unchanged objectives and criteria. Existing curricula migrate on substantive revision; actual learner history remains intact.
+
+## Student-facing HTML lessons
+
+The optional HTML-course skill uses a numbered outline before the introduction, bullet learning objectives and definitions, readable complete explanations, structured practice with reasoning hints, and locally checked four-option quizzes. Lesson dropdowns, course switching and optional source disclosures keep the reading flow focused. The maintained presentation contract is in `skills/html-course/references/student_presentation.md`; notes, prepared assessment criteria and learner evidence retain their existing owners.

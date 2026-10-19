@@ -2,38 +2,95 @@
   "course_id": "2026_2027/Winter_Semester/Example_Course",
   "title": "Example course",
   "language": "en",
-  "source_fingerprint": "COPY_THE_ACTUAL_SNAPSHOT_FINGERPRINT",
-  "scope": "The selected ready topic, organized by its established source week.",
-  "limitations": "State actual source or prepared-scope limits here without making an exam-completeness claim.",
-  "week_titles": {"1": "Foundations"},
-  "lessons": [{
-    "id": "sample-mean",
-    "title": "Understanding the sample mean",
-    "subtitle": "One quantity, one clear interpretation",
-    "description": "An illustrative format example; replace with the complete supported lesson.",
-    "week": 1,
-    "additional_weeks": [],
-    "objective_ids": ["O001"],
-    "prerequisite_lessons": [],
-    "sections": [{
-      "id": "the-idea",
-      "title": "The idea",
-      "html": "<p>The sample mean is the sum of the observations divided by their number:</p><div class=\"equation\">\\[\\bar x=\\frac{1}{n}\\sum_{i=1}^{n}x_i.\\]</div><p>This short block illustrates the draft format, not complete academic coverage.</p>",
-      "interactions": [{
-        "id": "mean-practice",
-        "kind": "numeric",
-        "prompt_html": "<p>For the illustrative observations \\(1,2,3\\), calculate the sample mean.</p>",
-        "answer": 2,
-        "tolerance": 0.000001,
-        "solution_html": "<p>Add the three values and divide by three: \\((1+2+3)/3=2\\).</p>"
-      }]
-    }]
-  }],
-  "coverage": [{
-    "source": "THE_EXACT_SOURCE_UNIT_KEY_FROM_THE_SNAPSHOT",
-    "disposition": "included",
-    "targets": ["sample-mean#the-idea"]
-  }],
+  "student_profile": 1,
+  "source_fingerprint": "COPY_FROM_VERIFIED_SNAPSHOT",
+  "scope": "Replace with a short substantive description of the course.",
+  "limitations": "State the supported weeks/topics and meaningful academic limits.",
+  "week_titles": {
+    "1": "Foundations"
+  },
   "assets": [],
-  "custom_scripts": []
+  "custom_scripts": [],
+  "custom_styles": [],
+  "lessons": [
+    {
+      "id": "o001",
+      "title": "Understand and calculate a sample mean",
+      "subtitle": "",
+      "description": "Add observations and divide by their number.",
+      "week": 1,
+      "objective_ids": [
+        "O001"
+      ],
+      "prerequisite_lessons": [],
+      "sections": [
+        {
+          "id": "lesson-outline",
+          "title": "Lesson outline",
+          "html": "<div class=\"lesson-outline\"><ol><li><a href=\"#introduction\"><span class=\"outline-num\">02</span><span><strong>Introduction</strong><span class=\"outline-description\">See the question and learning objectives.</span></span></a></li><li><a href=\"#definitions\"><span class=\"outline-num\">03</span><span><strong>Key definitions</strong><span class=\"outline-description\">Identify the sample and its mean.</span></span></a></li><li><a href=\"#explanation\"><span class=\"outline-num\">04</span><span><strong>Calculate the mean</strong><span class=\"outline-description\">Follow the complete arithmetic and assumptions.</span></span></a></li><li><a href=\"#practice\"><span class=\"outline-num\">05</span><span><strong>Practise</strong><span class=\"outline-description\">Write your reasoning and check a choice offline.</span></span></a></li><li><a href=\"#sources\"><span class=\"outline-num\">06</span><span><strong>Sources</strong><span class=\"outline-description\">See the checked scope.</span></span></a></li></ol></div>"
+        },
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "html": "<p>How can one number summarize the level of a small set of observations?</p><h3 id=\"learning-objectives\">2.1 What you’ll learn</h3><ul><li>Calculate an arithmetic mean.</li><li>Explain why the count belongs in the denominator.</li></ul><h3 id=\"before-you-begin\">2.2 Before you begin</h3><ul><li>Use addition and division.</li></ul>"
+        },
+        {
+          "id": "definitions",
+          "title": "Key definitions and concepts",
+          "html": "<ul class=\"definitions\"><li><strong>Observation:</strong> One recorded value.</li><li><strong>Sample mean:</strong> The sum of the observations divided by their number.</li></ul>"
+        },
+        {
+          "id": "explanation",
+          "title": "Calculate the mean",
+          "html": "<p>For a nonempty finite sample of \\(n\\) values, add every value and divide by the count:</p><div class=\"equation\">\\[\\bar x=\\frac{1}{n}\\sum_{i=1}^{n}x_i.\\]</div><p>For \\(1,2,3\\), the sum is \\(6\\), the count is \\(3\\), and the mean is \\(2\\). The mean has the same units as the observations.</p>"
+        },
+        {
+          "id": "practice",
+          "title": "Practise the reasoning",
+          "html": "<p>Write your reasoning before revealing the explanation. Replace this small example with a reviewed topic-specific bank covering the requested lesson.</p>",
+          "interactions": [
+            {
+              "id": "mean-written",
+              "kind": "reflection",
+              "prompt_html": "<h3 id=\"written-practice\">5.1 Written practice</h3><p>Consider the observations \\(1,2,3\\).</p><p><strong>Solve the following:</strong></p><ol class=\"task-list\"><li>Calculate their sum and count.</li><li>Find the mean and explain the denominator.</li></ol><details class=\"hint\"><summary>Show a hint</summary><p>What does the denominator count? Label each observation before choosing an operation.</p></details>",
+              "solution_html": "<p>The sum is \\(6\\), count \\(3\\), so the mean is \\(6/3=2\\).</p>"
+            },
+            {
+              "id": "mean-choice",
+              "kind": "choice",
+              "prompt_html": "<h3 id=\"offline-quiz\">5.2 Check your reasoning</h3><p>What is the mean of \\(1,2,3\\)?</p>",
+              "choices": [
+                "1",
+                "2",
+                "3",
+                "6"
+              ],
+              "correct_index": 1,
+              "feedback": [
+                "That is the first observation, omitting the others. Sum all three values, then divide by their count.",
+                "Correct: the sum6 divided by count3 is2.",
+                "That is the largest observation, rather than the average.",
+                "That is the sum; divide it by the three observations."
+              ],
+              "solution_html": "<p>\\((1+2+3)/3=2\\).</p>"
+            }
+          ]
+        },
+        {
+          "id": "sources",
+          "title": "Sources",
+          "html": "<details><summary>Show materials and scope</summary><p>Replace with the actual checked-note/lesson references and academic limits. This fictional example illustrates the format only.</p><p>Self-study practice does not record assessed learning. Viewing a prepared item may make it unsuitable as a fresh tutor check.</p></details>"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "source": "COPY_EVERY_SNAPSHOT_SOURCE_UNIT_KEY",
+      "disposition": "included",
+      "targets": [
+        "o001#explanation"
+      ]
+    }
+  ]
 }

@@ -4,6 +4,7 @@ Historical evidence and release artifacts live here. Current instructions are in
 
 | Archive | Contents |
 | --- | --- |
+| [2026-10-19 HTML learning flow](2026-10-19-html-learning-flow/REPORT.md) | Validated learner-facing structure, recorded annotations, all-five-course refresh and independent conversion/browser checks. |
 | [2026-10-18 workspace organization audit](2026-10-18-agents-folder-audit/REPORT.md) | Grouped five skills and documentation, moved checker, retargeted navigation and verified preservation. |
 | [2026-10-18 HTML course addition](2026-10-18-html-course/REPORT.md) | Separate optional skill, implementation/forward checks, browser rehearsal and verified private release. |
 | [2026-10-18 workflow consistency audit](2026-10-18-workflow-consistency-audit/REPORT.md) | Skills/templates/scripts/docs reconciliation, independent fictional workflow checks and preserved release snapshots. |

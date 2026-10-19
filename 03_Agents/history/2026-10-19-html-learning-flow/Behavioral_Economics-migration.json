@@ -1,0 +1,725 @@
+{
+  "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+  "lessons": [
+    {
+      "academic_parts": [
+        "part-ultimatum-and-dictator-games"
+      ],
+      "lesson": "o002",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-ultimatum-and-dictator-games"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o002-s1",
+        "o002-i1",
+        "o002-i2",
+        "o002-d1",
+        "o002-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-a-piecewise-utility-function-for-two-people",
+        "part-how-to-read-the-indifference-curves",
+        "part-selfishness-altruism-and-spitefulness",
+        "part-inequality-aversion-changes-sign-across-equality"
+      ],
+      "lesson": "o003",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-a-piecewise-utility-function-for-two-people",
+          "part-how-to-read-the-indifference-curves",
+          "part-selfishness-altruism-and-spitefulness",
+          "part-inequality-aversion-changes-sign-across-equality"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o003-s1",
+        "o003-i1",
+        "o003-i2",
+        "o003-d1",
+        "o003-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-reciprocity-responds-to-prior-treatment",
+        "part-efficiency-seeking-and-the-welfare-connection",
+        "part-reciprocity-needs-an-expectation-about-the-other-player"
+      ],
+      "lesson": "o004",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-reciprocity-responds-to-prior-treatment",
+          "part-efficiency-seeking-and-the-welfare-connection",
+          "part-reciprocity-needs-an-expectation-about-the-other-player"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o004-s1",
+        "o004-i1",
+        "o004-i2",
+        "o004-d1",
+        "o004-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-the-trust-game-creating-a-surplus-before-deciding-its-division"
+      ],
+      "lesson": "o005",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-the-trust-game-creating-a-surplus-before-deciding-its-division"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o005-s1",
+        "o005-i1",
+        "o005-i2",
+        "o005-d1",
+        "o005-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-the-prisoner-s-dilemma-a-simultaneous-conflict"
+      ],
+      "lesson": "o006",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-the-prisoner-s-dilemma-a-simultaneous-conflict"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o006-s1",
+        "o006-i1",
+        "o006-i2",
+        "o006-d1",
+        "o006-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-a-warm-glow-premium-can-change-best-responses",
+        "part-reciprocity-needs-an-expectation-about-the-other-player",
+        "part-what-these-games-establish"
+      ],
+      "lesson": "o007",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-a-warm-glow-premium-can-change-best-responses",
+          "part-reciprocity-needs-an-expectation-about-the-other-player",
+          "part-what-these-games-establish"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o007-s1",
+        "o007-i1",
+        "o007-i2",
+        "o007-d1",
+        "o007-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-course-organization-and-exam"
+      ],
+      "lesson": "o008",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-course-organization-and-exam"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o008-s1",
+        "o008-i1",
+        "o008-i2",
+        "o008-d1",
+        "o008-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-effort-contracts-and-social-motivations"
+      ],
+      "lesson": "o009",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-effort-contracts-and-social-motivations"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o009-s-practice-with-fading-assistance-0",
+        "o009-i1",
+        "o009-i2",
+        "o009-d1",
+        "o009-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-gift-exchange-in-labour-market-field-experiments"
+      ],
+      "lesson": "o010",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-gift-exchange-in-labour-market-field-experiments"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o010-s-practice-with-fading-assistance-0",
+        "o010-i1",
+        "o010-i2",
+        "o010-d1",
+        "o010-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-relative-pay-and-charitable-gift-exchange",
+        "part-relative-wages-with-own-wage-held-fixed",
+        "part-relative-pay-and-charitable-gift-exchange-more"
+      ],
+      "lesson": "o011",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-relative-pay-and-charitable-gift-exchange",
+          "part-relative-wages-with-own-wage-held-fixed"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-relative-pay-and-charitable-gift-exchange-relative-pay-and-charitable-gift-exchange": [
+          "part-relative-pay-and-charitable-gift-exchange-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o011-s-practice-with-fading-assistance-0",
+        "o011-i1",
+        "o011-i2",
+        "o011-d1",
+        "o011-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-falk-a-gift-before-the-donation-decision",
+        "part-timing-and-the-revenue-denominator"
+      ],
+      "lesson": "o012",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-falk-a-gift-before-the-donation-decision",
+          "part-timing-and-the-revenue-denominator"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o012-s-practice-with-fading-assistance-0",
+        "o012-i1",
+        "o012-i2",
+        "o012-d1",
+        "o012-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-social-preferences-in-childhood"
+      ],
+      "lesson": "o013",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-social-preferences-in-childhood"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o013-s-practice-with-fading-assistance-0",
+        "o013-i1",
+        "o013-i2",
+        "o013-d1",
+        "o013-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-social-environment-and-mentoring"
+      ],
+      "lesson": "o014",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-social-environment-and-mentoring"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o014-s-practice-with-fading-assistance-0",
+        "o014-i1",
+        "o014-i2",
+        "o014-d1",
+        "o014-d2"
+      ],
+      "quiz_count": 3
+    }
+  ],
+  "prior_candidate": "49ff1dc7b44b81487a0cf000babb4519a60dc6e61f02f31816727d45be2f72bc"
+}

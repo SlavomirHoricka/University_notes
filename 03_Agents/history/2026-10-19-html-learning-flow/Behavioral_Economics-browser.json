@@ -1,0 +1,21 @@
+{
+  "kind": "browser",
+  "status": "passed",
+  "reviewer": "/root",
+  "candidate_digest": "128ed4e5dc51018808196afb847f5ad6ac5dd8dbd7a49b0b558f9a09aaf57ea8",
+  "findings": [],
+  "checks": {
+    "links": true,
+    "math": true,
+    "interactions": true,
+    "desktop": true,
+    "compact": true,
+    "offline_dependencies": true
+  },
+  "evidence": [
+    "All 93 pages checked in actual browser at desktop and a 390-pixel iframe breakpoint: math passed, fonts/figures loaded, no body horizontal overflow, outline first, four choices per quiz.",
+    "Representative quiz in each course checked against embedded correct keys; shared controls tested empty/wrong/correct, change clears feedback, check-all, reset and keyboard radio input. Hints and full solutions opened.",
+    "After stopping local server, loaded FMI quiz still checked empty and correct submissions and reset. No runtime fetch/CDN/module dependency; all relative assets and links validated by candidate helper. Direct file:// opening not tested in host browser.",
+    "Final compact menu width equals scrollWidth (375px). Academic content unchanged by final CSS-only correction."
+  ]
+}

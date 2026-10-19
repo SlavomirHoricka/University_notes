@@ -1,0 +1,1244 @@
+{
+  "course_id": "2026_2027/Winter_Semester/Comparative_Economics",
+  "lessons": [
+    {
+      "academic_parts": [
+        "part-comparing-economic-systems-rules-outcomes-and-change",
+        "part-course-organization-and-week-1-scope",
+        "part-comparative-economics",
+        "part-1-allocation-custom-exchange-or-command",
+        "part-1-allocation-custom-exchange-or-command-more",
+        "part-2-ownership-who-controls-productive-assets",
+        "part-reading-the-chapter-s-evidence",
+        "part-reading-the-chapter-s-evidence-more",
+        "part-why-a-striking-comparison-may-still-mislead",
+        "part-why-a-striking-comparison-may-still-mislead-more"
+      ],
+      "lesson": "o001",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-comparing-economic-systems-rules-outcomes-and-change",
+          "part-course-organization-and-week-1-scope",
+          "part-comparative-economics"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-comparing-economic-systems-2-ownership-who-controls-productive-assets": [
+          "part-2-ownership-who-controls-productive-assets"
+        ],
+        "s-reading-comparing-economic-systems-comparing-economic-systems-rules-outcomes-and-change": [
+          "part-1-allocation-custom-exchange-or-command"
+        ],
+        "s-reading-comparing-economic-systems-comparing-performance-define-the-outcome-first": [
+          "part-reading-the-chapter-s-evidence"
+        ],
+        "s-reading-comparing-economic-systems-reading-the-chapter-s-evidence": [
+          "part-reading-the-chapter-s-evidence-more"
+        ],
+        "s-reading-comparing-economic-systems-systems-change-and-institutions-feed-back-on-themselves": [
+          "part-why-a-striking-comparison-may-still-mislead"
+        ],
+        "s-reading-comparing-economic-systems-what-is-being-classified": [
+          "part-1-allocation-custom-exchange-or-command-more"
+        ],
+        "s-reading-comparing-economic-systems-why-a-striking-comparison-may-still-mislead": [
+          "part-why-a-striking-comparison-may-still-mislead-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o001-s1",
+        "o001-i1",
+        "o001-i2",
+        "o001-d1",
+        "o001-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-comparing-performance-define-the-outcome-first",
+        "part-why-a-striking-comparison-may-still-mislead",
+        "part-reading-the-chapter-s-evidence",
+        "part-reading-the-chapter-s-evidence-more",
+        "part-why-a-striking-comparison-may-still-mislead-more"
+      ],
+      "lesson": "o002",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-comparing-performance-define-the-outcome-first",
+          "part-why-a-striking-comparison-may-still-mislead"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-comparing-economic-systems-comparing-performance-define-the-outcome-first": [
+          "part-reading-the-chapter-s-evidence"
+        ],
+        "s-reading-comparing-economic-systems-reading-the-chapter-s-evidence": [
+          "part-reading-the-chapter-s-evidence-more"
+        ],
+        "s-reading-comparing-economic-systems-why-a-striking-comparison-may-still-mislead": [
+          "part-why-a-striking-comparison-may-still-mislead-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o002-s1",
+        "o002-i1",
+        "o002-i2",
+        "o002-d1",
+        "o002-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-institutions-and-economic-development"
+      ],
+      "lesson": "o003",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-institutions-and-economic-development"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o003-s1",
+        "o003-i1",
+        "o003-i2",
+        "o003-d1",
+        "o003-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-2-hold-up-investment-changes-bargaining-power",
+        "part-3-commitment-promises-can-become-unattractive-to-keep"
+      ],
+      "lesson": "o004",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-2-hold-up-investment-changes-bargaining-power",
+          "part-3-commitment-promises-can-become-unattractive-to-keep"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o004-s1",
+        "o004-i1",
+        "o004-i2",
+        "o004-d1",
+        "o004-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-4-cooperation-individual-incentives-defeat-a-shared-gain",
+        "part-5-coordination-which-shared-pattern-will-people-choose"
+      ],
+      "lesson": "o005",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-4-cooperation-individual-incentives-defeat-a-shared-gain",
+          "part-5-coordination-which-shared-pattern-will-people-choose"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o005-s1",
+        "o005-i1",
+        "o005-i2",
+        "o005-d1",
+        "o005-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-why-imperfect-institutions-can-persist",
+        "part-systems-change-and-institutions-feed-back-on-themselves",
+        "part-why-a-striking-comparison-may-still-mislead",
+        "part-why-a-striking-comparison-may-still-mislead-more"
+      ],
+      "lesson": "o006",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-why-imperfect-institutions-can-persist",
+          "part-systems-change-and-institutions-feed-back-on-themselves"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-comparing-economic-systems-systems-change-and-institutions-feed-back-on-themselves": [
+          "part-why-a-striking-comparison-may-still-mislead"
+        ],
+        "s-reading-comparing-economic-systems-why-a-striking-comparison-may-still-mislead": [
+          "part-why-a-striking-comparison-may-still-mislead-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o006-s1",
+        "o006-i1",
+        "o006-i2",
+        "o006-d1",
+        "o006-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-colonial-institutions-and-divergence-why-nations-fail-chapter-1"
+      ],
+      "lesson": "o007",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-colonial-institutions-and-divergence-why-nations-fail-chapter-1"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o007-s1",
+        "o007-i1",
+        "o007-i2",
+        "o007-d1",
+        "o007-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-different-paths-after-independence",
+        "part-from-political-rules-to-invention-firms-and-finance",
+        "part-carlos-slim-bill-gates-and-the-limits-of-business-power",
+        "part-what-the-authors-mean-by-institutions",
+        "part-answers-to-the-six-assigned-reading-questions",
+        "part-synthesis"
+      ],
+      "lesson": "o008",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-different-paths-after-independence",
+          "part-from-political-rules-to-invention-firms-and-finance",
+          "part-carlos-slim-bill-gates-and-the-limits-of-business-power",
+          "part-what-the-authors-mean-by-institutions",
+          "part-answers-to-the-six-assigned-reading-questions",
+          "part-synthesis"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o008-s1",
+        "o008-i1",
+        "o008-i2",
+        "o008-d1",
+        "o008-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-comparability-data-reliability-and-reading-questions"
+      ],
+      "lesson": "o009",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-comparability-data-reliability-and-reading-questions"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o009-s-practice-with-fading-assistance-0",
+        "o009-i1",
+        "o009-i2",
+        "o009-d1",
+        "o009-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-synthetic-control-design-fit-and-inference"
+      ],
+      "lesson": "o010",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-synthetic-control-design-fit-and-inference"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o010-s-practice-with-fading-assistance-0",
+        "o010-i1",
+        "o010-i2",
+        "o010-d1",
+        "o010-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-synthetic-control-design-fit-and-inference"
+      ],
+      "lesson": "o011",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-synthetic-control-design-fit-and-inference"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o011-s-practice-with-fading-assistance-0",
+        "o011-i1",
+        "o011-i2",
+        "o011-d1",
+        "o011-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-russia-without-the-revolution-predictive-counterfactuals"
+      ],
+      "lesson": "o012",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-russia-without-the-revolution-predictive-counterfactuals"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o012-s-practice-with-fading-assistance-0",
+        "o012-i1",
+        "o012-i2",
+        "o012-d1",
+        "o012-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-institutions-power-and-democratization"
+      ],
+      "lesson": "o013",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-institutions-power-and-democratization"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o013-s-practice-with-fading-assistance-0",
+        "o013-i1",
+        "o013-i2",
+        "o013-d1",
+        "o013-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-liberty-leviathans-and-the-cage-of-norms"
+      ],
+      "lesson": "o014",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-liberty-leviathans-and-the-cage-of-norms"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o014-s-practice-with-fading-assistance-0",
+        "o014-i1",
+        "o014-i2",
+        "o014-d1",
+        "o014-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-embedded-economies-reciprocity-and-the-kula-ring"
+      ],
+      "lesson": "o015",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-embedded-economies-reciprocity-and-the-kula-ring"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o015-s-practice-with-fading-assistance-0",
+        "o015-i1",
+        "o015-i2",
+        "o015-d1",
+        "o015-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-religion-and-economic-organization"
+      ],
+      "lesson": "o016",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-religion-and-economic-organization"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o016-s-practice-with-fading-assistance-0",
+        "o016-i1",
+        "o016-i2",
+        "o016-d1",
+        "o016-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-trade-protection-and-historical-islam"
+      ],
+      "lesson": "o017",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-trade-protection-and-historical-islam"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o017-s-practice-with-fading-assistance-0",
+        "o017-i1",
+        "o017-i2",
+        "o017-d1",
+        "o017-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-islamic-finance-and-institutional-diversity"
+      ],
+      "lesson": "o018",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-islamic-finance-and-institutional-diversity"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o018-s-practice-with-fading-assistance-0",
+        "o018-i1",
+        "o018-i2",
+        "o018-d1",
+        "o018-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-islamic-finance-and-institutional-diversity"
+      ],
+      "lesson": "o019",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-islamic-finance-and-institutional-diversity"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o019-s-practice-with-fading-assistance-0",
+        "o019-i1",
+        "o019-i2",
+        "o019-d1",
+        "o019-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-market-capitalism-efficiency-failures-and-institutions"
+      ],
+      "lesson": "o020",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-market-capitalism-efficiency-failures-and-institutions"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o020-s-practice-with-fading-assistance-0",
+        "o020-i1",
+        "o020-i2",
+        "o020-d1",
+        "o020-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-market-capitalism-efficiency-failures-and-institutions"
+      ],
+      "lesson": "o021",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-market-capitalism-efficiency-failures-and-institutions"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o021-s-practice-with-fading-assistance-0",
+        "o021-i1",
+        "o021-i2",
+        "o021-d1",
+        "o021-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-collective-action-institutions-and-development"
+      ],
+      "lesson": "o022",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-collective-action-institutions-and-development"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o022-s-practice-with-fading-assistance-0",
+        "o022-i1",
+        "o022-i2",
+        "o022-d1",
+        "o022-d2"
+      ],
+      "quiz_count": 3
+    }
+  ],
+  "prior_candidate": "bb409032bf6c4e9625bca88316d29330e9adc0247e67aa07abaa035790fa210e"
+}

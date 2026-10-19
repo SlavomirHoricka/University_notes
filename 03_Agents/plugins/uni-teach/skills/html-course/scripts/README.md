@@ -19,6 +19,12 @@ Every snapshot `source_units[].key` needs exactly one coverage entry. `included`
 
 Lesson objects have stable `id`, `title`, `week`, `objective_ids`, `prerequisite_lessons` and `sections`. A section has `id`, `title`, `html` and optional `interactions`. Use `additional_weeks` for cross-week synthesis. Weeks are checked against selected note paths; material without week paths needs an explicit `week_basis` recording the user/plan basis. Do not infer a week from page order.
 
+## Student presentation profile
+
+Set `student_profile: 1` for new or refreshed student courses and follow [the presentation contract](../references/student_presentation.md). The helper adds the bundled student CSS/runtime, sidebar lesson dropdowns, section links and local quiz controls. The outline must be first; `introduction`, `definitions`, `practice` and `sources` are required section IDs. Give numbered subsection headings stable IDs. Draft metadata may retain original policies/provenance; sections marked for agent audiences are rejected rather than silently exposed. Keep old anchor aliases when refreshing.
+
+A student quiz uses four distinct visible HTML choices, one strict integer `correct_index` from0 through3, and `feedback`: a list of four nonempty choice-specific explanations. Interaction IDs must be unique throughout a lesson. The complete local key supports empty/wrong/correct states, check-all, answer changes and reset without a network connection. Author the topic-specific content; the runtime supplies no academic answers.
+
 ## Interaction objects
 
 All interactions have a unique `id`, `kind`, `prompt_html` and `solution_html`.

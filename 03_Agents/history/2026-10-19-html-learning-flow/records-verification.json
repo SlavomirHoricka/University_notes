@@ -1,0 +1,72 @@
+[
+  {
+    "course": "Behavioral_Economics",
+    "owner": "ingest",
+    "transaction": "INGEST-20261018-BE-R3-COMPLETE",
+    "records": 1,
+    "verified": true
+  },
+  {
+    "course": "Behavioral_Economics",
+    "owner": "plan",
+    "transaction": "PLAN-20261018-BE-P002",
+    "records": 16,
+    "verified": true
+  },
+  {
+    "course": "Comparative_Economics",
+    "owner": "ingest",
+    "transaction": "INGEST-20261018-CE-R2-COMPLETE",
+    "records": 1,
+    "verified": true
+  },
+  {
+    "course": "Comparative_Economics",
+    "owner": "plan",
+    "transaction": "PLAN-20261018-CE-P003-LINKS",
+    "records": 24,
+    "verified": true
+  },
+  {
+    "course": "Econometrics_II",
+    "owner": "ingest",
+    "transaction": "INGEST-20261018-ECOX-R3-COMPLETE",
+    "records": 1,
+    "verified": true
+  },
+  {
+    "course": "Econometrics_II",
+    "owner": "plan",
+    "transaction": "PLAN-20261018-ECOX-P004",
+    "records": 21,
+    "verified": true
+  },
+  {
+    "course": "Economics_of_Green_Deal",
+    "owner": "ingest",
+    "transaction": "INGEST-20261018-GREEN-R3-COMPLETE",
+    "records": 1,
+    "verified": true
+  },
+  {
+    "course": "Economics_of_Green_Deal",
+    "owner": "plan",
+    "transaction": "PLAN-20261018-GREEN-P005-FORMAT",
+    "records": 21,
+    "verified": true
+  },
+  {
+    "course": "Financial_Markets_Instruments_I",
+    "owner": "ingest",
+    "transaction": "INGEST-20261018-FMI-R3-COMPLETE",
+    "records": 1,
+    "verified": true
+  },
+  {
+    "course": "Financial_Markets_Instruments_I",
+    "owner": "plan",
+    "transaction": "PLAN-20261018-FMI-P005-NOTATION",
+    "records": 21,
+    "verified": true
+  }
+]

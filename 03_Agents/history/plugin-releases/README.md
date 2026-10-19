@@ -16,3 +16,5 @@ The repository audit [move ledger](../2026-10-17-repository-audit/file_changes.j
 The [0.5.2 release receipt](uni-teach-0.5.2-release.json) preserves the exact publication/activation observations before the verified 0.5.4 update. Its matching ZIP remains under [plugins](../../plugins/README.md).
 
 The [0.5.4 release receipt](uni-teach-0.5.4-release.json) preserves publication/activation evidence before the additional HTML-course skill in 0.6.0. Its matching ZIP also remains under plugins.
+
+- [0.6.0 publication and host activation receipt](uni-teach-0.6.0-release.json), preserved before0.7.2 publication.

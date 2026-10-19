@@ -1,0 +1,46 @@
+{
+  "plugin_id": "plugins_6ac1489d78a0819184b4e8340d8c61cd",
+  "name": "uni-teach",
+  "description": "Course-note ingestion, planning, tutoring, spaced recall and optional offline HTML courses for the Uni Obsidian vault.",
+  "version": "0.6.0",
+  "current_release_id": "pluginrel_6ad4f21d322c819186e7654ac155f691",
+  "scope": "USER",
+  "discoverability": "PRIVATE",
+  "plugin_url": "https://chatgpt.com/plugins/plugins_6ac1489d78a0819184b4e8340d8c61cd",
+  "display_name": "University Assistant",
+  "previous_release_id": "pluginrel_6ad4972193d48191afe4bcc84680626c",
+  "archive": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach-0.6.0.zip",
+  "archive_kind": "full-package",
+  "archive_sha256": "667ba61640c4549676bb5aa2daf5cdd83c5ce2fc564050bea9dcdf1027ca8d33",
+  "canonical_skill_sources": {
+    "ingest": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/ingest",
+    "plan": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plan",
+    "teach": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/teach",
+    "recall": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/recall",
+    "html-course": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/html-course"
+  },
+  "packaging_source": "/Users/slavomirhoricka/Desktop/University_notes/03_Agents/plugins/uni-teach",
+  "published_on": "2026-10-18",
+  "verification": "Guarded private update from 0.5.4 to the reviewed 0.6.0 archive succeeded. All 56 remote archive files match package bytes or JSON-equivalent compatibility metadata; 55 text paths independently read back. USER/PRIVATE identity and default prompts preserved; no deletions. Five separate skills, 52 canonical source inventory entries. Existing four skill bodies, 42 role copies and all older ZIPs unchanged. 29 maintenance, 18 fictional HTML and 42 recall tests pass; independent implementation/forward/package checks have no remaining material findings.",
+  "observed_cache_versions": [
+    "0.6.0"
+  ],
+  "current_chat_loaded_skill_snapshot": "0.5.4",
+  "host_activation_verified": true,
+  "activation_limitation": "This conversation received its earlier skill snapshot before publication. Start a new chat to use the new html-course skill through plugin discovery. Current-chat hot reload is not claimed.",
+  "packaging_validation_limitation": "Browser rehearsal uses fictional component content over a confined loopback preview because the host disallows file URLs. Actual file:// browser execution and a full real academic HTML conversion were not performed. Output dependency/link/hash checks establish no runtime server/CDN requirement. No learner evidence or Todoist side effects were created.",
+  "installed_cache_verified": true,
+  "verified_cache_path": "/Users/slavomirhoricka/.codex/plugins/cache/created-by-me-remote/uni-teach/0.6.0",
+  "publication_worktree_archive": "/Users/slavomirhoricka/.codex/worktrees/2237/University_notes/03_Agents/plugins/uni-teach-0.6.0.zip",
+  "verified_at": "2026-10-18T18:25:08.948684+02:00",
+  "host_activation_verification_scope": "Supported app-server plugin/install updated the existing backend ID. plugin/installed confirms installed/enabled 0.6.0. All 56 cached paths verify against the reviewed package; all five plugin/skill/read bodies match canonical bytes. This confirms installation/host reads, not replacement of the current conversation snapshot.",
+  "current_chat_hot_reload_verified": false,
+  "previous_receipt": "03_Agents/history/plugin-releases/uni-teach-0.5.4-release.json",
+  "installed_skill_sha256": {
+    "ingest": "2d784e74d090a4c3f93c49cd552c29b548377a569583281decf0457f08fe83de",
+    "plan": "07c876d2fbb7ae456728e58b751db2bf4e90176bae6de3d44ccb2077cf06bbbc",
+    "teach": "af555642c546a011ee02ae58e2e7877dba6b4606fb7acd3e103538bae5775b13",
+    "recall": "0d4f2c0dc6ee40691be8011c63adbc46ddc39fe9ee08117cd435c512218a4746",
+    "html-course": "3c7e6dd647f4b71f5d800865c5c8ad24f7fbc4487a747ce87cd26bdb0e76f373"
+  }
+}

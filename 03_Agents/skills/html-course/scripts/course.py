@@ -6,7 +6,7 @@ import argparse
 from contextlib import contextmanager
 from datetime import datetime, timezone
 import hashlib
-from html import escape
+from html import escape, unescape
 from html.parser import HTMLParser
 import importlib.util
 import json
@@ -268,7 +268,7 @@ def widget(item):
         options = ''.join(f'<label class="radio-option"><input type="radio" name="{key}" value="{i}"><span>{fragment(v)}</span></label>' for i, v in enumerate(choices))
         return f'<div class="practice" data-widget="choice" data-answer="{answer}"><fieldset style="border:0;padding:0;margin:0"><legend>{prompt}</legend>{options}</fieldset><button class="button secondary" type="button">Check answer</button><p class="feedback" role="status" aria-live="polite"></p>{solution}</div>'
     if kind == 'reflection':
-        return f'<div class="practice"><label class="question-label" for="{key}">{prompt}</label><textarea id="{key}" data-draft="{key}" placeholder="Write your reasoning…"></textarea><p class="notebook-note">A local draft for your own study.</p>{solution}</div>'
+        return f'<div class="practice"><div class="question-label" id="{key}-prompt">{prompt}</div><textarea aria-labelledby="{key}-prompt" id="{key}" data-draft="{key}" placeholder="Write your reasoning…"></textarea><p class="notebook-note">A local draft for your own study.</p>{solution}</div>'
     if kind == 'residual-plot':
         points = item['points']
         require(len(points) >= 2 and all(len(p) == 2 for p in points), 'at least two xy points required')
@@ -285,6 +285,8 @@ def widget(item):
 
 def validate_draft(draft, snap):
     require(draft.get('language') == 'en', 'English export required')
+    if 'student_profile' in draft:
+        require(type(draft['student_profile']) is int and draft['student_profile'] == 1, 'unsupported student profile')
     require(draft.get('source_fingerprint') == snap['fingerprint'], 'draft/snapshot fingerprint mismatch')
     require(draft.get('course_id') == snap['course_id'], 'draft course mismatch')
     require(isinstance(draft.get('title'), str) and draft['title'].strip(), 'course title required')
@@ -301,14 +303,31 @@ def validate_draft(draft, snap):
         supported = {w for oid in lesson['objective_ids'] for w in objectives[oid]['weeks']}
         require(weeks <= supported if supported else bool(lesson.get('week_basis')), 'week not established by selected source paths; record an explicit week basis')
         require(lesson.get('title') and lesson.get('sections'), 'lesson title and sections required')
+        if draft.get('student_profile'):
+            require(all(b.get('audience', 'student') == 'student' for b in lesson['sections']), 'agent policies belong in metadata, not student sections')
+            require(lesson['sections'][0]['id'] == 'lesson-outline', 'student outline must come first')
+            ids_here = {b['id'] for b in lesson['sections']}
+            require({'introduction', 'definitions', 'practice', 'sources'} <= ids_here, 'student reading structure incomplete')
+            quizzes = [i for b in lesson['sections'] for i in b.get('interactions', []) if i.get('kind') == 'choice' and i.get('feedback')]
+            require(quizzes, 'student lesson needs a checked offline quiz')
+            for item in quizzes:
+                require(isinstance(item.get('choices'), list) and isinstance(item['feedback'], list), 'quiz choices and feedback must be lists')
+                require(len(item['choices']) == len(item['feedback']) == 4, 'quiz requires four distinct choices and explanations')
+                require(all(isinstance(t, str) and t.strip() for t in item['choices']), 'quiz choices incomplete')
+                visible = [unescape(re.sub('<[^>]+>', '', t)).strip() for t in item['choices']]
+                require(all(visible) and len(set(visible)) == 4, 'quiz requires four distinct visible choices')
+                require(all(isinstance(t, str) and t.strip() for t in item['feedback']), 'quiz feedback incomplete')
         for dependency in lesson.get('prerequisite_lessons', []):
             require(dependency in ids and dependency != lesson['id'], 'unavailable prerequisite lesson')
+        interaction_ids = set()
         for block in lesson['sections']:
             target = lesson['id'] + '#' + valid_id(block['id'])
             require(target not in anchors, 'duplicate section anchor')
             anchors.add(target)
             fragment(block['html'])
             for item in block.get('interactions', []):
+                require(item['id'] not in interaction_ids, 'duplicate interaction ID')
+                interaction_ids.add(item['id'])
                 widget(item)
     require(covered == set(objectives), 'not all requested/prerequisite objectives are exported')
     for objective in objectives.values():
@@ -357,11 +376,30 @@ def navigation(draft, current, prefix):
     return output + '</nav></aside>'
 
 
+def student_navigation(draft):
+    result = {}
+    for lesson in draft['lessons']:
+        parts = []
+        for number, block in enumerate(lesson['sections'], 1):
+            parts.append({'id': block['id'], 'label': f'{number:02d} {block["title"]}', 'sub': False})
+            content = block['html'].split('<div class="agent-only"')[0]
+            content += ''.join(i.get('prompt_html', '') for i in block.get('interactions', []))
+            for anchor, title in re.findall(r'<h[34] id="([^"]+)">(.*?)</h[34]>', content, re.S):
+                parts.append({'id': anchor, 'label': unescape(re.sub('<[^>]+>', '', title)), 'sub': True})
+        result[lesson['id']] = parts
+    return result
+
+
 def page(draft, title, body, prefix='', current=None, revision=''):
-    context = json.dumps({'course_id': draft['course_id'], 'lesson_id': current, 'revision': revision}, ensure_ascii=False).replace('<', '\\u003c')
-    scripts = ['assets/vendor/katex.min.js', 'assets/vendor/auto-render.min.js', 'assets/runtime.js', *draft.get('custom_scripts', [])]
+    context_data = {'course_id': draft['course_id'], 'lesson_id': current, 'revision': revision}
+    if draft.get('student_profile'):
+        context_data['navigation'] = student_navigation(draft)
+        selected = next((l for l in draft['lessons'] if l['id'] == current), {})
+        context_data['quiz'] = [i for b in selected.get('sections', []) for i in b.get('interactions', []) if i.get('kind') == 'choice' and i.get('feedback')]
+    context = json.dumps(context_data, ensure_ascii=False).replace('<', '\\u003c')
+    scripts = ['assets/vendor/katex.min.js', 'assets/vendor/auto-render.min.js', 'assets/runtime.js', *draft.get('custom_scripts', []), *(['assets/student.js'] if draft.get('student_profile') else [])]
     tags = ''.join(f'<script defer src="{prefix}{escape(name, quote=True)}"></script>' for name in scripts)
-    styles = ''.join(f'<link rel="stylesheet" href="{prefix}{escape(name, quote=True)}">' for name in draft.get('custom_styles', []))
+    styles = ''.join(f'<link rel="stylesheet" href="{prefix}{escape(name, quote=True)}">' for name in [*draft.get('custom_styles', []), *(['assets/student.css'] if draft.get('student_profile') else [])])
     return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>{escape(title)} · {escape(draft["title"])}</title><link rel="stylesheet" href="{prefix}assets/fonts.css"><link rel="stylesheet" href="{prefix}assets/math.css"><link rel="stylesheet" href="{prefix}assets/theme.css">{styles}{tags}</head><body><a class="skip" href="#main">Skip to lesson content</a>{navigation(draft,current,prefix)}<main class="main" id="main"><div class="reading">{body}<footer class="page-foot"><span>{escape(draft["title"])}</span><a href="{prefix}index.html">All weeks & lessons</a></footer></div></main><script type="application/json" id="course-context">{context}</script></body></html>'
 
 
