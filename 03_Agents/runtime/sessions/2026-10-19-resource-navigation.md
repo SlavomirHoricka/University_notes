@@ -1,6 +1,6 @@
 # Resource navigation cleanup
 
-- Status: in_progress
+- Status: ready_for_merge
 - Objective: simplify repository navigation by moving the editable Excalidraw folder under 02_Resources and updating current references/settings.
 - Requested scope: .claudian, .codex/agents, .obsidian and Excalidraw. Retain application configuration at its existing discovery paths; no supported relocation has been established for Claudian. Official Codex documentation specifies .codex/agents for project profiles; Obsidian documents root configuration profiles and an app restart.
 - Branch: codex/resource-navigation
@@ -27,3 +27,9 @@
 - `2025_2026/Winter_Semester/JEB044_Financial_Accounting`
 - `2025_2026/Winter_Semester/JEB108_Microeconomics_II`
 - `2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions`
+
+## Integration handoff
+
+- PR: https://github.com/SlavomirHoricka/University_notes/pull/23, targeting main. Implementation: 47cd452.
+- Final content has passed scoped maintenance self-review; source/curriculum review does not apply.
+- Next: confirm the PR head matches the committed validated tree and CI/review gates permit normal merging; verify actual remote merge, delete only this task branch and clean up this task worktree. Primary fast-forward remains deferred while its unrelated changes are present.
