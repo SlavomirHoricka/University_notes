@@ -4,8 +4,9 @@ Filesystem inventory checked 2026-10-17. Paths and Markdown file counts are navi
 
 - [Original materials](../00_Materials/): user-owned sources.
 - [Study notes](../01_Notes/): explanations, course hubs and assets.
-- [Shared resources](../02_Resources/) and [drawings](../Excalidraw/).
+- [Shared resources](../02_Resources/) and [drawings](../02_Resources/Excalidraw/).
 - [Agent workspace](README.md): [five maintained skills](skills/README.md), [documentation](docs/README.md), course records, utilities and history.
+- Drawings moved into `02_Resources/Excalidraw/` on 2026-10-19; application configuration retains its existing paths.
 - Workspace organization updated 2026-10-18; the course inventory below retains its stated inspection date.
 - [Ingestion index](runtime/ingest/ingestion_log.md): exact recorded source scopes and pass outcomes.
 
