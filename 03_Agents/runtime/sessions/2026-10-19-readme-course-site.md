@@ -1,6 +1,6 @@
 # README HTML course link
 
-- Status: in_progress; awaiting explicit public-hosting approval before enabling Pages or merging the deployment workflow.
+- Status: ready_for_merge; user explicitly authorized public GitHub Pages publication and merging the README link on 2026-10-19.
 - Objective: open the existing five-course HTML collection from a prominent link in the GitHub repository README. User clarified GitHub on their Mac; a local file link cannot provide that browser navigation.
 - Branch: codex/html-course-pages.
 - Worktree: /Users/slavomirhoricka/.codex/worktrees/readme-course-site/University_notes.
@@ -10,7 +10,7 @@
 - Target: https://SlavomirHoricka.github.io/University_notes/.
 - Baseline: check_vault.py reports no broken links/anchors/metadata; the same nine absent empty course mirrors as the starting checkout. Pages API reports no existing Pages site; repository is already public.
 - Required validation: compare vault issue identities before/after, verify launcher/course/lesson/asset targets with HTML base resolution, review scoped diff and diff-check. No ingestion/planning changes or corresponding academic-review gates apply.
-- Next: validate, provide a concrete reviewable PR, then obtain the user's public-hosting approval before enabling Pages and integration.
+- Next: merge PR #24 normally after verifying the final validated head, then verify deployment and live navigation; preserve primary-checkout changes during cleanup.
 
 ## Prepared validation
 
@@ -20,3 +20,10 @@
 - GitHub Pages action versions and permissions match GitHub’s current official custom-workflow documentation. Deployment is main-only and uploads only the HTML_Courses directory.
 
 - Reviewable PR: https://github.com/SlavomirHoricka/University_notes/pull/24. Initial validated commit: 313bde1. Hold merge and Pages activation until the user approves public hosting. Primary checkout remains dirty and behind; synchronization must be deferred. Preserve this worktree for continuation.
+
+## Authorized publication
+
+- User approval received: “Yes, publish the courses through GitHub Pages and merge the README link.” This supersedes the earlier publication hold.
+- Pages API activation succeeded: public Actions-based site, HTTPS enforced, URL https://slavomirhoricka.github.io/University_notes/. No branch-source build is enabled.
+- Fresh origin/main remains 9ccefbd; PR is clean/mergeable with no required CI or review requests reported. Final scoped diff-check passes; vault issue identities remain the same nine baseline empty mirrors only.
+- PR https://github.com/SlavomirHoricka/University_notes/pull/24 is ready for normal merge, followed by actual deployment verification. No integration or deployment success is predicted in this record.
