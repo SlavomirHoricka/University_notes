@@ -18,3 +18,5 @@
 - Browser preview confirms hub → Behavioral Economics → first lesson navigation and visible content over HTTP.
 - Final vault check: zero broken links/anchors/metadata issues, same nine pre-existing absent empty course mirrors; diff-check passes. No course, note, plan, learner or source files changed.
 - GitHub Pages action versions and permissions match GitHub’s current official custom-workflow documentation. Deployment is main-only and uploads only the HTML_Courses directory.
+
+- Reviewable PR: https://github.com/SlavomirHoricka/University_notes/pull/24. Initial validated commit: 313bde1. Hold merge and Pages activation until the user approves public hosting. Primary checkout remains dirty and behind; synchronization must be deferred. Preserve this worktree for continuation.
