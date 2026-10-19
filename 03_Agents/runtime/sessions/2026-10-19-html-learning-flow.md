@@ -1,6 +1,6 @@
 # Student-facing HTML course refresh
 
-- Status: in_progress.
+- Status: ready_for_merge.
 - Objective: encode the user-validated O001 prototype in the canonical HTML-course skill and refresh all existing 93 lessons across the five 2026_2027/Winter_Semester courses, Weeks 1–3.
 - Branch: codex/html-learning-flow.
 - Worktree: /Users/slavomirhoricka/.codex/worktrees/html-learning-flow/University_notes.
@@ -17,4 +17,5 @@
 - Private plugin published0.7.2, release pluginrel_6ad66c63874c81918e943dfaa925606a; USER/PRIVATE identity unchanged.12 affected remote files read back, all60 cached paths and five skill bodies verify. Current conversation hot reload not claimed. Prior0.6.0 receipt preserved.
 - Durable local preview: /Users/slavomirhoricka/.codex/visualizations/2026/10/19/01a15503-461c-7460-9f83-1c46e5c7d110/course-library; loopback port8767. Retains active versions/assets independently of task worktree cleanup.
 - Primary checkout sync deferred: main has unrelated tracked/untracked source and workspace changes; preserve them.
-- Next: create scoped commit and PR; record ready_for_merge and actual PR URL before integration. After verified merge, delete task branch and archive only this task worktree.
+- PR: https://github.com/SlavomirHoricka/University_notes/pull/25. Implementation commit f158879; final head adds this handoff only. All required internal reviews and checks completed; generated-markup whitespace limitation documented above.
+- Next: confirm PR head/checks and merge via an allowed method, verify actual remote main, then delete task branch and archive only this task worktree. Primary sync remains deferred; durable preview preserved.
