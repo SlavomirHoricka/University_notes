@@ -1,5 +1,7 @@
 # University Notes
 
+**[Open the HTML course hub](https://SlavomirHoricka.github.io/University_notes/)** — choose a course, then a week and lesson. Currently covers Weeks 1–3 of five winter-semester courses.
+
 An Obsidian university vault for original course materials, connected study notes, diagrams, and an AI-assisted study workflow. Courses retain their academic year, semester, code and original Unicode names.
 
 Open this repository folder as a vault in Obsidian. Course hubs, `[[wikilinks]]`, embedded figures and Excalidraw drawings provide the study navigation. The existing folder layout and Obsidian configuration are preserved.
