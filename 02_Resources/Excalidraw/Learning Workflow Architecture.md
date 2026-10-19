@@ -27,6 +27,6 @@ flowchart LR
     Learner -->|starts review| Teach
 ```
 
-The current editable swimlane drawing is [[Excalidraw/University_Assistant_Workflow_Swimlanes.excalidraw|University Assistant workflow]]. The older source drawing above is retained as history.
+The current editable swimlane drawing is [[02_Resources/Excalidraw/University_Assistant_Workflow_Swimlanes.excalidraw|University Assistant workflow]]. The older source drawing above is retained as history.
 
 The planner is the only writer of the learning plan. The teaching agent reads the finished notes and plan, and writes learner evidence to the log. Recall writes schedules to its own state and synchronizes review tasks; only teach records observed learning outcomes in the log. Skill selection follows the request; model selection is a separate host setting.

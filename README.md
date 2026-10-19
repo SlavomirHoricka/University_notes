@@ -11,7 +11,7 @@ Open this repository folder as a vault in Obsidian. Course hubs, `[[wikilinks]]`
 | Find a course, its notes or materials | [Course map](03_Agents/VAULT_MAP.md) |
 | Browse original lectures, seminars or textbooks | [00_Materials](00_Materials/) |
 | Study connected notes | [01_Notes](01_Notes/), then the course's `<course_folder>_main.md` hub |
-| Find shared references or drawings | [02_Resources](02_Resources/) and [Excalidraw](Excalidraw/) |
+| Find shared references or drawings | [02_Resources](02_Resources/) and [Excalidraw](02_Resources/Excalidraw/) |
 | Use or maintain the learning assistant | [Agent workspace](03_Agents/README.md) |
 | Check what sources were processed | [Ingestion index](03_Agents/runtime/ingest/ingestion_log.md) and its detailed passes |
 | Find maintenance findings or old reports | [History index](03_Agents/history/README.md) |
@@ -23,6 +23,7 @@ University_notes/
 ├── 00_Materials/          Original course sources
 ├── 01_Notes/              Study notes, course hubs and assets
 ├── 02_Resources/          Shared references and drawings
+│   └── Excalidraw/        Editable workflow and standalone drawings
 ├── 03_Agents/             Learning assistant and workflow records
 │   ├── README.md          Workspace navigation
 │   ├── VAULT_MAP.md       Dated course inventory
@@ -41,13 +42,14 @@ University_notes/
 │   ├── plugins/           Generated package and publication receipt
 │   ├── validation/        Fictional contract rehearsals
 │   └── history/           Archived reviews, audits and earlier releases
-├── Excalidraw/            Editable workflow and standalone drawings
 ├── .obsidian/             Vault settings, plugins and themes
 ├── .claudian/             Claudian settings
 ├── .codex/agents/         Generated copies of maintained role profiles
 ├── AGENTS.md              Repository instructions for agents
 └── README.md              This entry point
 ```
+
+The hidden `.obsidian/`, `.claudian/` and `.codex/agents/` folders contain application configuration and stay at their discovery paths. Drawings belong in `02_Resources/Excalidraw/`; the Excalidraw plugin is configured to create new drawings there.
 
 Materials, notes and course records share the identity `<academic_year>/<semester>/<course>`, for example `2026_2027/Winter_Semester/Comparative_Economics`. Semesters are `Winter_Semester` or `Summer_Semester`. Sources may be organized by week, lecture, seminar or textbook; notes keep their existing course hubs and `assets/` folders. Empty record folders are created only when the workflow needs them.
 
