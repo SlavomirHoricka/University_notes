@@ -1,0 +1,39 @@
+{
+  "representativeCourses": [
+    {
+      "course": "Comparative_Economics",
+      "score": "3 / 3 correct. Review the feedback above."
+    },
+    {
+      "course": "Economics_of_Green_Deal",
+      "score": "3 / 3 correct. Review the feedback above."
+    },
+    {
+      "course": "Econometrics_II",
+      "score": "3 / 3 correct. Review the feedback above."
+    },
+    {
+      "course": "Behavioral_Economics",
+      "score": "5 / 5 correct. Review the feedback above."
+    },
+    {
+      "course": "Financial_Markets_Instruments_I",
+      "score": "3 / 3 correct. Review the feedback above."
+    }
+  ],
+  "emptyWrongCorrect": true,
+  "answerChangeClearsFeedback": true,
+  "reset": true,
+  "keyboardRadio": true,
+  "hintReveal": true,
+  "solutionReveal": true,
+  "outlineHash": "#definitions",
+  "compactMenu": {
+    "width": 375,
+    "scroll": 375
+  },
+  "offline": {
+    "serverStopped": true,
+    "emptyAndCorrectCheck": true
+  }
+}

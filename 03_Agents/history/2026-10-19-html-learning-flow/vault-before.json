@@ -1,0 +1,22 @@
+{
+  "checked_links": 8315,
+  "missing_links": [],
+  "agent_missing_links": [],
+  "markdown_link_issues": [],
+  "missing_anchors": [],
+  "ambiguous_links": [],
+  "malformed_source_links": [],
+  "missing_source_metadata": [],
+  "nonstandard_hubs": [],
+  "course_mirror_difference": [
+    "2024_2025/Summer_Semester/JEB104_Microeconomics_I",
+    "2025_2026/Summer_Semester/JEB010_Makroekonomie_II",
+    "2025_2026/Summer_Semester/JEB050_International_Finance",
+    "2025_2026/Summer_Semester/JEB160_Auctions_and_Game_Theory",
+    "2025_2026/Winter_Semester/JEB009_Makroekonomie_I",
+    "2025_2026/Winter_Semester/JEB027_Finanční_Ekonomie",
+    "2025_2026/Winter_Semester/JEB044_Financial_Accounting",
+    "2025_2026/Winter_Semester/JEB108_Microeconomics_II",
+    "2026_2027/Winter_Semester/JEM231_Mergers_and_Acquisitions"
+  ]
+}

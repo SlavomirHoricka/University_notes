@@ -1,0 +1,467 @@
+{
+  "checked": [
+    {
+      "course": "2026_2027/Winter_Semester/Comparative_Economics",
+      "lesson": "o004",
+      "item": "o004-quiz-2",
+      "tex": "(25-20)\\times 1000=5000",
+      "values": [
+        5000,
+        5000
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Comparative_Economics",
+      "lesson": "o010",
+      "item": "o010-quiz-2",
+      "tex": "0.75\\times 10+0.25\\times 14=11",
+      "values": [
+        11.0,
+        11
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Comparative_Economics",
+      "lesson": "o011",
+      "item": "o011-quiz-2",
+      "tex": "(0+1)/(9+1)=0.1",
+      "values": [
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Comparative_Economics",
+      "lesson": "o012",
+      "item": "o012-quiz-1",
+      "tex": "4+0.25\\times 0.2+0.75\\times 0.4=4.35",
+      "values": [
+        4.35,
+        4.35
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Comparative_Economics",
+      "lesson": "o021",
+      "item": "o021-quiz-2",
+      "tex": "8\\times 8=64",
+      "values": [
+        64,
+        64
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Comparative_Economics",
+      "lesson": "o021",
+      "item": "o021-quiz-2",
+      "tex": "0.5\\times (16-8)\\times 8=32",
+      "values": [
+        32.0,
+        32
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Comparative_Economics",
+      "lesson": "o022",
+      "item": "o022-quiz-2",
+      "tex": "100-60=40",
+      "values": [
+        40,
+        40
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Comparative_Economics",
+      "lesson": "o022",
+      "item": "o022-quiz-2",
+      "tex": "100(1-0.5)-60=-10",
+      "values": [
+        -10.0,
+        -10
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+      "lesson": "o008",
+      "item": "o008-quiz-1",
+      "tex": "50-20-5-4-10=11",
+      "values": [
+        11,
+        11
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+      "lesson": "o009",
+      "item": "o009-quiz-1",
+      "tex": "20-6=14",
+      "values": [
+        14,
+        14
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+      "lesson": "o010",
+      "item": "o010-quiz-2",
+      "tex": "2\\times 12=4\\times 6=24",
+      "values": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+      "lesson": "o011",
+      "item": "o011-quiz-1",
+      "tex": "4-6=-2",
+      "values": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+      "lesson": "o011",
+      "item": "o011-quiz-2",
+      "tex": "-2-(-6)=4",
+      "values": [
+        4,
+        4
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+      "lesson": "o011",
+      "item": "o011-quiz-3",
+      "tex": "1-1/1=0",
+      "values": [
+        0.0,
+        0
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+      "lesson": "o011",
+      "item": "o011-quiz-3",
+      "tex": "1/1=1",
+      "values": [
+        1.0,
+        1
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o002",
+      "item": "o002-quiz-1",
+      "tex": "5/2=2.5",
+      "values": [
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o002",
+      "item": "o002-quiz-1",
+      "tex": "4-2.5\\times 2=-1",
+      "values": [
+        -1.0,
+        -1
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o002",
+      "item": "o002-quiz-2",
+      "tex": "3-4=-1",
+      "values": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o005",
+      "item": "o005-quiz-1",
+      "tex": "10-2=8",
+      "values": [
+        8,
+        8
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o005",
+      "item": "o005-quiz-1",
+      "tex": "128/8=16",
+      "values": [
+        16.0,
+        16
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o005",
+      "item": "o005-quiz-2",
+      "tex": "16/8=2",
+      "values": [
+        2.0,
+        2
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o010",
+      "item": "o010-quiz-2",
+      "tex": "2/[10(1-0.5)]=0.4",
+      "values": [
+        0.4,
+        0.4
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o013",
+      "item": "o013-quiz-2",
+      "tex": "10+2\\times 3=16",
+      "values": [
+        16,
+        16
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o015",
+      "item": "o015-quiz-1",
+      "tex": "4(1+0.5^2)=5",
+      "values": [
+        5.0,
+        5
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o015",
+      "item": "o015-quiz-2",
+      "tex": "0.5\\times 4=2",
+      "values": [
+        2.0,
+        2
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o016",
+      "item": "o016-quiz-1",
+      "tex": "3/(1-0.25)=4",
+      "values": [
+        4.0,
+        4
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Econometrics_II",
+      "lesson": "o016",
+      "item": "o016-quiz-2",
+      "tex": "0.25\\times 8=2",
+      "values": [
+        2.0,
+        2
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "lesson": "o003",
+      "item": "o003-quiz-3",
+      "tex": "30-(1/2)60=0",
+      "values": [
+        0.0,
+        0
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "lesson": "o005",
+      "item": "o005-quiz-1",
+      "tex": "12-4+4=12",
+      "values": [
+        12,
+        12
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "lesson": "o005",
+      "item": "o005-quiz-1",
+      "tex": "3·4-4=8",
+      "values": [
+        8,
+        8
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "lesson": "o005",
+      "item": "o005-quiz-2",
+      "tex": "12+(3-1)4=20",
+      "values": [
+        20,
+        20
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "lesson": "o007",
+      "item": "o007-quiz-2",
+      "tex": "0.5·1+0.5·4=2.5",
+      "values": [
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "lesson": "o007",
+      "item": "o007-quiz-2",
+      "tex": "2-2.5=-0.5",
+      "values": [
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "lesson": "o011",
+      "item": "o011-quiz-1",
+      "tex": "100(1-0.12)=88",
+      "values": [
+        88.0,
+        88
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "lesson": "o011",
+      "item": "o011-quiz-2",
+      "tex": "0.8(1-0.13)=0.696",
+      "values": [
+        0.6960000000000001,
+        0.696
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "lesson": "o012",
+      "item": "o012-quiz-1",
+      "tex": "9/12=75\\%",
+      "values": [
+        0.75,
+        0.75
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Behavioral_Economics",
+      "lesson": "o014",
+      "item": "o014-quiz-1",
+      "tex": "(0.3+0.6+0)/3=0.3",
+      "values": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+      "lesson": "o002",
+      "item": "o002-quiz-1",
+      "tex": "25,000(0.70-0.78)=-2,000",
+      "values": [
+        -2000.0000000000018,
+        -2000
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+      "lesson": "o003",
+      "item": "o003-quiz-1",
+      "tex": "100-20=80",
+      "values": [
+        80,
+        80
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+      "lesson": "o003",
+      "item": "o003-quiz-3",
+      "tex": "120-180=-60",
+      "values": [
+        -60,
+        -60
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+      "lesson": "o005",
+      "item": "o005-quiz-1",
+      "tex": "85\\times 500-15\\times 750=31,250",
+      "values": [
+        31250,
+        31250
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+      "lesson": "o008",
+      "item": "o008-quiz-1",
+      "tex": "1+0.10\\times 0.5=1.05",
+      "values": [
+        1.05,
+        1.05
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+      "lesson": "o009",
+      "item": "o009-quiz-1",
+      "tex": "20\\times 10\\times (5812.5-5825)=-2,500",
+      "values": [
+        -2500.0,
+        -2500
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+      "lesson": "o014",
+      "item": "o014-quiz-1",
+      "tex": "100[1+(0.06-0.02)0.5]=102",
+      "values": [
+        102.0,
+        102
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+      "lesson": "o014",
+      "item": "o014-quiz-1",
+      "tex": "100-102=-2",
+      "values": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "course": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+      "lesson": "o017",
+      "item": "o017-quiz-1",
+      "tex": "(90/100)1.05=0.945",
+      "values": [
+        0.9450000000000001,
+        0.945
+      ]
+    }
+  ],
+  "failures": [],
+  "placeholders": []
+}

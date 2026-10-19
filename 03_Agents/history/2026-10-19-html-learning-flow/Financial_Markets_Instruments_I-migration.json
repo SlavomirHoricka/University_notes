@@ -1,0 +1,1096 @@
+{
+  "course_id": "2026_2027/Winter_Semester/Financial_Markets_Instruments_I",
+  "lessons": [
+    {
+      "academic_parts": [
+        "part-spot-forward-and-futures-contracts",
+        "part-problem-1-offsetting-contracts",
+        "part-course-organization"
+      ],
+      "lesson": "o001",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-spot-forward-and-futures-contracts",
+          "part-problem-1-offsetting-contracts",
+          "part-course-organization"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o001-s-practice-with-fading-assistance-0",
+        "o001-i1",
+        "o001-i2",
+        "o001-d1",
+        "o001-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-standardized-futures-specifications",
+        "part-daily-profit-and-loss-with-units",
+        "part-payoff-and-the-size-of-possible-losses",
+        "part-problem-3-copper-and-maximum-loss",
+        "part-the-seminar-s-film-illustration"
+      ],
+      "lesson": "o002",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-standardized-futures-specifications",
+          "part-daily-profit-and-loss-with-units",
+          "part-payoff-and-the-size-of-possible-losses",
+          "part-problem-3-copper-and-maximum-loss",
+          "part-the-seminar-s-film-illustration"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o002-s-practice-with-fading-assistance-0",
+        "o002-i1",
+        "o002-i2",
+        "o002-d1",
+        "o002-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-the-three-margin-concepts",
+        "part-daily-profit-and-loss-with-units",
+        "part-from-daily-result-to-an-account-balance",
+        "part-problem-4-a-daily-margin-table"
+      ],
+      "lesson": "o003",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-the-three-margin-concepts",
+          "part-daily-profit-and-loss-with-units",
+          "part-from-daily-result-to-an-account-balance",
+          "part-problem-4-a-daily-margin-table"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o003-s-practice-with-fading-assistance-0",
+        "o003-i1",
+        "o003-i2",
+        "o003-d1",
+        "o003-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-problem-2-a-short-wheat-contract",
+        "part-problem-6-two-orange-juice-contracts",
+        "part-from-daily-result-to-an-account-balance"
+      ],
+      "lesson": "o004",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-problem-2-a-short-wheat-contract",
+          "part-problem-6-two-orange-juice-contracts",
+          "part-from-daily-result-to-an-account-balance"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o004-s-practice-with-fading-assistance-0",
+        "o004-i1",
+        "o004-i2",
+        "o004-d1",
+        "o004-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-problem-5-clearing-a-larger-long-position",
+        "part-daily-profit-and-loss-with-units",
+        "part-the-three-margin-concepts"
+      ],
+      "lesson": "o005",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-problem-5-clearing-a-larger-long-position",
+          "part-daily-profit-and-loss-with-units",
+          "part-the-three-margin-concepts"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o005-s-practice-with-fading-assistance-0",
+        "o005-i1",
+        "o005-i2",
+        "o005-d1",
+        "o005-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-basis-and-calendar-spread-are-different-comparisons",
+        "part-why-the-prices-converge-at-delivery"
+      ],
+      "lesson": "o006",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-basis-and-calendar-spread-are-different-comparisons",
+          "part-why-the-prices-converge-at-delivery"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o006-s-practice-with-fading-assistance-0",
+        "o006-i1",
+        "o006-i2",
+        "o006-d1",
+        "o006-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-a-purchase-hedge-derived-step-by-step",
+        "part-a-sale-hedge-and-early-termination",
+        "part-what-to-carry-forward"
+      ],
+      "lesson": "o007",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-a-purchase-hedge-derived-step-by-step",
+          "part-a-sale-hedge-and-early-termination",
+          "part-what-to-carry-forward"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o007-s-practice-with-fading-assistance-0",
+        "o007-i1",
+        "o007-i2",
+        "o007-d1",
+        "o007-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-the-lecture-s-value-convention"
+      ],
+      "lesson": "o008",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-the-lecture-s-value-convention"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o008-s-practice-with-fading-assistance-0",
+        "o008-i1",
+        "o008-i2",
+        "o008-d1",
+        "o008-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-read-the-contract-before-calculating",
+        "part-sift-500-index-points-become-euros"
+      ],
+      "lesson": "o009",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-read-the-contract-before-calculating",
+          "part-sift-500-index-points-become-euros"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o009-s-supported-completion-0",
+        "o009-i1",
+        "o009-i2",
+        "o009-d1",
+        "o009-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-read-the-contract-before-calculating",
+        "part-ecft-identify-the-traded-and-invoice-currencies"
+      ],
+      "lesson": "o010",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-read-the-contract-before-calculating",
+          "part-ecft-identify-the-traded-and-invoice-currencies"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o010-s-supported-completion-0",
+        "o010-i1",
+        "o010-i2",
+        "o010-d1",
+        "o010-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-short-term-interest-rate-futures"
+      ],
+      "lesson": "o011",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-short-term-interest-rate-futures"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o011-s-supported-completion-0",
+        "o011-i1",
+        "o011-i2",
+        "o011-d1",
+        "o011-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-bond-futures-conversion-factors-and-delivery"
+      ],
+      "lesson": "o012",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-bond-futures-conversion-factors-and-delivery"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o012-s-supported-completion-0",
+        "o012-i1",
+        "o012-i2",
+        "o012-d1",
+        "o012-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-implied-repo-rate-and-cheapest-to-deliver"
+      ],
+      "lesson": "o013",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-implied-repo-rate-and-cheapest-to-deliver"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o013-s-supported-completion-0",
+        "o013-i1",
+        "o013-i2",
+        "o013-d1",
+        "o013-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-cost-of-carry-and-calendar-spreads",
+        "part-foundations-and-conventions",
+        "part-borrow-cash-buy-spot-and-sell-futures",
+        "part-borrow-the-asset-sell-spot-and-buy-futures",
+        "part-basis-carry-contango-and-backwardation",
+        "part-what-makes-the-replication-valid",
+        "part-cost-of-carry-and-calendar-spreads-more"
+      ],
+      "lesson": "o014",
+      "old_to_visible": {
+        "carry-calculation": [
+          "carry-calculation"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-cost-of-carry-and-calendar-spreads",
+          "part-foundations-and-conventions",
+          "part-borrow-cash-buy-spot-and-sell-futures",
+          "part-borrow-the-asset-sell-spot-and-buy-futures",
+          "part-basis-carry-contango-and-backwardation",
+          "part-what-makes-the-replication-valid"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-cost-of-carry-and-calendar-spreads-cost-of-carry-and-calendar-spreads": [
+          "part-cost-of-carry-and-calendar-spreads-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o014-s-practice-with-fading-assistance-0",
+        "o014-i1",
+        "o014-i2",
+        "o014-d1",
+        "o014-d2",
+        "carry-price-practice"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-carry-between-two-delivery-dates",
+        "part-what-makes-the-replication-valid"
+      ],
+      "lesson": "o015",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-carry-between-two-delivery-dates",
+          "part-what-makes-the-replication-valid"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o015-s-practice-with-fading-assistance-0",
+        "o015-i1",
+        "o015-i2",
+        "o015-d1",
+        "o015-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-currency-parity-and-carry-trade",
+        "part-covered-interest-parity-with-dollars-per-euro",
+        "part-currency-parity-and-carry-trade-more"
+      ],
+      "lesson": "o016",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-currency-parity-and-carry-trade",
+          "part-covered-interest-parity-with-dollars-per-euro"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-currency-parity-and-carry-trade-currency-parity-and-carry-trade": [
+          "part-currency-parity-and-carry-trade-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o016-s-practice-with-fading-assistance-0",
+        "o016-i1",
+        "o016-i2",
+        "o016-d1",
+        "o016-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-uncovered-parity-is-a-condition-on-expectations",
+        "part-the-lecture-s-peg-and-non-deliverable-forward-example",
+        "part-yen-funded-dollar-carry-trade"
+      ],
+      "lesson": "o017",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-uncovered-parity-is-a-condition-on-expectations",
+          "part-the-lecture-s-peg-and-non-deliverable-forward-example",
+          "part-yen-funded-dollar-carry-trade"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o017-s-practice-with-fading-assistance-0",
+        "o017-i1",
+        "o017-i2",
+        "o017-d1",
+        "o017-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-bond-forward-rates-and-stock-index-parity",
+        "part-zero-coupon-prices-and-dates",
+        "part-deriving-the-forward-rate-identity",
+        "part-bond-forward-rates-and-stock-index-parity-more"
+      ],
+      "lesson": "o018",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-bond-forward-rates-and-stock-index-parity",
+          "part-zero-coupon-prices-and-dates",
+          "part-deriving-the-forward-rate-identity"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-bond-forward-rates-and-stock-index-parity-bond-forward-rates-and-stock-index-parity": [
+          "part-bond-forward-rates-and-stock-index-parity-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o018-s-practice-with-fading-assistance-0",
+        "o018-i1",
+        "o018-i2",
+        "o018-d1",
+        "o018-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-stock-index-replication-and-cancellation-of-spot-risk",
+        "part-the-source-s-terminal-futures-payoff-typo",
+        "part-implementation-limits-and-priority"
+      ],
+      "lesson": "o019",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-stock-index-replication-and-cancellation-of-spot-risk",
+          "part-the-source-s-terminal-futures-payoff-typo",
+          "part-implementation-limits-and-priority"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o019-s-practice-with-fading-assistance-0",
+        "o019-i1",
+        "o019-i2",
+        "o019-d1",
+        "o019-d2"
+      ],
+      "quiz_count": 3
+    }
+  ],
+  "prior_candidate": "0d7a8ac37eea34a8367a6358cf2aaa646f4c77c2e3147dfcad2b888c55a76c9b"
+}

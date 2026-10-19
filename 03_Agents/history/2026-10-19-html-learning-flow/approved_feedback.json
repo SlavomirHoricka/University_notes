@@ -1,0 +1,112 @@
+{
+  "record_type": "user_html_lesson_feedback",
+  "date": "2026-10-19",
+  "course_id": "2026_2027/Winter_Semester/Behavioral_Economics",
+  "lesson_id": "O001",
+  "preview_url": "http://127.0.0.1:8766/2026_2027/Winter_Semester/Behavioral_Economics/lessons/o001.html",
+  "status": "validated_for_skill_and_all_existing_html_courses",
+  "current_annotations": [
+    {
+      "index": 1,
+      "selected_content": "Introduction, PDF slide 2 and similar inline source/page citations",
+      "user_comment": "you can alos remove these - they serve mainly for the agents to check the correctness, i wont check",
+      "preview_action": "Remove inline citation labels from the lesson's reading flow; retain provenance in source metadata and the optional Sources disclosure.",
+      "future_skill_rule": "Keep verification locators and citation machinery outside the main student reading flow. Preserve traceability for independent checks.",
+      "status": "applied_to_preview_and_checked"
+    },
+    {
+      "index": 2,
+      "target": "#behavioral-models / #preference-assumptions",
+      "user_comment": "for example in this, id like this to be more separated. the text highlighting with bolt text is good, but when we talk about the different types of preferences, it doesnt necessarily have to be a bulletpoint list, but it would help",
+      "preview_action": "Separate selfish and exogenous preferences into distinct bullet entries with bold terms, followed by an explicit comparison and the original limits.",
+      "future_skill_rule": "Separate contrasting concepts into readable units. Use lists, short paragraphs or suitable comparisons; preserve helpful bold terminology.",
+      "status": "applied_to_preview_and_checked"
+    },
+    {
+      "index": 3,
+      "target": "#testable-predictions blockquote",
+      "user_comment": "make things like these rounded. however, i really like the concept of somehting important being highlighted like this.",
+      "preview_action": "Round the important-prediction callout while preserving its restrained green highlight.",
+      "future_skill_rule": "Use rounded, restrained callouts to highlight important concepts, predictions or results.",
+      "status": "applied_to_preview_and_checked",
+      "superseded_by": "quiz-preview-feedback/non-rounded-style"
+    },
+    {
+      "index": 4,
+      "target": "#testable-predictions / #theory-evidence-application, and corresponding source-reporting prose throughout O001",
+      "user_comment": "for things liek these, i wont look at the presentation, so dont tell me about the presentation presenting the information, but rather present the information.",
+      "preview_action": "Teach the ideas directly throughout the revised lesson, instead of narrating what a lecture or presentation says. Preserve assumptions, conceptual limits and hypothetical-example labels.",
+      "future_skill_rule": "Write a self-contained lesson addressed to the learner. Present knowledge directly instead of reporting what source documents contain; retain substantive qualifications.",
+      "status": "applied_to_preview_and_checked"
+    },
+    {
+      "index": 5,
+      "target": "#course-navigation .lesson-link and active section links",
+      "user_comment": "make things like these nicely rounded, it nicer to look at",
+      "preview_action": "Round the lesson and active-section navigation highlights in this lesson preview.",
+      "future_skill_rule": "Use softly rounded navigation highlights with clear active states and accessible focus.",
+      "status": "applied_to_preview_and_checked",
+      "superseded_by": "quiz-preview-feedback/non-rounded-style"
+    }
+  ],
+  "earlier_accepted_requirements": [
+    "Number every lesson section and subsection.",
+    "Place the clickable lesson outline before the introduction; use actual section names and short descriptions, without a redundant Step column or Step labels.",
+    "Provide a clear introduction, bullet learning objectives and bullet prerequisites.",
+    "Place bullet definitions near the beginning as a separate section.",
+    "Hide tutor procedures, version codes, scoring and evidence policy from the student reading flow.",
+    "Preserve complete explanations, prepared questions, full solutions, assumptions and figures.",
+    "Use smooth section links and expandable per-lesson sidebar navigation.",
+    "Include a course hub link for switching courses.",
+    "Remove the hub's generic Weeks 1–3 introduction and Using these courses disclosure.",
+    "Replace the generic Behavioral Economics course introduction with a short course description."
+  ],
+  "staged_rollout": {
+    "now": "Record feedback, revise only the local O001 preview, independently review content, inspect desktop/compact rendering and show the result.",
+    "validation_gate": "Wait for the user's validation of this preview before broader implementation.",
+    "later": "Update the canonical HTML-course skill and its supporting documentation/assets to encode the validated presentation rules, then reconcile the existing requested HTML lesson collection through the appropriate workflow.",
+    "canonical_skill": "03_Agents/skills/html-course/SKILL.md",
+    "scope_note": "The phrase existing notes is preserved as future intent; no Obsidian notes, curriculum, learner records, installed plugin caches or published exports are authorized for immediate modification by this preview phase."
+  },
+  "candidate_digest": "ef8c041a0aa80971de0e45b37ffe76c05130715f0d4214497cf52ff0d635aacf",
+  "latest_style_preference": "Restore the old non-rounded callouts and navigation; this supersedes the previous rounded-style requests.",
+  "feedback_rounds": [
+    {
+      "id": "quiz-preview-feedback",
+      "status": "implemented_and_checked_awaiting_user_validation",
+      "scope": "O001 local preview only; canonical skill/docs/notes still await user validation.",
+      "style_override": "actually, return to the old, non-rounded style",
+      "annotations": [
+        {
+          "index": 1,
+          "target": "practice prompts, starting with O001-S1",
+          "comment": "structure this more, ie. solve the following: followed by a list of the things i am supposed to solve.",
+          "action": "Separate the situation from a numbered Solve the following task list while preserving every requirement.",
+          "status": "applied_to_preview_and_checked"
+        },
+        {
+          "index": 2,
+          "target": "O001-S1 hint",
+          "comment": "make the hint more helpful, but make it such that it guides me to think in the right direction, not just giving me part of the answer.",
+          "action": "Use reasoning questions and comparison prompts; do not name the target category or supply an answer fragment.",
+          "status": "applied_to_preview_and_checked"
+        },
+        {
+          "index": 3,
+          "target": "practice section",
+          "comment": "add another exercise here - i want it to be a quiz, which can be checked without the connection, since the anwers can be predetermined. ensure that each of the questions is multiple choice, 4 choices, and that they are permutations of the correct answer, meaning rather than being obviously wrong, they are what happens when you make a reasoning mistake somewhere along the way of thinking towards the correct answer.",
+          "action": "Add a supplemental offline quiz with five four-option questions, predetermined keys, plausible misconception-based distractors and local explanatory feedback; retain written practice.",
+          "status": "applied_to_preview_and_checked"
+        }
+      ]
+    }
+  ],
+  "effective_preferences": {
+    "style": "Original non-rounded callouts and navigation; previous rounding requests superseded.",
+    "written_exercises": "Situation followed by Solve the following and a numbered task list.",
+    "hints": "Helpful reasoning questions, without naming the answer category or supplying an answer fragment.",
+    "quiz": "Supplemental offline quiz; four plausible misconception-based options per question, fixed keys, local checks and explanatory feedback.",
+    "rollout": "Only O001 preview implemented. Broader HTML skill/docs and note updates await user validation."
+  },
+  "approval": "User: this looks good. update the html skill to include all the changes we’ve agreed on, then apply them to the existing html courses."
+}

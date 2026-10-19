@@ -1,0 +1,1108 @@
+{
+  "course_id": "2026_2027/Winter_Semester/Econometrics_II",
+  "lessons": [
+    {
+      "academic_parts": [
+        "part-course-purpose-and-preparation",
+        "part-assessment-and-submitted-work",
+        "part-conflicting-administrative-details",
+        "part-boundary-of-this-week-1-ingestion",
+        "part-reading-identity-and-scope"
+      ],
+      "lesson": "o001",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-course-purpose-and-preparation",
+          "part-assessment-and-submitted-work",
+          "part-conflicting-administrative-details",
+          "part-boundary-of-this-week-1-ingestion",
+          "part-reading-identity-and-scope"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-current-scope-reconciliation-and-reassessment": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o001-s-practice-with-fading-assistance-0",
+        "o001-i1",
+        "o001-i2",
+        "o001-d1",
+        "o001-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-ols-estimator-and-assumptions"
+      ],
+      "lesson": "o002",
+      "old_to_visible": {
+        "explore-residuals": [
+          "explore-residuals"
+        ],
+        "s-complete-checked-note-explanation": [
+          "part-ols-estimator-and-assumptions"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o002-s-practice-with-fading-assistance-0",
+        "o002-i1",
+        "o002-i2",
+        "o002-d1",
+        "o002-d2",
+        "ols-residual-explorer",
+        "ols-sse-practice"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-one-decomposition-drives-both-proofs",
+        "part-unbiasedness-the-repeated-sample-average",
+        "part-the-assumption-ladder"
+      ],
+      "lesson": "o003",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-one-decomposition-drives-both-proofs",
+          "part-unbiasedness-the-repeated-sample-average",
+          "part-the-assumption-ladder"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o003-s-practice-with-fading-assistance-0",
+        "o003-i1",
+        "o003-i2",
+        "o003-d1",
+        "o003-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-consistency-concentration-as-sample-size-grows"
+      ],
+      "lesson": "o004",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-consistency-concentration-as-sample-size-grows"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o004-s-practice-with-fading-assistance-0",
+        "o004-i1",
+        "o004-i2",
+        "o004-d1",
+        "o004-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-efficiency-specify-the-comparison-class",
+        "part-normality-and-hypothesis-tests-add-another-requirement",
+        "part-distinctions-to-retain"
+      ],
+      "lesson": "o005",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-efficiency-specify-the-comparison-class",
+          "part-normality-and-hypothesis-tests-add-another-requirement",
+          "part-distinctions-to-retain"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o005-s-practice-with-fading-assistance-0",
+        "o005-i1",
+        "o005-i2",
+        "o005-d1",
+        "o005-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-from-economic-intuition-to-a-model",
+        "part-ten-city-example-keep-the-source-s-measurement-scale"
+      ],
+      "lesson": "o006",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-from-economic-intuition-to-a-model",
+          "part-ten-city-example-keep-the-source-s-measurement-scale"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o006-s-practice-with-fading-assistance-0",
+        "o006-i1",
+        "o006-i2",
+        "o006-d1",
+        "o006-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-assumption-checks-what-diagnostics-can-establish"
+      ],
+      "lesson": "o008",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-assumption-checks-what-diagnostics-can-establish"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o008-s-practice-with-fading-assistance-0",
+        "o008-i1",
+        "o008-i2",
+        "o008-d1",
+        "o008-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-the-csv-example-compare-specifications",
+        "part-goodness-of-fit-r-squared-and-adjusted-r-squared",
+        "part-turn-the-analysis-into-a-short-report"
+      ],
+      "lesson": "o007",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-the-csv-example-compare-specifications",
+          "part-goodness-of-fit-r-squared-and-adjusted-r-squared",
+          "part-turn-the-analysis-into-a-short-report"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o007-s-practice-with-fading-assistance-0",
+        "o007-i1",
+        "o007-i2",
+        "o007-d1",
+        "o007-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-temporal-ordering-and-a-stochastic-process",
+        "part-the-first-three-assumptions",
+        "part-why-strict-exogeneity-gives-unbiasedness"
+      ],
+      "lesson": "o009",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-temporal-ordering-and-a-stochastic-process",
+          "part-the-first-three-assumptions",
+          "part-why-strict-exogeneity-gives-unbiasedness"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o009-s-supported-completion-0",
+        "o009-i1",
+        "o009-i2",
+        "o009-d1",
+        "o009-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-two-additional-assumptions-for-conventional-variance",
+        "part-multiple-regression-precision-residual-variance-and-blue",
+        "part-normality-and-exact-finite-sample-inference",
+        "part-what-the-assumption-ladder-establishes"
+      ],
+      "lesson": "o010",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-two-additional-assumptions-for-conventional-variance",
+          "part-multiple-regression-precision-residual-variance-and-blue",
+          "part-normality-and-exact-finite-sample-inference",
+          "part-what-the-assumption-ladder-establishes"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o010-s-supported-completion-0",
+        "o010-i1",
+        "o010-i2",
+        "o010-d1",
+        "o010-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-static-and-finite-distributed-lag-models"
+      ],
+      "lesson": "o011",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-static-and-finite-distributed-lag-models"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o011-s-supported-completion-0",
+        "o011-i1",
+        "o011-i2",
+        "o011-d1",
+        "o011-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-what-the-source-s-three-trend-plots-show",
+        "part-choose-a-time-form-that-matches-the-comparison",
+        "part-shared-trends-as-an-omitted-variable-problem",
+        "part-include-an-appropriate-time-trend",
+        "part-detrend-every-variable-using-the-same-time-form"
+      ],
+      "lesson": "o012",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-what-the-source-s-three-trend-plots-show",
+          "part-choose-a-time-form-that-matches-the-comparison",
+          "part-shared-trends-as-an-omitted-variable-problem",
+          "part-include-an-appropriate-time-trend",
+          "part-detrend-every-variable-using-the-same-time-form"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o012-s-supported-completion-0",
+        "o012-i1",
+        "o012-i2",
+        "o012-d1",
+        "o012-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-seasonality-is-a-repeating-calendar-pattern",
+        "part-what-the-adjustments-establish"
+      ],
+      "lesson": "o013",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-seasonality-is-a-repeating-calendar-pattern",
+          "part-what-the-adjustments-establish"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o013-s-supported-completion-0",
+        "o013-i1",
+        "o013-i2",
+        "o013-d1",
+        "o013-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-stationarity-weak-dependence-and-ma-1",
+        "part-a-process-and-one-observed-realization",
+        "part-strict-and-covariance-stationarity",
+        "part-weak-dependence-and-why-limit-theorems-need-it",
+        "part-reading-priority-and-prerequisites",
+        "part-stationarity-weak-dependence-and-ma-1-more"
+      ],
+      "lesson": "o014",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-stationarity-weak-dependence-and-ma-1",
+          "part-a-process-and-one-observed-realization",
+          "part-strict-and-covariance-stationarity",
+          "part-weak-dependence-and-why-limit-theorems-need-it",
+          "part-reading-priority-and-prerequisites"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-stationarity-weak-dependence-and-ma1-stationarity-weak-dependence-and-ma-1": [
+          "part-stationarity-weak-dependence-and-ma-1-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o014-s-practice-with-fading-assistance-0",
+        "o014-i1",
+        "o014-i2",
+        "o014-d1",
+        "o014-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-ma-1-dependence-with-a-finite-reach"
+      ],
+      "lesson": "o015",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-ma-1-dependence-with-a-finite-reach"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o015-s-practice-with-fading-assistance-0",
+        "o015-i1",
+        "o015-i2",
+        "o015-d1",
+        "o015-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-ar-1-random-walks-and-integration",
+        "part-stable-ar-1-assumptions-before-moments",
+        "part-why-ar-1-correlation-fades",
+        "part-ar-1-random-walks-and-integration-more"
+      ],
+      "lesson": "o016",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-ar-1-random-walks-and-integration",
+          "part-stable-ar-1-assumptions-before-moments",
+          "part-why-ar-1-correlation-fades"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-ar1-random-walks-and-integration-ar-1-random-walks-and-integration": [
+          "part-ar-1-random-walks-and-integration-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o016-s-practice-with-fading-assistance-0",
+        "o016-i1",
+        "o016-i2",
+        "o016-d1",
+        "o016-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-random-walk-constant-mean-does-not-imply-stationarity",
+        "part-drift-and-deterministic-trend-are-different",
+        "part-integration-and-first-differences",
+        "part-what-the-lecture-does-and-does-not-test"
+      ],
+      "lesson": "o017",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-random-walk-constant-mean-does-not-imply-stationarity",
+          "part-drift-and-deterministic-trend-are-different",
+          "part-integration-and-first-differences",
+          "part-what-the-lecture-does-and-does-not-test"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o017-s-practice-with-fading-assistance-0",
+        "o017-i1",
+        "o017-i2",
+        "o017-d1",
+        "o017-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-time-series-ols-consistency-and-inference",
+        "part-the-growth-and-interest-rate-example",
+        "part-assumptions-for-consistency",
+        "part-why-these-conditions-yield-consistency",
+        "part-time-series-ols-consistency-and-inference-more"
+      ],
+      "lesson": "o018",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-time-series-ols-consistency-and-inference",
+          "part-the-growth-and-interest-rate-example",
+          "part-assumptions-for-consistency",
+          "part-why-these-conditions-yield-consistency"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-time-series-ols-consistency-and-inference-time-series-ols-consistency-and-inference": [
+          "part-time-series-ols-consistency-and-inference-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o018-s-practice-with-fading-assistance-0",
+        "o018-i1",
+        "o018-i2",
+        "o018-d1",
+        "o018-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-additional-assumptions-for-usual-inference",
+        "part-trend-and-persistence-qualifications",
+        "part-scope-and-support"
+      ],
+      "lesson": "o019",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-additional-assumptions-for-usual-inference",
+          "part-trend-and-persistence-qualifications",
+          "part-scope-and-support"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o019-s-practice-with-fading-assistance-0",
+        "o019-i1",
+        "o019-i2",
+        "o019-d1",
+        "o019-d2"
+      ],
+      "quiz_count": 3
+    }
+  ],
+  "prior_candidate": "cc86e5610bbf6f742aedbb0d0529625f114dc56ddbe6faba780f784d2ae618c2"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "package_version": "0.6.1",
+  "package_version": "0.7.2",
   "source_root": "03_Agents",
   "files": {
     "LEARNING_ARCHITECTURE.md": {
@@ -9,7 +9,7 @@
     },
     "README.md": {
       "source": "docs/PLUGIN_README.md",
-      "sha256": "150270e5f31aaeaec3914c0a2516e20c50f259fc1b631b1885db0962087c2895"
+      "sha256": "909238a26f1ab8d4bebe9e469e4bb5ed798d0634b6be3b22e4eb7063640928a8"
     },
     "agents/uni_curriculum_checker.toml": {
       "source": "agents/uni_curriculum_checker.toml",
@@ -89,7 +89,7 @@
     },
     "skills/html-course/SKILL.md": {
       "source": "skills/html-course/SKILL.md",
-      "sha256": "3c7e6dd647f4b71f5d800865c5c8ad24f7fbc4487a747ce87cd26bdb0e76f373"
+      "sha256": "7bc2b9efeb4014076a25bd890d8b145a0de5691ed0c2bd4aab54561a18f68547"
     },
     "skills/html-course/agents/openai.yaml": {
       "source": "skills/html-course/agents/openai.yaml",
@@ -106,6 +106,14 @@
     "skills/html-course/assets/runtime.js": {
       "source": "skills/html-course/assets/runtime.js",
       "sha256": "b672bfac26fbf6ec91717aab209d4ee134b7319bd4e4ef7fedc7d870a926effd"
+    },
+    "skills/html-course/assets/student.css": {
+      "source": "skills/html-course/assets/student.css",
+      "sha256": "8c5674faeb27c7cadf955b2ef004f2af7c371998c5effd20f25e852e7d2f4302"
+    },
+    "skills/html-course/assets/student.js": {
+      "source": "skills/html-course/assets/student.js",
+      "sha256": "7490a4fad126d2e05d94842377afe696dfb7c498d598bdd856ae7da674e014eb"
     },
     "skills/html-course/assets/theme.css": {
       "source": "skills/html-course/assets/theme.css",
@@ -131,21 +139,29 @@
       "source": "skills/html-course/assets/vendor/katex.min.js",
       "sha256": "103a53763cc033bba8d175bf3f0ba597c3505c9b6747dd3f2c7bc2a6bfcc8ae7"
     },
+    "skills/html-course/references/student_presentation.md": {
+      "source": "skills/html-course/references/student_presentation.md",
+      "sha256": "fc37a9faa272b0dcc21d632acd98831f28b357b173bc04b2fc3fee5c6b39f01a"
+    },
     "skills/html-course/scripts/README.md": {
       "source": "skills/html-course/scripts/README.md",
-      "sha256": "c8ff9f8d4d6a96e70afc70b2a947daf2f567ddde1503fa5e3503e81a1749dcaf"
+      "sha256": "f3d3f1f57d407c62df4216c3e7ed6881078ec85b90872059aa5f4e35c8f42997"
     },
     "skills/html-course/scripts/course.py": {
       "source": "skills/html-course/scripts/course.py",
-      "sha256": "ecc0e2bc70b2128314e8d5ab4dbfaa87ee1e903178bdaace5d24d4ff566363b8"
+      "sha256": "57a4ad752bd07f93190252792c35c0055e936aa40843710ecea2f1165baedf73"
     },
     "skills/html-course/scripts/test_course.py": {
       "source": "skills/html-course/scripts/test_course.py",
       "sha256": "d5c68a923e6f3c79bf6db9a656a68925ae7254d76524f7834b601fca2ed65887"
     },
+    "skills/html-course/scripts/test_student_profile.py": {
+      "source": "skills/html-course/scripts/test_student_profile.py",
+      "sha256": "42595014d0f51575d8ffd30c964205d78a6beca904ad443ab786ad2c1fc5f82e"
+    },
     "skills/html-course/templates/course.json": {
       "source": "skills/html-course/templates/course.json",
-      "sha256": "8f2196117d541eaf8008b4256649a195637a55796130356adc6974f92092eefa"
+      "sha256": "0bb525af7b4d51652a45ddd7f600477ed55e4c76fb8f9baaac853216bbe69e41"
     },
     "skills/ingest/SKILL.md": {
       "source": "skills/ingest/SKILL.md",

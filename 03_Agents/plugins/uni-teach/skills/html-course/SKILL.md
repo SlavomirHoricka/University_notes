@@ -48,7 +48,7 @@ Run only when the user asks for HTML generation or refresh, such as “ingest an
 
 The default export is `02_Resources/HTML_Courses/<course_id>/` in the selected checkout. Keep full academic-year/semester/course identity and Unicode paths. Honor an explicitly requested separate output directory; never overwrite notes, records, another course or installation files. The helper confines publication to a dedicated export root and detects externally edited files.
 
-Do not change existing skills or use this skill to repair notes, redefine objectives/criteria, grade actual learner responses or create review tasks. Local answer feedback, drafts and reading position are browser conveniences, never mastery or committed learner evidence. Do not read learner logs merely to render lessons.
+Unless the user explicitly requests skill maintenance, do not change existing skills. Never use HTML conversion to repair notes, redefine objectives/criteria, grade actual learner responses or create review tasks. Local answer feedback, drafts and reading position are browser conveniences, never mastery or committed learner evidence. Do not read learner logs merely to render lessons.
 
 ## 3. Inputs and prerequisites
 
@@ -76,13 +76,15 @@ Lessons may combine related objectives or split a long objective. Give each a st
 
 ### 4.1. Owner and independent reviewer
 
-The active capable agent owns conversion and export writes. Do not introduce a fifth core workflow owner, change the four existing model profiles or pretend a skill changes the chat model. A delegated assignment includes `helper_role: html_course_review`, the absolute vault/skill/candidate paths, selected scope and explicit read-only boundaries. The helper is a reviewer, not another writer.
+The active capable agent owns conversion and export writes. Do not introduce a fifth core workflow owner, change the four existing model profiles or pretend a skill changes the chat model. A delegated independent-review assignment includes `helper_role: html_course_review`, the absolute vault/skill/candidate paths, selected scope and explicit read-only boundaries. The helper is a reviewer, not another writer.
 
 Use a separate independent agent to compare the final candidate against its checked notes, prepared lessons, keys and coverage map. Give it the actual artifacts, not the desired conclusion. It checks English fidelity, academic substance, assumptions, derivations, examples, figures, questions, solutions, source/week mapping and preserved scope. It may verify cited lesson supplements against their cited support; it does not audit raw course sources, repair notes or edit curriculum. Fix findings as owner and obtain renewed confirmation on the final candidate digest. An unavailable reviewer leaves the candidate unapproved; never fabricate a passed report.
 
 ## 5. Workflow
 
 ### 5.1. Prepare complete English lessons
+
+Read [the student presentation contract](references/student_presentation.md) before composing or refreshing content. It specifies the validated outline/introduction/glossary, direct teaching prose, exercise lists, reasoning hints, offline quiz and non-rounded navigation. Use `student_profile: 1` in refreshed drafts.
 
 Use `templates/course.json` as the operational draft format; the helper's `--help` lists commands. Prepare the whole requested bounded scope. Reuse complete relevant explanations, derivations and worked examples from notes/lessons, preserving notation, definitions, units, assumptions, exceptions and interpretation. Translate teaching text into English while retaining original bibliographic titles and technical symbols where appropriate.
 
@@ -94,7 +96,7 @@ Account for every snapshot source section in the draft coverage map. Map include
 
 Build from the supplied assets, not a newly invented design. Paper & Ink uses warm paper `#fbf9f4`, forest green `#164e3e`, quiet rules, Source Serif 4, generous reading space and a compact desktop sidebar. Keep the week-grouped course contents, visible active lesson, breadcrumbs, previous/next links, unrestricted navigation, stable section labels, optional hints and freely revealable solutions.
 
-Every lesson must open directly in a local browser; `index.html` is the full contents page. Bundle CSS, scripts, math fonts and figures with relative paths. No CDN, runtime fetch, module loader or server requirement. Preserve a usable compact layout and keyboard focus. Keep technical build metadata out of the reading flow; a small “Sources and scope” disclosure may explain meaningful academic limits.
+Every lesson must open directly in a local browser; `index.html` is the full contents page. Bundle CSS, scripts, math fonts and figures with relative paths. No CDN, runtime fetch, module loader or server requirement. Preserve a usable compact layout and keyboard focus. Use the numbered student presentation contract and bundled `student.css`/`student.js` through `student_profile: 1`; never add a one-off script tied to a single lesson. Keep technical build metadata out of the reading flow; a small “Sources and scope” disclosure may explain meaningful academic limits.
 
 ### 5.3. Mathematics and interaction
 

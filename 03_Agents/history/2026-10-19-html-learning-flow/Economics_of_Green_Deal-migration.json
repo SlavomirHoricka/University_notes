@@ -1,0 +1,1080 @@
+{
+  "course_id": "2026_2027/Winter_Semester/Economics_of_Green_Deal",
+  "lessons": [
+    {
+      "academic_parts": [
+        "part-four-environmental-functions"
+      ],
+      "lesson": "o001",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-four-environmental-functions"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o001-s1",
+        "o001-i1",
+        "o001-i2",
+        "o001-d1",
+        "o001-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-the-economic-core-firms-and-households",
+        "part-reading-the-physical-and-utility-network"
+      ],
+      "lesson": "o002",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-the-economic-core-firms-and-households",
+          "part-reading-the-physical-and-utility-network"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o002-s1",
+        "o002-i1",
+        "o002-i2",
+        "o002-d1",
+        "o002-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-resource-use-and-replenishment",
+        "part-waste-and-capacity"
+      ],
+      "lesson": "o003",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-resource-use-and-replenishment",
+          "part-waste-and-capacity"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o003-s1",
+        "o003-i1",
+        "o003-i2",
+        "o003-d1",
+        "o003-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-the-economic-questions-placed-on-the-network",
+        "part-what-the-introductory-framework-establishes",
+        "part-course-orientation-and-week-1-scope"
+      ],
+      "lesson": "o004",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-the-economic-questions-placed-on-the-network",
+          "part-what-the-introductory-framework-establishes",
+          "part-course-orientation-and-week-1-scope"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "reasoning"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o004-s1",
+        "o004-i1",
+        "o004-i2",
+        "o004-d1",
+        "o004-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-identify-the-externality-before-proposing-a-remedy",
+        "part-what-welfare-criteria-can-establish",
+        "part-the-next-chapter-fragment-included-in-the-file",
+        "part-topic-map-of-the-verhoef-chapter",
+        "part-what-to-retain"
+      ],
+      "lesson": "o005",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-identify-the-externality-before-proposing-a-remedy",
+          "part-what-welfare-criteria-can-establish",
+          "part-the-next-chapter-fragment-included-in-the-file",
+          "part-topic-map-of-the-verhoef-chapter",
+          "part-what-to-retain"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o005-s-supported-completion-0",
+        "o005-i1",
+        "o005-i2",
+        "o005-d1",
+        "o005-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-derive-the-private-and-social-activity-levels",
+        "part-four-different-policy-concepts"
+      ],
+      "lesson": "o006",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-derive-the-private-and-social-activity-levels",
+          "part-four-different-policy-concepts"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o006-s-supported-completion-0",
+        "o006-i1",
+        "o006-i2",
+        "o006-d1",
+        "o006-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-coasean-bargaining-and-its-limitations",
+        "part-efficiency-and-equity-lead-to-different-comparisons"
+      ],
+      "lesson": "o007",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-coasean-bargaining-and-its-limitations",
+          "part-efficiency-and-equity-lead-to-different-comparisons"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o007-s-supported-completion-0",
+        "o007-i1",
+        "o007-i2",
+        "o007-d1",
+        "o007-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-activity-abatement-and-defence-are-jointly-chosen"
+      ],
+      "lesson": "o008",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-activity-abatement-and-defence-are-jointly-chosen"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o008-s-supported-completion-0",
+        "o008-i1",
+        "o008-i2",
+        "o008-d1",
+        "o008-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-transport-benefits-and-external-benefits-are-different",
+        "part-efficiency-and-the-unpaid-bill-require-different-measures",
+        "part-accidents-risk-valuation-and-aggregation",
+        "part-topic-map-of-the-paper",
+        "part-why-noise-and-air-pollution-estimates-can-undercount",
+        "part-what-the-review-establishes"
+      ],
+      "lesson": "o009",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-transport-benefits-and-external-benefits-are-different",
+          "part-efficiency-and-the-unpaid-bill-require-different-measures",
+          "part-accidents-risk-valuation-and-aggregation",
+          "part-topic-map-of-the-paper",
+          "part-why-noise-and-air-pollution-estimates-can-undercount",
+          "part-what-the-review-establishes"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o009-s-supported-completion-0",
+        "o009-i1",
+        "o009-i2",
+        "o009-d1",
+        "o009-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-four-instrument-families",
+        "part-tradable-rights-and-flexibility",
+        "part-why-common-marginal-costs-minimize-total-abatement-costs",
+        "part-innovation-and-environmental-effectiveness",
+        "part-historical-policy-examples-and-chart-interpretation",
+        "part-what-to-retain"
+      ],
+      "lesson": "o010",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-four-instrument-families",
+          "part-tradable-rights-and-flexibility",
+          "part-why-common-marginal-costs-minimize-total-abatement-costs",
+          "part-innovation-and-environmental-effectiveness",
+          "part-historical-policy-examples-and-chart-interpretation",
+          "part-what-to-retain"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o010-s-supported-completion-0",
+        "o010-i1",
+        "o010-i2",
+        "o010-d1",
+        "o010-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-three-goals-of-an-environmental-tax",
+        "part-sandmo-decomposition-and-the-cost-of-public-funds",
+        "part-revenue-recycling-and-the-double-dividend",
+        "part-what-can-be-applied-and-what-needs-further-source-material"
+      ],
+      "lesson": "o011",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-three-goals-of-an-environmental-tax",
+          "part-sandmo-decomposition-and-the-cost-of-public-funds",
+          "part-revenue-recycling-and-the-double-dividend",
+          "part-what-can-be-applied-and-what-needs-further-source-material"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o011-s-supported-completion-0",
+        "o011-i1",
+        "o011-i2",
+        "o011-d1",
+        "o011-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-us-environmental-policy-and-economic-principles"
+      ],
+      "lesson": "o012",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-us-environmental-policy-and-economic-principles"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o012-s-supported-completion-0",
+        "o012-i1",
+        "o012-i2",
+        "o012-d1",
+        "o012-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-political-economy-of-cost-benefit-analysis"
+      ],
+      "lesson": "o013",
+      "old_to_visible": {
+        "s-complete-checked-note-explanation": [
+          "part-political-economy-of-cost-benefit-analysis"
+        ],
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-and-explanation": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o013-s-supported-completion-0",
+        "o013-i1",
+        "o013-i2",
+        "o013-d1",
+        "o013-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-impact-pathways-health-valuation-and-standing",
+        "part-top-down-allocation-versus-bottom-up-pathways",
+        "part-from-concentration-to-a-receptor-specific-impact",
+        "part-endpoints-and-the-source-response-value-table",
+        "part-impact-pathways-health-valuation-and-standing-more"
+      ],
+      "lesson": "o014",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-impact-pathways-health-valuation-and-standing",
+          "part-top-down-allocation-versus-bottom-up-pathways",
+          "part-from-concentration-to-a-receptor-specific-impact",
+          "part-endpoints-and-the-source-response-value-table"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-impact-pathways-health-valuation-and-standing-impact-pathways-health-valuation-and-standing": [
+          "part-impact-pathways-health-valuation-and-standing-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o014-s-practice-with-fading-assistance-0",
+        "o014-i1",
+        "o014-i2",
+        "o014-d1",
+        "o014-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-monetizing-the-change-in-health-and-welfare",
+        "part-what-the-electricity-comparisons-show",
+        "part-denmark-and-local-versus-imported-pollution",
+        "part-economic-standing-whose-loss-counts"
+      ],
+      "lesson": "o015",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-monetizing-the-change-in-health-and-welfare",
+          "part-what-the-electricity-comparisons-show",
+          "part-denmark-and-local-versus-imported-pollution",
+          "part-economic-standing-whose-loss-counts"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o015-s-practice-with-fading-assistance-0",
+        "o015-i1",
+        "o015-i2",
+        "o015-d1",
+        "o015-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-greenhouse-effect-co2-and-earth-s-energy",
+        "part-the-radiative-mechanism-and-its-limits-as-an-analogy",
+        "part-energy-imbalance-and-the-heat-inventory",
+        "part-co2-also-changes-ocean-chemistry",
+        "part-greenhouse-effect-co2-and-earth-s-energy-more"
+      ],
+      "lesson": "o016",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-greenhouse-effect-co2-and-earth-s-energy",
+          "part-the-radiative-mechanism-and-its-limits-as-an-analogy",
+          "part-energy-imbalance-and-the-heat-inventory",
+          "part-co2-also-changes-ocean-chemistry"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-reading-greenhouse-effect-co2-and-earth-energy-greenhouse-effect-co2-and-earth-s-energy": [
+          "part-greenhouse-effect-co2-and-earth-s-energy-more"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o016-s-practice-with-fading-assistance-0",
+        "o016-i1",
+        "o016-i2",
+        "o016-d1",
+        "o016-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-concentration-is-not-a-global-daily-average-by-default",
+        "part-reading-the-temperature-evidence"
+      ],
+      "lesson": "o017",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-concentration-is-not-a-global-daily-average-by-default",
+          "part-reading-the-temperature-evidence"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o017-s-practice-with-fading-assistance-0",
+        "o017-i1",
+        "o017-i2",
+        "o017-d1",
+        "o017-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-carbon-units-stocks-flows-and-emissions-charts"
+      ],
+      "lesson": "o018",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-carbon-units-stocks-flows-and-emissions-charts"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o018-s-practice-with-fading-assistance-0",
+        "o018-i1",
+        "o018-i2",
+        "o018-d1",
+        "o018-d2"
+      ],
+      "quiz_count": 3
+    },
+    {
+      "academic_parts": [
+        "part-climate-scenarios-policy-and-adaptation"
+      ],
+      "lesson": "o019",
+      "old_to_visible": {
+        "s-content-provenance-and-generation-boundaries": [
+          "sources"
+        ],
+        "s-explanation-steps": [
+          "part-climate-scenarios-policy-and-adaptation"
+        ],
+        "s-immediate-and-delayed-checks": [
+          "later-review"
+        ],
+        "s-misconceptions-and-correction": [
+          "practice",
+          "understanding"
+        ],
+        "s-motivation-intuition-and-definitions": [
+          "introduction",
+          "definitions"
+        ],
+        "s-outcome-and-conditions": [
+          "introduction"
+        ],
+        "s-practice-with-fading-assistance": [
+          "practice"
+        ],
+        "s-prerequisites-and-checks": [
+          "introduction",
+          "sources"
+        ],
+        "s-rubric-and-independence": [
+          "understanding"
+        ],
+        "s-supported-completion": [
+          "practice"
+        ],
+        "s-worked-example": [
+          "worked-example"
+        ]
+      },
+      "prepared_ids_preserved": [
+        "o019-s-practice-with-fading-assistance-0",
+        "o019-i1",
+        "o019-i2",
+        "o019-d1",
+        "o019-d2"
+      ],
+      "quiz_count": 3
+    }
+  ],
+  "prior_candidate": "9469a23d096f2d7275fe5b72f2b5c4da427e8390eb070e7f212e7cc6e1e9a429"
+}
